@@ -1,0 +1,29 @@
+.src(@path){
+	src:	url('@{path}.eot') @font-eot,
+			url('@{path}.woff') @font-woff,
+			url('@{path}.otf') @font-otf,
+			url('@{path}.ttf') @font-ttf,
+			url('@{path}.svg') @font-svg;
+}
+
+.font-family(@font){
+	font-family: @font, Arial;
+}
+
+.font(@font){
+	.font-family(@font);
+}
+.font(@font, @size){
+	.font-family(@font);
+	
+	font-size: @size;
+}
+
+@font-face {
+	font-family: '';
+	
+	.src('@{font-path}/');
+	
+	font-weight: normal;
+	font-style: normal;
+}
