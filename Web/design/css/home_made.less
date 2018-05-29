@@ -1,1 +1,126 @@
-/home/mathias/Bureau/Web/Bases/css/home_made.less
+@import 'home_made/colors';
+@import 'home_made/class';
+@import 'home_made/vars';
+
+@import 'home_made/buttons';
+@import 'home_made/alerts';
+@import 'home_made/arrows';
+@import 'home_made/grid';
+
+@import 'home_made/header';
+@import 'home_made/nav';
+
+/* Bases */
+* {
+	margin: 0;
+	padding: 0;
+	
+	position: relative;
+}
+
+html {
+	min-height: 100vh;
+	font-family: Arial;
+}
+
+button {
+	cursor: pointer;
+}
+
+footer {
+	position: relative;
+}
+
+/* Classes */
+
+*[class ~= "little"] {
+	font-size: 60%;
+	font-weight: normal;
+}
+
+*[class ~= "affix"]{
+	position: fixed;
+	top: 0;
+	
+	width: 100%;
+}
+
+*[class ~= "tab"]{
+	display: inline-block;
+	
+	width: 2.5em;
+}
+
+*[class ~= "clickable"]{
+	cursor: pointer;
+}
+
+*[class ~= "clickable"]:hover{
+	border: 1px solid white;
+	transform: translate(-1px, -1px);
+}
+
+*[class ~= "clickable-unborder"]:hover{
+	border-width: 0px;
+	transform: translate(0px, 0px);
+}
+
+*[class ~= "positionnable"]{
+	position: absolute;
+}
+
+*[class ~= "icon"]{
+	height: 20px;
+	width: auto;
+	
+	margin: 0 1em;
+}
+
+*[class ~= "social_networks"]{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	
+	*[class ~= "icon"]{
+		height: 30px;
+		width: auto;
+		
+		margin: 0.1em;
+		
+		border: 2px transparent groove;
+		border-radius: 6px;
+		
+		&:hover, &:focus {
+			border-color: grey;
+		}
+		&:active {
+			border-color: black;
+			border-style: ridge;
+		}
+	}
+}
+
+*[class ~= "tab"]{
+	display: inline-block;
+	
+	width: 2.5em;
+}
+
+*[class ~= "copyright"]{
+	display: inline-block;
+	
+	width: 95%;
+	
+	color: white;
+	background-color: black;
+	
+	font-size: 0.7em;
+	text-align: right;
+	
+	padding: 1.2em 0em;
+	padding-right: 5%;
+	
+	&::before {
+		content: '© ';
+	}
+}
