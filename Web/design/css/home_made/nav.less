@@ -1,0 +1,42 @@
+@import '../colors';
+
+*[class ~= "navbar"]{
+	display: inline-block;
+	
+	width: auto;
+	
+	z-index: 666;
+	
+	*[class ~= "navbar-item"]{
+		display: inline-block;
+		
+		padding: 0.7em;
+		
+		a {
+			color: @button-color;
+			background-color: transparent;
+			
+			text-decoration: none;
+			
+			transition: all 1s;
+		}
+		*[class ~= "major-navbar-item"]{
+			
+		}
+		
+		&:hover, &[class ~= "active"] {
+			
+			
+			a {
+				color: darken(@button-color, 10%);
+				text-decoration: underline;
+			}
+			*[class ~= "major-navbar-item"]{
+				color: @color5;
+				background-color: @button-color;
+				
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,315 @@
+@import 'colors';
+
+*[class ~= "btn"] {
+	display: inline-block;
+	padding: 1em 1.5em;
+	
+	border: 0px groove black;
+	border-color: transparent;
+	border-radius: 1.2em;
+	
+	width: auto;
+	
+	text-decoration: none;
+	font-weight: bold;
+	
+	background-color: transparent;
+	
+	&:disabled {
+		border-style: solid !important;
+		cursor: default !important;
+	}
+	&:hover, &:focus {
+		cursor: pointer;
+		
+		&:disabled {
+			box-shadow: none;
+			cursor: default !important;
+		}
+	}
+	&:active {
+		border-style: ridge;
+	}
+}
+
+*[class ~= "btn-lt"] {
+	font-size: 0.6em;
+}
+
+*[class ~= "btn-md"] {
+	font-size: 0.8em;
+}
+
+*[class ~= "btn-lg"] {
+	font-size: 1.3em;
+}
+
+*[class ~= "btn-success"],
+*[class ~= "btn-info"],
+*[class ~= "btn-error"],
+*[class ~= "btn-warning"],
+*[class ~= "btn-dark"],
+*[class ~= "btn-light"],
+*[class ~= "btn-outline-success"],
+*[class ~= "btn-outline-info"],
+*[class ~= "btn-outline-error"],
+*[class ~= "btn-outline-warning"],
+*[class ~= "btn-outline-dark"],
+*[class ~= "btn-outline-light"] {
+	border-width: 2px;
+}
+
+*[class ~= "btn-success"],
+*[class ~= "btn-info"],
+*[class ~= "btn-error"],
+*[class ~= "btn-warning"],
+*[class ~= "btn-dark"],
+*[class ~= "btn-light"] {
+	&:disabled {
+		color: @linear-disabled-text !important;
+		
+		background-image: @linear-disabled !important;
+		border-color: transparent !important;
+	}
+	&:active {
+		&:disabled {
+			color: @linear-disabled-text !important;
+		
+			background-image: @linear-disabled !important;
+			border-color: transparent !important;
+		}
+	}
+}
+
+*[class ~= "btn-outline-success"],
+*[class ~= "btn-outline-info"],
+*[class ~= "btn-outline-error"],
+*[class ~= "btn-outline-warning"],
+*[class ~= "btn-outline-dark"],
+*[class ~= "btn-outline-light"] {
+	&:disabled {
+		color: @linear-disabled-text !important;
+		
+		background-image: @linear-disabled-invert !important;
+		border-color: transparent !important;
+	}
+	&:hover {
+		&:disabled {
+			color: @linear-disabled-text !important;
+		
+			background-image: @linear-disabled-invert !important;
+			border-color: transparent !important;
+		}
+	}
+	&:active {
+		&:disabled {
+			color: @linear-disabled-text !important;
+		
+			background-image: @linear-disabled-invert !important;
+			border-color: transparent !important;
+		}
+	}
+}
+
+*[class ~= "btn-success"] {
+	color: @linear-success-text;
+	background-image: @linear-success;
+	
+	&:hover {
+		border-color: @linear-success-text;
+	}
+	&:active {
+		background-image: @linear-success-invert;
+		border-color: @linear-success-text;
+	}
+}
+
+*[class ~= "btn-info"] {
+	color: @linear-info-text;
+	background-image: @linear-info;
+	
+	&:hover {
+		border-color: @linear-info-text;
+	}
+	&:active {
+		background-image: @linear-info-invert;
+		border-color: @linear-info-text;
+	}
+}
+
+*[class ~= "btn-warning"] {
+	color: @linear-warning-text;
+	background-image: @linear-warning;
+	
+	&:hover {
+		border-color: @linear-warning-text;
+	}
+	&:active {
+		background-image: @linear-warning-invert;
+		border-color: @linear-warning-text;
+	}
+}
+
+*[class ~= "btn-error"] {
+	color: @linear-error-text;
+	background-image: @linear-error;
+	
+	&:hover {
+		border-color: @linear-error-text;
+	}
+	&:active {
+		background-image: @linear-error-invert;
+		border-color: @linear-error-text;
+	}
+}
+
+*[class ~= "btn-link"] {
+	color: blue;
+	
+	&:hover {
+		text-decoration: underline;
+		box-shadow: none;
+	
+		&:disabled {
+			text-decoration: none !important;
+		}
+	}
+	&:disabled {
+		color: @linear-disabled-text !important;
+	}
+}
+
+*[class ~= "btn-dark"] {
+	color: @linear-dark-text;
+	background-image: @linear-dark;
+	
+	&:hover {
+		border-color: @linear-dark-text;
+	}
+	&:active {
+		background-image: @linear-dark-invert;
+		border-color: @linear-dark-text;
+	}
+}
+
+*[class ~= "btn-light"] {
+	color: @linear-light-text;
+	background-image: @linear-light;
+	
+	&:hover {
+		border-color: @linear-light-text;
+	}
+	&:active {
+		background-image: @linear-light;
+		border-color: @linear-light-text;
+	}
+}
+
+*[class ~= "btn-outline-success"] {
+	color: @linear-success-text;
+	border-color: @linear-success-text;
+	
+	&:hover {
+		background-image: @linear-success;
+	}
+	&:active {
+		background-image: @linear-success-invert;
+	}
+}
+
+*[class ~= "btn-outline-info"] {
+	color: @linear-info-text;
+	border-color: @linear-info-text;
+	
+	&:hover {
+		background-image: @linear-info;
+	}
+	&:active {
+		background-image: @linear-info-invert;
+	}
+}
+
+*[class ~= "btn-outline-warning"] {
+	color: @linear-warning-text;
+	border-color: @linear-warning-text;
+	
+	&:hover {
+		background-image: @linear-warning;
+	}
+	&:active {
+		background-image: @linear-warning-invert;
+	}
+}
+
+*[class ~= "btn-outline-error"] {
+	color: @linear-error-text;
+	border-color: @linear-error-text;
+	
+	&:hover {
+		background-image: @linear-error;
+	}
+	&:active {
+		background-image: @linear-error-invert;
+	}
+}
+
+*[class ~= "btn-outline-link"] {
+	color: blue;
+	
+	&:disabled {
+		color: @linear-disabled-text !important;
+	}
+	&:hover {
+		text-decoration: underline;
+		box-shadow: none;
+		
+		&:disabled {
+			text-decoration: none !important;
+		}
+	}
+}
+
+*[class ~= "btn-outline-dark"] {
+	color: @linear-dark-text-invert;
+	border-color: @linear-dark-text;
+	
+	&:hover {
+		color: @linear-dark-text;
+		background-image: @linear-dark;
+	}
+	&:active {
+		color: @linear-dark-text;
+		background-image: @linear-dark-invert;
+	}
+}
+
+*[class ~= "btn-outline-light"] {
+	color: @linear-light-text-invert;
+	border-color: @linear-light-text;
+	
+	&:hover {
+		color: @linear-light-text;
+		background-image: @linear-light;
+	}
+	&:active {
+		color: @linear-light-text;
+		background-image: @linear-light;
+	}
+}
+
+*[class ~= "btn-delete"] {
+	display: inline-block;
+	
+	width: 25px;
+	height: 25px;
+
+	background-image: url("home_made/img/delete.png");
+	background-size: 100% 100%;
+
+	&:hover, &:focus {
+		background-image: url("home_made/img/delete_hover.png");
+	}
+	&:active {
+		background-image: url("home_made/img/delete_pressed.png");
+	}
+}
