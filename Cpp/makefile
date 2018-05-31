@@ -4,7 +4,12 @@
 CC = g++
 CFLAGS = -Wall -Wextra -Wconversion -std=c++14 -Os
 GCFLAGS = -g $(CFLAGS)
-LDFLAGS = -lm -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio -lmysqlcppconn -lGL -lGLU -pthread -lpthread -Wl,--no-as-needed
+
+SFMLLIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio
+BDDLIBS = -lmysqlcppconn
+CXXLIBS = -lm -lGL -lGLU -lOpenCL -pthread -lpthread -Wl,--no-as-needed
+LDFLAGS = $(SFMLLIBS) $(BDDLIBS) $(CXXLIBS)
+
 MAINFILE = main.cpp
 FUNCTFILEC = functions.cpp
 FUNCTFILEH = functions.hpp
@@ -17,10 +22,14 @@ SFMLOUT = ./SFML
 CPPIN = ~/Bureau/Algo/C++Tests/C++
 CPPOUT = ./C++
 
+QTIN = ~/Bureau/Algo/QTTests/Widgets
+QTOUT = ./Widgets
+
 MAINWINDOWH = MainWindow.h
 MAINWINDOWC = MainWindow.cpp
 
 PROJECTFILE = $(wildcard *.pro)
+QTLIBS = $(BDDLIBS) $(CXXLIBS)
 
 all:
 	$(CC) -c *.cpp */*.cpp $(CFLAGS)
@@ -32,7 +41,7 @@ qt:
 	qmake -project
 	echo "\nQT += gui core widgets" >> $(PROJECTFILE)
 	qmake
-	make -f Makefile all
+	make -f Makefile all SUBLIBS="$(QTLIBS)"
 gdb:
 	$(CC) -c *.cpp */*.cpp $(GCFLAGS)
 	$(CC) -o prog *.o $(LDFLAGS)
@@ -60,6 +69,7 @@ createQt:
 	if [ -f $(MAINFILE) ];then echo ""; else echo "#include <QApplication>\n\n#include \"MainWindow.h\"\n\nint main(int argc, char** argv) {\n\tQApplication app(argc, argv);\n\tMainWindow w;\n\t\n\tw.show();\n\t\n\treturn app.exec();\n}" > $(MAINFILE); fi
 	if [ -f $(MAINWINDOWC) ];then echo ""; else echo "#include \"MainWindow.h\"\n\nMainWindow::MainWindow(QWidget* parent) :\n\tQMainWindow(parent)\n{\n\t\n}\n\nMainWindow::~MainWindow(){\n\t\n}" > $(MAINWINDOWC); fi
 	if [ -f $(MAINWINDOWH) ];then echo ""; else echo "#ifndef HEADER_MAINWINDOW\n#define HEADER_MAINWINDOW\n\n#include <QtWidgets>\n\nclass MainWindow : public QMainWindow {\n\tQ_OBJECT\n\tpublic:\n\t\tMainWindow(QWidget* parent = NULL);\n\t\t~MainWindow();\n\t\n\tpublic slots:\n\t\t\n\t\t\n\tsignals:\n\t\t\n\t\t\n\tprivate:\n\t\t\n};\n\n#endif //HEADER_MAINWINDOW" > $(MAINWINDOWH); fi
+	ln -s $(QTIN) $(QTOUT)
 edit:
 	if [ -f $(MAINFILE) ];then gedit $(MAINFILE) & else echo ""; fi
 	if [ -f $(FUNCTFILEH) ];then gedit $(FUNCTFILEH) & else echo ""; fi

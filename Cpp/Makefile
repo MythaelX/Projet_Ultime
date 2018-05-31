@@ -49,10 +49,74 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = main.cpp \
-		MainWindow.cpp moc_MainWindow.cpp
+		MainWindow.cpp \
+		Widgets/DrawScene.cpp \
+		Widgets/GraphScene.cpp \
+		Widgets/Scene.cpp \
+		Widgets/C++/Animal.cpp \
+		Widgets/C++/Ant.cpp \
+		Widgets/C++/Args.cpp \
+		Widgets/C++/bdd.cpp \
+		Widgets/C++/Clock.cpp \
+		Widgets/C++/collides.cpp \
+		Widgets/C++/console.cpp \
+		Widgets/C++/Contraption.cpp \
+		Widgets/C++/convert.cpp \
+		Widgets/C++/cryptage.cpp \
+		Widgets/C++/defines.cpp \
+		Widgets/C++/Entity.cpp \
+		Widgets/C++/errors.cpp \
+		Widgets/C++/files.cpp \
+		Widgets/C++/Hostile.cpp \
+		Widgets/C++/Map.cpp \
+		Widgets/C++/maths.cpp \
+		Widgets/C++/Mushroom.cpp \
+		Widgets/C++/Object.cpp \
+		Widgets/C++/Plant.cpp \
+		Widgets/C++/Player.cpp \
+		Widgets/C++/string.cpp \
+		Widgets/C++/time.cpp \
+		Widgets/C++/Timer.cpp \
+		Widgets/C++/types.cpp \
+		Widgets/C++/Vegetal.cpp moc_MainWindow.cpp \
+		moc_DrawScene.cpp \
+		moc_GraphScene.cpp \
+		moc_Scene.cpp
 OBJECTS       = main.o \
 		MainWindow.o \
-		moc_MainWindow.o
+		DrawScene.o \
+		GraphScene.o \
+		Scene.o \
+		Animal.o \
+		Ant.o \
+		Args.o \
+		bdd.o \
+		Clock.o \
+		collides.o \
+		console.o \
+		Contraption.o \
+		convert.o \
+		cryptage.o \
+		defines.o \
+		Entity.o \
+		errors.o \
+		files.o \
+		Hostile.o \
+		Map.o \
+		maths.o \
+		Mushroom.o \
+		Object.o \
+		Plant.o \
+		Player.o \
+		string.o \
+		time.o \
+		Timer.o \
+		types.o \
+		Vegetal.o \
+		moc_MainWindow.o \
+		moc_DrawScene.o \
+		moc_GraphScene.o \
+		moc_Scene.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -109,8 +173,74 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		Cpp.pro MainWindow.h main.cpp \
-		MainWindow.cpp
+		Cpp.pro MainWindow.h \
+		Widgets/DrawScene.hpp \
+		Widgets/GraphScene.hpp \
+		Widgets/QtDefines.hpp \
+		Widgets/Scene.hpp \
+		Widgets/Spacers.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/Vegetal.hpp main.cpp \
+		MainWindow.cpp \
+		Widgets/DrawScene.cpp \
+		Widgets/GraphScene.cpp \
+		Widgets/Scene.cpp \
+		Widgets/C++/Animal.cpp \
+		Widgets/C++/Ant.cpp \
+		Widgets/C++/Args.cpp \
+		Widgets/C++/bdd.cpp \
+		Widgets/C++/Clock.cpp \
+		Widgets/C++/collides.cpp \
+		Widgets/C++/console.cpp \
+		Widgets/C++/Contraption.cpp \
+		Widgets/C++/convert.cpp \
+		Widgets/C++/cryptage.cpp \
+		Widgets/C++/defines.cpp \
+		Widgets/C++/Entity.cpp \
+		Widgets/C++/errors.cpp \
+		Widgets/C++/files.cpp \
+		Widgets/C++/Hostile.cpp \
+		Widgets/C++/Map.cpp \
+		Widgets/C++/maths.cpp \
+		Widgets/C++/Mushroom.cpp \
+		Widgets/C++/Object.cpp \
+		Widgets/C++/Plant.cpp \
+		Widgets/C++/Player.cpp \
+		Widgets/C++/string.cpp \
+		Widgets/C++/time.cpp \
+		Widgets/C++/Timer.cpp \
+		Widgets/C++/types.cpp \
+		Widgets/C++/Vegetal.cpp
 QMAKE_TARGET  = Cpp
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = Cpp
@@ -276,8 +406,8 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents MainWindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents main.cpp MainWindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents MainWindow.h Widgets/DrawScene.hpp Widgets/GraphScene.hpp Widgets/QtDefines.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
+	$(COPY_FILE) --parents main.cpp MainWindow.cpp Widgets/DrawScene.cpp Widgets/GraphScene.cpp Widgets/Scene.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -300,11 +430,22 @@ check: first
 
 compiler_rcc_make_all:
 compiler_rcc_clean:
-compiler_moc_header_make_all: moc_MainWindow.cpp
+compiler_moc_header_make_all: moc_MainWindow.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_MainWindow.cpp
+	-$(DEL_FILE) moc_MainWindow.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp
 moc_MainWindow.cpp: MainWindow.h
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include MainWindow.h -o moc_MainWindow.cpp
+
+moc_DrawScene.cpp: Widgets/Scene.hpp \
+		Widgets/DrawScene.hpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/DrawScene.hpp -o moc_DrawScene.cpp
+
+moc_GraphScene.cpp: Widgets/Scene.hpp \
+		Widgets/GraphScene.hpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/GraphScene.hpp -o moc_GraphScene.cpp
+
+moc_Scene.cpp: Widgets/Scene.hpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/Scene.hpp -o moc_Scene.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -320,14 +461,396 @@ compiler_clean: compiler_moc_header_clean
 
 ####### Compile
 
-main.o: main.cpp MainWindow.h
+main.o: main.cpp Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		MainWindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 MainWindow.o: MainWindow.cpp MainWindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MainWindow.o MainWindow.cpp
 
+DrawScene.o: Widgets/DrawScene.cpp Widgets/DrawScene.hpp \
+		Widgets/Scene.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DrawScene.o Widgets/DrawScene.cpp
+
+GraphScene.o: Widgets/GraphScene.cpp Widgets/GraphScene.hpp \
+		Widgets/Scene.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o GraphScene.o Widgets/GraphScene.cpp
+
+Scene.o: Widgets/Scene.cpp Widgets/Scene.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Scene.o Widgets/Scene.cpp
+
+Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Hostile.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Animal.o Widgets/C++/Animal.cpp
+
+Ant.o: Widgets/C++/Ant.cpp Widgets/C++/Ant.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Hostile.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Ant.o Widgets/C++/Ant.cpp
+
+Args.o: Widgets/C++/Args.cpp Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/array.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Args.o Widgets/C++/Args.cpp
+
+bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bdd.o Widgets/C++/bdd.cpp
+
+Clock.o: Widgets/C++/Clock.cpp Widgets/C++/time.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Clock.o Widgets/C++/Clock.cpp
+
+collides.o: Widgets/C++/collides.cpp Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o collides.o Widgets/C++/collides.cpp
+
+console.o: Widgets/C++/console.cpp Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o console.o Widgets/C++/console.cpp
+
+Contraption.o: Widgets/C++/Contraption.cpp Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Contraption.o Widgets/C++/Contraption.cpp
+
+convert.o: Widgets/C++/convert.cpp Widgets/C++/convert.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o convert.o Widgets/C++/convert.cpp
+
+cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cryptage.o Widgets/C++/cryptage.cpp
+
+defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o defines.o Widgets/C++/defines.cpp
+
+Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Entity.o Widgets/C++/Entity.cpp
+
+errors.o: Widgets/C++/errors.cpp Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o errors.o Widgets/C++/errors.cpp
+
+files.o: Widgets/C++/files.cpp Widgets/C++/files.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o files.o Widgets/C++/files.cpp
+
+Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Hostile.o Widgets/C++/Hostile.cpp
+
+Map.o: Widgets/C++/Map.cpp Widgets/C++/Map.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Map.o Widgets/C++/Map.cpp
+
+maths.o: Widgets/C++/maths.cpp Widgets/C++/maths.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o maths.o Widgets/C++/maths.cpp
+
+Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Mushroom.o Widgets/C++/Mushroom.cpp
+
+Object.o: Widgets/C++/Object.cpp Widgets/C++/Object.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Object.o Widgets/C++/Object.cpp
+
+Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Plant.o Widgets/C++/Plant.cpp
+
+Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Player.o Widgets/C++/Player.cpp
+
+string.o: Widgets/C++/string.cpp Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o string.o Widgets/C++/string.cpp
+
+time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o time.o Widgets/C++/time.cpp
+
+Timer.o: Widgets/C++/Timer.cpp Widgets/C++/time.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Timer.o Widgets/C++/Timer.cpp
+
+types.o: Widgets/C++/types.cpp Widgets/C++/types.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o types.o Widgets/C++/types.cpp
+
+Vegetal.o: Widgets/C++/Vegetal.cpp Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Vegetal.o Widgets/C++/Vegetal.cpp
+
 moc_MainWindow.o: moc_MainWindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_MainWindow.o moc_MainWindow.cpp
+
+moc_DrawScene.o: moc_DrawScene.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DrawScene.o moc_DrawScene.cpp
+
+moc_GraphScene.o: moc_GraphScene.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_GraphScene.o moc_GraphScene.cpp
+
+moc_Scene.o: moc_Scene.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Scene.o moc_Scene.cpp
 
 ####### Install
 
