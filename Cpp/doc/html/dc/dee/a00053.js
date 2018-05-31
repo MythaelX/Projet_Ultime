@@ -1,0 +1,28 @@
+var a00053 =
+[
+    [ "addAsk", "dc/dee/a00053.php#a401428d09a75e0378b2a80ab68608162", null ],
+    [ "addCategory", "dc/dee/a00053.php#a9999c796aa1a7db99b81a18240c4c672", null ],
+    [ "addGame", "dc/dee/a00053.php#aaeb7bbf801fa3ea799cd88ff56331cec", null ],
+    [ "addQuestion", "dc/dee/a00053.php#a5c753010f26dc9889b68d7991f23e366", null ],
+    [ "addUsers", "dc/dee/a00053.php#aff4b34ff516467549fc9daa6a8f3d4ac", null ],
+    [ "deleteAsk", "dc/dee/a00053.php#af57e491c251eeaf366674ea6df624cd1", null ],
+    [ "deleteCategory", "dc/dee/a00053.php#a14880f51cece87ca27691c7acfa01d8a", null ],
+    [ "deleteGame", "dc/dee/a00053.php#a8205b4d8f60ec0146b15eace1d79d95a", null ],
+    [ "deletePoints", "dc/dee/a00053.php#a46e754bfd8e03764969330bc39a1fa66", null ],
+    [ "deleteQuestion", "dc/dee/a00053.php#a0c5a4808a05a3628f1b8e88ac398c70a", null ],
+    [ "deleteUsers", "dc/dee/a00053.php#a4df7c0879644507b94167bd565cd88bc", null ],
+    [ "list", "dc/dee/a00053.php#a487aa0a5ee1a53eddfa78ea676d3ff2b", null ],
+    [ "listAsk", "dc/dee/a00053.php#a0820a14dbb5072c112cf32466c8fc6c3", null ],
+    [ "listCategory", "dc/dee/a00053.php#af3143ec2b5319c969adf991c009373f0", null ],
+    [ "listDifficulty", "dc/dee/a00053.php#ad63ee67279e62ee5eaf73bb188ba0b4a", null ],
+    [ "listGame", "dc/dee/a00053.php#a1caf2a7a9b33c712063314f6bac74470", null ],
+    [ "listPoints", "dc/dee/a00053.php#af34790c4f5c0c4ad30d069fa2766559c", null ],
+    [ "listQuestion", "dc/dee/a00053.php#a887113739bafac257bbd35996edfeb81", null ],
+    [ "listUsers", "dc/dee/a00053.php#aa43b53615192bcce310fc51944bf217b", null ],
+    [ "updateAsk", "dc/dee/a00053.php#aaee44428f5b0401f7b9ad5b073254fd3", null ],
+    [ "updateCategory", "dc/dee/a00053.php#a2227326c53ffa5963bcc96c7983c6383", null ],
+    [ "updateDifficulty", "dc/dee/a00053.php#a4f84d201465ec63094f6407c0cdb6a8d", null ],
+    [ "updateGame", "dc/dee/a00053.php#a870df29ea630e53aa77c960373e0825f", null ],
+    [ "updateQuestion", "dc/dee/a00053.php#ae13343b52f992bcba9e6fcb79bddf71e", null ],
+    [ "updateUsers", "dc/dee/a00053.php#ac6acc509b5aa3caa3f76450ed835759e", null ]
+];

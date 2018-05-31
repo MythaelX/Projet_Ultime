@@ -1,7 +1,7 @@
 #include "functions.hpp"
 
 void list(BDD& bdd){
-	bdd.debug();
+	//bdd.debug();
 	bdd.list("categorie");
 	bdd.list("difficulte");
 	bdd.list("partie");
@@ -15,13 +15,30 @@ void list(BDD& bdd){
 std::vector<std::vector<std::string>> listUsers(BDD& bdd){
 	return bdd.list("utilisateurs");
 }
-bool updateUsers(BDD& bdd, std::string condition, std::string args){
-	
+bool addUsers(BDD& bdd, std::string args){
+	bdd.setTable("utilisateurs");
+
+	//bdd.debug();
+	bdd.insert(args);
+	//bdd.undebug();
+
+	return true;
+}
+bool updateUsers(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("utilisateurs");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
 	
 	return true;
 }
 bool deleteUsers(BDD& bdd, std::string condition){
-	
+	bdd.setTable("utilisateurs");
+
+	//bdd.debug();
+	bdd.remove("WHERE " + condition);
+	//bdd.undebug();
 	
 	return true;
 }
@@ -33,23 +50,27 @@ std::vector<std::vector<std::string>> listCategory(BDD& bdd){
 bool addCategory(BDD& bdd, std::string args){
 	bdd.setTable("categorie");
 
-	bdd.debug();
+	//bdd.debug();
 	bdd.insert(args);
-	bdd.undebug();
+	//bdd.undebug();
 
 	return true;
 }
-bool updateCategory(BDD& bdd, std::string condition, std::string args){
-	
-	
+bool updateCategory(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("categorie");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
+
 	return true;
 }
 bool deleteCategory(BDD& bdd, std::string condition){
 	bdd.setTable("categorie");
 
-	bdd.debug();
+	//bdd.debug();
 	bdd.remove("WHERE " + condition);
-	bdd.undebug();
+	//bdd.undebug();
 
 	return true;
 }
@@ -58,8 +79,12 @@ bool deleteCategory(BDD& bdd, std::string condition){
 std::vector<std::vector<std::string>> listDifficulty(BDD& bdd){
 	return bdd.list("difficulte");
 }
-bool updateDifficulty(BDD& bdd, std::string condition, std::string args){
-	
+bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("difficulte");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
 	
 	return true;
 }
@@ -69,17 +94,29 @@ std::vector<std::vector<std::string>> listGame(BDD& bdd){
 	return bdd.list("partie");
 }
 bool addGame(BDD& bdd, std::string args){
-	
+	bdd.setTable("partie");
+
+	//bdd.debug();
+	bdd.insert(args);
+	//bdd.undebug();
 	
 	return true;
 }
-bool updateGame(BDD& bdd, std::string condition, std::string args){
-	
+bool updateGame(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("partie");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
 	
 	return true;
 }
 bool deleteGame(BDD& bdd, std::string condition){
-	
+	bdd.setTable("partie");
+
+	//bdd.debug();
+	bdd.remove("WHERE " + condition);
+	//bdd.undebug();
 	
 	return true;
 }
@@ -89,17 +126,29 @@ std::vector<std::vector<std::string>> listAsk(BDD& bdd){
 	return bdd.list("proposition");
 }
 bool addAsk(BDD& bdd, std::string args){
-	
+	bdd.setTable("proposition");
+
+	//bdd.debug();
+	bdd.insert(args);
+	//bdd.undebug();
 	
 	return true;
 }
-bool updateAsk(BDD& bdd, std::string condition, std::string args){
-	
+bool updateAsk(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("proposition");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
 	
 	return true;
 }
 bool deleteAsk(BDD& bdd, std::string condition){
-	
+	bdd.setTable("proposition");
+
+	//bdd.debug();
+	bdd.remove("WHERE " + condition);
+	//bdd.undebug();
 	
 	return true;
 }
@@ -109,17 +158,29 @@ std::vector<std::vector<std::string>> listQuestion(BDD& bdd){
 	return bdd.list("question");
 }
 bool addQuestion(BDD& bdd, std::string args){
-	
+	bdd.setTable("question");
+
+	//bdd.debug();
+	bdd.insert(args);
+	//bdd.undebug();
 	
 	return true;
 }
-bool updateQuestion(BDD& bdd, std::string condition, std::string args){
-	
+bool updateQuestion(BDD& bdd, std::string args, std::string condition){
+	bdd.setTable("question");
+
+	//bdd.debug();
+	bdd.update(args, condition);
+	//bdd.undebug();
 	
 	return true;
 }
 bool deleteQuestion(BDD& bdd, std::string condition){
-	
+	bdd.setTable("question");
+
+	//bdd.debug();
+	bdd.remove("WHERE " + condition);
+	//bdd.undebug();
 	
 	return true;
 }
@@ -129,7 +190,11 @@ std::vector<std::vector<std::string>> listPoints(BDD& bdd){
 	return bdd.list("score");
 }
 bool deletePoints(BDD& bdd, std::string condition){
-	
+	bdd.setTable("score");
+
+	//bdd.debug();
+	bdd.remove("WHERE " + condition);
+	//bdd.undebug();
 	
 	return true;
 }

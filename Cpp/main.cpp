@@ -14,54 +14,199 @@ int main(int argc, char** argv) {
 		std::cout << Cls();
 
 		std::cout << "What do you want to do ?" << std::endl;
-			std::cout << "\t 1 : List users" << std::endl;
-			std::cout << "\t 2 : Add a user" << std::endl;
-			std::cout << "\t 3 : Update a user" << std::endl;
-			std::cout << "\t 4 : Delete a user" << std::endl;
+			std::cout << "\t 1 : Users" << std::endl;
+			std::cout << "\t 2 : Categories" << std::endl;
 
-			std::cout << "\t 5 : List the categories" << std::endl;
-			std::cout << "\t 6 : Add a category" << std::endl;
-			std::cout << "\t 7 : Update a category" << std::endl;
-			std::cout << "\t 8 : Delete a category" << std::endl;
+//			std::cout << "\t 3 : List the difficulties" << std::endl;
+//			std::cout << "\t 4 : Update a difficulty" << std::endl;
 
-			std::cout << "\t 9 : List the difficulties" << std::endl;
-			std::cout << "\t10 : Update a difficulty" << std::endl;
+//			std::cout << "\t 5 : Games" << std::endl;
+//			std::cout << "\t 6 : Asks" << std::endl;
+			std::cout << "\t 7 : Questions" << std::endl;
 
-			std::cout << "\t11 : List the games" << std::endl;
-			std::cout << "\t12 : Add a game" << std::endl;
-			std::cout << "\t13 : Update a game" << std::endl;
-			std::cout << "\t14 : Delete a game" << std::endl;
+//			std::cout << "\t 8 : List the points" << std::endl;
+//			std::cout << "\t 9 : Delete a point" << std::endl;
 
-			std::cout << "\t15 : List the asks" << std::endl;
-			std::cout << "\t16 : Add an ask" << std::endl;
-			std::cout << "\t17 : Update an ask" << std::endl;
-			std::cout << "\t18 : Delete an ask" << std::endl;
-
-			std::cout << "\t19 : List the questions" << std::endl;
-			std::cout << "\t20 : Add a question" << std::endl;
-			std::cout << "\t21 : Update a question" << std::endl;
-			std::cout << "\t22 : Delete a question" << std::endl;
-
-			std::cout << "\t23 : List the points" << std::endl;
-			std::cout << "\t24 : Delete a point" << std::endl;
-	
-			std::cout << "\t25 : Quit" << std::endl;
+			std::cout << "\t10 : Quit" << std::endl;
 
 		int action;
 		std::cin >> action;
 
+		std::cout << Cls();
 		switch(action){
-			/*case 1:
-				break;
-			case 2:
-				break;
-			case 3:
-				break;
-			case 4:
-				break;*/
-			case 5:{
+			case 1:{
+				std::string printer("Utilisateurs");
+				auto list = listUsers(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				addUsers(bdd, "exemple@exemple.fr, azerty, ../");
+
+				list = listUsers(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				updateUsers(bdd, "password = 42", "WHERE mail = exemple@exemple.fr");
+
+				list = listUsers(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				deleteUsers(bdd, "mail = exemple@exemple.fr");
+
+				list = listUsers(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+				break;}
+			case 2:{
+				std::string printer("Catégories");
 				auto list = listCategory(bdd);
-				std::cout << "Catégories ;" << std::endl;
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				addCategory(bdd, "Tests, 0");
+
+				list = listCategory(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				updateCategory(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+
+				list = listCategory(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				deleteCategory(bdd, "nom_categorie = Tests");
+
+				list = listCategory(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+				break;}
+			case 3:{
+				break;}
+			case 4:{
+				break;}
+			case 5:{
+				std::string printer("Parties");
+				auto list = listGame(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				addGame(bdd, "Tests, 0");
+
+				list = listGame(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				updateGame(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+
+				list = listGame(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				deleteGame(bdd, "nom_categorie = Tests");
+
+				list = listGame(bdd);
+				std::cout << printer << " ;" << std::endl;
 
 				for(auto line : list){
 					std::cout << "\t- ";
@@ -74,49 +219,138 @@ int main(int argc, char** argv) {
 				}
 				break;}
 			case 6:{
-				addCategory(bdd, "Tests, 0");
+				std::string printer("Propositions");
+				auto list = listAsk(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				addAsk(bdd, "Tests, 0");
+
+				list = listAsk(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				updateAsk(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+
+				list = listAsk(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				deleteAsk(bdd, "nom_categorie = Tests");
+
+				list = listAsk(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
 				break;}
 			case 7:{
-				updateCategory(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+				std::string printer("Questions");
+				auto list = listQuestion(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				addQuestion(bdd, "NULL, Bernard Tapis, un Tapis, People, 1");
+
+				list = listQuestion(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				updateQuestion(bdd, "solution_deux = un Rocher", "WHERE id_question = 2");
+
+				list = listQuestion(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
+
+				deleteQuestion(bdd, "id_question = 2");
+
+				list = listQuestion(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
 				break;}
 			case 8:{
-				deleteCategory(bdd, "nom_categorie = Tests");
 				break;}
-			/*case 9:
-				break;
-			case 10:
-				break;
-			case 11:
-				break;
-			case 12:
-				break;
-			case 13:
-				break;
-			case 14:
-				break;
-			case 15:
-				break;
-			case 16:
-				break;
-			case 17:
-				break;
-			case 18:
-				break;
-			case 19:
-				break;
-			case 20:
-				break;
-			case 21:
-				break;
-			case 22:
-				break;
-			case 23:
-				break;
-			case 24:
-				break;*/
+			case 9:{
+				break;}
 			default:
 				continueTests = false;
 				break;
+		}
+
+		if(continueTests){
+			char c;
+			std::cout << "Continue (o/n) ? ";
+			std::cin >> c;
 		}
 	}
 

@@ -1,0 +1,32 @@
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:53: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:53: warning: Unsupported xml/html tag <iostream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:55: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:55: warning: Unsupported xml/html tag <fstream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:56: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:56: warning: Unsupported xml/html tag <sstream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:58: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:58: warning: Unsupported xml/html tag <vector> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:59: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:59: warning: Unsupported xml/html tag <map> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:61: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:61: warning: Unsupported xml/html tag <string> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:63: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:63: warning: Unsupported xml/html tag <random> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:64: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:64: warning: Unsupported xml/html tag <algorithm> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:66: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:66: warning: Unsupported xml/html tag <type_traits> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:67: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:67: warning: Unsupported xml/html tag <typeinfo> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:68: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:68: warning: Unsupported xml/html tag <numeric> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:70: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:70: warning: Unsupported xml/html tag <thread> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:71: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:71: warning: Unsupported xml/html tag <mutex> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:73: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:73: warning: Unsupported xml/html tag <cmath> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:74: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:74: warning: Unsupported xml/html tag <ctime> found
+warning: Include graph for 'functions.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'QtDefines.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
