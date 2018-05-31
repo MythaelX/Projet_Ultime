@@ -2,6 +2,7 @@
 #define HEADER_MAINWINDOW
 
 #include <QtWidgets>
+#include "functions.hpp"
 
 class MainWindow : public QMainWindow {
 	Q_OBJECT

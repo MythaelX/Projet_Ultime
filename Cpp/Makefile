@@ -48,7 +48,8 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = main.cpp \
+SOURCES       = functions.cpp \
+		main.cpp \
 		MainWindow.cpp \
 		Widgets/DrawScene.cpp \
 		Widgets/GraphScene.cpp \
@@ -82,7 +83,8 @@ SOURCES       = main.cpp \
 		moc_DrawScene.cpp \
 		moc_GraphScene.cpp \
 		moc_Scene.cpp
-OBJECTS       = main.o \
+OBJECTS       = functions.o \
+		main.o \
 		MainWindow.o \
 		DrawScene.o \
 		GraphScene.o \
@@ -173,7 +175,8 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		Cpp.pro MainWindow.h \
+		Cpp.pro functions.hpp \
+		MainWindow.h \
 		Widgets/DrawScene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/QtDefines.hpp \
@@ -210,7 +213,8 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Widgets/C++/time.hpp \
 		Widgets/C++/tree.hpp \
 		Widgets/C++/types.hpp \
-		Widgets/C++/Vegetal.hpp main.cpp \
+		Widgets/C++/Vegetal.hpp functions.cpp \
+		main.cpp \
 		MainWindow.cpp \
 		Widgets/DrawScene.cpp \
 		Widgets/GraphScene.cpp \
@@ -406,8 +410,8 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents MainWindow.h Widgets/DrawScene.hpp Widgets/GraphScene.hpp Widgets/QtDefines.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
-	$(COPY_FILE) --parents main.cpp MainWindow.cpp Widgets/DrawScene.cpp Widgets/GraphScene.cpp Widgets/Scene.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents functions.hpp MainWindow.h Widgets/DrawScene.hpp Widgets/GraphScene.hpp Widgets/QtDefines.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
+	$(COPY_FILE) --parents functions.cpp main.cpp MainWindow.cpp Widgets/DrawScene.cpp Widgets/GraphScene.cpp Widgets/Scene.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -433,7 +437,40 @@ compiler_rcc_clean:
 compiler_moc_header_make_all: moc_MainWindow.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_MainWindow.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp
-moc_MainWindow.cpp: MainWindow.h
+moc_MainWindow.cpp: functions.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		MainWindow.h
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include MainWindow.h -o moc_MainWindow.cpp
 
 moc_DrawScene.cpp: Widgets/Scene.hpp \
@@ -461,23 +498,25 @@ compiler_clean: compiler_moc_header_clean
 
 ####### Compile
 
-main.o: main.cpp Widgets/C++/C++.hpp \
+functions.o: functions.cpp functions.hpp \
+		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
@@ -490,13 +529,80 @@ main.o: main.cpp Widgets/C++/C++.hpp \
 		Widgets/C++/Mushroom.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/bdd.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
-		MainWindow.h
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o functions.o functions.cpp
+
+main.o: main.cpp MainWindow.h \
+		functions.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
-MainWindow.o: MainWindow.cpp MainWindow.h
+MainWindow.o: MainWindow.cpp MainWindow.h \
+		functions.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MainWindow.o MainWindow.cpp
 
 DrawScene.o: Widgets/DrawScene.cpp Widgets/DrawScene.hpp \
@@ -514,19 +620,20 @@ Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Hostile.hpp
@@ -537,19 +644,20 @@ Ant.o: Widgets/C++/Ant.cpp Widgets/C++/Ant.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Hostile.hpp
@@ -566,19 +674,15 @@ Args.o: Widgets/C++/Args.cpp Widgets/C++/Args.hpp \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Args.o Widgets/C++/Args.cpp
 
 bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
-		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bdd.o Widgets/C++/bdd.cpp
 
@@ -596,19 +700,20 @@ console.o: Widgets/C++/console.cpp Widgets/C++/console.hpp \
 
 Contraption.o: Widgets/C++/Contraption.cpp Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Contraption.o Widgets/C++/Contraption.cpp
@@ -618,53 +723,56 @@ convert.o: Widgets/C++/convert.cpp Widgets/C++/convert.hpp
 
 cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
-		Widgets/C++/array.hpp
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cryptage.o Widgets/C++/cryptage.cpp
 
 defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
-		Widgets/C++/array.hpp
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o defines.o Widgets/C++/defines.cpp
 
 Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Entity.o Widgets/C++/Entity.cpp
@@ -684,19 +792,20 @@ Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Hostile.o Widgets/C++/Hostile.cpp
@@ -718,19 +827,20 @@ Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Mushroom.o Widgets/C++/Mushroom.cpp
@@ -738,19 +848,20 @@ Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
 Object.o: Widgets/C++/Object.cpp Widgets/C++/Object.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Object.o Widgets/C++/Object.cpp
@@ -760,19 +871,20 @@ Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Plant.o Widgets/C++/Plant.cpp
@@ -781,19 +893,20 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
@@ -823,19 +936,20 @@ Vegetal.o: Widgets/C++/Vegetal.cpp Widgets/C++/Vegetal.hpp \
 		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/Args.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
-		Widgets/C++/types.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Vegetal.o Widgets/C++/Vegetal.cpp
