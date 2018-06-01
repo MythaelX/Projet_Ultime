@@ -21,7 +21,8 @@ CREATE TABLE categorie(
 
 CREATE TABLE difficulte(
         id_difficulte  Int NOT NULL ,
-        nom_difficulte Text NOT NULL
+        nom_difficulte Text NOT NULL ,
+        nb_questions   Int NOT NULL
 	,CONSTRAINT difficulte_PK PRIMARY KEY (id_difficulte)
 )ENGINE=InnoDB;
 
@@ -32,6 +33,8 @@ CREATE TABLE difficulte(
 
 CREATE TABLE partie(
         id_partie     Int NOT NULL ,
+        date_partie   Date NOT NULL ,
+        partie_actif  TinyINT NOT NULL ,
         id_difficulte Int NOT NULL
 	,CONSTRAINT partie_PK PRIMARY KEY (id_partie)
 
@@ -60,10 +63,11 @@ CREATE TABLE question(
 #------------------------------------------------------------
 
 CREATE TABLE proposition(
-        id_proposition    Int NOT NULL ,
-        texte_proposition Text NOT NULL ,
-        proposition_actif TinyINT NOT NULL ,
-        id_question       Int NOT NULL
+        id_proposition       Int NOT NULL ,
+        texte_proposition    Text NOT NULL ,
+        solution_proposition Text NOT NULL ,
+        proposition_actif    TinyINT NOT NULL ,
+        id_question          Int NOT NULL
 	,CONSTRAINT proposition_PK PRIMARY KEY (id_proposition)
 
 	,CONSTRAINT proposition_question_FK FOREIGN KEY (id_question) REFERENCES question(id_question)
@@ -76,26 +80,10 @@ CREATE TABLE proposition(
 
 CREATE TABLE utilisateurs(
         mail     Varchar (200) NOT NULL ,
+        pseudo   Text NOT NULL ,
         password Text NOT NULL ,
         avatar   Text
 	,CONSTRAINT utilisateurs_PK PRIMARY KEY (mail)
-)ENGINE=InnoDB;
-
-
-#------------------------------------------------------------
-# Table: score
-#------------------------------------------------------------
-
-CREATE TABLE score(
-        id_score     Int NOT NULL ,
-        valeur_score Int NOT NULL ,
-        date_score   Date NOT NULL ,
-        mail         Varchar (200) NOT NULL ,
-        id_partie    Int NOT NULL
-	,CONSTRAINT score_PK PRIMARY KEY (id_score)
-
-	,CONSTRAINT score_utilisateurs_FK FOREIGN KEY (mail) REFERENCES utilisateurs(mail)
-	,CONSTRAINT score_partie0_FK FOREIGN KEY (id_partie) REFERENCES partie(id_partie)
 )ENGINE=InnoDB;
 
 
@@ -111,3 +99,22 @@ CREATE TABLE contient(
 	,CONSTRAINT contient_question_FK FOREIGN KEY (id_question) REFERENCES question(id_question)
 	,CONSTRAINT contient_partie0_FK FOREIGN KEY (id_partie) REFERENCES partie(id_partie)
 )ENGINE=InnoDB;
+
+
+#------------------------------------------------------------
+# Table: joue à
+#------------------------------------------------------------
+
+CREATE TABLE joue_a(
+        id_partie    Int NOT NULL ,
+        mail         Varchar (200) NOT NULL ,
+        valeur_score Int NOT NULL ,
+        temps_score  Datetime NOT NULL ,
+        date_score   Date NOT NULL
+	,CONSTRAINT joue_a_PK PRIMARY KEY (id_partie,mail)
+
+	,CONSTRAINT joue_a_partie_FK FOREIGN KEY (id_partie) REFERENCES partie(id_partie)
+	,CONSTRAINT joue_a_utilisateurs0_FK FOREIGN KEY (mail) REFERENCES utilisateurs(mail)
+)ENGINE=InnoDB;
+
+

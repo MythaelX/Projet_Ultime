@@ -17,14 +17,14 @@ int main(int argc, char** argv) {
 			std::cout << "\t 1 : Users" << std::endl;
 			std::cout << "\t 2 : Categories" << std::endl;
 
-//			std::cout << "\t 3 : List the difficulties" << std::endl;
+			std::cout << "\t 3 : List the difficulties" << std::endl;
 //			std::cout << "\t 4 : Update a difficulty" << std::endl;
 
 //			std::cout << "\t 5 : Games" << std::endl;
 //			std::cout << "\t 6 : Asks" << std::endl;
 			std::cout << "\t 7 : Questions" << std::endl;
 
-//			std::cout << "\t 8 : List the points" << std::endl;
+			std::cout << "\t 8 : List the points" << std::endl;
 //			std::cout << "\t 9 : Delete a point" << std::endl;
 
 			std::cout << "\t10 : Quit" << std::endl;
@@ -155,6 +155,19 @@ int main(int argc, char** argv) {
 				}
 				break;}
 			case 3:{
+				std::string printer("Difficultés");
+				auto list = listDifficulty(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
 				break;}
 			case 4:{
 				break;}
@@ -308,7 +321,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateQuestion(bdd, "solution_deux = un Rocher", "WHERE id_question = 2");
+				updateQuestion(bdd, "solution_deux = un Rocher", "WHERE id_question = 1");
 
 				list = listQuestion(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -323,7 +336,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteQuestion(bdd, "id_question = 2");
+				deleteQuestion(bdd, "id_question = 1");
 
 				list = listQuestion(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -339,6 +352,19 @@ int main(int argc, char** argv) {
 				}
 				break;}
 			case 8:{
+				std::string printer("Scores");
+				auto list = listPoints(bdd);
+				std::cout << printer << " ;" << std::endl;
+
+				for(auto line : list){
+					std::cout << "\t- ";
+
+					for(auto item : line){
+						std::cout << item << " : ";
+					}
+
+					std::cout << std::endl;
+				}
 				break;}
 			case 9:{
 				break;}
