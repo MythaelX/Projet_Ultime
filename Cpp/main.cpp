@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addUsers(bdd, "exemple@exemple.fr, azerty, ../");
+				addUsers(bdd, "exemple@exemple.fr, hello, azerty, ../");
 
 				list = listUsers(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -109,7 +109,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addCategory(bdd, "Tests, 0");
+				addCategory(bdd, "NULL, Tests, 0");
 
 				list = listCategory(bdd);
 				std::cout << printer << " ;" << std::endl;

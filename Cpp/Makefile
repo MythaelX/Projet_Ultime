@@ -926,7 +926,8 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Player.o Widgets/C++/Player.cpp
 
 string.o: Widgets/C++/string.cpp Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp
+		Widgets/C++/macro.hpp \
+		Widgets/C++/convert.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o string.o Widgets/C++/string.cpp
 
 time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp
