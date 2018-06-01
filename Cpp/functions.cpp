@@ -47,14 +47,14 @@ bool deleteUsers(BDD& bdd, std::string condition){
 std::vector<std::vector<std::string>> listCategory(BDD& bdd){
 	return bdd.list("categorie");
 }
-bool addCategory(BDD& bdd, std::string args){
+size_t addCategory(BDD& bdd, std::string args){
 	bdd.setTable("categorie");
 
 	//bdd.debug();
 	bdd.insert(args);
 	//bdd.undebug();
 
-	return true;
+	return bdd.lastId();
 }
 bool updateCategory(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("categorie");
@@ -93,14 +93,14 @@ bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
 std::vector<std::vector<std::string>> listGame(BDD& bdd){
 	return bdd.list("partie");
 }
-bool addGame(BDD& bdd, std::string args){
+size_t addGame(BDD& bdd, std::string args){
 	bdd.setTable("partie");
 
 	//bdd.debug();
 	bdd.insert(args);
 	//bdd.undebug();
 	
-	return true;
+	return bdd.lastId();
 }
 bool updateGame(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("partie");
@@ -125,14 +125,14 @@ bool deleteGame(BDD& bdd, std::string condition){
 std::vector<std::vector<std::string>> listAsk(BDD& bdd){
 	return bdd.list("proposition");
 }
-bool addAsk(BDD& bdd, std::string args){
+size_t addAsk(BDD& bdd, std::string args){
 	bdd.setTable("proposition");
 
 	//bdd.debug();
 	bdd.insert(args);
 	//bdd.undebug();
 	
-	return true;
+	return bdd.lastId();
 }
 bool updateAsk(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("proposition");
@@ -157,14 +157,14 @@ bool deleteAsk(BDD& bdd, std::string condition){
 std::vector<std::vector<std::string>> listQuestion(BDD& bdd){
 	return bdd.list("question");
 }
-bool addQuestion(BDD& bdd, std::string args){
+size_t addQuestion(BDD& bdd, std::string args){
 	bdd.setTable("question");
 
 	//bdd.debug();
 	bdd.insert(args);
 	//bdd.undebug();
 	
-	return true;
+	return bdd.lastId();;
 }
 bool updateQuestion(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("question");
@@ -187,10 +187,10 @@ bool deleteQuestion(BDD& bdd, std::string condition){
 
 /* Points */
 std::vector<std::vector<std::string>> listPoints(BDD& bdd){
-	return bdd.list("score");
+	return bdd.list("joue_a");
 }
 bool deletePoints(BDD& bdd, std::string condition){
-	bdd.setTable("score");
+	bdd.setTable("joue_a");
 
 	//bdd.debug();
 	bdd.remove("WHERE " + condition);

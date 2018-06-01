@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
 	bdd.connect("127.0.0.1:3306", "hotdogquiz", "hotdogquiz");
 
 	bdd.setDatabase("hotdogquiz");
+	size_t index;
 
 	bool continueTests = true;
 	while(continueTests){
@@ -49,7 +50,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addUsers(bdd, "exemple@exemple.fr, hello, azerty, ../");
+				addUsers(bdd, "zexemple@exemple.fr, hello, azerty, ../");
 
 				list = listUsers(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -64,7 +65,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateUsers(bdd, "password = 42", "WHERE mail = exemple@exemple.fr");
+				updateUsers(bdd, "password = 42", "WHERE mail = zexemple@exemple.fr");
 
 				list = listUsers(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -79,7 +80,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteUsers(bdd, "mail = exemple@exemple.fr");
+				deleteUsers(bdd, "mail = zexemple@exemple.fr");
 
 				list = listUsers(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -109,7 +110,8 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addCategory(bdd, "NULL, Tests, 0");
+				//index = addCategory(bdd, "NULL, Tests, 0");
+				index = addCategory(bdd, "Tests, 0");
 
 				list = listCategory(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -124,7 +126,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateCategory(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+				updateCategory(bdd, "categorie_actif = 1", "WHERE id_categorie = " + tos(index));
 
 				list = listCategory(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -139,7 +141,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteCategory(bdd, "nom_categorie = Tests");
+				deleteCategory(bdd, "id_categorie = " + tos(index));
 
 				list = listCategory(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -186,7 +188,8 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addGame(bdd, "Tests, 0");
+				//index = addGame(bdd, "NULL, 2018-06-12, 1, 1");
+				index = addGame(bdd, "2018-06-12, 1, 1");
 
 				list = listGame(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -201,7 +204,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateGame(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+				updateGame(bdd, "date_partie = 2018-05-29", "WHERE id_partie = " + tos(index));
 
 				list = listGame(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -216,7 +219,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteGame(bdd, "nom_categorie = Tests");
+				deleteGame(bdd, "id_partie = " + tos(index));
 
 				list = listGame(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -246,7 +249,8 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addAsk(bdd, "Tests, 0");
+				//index = addAsk(bdd, "NULL, Il est tissé, un Tapie, 1, 1");
+				index = addAsk(bdd, "Il est tissé, un Tapie, 1, 1");
 
 				list = listAsk(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -261,7 +265,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateAsk(bdd, "categorie_actif = 1", "WHERE nom_categorie = Tests");
+				updateAsk(bdd, "solution_proposition = un Tapis", "WHERE id_proposition = " + tos(index));
 
 				list = listAsk(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -276,7 +280,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteAsk(bdd, "nom_categorie = Tests");
+				deleteAsk(bdd, "id_proposition = " + tos(index));
 
 				list = listAsk(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -306,7 +310,8 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				addQuestion(bdd, "NULL, Bernard Tapis, un Tapis, People, 1");
+				//index = addQuestion(bdd, "NULL, Bernard Tapis, un Tapis, 1, 4");
+				index = addQuestion(bdd, "Bernard Tapis, un Tapis, 1, 4");
 
 				list = listQuestion(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -321,7 +326,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				updateQuestion(bdd, "solution_deux = un Rocher", "WHERE id_question = 1");
+				updateQuestion(bdd, "solution_un = Bernard Tapie", "WHERE id_question = " + tos(index));
 
 				list = listQuestion(bdd);
 				std::cout << printer << " ;" << std::endl;
@@ -336,7 +341,7 @@ int main(int argc, char** argv) {
 					std::cout << std::endl;
 				}
 
-				deleteQuestion(bdd, "id_question = 1");
+				deleteQuestion(bdd, "id_question = " + tos(index));
 
 				list = listQuestion(bdd);
 				std::cout << printer << " ;" << std::endl;
