@@ -2,22 +2,74 @@
 @import 'fonts';
 
 html {
-	
-	
+
+
 	body {
-		
-		
+		background-image: url("../img/ardoise.jpg");
+
 		header {
-			background-color: @color1;
+			//background-color: @color1;
 		}
 		nav {
-			background-color: @color1;
+			background: @navbar;
+			border-style: solid;
+			border-width: 0px 0px 2px 0px;
+			ul.navbar{
+				width: 100%;
+				li.active{
+					height: 100%;
+				}
+				li.navbar-item{
+					display: inline-block;
+					height: 100%;
+					&:first-child{
+						.font('cheeseburger',1.5em);
+					}
+					a {
+						text-decoration: none;
+						color: @white;
+						font-size:2em;
+						&.major-navbar-item{
+							background-color:transparent !important;
+						}
+					}
+				}
+				div{
+					padding: 1.9em;
+					float:right;
+					display:inline-block;
+					height: 100%;
+					li.navbar-item:first-child{
+						font-size: 1em;
+						font-family: Arial;
+						border-style: solid;
+						border-width: 0px 4px 0px 0px;
+						border-color: @blue3;
+					}
+				}
+			}
 		}
 		main {
-			background-color: @color4;
+			//background-color: @color4;
 		}
 		footer {
-			
+			border-style: solid;
+			border-width: 2px 0px 0px 0px;
+			text-align: right;
+			background-color: @white;
+			a{
+				color:@black;
+				padding-right:2%;
+				font-size:1.2em;
+			}
+			.copyright{
+				display: inline-block;
+				width: auto;
+				background-color: @white;
+				color:@black;
+				font-size:1.2em;
+			}
+
 		}
 	}
 }

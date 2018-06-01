@@ -34,10 +34,12 @@
 	$head->show();	//Affichage du code de l'en-tête
 ?>
 	<body id="body">
+		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-
+			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>
+	</div>
 	</body>
 </html>
