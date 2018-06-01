@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 #------------------------------------------------------------
 
 CREATE TABLE categorie(
-        id_categorie    Int NOT NULL ,
+        id_categorie    Int NOT NULL AUTO_INCREMENT ,
         nom_categorie   Varchar (200) NOT NULL ,
         categorie_actif TinyINT NOT NULL
 	,CONSTRAINT categorie_PK PRIMARY KEY (id_categorie)
@@ -25,7 +25,7 @@ CREATE TABLE categorie(
 #------------------------------------------------------------
 
 CREATE TABLE difficulte(
-        id_difficulte  Int NOT NULL ,
+        id_difficulte  Int NOT NULL AUTO_INCREMENT ,
         nom_difficulte Text NOT NULL ,
         nb_questions   Int NOT NULL
 	,CONSTRAINT difficulte_PK PRIMARY KEY (id_difficulte)
@@ -36,7 +36,7 @@ CREATE TABLE difficulte(
 #------------------------------------------------------------
 
 CREATE TABLE partie(
-        id_partie     Int NOT NULL ,
+        id_partie     Int NOT NULL AUTO_INCREMENT ,
         date_partie   Date NOT NULL ,
         partie_actif  TinyINT NOT NULL ,
         id_difficulte Int NOT NULL
@@ -50,7 +50,7 @@ CREATE TABLE partie(
 #------------------------------------------------------------
 
 CREATE TABLE question(
-        id_question    Int NOT NULL ,
+        id_question    Int NOT NULL AUTO_INCREMENT ,
         solution_un    Varchar (200) NOT NULL ,
         solution_deux  Varchar (200) NOT NULL ,
         question_actif TinyINT NOT NULL ,
@@ -65,7 +65,7 @@ CREATE TABLE question(
 #------------------------------------------------------------
 
 CREATE TABLE proposition(
-        id_proposition       Int NOT NULL ,
+        id_proposition       Int NOT NULL AUTO_INCREMENT ,
         texte_proposition    Text NOT NULL ,
         solution_proposition Text NOT NULL ,
         proposition_actif    TinyINT NOT NULL ,

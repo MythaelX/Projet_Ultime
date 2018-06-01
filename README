@@ -1,2 +1,4 @@
-sudo nano /etc/hosts
-172.31.3.59	hotdogquiz.fr
+type :
+	sudo nano /etc/hosts
+after the ip list put on a new line :
+	172.31.3.59	hotdogquiz.fr

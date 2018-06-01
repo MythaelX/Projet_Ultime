@@ -5,7 +5,7 @@
 int main(int argc, char** argv) {
 	arguments.addProg(argc, argv);
 
-	bdd.connect("127.0.0.1:3306", "hotdogquizz", "hotdogquizz");
+	bdd.connect("127.0.0.1:3306", "hotdogquiz", "hotdogquiz");
 
 	bdd.setDatabase("hotdogquiz");
 
