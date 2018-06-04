@@ -15,7 +15,7 @@ void list(BDD& bdd){
 }
 
 /* Users */
-std::vector<std::vector<std::string>> listUsers(BDD& bdd){
+ListArray listUsers(BDD& bdd){
 	return bdd.list("utilisateurs");
 }
 bool addUsers(BDD& bdd, std::string args){
@@ -65,7 +65,7 @@ bool deleteUsers(BDD& bdd, std::string condition){
 }
 
 /* Category */
-std::vector<std::vector<std::string>> listCategory(BDD& bdd){
+ListArray listCategory(BDD& bdd){
 	return bdd.list("categorie");
 }
 size_t addCategory(BDD& bdd, std::string args){
@@ -115,7 +115,7 @@ bool deleteCategory(BDD& bdd, std::string condition){
 }
 
 /* Difficulty */
-std::vector<std::vector<std::string>> listDifficulty(BDD& bdd){
+ListArray listDifficulty(BDD& bdd){
 	return bdd.list("difficulte");
 }
 bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
@@ -135,7 +135,7 @@ bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
 }
 
 /* Game */
-std::vector<std::vector<std::string>> listGame(BDD& bdd){
+ListArray listGame(BDD& bdd){
 	return bdd.list("partie");
 }
 size_t addGame(BDD& bdd, std::string args){
@@ -185,7 +185,7 @@ bool deleteGame(BDD& bdd, std::string condition){
 }
 
 /* Ask */
-std::vector<std::vector<std::string>> listAsk(BDD& bdd){
+ListArray listAsk(BDD& bdd){
 	return bdd.list("proposition");
 }
 size_t addAsk(BDD& bdd, std::string args){
@@ -235,7 +235,7 @@ bool deleteAsk(BDD& bdd, std::string condition){
 }
 
 /* Question */
-std::vector<std::vector<std::string>> listQuestion(BDD& bdd){
+ListArray listQuestion(BDD& bdd){
 	return bdd.list("question");
 }
 size_t addQuestion(BDD& bdd, std::string args){
@@ -285,7 +285,7 @@ bool deleteQuestion(BDD& bdd, std::string condition){
 }
 
 /* Points */
-std::vector<std::vector<std::string>> listPoints(BDD& bdd){
+ListArray listPoints(BDD& bdd){
 	return bdd.list("joue_a");
 }
 bool deletePoints(BDD& bdd, std::string condition){
@@ -302,4 +302,19 @@ bool deletePoints(BDD& bdd, std::string condition){
 	#endif
 
 	return true;
+}
+
+/* Format */
+std::string formatColumn(std::string str, std::string table){
+	std::string out = replace(BDD::formatColumn(str), table, "");
+
+	trim(out);
+
+	return uppercase(out, out.begin(), out.begin()+1);
+}
+
+/* CSS */
+std::string cssReader(std::string path){
+	reader.open(path.c_str());
+	return implode(getlines(reader), "\n");
 }

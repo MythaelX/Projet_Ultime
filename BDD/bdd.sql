@@ -108,7 +108,7 @@ CREATE TABLE joue_a(
         id_partie    Int NOT NULL ,
         mail         Varchar (200) NOT NULL ,
         valeur_score Int NOT NULL ,
-        temps_score  Datetime NOT NULL ,
+        temps_score  Time NOT NULL ,
         date_score   Date NOT NULL
 	,CONSTRAINT joue_a_PK PRIMARY KEY (id_partie,mail)
 
@@ -183,4 +183,4 @@ INSERT INTO `contient` VALUES
 #------------------------------------------------------------
 
 INSERT INTO `joue_a` VALUES
-(1, 'hotdog@quiz.fr', 42, '2018-06-01 00:20:00', '2018-06-01');
+(1, 'hotdog@quiz.fr', 42, '00:20:00', '2018-06-01');

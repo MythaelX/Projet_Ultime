@@ -4,7 +4,7 @@ void MainWindow::createConnectWidgets(){
 	hLayouts["connect container"] = new QHBoxLayout;
 		vLayouts["connect content"] = new QVBoxLayout;
 			hLayouts["connect line0"] = new QHBoxLayout;
-				labels["connect text"] =new QLabel;
+				labels["connect text"] =new TitleLabel;
 			hLayouts["connect line1"] = new QHBoxLayout;
 				vLayouts["connect line1"] = new QVBoxLayout;
 					labels["connect url"] = new QLabel;
@@ -80,14 +80,13 @@ void MainWindow::setContentConnectWidgets(){
 	hLayouts["connect line3"]->addLayout(vLayouts["connect line3-1"]);
 	hLayouts["connect line3"]->addLayout(vLayouts["connect line3-2"]);
 
-	vLayouts["connect line4"]->addItem(new QHSpacerItem);
 	vLayouts["connect line4"]->addWidget(buttons["connect connect"]);
-	vLayouts["connect line4"]->addItem(new QHSpacerItem);
 
 	vLayouts["connect content"]->addLayout(hLayouts["connect line0"]);
 	vLayouts["connect content"]->addLayout(hLayouts["connect line1"]);
 	vLayouts["connect content"]->addLayout(hLayouts["connect line2"]);
 	vLayouts["connect content"]->addLayout(hLayouts["connect line3"]);
+	vLayouts["connect content"]->addItem(new QVSpacerItem);
 	vLayouts["connect content"]->addLayout(vLayouts["connect line4"]);
 
 	hLayouts["connect container"]->addItem(new QHSpacerItem);

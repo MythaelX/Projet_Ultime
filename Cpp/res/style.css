@@ -1,0 +1,56 @@
+.QPushButton:focus, .GreenPushButton:focus, .GreyPushButton:focus, .RedPushButton:focus {
+	outline: none;
+}
+
+.QPushButton, .GreenPushButton, .GreyPushButton, .RedPushButton {
+	color: white;
+
+	font-weight: bold;
+
+	border: 1px solid black;
+	border-radius: 10px;
+
+	padding: 0.5em;
+}
+
+.QPushButton, .GreenPushButton {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #0B6F00, stop:1 #063800);
+}
+
+.QPushButton:pressed, .GreenPushButton:pressed {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #063800, stop:1 #0B6F00);
+}
+
+.GreyPushButton {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #575757, stop:1 #1E1E1E);
+}
+
+.GreyPushButton:pressed {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #1E1E1E, stop:1 #575757);
+}
+
+.RedPushButton {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #931009, stop:1 #4A0505);
+}
+
+.RedPushButton:pressed {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #4A0505, stop:1 #931009);
+}
+
+MainWindow {
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.QWidget, .QTabWidget {
+	background-color: rgba(255, 255, 255, 0.1);
+	
+	border-radius: 20px;
+}
+
+QLabel {
+	color: white;
+}
+
+.TitleLabel {
+	font-size: 10em;
+}
