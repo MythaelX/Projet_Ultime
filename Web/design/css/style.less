@@ -14,60 +14,193 @@ html {
 			background: @navbar;
 			border-style: solid;
 			border-width: 0px 0px 2px 0px;
+
 			ul.navbar{
+				display: inline-flex;
 				width: 100%;
-				li.active{
-					height: 100%;
-				}
-				li.navbar-item{
-					display: inline-block;
-					height: 100%;
+				list-style-type: none;
+				li{
+					float: left;
+
 					&:first-child{
-						.font('cheeseburger',1.5em);
+						border-style: solid;
+						border-width: 0px 4px 0px 0px;
+						border-color: @blue3;
+						.font('cheeseburger',0.9em);
+
+						a{
+							padding:0.35em;
+							padding-left: 3em;
+
+							img{
+								border-radius:100%;
+								position: absolute;
+								top:4px;
+								left:10px;
+								height: 2em;
+								width: auto;
+							}
+						}
 					}
+
 					a {
+						display: block;
+    				text-align: center;
 						text-decoration: none;
 						color: @white;
-						font-size:2em;
-						&.major-navbar-item{
-							background-color:transparent !important;
+						font-size:1.5em;
+						padding:0.5em;
+						&:hover{
+							background-color:@black2;
 						}
 					}
 				}
 				div{
-					padding: 1.9em;
-					float:right;
+					position: absolute;
+					right:0;
 					display:inline-block;
-					height: 100%;
-					li.navbar-item:first-child{
+					li:first-child{
 						font-size: 1em;
 						font-family: Arial;
-						border-style: solid;
-						border-width: 0px 4px 0px 0px;
-						border-color: @blue3;
+						a{
+							padding: 0.5em;
+						}
 					}
 				}
 			}
 		}
 		main {
-			//background-color: @color4;
+			div.presentation{
+				margin: 5%;
+				margin-top: 2%;
+				box-shadow: 2.5px 2px 0px @black2;
+				background-color: @white2;
+				border-style: solid;
+				border-width:2px;
+				border-radius:20px;
+
+				&::after {
+    			content: "";
+    			display: table;
+    			clear: both;
+				}
+
+				div{
+					box-sizing: border-box;
+					color: @white;
+					width: 60%;
+					float: left;
+
+					&:first-child{
+						width: 40%;
+						float: left;
+						padding: 2em;
+						box-sizing: border-box;
+					}
+					img{
+						border-width:3px;
+						border-style: solid;
+						border-color: @black3;
+						width: 100%;
+						height: auto;
+						border-radius:3%;
+
+					}
+
+					h1{
+						width: 88%;
+						padding: 1em;
+						padding-top:2em;
+						text-align: center;
+						.font('cheeseburger',1.5em);
+					}
+					p{
+						.font('cheeseburger',1.2em);
+						padding: 1em;
+					}
+				}
+			}
+			div.formulaire{
+				margin-top: 7%;
+				margin-left: auto;
+    		margin-right: auto;
+				max-width: 550px;
+				padding-bottom: 3%;
+				border-style: solid;
+				border-width:1px;
+				border-radius: 10px;
+				border-color: @black1;
+				font-size: 1.4em;
+				color:@white;
+				text-align: center;
+				background-color: @white2;
+
+				h1{
+					font-size: 2.2em;
+					background: @navbar;
+					border-style: solid;
+					border-color: @black1;
+					border-width: 0 0 1px 0;
+					border-radius: 9px 9px 0 0;
+				}
+
+				div{
+					margin: auto;
+					width: 50%;
+					text-align: left;
+					padding: 15px;
+				}
+
+				input{
+					padding: 6px 10px;
+					color: @black3;
+					font-size:0.8em;
+					border-style: solid;
+					border-color: @black2;
+					border-width:1px;
+					border-radius:5px;
+				}
+
+				input.boutonvert{
+					color: @white;
+					margin-bottom: 0.5%;
+					border-color: @black1;
+					cursor: pointer;
+					background-image: @boutonvert1;
+					&:hover {
+  					box-shadow: -2.5px 2px 8px 8px @black2;
+
+						}
+					&:active{
+						background-image: @boutonvert2;
+					}
+				}
+				a{
+					color: @white;
+					font-size: 0.5em;
+				}
+			}
 		}
+
 		footer {
+			margin-top:2%;
 			border-style: solid;
 			border-width: 2px 0px 0px 0px;
 			text-align: right;
 			background-color: @white;
 			a{
-				color:@black;
+				color:@black1;
 				padding-right:2%;
 				font-size:1.2em;
+				text-decoration: none;
 			}
 			.copyright{
 				display: inline-block;
 				width: auto;
 				background-color: @white;
-				color:@black;
+				color:@black1;
 				font-size:1.2em;
+				padding-right: 2%;
 			}
 
 		}
