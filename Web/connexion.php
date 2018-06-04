@@ -1,6 +1,5 @@
 <?php
 	require_once("php/bases/class-Head_Creator.php");
-
 	require_once("php/bases/_functions.php");
 	require_once("php/bases/bdd.php");
 	require_once("php/bddConnect.inc");

@@ -23,7 +23,7 @@
 	/***************************/
 
 	/* Scripts du site */
-
+		$head->head_script("js/script.js");
 	/*******************/
 
 	/* Scripts personnels */
@@ -36,6 +36,7 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
+			<?php require_once("php/tableauPalmares.php"); ?>
 			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>
