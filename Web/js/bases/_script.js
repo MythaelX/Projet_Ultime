@@ -365,6 +365,34 @@ function replace_all(from, to, str){
 	window.onload = launchOnloadFunctions;
 /**************************************************************/
 
+/* Functions that will be launched at the window onresize event */
+	var onresizeFunctions = new Array;
+	var onresizeLine = createStruct("f args");
+
+	/* Add a function to the onresizeFunction array and save the arguments */
+	function addOnresize(funct){
+		var args = new Array;
+		for(var i = 1; i < arguments.length; ++i){
+			args.push(arguments[i]);
+		}
+	
+		var line = new onresizeLine(funct, args);
+		var length = onresizeFunctions.length;
+	
+		onresizeFunctions.push(line);
+	}
+
+	/* Launch the functions in the array with the arguments passed */
+	function resizeOnloadFunctions(){
+		for(var i = 0; i < onresizeFunctions.length; ++i){
+			onresizeFunctions[i].f.apply(null, onresizeFunctions[i].args);
+		}
+	}
+	
+	/* Put the function in the onresize event */
+	window.onresize = resizeOnloadFunctions;
+/**************************************************************/
+
 /* Disable an element */
 function disable(el){
 	if(isset(el)){
@@ -432,4 +460,5 @@ function enable(el){
 	}
 
 	addOnload(setAll);
+	addOnresize(setAll);
 /**************************/
