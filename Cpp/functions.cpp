@@ -1,7 +1,10 @@
 #include "functions.hpp"
 
 void list(BDD& bdd){
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.list("categorie");
 	bdd.list("difficulte");
 	bdd.list("partie");
@@ -18,28 +21,46 @@ std::vector<std::vector<std::string>> listUsers(BDD& bdd){
 bool addUsers(BDD& bdd, std::string args){
 	bdd.setTable("utilisateurs");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.insert(args);
-	//bdd.undebug();
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
 
 	return true;
 }
 bool updateUsers(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("utilisateurs");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 bool deleteUsers(BDD& bdd, std::string condition){
 	bdd.setTable("utilisateurs");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 
@@ -50,27 +71,45 @@ std::vector<std::vector<std::string>> listCategory(BDD& bdd){
 size_t addCategory(BDD& bdd, std::string args){
 	bdd.setTable("categorie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.insert(args);
-	//bdd.undebug();
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
 
 	return bdd.lastId();
 }
 bool updateCategory(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("categorie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
 
 	return true;
 }
 bool deleteCategory(BDD& bdd, std::string condition){
 	bdd.setTable("categorie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
 
 	return true;
 }
@@ -82,10 +121,16 @@ std::vector<std::vector<std::string>> listDifficulty(BDD& bdd){
 bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("difficulte");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 
@@ -96,28 +141,46 @@ std::vector<std::vector<std::string>> listGame(BDD& bdd){
 size_t addGame(BDD& bdd, std::string args){
 	bdd.setTable("partie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.insert(args);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return bdd.lastId();
 }
 bool updateGame(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("partie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 bool deleteGame(BDD& bdd, std::string condition){
 	bdd.setTable("partie");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 
@@ -128,28 +191,46 @@ std::vector<std::vector<std::string>> listAsk(BDD& bdd){
 size_t addAsk(BDD& bdd, std::string args){
 	bdd.setTable("proposition");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.insert(args);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return bdd.lastId();
 }
 bool updateAsk(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("proposition");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 bool deleteAsk(BDD& bdd, std::string condition){
 	bdd.setTable("proposition");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 
@@ -160,28 +241,46 @@ std::vector<std::vector<std::string>> listQuestion(BDD& bdd){
 size_t addQuestion(BDD& bdd, std::string args){
 	bdd.setTable("question");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.insert(args);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return bdd.lastId();;
 }
 bool updateQuestion(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("question");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.update(args, condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 bool deleteQuestion(BDD& bdd, std::string condition){
 	bdd.setTable("question");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }
 
@@ -192,9 +291,15 @@ std::vector<std::vector<std::string>> listPoints(BDD& bdd){
 bool deletePoints(BDD& bdd, std::string condition){
 	bdd.setTable("joue_a");
 
-	//bdd.debug();
+	#if DEBUG
+		bdd.debug();
+	#endif
+
 	bdd.remove("WHERE " + condition);
-	//bdd.undebug();
-	
+
+	#if DEBUG
+		bdd.undebug();
+	#endif
+
 	return true;
 }

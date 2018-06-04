@@ -8,6 +8,8 @@
 
 #include "Widgets/C++/C++.hpp"
 
+#define DEBUG 1
+
 void list(BDD& bdd);
 
 /* Users */
