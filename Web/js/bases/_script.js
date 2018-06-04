@@ -427,6 +427,8 @@ function enable(el){
 				nav.style.height = "auto";
 				main.style.height = "auto";
 				footer.style.height = "auto";
+			
+			console.log("Heights : " + windowHeight() + " / " + getHeight(header) + " / " + getHeight(nav) + " / " + getHeight(footer));
 		
 			if(getStructHeight() <= windowHeight()){
 				var newMainHeight = windowHeight() - getHeight(header) - getHeight(nav) - getHeight(footer);
