@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d7/d3f/a00173.php">List of all members</a>  </div>
+<a href="../../d5/de9/a00176.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Entity Class Reference</div>  </div>
 </div><!--header-->
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <div class="dynheader">
 Inheritance diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/df1/a00174.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../dd/d4c/a00177.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
 <map name="Entity_inherit__map" id="Entity_inherit__map">
 <area shape="rect" id="node3" href="../../d7/d46/a00002.php" title="An animal. " alt="" coords="5,155,68,181"/>
 <area shape="rect" id="node5" href="../../db/df3/a00034.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
@@ -135,7 +135,7 @@ Inheritance diagram for Entity:</div>
 <div class="dynheader">
 Collaboration diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d45/a00175.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d9/d90/a00178.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
 <map name="Entity_coll__map" id="Entity_coll__map">
 <area shape="rect" id="node2" href="../../da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>

@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
+$(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,16 +108,14 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">ConsoleCursor Member List</div>  </div>
+<div class="title">Cls Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/dee/a00008.php">Cls</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a007a2a8bda4e52a48930875f4ee8616e">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f">home</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142">restore</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a3b03a811157d84449f3cf467c1f4758e">save</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a441ea70daac8caec56684cf47b187672">Cls</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Cls</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#abfeeaf1c236f7e094382544f1ffb888b">operator&lt;&lt;</a>(std::ostream &amp;stream, Cls const &amp;c)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Cls</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

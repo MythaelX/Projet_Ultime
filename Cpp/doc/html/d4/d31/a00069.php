@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Spacers.hpp File Reference</title>
+<title>ProjetFinalCPP: sorting.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,50 +106,115 @@ $(document).ready(function(){initNavTree('d4/d31/a00069.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Spacers.hpp File Reference</div>  </div>
+<div class="title">sorting.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Spacers.hpp:</div>
+Include dependency graph for sorting.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/df5/a00137.png" border="0" usemap="#Spacers_8hpp" alt=""/></div>
-<map name="Spacers_8hpp" id="Spacers_8hpp">
+<div class="center"><img src="../../d4/ddd/a00138.png" border="0" usemap="#sorting_8hpp" alt=""/></div>
+<map name="sorting_8hpp" id="sorting_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/ddd/a00138.png" border="0" usemap="#Spacers_8hppdep" alt=""/></div>
-<map name="Spacers_8hppdep" id="Spacers_8hppdep">
-<area shape="rect" id="node2" href="../../de/de1/a00065.php" title="QtDefines.hpp" alt="" coords="5,80,112,107"/>
+<div class="center"><img src="../../de/d14/a00139.png" border="0" usemap="#sorting_8hppdep" alt=""/></div>
+<map name="sorting_8hppdep" id="sorting_8hppdep">
+<area shape="rect" id="node2" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="12,80,85,107"/>
 </map>
 </div>
 </div>
 <p><a href="../../d4/d31/a00069_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QSpacerItem.  <a href="../../d0/d33/a00027.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QSpacerItem.  <a href="../../dc/d3c/a00028.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a26ed92f1897ceffb429cd8f436460a3e"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
+<tr class="memitem:a26ed92f1897ceffb429cd8f436460a3e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d31/a00069.php#a26ed92f1897ceffb429cd8f436460a3e">sortAsc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
+<tr class="memdesc:a26ed92f1897ceffb429cd8f436460a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="#a26ed92f1897ceffb429cd8f436460a3e">More...</a><br /></td></tr>
+<tr class="separator:a26ed92f1897ceffb429cd8f436460a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d14862e28ea7d3bb92662b4068f5763"><td class="memTemplParams" colspan="2">template&lt;class Key , class Value &gt; </td></tr>
+<tr class="memitem:a3d14862e28ea7d3bb92662b4068f5763"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d31/a00069.php#a3d14862e28ea7d3bb92662b4068f5763">sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
+<tr class="memdesc:a3d14862e28ea7d3bb92662b4068f5763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a3d14862e28ea7d3bb92662b4068f5763">More...</a><br /></td></tr>
+<tr class="separator:a3d14862e28ea7d3bb92662b4068f5763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d4/d31/a00069_source.php">sorting.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a26ed92f1897ceffb429cd8f436460a3e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key , typename Value &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto sortAsc </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sort a map ascendently </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map to sort</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a sorted vector </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d31/a00069_source.php#l00024">24</a> of file <a class="el" href="../../d4/d31/a00069_source.php">sorting.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d14862e28ea7d3bb92662b4068f5763"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key , class Value &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto sortDesc </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sort a map descendently. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map to sort</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a sorted vector </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d31/a00069_source.php#l00051">51</a> of file <a class="el" href="../../d4/d31/a00069_source.php">sorting.hpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d4/d31/a00069.php">Spacers.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d31/a00069.php">sorting.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

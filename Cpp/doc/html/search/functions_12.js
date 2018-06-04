@@ -8,5 +8,6 @@ var searchData=
   ['updatedifficulty',['updateDifficulty',['../dc/dee/a00053.php#a4f84d201465ec63094f6407c0cdb6a8d',1,'functions.hpp']]],
   ['updategame',['updateGame',['../dc/dee/a00053.php#a870df29ea630e53aa77c960373e0825f',1,'functions.hpp']]],
   ['updatequestion',['updateQuestion',['../dc/dee/a00053.php#ae13343b52f992bcba9e6fcb79bddf71e',1,'functions.hpp']]],
-  ['updateusers',['updateUsers',['../dc/dee/a00053.php#ac6acc509b5aa3caa3f76450ed835759e',1,'functions.hpp']]]
+  ['updateusers',['updateUsers',['../dc/dee/a00053.php#ac6acc509b5aa3caa3f76450ed835759e',1,'functions.hpp']]],
+  ['uppercase',['uppercase',['../d0/d89/a00071.php#aad282b8ce93b90e54cbd1e337446f15a',1,'string.hpp']]]
 ];

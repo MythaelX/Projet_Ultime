@@ -150,6 +150,9 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 <li>Entity()
 : <a class="el" href="dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
 </li>
+<li>exists()
+: <a class="el" href="dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b">BDD</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

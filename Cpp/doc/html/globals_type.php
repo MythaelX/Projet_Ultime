@@ -116,11 +116,17 @@ $(document).ready(function(){initNavTree('globals_type.php','');});
 
 <div class="contents">
 &#160;<ul>
+<li>ColsArray
+: <a class="el" href="db/d3a/a00040.php#acb7362a3fb715f64e5ab3cd50794a52c">bdd.hpp</a>
+</li>
 <li>GraphMap
 : <a class="el" href="d1/dea/a00054.php#ad5373de30ddd6b6c0f911f63ed642739">GraphScene.hpp</a>
 </li>
 <li>GraphMapType
 : <a class="el" href="d1/dea/a00054.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphScene.hpp</a>
+</li>
+<li>ListArray
+: <a class="el" href="db/d3a/a00040.php#a6b6679f15a22e0f89297978d24dec56e">bdd.hpp</a>
 </li>
 <li>MapArray
 : <a class="el" href="d7/df7/a00058.php#a1ee2140d47f9982ff0aa65b71256bc80">Map.hpp</a>
@@ -129,7 +135,10 @@ $(document).ready(function(){initNavTree('globals_type.php','');});
 : <a class="el" href="d7/df7/a00058.php#aac0c2192b0b28c4353d6250244b70287">Map.hpp</a>
 </li>
 <li>NodeWeight
-: <a class="el" href="d6/d2c/a00072.php#a0a1e73288e0ceb794c65bd86a4b7f231">tree.hpp</a>
+: <a class="el" href="d1/d6e/a00073.php#a0a1e73288e0ceb794c65bd86a4b7f231">tree.hpp</a>
+</li>
+<li>QtWindow
+: <a class="el" href="d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtFunctions.hpp</a>
 </li>
 <li>utmost
 : <a class="el" href="d1/dea/a00054.php#a464fcd96dfa56d6feac32bfcd2e0403f">GraphScene.hpp</a>

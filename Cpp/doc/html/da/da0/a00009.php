@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="../../db/d44/a00162.php">List of all members</a>  </div>
+<a href="../../d0/d48/a00165.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Color Class Reference</div>  </div>
 </div><!--header-->
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
 <div class="dynheader">
 Inheritance diagram for Color:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/dae/a00163.png" border="0" usemap="#Color_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d9/d38/a00166.png" border="0" usemap="#Color_inherit__map" alt="Inheritance graph"/></div>
 <map name="Color_inherit__map" id="Color_inherit__map">
 <area shape="rect" id="node2" href="../../d5/d16/a00029.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
 </map>

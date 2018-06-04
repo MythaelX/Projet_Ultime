@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vi',['VI',['../d6/d2d/a00047.php#a44dfccd15fd47aa8db19125945f8af08',1,'defines.hpp']]],
-  ['vs',['VS',['../d6/d2d/a00047.php#a44aff682fd9726ed5ca19159f23b2e6b',1,'defines.hpp']]]
+  ['nodeweight',['NodeWeight',['../d1/d6e/a00073.php#a0a1e73288e0ceb794c65bd86a4b7f231',1,'tree.hpp']]]
 ];

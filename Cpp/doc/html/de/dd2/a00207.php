@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
+$(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,19 +108,13 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Reinit Member List</div>  </div>
+<div class="title">QVSpacerItem Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d16/a00029.php">Reinit</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Reinit</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem</a>(int w=40, int h=20)</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

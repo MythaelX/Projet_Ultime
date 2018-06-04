@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: RNG.hpp File Reference</title>
+<title>ProjetFinalCPP: QtFunctions.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,123 +106,122 @@ $(document).ready(function(){initNavTree('d9/db3/a00066.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RNG.hpp File Reference</div>  </div>
+<div class="title">QtFunctions.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;random&gt;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &quot;C++/defines.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for RNG.hpp:</div>
+Include dependency graph for QtFunctions.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d06/a00131.png" border="0" usemap="#RNG_8hpp" alt=""/></div>
-<map name="RNG_8hpp" id="RNG_8hpp">
+<div class="center"><img src="../../d5/deb/a00132.png" border="0" usemap="#QtFunctions_8hpp" alt=""/></div>
+<map name="QtFunctions_8hpp" id="QtFunctions_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/deb/a00132.png" border="0" usemap="#RNG_8hppdep" alt=""/></div>
-<map name="RNG_8hppdep" id="RNG_8hppdep">
-<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="603,80,693,107"/>
-<area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="464,155,579,181"/>
-<area shape="rect" id="node8" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="546,677,619,704"/>
-<area shape="rect" id="node15" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="686,304,783,331"/>
-<area shape="rect" id="node4" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,229,201,256"/>
-<area shape="rect" id="node7" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="267,528,357,555"/>
-<area shape="rect" id="node14" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="525,229,611,256"/>
-<area shape="rect" id="node5" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,379,102,405"/>
-<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,304,123,331"/>
-<area shape="rect" id="node11" href="../../db/db6/a00074.php" title="Vegetal.hpp" alt="" coords="220,379,311,405"/>
-<area shape="rect" id="node6" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
-<area shape="rect" id="node9" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="475,603,559,629"/>
-<area shape="rect" id="node12" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,453,325,480"/>
-<area shape="rect" id="node13" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,453,458,480"/>
+<div class="center"><img src="../../d0/de8/a00133.png" border="0" usemap="#QtFunctions_8hppdep" alt=""/></div>
+<map name="QtFunctions_8hppdep" id="QtFunctions_8hppdep">
+<area shape="rect" id="node2" href="../../de/de1/a00065.php" title="QtDefines.hpp" alt="" coords="11,80,118,107"/>
 </map>
 </div>
 </div>
 <p><a href="../../d9/db3/a00066_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php">RNG&lt; T, U &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d5/d79/a00030.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> = <a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></td></tr>
+<tr class="memdesc:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alias for Qt.  <a href="#af5c0e4b3ee16e7efaa2220fe898e0138">More...</a><br /></td></tr>
+<tr class="separator:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a9f2903f65500ce246447f08fea1d734a">rngRange</a> (T a, U b=0.1)</td></tr>
-<tr class="memdesc:a9f2903f65500ce246447f08fea1d734a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="#a9f2903f65500ce246447f08fea1d734a">More...</a><br /></td></tr>
-<tr class="separator:a9f2903f65500ce246447f08fea1d734a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">rng</a></td></tr>
-<tr class="memdesc:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="#a9aee8b16f4c2f21fdebf0ecb0b514b96">More...</a><br /></td></tr>
-<tr class="separator:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0272cd6761e50151f46337d1d7f793f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a0272cd6761e50151f46337d1d7f793f2">getDesktopSize</a> ()</td></tr>
+<tr class="memdesc:a0272cd6761e50151f46337d1d7f793f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the desktop.  <a href="#a0272cd6761e50151f46337d1d7f793f2">More...</a><br /></td></tr>
+<tr class="separator:a0272cd6761e50151f46337d1d7f793f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a5b8564155df959a2ed36b171090ec2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a7a5b8564155df959a2ed36b171090ec2">getDesktopWidth</a> ()</td></tr>
+<tr class="memdesc:a7a5b8564155df959a2ed36b171090ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the width of the desktop.  <a href="#a7a5b8564155df959a2ed36b171090ec2">More...</a><br /></td></tr>
+<tr class="separator:a7a5b8564155df959a2ed36b171090ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e89aa67e6219267f0f2965567c447a5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a4e89aa67e6219267f0f2965567c447a5">getDesktopHeight</a> ()</td></tr>
+<tr class="memdesc:a4e89aa67e6219267f0f2965567c447a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of the desktop.  <a href="#a4e89aa67e6219267f0f2965567c447a5">More...</a><br /></td></tr>
+<tr class="separator:a4e89aa67e6219267f0f2965567c447a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a9f2903f65500ce246447f08fea1d734a"></a>
+<p>Definition in file <a class="el" href="../../d9/db3/a00066_source.php">QtFunctions.hpp</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="af5c0e4b3ee16e7efaa2220fe898e0138"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U  = double&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T rngRange </td>
+          <td class="memname">using <a class="el" href="../../d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> =  <a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An alias for Qt. </p>
+
+<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00016">16</a> of file <a class="el" href="../../d9/db3/a00066_source.php">QtFunctions.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a4e89aa67e6219267f0f2965567c447a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t getDesktopHeight </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">U&#160;</td>
-          <td class="paramname"><em>b</em> = <code>0.1</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute a random number in a computed range. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The boundary of the range </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The distance btween the boundaries</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random value </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00054">54</a> of file <a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>.</p>
+<p>Get the height of the desktop. </p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a9aee8b16f4c2f21fdebf0ecb0b514b96"></a>
+<a class="anchor" id="a0272cd6761e50151f46337d1d7f793f2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Rng rng</td>
+          <td class="memname"><a class="el" href="../../d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> getDesktopSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A global rng variable to compute random integers. </p>
-<p>rng(<b>int</b>, <b>int</b>) </p>
+<p>Get the size of the desktop. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return a QtWindow struct </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7a5b8564155df959a2ed36b171090ec2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t getDesktopWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the width of the desktop. </p>
 
 </div>
 </div>
@@ -231,7 +230,7 @@ template&lt;typename T , typename U  = double&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d9/db3/a00066.php">RNG.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d9/db3/a00066.php">QtFunctions.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

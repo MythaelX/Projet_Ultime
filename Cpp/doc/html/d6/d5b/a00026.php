@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d3/db1/a00200.php">List of all members</a>  </div>
+<a href="../../de/d79/a00203.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Point Struct Reference</div>  </div>
 </div><!--header-->
@@ -132,7 +132,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A struct to define a point in space. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00065">65</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00060">60</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ab99c56589bc8ad5fa5071387110a5bc7"></a>
 <div class="memitem">
@@ -145,7 +145,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>X position </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00067">67</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00062">62</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -160,7 +160,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Y position </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00069">69</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00064">64</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -175,7 +175,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Z position </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00071">71</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00066">66</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>

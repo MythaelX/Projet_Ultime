@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../dc/de6/a00167.php">List of all members</a>  </div>
+<a href="../../d5/dcb/a00170.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ContraptionAttr Struct Reference</div>  </div>
 </div><!--header-->
@@ -132,7 +132,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A struct to define <b><a class="el" href="../../da/d45/a00011.php" title="A contraption. ">Contraption</a></b> attributes. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00077">77</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00070">70</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a062e1a4fe2f7d6f8d771f13f10844a19"></a>
 <div class="memitem">
@@ -145,7 +145,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Angle </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00083">83</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00076">76</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -160,7 +160,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Height </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00081">81</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00074">74</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -175,7 +175,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Width </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00079">79</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00072">72</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>

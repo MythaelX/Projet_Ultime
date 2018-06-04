@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('dc/dee/a00053.php','../../');});
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d81/a00110.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
+<div class="center"><img src="../../dd/d6d/a00111.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
 <map name="functions_8hppdep" id="functions_8hppdep">
 <area shape="rect" id="node2" href="../../d1/d22/a00057.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
 </map>
@@ -137,8 +137,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4df7c0879644507b94167bd565cd88bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3143ec2b5319c969adf991c009373f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#af3143ec2b5319c969adf991c009373f0">listCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
 <tr class="separator:af3143ec2b5319c969adf991c009373f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9999c796aa1a7db99b81a18240c4c672"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a9999c796aa1a7db99b81a18240c4c672">addCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:a9999c796aa1a7db99b81a18240c4c672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#afeb2d8632fb1dad24def5d95d27f43f0">addCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
+<tr class="separator:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2227326c53ffa5963bcc96c7983c6383"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a2227326c53ffa5963bcc96c7983c6383">updateCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
 <tr class="separator:a2227326c53ffa5963bcc96c7983c6383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14880f51cece87ca27691c7acfa01d8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a14880f51cece87ca27691c7acfa01d8a">deleteCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
@@ -149,24 +149,24 @@ Functions</h2></td></tr>
 <tr class="separator:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1caf2a7a9b33c712063314f6bac74470"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a1caf2a7a9b33c712063314f6bac74470">listGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
 <tr class="separator:a1caf2a7a9b33c712063314f6bac74470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb7bbf801fa3ea799cd88ff56331cec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aaeb7bbf801fa3ea799cd88ff56331cec">addGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:aaeb7bbf801fa3ea799cd88ff56331cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ee2c6a333148aed442bb741b2bf82d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a35ee2c6a333148aed442bb741b2bf82d">addGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
+<tr class="separator:a35ee2c6a333148aed442bb741b2bf82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a870df29ea630e53aa77c960373e0825f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a870df29ea630e53aa77c960373e0825f">updateGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
 <tr class="separator:a870df29ea630e53aa77c960373e0825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a8205b4d8f60ec0146b15eace1d79d95a">deleteGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
 <tr class="separator:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a0820a14dbb5072c112cf32466c8fc6c3">listAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
 <tr class="separator:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401428d09a75e0378b2a80ab68608162"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a401428d09a75e0378b2a80ab68608162">addAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:a401428d09a75e0378b2a80ab68608162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2003fa6138007746e85c2b697d147b58"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a2003fa6138007746e85c2b697d147b58">addAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
+<tr class="separator:a2003fa6138007746e85c2b697d147b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aaee44428f5b0401f7b9ad5b073254fd3">updateAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
 <tr class="separator:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af57e491c251eeaf366674ea6df624cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#af57e491c251eeaf366674ea6df624cd1">deleteAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
 <tr class="separator:af57e491c251eeaf366674ea6df624cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a887113739bafac257bbd35996edfeb81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a887113739bafac257bbd35996edfeb81">listQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
 <tr class="separator:a887113739bafac257bbd35996edfeb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c753010f26dc9889b68d7991f23e366"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a5c753010f26dc9889b68d7991f23e366">addQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:a5c753010f26dc9889b68d7991f23e366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86a004962b3149094f4cc660ecb05d4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ad86a004962b3149094f4cc660ecb05d4">addQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
+<tr class="separator:ad86a004962b3149094f4cc660ecb05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ae13343b52f992bcba9e6fcb79bddf71e">updateQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
 <tr class="separator:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a0c5a4808a05a3628f1b8e88ac398c70a">deleteQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
@@ -176,13 +176,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a46e754bfd8e03764969330bc39a1fa66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a46e754bfd8e03764969330bc39a1fa66">deletePoints</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
 <tr class="separator:a46e754bfd8e03764969330bc39a1fa66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a401428d09a75e0378b2a80ab68608162"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../dc/dee/a00053_source.php">functions.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a2003fa6138007746e85c2b697d147b58"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool addAsk </td>
+          <td class="memname">size_t addAsk </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
           <td class="paramname"><em>bdd</em>, </td>
@@ -203,12 +208,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9999c796aa1a7db99b81a18240c4c672"></a>
+<a class="anchor" id="afeb2d8632fb1dad24def5d95d27f43f0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool addCategory </td>
+          <td class="memname">size_t addCategory </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
           <td class="paramname"><em>bdd</em>, </td>
@@ -229,12 +234,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aaeb7bbf801fa3ea799cd88ff56331cec"></a>
+<a class="anchor" id="a35ee2c6a333148aed442bb741b2bf82d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool addGame </td>
+          <td class="memname">size_t addGame </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
           <td class="paramname"><em>bdd</em>, </td>
@@ -255,12 +260,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5c753010f26dc9889b68d7991f23e366"></a>
+<a class="anchor" id="ad86a004962b3149094f4cc660ecb05d4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool addQuestion </td>
+          <td class="memname">size_t addQuestion </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
           <td class="paramname"><em>bdd</em>, </td>

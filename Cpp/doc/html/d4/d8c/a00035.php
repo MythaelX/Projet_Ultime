@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../dd/d52/a00221.php">List of all members</a>  </div>
+<a href="../../d5/ddf/a00224.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">WorldDimensions Struct Reference</div>  </div>
 </div><!--header-->

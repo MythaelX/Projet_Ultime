@@ -147,8 +147,14 @@ $(document).ready(function(){initNavTree('functions_f.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>formatBdd()
+: <a class="el" href="dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07">BDD</a>
+</li>
+<li>formatConditions()
+: <a class="el" href="dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821">BDD</a>
+</li>
 <li>formatValues()
-: <a class="el" href="dd/dad/a00005.php#a686232a011e8b4552e00cdcea1bf8b66">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

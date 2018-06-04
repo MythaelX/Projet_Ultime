@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('functions_i.php','');});
 , <a class="el" href="dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
 </li>
 <li>insert()
-: <a class="el" href="dd/dad/a00005.php#ad08567615df2acb02c83690050a872d9">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#a059c72982d8075a1e0fcc175461b1430">BDD</a>
 </li>
 <li>isInit()
 : <a class="el" href="d3/dfe/a00025.php#a6ac0f9addd53f05fb5fce59ede276b68">Player&lt; PlayerParent &gt;</a>

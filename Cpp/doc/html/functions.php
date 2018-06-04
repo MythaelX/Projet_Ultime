@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -81,37 +80,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
-      <li><a href="functions_vars.php"><span>Variables</span></a></li>
-      <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li class="current"><a href="functions.php#index_a"><span>a</span></a></li>
-      <li><a href="functions_b.php#index_b"><span>b</span></a></li>
-      <li><a href="functions_c.php#index_c"><span>c</span></a></li>
-      <li><a href="functions_d.php#index_d"><span>d</span></a></li>
-      <li><a href="functions_e.php#index_e"><span>e</span></a></li>
-      <li><a href="functions_f.php#index_f"><span>f</span></a></li>
-      <li><a href="functions_g.php#index_g"><span>g</span></a></li>
-      <li><a href="functions_h.php#index_h"><span>h</span></a></li>
-      <li><a href="functions_i.php#index_i"><span>i</span></a></li>
-      <li><a href="functions_j.php#index_j"><span>j</span></a></li>
-      <li><a href="functions_l.php#index_l"><span>l</span></a></li>
-      <li><a href="functions_m.php#index_m"><span>m</span></a></li>
-      <li><a href="functions_o.php#index_o"><span>o</span></a></li>
-      <li><a href="functions_p.php#index_p"><span>p</span></a></li>
-      <li><a href="functions_q.php#index_q"><span>q</span></a></li>
-      <li><a href="functions_r.php#index_r"><span>r</span></a></li>
-      <li><a href="functions_s.php#index_s"><span>s</span></a></li>
-      <li><a href="functions_t.php#index_t"><span>t</span></a></li>
-      <li><a href="functions_u.php#index_u"><span>u</span></a></li>
-      <li><a href="functions_v.php#index_v"><span>v</span></a></li>
-      <li><a href="functions_w.php#index_w"><span>w</span></a></li>
-      <li><a href="functions_x.php#index_x"><span>x</span></a></li>
-      <li><a href="functions_y.php#index_y"><span>y</span></a></li>
-      <li><a href="functions_z.php#index_z"><span>z</span></a></li>
-      <li><a href="functions_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -144,45 +112,57 @@ $(document).ready(function(){initNavTree('functions.php','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
-
-<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>add()
-: <a class="el" href="d0/d0b/a00004.php#a0e9d109a0cf2783b6ab6bfab6df719f3">Arguments</a>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div><ul>
+<li>adminWidgets()
+: <a class="el" href="d7/d46/a00002.php#aceb5bf98f0d68be0d164584da0605624">MainWindow</a>
 </li>
-<li>addColors()
-: <a class="el" href="da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">Color</a>
+<li>connections()
+: <a class="el" href="d7/d46/a00002.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
 </li>
-<li>addGraph()
-: <a class="el" href="d7/d7a/a00016.php#a0ae96172f1b8598300c4ac6134444697">GraphScene</a>
+<li>createAdminWidgets()
+: <a class="el" href="d7/d46/a00002.php#a2364ae069aba1f220ac4cd2fecaf4d6c">MainWindow</a>
 </li>
-<li>addInGraph()
-: <a class="el" href="d7/d7a/a00016.php#a262f69fe1830ded7878cf087236024f0">GraphScene</a>
+<li>createConnectDialog()
+: <a class="el" href="d7/d46/a00002.php#a63c8b347f526518517340a5f912c5575">MainWindow</a>
 </li>
-<li>addPosition()
-: <a class="el" href="da/d45/a00011.php#a3af679109317a6740c661fe5164158ff">Contraption</a>
+<li>createConnectWidgets()
+: <a class="el" href="d7/d46/a00002.php#a78ab18fed76eb54bda4508dc9be4b64b">MainWindow</a>
 </li>
-<li>addProg()
-: <a class="el" href="d0/d0b/a00004.php#a126d62fd1d3eed743b06cb1b83f9093d">Arguments</a>
+<li>initAdminWidgets()
+: <a class="el" href="d7/d46/a00002.php#a601d88aa6fbda83575e07d7dc9e19a15">MainWindow</a>
 </li>
-<li>angle
-: <a class="el" href="df/d86/a00012.php#a062e1a4fe2f7d6f8d771f13f10844a19">ContraptionAttr</a>
+<li>initConnectDialog()
+: <a class="el" href="d7/d46/a00002.php#a79d1533b5cbbc9040c5d78c9dfb29d38">MainWindow</a>
 </li>
-<li>Animal()
-: <a class="el" href="d7/d46/a00002.php#a46fa459910827becd0cc0463f260d4e0">Animal</a>
+<li>initConnectWidgets()
+: <a class="el" href="d7/d46/a00002.php#a5cfeb89a38b9225a3b3964e6d688ba60">MainWindow</a>
 </li>
-<li>Ant()
-: <a class="el" href="d1/d7c/a00003.php#a088ebbdb8d6cd05cf6f6c1d35b766c6e">Ant</a>
+<li>MainWindow()
+: <a class="el" href="d7/d46/a00002.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a>
 </li>
-<li>anyObstacle()
-: <a class="el" href="d7/d46/a00002.php#a3106b384960dd889ce599eed9d2b61d9">Animal</a>
+<li>setContentAdminWidgets()
+: <a class="el" href="d7/d46/a00002.php#af0aca5335b2f075de2cdbf0fe9c33645">MainWindow</a>
 </li>
-<li>Arguments()
-: <a class="el" href="d0/d0b/a00004.php#afe56d8477bfae32c239771056c233311">Arguments</a>
+<li>setContentConnectDialog()
+: <a class="el" href="d7/d46/a00002.php#a3338456a91f9f32f2f30b9e702df5ea4">MainWindow</a>
 </li>
-<li>attack()
-: <a class="el" href="d7/d46/a00002.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>
-, <a class="el" href="d4/d51/a00017.php#aa3fec9f067507361ca93e6f4edf4b731">Hostile</a>
+<li>setContentConnectWidgets()
+: <a class="el" href="d7/d46/a00002.php#a9da75111decb2a68a08c06dec6796d8a">MainWindow</a>
+</li>
+<li>useAdminWidgets()
+: <a class="el" href="d7/d46/a00002.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">MainWindow</a>
+</li>
+<li>useConnectDialog()
+: <a class="el" href="d7/d46/a00002.php#a79a619ed1dd1d17b8b3624d919fefe4e">MainWindow</a>
+</li>
+<li>useConnectWidgets()
+: <a class="el" href="d7/d46/a00002.php#aad6ca3020e583fffe727258905c15629">MainWindow</a>
+</li>
+<li>verifyConnection()
+: <a class="el" href="d7/d46/a00002.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
+</li>
+<li>~MainWindow()
+: <a class="el" href="d7/d46/a00002.php#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow</a>
 </li>
 </ul>
 </div><!-- contents -->

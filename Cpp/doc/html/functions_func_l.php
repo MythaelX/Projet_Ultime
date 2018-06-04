@@ -143,8 +143,11 @@ $(document).ready(function(){initNavTree('functions_func_l.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>lastId()
+: <a class="el" href="dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
+</li>
 <li>list()
-: <a class="el" href="dd/dad/a00005.php#a15f69ee85ca2665b59c1c0c6f4562b91">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
 </li>
 <li>load()
 : <a class="el" href="db/db2/a00020.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>

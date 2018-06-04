@@ -1,3 +1,8 @@
+/*!
+* \file functions.hpp
+* \author Mathias CABIOCH-DELALANDE
+* \date 02 juin 2018
+*/
 #ifndef HEADER_FUNCTIONS
 #define HEADER_FUNCTIONS
 

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d5/de9/a00176.php">List of all members</a>  </div>
+<a href="../../db/dd9/a00179.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">GraphScene Class Reference</div>  </div>
 </div><!--header-->
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 <div class="dynheader">
 Inheritance diagram for GraphScene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d4c/a00177.png" border="0" usemap="#GraphScene_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d0/d81/a00180.png" border="0" usemap="#GraphScene_inherit__map" alt="Inheritance graph"/></div>
 <map name="GraphScene_inherit__map" id="GraphScene_inherit__map">
 <area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
 </map>
@@ -131,7 +131,7 @@ Inheritance diagram for GraphScene:</div>
 <div class="dynheader">
 Collaboration diagram for GraphScene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d90/a00178.png" border="0" usemap="#GraphScene_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d8/d64/a00181.png" border="0" usemap="#GraphScene_coll__map" alt="Collaboration graph"/></div>
 <map name="GraphScene_coll__map" id="GraphScene_coll__map">
 <area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
 </map>

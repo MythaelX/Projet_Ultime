@@ -146,6 +146,12 @@ $(document).ready(function(){initNavTree('functions_func_t.php','');});
 <li>Timer()
 : <a class="el" href="d0/dc0/a00033.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
 </li>
+<li>try_connect()
+: <a class="el" href="dd/dad/a00005.php#a1e496e66cfaf5dc0209f448480bead5e">BDD</a>
+</li>
+<li>try_database()
+: <a class="el" href="dd/dad/a00005.php#afa848f628b17ea10115c828e1f97ba5b">BDD</a>
+</li>
 <li>turn()
 : <a class="el" href="d7/d46/a00002.php#a4547306d9b5d2184500f758cc926f133">Animal</a>
 </li>

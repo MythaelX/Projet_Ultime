@@ -119,34 +119,35 @@ $(document).ready(function(){initNavTree('d6/d97/a00045.php','../../');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for convert.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d54/a00094.png" border="0" usemap="#convert_8hpp" alt=""/></div>
+<div class="center"><img src="../../d9/d77/a00095.png" border="0" usemap="#convert_8hpp" alt=""/></div>
 <map name="convert_8hpp" id="convert_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d77/a00095.png" border="0" usemap="#convert_8hppdep" alt=""/></div>
+<div class="center"><img src="../../d9/df8/a00096.png" border="0" usemap="#convert_8hppdep" alt=""/></div>
 <map name="convert_8hppdep" id="convert_8hppdep">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="383,80,475,107"/>
-<area shape="rect" id="node5" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="167,304,257,331"/>
-<area shape="rect" id="node11" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="465,901,538,928"/>
-<area shape="rect" id="node19" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="212,229,287,256"/>
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="351,155,431,181"/>
-<area shape="rect" id="node20" href="../../d7/df7/a00058.php" title="Map.hpp" alt="" coords="407,304,479,331"/>
-<area shape="rect" id="node4" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="311,229,379,256"/>
-<area shape="rect" id="node6" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="235,379,349,405"/>
-<area shape="rect" id="node18" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="94,528,191,555"/>
-<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="554,453,635,480"/>
-<area shape="rect" id="node10" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="456,752,547,779"/>
-<area shape="rect" id="node17" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="169,453,255,480"/>
-<area shape="rect" id="node8" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="663,603,750,629"/>
-<area shape="rect" id="node13" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="683,528,771,555"/>
-<area shape="rect" id="node14" href="../../db/db6/a00074.php" title="Vegetal.hpp" alt="" coords="448,603,539,629"/>
-<area shape="rect" id="node9" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="704,677,771,704"/>
-<area shape="rect" id="node12" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="499,827,583,853"/>
-<area shape="rect" id="node15" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="501,677,579,704"/>
-<area shape="rect" id="node16" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="318,677,426,704"/>
+<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="107,80,199,107"/>
+<area shape="rect" id="node5" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="406,304,495,331"/>
+<area shape="rect" id="node11" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="275,901,349,928"/>
+<area shape="rect" id="node19" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="245,229,320,256"/>
+<area shape="rect" id="node21" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="489,155,567,181"/>
+<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="167,155,247,181"/>
+<area shape="rect" id="node20" href="../../d7/df7/a00058.php" title="Map.hpp" alt="" coords="95,304,167,331"/>
+<area shape="rect" id="node4" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="345,229,413,256"/>
+<area shape="rect" id="node6" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="272,379,387,405"/>
+<area shape="rect" id="node18" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="837,528,934,555"/>
+<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="433,453,514,480"/>
+<area shape="rect" id="node10" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="347,752,437,779"/>
+<area shape="rect" id="node17" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="207,453,292,480"/>
+<area shape="rect" id="node8" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="349,603,435,629"/>
+<area shape="rect" id="node13" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="348,528,436,555"/>
+<area shape="rect" id="node14" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="532,603,623,629"/>
+<area shape="rect" id="node9" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="359,677,425,704"/>
+<area shape="rect" id="node12" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="270,827,354,853"/>
+<area shape="rect" id="node15" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="633,677,711,704"/>
+<area shape="rect" id="node16" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="450,677,558,704"/>
 </map>
 </div>
 </div>
@@ -182,10 +183,14 @@ Functions</h2></td></tr>
 <tr class="memitem:aa70ef73b7fa30f68e3f14a6b60de10eb"><td class="memTemplItemLeft" align="right" valign="top">unsigned long long int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d97/a00045.php#aa70ef73b7fa30f68e3f14a6b60de10eb">tov</a> (V in)</td></tr>
 <tr class="memdesc:aa70ef73b7fa30f68e3f14a6b60de10eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in unsigned long long int.  <a href="#aa70ef73b7fa30f68e3f14a6b60de10eb">More...</a><br /></td></tr>
 <tr class="separator:aa70ef73b7fa30f68e3f14a6b60de10eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013b8a84340b1ab68401095a566cc0ea"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:a013b8a84340b1ab68401095a566cc0ea"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d97/a00045.php#a013b8a84340b1ab68401095a566cc0ea">tost</a> (V in)</td></tr>
+<tr class="memdesc:a013b8a84340b1ab68401095a566cc0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert <em>in</em> variable in size_t.  <a href="#a013b8a84340b1ab68401095a566cc0ea">More...</a><br /></td></tr>
+<tr class="separator:a013b8a84340b1ab68401095a566cc0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>01 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -361,6 +366,45 @@ template&lt;typename V &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>Return a string </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00048">48</a> of file <a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a013b8a84340b1ab68401095a566cc0ea"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t tost </td>
+          <td>(</td>
+          <td class="paramtype">V&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert <em>in</em> variable in size_t. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The variable to convert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a size_t </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00148">148</a> of file <a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d97/a00045_a013b8a84340b1ab68401095a566cc0ea_cgraph.png" border="0" usemap="#d6/d97/a00045_a013b8a84340b1ab68401095a566cc0ea_cgraph" alt=""/></div>
+<map name="d6/d97/a00045_a013b8a84340b1ab68401095a566cc0ea_cgraph" id="d6/d97/a00045_a013b8a84340b1ab68401095a566cc0ea_cgraph">
+<area shape="rect" id="node2" href="../../d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="97,5,137,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>

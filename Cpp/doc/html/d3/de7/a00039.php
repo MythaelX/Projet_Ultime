@@ -118,31 +118,32 @@ $(document).ready(function(){initNavTree('d3/de7/a00039.php','../../');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for array.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d1f/a00083.png" border="0" usemap="#array_8hpp" alt=""/></div>
+<div class="center"><img src="../../df/d5d/a00084.png" border="0" usemap="#array_8hpp" alt=""/></div>
 <map name="array_8hpp" id="array_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d5d/a00084.png" border="0" usemap="#array_8hppdep" alt=""/></div>
+<div class="center"><img src="../../df/d13/a00085.png" border="0" usemap="#array_8hppdep" alt=""/></div>
 <map name="array_8hppdep" id="array_8hppdep">
-<area shape="rect" id="node2" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="610,80,678,107"/>
-<area shape="rect" id="node9" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="606,752,679,779"/>
-<area shape="rect" id="node17" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="703,80,777,107"/>
-<area shape="rect" id="node3" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="599,155,689,181"/>
-<area shape="rect" id="node4" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="460,229,575,256"/>
-<area shape="rect" id="node16" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="681,379,778,405"/>
-<area shape="rect" id="node5" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,304,201,331"/>
-<area shape="rect" id="node8" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="265,603,356,629"/>
-<area shape="rect" id="node15" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="521,304,607,331"/>
-<area shape="rect" id="node6" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,453,102,480"/>
-<area shape="rect" id="node11" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,379,123,405"/>
-<area shape="rect" id="node12" href="../../db/db6/a00074.php" title="Vegetal.hpp" alt="" coords="223,453,313,480"/>
-<area shape="rect" id="node7" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,528,72,555"/>
-<area shape="rect" id="node10" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="471,677,555,704"/>
-<area shape="rect" id="node13" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,528,325,555"/>
-<area shape="rect" id="node14" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,528,458,555"/>
+<area shape="rect" id="node2" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="449,80,527,107"/>
+<area shape="rect" id="node3" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="521,155,589,181"/>
+<area shape="rect" id="node10" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="410,827,483,853"/>
+<area shape="rect" id="node18" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="613,155,688,181"/>
+<area shape="rect" id="node4" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="510,229,599,256"/>
+<area shape="rect" id="node5" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="497,304,612,331"/>
+<area shape="rect" id="node17" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="77,453,174,480"/>
+<area shape="rect" id="node6" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="435,379,517,405"/>
+<area shape="rect" id="node9" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="401,677,492,704"/>
+<area shape="rect" id="node16" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="592,379,677,405"/>
+<area shape="rect" id="node7" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="389,528,475,555"/>
+<area shape="rect" id="node12" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="355,453,443,480"/>
+<area shape="rect" id="node13" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="216,528,307,555"/>
+<area shape="rect" id="node8" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="379,603,445,629"/>
+<area shape="rect" id="node11" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="445,752,529,779"/>
+<area shape="rect" id="node14" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="277,603,355,629"/>
+<area shape="rect" id="node15" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="94,603,202,629"/>
 </map>
 </div>
 </div>
@@ -179,7 +180,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d3/de7/a00039_source.php">array.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -226,8 +227,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/de7/a00039_a54f668e0211381d2d15ca45dcf3c55d0_cgraph.png" border="0" usemap="#d3/de7/a00039_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" alt=""/></div>
 <map name="d3/de7/a00039_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" id="d3/de7/a00039_a54f668e0211381d2d15ca45dcf3c55d0_cgraph">
-<area shape="rect" id="node2" href="../../d6/d2c/a00072.php#a653f604d83b424493ac7d0d3d586a3c2" title="Find a value in the tree and return the node and the path to the node. " alt="" coords="124,5,167,32"/>
-<area shape="rect" id="node3" href="../../d6/d2c/a00072.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="215,5,269,32"/>
+<area shape="rect" id="node2" href="../../d1/d6e/a00073.php#a653f604d83b424493ac7d0d3d586a3c2" title="Find a value in the tree and return the node and the path to the node. " alt="" coords="124,5,167,32"/>
+<area shape="rect" id="node3" href="../../d1/d6e/a00073.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="215,5,269,32"/>
 </map>
 </div>
 </p>

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../db/dd9/a00179.php">List of all members</a>  </div>
+<a href="../../d7/d25/a00182.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 <div class="dynheader">
 Inheritance diagram for Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d81/a00180.png" border="0" usemap="#Hostile_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../dc/d52/a00183.png" border="0" usemap="#Hostile_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hostile_inherit__map" id="Hostile_inherit__map">
 <area shape="rect" id="node2" href="../../d7/d46/a00002.php" title="An animal. " alt="" coords="5,80,68,107"/>
 <area shape="rect" id="node3" href="../../d1/d7c/a00003.php" title="An ant. " alt="" coords="15,155,58,181"/>
@@ -132,7 +132,7 @@ Inheritance diagram for Hostile:</div>
 <div class="dynheader">
 Collaboration diagram for Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d64/a00181.png" border="0" usemap="#Hostile_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d2/d94/a00184.png" border="0" usemap="#Hostile_coll__map" alt="Collaboration graph"/></div>
 <map name="Hostile_coll__map" id="Hostile_coll__map">
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
 <area shape="rect" id="node3" href="../../da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>

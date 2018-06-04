@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['maparray',['MapArray',['../d7/df7/a00058.php#a1ee2140d47f9982ff0aa65b71256bc80',1,'Map.hpp']]],
-  ['mapline',['MapLine',['../d7/df7/a00058.php#aac0c2192b0b28c4353d6250244b70287',1,'Map.hpp']]]
+  ['graphmap',['GraphMap',['../d1/dea/a00054.php#ad5373de30ddd6b6c0f911f63ed642739',1,'GraphScene.hpp']]],
+  ['graphmaptype',['GraphMapType',['../d1/dea/a00054.php#a8dcc9a1fe4837db39cd87e259f0ed6ed',1,'GraphScene.hpp']]]
 ];

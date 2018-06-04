@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dd/de3/a00201.php">List of all members</a>  </div>
+<a href="../../d1/d72/a00204.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">QHSpacerItem Class Reference</div>  </div>
 </div><!--header-->
@@ -118,18 +118,18 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 <p>An implementation of QSpacerItem.  
  <a href="../../d0/d33/a00027.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for QHSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../db/d53/a00202.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d5/d13/a00205.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
 <map name="QHSpacerItem_inherit__map" id="QHSpacerItem_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for QHSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d79/a00203.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d5/df1/a00206.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
 <map name="QHSpacerItem_coll__map" id="QHSpacerItem_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An implementation of QSpacerItem. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d31/a00069_source.php#l00017">17</a> of file <a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00017">17</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aba8192a3f3587a70b418ad3a04d6c324"></a>
 <div class="memitem">
@@ -179,12 +179,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Create a QSpacerItem that expend horizontally. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d31/a00069_source.php#l00020">20</a> of file <a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00020">20</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a></li>
+<li><a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

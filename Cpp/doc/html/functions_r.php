@@ -156,6 +156,9 @@ $(document).ready(function(){initNavTree('functions_r.php','');});
 <li>remove()
 : <a class="el" href="dd/dad/a00005.php#afc6583ca28c79b36ac1919eacd60b8b5">BDD</a>
 </li>
+<li>reset()
+: <a class="el" href="dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9">BDD</a>
+</li>
 <li>restart()
 : <a class="el" href="de/d5e/a00007.php#a775bf97123b58c768571868341d28b08">Clock</a>
 , <a class="el" href="d0/dc0/a00033.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>

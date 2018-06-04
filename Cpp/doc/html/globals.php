@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Classes</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -79,32 +78,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="globals.php"><span>All</span></a></li>
       <li><a href="globals_func.php"><span>Functions</span></a></li>
-      <li><a href="globals_vars.php"><span>Variables</span></a></li>
-      <li><a href="globals_type.php"><span>Typedefs</span></a></li>
-      <li><a href="globals_enum.php"><span>Enumerations</span></a></li>
-      <li><a href="globals_defs.php"><span>Macros</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="#index_a"><span>a</span></a></li>
-      <li><a href="#index_b"><span>b</span></a></li>
-      <li><a href="#index_c"><span>c</span></a></li>
-      <li><a href="#index_d"><span>d</span></a></li>
-      <li><a href="#index_e"><span>e</span></a></li>
-      <li><a href="#index_f"><span>f</span></a></li>
-      <li><a href="#index_g"><span>g</span></a></li>
-      <li><a href="#index_i"><span>i</span></a></li>
-      <li><a href="#index_l"><span>l</span></a></li>
-      <li><a href="#index_m"><span>m</span></a></li>
-      <li><a href="#index_n"><span>n</span></a></li>
-      <li><a href="#index_p"><span>p</span></a></li>
-      <li><a href="#index_r"><span>r</span></a></li>
-      <li><a href="#index_s"><span>s</span></a></li>
-      <li><a href="#index_t"><span>t</span></a></li>
-      <li><a href="#index_u"><span>u</span></a></li>
-      <li><a href="#index_v"><span>v</span></a></li>
-      <li class="current"><a href="#index_w"><span>w</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -137,427 +110,81 @@ $(document).ready(function(){initNavTree('globals.php','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
-
-<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>abs()
-: <a class="el" href="d3/d8b/a00059.php#ad44dc8b9cd6eaa619880db19cf171751">maths.hpp</a>
-</li>
+<div class="textblock">Here is a list of all file members with links to the files they belong to:</div><ul>
 <li>addAsk()
-: <a class="el" href="dc/dee/a00053.php#a401428d09a75e0378b2a80ab68608162">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a2003fa6138007746e85c2b697d147b58">functions.hpp</a>
 </li>
 <li>addCategory()
-: <a class="el" href="dc/dee/a00053.php#a9999c796aa1a7db99b81a18240c4c672">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#afeb2d8632fb1dad24def5d95d27f43f0">functions.hpp</a>
 </li>
 <li>addGame()
-: <a class="el" href="dc/dee/a00053.php#aaeb7bbf801fa3ea799cd88ff56331cec">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a35ee2c6a333148aed442bb741b2bf82d">functions.hpp</a>
 </li>
 <li>addQuestion()
-: <a class="el" href="dc/dee/a00053.php#a5c753010f26dc9889b68d7991f23e366">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#ad86a004962b3149094f4cc660ecb05d4">functions.hpp</a>
 </li>
 <li>addUsers()
-: <a class="el" href="dc/dee/a00053.php#aff4b34ff516467549fc9daa6a8f3d4ac">functions.hpp</a>
-</li>
-<li>ALIAS_TEMPLATE_FUNCTION
-: <a class="el" href="d9/d2e/a00056.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
-</li>
-<li>arguments
-: <a class="el" href="d8/d41/a00038.php#ada59c388a54132792188bb23541d03c1">Args.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
-<li>bdd
-: <a class="el" href="db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>cesar
-: <a class="el" href="d3/dea/a00046.php#a1e4758b1e3ca1aefc42b33e55b9d8fe4">cryptage.hpp</a>
-</li>
-<li>collidesC()
-: <a class="el" href="d5/db6/a00042.php#a9e71f7b4b2dc9351d81534c753d02b2f">collides.hpp</a>
-</li>
-<li>collidesPC()
-: <a class="el" href="d5/db6/a00042.php#a3ce463b4b6c6477444bad3dcb1499f85">collides.hpp</a>
-</li>
-<li>collidesPR()
-: <a class="el" href="d5/db6/a00042.php#a2d9df4f37d280cec5c3e91ba7b83ed11">collides.hpp</a>
-</li>
-<li>collidesR()
-: <a class="el" href="d5/db6/a00042.php#a2c41f8567fc8effdd8ee6a163fbe9440">collides.hpp</a>
-</li>
-<li>collidesRC()
-: <a class="el" href="d5/db6/a00042.php#a8e7babfd2bd0dd7b2f392372848edc80">collides.hpp</a>
-</li>
-<li>Colors
-: <a class="el" href="d6/d42/a00043.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">console.hpp</a>
-</li>
-<li>contains()
-: <a class="el" href="d3/de7/a00039.php#a54f668e0211381d2d15ca45dcf3c55d0">array.hpp</a>
-</li>
-<li>convertInTreeValues()
-: <a class="el" href="d6/d2c/a00072.php#a0d56f2cd35d9fdf524dc21c2fd243233">tree.hpp</a>
-</li>
-<li>copyData()
-: <a class="el" href="d6/d2c/a00072.php#abf57df4057638a264b98edf669612682">tree.hpp</a>
-</li>
-<li>createBinaryTree()
-: <a class="el" href="d6/d2c/a00072.php#aca042957dcee09f6c183f30c6bcb109b">tree.hpp</a>
-</li>
-<li>createChild()
-: <a class="el" href="d6/d2c/a00072.php#a8bcdc1113d4578db82209cd9c38d8cb1">tree.hpp</a>
-</li>
-<li>createLeftVine()
-: <a class="el" href="d6/d2c/a00072.php#a574c0b660263cb94d9a1e8afd486d25a">tree.hpp</a>
-</li>
-<li>createRightVine()
-: <a class="el" href="d6/d2c/a00072.php#ac291426463c8625f13688e606a05e4b8">tree.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>decimalPart()
-: <a class="el" href="d3/d8b/a00059.php#a6a8af65111300da455bef67651f83c73">maths.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#aff4b34ff516467549fc9daa6a8f3d4ac">functions.hpp</a>
 </li>
 <li>deleteAsk()
-: <a class="el" href="dc/dee/a00053.php#af57e491c251eeaf366674ea6df624cd1">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#af57e491c251eeaf366674ea6df624cd1">functions.hpp</a>
 </li>
 <li>deleteCategory()
-: <a class="el" href="dc/dee/a00053.php#a14880f51cece87ca27691c7acfa01d8a">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a14880f51cece87ca27691c7acfa01d8a">functions.hpp</a>
 </li>
 <li>deleteGame()
-: <a class="el" href="dc/dee/a00053.php#a8205b4d8f60ec0146b15eace1d79d95a">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a8205b4d8f60ec0146b15eace1d79d95a">functions.hpp</a>
 </li>
 <li>deletePoints()
-: <a class="el" href="dc/dee/a00053.php#a46e754bfd8e03764969330bc39a1fa66">functions.hpp</a>
-</li>
-<li>deletePtr()
-: <a class="el" href="df/d5f/a00064.php#a55f9782a77b1459ff662dd21a69edab3">pointers.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a46e754bfd8e03764969330bc39a1fa66">functions.hpp</a>
 </li>
 <li>deleteQuestion()
-: <a class="el" href="dc/dee/a00053.php#a0c5a4808a05a3628f1b8e88ac398c70a">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a0c5a4808a05a3628f1b8e88ac398c70a">functions.hpp</a>
 </li>
 <li>deleteUsers()
-: <a class="el" href="dc/dee/a00053.php#a4df7c0879644507b94167bd565cd88bc">functions.hpp</a>
-</li>
-<li>Direction
-: <a class="el" href="d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">defines.hpp</a>
-</li>
-<li>dist()
-: <a class="el" href="d3/d8b/a00059.php#aa7446c664998ff110eeaf6c2bab19772">maths.hpp</a>
-</li>
-<li>dsigmoide()
-: <a class="el" href="d3/d8b/a00059.php#aaa55b9d8528b25fa5167908db82dff21">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
-<li>error_log()
-: <a class="el" href="d2/d79/a00051.php#aae3e42b5bf8dba8bf6431f2dea60c67b">errors.hpp</a>
-</li>
-<li>eucl()
-: <a class="el" href="d3/d8b/a00059.php#ab60083feca94427f7b2c4dfaeb249f07">maths.hpp</a>
-</li>
-<li>explode()
-: <a class="el" href="d2/db1/a00070.php#ad81b7e411acc02d29749ab23e6e615ee">string.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
-<li>fileFormat()
-: <a class="el" href="d1/d84/a00052.php#a42e1aa02e585ad4e35d14ef5c133395a">files.hpp</a>
-</li>
-<li>find()
-: <a class="el" href="d6/d2c/a00072.php#a653f604d83b424493ac7d0d3d586a3c2">tree.hpp</a>
-</li>
-<li>finder()
-: <a class="el" href="d6/d2c/a00072.php#a10b614bb30047d2274d091e553426e85">tree.hpp</a>
-</li>
-<li>freeTree()
-: <a class="el" href="d6/d2c/a00072.php#afcf4abb2890328ad05c09398704e641a">tree.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>getFileSize()
-: <a class="el" href="d1/d84/a00052.php#ab148021dd478aa69c83029819b268737">files.hpp</a>
-</li>
-<li>getLeftNodeCount()
-: <a class="el" href="d6/d2c/a00072.php#ac5c778ab71fa0fc25e9fc3d1d32e2c6a">tree.hpp</a>
-</li>
-<li>getlines()
-: <a class="el" href="d1/d84/a00052.php#a2917d2eb46f63f2c97b1a30de55ec3c5">files.hpp</a>
-</li>
-<li>getMilli()
-: <a class="el" href="d0/d89/a00071.php#a61c3fca982e77f1f6899239b22b9ad79">time.hpp</a>
-</li>
-<li>getRightNodeCount()
-: <a class="el" href="d6/d2c/a00072.php#a62d38298b4f4a9c44baa90aa8e9f29b0">tree.hpp</a>
-</li>
-<li>getSec()
-: <a class="el" href="d0/d89/a00071.php#a5834b1cc3c766f7520e829ca23284546">time.hpp</a>
-</li>
-<li>getType()
-: <a class="el" href="d1/d6e/a00073.php#a6d01957e99131ce0c8d0902a9a8cdf38">types.hpp</a>
-</li>
-<li>GraphMap
-: <a class="el" href="d1/dea/a00054.php#ad5373de30ddd6b6c0f911f63ed642739">GraphScene.hpp</a>
-</li>
-<li>GraphMapType
-: <a class="el" href="d1/dea/a00054.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphScene.hpp</a>
-</li>
-<li>GRD()
-: <a class="el" href="d6/d2c/a00072.php#a3fde380f27243eba602c10dd02d7e377">tree.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
-<li>implode()
-: <a class="el" href="d3/de7/a00039.php#a5090547d046a342ba3ac573e8248f628">array.hpp</a>
-</li>
-<li>info_log()
-: <a class="el" href="d2/d79/a00051.php#a44a10c1b63e7f3384683e01f34ccd0e8">errors.hpp</a>
-</li>
-<li>insert()
-: <a class="el" href="d6/d2c/a00072.php#a43dc65d8aebbcca6dd43ec0a2b0637b6">tree.hpp</a>
-</li>
-<li>isNumber()
-: <a class="el" href="d3/d8b/a00059.php#a65b1640156c68ea7687a41428022c1d8">maths.hpp</a>
-</li>
-<li>isPrime()
-: <a class="el" href="d3/d8b/a00059.php#a94305b67cb0435c3395b548ec8283154">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
-<li>LEFT_NODE
-: <a class="el" href="d6/d2c/a00072.php#ab2ab3f795890edd232dacd1bf163ef02">tree.hpp</a>
-</li>
-<li>leftBalance()
-: <a class="el" href="d6/d2c/a00072.php#a92a22cef67a94326ca5c854c6426dfa4">tree.hpp</a>
-</li>
-<li>leftBalanceVine()
-: <a class="el" href="d6/d2c/a00072.php#a6f6cae1bd0191f7106f1ad3375c3855e">tree.hpp</a>
-</li>
-<li>leftRotate()
-: <a class="el" href="d6/d2c/a00072.php#ab89459cf62f1cb8716e7e369ec281555">tree.hpp</a>
-</li>
-<li>line_number
-: <a class="el" href="d2/d79/a00051.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a4df7c0879644507b94167bd565cd88bc">functions.hpp</a>
 </li>
 <li>list()
-: <a class="el" href="dc/dee/a00053.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">functions.hpp</a>
 </li>
 <li>listAsk()
-: <a class="el" href="dc/dee/a00053.php#a0820a14dbb5072c112cf32466c8fc6c3">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a0820a14dbb5072c112cf32466c8fc6c3">functions.hpp</a>
 </li>
 <li>listCategory()
-: <a class="el" href="dc/dee/a00053.php#af3143ec2b5319c969adf991c009373f0">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#af3143ec2b5319c969adf991c009373f0">functions.hpp</a>
 </li>
 <li>listDifficulty()
-: <a class="el" href="dc/dee/a00053.php#ad63ee67279e62ee5eaf73bb188ba0b4a">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#ad63ee67279e62ee5eaf73bb188ba0b4a">functions.hpp</a>
 </li>
 <li>listGame()
-: <a class="el" href="dc/dee/a00053.php#a1caf2a7a9b33c712063314f6bac74470">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a1caf2a7a9b33c712063314f6bac74470">functions.hpp</a>
 </li>
 <li>listPoints()
-: <a class="el" href="dc/dee/a00053.php#af34790c4f5c0c4ad30d069fa2766559c">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#af34790c4f5c0c4ad30d069fa2766559c">functions.hpp</a>
 </li>
 <li>listQuestion()
-: <a class="el" href="dc/dee/a00053.php#a887113739bafac257bbd35996edfeb81">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a887113739bafac257bbd35996edfeb81">functions.hpp</a>
 </li>
 <li>listUsers()
-: <a class="el" href="dc/dee/a00053.php#aa43b53615192bcce310fc51944bf217b">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#aa43b53615192bcce310fc51944bf217b">functions.hpp</a>
 </li>
-<li>log2p()
-: <a class="el" href="d3/d8b/a00059.php#a75105ac3cb9ee25de080d973f0bfe112">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
-<li>MapArray
-: <a class="el" href="d7/df7/a00058.php#a1ee2140d47f9982ff0aa65b71256bc80">Map.hpp</a>
-</li>
-<li>MapLine
-: <a class="el" href="d7/df7/a00058.php#aac0c2192b0b28c4353d6250244b70287">Map.hpp</a>
-</li>
-<li>max()
-: <a class="el" href="d3/d8b/a00059.php#ac5673d3f9fc79ba39127c4a339dea626">maths.hpp</a>
-</li>
-<li>min()
-: <a class="el" href="d3/d8b/a00059.php#a193486f414e3b93b2284a85977a4a02c">maths.hpp</a>
-</li>
-<li>mod()
-: <a class="el" href="d3/d8b/a00059.php#a9f362f22a77587bb719f13bc7fb185a2">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
-<li>NO_NODE
-: <a class="el" href="d6/d2c/a00072.php#adfa80cc857b10a19d8c8146856d390fe">tree.hpp</a>
-</li>
-<li>NodeWeight
-: <a class="el" href="d6/d2c/a00072.php#a0a1e73288e0ceb794c65bd86a4b7f231">tree.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
-<li>pgcd()
-: <a class="el" href="d3/d8b/a00059.php#a6e9b223b45f9c0ef8d93fa65db1a8f98">maths.hpp</a>
-</li>
-<li>print_r()
-: <a class="el" href="d3/de7/a00039.php#ad2b1019448d0599264d51172242e1be4">array.hpp</a>
-</li>
-<li>printNode()
-: <a class="el" href="d6/d2c/a00072.php#a150358d1355a1feec0dd9c239e528ba5">tree.hpp</a>
-</li>
-<li>printTree()
-: <a class="el" href="d6/d2c/a00072.php#a822f289cec240962d857d201aaea89b5">tree.hpp</a>
-</li>
-<li>printType()
-: <a class="el" href="d1/d6e/a00073.php#aecf59a2b719b8c7121eee69d1bb737e8">types.hpp</a>
-</li>
-<li>ProjectionSurSegment()
-: <a class="el" href="d5/db6/a00042.php#a1213c000f201a2e1991e60a0e2973d91">collides.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>rewrite()
-: <a class="el" href="d3/de7/a00039.php#addfa691004e6d94461994bb7eccadf19">array.hpp</a>
-</li>
-<li>RIGHT_NODE
-: <a class="el" href="d6/d2c/a00072.php#ae4fbe8a34f580e60f6ed9f42c245489c">tree.hpp</a>
-</li>
-<li>rightBalance()
-: <a class="el" href="d6/d2c/a00072.php#a382275a07cf1f2a46cbaabc75fa93215">tree.hpp</a>
-</li>
-<li>rightBalanceVine()
-: <a class="el" href="d6/d2c/a00072.php#a3e3bec3cf3101c5fd44f21ff9c4349f7">tree.hpp</a>
-</li>
-<li>rightRotate()
-: <a class="el" href="d6/d2c/a00072.php#ac0c95fabf27f049acdedcbc8dac1df25">tree.hpp</a>
-</li>
-<li>rng
-: <a class="el" href="d9/db3/a00066.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">RNG.hpp</a>
-</li>
-<li>rngRange()
-: <a class="el" href="d9/db3/a00066.php#a9f2903f65500ce246447f08fea1d734a">RNG.hpp</a>
-</li>
-<li>round()
-: <a class="el" href="d3/d8b/a00059.php#a709c7dabaae9dea50d277980278081e0">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>sigmoide()
-: <a class="el" href="d3/d8b/a00059.php#af667d8a0d7e420b313a26791c49359fb">maths.hpp</a>
-</li>
-<li>sortAsc()
-: <a class="el" href="da/d24/a00068.php#a26ed92f1897ceffb429cd8f436460a3e">sorting.hpp</a>
-</li>
-<li>sortDesc()
-: <a class="el" href="da/d24/a00068.php#a3d14862e28ea7d3bb92662b4068f5763">sorting.hpp</a>
-</li>
-<li>sorter()
-: <a class="el" href="d6/d2c/a00072.php#a6ba86e01e66ef0911ee1fd3e3a1db1ca">tree.hpp</a>
-</li>
-<li>split()
-: <a class="el" href="d2/db1/a00070.php#ad0f62921e752f26b9ebd77ec32e8824e">string.hpp</a>
-</li>
-<li>sq()
-: <a class="el" href="d3/d8b/a00059.php#a54a702d8a0a5aa317cc65f5b01ed4ee6">maths.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
-<li>Tile
-: <a class="el" href="d7/df7/a00058.php#acd2017d946fd818c3b8ca377bc4006c7">Map.hpp</a>
-</li>
-<li>tod()
-: <a class="el" href="d6/d97/a00045.php#a2432d9eaa9d57e487a6813a01993e8ef">convert.hpp</a>
-</li>
-<li>tof()
-: <a class="el" href="d6/d97/a00045.php#a28ef26e9e217e572497d67676081f08e">convert.hpp</a>
-</li>
-<li>toi()
-: <a class="el" href="d6/d97/a00045.php#a0de9d90c31d0a16f1d173f84be9e091a">convert.hpp</a>
-</li>
-<li>tos()
-: <a class="el" href="d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7">convert.hpp</a>
-</li>
-<li>tou()
-: <a class="el" href="d6/d97/a00045.php#a046732bd284eb239dc2eda5a92a17681">convert.hpp</a>
-</li>
-<li>tov()
-: <a class="el" href="d6/d97/a00045.php#aa70ef73b7fa30f68e3f14a6b60de10eb">convert.hpp</a>
-</li>
-<li>treeHeight()
-: <a class="el" href="d6/d2c/a00072.php#a1186e4caac5cd7b49c6ebb5dfac23e53">tree.hpp</a>
-</li>
-<li>trim()
-: <a class="el" href="d2/db1/a00070.php#aabfbfab3c3f6562da02d78a54d1ca0e0">string.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>updateAsk()
-: <a class="el" href="dc/dee/a00053.php#aaee44428f5b0401f7b9ad5b073254fd3">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#aaee44428f5b0401f7b9ad5b073254fd3">functions.hpp</a>
 </li>
 <li>updateCategory()
-: <a class="el" href="dc/dee/a00053.php#a2227326c53ffa5963bcc96c7983c6383">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a2227326c53ffa5963bcc96c7983c6383">functions.hpp</a>
 </li>
 <li>updateDifficulty()
-: <a class="el" href="dc/dee/a00053.php#a4f84d201465ec63094f6407c0cdb6a8d">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a4f84d201465ec63094f6407c0cdb6a8d">functions.hpp</a>
 </li>
 <li>updateGame()
-: <a class="el" href="dc/dee/a00053.php#a870df29ea630e53aa77c960373e0825f">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#a870df29ea630e53aa77c960373e0825f">functions.hpp</a>
 </li>
 <li>updateQuestion()
-: <a class="el" href="dc/dee/a00053.php#ae13343b52f992bcba9e6fcb79bddf71e">functions.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#ae13343b52f992bcba9e6fcb79bddf71e">functions.hpp</a>
 </li>
 <li>updateUsers()
-: <a class="el" href="dc/dee/a00053.php#ac6acc509b5aa3caa3f76450ed835759e">functions.hpp</a>
-</li>
-<li>utmost
-: <a class="el" href="d1/dea/a00054.php#a464fcd96dfa56d6feac32bfcd2e0403f">GraphScene.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
-<li>VI
-: <a class="el" href="d6/d2d/a00047.php#a44dfccd15fd47aa8db19125945f8af08">defines.hpp</a>
-</li>
-<li>VS
-: <a class="el" href="d6/d2d/a00047.php#a44aff682fd9726ed5ca19159f23b2e6b">defines.hpp</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
-<li>warning_log()
-: <a class="el" href="d2/d79/a00051.php#ab02b1d548b1c53cda0de554f2e086e43">errors.hpp</a>
-</li>
-<li>wholePart()
-: <a class="el" href="d3/d8b/a00059.php#ab5254a19797bf686467bc0f475bf6fdd">maths.hpp</a>
+: <a class="el" href="d1/d7c/a00003.php#ac6acc509b5aa3caa3f76450ed835759e">functions.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

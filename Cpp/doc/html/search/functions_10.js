@@ -16,6 +16,7 @@ var searchData=
   ['setid',['setId',['../d3/dfe/a00025.php#aaf3aba878522716fba266caa573df8f9',1,'Player']]],
   ['setlevel',['setLevel',['../da/d45/a00011.php#ae9131d3133c67c22f8692d4bd806187e',1,'Contraption']]],
   ['setlife',['setLife',['../dd/d1b/a00015.php#afd211ba2273c0fafef236763c80df4e9',1,'Entity']]],
+  ['setlines',['setlines',['../d1/d84/a00052.php#aa9034f20bf3b289424ebda507e52e427',1,'files.hpp']]],
   ['setmail',['setMail',['../d3/dfe/a00025.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab',1,'Player']]],
   ['setmap',['setMap',['../da/d45/a00011.php#a0d88e87317d6f003471fcf52808a4a25',1,'Contraption']]],
   ['setpassword',['setPassword',['../d3/dfe/a00025.php#a809fc643a612879ac35690383dfd31e8',1,'Player']]],
@@ -54,10 +55,10 @@ var searchData=
   ['setystep',['setYStep',['../d7/d7a/a00016.php#a0691b268ad07ea33bf254b0f489df59d',1,'GraphScene']]],
   ['setz',['setZ',['../da/d45/a00011.php#a61b34301ffd55f3f9b6bc319020e691d',1,'Contraption']]],
   ['sigmoide',['sigmoide',['../d3/d8b/a00059.php#af667d8a0d7e420b313a26791c49359fb',1,'maths.hpp']]],
-  ['sortasc',['sortAsc',['../da/d24/a00068.php#a26ed92f1897ceffb429cd8f436460a3e',1,'sorting.hpp']]],
-  ['sortdesc',['sortDesc',['../da/d24/a00068.php#a3d14862e28ea7d3bb92662b4068f5763',1,'sorting.hpp']]],
-  ['sorter',['sorter',['../d6/d2c/a00072.php#a6ba86e01e66ef0911ee1fd3e3a1db1ca',1,'tree.hpp']]],
-  ['split',['split',['../d2/db1/a00070.php#ad0f62921e752f26b9ebd77ec32e8824e',1,'split(std::string in, char separator= &apos; &apos;):&#160;string.hpp'],['../d2/db1/a00070.php#a3f9b8ef62eba953dd328969e206b3f11',1,'split(std::string in, std::string c):&#160;string.hpp']]],
+  ['sortasc',['sortAsc',['../d4/d31/a00069.php#a26ed92f1897ceffb429cd8f436460a3e',1,'sorting.hpp']]],
+  ['sortdesc',['sortDesc',['../d4/d31/a00069.php#a3d14862e28ea7d3bb92662b4068f5763',1,'sorting.hpp']]],
+  ['sorter',['sorter',['../d1/d6e/a00073.php#a6ba86e01e66ef0911ee1fd3e3a1db1ca',1,'tree.hpp']]],
+  ['split',['split',['../d0/d89/a00071.php#ad0f62921e752f26b9ebd77ec32e8824e',1,'split(std::string in, char separator= &apos; &apos;):&#160;string.hpp'],['../d0/d89/a00071.php#a3f9b8ef62eba953dd328969e206b3f11',1,'split(std::string in, std::string c):&#160;string.hpp']]],
   ['sq',['sq',['../d3/d8b/a00059.php#a54a702d8a0a5aa317cc65f5b01ed4ee6',1,'maths.hpp']]],
   ['start',['start',['../de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c',1,'Clock::start()'],['../d0/dc0/a00033.php#a18a29af58bc18e1644230c747afb35ec',1,'Timer::start()']]]
 ];

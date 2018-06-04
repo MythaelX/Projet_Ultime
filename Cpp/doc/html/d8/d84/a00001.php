@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -104,11 +103,7 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="../../d0/d89/a00071.php#a61c3fca982e77f1f6899239b22b9ad79">getMilli</a>  ()</dt>
-<dd>Return the milliseconds since the Epoch  </dd>
-<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d1/d2b/a00018.php">jumble</a>  </dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d0/dc0/a00033.php">Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="../../d7/d46/a00002.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow::verifyConnection</a>  ()</dt>
 <dd></dd>
 </dl>
 </div></div><!-- contents -->

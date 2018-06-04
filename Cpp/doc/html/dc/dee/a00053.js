@@ -1,9 +1,9 @@
 var a00053 =
 [
-    [ "addAsk", "dc/dee/a00053.php#a401428d09a75e0378b2a80ab68608162", null ],
-    [ "addCategory", "dc/dee/a00053.php#a9999c796aa1a7db99b81a18240c4c672", null ],
-    [ "addGame", "dc/dee/a00053.php#aaeb7bbf801fa3ea799cd88ff56331cec", null ],
-    [ "addQuestion", "dc/dee/a00053.php#a5c753010f26dc9889b68d7991f23e366", null ],
+    [ "addAsk", "dc/dee/a00053.php#a2003fa6138007746e85c2b697d147b58", null ],
+    [ "addCategory", "dc/dee/a00053.php#afeb2d8632fb1dad24def5d95d27f43f0", null ],
+    [ "addGame", "dc/dee/a00053.php#a35ee2c6a333148aed442bb741b2bf82d", null ],
+    [ "addQuestion", "dc/dee/a00053.php#ad86a004962b3149094f4cc660ecb05d4", null ],
     [ "addUsers", "dc/dee/a00053.php#aff4b34ff516467549fc9daa6a8f3d4ac", null ],
     [ "deleteAsk", "dc/dee/a00053.php#af57e491c251eeaf366674ea6df624cd1", null ],
     [ "deleteCategory", "dc/dee/a00053.php#a14880f51cece87ca27691c7acfa01d8a", null ],

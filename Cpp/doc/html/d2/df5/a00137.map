@@ -1,2 +1,5 @@
-<map id="Spacers.hpp" name="Spacers.hpp">
+<map id="Scene.hpp" name="Scene.hpp">
+<area shape="rect" id="node2" href="$d4/dca/a00048.php" title="DrawScene.hpp" alt="" coords="5,80,120,107"/>
+<area shape="rect" id="node3" href="$de/de1/a00065.php" title="QtDefines.hpp" alt="" coords="104,155,211,181"/>
+<area shape="rect" id="node4" href="$d1/dea/a00054.php" title="GraphScene.hpp" alt="" coords="195,80,314,107"/>
 </map>

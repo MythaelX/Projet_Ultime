@@ -147,11 +147,14 @@ $(document).ready(function(){initNavTree('functions_l.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>lastId()
+: <a class="el" href="dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
+</li>
 <li>left
 : <a class="el" href="d7/de0/a00022.php#a2841886a16c27e72b21885025c00b44b">Node&lt; T &gt;</a>
 </li>
 <li>list()
-: <a class="el" href="dd/dad/a00005.php#a15f69ee85ca2665b59c1c0c6f4562b91">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
 </li>
 <li>load()
 : <a class="el" href="db/db2/a00020.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>

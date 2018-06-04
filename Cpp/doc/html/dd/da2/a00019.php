@@ -108,39 +108,51 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dc/d52/a00183.php">List of all members</a>  </div>
+<a href="../../d8/d00/a00186.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MainWindow Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>The window that is shown.  
+ <a href="../../dd/da2/a00019.php#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d1/d22/a00057_source.php">MainWindow.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MainWindow:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d94/a00184.png" border="0" usemap="#MainWindow_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d6/daa/a00187.png" border="0" usemap="#MainWindow_inherit__map" alt="Inheritance graph"/></div>
 <map name="MainWindow_inherit__map" id="MainWindow_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for MainWindow:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/df3/a00185.png" border="0" usemap="#MainWindow_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../da/d15/a00188.png" border="0" usemap="#MainWindow_coll__map" alt="Collaboration graph"/></div>
 <map name="MainWindow_coll__map" id="MainWindow_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a> ()</td></tr>
+<tr class="memdesc:a430b81b3bb84b8561b4e63fe76e28c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try and verify the connection.  <a href="#a430b81b3bb84b8561b4e63fe76e28c39">More...</a><br /></td></tr>
+<tr class="separator:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a08a133d21fea8948f84acc105ab5fc33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a> (QWidget *parent=NULL)</td></tr>
+<tr class="memdesc:a08a133d21fea8948f84acc105ab5fc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the window to connect to the database.  <a href="#a08a133d21fea8948f84acc105ab5fc33">More...</a><br /></td></tr>
 <tr class="separator:a08a133d21fea8948f84acc105ab5fc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a> ()</td></tr>
 <tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00007">7</a> of file <a class="el" href="../../d1/d22/a00057_source.php">MainWindow.h</a>.</p>
+<div class="textblock"><p>The window that is shown. </p>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00017">17</a> of file <a class="el" href="../../d1/d22/a00057_source.php">MainWindow.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a08a133d21fea8948f84acc105ab5fc33"></a>
 <div class="memitem">
@@ -156,6 +168,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Create the window to connect to the database. </p>
+
 </div>
 </div>
 <a class="anchor" id="ae98d00a93bc118200eeef9f9bba1dba7"></a>
@@ -170,6 +184,32 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a430b81b3bb84b8561b4e63fe76e28c39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::connections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try and verify the connection. </p>
 
 </div>
 </div>

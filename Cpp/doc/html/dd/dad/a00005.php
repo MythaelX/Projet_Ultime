@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="../../d2/d34/a00156.php">List of all members</a>  </div>
+<a href="../../de/db9/a00159.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">BDD Class Reference</div>  </div>
 </div><!--header-->
@@ -123,47 +123,74 @@ $(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abc551344b2e136090b8d2d82ab6ff0f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#abc551344b2e136090b8d2d82ab6ff0f2">BDD</a> ()</td></tr>
-<tr class="memdesc:abc551344b2e136090b8d2d82ab6ff0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#abc551344b2e136090b8d2d82ab6ff0f2">More...</a><br /></td></tr>
-<tr class="separator:abc551344b2e136090b8d2d82ab6ff0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1a6117c471a7575a224321eaf0dba2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a> (bool fatal_error=true)</td></tr>
+<tr class="memdesc:aed1a6117c471a7575a224321eaf0dba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#aed1a6117c471a7575a224321eaf0dba2">More...</a><br /></td></tr>
+<tr class="separator:aed1a6117c471a7575a224321eaf0dba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a865c7d7590e1c3f227346b1045713099"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a865c7d7590e1c3f227346b1045713099">~BDD</a> ()</td></tr>
 <tr class="separator:a865c7d7590e1c3f227346b1045713099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786ee3b78b40472d4a547263a2e583fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a786ee3b78b40472d4a547263a2e583fa">setDatabase</a> (std::string database)</td></tr>
 <tr class="memdesc:a786ee3b78b40472d4a547263a2e583fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to the database.  <a href="#a786ee3b78b40472d4a547263a2e583fa">More...</a><br /></td></tr>
 <tr class="separator:a786ee3b78b40472d4a547263a2e583fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa848f628b17ea10115c828e1f97ba5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#afa848f628b17ea10115c828e1f97ba5b">try_database</a> (std::string database)</td></tr>
+<tr class="memdesc:afa848f628b17ea10115c828e1f97ba5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a connection to the database.  <a href="#afa848f628b17ea10115c828e1f97ba5b">More...</a><br /></td></tr>
+<tr class="separator:afa848f628b17ea10115c828e1f97ba5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2408212ec7516e6f6234395bb4b48e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#afd2408212ec7516e6f6234395bb4b48e">setTable</a> (std::string table)</td></tr>
 <tr class="memdesc:afd2408212ec7516e6f6234395bb4b48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the table to simplify the others functions.  <a href="#afd2408212ec7516e6f6234395bb4b48e">More...</a><br /></td></tr>
 <tr class="separator:afd2408212ec7516e6f6234395bb4b48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memItemLeft" align="right" valign="top">sql::ResultSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">query</a> (std::string task)</td></tr>
 <tr class="memdesc:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the task to the database.  <a href="#a9d8f1885fa2114dd0fa34c13e4e99a5c">More...</a><br /></td></tr>
 <tr class="separator:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f69ee85ca2665b59c1c0c6f4562b91"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a15f69ee85ca2665b59c1c0c6f4562b91">list</a> (std::string table=&quot;&quot;)</td></tr>
-<tr class="memdesc:a15f69ee85ca2665b59c1c0c6f4562b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the content of the given table.  <a href="#a15f69ee85ca2665b59c1c0c6f4562b91">More...</a><br /></td></tr>
-<tr class="separator:a15f69ee85ca2665b59c1c0c6f4562b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad08567615df2acb02c83690050a872d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#ad08567615df2acb02c83690050a872d9">insert</a> (std::string values, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
-<tr class="memdesc:ad08567615df2acb02c83690050a872d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the INSERT in SQL.  <a href="#ad08567615df2acb02c83690050a872d9">More...</a><br /></td></tr>
-<tr class="separator:ad08567615df2acb02c83690050a872d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624539007ee74764ba5d8f6bb0e7a354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d3a/a00040.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354">list</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a624539007ee74764ba5d8f6bb0e7a354"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the content of the given table.  <a href="#a624539007ee74764ba5d8f6bb0e7a354">More...</a><br /></td></tr>
+<tr class="separator:a624539007ee74764ba5d8f6bb0e7a354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059c72982d8075a1e0fcc175461b1430"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a059c72982d8075a1e0fcc175461b1430">insert</a> (std::string values, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a059c72982d8075a1e0fcc175461b1430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the INSERT in SQL.  <a href="#a059c72982d8075a1e0fcc175461b1430">More...</a><br /></td></tr>
+<tr class="separator:a059c72982d8075a1e0fcc175461b1430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9635488b6707d5dd16c669c9ca967716"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a9635488b6707d5dd16c669c9ca967716">update</a> (std::string values, std::string conditions, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
 <tr class="memdesc:a9635488b6707d5dd16c669c9ca967716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the UPDATE in SQL.  <a href="#a9635488b6707d5dd16c669c9ca967716">More...</a><br /></td></tr>
 <tr class="separator:a9635488b6707d5dd16c669c9ca967716"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6583ca28c79b36ac1919eacd60b8b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#afc6583ca28c79b36ac1919eacd60b8b5">remove</a> (std::string condition, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
 <tr class="memdesc:afc6583ca28c79b36ac1919eacd60b8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the DELETE in SQL.  <a href="#afc6583ca28c79b36ac1919eacd60b8b5">More...</a><br /></td></tr>
 <tr class="separator:afc6583ca28c79b36ac1919eacd60b8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006fc2acc34962ebafb9ce19640ad18b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b">exists</a> (std::string task, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a006fc2acc34962ebafb9ce19640ad18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if something exist in the bdd.  <a href="#a006fc2acc34962ebafb9ce19640ad18b">More...</a><br /></td></tr>
+<tr class="separator:a006fc2acc34962ebafb9ce19640ad18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1c844ddb0d47a2f698942b640853274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#ad1c844ddb0d47a2f698942b640853274">connect</a> (std::string url, std::string user, std::string pass)</td></tr>
 <tr class="memdesc:ad1c844ddb0d47a2f698942b640853274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to a bdd.  <a href="#ad1c844ddb0d47a2f698942b640853274">More...</a><br /></td></tr>
 <tr class="separator:ad1c844ddb0d47a2f698942b640853274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e496e66cfaf5dc0209f448480bead5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a1e496e66cfaf5dc0209f448480bead5e">try_connect</a> (std::string url, std::string user, std::string pass)</td></tr>
+<tr class="memdesc:a1e496e66cfaf5dc0209f448480bead5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a connection to a bdd.  <a href="#a1e496e66cfaf5dc0209f448480bead5e">More...</a><br /></td></tr>
+<tr class="separator:a1e496e66cfaf5dc0209f448480bead5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9">reset</a> ()</td></tr>
+<tr class="memdesc:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the object.  <a href="#a61fdb222ad3b05fb70a221d78da5a9c9">More...</a><br /></td></tr>
+<tr class="separator:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a280bf2b854a6a0e3a573fbd7c96c84c2">debug</a> ()</td></tr>
 <tr class="memdesc:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the debug for the class.  <a href="#a280bf2b854a6a0e3a573fbd7c96c84c2">More...</a><br /></td></tr>
 <tr class="separator:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a962782dc60b83f30a7ec387e0747178d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a962782dc60b83f30a7ec387e0747178d">undebug</a> ()</td></tr>
 <tr class="memdesc:a962782dc60b83f30a7ec387e0747178d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the debug for the class.  <a href="#a962782dc60b83f30a7ec387e0747178d">More...</a><br /></td></tr>
 <tr class="separator:a962782dc60b83f30a7ec387e0747178d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a498e375deb333279886dd91cf389c986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d3a/a00040.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a498e375deb333279886dd91cf389c986">getColumns</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a498e375deb333279886dd91cf389c986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the columns of a table with their attributes.  <a href="#a498e375deb333279886dd91cf389c986">More...</a><br /></td></tr>
+<tr class="separator:a498e375deb333279886dd91cf389c986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e">getCount</a> (std::string table=&quot;&quot;, std::string conditions=&quot;&quot;)</td></tr>
+<tr class="memdesc:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of lines with the conditions.  <a href="#ae9ad54a4e2ca989e1f22dc497db4b43e">More...</a><br /></td></tr>
+<tr class="separator:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a035bbfa977617239704b3d33c4c5ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac">lastId</a> ()</td></tr>
+<tr class="memdesc:a9a035bbfa977617239704b3d33c4c5ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last created id in the table.  <a href="#a9a035bbfa977617239704b3d33c4c5ac">More...</a><br /></td></tr>
+<tr class="separator:a9a035bbfa977617239704b3d33c4c5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a686232a011e8b4552e00cdcea1bf8b66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a686232a011e8b4552e00cdcea1bf8b66">formatValues</a> (std::string &amp;values)</td></tr>
-<tr class="memdesc:a686232a011e8b4552e00cdcea1bf8b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the values string.  <a href="#a686232a011e8b4552e00cdcea1bf8b66">More...</a><br /></td></tr>
-<tr class="separator:a686232a011e8b4552e00cdcea1bf8b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942">formatValues</a> (std::string &amp;values, std::string table)</td></tr>
+<tr class="memdesc:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the values string.  <a href="#ac99c0f8c86fab4de2efe6b91b22fb942">More...</a><br /></td></tr>
+<tr class="separator:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d633320c008fade8c3ee5ff08cc821"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821">formatConditions</a> (std::string &amp;conditions, std::string table)</td></tr>
+<tr class="memdesc:af8d633320c008fade8c3ee5ff08cc821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the conditions string.  <a href="#af8d633320c008fade8c3ee5ff08cc821">More...</a><br /></td></tr>
+<tr class="separator:af8d633320c008fade8c3ee5ff08cc821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07">formatBdd</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
+<tr class="memdesc:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format values for the bdd.  <a href="#a79cffc4dc63f93f9d9fce893c5b66a07">More...</a><br /></td></tr>
+<tr class="separator:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to connect to a <a class="el" href="../../dd/dad/a00005.php" title="A class to connect to a BDD. ">BDD</a>. </p>
@@ -180,16 +207,17 @@ Protected Member Functions</h2></td></tr>
  meta-&gt;isAutoIncrement(numLine) : return true if the column is autoincrement, false either<br />
 </p>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00040">40</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00045">45</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abc551344b2e136090b8d2d82ab6ff0f2"></a>
+<a class="anchor" id="aed1a6117c471a7575a224321eaf0dba2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BDD::BDD </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fatal_error</em> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -281,11 +309,125 @@ Protected Member Functions</h2></td></tr>
 
 <p>Start the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00119">119</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00154">154</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a686232a011e8b4552e00cdcea1bf8b66"></a>
+<a class="anchor" id="a006fc2acc34962ebafb9ce19640ad18b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::exists </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>task</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify if something exist in the bdd. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">task</td><td>The task to verify </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a79cffc4dc63f93f9d9fce893c5b66a07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::formatBdd </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format values for the bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>The arguments to format</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af8d633320c008fade8c3ee5ff08cc821"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::formatConditions </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format the conditions string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">conditions</td><td>The conditions to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where are the values</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac99c0f8c86fab4de2efe6b91b22fb942"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -296,8 +438,18 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">void BDD::formatValues </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -310,7 +462,8 @@ Protected Member Functions</h2></td></tr>
 <p>Format the values string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">values</td><td>The values to send</td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">values</td><td>The values to send </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where are the values</td></tr>
   </table>
   </dd>
 </dl>
@@ -318,12 +471,74 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad08567615df2acb02c83690050a872d9"></a>
+<a class="anchor" id="a498e375deb333279886dd91cf389c986"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void BDD::insert </td>
+          <td class="memname"><a class="el" href="../../db/d3a/a00040.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> BDD::getColumns </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the columns of a table with their attributes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector containing the attributes </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae9ad54a4e2ca989e1f22dc497db4b43e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BDD::getCount </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>conditions</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of lines with the conditions. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">conditions</td><td>The conditions for the search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the number of lines </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a059c72982d8075a1e0fcc175461b1430"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BDD::insert </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>values</em>, </td>
@@ -357,16 +572,33 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The new created index or 0 </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a15f69ee85ca2665b59c1c0c6f4562b91"></a>
+<a class="anchor" id="a9a035bbfa977617239704b3d33c4c5ac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; BDD::list </td>
+          <td class="memname">size_t BDD::lastId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the last created id in the table. </p>
+
+</div>
+</div>
+<a class="anchor" id="a624539007ee74764ba5d8f6bb0e7a354"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d3a/a00040.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::list </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
@@ -454,6 +686,23 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a61fdb222ad3b05fb70a221d78da5a9c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the object. </p>
+
+</div>
+</div>
 <a class="anchor" id="a786ee3b78b40472d4a547263a2e583fa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -504,6 +753,74 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1e496e66cfaf5dc0209f448480bead5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::try_connect </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>pass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try a connection to a bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">url</td><td>The url to connect to the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">user</td><td>The user for the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pass</td><td>The password for this user</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afa848f628b17ea10115c828e1f97ba5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::try_database </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>database</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try a connection to the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">database</td><td>The database to connect to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a962782dc60b83f30a7ec387e0747178d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -527,14 +844,19 @@ Protected Member Functions</h2></td></tr>
 
 <p>Stop the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00121">121</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00156">156</a> of file <a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/dad/a00005_a962782dc60b83f30a7ec387e0747178d_cgraph.png" border="0" usemap="#dd/dad/a00005_a962782dc60b83f30a7ec387e0747178d_cgraph" alt=""/></div>
 <map name="dd/dad/a00005_a962782dc60b83f30a7ec387e0747178d_cgraph" id="dd/dad/a00005_a962782dc60b83f30a7ec387e0747178d_cgraph">
-<area shape="rect" id="node2" href="../../dd/dad/a00005.php#a686232a011e8b4552e00cdcea1bf8b66" title="Format the values string. " alt="" coords="161,5,297,32"/>
+<area shape="rect" id="node2" href="../../dd/dad/a00005.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="176,5,305,32"/>
+<area shape="rect" id="node3" href="../../dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e" title="Get the number of lines with the conditions. " alt="" coords="185,56,297,83"/>
+<area shape="rect" id="node4" href="../../dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac" title="Get the last created id in the table. " alt="" coords="195,107,286,133"/>
+<area shape="rect" id="node5" href="../../dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942" title="Format the values string. " alt="" coords="173,157,309,184"/>
+<area shape="rect" id="node6" href="../../dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821" title="Format the conditions string. " alt="" coords="161,208,320,235"/>
+<area shape="rect" id="node7" href="../../dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07" title="Format values for the bdd. " alt="" coords="181,259,300,285"/>
 </map>
 </div>
 </p>

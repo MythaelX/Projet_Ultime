@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jumble',['jumble',['../d1/d2b/a00018.php#a4f82dc848cfaed87d3c8c41d11611cdf',1,'jumble']]]
+  ['_7emainwindow',['~MainWindow',['../d7/d46/a00002.php#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
 ];

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../de/db1/a00197.php">List of all members</a>  </div>
+<a href="../../d3/db1/a00200.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Player&lt; PlayerParent &gt; Class Template Reference</div>  </div>
 </div><!--header-->
@@ -123,14 +123,14 @@ $(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
 <div class="dynheader">
 Inheritance diagram for Player&lt; PlayerParent &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/da0/a00198.png" border="0" usemap="#Player_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../dd/de3/a00201.png" border="0" usemap="#Player_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="Player_3_01PlayerParent_01_4_inherit__map" id="Player_3_01PlayerParent_01_4_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Player&lt; PlayerParent &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d72/a00199.png" border="0" usemap="#Player_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../db/d53/a00202.png" border="0" usemap="#Player_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="Player_3_01PlayerParent_01_4_coll__map" id="Player_3_01PlayerParent_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>

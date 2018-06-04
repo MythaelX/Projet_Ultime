@@ -112,14 +112,15 @@ $(document).ready(function(){initNavTree('de/de1/a00065.php','../../');});
 <div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">DrawScene.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/ddf/a00067_source.php">Scene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d31/a00069_source.php">Spacers.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d24/a00068_source.php">Scene.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">QtFunctions.hpp</a>&quot;</code><br />
 <code>#include &quot;C++/C++.hpp&quot;</code><br />
 </div>
 <p><a href="../../de/de1/a00065_source.php">Go to the source code of this file.</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../de/de1/a00065_source.php">QtDefines.hpp</a>.</p>
 </div></div><!-- contents -->

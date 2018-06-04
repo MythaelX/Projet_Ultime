@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../da/de7/a00210.php">List of all members</a>  </div>
+<a href="../../d1/de1/a00213.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">RNG&lt; T, U &gt; Class Template Reference</div>  </div>
 </div><!--header-->
@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 <p>A class to simplify the use of random.  
  <a href="../../d5/d79/a00030.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -134,7 +134,7 @@ class RNG&lt; T, U &gt;</h3>
 
 <p>A class to simplify the use of random. </p>
 
-<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00021">21</a> of file <a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00021">21</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9981de0f2f28a52ae600df8fbc0404c6"></a>
 <div class="memitem">
@@ -159,7 +159,7 @@ template&lt;typename T , typename U &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00023">23</a> of file <a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00023">23</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>.</p>
 
 </div>
 </div>
@@ -208,7 +208,7 @@ template&lt;typename T , typename U &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00032">32</a> of file <a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00032">32</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -223,7 +223,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a></li>
+<li><a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

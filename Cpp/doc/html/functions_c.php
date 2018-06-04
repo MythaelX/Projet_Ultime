@@ -174,6 +174,9 @@ $(document).ready(function(){initNavTree('functions_c.php','');});
 <li>connect()
 : <a class="el" href="dd/dad/a00005.php#ad1c844ddb0d47a2f698942b640853274">BDD</a>
 </li>
+<li>connections()
+: <a class="el" href="dd/da2/a00019.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
+</li>
 <li>consolePrint()
 : <a class="el" href="db/db2/a00020.php#aae5f7c464841d017086abe1d553da50d">Map</a>
 </li>
@@ -181,7 +184,7 @@ $(document).ready(function(){initNavTree('functions_c.php','');});
 : <a class="el" href="da/d45/a00011.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
 </li>
 <li>crypt()
-: <a class="el" href="de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>
+: <a class="el" href="de/d21/a00006.php#aace459faf00e2f62e573674489d10568">Cesar</a>
 , <a class="el" href="d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
 , <a class="el" href="df/d61/a00031.php#ab84588271f2e5417d47251be249951b4">RSA</a>
 </li>

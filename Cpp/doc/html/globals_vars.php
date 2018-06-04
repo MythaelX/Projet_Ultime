@@ -125,8 +125,14 @@ $(document).ready(function(){initNavTree('globals_vars.php','');});
 <li>cesar
 : <a class="el" href="d3/dea/a00046.php#a1e4758b1e3ca1aefc42b33e55b9d8fe4">cryptage.hpp</a>
 </li>
+<li>reader
+: <a class="el" href="d1/d84/a00052.php#a76c27f6a40c6f54d0c76ce2498fae8d7">files.hpp</a>
+</li>
 <li>rng
-: <a class="el" href="d9/db3/a00066.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">RNG.hpp</a>
+: <a class="el" href="dc/ddf/a00067.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">RNG.hpp</a>
+</li>
+<li>writer
+: <a class="el" href="d1/d84/a00052.php#a5c037aab5abffa1d77dad2a0f0295b0e">files.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

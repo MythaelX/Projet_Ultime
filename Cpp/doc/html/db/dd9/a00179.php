@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
+$(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,23 +108,33 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Hostile Member List</div>  </div>
+<div class="title">GraphScene Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d51/a00017.php">Hostile</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/d7a/a00016.php">GraphScene</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#aa3fec9f067507361ca93e6f4edf4b731">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a2e41323724ce153631596d0a2e037197">getStrength</a>() const </td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#ae9646e71bc0ee3240492aa98060e4942">getTarget</a>() const </td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>()</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a7ad578b926f0be7cf84ee0f45665fa1f">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a1640c2447984cd193da200e3c76e0859">printInfos</a>(std::ostream &amp;stream) const </td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a49702b5127cacf36d0e401dee60bc341">setStrength</a>(double strength)</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#ab2f44509aba02128b145f53b45ae3d6e">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a4b91ff7920ded02f9662134608f11d6f">untarget</a>()</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#af1c3ba743ce0c9b50d501fb86f4127f8">~Hostile</a>()</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#ad24a3692edd1ba8099c9b823ca91705c">addGraph</a>(std::map&lt; T, T &gt; ins)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#aa00a275c68b5ba1fd39998c2e47db34a">addGraph</a>(std::pair&lt; T, T &gt; in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a0ae96172f1b8598300c4ac6134444697">addGraph</a>(std::vector&lt; T &gt; ins)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a262f69fe1830ded7878cf087236024f0">addInGraph</a>(size_t index, std::pair&lt; T, T &gt; vals)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a14cdb7c7d2167512a42815286cd75dba">getNbGraphs</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#aaeb35fa52c5b126eb5e0c72f1291f1c2">GraphScene</a>(QObject *parent=NULL)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a9ee91facfb6fd4eda61385809e122f43">reinit</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a>(QObject *parent=NULL)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a8039208138c6c15d89f3460b552f6b37">setPointsDist</a>(T dist)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a294013125013fbd6218eeb892c53d6b4">setXMax</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a53a17a634417fcde5b9cac44699ed7a6">setXMin</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a7b4d85fc0786904021c33902cec3dbdb">setXRange</a>(T min, T max)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a7bcd5ff38039ca92991a9b72b6f0e8ea">setXStep</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a4345f99a23e4cc5fa07c55cf3511537e">setYMax</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a4a87303127505bce46d4dcc30ce1f122">setYMin</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a4f75f2238bcc5df131f3e4198bc1c186">setYRange</a>(T min, T max)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a0691b268ad07ea33bf254b0f489df59d">setYStep</a>(T in)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">update</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a37cbb072493b457564dda12502c9af7f">~GraphScene</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

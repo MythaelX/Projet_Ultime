@@ -162,6 +162,12 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 <li>getCaste()
 : <a class="el" href="d1/d7c/a00003.php#a16d7a5ccf86a581fa5cacf21f9d8427d">Ant</a>
 </li>
+<li>getColumns()
+: <a class="el" href="dd/dad/a00005.php#a498e375deb333279886dd91cf389c986">BDD</a>
+</li>
+<li>getCount()
+: <a class="el" href="dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e">BDD</a>
+</li>
 <li>getDamages()
 : <a class="el" href="dd/d1b/a00015.php#a9b51aceb9bb22ddd39ce8c8acb378e2c">Entity</a>
 </li>

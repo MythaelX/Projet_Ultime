@@ -1,2 +1,5 @@
-<map id="Player&lt; PlayerParent &gt;" name="Player&lt; PlayerParent &gt;">
+<map id="Plant" name="Plant">
+<area shape="rect" id="node2" href="$db/df3/a00034.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
+<area shape="rect" id="node3" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
+<area shape="rect" id="node4" href="$da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>

@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
+$(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,13 +108,13 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">QVSpacerItem Member List</div>  </div>
+<div class="title">QHSpacerItem Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem</a>(int w=40, int h=20)</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">QHSpacerItem</a>(int w=20, int h=40)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

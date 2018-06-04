@@ -118,40 +118,41 @@ $(document).ready(function(){initNavTree('d6/d2d/a00047.php','../../');});
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;ios&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d41/a00038_source.php">Args.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">RNG.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/db1/a00070_source.php">string.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d89/a00071_source.php">time.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d89/a00071_source.php">string.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">maths.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d84/a00052_source.php">files.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d5f/a00064_source.php">pointers.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for defines.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/d44/a00098.png" border="0" usemap="#defines_8hpp" alt=""/></div>
+<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#defines_8hpp" alt=""/></div>
 <map name="defines_8hpp" id="defines_8hpp">
-<area shape="rect" id="node7" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="1131,80,1199,107"/>
-<area shape="rect" id="node19" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="977,304,1068,331"/>
-<area shape="rect" id="node24" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="1206,304,1277,331"/>
-<area shape="rect" id="node27" href="../../d0/d89/a00071.php" title="time.hpp" alt="" coords="1659,229,1731,256"/>
-<area shape="rect" id="node30" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1787,155,1880,181"/>
-<area shape="rect" id="node31" href="../../d2/db1/a00070.php" title="string.hpp" alt="" coords="793,304,871,331"/>
-<area shape="rect" id="node34" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1500,80,1575,107"/>
-<area shape="rect" id="node36" href="../../d9/db3/a00066.php" title="RNG.hpp" alt="" coords="2007,80,2084,107"/>
-<area shape="rect" id="node38" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1876,80,1959,107"/>
-<area shape="rect" id="node14" href="../../d1/d6e/a00073.php" title="types.hpp" alt="" coords="1401,304,1479,331"/>
-<area shape="rect" id="node17" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1459,155,1539,181"/>
-<area shape="rect" id="node33" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="1301,304,1377,331"/>
-<area shape="rect" id="node18" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="1358,229,1450,256"/>
-<area shape="rect" id="node32" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="640,379,723,405"/>
+<area shape="rect" id="node8" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="1163,80,1231,107"/>
+<area shape="rect" id="node20" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="685,304,776,331"/>
+<area shape="rect" id="node25" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="930,304,1001,331"/>
+<area shape="rect" id="node28" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="1772,229,1844,256"/>
+<area shape="rect" id="node31" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1901,155,1995,181"/>
+<area shape="rect" id="node32" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="478,229,557,256"/>
+<area shape="rect" id="node36" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1615,80,1689,107"/>
+<area shape="rect" id="node38" href="../../dc/ddf/a00067.php" title="RNG.hpp" alt="" coords="2123,80,2200,107"/>
+<area shape="rect" id="node40" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1991,80,2073,107"/>
+<area shape="rect" id="node15" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="1485,304,1563,331"/>
+<area shape="rect" id="node18" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1573,155,1653,181"/>
+<area shape="rect" id="node35" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="1218,304,1294,331"/>
+<area shape="rect" id="node19" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="1478,229,1570,256"/>
+<area shape="rect" id="node34" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="579,304,661,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#defines_8hppdep" alt=""/></div>
+<div class="center"><img src="../../d0/d61/a00100.png" border="0" usemap="#defines_8hppdep" alt=""/></div>
 <map name="defines_8hppdep" id="defines_8hppdep">
 <area shape="rect" id="node2" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="464,80,579,107"/>
 <area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="546,603,619,629"/>
@@ -161,7 +162,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" id="node13" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="525,155,611,181"/>
 <area shape="rect" id="node4" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,304,102,331"/>
 <area shape="rect" id="node9" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,229,123,256"/>
-<area shape="rect" id="node10" href="../../db/db6/a00074.php" title="Vegetal.hpp" alt="" coords="220,304,311,331"/>
+<area shape="rect" id="node10" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="220,304,311,331"/>
 <area shape="rect" id="node5" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,379,72,405"/>
 <area shape="rect" id="node8" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="475,528,559,555"/>
 <area shape="rect" id="node11" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,379,325,405"/>
@@ -205,7 +206,7 @@ Enumerations</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
@@ -229,7 +230,7 @@ Enumerations</h2></td></tr>
 <p>#include &lt;thread&gt; #include &lt;mutex&gt;</p>
 <p>#include &lt;cmath&gt; #include &lt;ctime&gt; </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00056">56</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00055">55</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +246,7 @@ Enumerations</h2></td></tr>
 
 <p>Alias for <b>std::vector&lt;std::string&gt;</b> </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00060">60</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00057">57</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -282,7 +283,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00089">89</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00080">80</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>

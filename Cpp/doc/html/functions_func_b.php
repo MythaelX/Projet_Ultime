@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('functions_func_b.php','');});
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>BDD()
-: <a class="el" href="dd/dad/a00005.php#abc551344b2e136090b8d2d82ab6ff0f2">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

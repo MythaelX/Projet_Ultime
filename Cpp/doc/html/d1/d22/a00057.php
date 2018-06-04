@@ -113,12 +113,13 @@ $(document).ready(function(){initNavTree('d1/d22/a00057.php','../../');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/dee/a00053_source.php">functions.hpp</a>&quot;</code><br />
+<code>#include &quot;Widgets/QtDefines.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for MainWindow.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d3e/a00116.png" border="0" usemap="#MainWindow_8h" alt=""/></div>
+<div class="center"><img src="../../d9/d4b/a00117.png" border="0" usemap="#MainWindow_8h" alt=""/></div>
 <map name="MainWindow_8h" id="MainWindow_8h">
-<area shape="rect" id="node3" href="../../dc/dee/a00053.php" title="functions.hpp" alt="" coords="3261,80,3361,107"/>
+<area shape="rect" id="node3" href="../../dc/dee/a00053.php" title="functions.hpp" alt="" coords="2775,95,2875,121"/>
 </map>
 </div>
 </div>
@@ -127,6 +128,7 @@ Include dependency graph for MainWindow.h:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php">MainWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window that is shown.  <a href="../../dd/da2/a00019.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
