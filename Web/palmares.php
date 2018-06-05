@@ -23,9 +23,9 @@
 	/***************************/
 
 	/* Scripts du site */
-		$head->head_script("js/script.js");
-	/*******************/
 
+	/*******************/
+		$head->head_script("js/palmares.js");
 	/* Scripts personnels */
 
 	/***************************/

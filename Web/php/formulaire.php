@@ -1,6 +1,7 @@
-<div class="formulaire">
+
+<div class="formulaireConnexion">
 <h1>CONNEXION</h1>
-<form method="post" target="_self" action="php/database.php">
+<form>
 <div>
 	<label for="pseudo">Pseudo :</label>
 	<input type="text" name="pseudo" id="pseudo" />
@@ -10,7 +11,7 @@
 	<input type="text" name="mdp" id="mdp" />
 </div>
 <div>
-	<input type="submit" class="boutonvert" value="SE CONNECTER" />
+	<input type="submit" class="boutonvert" value="SE CONNECTER" id="boutonConnexion"/>
 </div>
   <a href="./index.php" target="_self">Mot de passe oublié ?</a>
 </form>

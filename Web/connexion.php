@@ -24,10 +24,11 @@
 
 	/* Scripts du site */
 
+
 	/*******************/
 
 	/* Scripts personnels */
-
+		$head->head_script("js/authentification.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête

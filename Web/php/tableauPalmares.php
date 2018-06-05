@@ -13,7 +13,7 @@
 				<th scope="col">Poids</th>
 				<th scope="col">Pseudos</th>
 				<th scope="col">Scores / Temps</th>
-				<th scope="col"> Dates</th>
+				<th scope="col">Dates</th>
 			</tr>
 		</thead>
 		<tbody id="tableauPalmares">

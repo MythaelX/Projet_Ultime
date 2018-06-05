@@ -31,7 +31,7 @@ html {
 						a{
 							padding:0.35em;
 							padding-left: 3em;
-
+							cursor: pointer;
 							img{
 								border-radius:100%;
 								position: absolute;
@@ -50,6 +50,7 @@ html {
 						color: @white1;
 						font-size:1.5em;
 						padding:0.5em;
+						cursor: pointer;
 						&:hover{
 							background-color:@black2;
 						}
@@ -59,11 +60,47 @@ html {
 					position: absolute;
 					right:0;
 					display:inline-block;
+					span{
+						display: block;
+						text-align: center;
+						text-decoration: none;
+						color: @white1;
+						font-size:1.5em;
+						padding:0.5em;
+					}
 					li:first-child{
 						font-size: 1em;
 						font-family: Arial;
 						a{
 							padding: 0.5em;
+						}
+						img{
+							border-radius:100%;
+							position: absolute;
+							top:4px;
+							left:-40px;
+							height: 1.8em;
+							width: auto;
+						}
+					}
+					li.deconnexion{
+						cursor: pointer;
+						&:hover{
+							background-color:@black2;
+						}
+						img{
+							top:5px;
+							border-radius:100%;
+							position: absolute;
+							left:50%;
+							transform: translateX(-50%);
+							width: 1.8em;
+							height: auto;
+						}
+						span{
+							padding:0.5em;
+							font-size:0.4em;
+							margin-top:5.5em;
 						}
 					}
 				}
@@ -120,7 +157,7 @@ html {
 					}
 				}
 			}
-			div.formulaire{
+			div.formulaireConnexion{
 				margin-top: 7%;
 				margin-left: auto;
     		margin-right: auto;
@@ -184,28 +221,30 @@ html {
 			}
 			div.palmares{
 				width: 88%;
-				margin-top: 1%;
+				margin-top: 2%;
 				margin-left: auto;
 				margin-right: auto;
+				color:@white1;
+				h1{
+					text-align: center;
+					.font('cheeseburger',3em);
+				}
 				table {
 					text-align: center;
-    			border-collapse: collapse;
-    			width: 100%;
-					border-style:solid;
-					border-radius:5px;
-					border-width:2px;
 					background-color:@white3;
+					border-radius:0 5px 5px;
+					border: 2px solid @black1;
+					border-spacing:0;
+    			width: 100%;
 					th{
 					    padding: 8px;
-							color:@white1;
-							border-width: 1px;
-							border-style:solid;
-							border-color:@black1;
+							border: 1px solid @black1;
 					}
-					td{
-						&:
-						border-style:solid;
-						border-width: 1px;
+					tbody{
+						td{
+							border-spacing:-1px;
+							border: 1px solid @black1;
+						}
 					}
 				}
 			}
