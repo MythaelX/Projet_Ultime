@@ -11,6 +11,23 @@ void MainWindow::deleteEntry(std::string table, size_t index){
 	
 }
 
-void MainWindow::addEntry(std::string table, size_t index){
-	
+void MainWindow::addEntry(std::string table, size_t){
+	std::vector<std::string> values;
+
+	for(auto& item : lines){
+		if(item.second != nullptr){
+			values.push_back(item.second->text().toStdString());
+		}
+	}
+	for(auto& item : combos){
+		if(item.second != nullptr && item.first.find("combos int ") == std::string::npos){
+			int index = item.second->currentIndex();
+			std::string strIndex = replace(item.first, "combos str ", "");
+
+			values.push_back(combos["combos int " + strIndex]->itemText(index).toStdString());
+		}
+	}
+
+	bdd.insert(implode(values, ", "), "", table);
+	this->toAdmin(table);
 }

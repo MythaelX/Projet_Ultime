@@ -2,7 +2,7 @@
 *
 *	\file		TitleLabel.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		05 juin 2018
+*	\date		06 juin 2018
 *
 */
 #ifndef HEADER_TITLELABEL
@@ -17,12 +17,21 @@
 class TitleLabel : public QLabel {
 	Q_OBJECT
 	public:
-		/*! \brief	Create a PushButton */
+		/*! \brief	Create a QLabel */
 		TitleLabel(QWidget* parent = nullptr);
-	
-		void level(int niv){ h = niv; }
 	protected:
-		int h;
+};
+
+/*!
+* \class	H2TitleLabel
+* \brief	An implementation of TitleLabel for the software
+*/
+class H2TitleLabel : public TitleLabel {
+	Q_OBJECT
+	public:
+		/*! \brief	Create a TitleLabel */
+		H2TitleLabel(QWidget* parent = nullptr) : TitleLabel(parent){}
+	protected:
 };
 
 #endif //HEADER_TITLELABEL

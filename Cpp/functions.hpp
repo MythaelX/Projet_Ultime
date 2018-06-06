@@ -1,7 +1,7 @@
 /*!
 * \file functions.hpp
 * \author Mathias CABIOCH-DELALANDE
-* \date 05 juin 2018
+* \date 06 juin 2018
 */
 #ifndef HEADER_FUNCTIONS
 #define HEADER_FUNCTIONS
@@ -204,12 +204,5 @@ bool deletePoints(BDD& bdd, std::string condition);
 *		\return			Return the formatted string
 */
 std::string formatColumn(std::string str, std::string table);
-
-/*!
-* \brief Read a Cascade Style Sheet and translate it for Qt
-*	\param[in]		path		The path to the file
-*	\return			Return the file contents as a string
-*/
-std::string cssReader(std::string path);
 
 #endif //HEADER_FUNCTIONS

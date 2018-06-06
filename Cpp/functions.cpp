@@ -172,9 +172,3 @@ std::string formatColumn(std::string str, std::string table){
 
 	return uppercase(out, out.begin(), out.begin()+1);
 }
-
-/* CSS */
-std::string cssReader(std::string path){
-	reader.open(path.c_str());
-	return implode(getlines(reader), "\n");
-}

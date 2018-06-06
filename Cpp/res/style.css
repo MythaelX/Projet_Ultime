@@ -84,6 +84,7 @@ QLabel {
 	font-weight: normal;
 }
 
-.TitleLabel[h = "1"] {
-	color: red;
+.TitleLabel, .H2TitleLabel {
+	color: rgba(255, 255, 205, 0.8);
+	font-weight: normal;
 }

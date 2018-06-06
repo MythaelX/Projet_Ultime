@@ -60,10 +60,16 @@ void MainWindow::deleteAll(){
 	for(auto& item : checkboxs){
 		deletePtr(item.second);
 	}
+	for(auto& item : choiceboxs){
+		deletePtr(item.second);
+	}
 	for(auto& item : tableButtons){
 		deletePtr(item.second);
 	}
 	for(auto& item : tabs){
+		deletePtr(item.second);
+	}
+	for(auto& item : combos){
 		deletePtr(item.second);
 	}
 	deletePtr(hLayouts["connect container"]);

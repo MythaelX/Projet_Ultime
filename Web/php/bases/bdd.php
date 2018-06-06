@@ -211,7 +211,7 @@
 		/* Use the INSERT */
 		public function insert($name, $val){
 			try {
-				$command = "INSERT INTO $name VALUES(" . $this->secureValues($val) . ")";
+				$command = "INSERT INTO `$name` VALUES(" . $this->secureValues($val) . ")";
 				$this->db->exec($command);
 				
 				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
@@ -257,7 +257,7 @@
 			/********************************************/
 		
 			try {
-				$command = "UPDATE $name SET $val $opts";
+				$command = "UPDATE `$name` SET $val $opts";
 				$this->db->exec($command);
 				
 				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
@@ -272,7 +272,7 @@
 		/* Use the DELETE */
 		public function delete($name, $where){
 			try {
-				$command = "DELETE FROM $name WHERE $where";
+				$command = "DELETE FROM `$name` WHERE $where";
 				$this->db->exec($command);
 				
 				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command

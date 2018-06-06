@@ -45,7 +45,7 @@ class MainWindow : public Window {
 		void quit();
 
 		/*! \brief Recreate administration */
-		void toAdmin();
+		void toAdmin(std::string table = "");
 
 	signals:
 		
@@ -89,7 +89,7 @@ class MainWindow : public Window {
 			void useAdminWidgets();
 
 			/*! \brief Calls to createAdminWidgets, setContentAdminWidgets and useAdminWidgets */
-			void adminWidgets();
+			void adminWidgets(std::string table = "");
 		/*******************/
 		
 		/*! \brief Do all the deletions */
@@ -105,8 +105,10 @@ class MainWindow : public Window {
 		std::map<std::string, QPushButton*> buttons;
 		std::map<std::string, QWidget*> tabs;
 		std::map<std::string, CheckBox*> checkboxs;
+		std::map<std::string, CheckBox*> choiceboxs;
 		std::map<std::string, PushButton*> tableButtons;
 		std::map<std::string, WindowButton*> closes;
+		std::map<std::string, QComboBox*> combos;
 
 		QDialog* messageBox;
 		QWidget* center;
