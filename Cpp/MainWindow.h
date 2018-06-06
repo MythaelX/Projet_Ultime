@@ -1,14 +1,14 @@
 /*!
 * \file MainWindow.hpp
 * \author Mathias CABIOCH-DELALANDE
-* \date 02 juin 2018
+* \date 05 juin 2018
 */
 #ifndef HEADER_MAINWINDOW
 #define HEADER_MAINWINDOW
 
 #include <QtWidgets>
 #include "functions.hpp"
-#include "Widgets/QtDefines.hpp"
+#include "Widgets/Qt.hpp"
 
 #include "CheckBox.hpp"
 #include "PushButton.hpp"
@@ -18,11 +18,11 @@
 * \class MainWindow
 * \brief The window that is shown
 */
-class MainWindow : public QMainWindow {
+class MainWindow : public Window {
 	Q_OBJECT
 	public:
 		/*! \brief Create the window to connect to the database */
-		MainWindow(QWidget* parent = NULL);
+		MainWindow(QWidget* parent = nullptr);
 		~MainWindow();
 	
 	public slots:
@@ -38,10 +38,20 @@ class MainWindow : public QMainWindow {
 		/*! \brief Allow to add an entry to the bdd */
 		void addEntry(std::string table, size_t index);
 		
+		/*! \brief Quit the application */
+		void quit();
+		
 	signals:
 		
 		
 	protected:
+		/*!
+		* \brief Overload of the drawBackground function
+		*		\param[in]		cache		The cache Pixmap containning the window size
+		*		\return			void
+		*/
+		void drawBackground(QPixmap* cache);
+
 		/* Connection */
 			/*! \brief Create all the connection's widgets */
 			void createConnectWidgets();
@@ -90,12 +100,20 @@ class MainWindow : public QMainWindow {
 		std::map<std::string, QWidget*> tabs;
 		std::map<std::string, CheckBox*> checkboxs;
 		std::map<std::string, PushButton*> tableButtons;
+		std::map<std::string, WindowButton*> closes;
 
 		QDialog* messageBox;
 		QWidget* center;
 		QTabWidget* tabWidget;
 
 		ListArray tablesList;
+
+		QPixmap* background;
+		std::string imgPath;
+
+		int closeBtnSize;
+		int closeBtnX;
+		int closeBtnY;
 };
 
 #endif //HEADER_MAINWINDOW

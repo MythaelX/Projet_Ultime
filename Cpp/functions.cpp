@@ -1,10 +1,6 @@
 #include "functions.hpp"
 
 void list(BDD& bdd){
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.list("categorie");
 	bdd.list("difficulte");
 	bdd.list("partie");
@@ -21,45 +17,21 @@ ListArray listUsers(BDD& bdd){
 bool addUsers(BDD& bdd, std::string args){
 	bdd.setTable("utilisateurs");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.insert(args);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool updateUsers(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("utilisateurs");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool deleteUsers(BDD& bdd, std::string condition){
 	bdd.setTable("utilisateurs");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -71,45 +43,21 @@ ListArray listCategory(BDD& bdd){
 size_t addCategory(BDD& bdd, std::string args){
 	bdd.setTable("categorie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.insert(args);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return bdd.lastId();
 }
 bool updateCategory(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("categorie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool deleteCategory(BDD& bdd, std::string condition){
 	bdd.setTable("categorie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -121,15 +69,7 @@ ListArray listDifficulty(BDD& bdd){
 bool updateDifficulty(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("difficulte");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -141,45 +81,21 @@ ListArray listGame(BDD& bdd){
 size_t addGame(BDD& bdd, std::string args){
 	bdd.setTable("partie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.insert(args);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return bdd.lastId();
 }
 bool updateGame(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("partie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool deleteGame(BDD& bdd, std::string condition){
 	bdd.setTable("partie");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -191,45 +107,21 @@ ListArray listAsk(BDD& bdd){
 size_t addAsk(BDD& bdd, std::string args){
 	bdd.setTable("proposition");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.insert(args);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return bdd.lastId();
 }
 bool updateAsk(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("proposition");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool deleteAsk(BDD& bdd, std::string condition){
 	bdd.setTable("proposition");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -241,45 +133,21 @@ ListArray listQuestion(BDD& bdd){
 size_t addQuestion(BDD& bdd, std::string args){
 	bdd.setTable("question");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.insert(args);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return bdd.lastId();;
 }
 bool updateQuestion(BDD& bdd, std::string args, std::string condition){
 	bdd.setTable("question");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.update(args, condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
 bool deleteQuestion(BDD& bdd, std::string condition){
 	bdd.setTable("question");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }
@@ -291,15 +159,7 @@ ListArray listPoints(BDD& bdd){
 bool deletePoints(BDD& bdd, std::string condition){
 	bdd.setTable("joue_a");
 
-	#if DEBUG
-		bdd.debug();
-	#endif
-
 	bdd.remove("WHERE " + condition);
-
-	#if DEBUG
-		bdd.undebug();
-	#endif
 
 	return true;
 }

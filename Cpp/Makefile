@@ -57,11 +57,20 @@ SOURCES       = CheckBox.cpp \
 		MainWindow_Connect.cpp \
 		MainWindow_ConnectDialog.cpp \
 		PushButton.cpp \
+		TitleLabel.cpp \
 		Widgets/DrawScene.cpp \
+		Widgets/Font.cpp \
 		Widgets/GraphScene.cpp \
 		Widgets/QtFunctions.cpp \
 		Widgets/Scene.cpp \
 		Widgets/Window.cpp \
+		Widgets/Window_Draw.cpp \
+		Widgets/Window_Event.cpp \
+		Widgets/WindowButton.cpp \
+		Widgets/WindowTitleBar.cpp \
+		Widgets/WindowTitleBar_Buttons.cpp \
+		Widgets/WindowTitleBar_Draw.cpp \
+		Widgets/WindowTitleBar_Event.cpp \
 		Widgets/C++/Animal.cpp \
 		Widgets/C++/Ant.cpp \
 		Widgets/C++/Args.cpp \
@@ -95,7 +104,9 @@ SOURCES       = CheckBox.cpp \
 		moc_DrawScene.cpp \
 		moc_GraphScene.cpp \
 		moc_Scene.cpp \
-		moc_Window.cpp
+		moc_Window.cpp \
+		moc_WindowButton.cpp \
+		moc_WindowTitleBar.cpp
 OBJECTS       = CheckBox.o \
 		functions.o \
 		main.o \
@@ -105,11 +116,20 @@ OBJECTS       = CheckBox.o \
 		MainWindow_Connect.o \
 		MainWindow_ConnectDialog.o \
 		PushButton.o \
+		TitleLabel.o \
 		DrawScene.o \
+		Font.o \
 		GraphScene.o \
 		QtFunctions.o \
 		Scene.o \
 		Window.o \
+		Window_Draw.o \
+		Window_Event.o \
+		WindowButton.o \
+		WindowTitleBar.o \
+		WindowTitleBar_Buttons.o \
+		WindowTitleBar_Draw.o \
+		WindowTitleBar_Event.o \
 		Animal.o \
 		Ant.o \
 		Args.o \
@@ -144,7 +164,9 @@ OBJECTS       = CheckBox.o \
 		moc_DrawScene.o \
 		moc_GraphScene.o \
 		moc_Scene.o \
-		moc_Window.o
+		moc_Window.o \
+		moc_WindowButton.o \
+		moc_WindowTitleBar.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
@@ -207,6 +229,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		PushButton.hpp \
 		TitleLabel.hpp \
 		Widgets/DrawScene.hpp \
+		Widgets/Font.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
@@ -214,6 +237,8 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Widgets/Scene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/Window.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Animal.hpp \
 		Widgets/C++/Ant.hpp \
 		Widgets/C++/Args.hpp \
@@ -254,11 +279,20 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		MainWindow_Connect.cpp \
 		MainWindow_ConnectDialog.cpp \
 		PushButton.cpp \
+		TitleLabel.cpp \
 		Widgets/DrawScene.cpp \
+		Widgets/Font.cpp \
 		Widgets/GraphScene.cpp \
 		Widgets/QtFunctions.cpp \
 		Widgets/Scene.cpp \
 		Widgets/Window.cpp \
+		Widgets/Window_Draw.cpp \
+		Widgets/Window_Event.cpp \
+		Widgets/WindowButton.cpp \
+		Widgets/WindowTitleBar.cpp \
+		Widgets/WindowTitleBar_Buttons.cpp \
+		Widgets/WindowTitleBar_Draw.cpp \
+		Widgets/WindowTitleBar_Event.cpp \
 		Widgets/C++/Animal.cpp \
 		Widgets/C++/Ant.cpp \
 		Widgets/C++/Args.cpp \
@@ -451,8 +485,8 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents CheckBox.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/Window.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
-	$(COPY_FILE) --parents CheckBox.cpp functions.cpp main.cpp MainWindow.cpp MainWindow_Admin.cpp MainWindow_Changes.cpp MainWindow_Connect.cpp MainWindow_ConnectDialog.cpp PushButton.cpp Widgets/DrawScene.cpp Widgets/GraphScene.cpp Widgets/QtFunctions.cpp Widgets/Scene.cpp Widgets/Window.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/array.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents CheckBox.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/Font.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/Window.hpp Widgets/WindowButton.hpp Widgets/WindowTitleBar.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
+	$(COPY_FILE) --parents CheckBox.cpp functions.cpp main.cpp MainWindow.cpp MainWindow_Admin.cpp MainWindow_Changes.cpp MainWindow_Connect.cpp MainWindow_ConnectDialog.cpp PushButton.cpp TitleLabel.cpp Widgets/DrawScene.cpp Widgets/Font.cpp Widgets/GraphScene.cpp Widgets/QtFunctions.cpp Widgets/Scene.cpp Widgets/Window.cpp Widgets/Window_Draw.cpp Widgets/Window_Event.cpp Widgets/WindowButton.cpp Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar_Event.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/array.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -475,9 +509,9 @@ check: first
 
 compiler_rcc_make_all:
 compiler_rcc_clean:
-compiler_moc_header_make_all: moc_CheckBox.cpp moc_MainWindow.cpp moc_PushButton.cpp moc_TitleLabel.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp moc_Window.cpp
+compiler_moc_header_make_all: moc_CheckBox.cpp moc_MainWindow.cpp moc_PushButton.cpp moc_TitleLabel.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp moc_Window.cpp moc_WindowButton.cpp moc_WindowTitleBar.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_CheckBox.cpp moc_MainWindow.cpp moc_PushButton.cpp moc_TitleLabel.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp moc_Window.cpp
+	-$(DEL_FILE) moc_CheckBox.cpp moc_MainWindow.cpp moc_PushButton.cpp moc_TitleLabel.cpp moc_DrawScene.cpp moc_GraphScene.cpp moc_Scene.cpp moc_Window.cpp moc_WindowButton.cpp moc_WindowTitleBar.cpp
 moc_CheckBox.cpp: CheckBox.hpp
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include CheckBox.hpp -o moc_CheckBox.cpp
 
@@ -514,12 +548,17 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp \
@@ -529,7 +568,50 @@ moc_MainWindow.cpp: functions.hpp \
 moc_PushButton.cpp: PushButton.hpp
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include PushButton.hpp -o moc_PushButton.cpp
 
-moc_TitleLabel.cpp: TitleLabel.hpp
+moc_TitleLabel.cpp: Widgets/Qt.hpp \
+		Widgets/QtDefines.hpp \
+		Widgets/DrawScene.hpp \
+		Widgets/Scene.hpp \
+		Widgets/GraphScene.hpp \
+		Widgets/Spacers.hpp \
+		Widgets/QtFunctions.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/Font.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		TitleLabel.hpp
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include TitleLabel.hpp -o moc_TitleLabel.cpp
 
 moc_DrawScene.cpp: Widgets/Scene.hpp \
@@ -543,8 +625,113 @@ moc_GraphScene.cpp: Widgets/Scene.hpp \
 moc_Scene.cpp: Widgets/Scene.hpp
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/Scene.hpp -o moc_Scene.cpp
 
-moc_Window.cpp: Widgets/Window.hpp
+moc_Window.cpp: Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/Window.hpp
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/Window.hpp -o moc_Window.cpp
+
+moc_WindowButton.cpp: Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/WindowButton.hpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/WindowButton.hpp -o moc_WindowButton.cpp
+
+moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/WindowTitleBar.hpp
+	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/WindowTitleBar.hpp -o moc_WindowTitleBar.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -632,12 +819,17 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -677,12 +869,17 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -722,12 +919,17 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -767,12 +969,17 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -812,12 +1019,17 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -857,12 +1069,17 @@ MainWindow_ConnectDialog.o: MainWindow_ConnectDialog.cpp MainWindow.h \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/tree.hpp \
+		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp \
 		Widgets/GraphScene.hpp \
 		Widgets/Spacers.hpp \
 		Widgets/QtFunctions.hpp \
+		Widgets/Font.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
 		CheckBox.hpp \
 		PushButton.hpp \
 		TitleLabel.hpp
@@ -871,9 +1088,96 @@ MainWindow_ConnectDialog.o: MainWindow_ConnectDialog.cpp MainWindow.h \
 PushButton.o: PushButton.cpp PushButton.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o PushButton.o PushButton.cpp
 
+TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
+		Widgets/Qt.hpp \
+		Widgets/QtDefines.hpp \
+		Widgets/DrawScene.hpp \
+		Widgets/Scene.hpp \
+		Widgets/GraphScene.hpp \
+		Widgets/Spacers.hpp \
+		Widgets/QtFunctions.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/Font.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp \
+		Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o TitleLabel.o TitleLabel.cpp
+
 DrawScene.o: Widgets/DrawScene.cpp Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DrawScene.o Widgets/DrawScene.cpp
+
+Font.o: Widgets/Font.cpp Widgets/Font.hpp \
+		Widgets/QtDefines.hpp \
+		Widgets/DrawScene.hpp \
+		Widgets/Scene.hpp \
+		Widgets/GraphScene.hpp \
+		Widgets/Spacers.hpp \
+		Widgets/QtFunctions.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Font.o Widgets/Font.cpp
 
 GraphScene.o: Widgets/GraphScene.cpp Widgets/GraphScene.hpp \
 		Widgets/Scene.hpp
@@ -900,8 +1204,295 @@ QtFunctions.o: Widgets/QtFunctions.cpp Widgets/QtFunctions.hpp \
 Scene.o: Widgets/Scene.cpp Widgets/Scene.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Scene.o Widgets/Scene.cpp
 
-Window.o: Widgets/Window.cpp Widgets/Window.hpp
+Window.o: Widgets/Window.cpp Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Window.o Widgets/Window.cpp
+
+Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Window_Draw.o Widgets/Window_Draw.cpp
+
+Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
+		Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Window_Event.o Widgets/Window_Event.cpp
+
+WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WindowButton.o Widgets/WindowButton.cpp
+
+WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WindowTitleBar.o Widgets/WindowTitleBar.cpp
+
+WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WindowTitleBar_Buttons.o Widgets/WindowTitleBar_Buttons.cpp
+
+WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WindowTitleBar_Draw.o Widgets/WindowTitleBar_Draw.cpp
+
+WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.hpp \
+		Widgets/WindowButton.hpp \
+		Widgets/C++/C++.hpp \
+		Widgets/C++/Entities.hpp \
+		Widgets/C++/Contraption.hpp \
+		Widgets/C++/defines.hpp \
+		Widgets/C++/bdd.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/convert.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/pointers.hpp \
+		Widgets/C++/string.hpp \
+		Widgets/C++/macro.hpp \
+		Widgets/C++/array.hpp \
+		Widgets/C++/Args.hpp \
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
+		Widgets/C++/Map.hpp \
+		Widgets/C++/Object.hpp \
+		Widgets/C++/Entity.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Hostile.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Vegetal.hpp \
+		Widgets/C++/Plant.hpp \
+		Widgets/C++/Mushroom.hpp \
+		Widgets/C++/Player.hpp \
+		Widgets/C++/cryptage.hpp \
+		Widgets/C++/sorting.hpp \
+		Widgets/C++/tree.hpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o WindowTitleBar_Event.o Widgets/WindowTitleBar_Event.cpp
 
 Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1269,6 +1860,12 @@ moc_Scene.o: moc_Scene.cpp
 
 moc_Window.o: moc_Window.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Window.o moc_Window.cpp
+
+moc_WindowButton.o: moc_WindowButton.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_WindowButton.o moc_WindowButton.cpp
+
+moc_WindowTitleBar.o: moc_WindowTitleBar.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_WindowTitleBar.o moc_WindowTitleBar.cpp
 
 ####### Install
 

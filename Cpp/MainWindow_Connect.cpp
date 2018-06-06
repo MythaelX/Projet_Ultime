@@ -22,7 +22,9 @@ void MainWindow::createConnectWidgets(){
 					lines["connect password"] = new QLineEdit;
 			vLayouts["connect line4"] = new QVBoxLayout;
 				buttons["connect connect"] = new QPushButton;
-	
+
+	closes["close"] = new WindowButton(WindowButton::BUTTON_CLOSE, this);
+
 	this->setContentConnectWidgets();
 }
 
@@ -54,6 +56,15 @@ void MainWindow::initConnectWidgets(){
 	lines["connect database"]->setText(database.c_str());
 
 	buttons["connect connect"]->setText("Connexion");
+
+	closes["close"]->resize(closeBtnSize, closeBtnSize);
+	closes["close"]->setGradient(147, 16, 9, 255, 74, 5, 5, 255);
+	closes["close"]->move(closeBtnX, closeBtnY);
+	closes["close"]->setNormalColor(255, 255, 255);
+	closes["close"]->setHoveredColor(50, 50, 50);
+	closes["close"]->setClickedColor(50, 50, 50);
+
+	connect(closes["close"], SIGNAL(clicked()), this, SLOT(quit()));
 }
 
 void MainWindow::setContentConnectWidgets(){

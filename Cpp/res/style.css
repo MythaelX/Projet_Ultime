@@ -41,16 +41,45 @@ MainWindow {
 	background-color: rgba(255, 0, 0, 0);
 }
 
-.QWidget, .QTabWidget {
-	background-color: rgba(255, 255, 255, 0.1);
+.QWidget {
+	background-color: rgba(255, 255, 255, 0);
 	
 	border-radius: 20px;
 }
 
-QLabel {
+QTabWidget::pane {
+	border: 0px ridge black;
+}
+
+QTabWidget::pane > * {
+	background-color: transparent;
+}
+
+QTabBar::tab {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #C1C1C1, stop:1 #686868);
+	color: black;
+}
+
+QTabBar::tab:selected {
+	background: qlineargradient(x1:0 y1:0, x2:0 y2:1, stop:0 #575757, stop:1 #1E1E1E);
 	color: white;
 }
 
+QTabBar::tab:first {
+	border: 0px solid black;
+
+	padding: 0 1em;
+
+	border-top-left-radius: 2px;
+}
+
+QLabel {
+	color: white;
+	font-weight: bold;
+}
+
 .TitleLabel {
-	font-size: 10em;
+	font-size: 30px;
+	color: rgba(255, 255, 205, 0.8);
+	font-weight: normal;
 }

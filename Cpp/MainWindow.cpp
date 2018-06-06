@@ -1,9 +1,19 @@
 #include "MainWindow.h"
 
 MainWindow::MainWindow(QWidget* parent) :
-	QMainWindow(parent),
-	config_file("res/config")
+	Window(parent),
+	config_file("res/config"),
+	background(nullptr),
+	imgPath("res/img/background.png")
 {
+	this->enableResize(false);
+	this->showTitlebar(false);
+	this->setMargin(100, 75, 70, 65);
+
+	closeBtnSize = 25;
+	closeBtnX = this->width() - 110;
+	closeBtnY = 80;
+
 	/* Creation of the objects */
 		center = new QWidget;
 		messageBox = new QDialog(this, Qt::Popup);
@@ -27,13 +37,12 @@ MainWindow::MainWindow(QWidget* parent) :
 
 	this->move(getDesktopWidth() / 2 - this->width() / 4, getDesktopHeight() / 2 - this->height() / 4);
 
-	std::cout << cssReader("res/style.css") << std::endl;
-	this->setAttribute(Qt::WA_TranslucentBackground);
+	//std::cout << cssReader("res/style.css") << std::endl;
 	this->setStyleSheet(cssReader("res/style.css").c_str());
 }
 
 MainWindow::~MainWindow(){
-	
+	this->deleteAll();
 }
 
 void MainWindow::deleteAll(){
@@ -54,4 +63,19 @@ void MainWindow::deleteAll(){
 	}
 	deletePtr(hLayouts["connect container"]);
 	deletePtr(hLayouts["admin container"]);
+}
+
+void MainWindow::drawBackground(QPixmap* cache){
+	if(background == nullptr){
+		background = new QPixmap(imgPath.c_str());
+	}
+
+	double ratio = background->width() / tod(background->height());
+	auto resizedBackground = background->scaled(cache->width() * ratio, cache->height(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
+
+	this->setBackground(&resizedBackground);
+}
+
+void MainWindow::quit(){
+	qApp->quit();
 }
