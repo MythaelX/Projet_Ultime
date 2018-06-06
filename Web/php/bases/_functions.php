@@ -466,4 +466,19 @@
 		
 		return $name;
 	}
+	
+	/*! \brief Put an array to the error_log as a string */
+	function error_log_array($array){
+		$out = "";
+		
+		foreach($array as $k => $v){
+			if(gettype($v) === "array"){
+				error_log_array($v);
+			} else {
+				$out .= "['" . $k . "'] = '" . $v . "'\n";
+			}
+		}
+
+		error_log($out);
+	}
 ?>
