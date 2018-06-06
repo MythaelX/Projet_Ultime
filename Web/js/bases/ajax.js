@@ -16,19 +16,19 @@ var divErrorsClass = "container";
 /* Initialize the error div */
 function httpErrors(errorNumber, errorText){
 	var out = "<b>Error</b> : ";
-
+	
 	if(!errorDiv){
 		errorDiv = document.createElement("div");
 		document.getElementsByTagName("body")[0].insertAdjacentElement("afterbegin", errorDiv);
 	}
 	errorDiv.style.display = "inline-block";
-
+	
 	errorDiv.style.position = "fixed";
 	errorDiv.style.top = "10px";
-
+	
 	errorDiv.style.zIndex = "666";
 	errorDiv.style.opacity = "1";
-
+	
 	out += errorNumber + " - " + errorText;
 	switch(errorNumber){
 		case 401:
@@ -54,23 +54,23 @@ function httpErrors(errorNumber, errorText){
 			break;
 	}
 	errorDiv.innerHTML = out;
-
+	
 	var hideErrorInterval = setInterval(function(){}, 10000);
-
+	
 	setTimeout(function(){
 		clearInterval(hideErrorInterval);
-
+		
 		hideErrorInterval = setInterval(function(){
 			var opacity = errorDiv.style.opacity;
 			opacity -= 0.01;
-
+			
 			if(opacity < 0){
 				errorDiv.style.display = "none";
 				clearInterval(hideErrorInterval);
 			} else {
 				errorDiv.style.opacity = opacity;
 			}
-
+			
 		}, 50);
 	}, 2000);
 }
@@ -81,7 +81,6 @@ function httpSuccess(){
 		errorDiv = document.createElement("div");
 		document.getElementsByTagName("body")[0].insertAdjacentElement("afterbegin", errorDiv);
 	}
-	errorDiv.style.display = "none";
 }
 
 /* The function that start an ajax request */
@@ -90,18 +89,18 @@ function ajaxRequest(type, request, callback, data = null, errorCallback = funct
 		console.log("Please put datas to be sended with this protocol");
 		return;
 	}
-
+	
 	var xhr;
 	var auth = 0;
 	xhr = new XMLHttpRequest();
-
+	
 	/* On AUTH */
 		if(type == "AUTH"){
 			type = "GET";
 			auth = 1;
 		}
 	/***********/
-
+	
 	/* If it's GET or DELETE  and if there are datas and it's no an AUTH */
 		if((type == "GET" || type == "DELETE") && data != null){
 			if(!auth){
@@ -109,10 +108,12 @@ function ajaxRequest(type, request, callback, data = null, errorCallback = funct
 			}
 		}
 	/*************************/
-
+	
 	xhr.open(type, request, async);
-	xhr.setRequestHeader('Authorization', 'Bearer ' + Cookies.get('token'));
-
+	if(Cookies.get('token')){
+		xhr.setRequestHeader('Authorization', 'Bearer ' + Cookies.get('token'));
+	}
+	
 	/* Add a header for a POST or PUT */
 	if(type == "POST" || type == "PUT"){
 		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
@@ -123,7 +124,7 @@ function ajaxRequest(type, request, callback, data = null, errorCallback = funct
 			xhr.setRequestHeader('Authorization', 'Basic ' + btoa(data));
 		}
 	}
-
+	
 	/* Set the onload function */
 	xhr.onload = function(){
 		switch(xhr.status){
@@ -137,7 +138,7 @@ function ajaxRequest(type, request, callback, data = null, errorCallback = funct
 				errorCallback(xhr.responseText);
 		}
 	};
-
+	
 	/* Send what is needed according to the protocol */
 	if(type == "GET" || type == "DELETE"){
 		xhr.send(null);

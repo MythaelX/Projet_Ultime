@@ -18,7 +18,9 @@ MainWindow::MainWindow(QWidget* parent) :
 		center = new QWidget;
 		messageBox = new QDialog(this, Qt::Popup);
 		tabWidget = new QTabWidget;
+		hLayouts["connect container"] = nullptr;
 		hLayouts["admin container"] = nullptr;
+		vLayouts["adding layout"] = nullptr;
 
 		this->createConnectWidgets();
 		this->createConnectDialog();
@@ -61,8 +63,12 @@ void MainWindow::deleteAll(){
 	for(auto& item : tableButtons){
 		deletePtr(item.second);
 	}
+	for(auto& item : tabs){
+		deletePtr(item.second);
+	}
 	deletePtr(hLayouts["connect container"]);
 	deletePtr(hLayouts["admin container"]);
+	deletePtr(vLayouts["adding layout"]);
 }
 
 void MainWindow::drawBackground(QPixmap* cache){

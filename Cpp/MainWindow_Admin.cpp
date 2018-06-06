@@ -29,7 +29,7 @@ void MainWindow::createAdminWidgets(){
 				vLayouts[mapIndex]->addLayout(hLayouts[mapColIndex]);
 
 				for(auto& column : columns){
-					if(column["autoincrement"] != "1"){
+					if(column["autoincrement"] != "1" && column["name"].find("avatar") == std::string::npos){
 						std::string labelIndex = "label column " + tos(colIndex);
 						labels[labelIndex] = new QLabel;
 
@@ -57,6 +57,8 @@ void MainWindow::createAdminWidgets(){
 
 						if(column["autoincrement"] == "1"){
 							activeIndex = tost(lineContent);
+							continue;
+						} else if(column["name"].find("avatar") != std::string::npos){
 							continue;
 						}
 
@@ -129,7 +131,7 @@ void MainWindow::createAdminWidgets(){
 				tableButtons[indexModButton]->setText("Modifier");
 				tableButtons[indexDelButton]->setText("Supprimer");
 				
-				connect(tableButtons[indexAddButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(addEntry(std::string, size_t)));
+				connect(tableButtons[indexAddButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(addingWidgets(std::string, size_t)));
 				connect(tableButtons[indexDelButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(deleteEntry(std::string, size_t)));
 				
 				hLayouts["admin buttons"] = new QHBoxLayout;
@@ -157,4 +159,87 @@ void MainWindow::useAdminWidgets(){
 
 void MainWindow::adminWidgets(){
 	this->useAdminWidgets();
+}
+
+void MainWindow::addingWidgets(std::string table, size_t index){
+	this->deleteAll();
+
+	std::string name = uppercase(table, table.begin(), table.begin()+1);
+
+	vLayouts["adding layout"] = new QVBoxLayout;
+		hLayouts["layout name"] = new QHBoxLayout;
+			labels["name"] = new TitleLabel;
+		hLayouts["layout name2"] = new QHBoxLayout;
+			labels["name2"] = new TitleLabel;
+
+	vLayouts["adding layout"]->addItem(new QVSpacerItem);
+
+		hLayouts["layout name"]->addItem(new QHSpacerItem);
+			labels["name"]->setText(name.c_str());
+		hLayouts["layout name"]->addWidget(labels["name"]);
+		hLayouts["layout name"]->addItem(new QHSpacerItem);
+	vLayouts["adding layout"]->addLayout(hLayouts["layout name"]);
+		hLayouts["layout name2"]->addItem(new QHSpacerItem);
+			labels["name2"]->setText("Ajout");
+		hLayouts["layout name2"]->addWidget(labels["name2"]);
+		hLayouts["layout name2"]->addItem(new QHSpacerItem);
+	vLayouts["adding layout"]->addLayout(hLayouts["layout name2"]);
+
+	vLayouts["adding layout"]->addItem(new QVSpacerItem);
+
+	auto cols = bdd.getColumns(table);
+	for(size_t i{0}; i < cols.size(); ++i){
+		auto& col = cols[i];
+
+		if(col["autoincrement"] == "1" || col["name"].find("actif") != std::string::npos || col["name"].find("date") != std::string::npos || col["name"].find("avatar") != std::string::npos){
+			continue;
+		}
+
+		std::string layoutIndex = "layout " + tos(i);
+		std::string labelIndex = "label " + tos(i);
+		hLayouts[layoutIndex] = new QHBoxLayout;
+			labels[labelIndex] = new QLabel;
+
+		labels[labelIndex]->setText(formatColumn(replace(col["name"], "id_", ""), table).c_str());
+
+		hLayouts[layoutIndex]->addWidget(labels[labelIndex]);
+		
+		if(col["name"].find("id_") != std::string::npos){
+			
+		} else {
+			lines[labelIndex] = new QLineEdit;
+			hLayouts[layoutIndex]->addWidget(lines[labelIndex]);
+		}
+		
+		vLayouts["adding layout"]->addLayout(hLayouts[layoutIndex]);
+	}
+	
+	vLayouts["adding layout"]->addItem(new QVSpacerItem);
+	
+	tableButtons["annuler"] = new RedPushButton;
+	tableButtons["ajouter"] = new GreenPushButton;
+	hLayouts["buttons add"] = new QHBoxLayout;
+	
+	tableButtons["ajouter"]->setText("Ajouter");
+	tableButtons["annuler"]->setText("Annuler");
+	
+	connect(tableButtons["annuler"], SIGNAL(clicked()), this, SLOT(toAdmin()));
+	
+	hLayouts["buttons add"]->addItem(new QHSpacerItem);
+	hLayouts["buttons add"]->addWidget(tableButtons["annuler"]);
+	hLayouts["buttons add"]->addItem(new QHSpacerItem);
+	hLayouts["buttons add"]->addWidget(tableButtons["ajouter"]);
+	hLayouts["buttons add"]->addItem(new QHSpacerItem);
+	
+	vLayouts["adding layout"]->addLayout(hLayouts["buttons add"]);
+	
+	vLayouts["adding layout"]->addItem(new QVSpacerItem);
+	
+	center->setLayout(vLayouts["adding layout"]);
+}
+
+void MainWindow::toAdmin(){
+	this->deleteAll();
+	this->createAdminWidgets();
+	this->adminWidgets();
 }

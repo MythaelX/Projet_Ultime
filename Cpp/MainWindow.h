@@ -24,26 +24,32 @@ class MainWindow : public Window {
 		/*! \brief Create the window to connect to the database */
 		MainWindow(QWidget* parent = nullptr);
 		~MainWindow();
-	
+
 	public slots:
 		/*! \brief Try and verify the connection */
 		void connections();
-		
+
 		/*! \brief Change the active state of a value */
 		void changeActive(int state, std::string table, size_t index);
-		
+
+		/*! \brief Show all the widgets for adding something */
+		void addingWidgets(std::string table, size_t index);
+
 		/*! \brief Delete an entry in the bdd */
 		void deleteEntry(std::string table, size_t index);
-		
+
 		/*! \brief Allow to add an entry to the bdd */
 		void addEntry(std::string table, size_t index);
-		
+
 		/*! \brief Quit the application */
 		void quit();
-		
+
+		/*! \brief Recreate administration */
+		void toAdmin();
+
 	signals:
 		
-		
+
 	protected:
 		/*!
 		* \brief Overload of the drawBackground function
@@ -88,7 +94,7 @@ class MainWindow : public Window {
 		
 		/*! \brief Do all the deletions */
 		void deleteAll();
-		
+
 	private:
 		std::string config_file;
 

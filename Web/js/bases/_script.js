@@ -2,7 +2,7 @@
 /*																					*/
 /*					File : _script.js												*/
 /*						Created by Mathias CABIOCH-DELALANDE						*/
-/*							Last modification : 08/05/2018							*/
+/*							Last modification : 06/06/2018							*/
 /*																					*/
 /*						Authorization : use only									*/
 /*																					*/

@@ -19,6 +19,10 @@ class TitleLabel : public QLabel {
 	public:
 		/*! \brief	Create a PushButton */
 		TitleLabel(QWidget* parent = nullptr);
+	
+		void level(int niv){ h = niv; }
+	protected:
+		int h;
 };
 
 #endif //HEADER_TITLELABEL

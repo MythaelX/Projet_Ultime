@@ -4,7 +4,7 @@ void MainWindow::createConnectWidgets(){
 	hLayouts["connect container"] = new QHBoxLayout;
 		vLayouts["connect content"] = new QVBoxLayout;
 			hLayouts["connect line0"] = new QHBoxLayout;
-				labels["connect text"] =new TitleLabel;
+				labels["connect text"] = new TitleLabel;
 			hLayouts["connect line1"] = new QHBoxLayout;
 				vLayouts["connect line1"] = new QVBoxLayout;
 					labels["connect url"] = new QLabel;
@@ -61,8 +61,8 @@ void MainWindow::initConnectWidgets(){
 	closes["close"]->setGradient(147, 16, 9, 255, 74, 5, 5, 255);
 	closes["close"]->move(closeBtnX, closeBtnY);
 	closes["close"]->setNormalColor(255, 255, 255);
-	closes["close"]->setHoveredColor(50, 50, 50);
-	closes["close"]->setClickedColor(50, 50, 50);
+	closes["close"]->setHoveredColor(150, 150, 150);
+	closes["close"]->setClickedColor(250, 250, 250);
 
 	connect(closes["close"], SIGNAL(clicked()), this, SLOT(quit()));
 }
