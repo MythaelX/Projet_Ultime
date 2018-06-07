@@ -12,7 +12,9 @@ void MainWindow::createAdminWidgets(){
 			if(table != "contient" && table != "joue_a"){
 				tabs[table] = new QWidget;
 
-				tabWidget->addTab(tabs[table], uppercase(table, table.begin(), table.begin()+1).c_str());
+				std::string tabText = uppercase(table, table.begin(), table.begin()+1);
+				this->putAccents(tabText);
+				tabWidget->addTab(tabs[table], QString::fromUtf8(tabText.c_str()));
 
 				std::string mapIndex = table + " container";
 				vLayouts[mapIndex] = new QVBoxLayout;
@@ -42,7 +44,9 @@ void MainWindow::createAdminWidgets(){
 							std::string labelIndex = "label column " + tos(colIndex);
 							labels[labelIndex] = new QLabel;
 
-							labels[labelIndex]->setText(formatColumn(replace(column["name"], "id_", ""), table).c_str());
+							std::string labelText = formatColumn(replace(column["name"], "id_", ""), table);
+							this->putAccents(labelText);
+							labels[labelIndex]->setText(QString::fromUtf8(labelText.c_str()));
 
 							hLayouts[mapColIndex]->addWidget(labels[labelIndex]);
 						}
@@ -171,34 +175,36 @@ void MainWindow::createAdminWidgets(){
 				/*********/
 
 				/* Footer's buttons */
-					std::string indexAddButton = "add " + table;
-					std::string indexModButton = "modify " + table;
-					std::string indexDelButton = "delete " + table;
+					if(table.find("utilisateurs") == std::string::npos){
+						std::string indexAddButton = "add " + table;
+						std::string indexModButton = "modify " + table;
+						std::string indexDelButton = "delete " + table;
 				
-					tableButtons[indexAddButton] = new GreenPushButton;
-					tableButtons[indexModButton] = new GreyPushButton;
-					tableButtons[indexDelButton] = new RedPushButton;
+						tableButtons[indexAddButton] = new GreenPushButton;
+						tableButtons[indexModButton] = new GreyPushButton;
+						tableButtons[indexDelButton] = new RedPushButton;
 				
-					tableButtons[indexAddButton]->setTable(table);
-					tableButtons[indexModButton]->setTable(table);
-					tableButtons[indexDelButton]->setTable(table);
+						tableButtons[indexAddButton]->setTable(table);
+						tableButtons[indexModButton]->setTable(table);
+						tableButtons[indexDelButton]->setTable(table);
 				
-					tableButtons[indexAddButton]->setText("Ajouter");
-					tableButtons[indexModButton]->setText("Modifier");
-					tableButtons[indexDelButton]->setText("Supprimer");
+						tableButtons[indexAddButton]->setText("Ajouter");
+						tableButtons[indexModButton]->setText("Modifier");
+						tableButtons[indexDelButton]->setText("Supprimer");
 				
-					connect(tableButtons[indexAddButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(addingWidgets(std::string, size_t)));
-					connect(tableButtons[indexModButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(updateEntry(std::string, size_t)));
-					connect(tableButtons[indexDelButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(deleteEntry(std::string, size_t)));
+						connect(tableButtons[indexAddButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(addingWidgets(std::string, size_t)));
+						connect(tableButtons[indexModButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(updateEntry(std::string, size_t)));
+						connect(tableButtons[indexDelButton], SIGNAL(clicked(std::string, size_t)), this, SLOT(deleteEntry(std::string, size_t)));
 				
-					hLayouts["admin buttons"] = new QHBoxLayout;
+						hLayouts["admin buttons"] = new QHBoxLayout;
 				
-					vLayouts[mapIndex]->addItem(new QVSpacerItem);
-					vLayouts[mapIndex]->addLayout(hLayouts["admin buttons"]);
+						vLayouts[mapIndex]->addItem(new QVSpacerItem);
+						vLayouts[mapIndex]->addLayout(hLayouts["admin buttons"]);
 				
-					hLayouts["admin buttons"]->addWidget(tableButtons[indexDelButton]);
-					hLayouts["admin buttons"]->addWidget(tableButtons[indexModButton]);
-					hLayouts["admin buttons"]->addWidget(tableButtons[indexAddButton]);
+						hLayouts["admin buttons"]->addWidget(tableButtons[indexDelButton]);
+						hLayouts["admin buttons"]->addWidget(tableButtons[indexModButton]);
+						hLayouts["admin buttons"]->addWidget(tableButtons[indexAddButton]);
+					}
 				/********************/
 			}
 		}
@@ -232,52 +238,30 @@ void MainWindow::adminWidgets(std::string table){
 	}
 }
 
-std::string MainWindow::createWidgetsLabels(){
-	std::string labelIndex = "label " + tos(index);
-
+std::string MainWindow::createWidgetsLabel(std::map<std::string, std::string> col, size_t index){
 	if(col["autoincrement"] == "1"
 		|| col["name"].find("actif") != std::string::npos
 		|| col["name"].find("avatar") != std::string::npos
 		|| col["name"].find("token") != std::string::npos){
 		return "";
 	} else if(col["name"].find("date") != std::string::npos){
-		lines[labelIndex] = new QLineEdit;
-		lines[labelIndex]->setText("NOW()");
-
-		return;
+		return "line " + tos(index);
 	}
 
 	if(col["name"].find("id_") != std::string::npos){
 		std::string otherTable = replace(col["name"], "id_", "");
-		std::string comboIndexStr = "combos str " + otherTable;
-		std::string comboIndex = "combos int " + otherTable;
-
-		combos[comboIndexStr] = new QComboBox;
-		combos[comboIndex] = new QComboBox;
-
-		if(otherTable != "question"){
-			auto rep = bdd.query("SELECT nom_" + otherTable + " AS nom, id_" + otherTable + " AS id FROM " + otherTable);
-
-			for(; rep->next(); ){
-				combos[comboIndexStr]->addItem(rep->getString(1).c_str());
-				combos[comboIndex]->addItem(tos(rep->getInt(2)).c_str());
-			}
-		} else {
-			auto rep = bdd.query("SELECT solution_un, solution_deux, id_question FROM " + otherTable);
-
-			for(; rep->next(); ){
-				std::string a = rep->getString(1);
-				std::string b = rep->getString(2);
-				std::string item = uppercase(a, a.begin(), a.begin()+1) + ", " + uppercase(b, b.begin(), b.begin()+1) + " ou les deux";
-				std::string index = tos(rep->getInt(3));
-
-				combos[comboIndexStr]->addItem(item.c_str());
-				combos[comboIndex]->addItem(index.c_str());
-			}
-		}
+		return "combos str " + otherTable;
 	} else {
-		lines[labelIndex] = new QLineEdit;
+		return "line " + tos(index);
 	}
+}
+
+void MainWindow::createWidgetsLabels(std::string,
+									 std::map<std::string, std::string> col,
+									 size_t index,
+									 std::vector<std::string>& out)
+{
+	out.push_back(this->createWidgetsLabel(col, index));
 }
 
 void MainWindow::createAddingWidgets(std::string table,
@@ -286,6 +270,8 @@ void MainWindow::createAddingWidgets(std::string table,
 {
 	std::string layoutIndex = "layout " + tos(index);
 	std::string labelIndex = "label " + tos(index);
+	
+	std::string usefull = this->createWidgetsLabel(col, index);
 
 	if(col["autoincrement"] == "1"
 		|| col["name"].find("actif") != std::string::npos
@@ -293,8 +279,8 @@ void MainWindow::createAddingWidgets(std::string table,
 		|| col["name"].find("token") != std::string::npos){
 		return;
 	} else if(col["name"].find("date") != std::string::npos){
-		lines[labelIndex] = new QLineEdit;
-		lines[labelIndex]->setText("NOW()");
+		lines[usefull] = new QLineEdit;
+		lines[usefull]->setText("NOW()");
 
 		return;
 	}
@@ -307,18 +293,16 @@ void MainWindow::createAddingWidgets(std::string table,
 
 	if(col["name"].find("id_") != std::string::npos){
 		std::string otherTable = replace(col["name"], "id_", "");
-		std::string comboIndexStr = "combos str " + otherTable;
-		std::string comboIndex = "combos int " + otherTable;
 
-		combos[comboIndexStr] = new QComboBox;
-		combos[comboIndex] = new QComboBox;
+		combos[usefull] = new QComboBox;
+		combos[replace(usefull, "combos str", "combos int")] = new QComboBox;
 
 		if(otherTable != "question"){
 			auto rep = bdd.query("SELECT nom_" + otherTable + " AS nom, id_" + otherTable + " AS id FROM " + otherTable);
 
 			for(; rep->next(); ){
-				combos[comboIndexStr]->addItem(rep->getString(1).c_str());
-				combos[comboIndex]->addItem(tos(rep->getInt(2)).c_str());
+				combos[usefull]->addItem(rep->getString(1).c_str());
+				combos[replace(usefull, "combos str ", "combos int ")]->addItem(tos(rep->getInt(2)).c_str());
 			}
 		} else {
 			auto rep = bdd.query("SELECT solution_un, solution_deux, id_question FROM " + otherTable);
@@ -329,24 +313,46 @@ void MainWindow::createAddingWidgets(std::string table,
 				std::string item = uppercase(a, a.begin(), a.begin()+1) + ", " + uppercase(b, b.begin(), b.begin()+1) + " ou les deux";
 				std::string index = tos(rep->getInt(3));
 
-				combos[comboIndexStr]->addItem(item.c_str());
-				combos[comboIndex]->addItem(index.c_str());
+				combos[usefull]->addItem(item.c_str());
+				combos[replace(usefull, "combos str ", "combos int ")]->addItem(index.c_str());
 			}
 		}
 
-		hLayouts[layoutIndex]->addWidget(combos[comboIndexStr]);
+		hLayouts[layoutIndex]->addWidget(combos[usefull]);
 	} else {
-		lines[labelIndex] = new QLineEdit;
-		hLayouts[layoutIndex]->addWidget(lines[labelIndex]);
+		lines[usefull] = new QLineEdit;
+		hLayouts[layoutIndex]->addWidget(lines[usefull]);
 	}
 
 	vLayouts["adding layout"]->addLayout(hLayouts[layoutIndex]);
+}
+
+void MainWindow::fillWidgets(std::string table,
+							 std::map<std::string, std::string> col,
+							 size_t index,
+							 size_t lineId)
+{
+	auto rep = bdd.query("SELECT " + col["name"] + " FROM " + table + " WHERE id_" + table + " = " + tos(lineId));
+	rep->next();
+
+	auto value = rep->getString(1);
+	auto label = this->createWidgetsLabel(col, index);
+
+	if(label.find("combos ") != std::string::npos){
+		auto comboIndex = combos[replace(label, "combos str ", "combos int ")]->findText(value.c_str());
+		combos[label]->setCurrentIndex(comboIndex);
+	} else if(label.find("line ") != std::string::npos){
+		lines[label]->setText(value.c_str());
+	} else {}
+
+	tableButtons["ajouter"]->setIndex(lineId);
 }
 
 void MainWindow::addingWidgets(std::string table, size_t){
 	this->deleteAll();
 
 	std::string name = uppercase(table, table.begin(), table.begin()+1);
+	this->putAccents(name);
 
 	vLayouts["adding layout"] = new QVBoxLayout;
 		hLayouts["layout name"] = new QHBoxLayout;
@@ -357,7 +363,7 @@ void MainWindow::addingWidgets(std::string table, size_t){
 	vLayouts["adding layout"]->addItem(new QVSpacerItem);
 
 		hLayouts["layout name"]->addItem(new QHSpacerItem);
-			labels["name"]->setText(name.c_str());
+			labels["name"]->setText(QString::fromUtf8(name.c_str()));
 		hLayouts["layout name"]->addWidget(labels["name"]);
 		hLayouts["layout name"]->addItem(new QHSpacerItem);
 	vLayouts["adding layout"]->addLayout(hLayouts["layout name"]);
@@ -369,71 +375,9 @@ void MainWindow::addingWidgets(std::string table, size_t){
 
 	vLayouts["adding layout"]->addItem(new QVSpacerItem);
 
-	bdd.applyFor(&MainWindow::createAddingWidgets, this, table);
-
-	/*auto cols = bdd.getColumns(table);
-	for(size_t i{0}; i < cols.size(); ++i){
-		auto& col = cols[i];
-
-		std::string layoutIndex = "layout " + tos(i);
-		std::string labelIndex = "label " + tos(i);
-
-		if(col["autoincrement"] == "1"
-			|| col["name"].find("actif") != std::string::npos
-			|| col["name"].find("avatar") != std::string::npos
-			|| col["name"].find("token") != std::string::npos){
-			continue;
-		} else if(col["name"].find("date") != std::string::npos){
-			lines[labelIndex] = new QLineEdit;
-			lines[labelIndex]->setText("NOW()");
-
-			continue;
-		}
-
-		hLayouts[layoutIndex] = new QHBoxLayout;
-			labels[labelIndex] = new QLabel;
-
-		labels[labelIndex]->setText(formatColumn(replace(col["name"], "id_", ""), table).c_str());
-
-		hLayouts[layoutIndex]->addWidget(labels[labelIndex]);
-
-		if(col["name"].find("id_") != std::string::npos){
-			std::string otherTable = replace(col["name"], "id_", "");
-			std::string comboIndexStr = "combos str " + otherTable;
-			std::string comboIndex = "combos int " + otherTable;
-
-			combos[comboIndexStr] = new QComboBox;
-			combos[comboIndex] = new QComboBox;
-
-			if(otherTable != "question"){
-				auto rep = bdd.query("SELECT nom_" + otherTable + " AS nom, id_" + otherTable + " AS id FROM " + otherTable);
-
-				for(; rep->next(); ){
-					combos[comboIndexStr]->addItem(rep->getString(1).c_str());
-					combos[comboIndex]->addItem(tos(rep->getInt(2)).c_str());
-				}
-			} else {
-				auto rep = bdd.query("SELECT solution_un, solution_deux, id_question FROM " + otherTable);
-
-				for(; rep->next(); ){
-					std::string a = rep->getString(1);
-					std::string b = rep->getString(2);
-					std::string item = uppercase(a, a.begin(), a.begin()+1) + ", " + uppercase(b, b.begin(), b.begin()+1) + " ou les deux";
-					std::string index = tos(rep->getInt(3));
-
-					combos[comboIndexStr]->addItem(item.c_str());
-					combos[comboIndex]->addItem(index.c_str());
-				}
-			}
-
-			hLayouts[layoutIndex]->addWidget(combos[comboIndexStr]);
-		} else {
-			lines[labelIndex] = new QLineEdit;
-			hLayouts[layoutIndex]->addWidget(lines[labelIndex]);
-		}
-
-		vLayouts["adding layout"]->addLayout(hLayouts[layoutIndex]);
-	}*/
+	/* Create the widgets */
+	bdd.applyForEach(&MainWindow::createAddingWidgets, this, table);
+	/**********************/
 
 	vLayouts["adding layout"]->addItem(new QVSpacerItem);
 

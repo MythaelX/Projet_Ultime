@@ -89,3 +89,20 @@ void MainWindow::drawBackground(QPixmap* cache){
 void MainWindow::quit(){
 	qApp->quit();
 }
+
+void MainWindow::putAccents(std::string& text){
+	std::map<std::string, std::string> replacements;
+
+	replacements["Categorie"] = "Catégorie";
+	replacements["categorie"] = "catégorie";
+	replacements["Difficulte"] = "Difficulté";
+	replacements["difficulte"] = "difficulté";
+	replacements["Password"] = "Mot de passe";
+	replacements["password"] = "mot de passe";
+
+	for(auto& item : replacements){
+		if(text == item.first){
+			text = item.second;
+		}
+	}
+}

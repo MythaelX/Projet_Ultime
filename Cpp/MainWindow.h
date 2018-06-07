@@ -1,7 +1,7 @@
 /*!
 * \file MainWindow.hpp
 * \author Mathias CABIOCH-DELALANDE
-* \date 05 juin 2018
+* \date 07 juin 2018
 */
 #ifndef HEADER_MAINWINDOW
 #define HEADER_MAINWINDOW
@@ -25,10 +25,40 @@ class MainWindow : public Window {
 		MainWindow(QWidget* parent = nullptr);
 		~MainWindow();
 
+		/*!
+		* \brief Create the widgets for adding some informations
+		*		\param[in]		table		The table to read
+		*		\param[in]		col			The column infos
+		*		\param[in]		index		The index of the column in the database
+		*		\return			void
+		*/
 		void createAddingWidgets(std::string table,
 								 std::map<std::string, std::string> col,
 								 size_t index);
-		std::string createWidgetsLabels();
+		/*!
+		* \brief Create the labels for the adding widgets
+		*		\param[in]		table		The table to read
+		*		\param[in]		col			The column infos
+		*		\param[in]		index		The index of the column in the database
+		*		\param[in]		out			An array to put the labels
+		*		\return			void
+		*/
+		void createWidgetsLabels(std::string table,
+								 std::map<std::string, std::string> col,
+								 size_t index,
+								 std::vector<std::string>& out);
+		/*!
+		* \brief Fill the widgets for an update information
+		*		\param[in]		table		The table to read
+		*		\param[in]		col			The column infos
+		*		\param[in]		index		The index of the column in the database
+		*		\param[in]		lineId		The id of the line
+		*		\return			void
+		*/
+		void fillWidgets(std::string table,
+						 std::map<std::string, std::string> col,
+						 size_t index,
+						 size_t lineId);
 
 	public slots:
 		/*! \brief Try and verify the connection */
@@ -107,6 +137,16 @@ class MainWindow : public Window {
 		
 		/*! \brief Return an array that contains the choices */
 		std::vector<std::pair<std::string, std::string>> getCheckedChoices();
+
+		/*!
+		* \brief Create the label for a widget depending on the bdd type
+		*		\param[in]		col			The column for typping
+		*		\param[in]		index		The index of the column
+		*/
+		std::string createWidgetsLabel(std::map<std::string, std::string> col, size_t index);
+
+		/*! \brief Put the accents for all the texts that need it */
+		void putAccents(std::string& text);
 
 	private:
 		std::string config_file;

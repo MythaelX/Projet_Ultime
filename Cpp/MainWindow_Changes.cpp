@@ -93,52 +93,44 @@ void MainWindow::updateEntry(std::string table, size_t index){
 		disconnect(tableButtons["ajouter"], SIGNAL(clicked(std::string, size_t)), this, SLOT(addEntry(std::string, size_t)));
 		connect(tableButtons["ajouter"], SIGNAL(clicked(std::string, size_t)), this, SLOT(updEntry(std::string, size_t)));
 
-		auto rep = bdd.query("SELECT * FROM `" + choice.first + "` WHERE `id_" + choice.first + "` = '" + choice.second + "'");
-		for(; rep->next(); ){
-			
-		}
+		bdd.applyForEach(&MainWindow::fillWidgets, this, choice.first, tost(choice.second));
 	/****************************************/
 }
 
 void MainWindow::updEntry(std::string table, size_t index){
 	std::vector<std::string> values;
+	std::vector<std::string> valuesLabels;
+	bdd.applyForEach(&MainWindow::createWidgetsLabels, this, table, std::ref(valuesLabels));
 
-	for(auto& item : lines){
-		if(item.second != nullptr){
-			values.push_back(item.second->text().toStdString());
-		}
-	}
-	for(auto& item : combos){
-		if(item.second != nullptr && item.first.find("combos int ") == std::string::npos){
-			int index = item.second->currentIndex();
-			std::string strIndex = replace(item.first, "combos str ", "");
+	for(auto label : valuesLabels){
+		if(label.find("combos ") != std::string::npos){
+			int index = combos[label]->currentIndex();
+			std::string strIndex = replace(label, "combos str ", "");
 
 			values.push_back(combos["combos int " + strIndex]->itemText(index).toStdString());
-		}
+		} else if(label.find("line ") != std::string::npos){
+			values.push_back(lines[label]->text().toStdString());
+		} else {}
 	}
 
-	bdd.remove("WHERE id_" + table + " = " + tos(index), "", table);
-	auto newId = bdd.insert(implode(values, ", "), "", table);
-	bdd.update("id_" + table + " = " + tos(index), "WHERE id_" + table + " = " + tos(newId), "", table);
-
+	bdd.update(values, "WHERE id_" + table + " = " + tos(index), "", table);
 	this->toAdmin(table);
 }
 
 void MainWindow::addEntry(std::string table, size_t){
 	std::vector<std::string> values;
+	std::vector<std::string> valuesLabels;
+	bdd.applyForEach(&MainWindow::createWidgetsLabels, this, table, std::ref(valuesLabels));
 
-	for(auto& item : lines){
-		if(item.second != nullptr){
-			values.push_back(item.second->text().toStdString());
-		}
-	}
-	for(auto& item : combos){
-		if(item.second != nullptr && item.first.find("combos int ") == std::string::npos){
-			int index = item.second->currentIndex();
-			std::string strIndex = replace(item.first, "combos str ", "");
+	for(auto label : valuesLabels){
+		if(label.find("combos ") != std::string::npos){
+			int index = combos[label]->currentIndex();
+			std::string strIndex = replace(label, "combos str ", "");
 
 			values.push_back(combos["combos int " + strIndex]->itemText(index).toStdString());
-		}
+		} else if(label.find("line ") != std::string::npos){
+			values.push_back(lines[label]->text().toStdString());
+		} else {}
 	}
 
 	bdd.insert(implode(values, ", "), "", table);
