@@ -60,8 +60,8 @@ void MainWindow::initConnectWidgets(){
 	closes["close"]->resize(closeBtnSize, closeBtnSize);
 	closes["close"]->setGradient(147, 16, 9, 255, 74, 5, 5, 255);
 	closes["close"]->move(closeBtnX, closeBtnY);
-	closes["close"]->setNormalColor(255, 255, 255);
-	closes["close"]->setHoveredColor(150, 150, 150);
+	closes["close"]->setNormalColor(150, 150, 150);
+	closes["close"]->setHoveredColor(255, 255, 255);
 	closes["close"]->setClickedColor(250, 250, 250);
 
 	connect(closes["close"], SIGNAL(clicked()), this, SLOT(quit()));

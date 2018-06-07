@@ -41,7 +41,7 @@ qt:
 	qmake -project
 	echo "\nQT += gui core widgets" >> $(PROJECTFILE)
 	qmake
-	make -f Makefile all SUBLIBS="$(QTLIBS)"
+	$(MAKE) -f Makefile all SUBLIBS="$(QTLIBS)"
 gdb:
 	$(CC) -c *.cpp */*.cpp $(GCFLAGS)
 	$(CC) -o prog *.o $(LDFLAGS)

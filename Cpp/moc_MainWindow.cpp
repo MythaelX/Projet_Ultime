@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[14];
-    char stringdata0[122];
+    QByteArrayData data[16];
+    char stringdata0[143];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -40,15 +40,17 @@ QT_MOC_LITERAL(7, 61, 6), // "size_t"
 QT_MOC_LITERAL(8, 68, 5), // "index"
 QT_MOC_LITERAL(9, 74, 13), // "addingWidgets"
 QT_MOC_LITERAL(10, 88, 11), // "deleteEntry"
-QT_MOC_LITERAL(11, 100, 8), // "addEntry"
-QT_MOC_LITERAL(12, 109, 4), // "quit"
-QT_MOC_LITERAL(13, 114, 7) // "toAdmin"
+QT_MOC_LITERAL(11, 100, 11), // "updateEntry"
+QT_MOC_LITERAL(12, 112, 8), // "updEntry"
+QT_MOC_LITERAL(13, 121, 8), // "addEntry"
+QT_MOC_LITERAL(14, 130, 4), // "quit"
+QT_MOC_LITERAL(15, 135, 7) // "toAdmin"
 
     },
     "MainWindow\0connections\0\0changeActive\0"
     "state\0std::string\0table\0size_t\0index\0"
-    "addingWidgets\0deleteEntry\0addEntry\0"
-    "quit\0toAdmin"
+    "addingWidgets\0deleteEntry\0updateEntry\0"
+    "updEntry\0addEntry\0quit\0toAdmin"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,7 +60,7 @@ static const uint qt_meta_data_MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -66,14 +68,17 @@ static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   54,    2, 0x0a /* Public */,
-       3,    3,   55,    2, 0x0a /* Public */,
-       9,    2,   62,    2, 0x0a /* Public */,
-      10,    2,   67,    2, 0x0a /* Public */,
-      11,    2,   72,    2, 0x0a /* Public */,
-      12,    0,   77,    2, 0x0a /* Public */,
-      13,    1,   78,    2, 0x0a /* Public */,
-      13,    0,   81,    2, 0x2a /* Public | MethodCloned */,
+       1,    0,   69,    2, 0x0a /* Public */,
+       3,    3,   70,    2, 0x0a /* Public */,
+       9,    2,   77,    2, 0x0a /* Public */,
+      10,    2,   82,    2, 0x0a /* Public */,
+      11,    2,   87,    2, 0x0a /* Public */,
+      12,    2,   92,    2, 0x0a /* Public */,
+      13,    2,   97,    2, 0x0a /* Public */,
+      14,    0,  102,    2, 0x0a /* Public */,
+      15,    2,  103,    2, 0x0a /* Public */,
+      15,    1,  108,    2, 0x2a /* Public | MethodCloned */,
+      15,    0,  111,    2, 0x2a /* Public | MethodCloned */,
 
  // slots: parameters
     QMetaType::Void,
@@ -81,7 +86,10 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
     QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
     QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
+    QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
+    QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
     QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 5, 0x80000000 | 7,    6,    8,
     QMetaType::Void, 0x80000000 | 5,    6,
     QMetaType::Void,
 
@@ -98,10 +106,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->changeActive((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< std::string(*)>(_a[2])),(*reinterpret_cast< size_t(*)>(_a[3]))); break;
         case 2: _t->addingWidgets((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
         case 3: _t->deleteEntry((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
-        case 4: _t->addEntry((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
-        case 5: _t->quit(); break;
-        case 6: _t->toAdmin((*reinterpret_cast< std::string(*)>(_a[1]))); break;
-        case 7: _t->toAdmin(); break;
+        case 4: _t->updateEntry((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
+        case 5: _t->updEntry((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
+        case 6: _t->addEntry((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
+        case 7: _t->quit(); break;
+        case 8: _t->toAdmin((*reinterpret_cast< std::string(*)>(_a[1])),(*reinterpret_cast< size_t(*)>(_a[2]))); break;
+        case 9: _t->toAdmin((*reinterpret_cast< std::string(*)>(_a[1]))); break;
+        case 10: _t->toAdmin(); break;
         default: ;
         }
     }
@@ -132,13 +143,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 11;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 11)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 8;
+        _id -= 11;
     }
     return _id;
 }

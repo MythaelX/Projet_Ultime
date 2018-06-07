@@ -234,6 +234,8 @@
 		if(!move_uploaded_file($FILE["tmp_name"], $folder . "/" . $name)){
 			error_log("The file '" . $FILE["name"] . "' can't be moved to '" . $folder . "'");
 		}
+
+		return $name;
 	}
 	
 	/* Convert a date JJ/MM/AAAA to AAAA-MM-JJ */

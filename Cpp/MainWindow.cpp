@@ -38,8 +38,6 @@ MainWindow::MainWindow(QWidget* parent) :
 	/***************/
 
 	this->move(getDesktopWidth() / 2 - this->width() / 4, getDesktopHeight() / 2 - this->height() / 4);
-
-	//std::cout << cssReader("res/style.css") << std::endl;
 	this->setStyleSheet(cssReader("res/style.css").c_str());
 }
 

@@ -25,6 +25,10 @@ class MainWindow : public Window {
 		MainWindow(QWidget* parent = nullptr);
 		~MainWindow();
 
+		void createAddingWidgets(std::string table,
+										std::map<std::string, std::string>& col,
+										size_t index);
+
 	public slots:
 		/*! \brief Try and verify the connection */
 		void connections();
@@ -38,6 +42,11 @@ class MainWindow : public Window {
 		/*! \brief Delete an entry in the bdd */
 		void deleteEntry(std::string table, size_t index);
 
+		/*! \brief Update an entry in the bdd */
+		void updateEntry(std::string table, size_t index);
+		/*! \brief Update an entry in the bdd */
+		void updEntry(std::string table, size_t index);
+
 		/*! \brief Allow to add an entry to the bdd */
 		void addEntry(std::string table, size_t index);
 
@@ -45,7 +54,7 @@ class MainWindow : public Window {
 		void quit();
 
 		/*! \brief Recreate administration */
-		void toAdmin(std::string table = "");
+		void toAdmin(std::string table = "", size_t index = 0);
 
 	signals:
 		
@@ -91,9 +100,12 @@ class MainWindow : public Window {
 			/*! \brief Calls to createAdminWidgets, setContentAdminWidgets and useAdminWidgets */
 			void adminWidgets(std::string table = "");
 		/*******************/
-		
+
 		/*! \brief Do all the deletions */
 		void deleteAll();
+		
+		/*! \brief Return an array that contains the choices */
+		std::vector<std::pair<std::string, std::string>> getCheckedChoices();
 
 	private:
 		std::string config_file;

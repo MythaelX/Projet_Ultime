@@ -2,7 +2,7 @@
 *
 *	\file		CheckBox.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		04 juin 2018
+*	\date		06 juin 2018
 *
 */
 #ifndef HEADER_CHECKBOX
@@ -24,7 +24,12 @@ class CheckBox : public QCheckBox {
 		void setTable(std::string table){ this->table = table; }
 		/*! \brief	Set the index linked to the checkbox */
 		void setIndex(size_t index){ this->index = index; }
-	
+
+		/*! \brief	Return the table */
+		std::string getTable()const { return table; }
+		/*! \brief	Return the index */
+		size_t getIndex()const { return index; }
+
 	public slots:
 		/*! \brief Change the active state of a value */
 		void changeActive(int state);
