@@ -26,8 +26,9 @@ class MainWindow : public Window {
 		~MainWindow();
 
 		void createAddingWidgets(std::string table,
-										std::map<std::string, std::string>& col,
-										size_t index);
+								 std::map<std::string, std::string> col,
+								 size_t index);
+		std::string createWidgetsLabels();
 
 	public slots:
 		/*! \brief Try and verify the connection */

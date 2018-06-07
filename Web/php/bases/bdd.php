@@ -56,7 +56,7 @@
 					$command .= ";dbname=" . $name . ";charset=UTF8;";
 					$this->db = new PDO($command, $user, $pass);
 					
-					if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+					if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				} catch(PDOException $e){
 					error_log($this->dbType . ' connect error: ' . $e->getMessage());
 					die();
@@ -87,7 +87,7 @@
 			try {
 				$command = $this->secureValues($command);
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -112,7 +112,7 @@
 			try {
 				$command = "SHOW TABLES";
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				if(!($this->req = $this->db->query($command))){
 					return false;
@@ -137,7 +137,7 @@
 			try {
 				$command = "SHOW COLUMNS FROM " . $table;
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -172,7 +172,7 @@
 			try {
 				$command = "SELECT $selection FROM $name $opt";
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -214,7 +214,7 @@
 				$command = "INSERT INTO `$name` VALUES(" . $this->secureValues($val) . ")";
 				$this->db->exec($command);
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				return true;
 			} catch(PDOException $e){
@@ -260,7 +260,7 @@
 				$command = "UPDATE `$name` SET $val $opts";
 				$this->db->exec($command);
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				return true;
 			} catch(PDOException $e){
@@ -275,7 +275,7 @@
 				$command = "DELETE FROM `$name` WHERE $where";
 				$this->db->exec($command);
 				
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ echo $command . "<br />\n"; }	//If the variable $DEBUG equals true, print the command
+				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }	//If the variable $DEBUG equals true, print the command
 				
 				return true;
 			} catch(PDOException $e){
