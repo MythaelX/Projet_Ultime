@@ -1,70 +1,70 @@
 <?php
-
-/****************************************************************/
-/*																*/
-/*			File : errors.php									*/
-/*				Created by Mathias CABIOCH-DELALANDE			*/
-/*					Last modification : 21/04/2018				*/
-/*																*/
-/*				Authorization : use only						*/
-/*																*/
-/****************************************************************/
-
-	/* Renvoie une erreur et arrête le script */
+	/*!
+	*
+	*	\file		errors.php
+	*	\author		Mathias CABIOCH-DELALANDE
+	*	\date		07 juin 2018
+	*
+	*/
+	/*!
+	* \brief Return an error and exit the script if \a $exit = true
+	*		\param[in]		$error			The error type
+	*		\param[in]		$exit			\b true or \a false
+	*/
 	function setError($error, $exit){
 		header('HTTP/1.1 ' . $error);
-		
+
 		if($exit === true){
 			exit;
 		}
 	}
-	
-	/* Mauvaise requête */
+
+	/*! \brief Bad request error */
 	function badRequest($exit = true){
 		setError("400", $exit);
 	}
-	
-	/* Non authorisé */
+
+	/*! \brief Unauthorized error */
 	function unauthorized($exit = true){
 		setError("401", $exit);
 	}
-	
-	/* Accès interdit */
+
+	/*! \brief Forbidden access error */
 	function forbidden($exit = true){
 		setError("403", $exit);
 	}
-	
-	/* Page non trouvé */
+
+	/*! \brief Not found error */
 	function notFound($exit = true){
 		setError("404", $exit);
 	}
-	
-	/* Je suis une théière */
+
+	/*! \brief I am a teapot */
 	function laugth($exit = true){
 		setError("418 I'm a teapot", $exit);
 	}
-	
-	/* Erreur du serveur */
+
+	/*! \brief Internal server error */
 	function serverError($exit = true){
 		setError("500", $exit);
 	}
-	
-	/* Demande non implémentée */
+
+	/*! \brief Not implemented error */
 	function notImplemented($exit = true){
 		setError("501", $exit);
 	}
-	
-	/* Mauvais chemin */
+
+	/*! \brief Bad gateway error */
 	function badGateway($exit = true){
 		setError("502", $exit);
 	}
-	
-	/* Service indisponible */
+
+	/*! \brief Unavailable error */
 	function unavailable($exit = true){
 		setError("503", $exit);
 	}
-	
-	/* Erreur */
+
+	/*! \brief General error */
 	function error($exit = true){
 		setError("520", $exit);
 	}
