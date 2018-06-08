@@ -24,11 +24,10 @@
 
 	/* Scripts du site */
 
-
 	/*******************/
 
 	/* Scripts personnels */
-		$head->head_script("js/authentification.js");
+
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête
@@ -37,7 +36,7 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-			<?php require_once("php/formulaireConnexion.php") ?>
+
 			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>

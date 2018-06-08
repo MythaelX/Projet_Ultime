@@ -1,0 +1,4 @@
+-inscription affficher un message en cas d'erreur ou de success
+ -faire l'ago partie : une partie continent des difficulte
+ -faire le jeu
+-ne aps metre la difficulté en dur 

@@ -1,3 +1,5 @@
+'use strict';
+
 var pseudo =null;
 if(Cookies.get('pseudo')){
   pseudo = Cookies.get('pseudo');
@@ -9,7 +11,7 @@ function affichageNav(pseudo){
   if(pseudo==null){
     affichageDeconnecter();
   }else{
-    ajaxRequest('GET', 'php/request.php/navInfo?&pseudo='+pseudo, affichageConnecter);
+    ajaxRequest('GET', 'php/request.php/navInfo', affichageConnecter,'pseudo='+pseudo);
   }
 }
 
@@ -30,7 +32,10 @@ function affichageConnecter(ajaxResponse){
 }
 
 function deconnexion(){
+  ajaxRequest('DELETE','php/request.php/sessionDestroy')
   Cookies.remove('pseudo');
+  Cookies.remove('token');
+  Cookies.remove('PHPSESSID');
   $('#boutonDeconnexion').removeEventListener('click',deconnexion);
   document.location.reload(true);
 }

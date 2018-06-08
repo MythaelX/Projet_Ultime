@@ -1,6 +1,7 @@
 'use strict';
 boutons();
-ajaxRequest('GET', 'php/request.php/tabVegan', loadTabPalmares);
+ajaxRequest('GET', 'php/request.php/tableauPalmares', loadTabPalmares,'difficulte="1"');
+
 function boutons(){
   $('#boutonVegan').addEventListener('click',affichage);
   $('#boutonVegetarien').addEventListener('click',affichage);
@@ -9,22 +10,23 @@ function boutons(){
 }
 
 function affichage(event) {
-  var idBouton=event.currentTarget.id;
+  var idBouton=event.currentTarget.id,difficulte;
   console.log(idBouton);
   switch (idBouton) {
     case "boutonVegan":
-      ajaxRequest('GET', 'php/request.php/tabVegan', loadTabPalmares);
+      difficulte=1;
     break;
     case "boutonVegetarien":
-      ajaxRequest('GET', 'php/request.php/tabVegetarien', loadTabPalmares);
+      difficulte=2;
     break;
     case "boutonOmnivore":
-      ajaxRequest('GET', 'php/request.php/tabOmnivore', loadTabPalmares);
+      difficulte=3;
     break;
     case "boutonCarnivore":
-      ajaxRequest('GET', 'php/request.php/tabCarnivore', loadTabPalmares);
+      difficulte=4;;
     break;
   }
+  ajaxRequest('GET', 'php/request.php/tableauPalmares',loadTabPalmares,'difficulte='+difficulte);
 }
 
 function affichageTableau(array){

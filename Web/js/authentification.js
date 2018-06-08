@@ -11,23 +11,11 @@ function valideLogin(event) {
         text = 'L\'un des champs est vide.';
         httpErrors(400,text)
     } else {
-    Cookies.set('pseudo', pseudo);
 
-    xhr = new XMLHttpRequest();
-    xhr.open('GET', 'php/request.php/authentification', true);
-    xhr.setRequestHeader('Authorization', 'Basic ' + btoa(pseudo + ':' + mdp));
-
-    xhr.onload = function () {
-        switch (xhr.status) {
-            case 200:
-                Cookies.set('token', xhr.responseText);
-                break;
-            default:
-                httpErrors(xhr.status);
-        }
-    };
-
-    xhr.send();
-    }
-    document.location="./index.php";
+    ajaxRequest('AUTH','php/request.php/authentification',function(token){
+      Cookies.set('token', token);
+      Cookies.set('pseudo', pseudo);
+      document.location="./index.php";
+    },pseudo + ':' + mdp);
+  }
 }

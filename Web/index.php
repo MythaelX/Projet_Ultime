@@ -28,6 +28,7 @@
 
 	/* Scripts personnels */
 		$head->head_script("js/navBar.js");
+		$head->head_script("js/accueilPerso.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête

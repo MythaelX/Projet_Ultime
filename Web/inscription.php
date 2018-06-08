@@ -28,7 +28,7 @@
 	/*******************/
 
 	/* Scripts personnels */
-		$head->head_script("js/authentification.js");
+		$head->head_script("js/inscription.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête
@@ -37,7 +37,7 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-			<?php require_once("php/formulaireConnexion.php") ?>
+			<?php require_once("php/formulaireInscription.php") ?>
 			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>
