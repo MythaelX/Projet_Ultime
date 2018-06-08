@@ -4,19 +4,18 @@
 	*	\file		getter.php
 	*	\author		Mathias CABIOCH-DELALANDE
 	*	\date		07 juin 2018
-	*	\details	Definition of the necessary headers to be able to get the informations\n
-	*				Get the request type\n
-	*				Get the given arguments\n
-	*				Set an array with the arguments\n
-	*				If PUT sended, create a $_PUT array\n
-	*				If DELETE sended, create a $_DELETE array\n
+	*	\details	Definition of the necessary headers to be able to get the informations
+	*				Get the request type
+	*				Get the given arguments
+	*				Set an array with the arguments
+	*				If PUT sended, create a $_PUT array
+	*				If DELETE sended, create a $_DELETE array
 	*
 	*/
 	header("Content-Type: text/plain; charset=utf-8");
 	header("Cache-control: no-store, no-cache, must-revalidate");
 	header("Pragma: no-cache");
 
-	/*! \brief Get the server method type */
 	$type = $_SERVER["REQUEST_METHOD"];
 
 	if(isset($_SERVER["PATH_INFO"])){
@@ -30,11 +29,7 @@
 		$_DELETE = $_GET;
 	}
 
-	/*!
-	* \fn nextRes()
-	* \fn nextRes()
-	* \brief Return the next ressource in the array or false
-	*/
+	/* \brief Return the next ressource in the array or false */
 	function nextRes(){
 		if(isset($GLOBALS["serverRequest"])){
 			return array_shift($GLOBALS["serverRequest"]);
@@ -43,10 +38,7 @@
 		return false;
 	}
 
-	/*!
-	* \fn resNumber()
-	* \brief Return the number of arguments in the array
-	*/
+	/* \brief Return the number of arguments in the array */
 	function resNumber(){
 		if(isset($GLOBALS["serverRequest"])){
 			return sizeOf($GLOBALS["serverRequest"]);

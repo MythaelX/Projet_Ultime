@@ -1,4 +1,7 @@
 -inscription affficher un message en cas d'erreur ou de success
  -faire l'ago partie : une partie continent des difficulte
  -faire le jeu
--ne aps metre la difficulté en dur 
+-ne pas metre la difficulté en dur 
+rajouter id_partie
+
+afficher le score dans jeu au lieu de palmares

@@ -25,6 +25,7 @@
 	/* Scripts du site */
 
 	/*******************/
+		$head->head_script("js/navBar.js");
 		$head->head_script("js/palmares.js");
 	/* Scripts personnels */
 

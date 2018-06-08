@@ -4,62 +4,8 @@
 	require_once("bases/errors.php");
 	require_once("bases/bdd.php");
 	require_once("bddConnect.inc");
+	require_once("fonctions.php");
 
-	//------------------------------------------------------------------------------
-	//--- sendJsonData------------------------------------------------------------
-	//------------------------------------------------------------------------------
-	// sendJsonData.
-
-	function sendJsonData($message, $h){
-	    header($h);
-	    header('Content-Type: text/plain; charset=utf-8');
-	    header('Cache-control: no-store, no-cache, must-revalidate');
-	    header('Pragma: no-cache');
-	    echo json_encode($message);
-	}
-
-	function authentification($bdd){
-			error_log(implode(" _ ", $_SERVER));
-	    $pseudo = $_SERVER['PHP_AUTH_USER'];
-	    $mdp = $_SERVER['PHP_AUTH_PW'];
-			$statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password='$mdp'"); //sha1('$mdp')
-	    if(!$statue){
-	        header('HTTP/1.1 401 Unauthorized');
-	        exit;
-	    }
-	    $token = base64_encode(openssl_random_pseudo_bytes(12));
-			$bdd->query("update utilisateurs set token='$token' where pseudo='$pseudo'");
-	    header('Content-Type: text/plain; charset=utf-8');
-	    header('Cache-control: no-store, no-cache, must-revalidate');
-	    header('Pragma: no-cache');
-	    echo $token;
-	    exit;
-	}
-
-	function verifieToken($bdd){
-	    $headers = getallheaders();
-	    $token = $headers['Authorization'];
-
-	    if (preg_match('/Bearer (.*)/', $token, $tab))$token = $tab[1];
-			$pseudo = $bdd->query("select pseudo from utilisateurs where token='$token'");
-
-	    if(!($pseudo)){
-					Unauthorized();
-	    }
-	    return $pseudo;
-	}
-
-	function creationPartie($bdd,$tabQuestions){ //insertion d'une partie dans la bdd
-		$difficulte=$_POST['difficulte'];
-		$date=date("Y-m-d");
-		$bdd->insert("partie", "NULL,'".$date."' , '1', ".$difficulte."");
-		$id_partie=getId();
-		$nbQuestions=$bdd->query("SELECT nb_questions FROM difficulte WHERE id_difficulte=1")[0]['nb_questions'];
-		for ($i=0; $i <$nbQuestions; $i++) {
-			$id_question=$tabQuestions[$i]['id_question'];
-			$bdd->insert("contient", "'".$id_question."','".$id_partie."'");
-		}
-	}
 	// Database connexion.
 	$bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
 
@@ -80,6 +26,8 @@
 			/*******************/
 			$tabQuestions=$bdd->query("SELECT q.id_question FROM question AS q,categorie AS c WHERE ".$themesSQL." c.id_categorie=q.id_categorie ORDER BY RAND()");
 			creationPartie($bdd,$tabQuestions);
+		}else if($requestRessource == 'jeu'){
+			score($bdd);
 		}
 			break;
 		case "GET":
@@ -96,9 +44,17 @@
 				$data=$bdd->query("SELECT id_partie FROM partie WHERE id_difficulte=".$difficulte." AND partie_actif=1");
 			}else if($requestRessource == 'tableauThemes'){
 				$data=$bdd->query("SELECT nom_categorie FROM categorie WHERE categorie_actif=1");
+			}else if($requestRessource == 'tableauDifficulte'){
+				$data=$bdd->query("SELECT nom_difficulte FROM difficulte WHERE 1");
 			}else if($requestRessource == 'nomDifficulte'){
 				$id_partie=$_GET['id_partie'];
 				$data=$bdd->query("SELECT d.nom_difficulte FROM partie AS p,difficulte As d Where p.id_partie=".$id_partie." And d.id_difficulte=p.id_difficulte");
+			}else if($requestRessource == 'questions'){
+				$id_partie=$_GET['id_partie'];
+				$data=$bdd->query("SELECT q.id_question,q.solution_un,q.solution_deux FROM question As q,contient AS c WHERE c.id_question=q.id_question AND q.question_actif=1 AND c.id_partie=".$id_partie."");
+			}else if($requestRessource == 'propositions'){
+				$id_question=$_GET['id_question'];
+				$data=$bdd->query("SELECT texte_proposition,solution_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
 			}
 			sendJsonData($data,'HTTP/1.1 200 OK');
 			break;
