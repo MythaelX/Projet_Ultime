@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: File List</title>
+<title>Hot Dog QUIZ: File List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
       <li><a href="annotated.php"><span>Classes</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -110,8 +109,12 @@ $(document).ready(function(){initNavTree('files.php','');});
 <div class="contents">
 <div class="textblock">Here is a list of all files with brief descriptions:</div><div class="directory">
 <table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="d1/d7c/a00003_source.php"><span class="icondoc"></span></a><a class="el" href="d1/d7c/a00003.php" target="_self">functions.hpp</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="d0/d0b/a00004_source.php"><span class="icondoc"></span></a><a class="el" href="d0/d0b/a00004.php" target="_self">MainWindow.h</a></td><td class="desc"></td></tr>
+<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="d7/dec/a00010_source.php"><span class="icondoc"></span></a><a class="el" href="d7/dec/a00010.php" target="_self">CheckBox.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_1_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="da/d45/a00011_source.php"><span class="icondoc"></span></a><a class="el" href="da/d45/a00011.php" target="_self">Dialog.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="df/d86/a00012_source.php"><span class="icondoc"></span></a><a class="el" href="df/d86/a00012.php" target="_self">functions.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="d7/dd4/a00013_source.php"><span class="icondoc"></span></a><a class="el" href="d7/dd4/a00013.php" target="_self">MainWindow.h</a></td><td class="desc"></td></tr>
+<tr id="row_4_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="d2/de7/a00014_source.php"><span class="icondoc"></span></a><a class="el" href="d2/de7/a00014.php" target="_self">PushButton.hpp</a></td><td class="desc"></td></tr>
+<tr id="row_5_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a href="dd/d1b/a00015_source.php"><span class="icondoc"></span></a><a class="el" href="dd/d1b/a00015.php" target="_self">TitleLabel.hpp</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

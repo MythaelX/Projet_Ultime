@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['qhspaceritem',['QHSpacerItem',['../d0/d33/a00027.php',1,'QHSpacerItem'],['../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324',1,'QHSpacerItem::QHSpacerItem()']]],
-  ['qtdefines_2ehpp',['QtDefines.hpp',['../de/de1/a00065.php',1,'']]],
-  ['qtfunctions_2ehpp',['QtFunctions.hpp',['../d9/db3/a00066.php',1,'']]],
-  ['qtwindow',['QtWindow',['../d9/db3/a00066.php#af5c0e4b3ee16e7efaa2220fe898e0138',1,'QtFunctions.hpp']]],
-  ['query',['query',['../dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c',1,'BDD']]],
-  ['qvspaceritem',['QVSpacerItem',['../dc/d3c/a00028.php',1,'QVSpacerItem'],['../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31',1,'QVSpacerItem::QVSpacerItem()']]]
+  ['updateask',['updateAsk',['../df/d86/a00012.php#aaee44428f5b0401f7b9ad5b073254fd3',1,'functions.hpp']]],
+  ['updatecategory',['updateCategory',['../df/d86/a00012.php#a2227326c53ffa5963bcc96c7983c6383',1,'functions.hpp']]],
+  ['updatedifficulty',['updateDifficulty',['../df/d86/a00012.php#a4f84d201465ec63094f6407c0cdb6a8d',1,'functions.hpp']]],
+  ['updateentry',['updateEntry',['../de/d21/a00006.php#a675227b9f43a0a590d2446b074053943',1,'MainWindow']]],
+  ['updategame',['updateGame',['../df/d86/a00012.php#a870df29ea630e53aa77c960373e0825f',1,'functions.hpp']]],
+  ['updatequestion',['updateQuestion',['../df/d86/a00012.php#ae13343b52f992bcba9e6fcb79bddf71e',1,'functions.hpp']]],
+  ['updateusers',['updateUsers',['../df/d86/a00012.php#ac6acc509b5aa3caa3f76450ed835759e',1,'functions.hpp']]],
+  ['updentry',['updEntry',['../de/d21/a00006.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7',1,'MainWindow']]],
+  ['useadminwidgets',['useAdminWidgets',['../de/d21/a00006.php#ac5cd67fa4d5e5aace91a9c98cc8feec7',1,'MainWindow']]],
+  ['useconnectwidgets',['useConnectWidgets',['../de/d21/a00006.php#aad6ca3020e583fffe727258905c15629',1,'MainWindow']]]
 ];

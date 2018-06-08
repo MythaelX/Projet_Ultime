@@ -43,8 +43,6 @@ MainWindow {
 
 .QWidget {
 	background-color: rgba(255, 255, 255, 0);
-	
-	border-radius: 20px;
 }
 
 QTabWidget::pane {
@@ -71,6 +69,16 @@ QTabBar::tab:first {
 	padding: 0 1em;
 
 	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+QTabBar::tab:last {
+	border: 0px solid black;
+
+	padding: 0 1em;
+
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 
 QLabel {
@@ -87,4 +95,26 @@ QLabel {
 .TitleLabel, .H2TitleLabel {
 	color: rgba(255, 255, 205, 0.8);
 	font-weight: normal;
+}
+
+.TableWidget {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: 0px solid white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.TableWidget > Widget {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+Dialog {
+	background-color: rgb(40, 40, 40);
+	border: 3px ridge rgb(20, 20, 20);
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+Dialog > .H2TitleLabel {
+	color: white !important;
 }

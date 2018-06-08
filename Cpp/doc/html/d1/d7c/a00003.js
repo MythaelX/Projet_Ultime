@@ -1,28 +1,4 @@
 var a00003 =
 [
-    [ "addAsk", "d1/d7c/a00003.php#a2003fa6138007746e85c2b697d147b58", null ],
-    [ "addCategory", "d1/d7c/a00003.php#afeb2d8632fb1dad24def5d95d27f43f0", null ],
-    [ "addGame", "d1/d7c/a00003.php#a35ee2c6a333148aed442bb741b2bf82d", null ],
-    [ "addQuestion", "d1/d7c/a00003.php#ad86a004962b3149094f4cc660ecb05d4", null ],
-    [ "addUsers", "d1/d7c/a00003.php#aff4b34ff516467549fc9daa6a8f3d4ac", null ],
-    [ "deleteAsk", "d1/d7c/a00003.php#af57e491c251eeaf366674ea6df624cd1", null ],
-    [ "deleteCategory", "d1/d7c/a00003.php#a14880f51cece87ca27691c7acfa01d8a", null ],
-    [ "deleteGame", "d1/d7c/a00003.php#a8205b4d8f60ec0146b15eace1d79d95a", null ],
-    [ "deletePoints", "d1/d7c/a00003.php#a46e754bfd8e03764969330bc39a1fa66", null ],
-    [ "deleteQuestion", "d1/d7c/a00003.php#a0c5a4808a05a3628f1b8e88ac398c70a", null ],
-    [ "deleteUsers", "d1/d7c/a00003.php#a4df7c0879644507b94167bd565cd88bc", null ],
-    [ "list", "d1/d7c/a00003.php#a487aa0a5ee1a53eddfa78ea676d3ff2b", null ],
-    [ "listAsk", "d1/d7c/a00003.php#a0820a14dbb5072c112cf32466c8fc6c3", null ],
-    [ "listCategory", "d1/d7c/a00003.php#af3143ec2b5319c969adf991c009373f0", null ],
-    [ "listDifficulty", "d1/d7c/a00003.php#ad63ee67279e62ee5eaf73bb188ba0b4a", null ],
-    [ "listGame", "d1/d7c/a00003.php#a1caf2a7a9b33c712063314f6bac74470", null ],
-    [ "listPoints", "d1/d7c/a00003.php#af34790c4f5c0c4ad30d069fa2766559c", null ],
-    [ "listQuestion", "d1/d7c/a00003.php#a887113739bafac257bbd35996edfeb81", null ],
-    [ "listUsers", "d1/d7c/a00003.php#aa43b53615192bcce310fc51944bf217b", null ],
-    [ "updateAsk", "d1/d7c/a00003.php#aaee44428f5b0401f7b9ad5b073254fd3", null ],
-    [ "updateCategory", "d1/d7c/a00003.php#a2227326c53ffa5963bcc96c7983c6383", null ],
-    [ "updateDifficulty", "d1/d7c/a00003.php#a4f84d201465ec63094f6407c0cdb6a8d", null ],
-    [ "updateGame", "d1/d7c/a00003.php#a870df29ea630e53aa77c960373e0825f", null ],
-    [ "updateQuestion", "d1/d7c/a00003.php#ae13343b52f992bcba9e6fcb79bddf71e", null ],
-    [ "updateUsers", "d1/d7c/a00003.php#ac6acc509b5aa3caa3f76450ed835759e", null ]
+    [ "GreenPushButton", "d1/d7c/a00003.php#a240ce96b934a47803ffa02b23c9e9271", null ]
 ];

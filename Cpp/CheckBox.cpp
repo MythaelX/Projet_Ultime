@@ -1,7 +1,9 @@
 #include "CheckBox.hpp"
 
 CheckBox::CheckBox(QWidget* parent) :
-	QCheckBox(parent)
+	QCheckBox(parent),
+	table(""),
+	index("")
 {
 	connect(this, SIGNAL(stateChanged(int)), this, SLOT(changeActive(int)));
 }

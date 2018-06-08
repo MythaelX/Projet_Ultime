@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: collides.hpp File Reference</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,10 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/db6/a00042.php','../../');});
+$(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,474 +105,47 @@ $(document).ready(function(){initNavTree('d5/db6/a00042.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">collides.hpp File Reference</div>  </div>
+<div class="title">MainWindow Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">maths.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for collides.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/dab/a00089.png" border="0" usemap="#collides_8hpp" alt=""/></div>
-<map name="collides_8hpp" id="collides_8hpp">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/dec/a00090.png" border="0" usemap="#collides_8hppdep" alt=""/></div>
-<map name="collides_8hppdep" id="collides_8hppdep">
-<area shape="rect" id="node2" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="471,80,585,107"/>
-<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="330,603,403,629"/>
-<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,155,201,181"/>
-<area shape="rect" id="node6" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="241,453,332,480"/>
-<area shape="rect" id="node13" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="533,229,619,256"/>
-<area shape="rect" id="node4" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,304,102,331"/>
-<area shape="rect" id="node9" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,229,123,256"/>
-<area shape="rect" id="node10" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="223,304,313,331"/>
-<area shape="rect" id="node5" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,379,72,405"/>
-<area shape="rect" id="node8" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="325,528,409,555"/>
-<area shape="rect" id="node11" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,379,325,405"/>
-<area shape="rect" id="node12" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,379,458,405"/>
-</map>
-</div>
-</div>
-<p><a href="../../d5/db6/a00042_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a9e71f7b4b2dc9351d81534c753d02b2f">collidesC</a> (double r1, double x1, double y1, double r2, double x2, double y2)</td></tr>
-<tr class="memdesc:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="#a9e71f7b4b2dc9351d81534c753d02b2f">More...</a><br /></td></tr>
-<tr class="separator:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a2c41f8567fc8effdd8ee6a163fbe9440">collidesR</a> (double x1, double y1, double w1, double h1, double x2, double y2, double w2, double h2)</td></tr>
-<tr class="memdesc:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="#a2c41f8567fc8effdd8ee6a163fbe9440">More...</a><br /></td></tr>
-<tr class="separator:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a8e7babfd2bd0dd7b2f392372848edc80">collidesRC</a> (double rx, double ry, double w, double h, double cx, double cy, double r)</td></tr>
-<tr class="memdesc:a8e7babfd2bd0dd7b2f392372848edc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="#a8e7babfd2bd0dd7b2f392372848edc80">More...</a><br /></td></tr>
-<tr class="separator:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a3ce463b4b6c6477444bad3dcb1499f85">collidesPC</a> (double cx, double cy, double r, double x, double y)</td></tr>
-<tr class="memdesc:a3ce463b4b6c6477444bad3dcb1499f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="#a3ce463b4b6c6477444bad3dcb1499f85">More...</a><br /></td></tr>
-<tr class="separator:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a2d9df4f37d280cec5c3e91ba7b83ed11">collidesPR</a> (double rx, double ry, double w, double h, double x, double y)</td></tr>
-<tr class="memdesc:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="#a2d9df4f37d280cec5c3e91ba7b83ed11">More...</a><br /></td></tr>
-<tr class="separator:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1213c000f201a2e1991e60a0e2973d91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php#a1213c000f201a2e1991e60a0e2973d91">ProjectionSurSegment</a> (double Cx, double Cy, double Ax, double Ay, double Bx, double By)</td></tr>
-<tr class="memdesc:a1213c000f201a2e1991e60a0e2973d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="#a1213c000f201a2e1991e60a0e2973d91">More...</a><br /></td></tr>
-<tr class="separator:a1213c000f201a2e1991e60a0e2973d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d5/db6/a00042_source.php">collides.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a9e71f7b4b2dc9351d81534c753d02b2f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between two circles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">r1</td><td>Radius of the first circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r2</td><td>Radius of the second circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second circle's center</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a3ce463b4b6c6477444bad3dcb1499f85"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesPC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a point and a circle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2d9df4f37d280cec5c3e91ba7b83ed11"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesPR </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a point and a rectangle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2c41f8567fc8effdd8ee6a163fbe9440"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesR </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between two rectangles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w1</td><td>Width of the first rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h1</td><td>Height of the first rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w2</td><td>Width of the second rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h2</td><td>Height of the second rectangle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8e7babfd2bd0dd7b2f392372848edc80"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesRC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a rectangle and a circle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a1213c000f201a2e1991e60a0e2973d91"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ProjectionSurSegment </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Ax</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Ay</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Bx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>By</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision on a segment. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">Cx</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Cy</td><td>Y position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Ax</td><td>X position of the segment's first side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Ay</td><td>Y position of the segment's first side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Bx</td><td>X position of the segment's second side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">By</td><td>Y position of the segment's second side</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../de/d21/a00006.php">MainWindow</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a4c5997d915dc5101e208682364723048">addEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9b236786067bb4d825a3c6717bf96b47">addingWidgets</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#afd48a422f88143ea6c66b0c71c55eb08">adminWidgets</a>(std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#acfdbadec2420e7862c53e511332992cc">changeActive</a>(int state, std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a74ed49cc57a01562288f4be1e665f450">createAddingWidgets</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a2364ae069aba1f220ac4cd2fecaf4d6c">createAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a78ab18fed76eb54bda4508dc9be4b64b">createConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9eb2d8d3bff2599bef550d68a4d11925">createValues</a>(std::string table, std::vector&lt; std::string &gt; &amp;values)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#abf97603f986be8d9d79252512949fb30">createWidgetsLabel</a>(std::map&lt; std::string, std::string &gt; col, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a400129c80a43e87a9777a06f919060f7">createWidgetsLabels</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::vector&lt; std::string &gt; &amp;out)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#aae5abc1edc939a854d3da3bec4e95c9a">deleteAll</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#ac44a72386cf26dcc86f108aed760ddf0">deleteEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#abc9f5971cf1748fae12a5acf641ecd1d">drawBackground</a>(QPixmap *cache)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a6db4ef4db3e407746616115fce25c199">fillWidgets</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::string lineId)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ae9685223f3a3fecce767e877bbc344ca">getCheckedChoices</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a5cfeb89a38b9225a3b3964e6d688ba60">initConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#ab09110d257b762db4f2be34235d8465f">putAccents</a>(std::string &amp;text)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a542a7527ced73b2c9bc14f8dc9661a66">quit</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#af0aca5335b2f075de2cdbf0fe9c33645">setContentAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9da75111decb2a68a08c06dec6796d8a">setContentConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a4cd7e847432365bae79f88a3acf278c7">toAdmin</a>(std::string table=&quot;&quot;, std::string index=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a675227b9f43a0a590d2446b074053943">updateEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">updEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">useAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#aad6ca3020e583fffe727258905c15629">useConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a70aa06cbac136bf2ce8bee98b9bebd27">verifyConnection</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d5/db6/a00042.php">collides.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

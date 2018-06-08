@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: MainWindow.h File Reference</title>
+<title>Hot Dog QUIZ: GreyPushButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,9 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -70,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -105,37 +106,108 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../de/d8c/a00036.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MainWindow.h File Reference</div>  </div>
+<div class="title">GreyPushButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d7c/a00003_source.php">functions.hpp</a>&quot;</code><br />
-<code>#include &quot;Widgets/QtDefines.hpp&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for MainWindow.h:</div>
+
+<p>An implementation of <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  
+ <a href="../../d0/d0b/a00004.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for GreyPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d21/a00006.png" border="0" usemap="#MainWindow_8h" alt=""/></div>
-<map name="MainWindow_8h" id="MainWindow_8h">
-<area shape="rect" id="node3" href="../../d1/d7c/a00003.php" title="functions.hpp" alt="" coords="2775,95,2875,121"/>
+<div class="center"><img src="../../d1/dc6/a00037.png" border="0" usemap="#GreyPushButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="GreyPushButton_inherit__map" id="GreyPushButton_inherit__map">
+<area shape="rect" id="node2" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. " alt="" coords="19,80,110,107"/>
 </map>
-</div>
-</div>
-<p><a href="../../d0/d0b/a00004_source.php">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for GreyPushButton:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d41/a00038.png" border="0" usemap="#GreyPushButton_coll__map" alt="Collaboration graph"/></div>
+<map name="GreyPushButton_coll__map" id="GreyPushButton_coll__map">
+<area shape="rect" id="node2" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. " alt="" coords="19,80,110,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php">MainWindow</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window that is shown.  <a href="../../d7/d46/a00002.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8981df8ffdff12611eba021ac0fa2939"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a8981df8ffdff12611eba021ac0fa2939">GreyPushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a8981df8ffdff12611eba021ac0fa2939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a>.  <a href="#a8981df8ffdff12611eba021ac0fa2939">More...</a><br /></td></tr>
+<tr class="separator:a8981df8ffdff12611eba021ac0fa2939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00007"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00007')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QPushButton.  <a href="#aff7923c3d3fb0e46a57c06afa0f7f41e">More...</a><br /></td></tr>
+<tr class="separator:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the button.  <a href="#a9b4855b32fc3e96e6d0ca35a212aba5f">More...</a><br /></td></tr>
+<tr class="separator:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the button.  <a href="#a9deef0b896e8f06dcf727f52441df445">More...</a><br /></td></tr>
+<tr class="separator:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_slots_a00007"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00007')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a31bbce7532c03921c218f54465afcaef">click</a> ()</td></tr>
+<tr class="memdesc:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a31bbce7532c03921c218f54465afcaef">More...</a><br /></td></tr>
+<tr class="separator:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_a00007"><td colspan="2" onclick="javascript:toggleInherit('signals_a00007')"><img src="../../closed.png" alt="-"/>&#160;Signals inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the clicked signal.  <a href="#aeec905376bc407f74ba879f7dc029dcc">More...</a><br /></td></tr>
+<tr class="separator:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00007"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00007')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00007"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a> () const </td></tr>
+<tr class="separator:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00007"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a138a6609129997496311c00ed4e1acb0">getIndex</a> () const </td></tr>
+<tr class="separator:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An implementation of <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software. </p>
+
+<p>Definition at line <a class="el" href="../../d2/de7/a00014_source.php#l00066">66</a> of file <a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a8981df8ffdff12611eba021ac0fa2939"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GreyPushButton::GreyPushButton </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d2/de7/a00014_source.php#l00070">70</a> of file <a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d0b/a00004.php">MainWindow.h</a></li>
+    <li class="navelem"><a class="el" href="../../d0/d0b/a00004.php">GreyPushButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

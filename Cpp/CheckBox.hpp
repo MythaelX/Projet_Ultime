@@ -23,12 +23,12 @@ class CheckBox : public QCheckBox {
 		/*! \brief	Set the table linked to the checkbox */
 		void setTable(std::string table){ this->table = table; }
 		/*! \brief	Set the index linked to the checkbox */
-		void setIndex(size_t index){ this->index = index; }
+		void setIndex(std::string index){ this->index = index; }
 
 		/*! \brief	Return the table */
 		std::string getTable()const { return table; }
 		/*! \brief	Return the index */
-		size_t getIndex()const { return index; }
+		std::string getIndex()const { return index; }
 
 	public slots:
 		/*! \brief Change the active state of a value */
@@ -43,11 +43,11 @@ class CheckBox : public QCheckBox {
 		*
 		*	\return			void
 		*/
-		void stateChanged(int state, std::string table, size_t index);
+		void stateChanged(int state, std::string table, std::string index);
 		
 	private:
 		std::string table;
-		size_t index;
+		std::string index;
 };
 
 #endif //HEADER_CHECKBOX

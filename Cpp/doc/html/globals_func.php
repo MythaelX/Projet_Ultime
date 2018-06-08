@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: File Members</title>
+<title>Hot Dog QUIZ: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
       <li><a href="annotated.php"><span>Classes</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -112,79 +111,82 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 <div class="contents">
 &#160;<ul>
 <li>addAsk()
-: <a class="el" href="d1/d7c/a00003.php#a2003fa6138007746e85c2b697d147b58">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a2003fa6138007746e85c2b697d147b58">functions.hpp</a>
 </li>
 <li>addCategory()
-: <a class="el" href="d1/d7c/a00003.php#afeb2d8632fb1dad24def5d95d27f43f0">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#afeb2d8632fb1dad24def5d95d27f43f0">functions.hpp</a>
 </li>
 <li>addGame()
-: <a class="el" href="d1/d7c/a00003.php#a35ee2c6a333148aed442bb741b2bf82d">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a35ee2c6a333148aed442bb741b2bf82d">functions.hpp</a>
 </li>
 <li>addQuestion()
-: <a class="el" href="d1/d7c/a00003.php#ad86a004962b3149094f4cc660ecb05d4">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#ad86a004962b3149094f4cc660ecb05d4">functions.hpp</a>
 </li>
 <li>addUsers()
-: <a class="el" href="d1/d7c/a00003.php#aff4b34ff516467549fc9daa6a8f3d4ac">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#aff4b34ff516467549fc9daa6a8f3d4ac">functions.hpp</a>
 </li>
 <li>deleteAsk()
-: <a class="el" href="d1/d7c/a00003.php#af57e491c251eeaf366674ea6df624cd1">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#af57e491c251eeaf366674ea6df624cd1">functions.hpp</a>
 </li>
 <li>deleteCategory()
-: <a class="el" href="d1/d7c/a00003.php#a14880f51cece87ca27691c7acfa01d8a">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a14880f51cece87ca27691c7acfa01d8a">functions.hpp</a>
 </li>
 <li>deleteGame()
-: <a class="el" href="d1/d7c/a00003.php#a8205b4d8f60ec0146b15eace1d79d95a">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a8205b4d8f60ec0146b15eace1d79d95a">functions.hpp</a>
 </li>
 <li>deletePoints()
-: <a class="el" href="d1/d7c/a00003.php#a46e754bfd8e03764969330bc39a1fa66">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a46e754bfd8e03764969330bc39a1fa66">functions.hpp</a>
 </li>
 <li>deleteQuestion()
-: <a class="el" href="d1/d7c/a00003.php#a0c5a4808a05a3628f1b8e88ac398c70a">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a0c5a4808a05a3628f1b8e88ac398c70a">functions.hpp</a>
 </li>
 <li>deleteUsers()
-: <a class="el" href="d1/d7c/a00003.php#a4df7c0879644507b94167bd565cd88bc">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a4df7c0879644507b94167bd565cd88bc">functions.hpp</a>
+</li>
+<li>formatColumn()
+: <a class="el" href="df/d86/a00012.php#a7b4f7ad736a4c60a7dbb5009193df31d">functions.hpp</a>
 </li>
 <li>list()
-: <a class="el" href="d1/d7c/a00003.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">functions.hpp</a>
 </li>
 <li>listAsk()
-: <a class="el" href="d1/d7c/a00003.php#a0820a14dbb5072c112cf32466c8fc6c3">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#ab1f39593da592ecd20c33ff35fd3117e">functions.hpp</a>
 </li>
 <li>listCategory()
-: <a class="el" href="d1/d7c/a00003.php#af3143ec2b5319c969adf991c009373f0">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a41e682f03702a0bf37a7cee874f26fd7">functions.hpp</a>
 </li>
 <li>listDifficulty()
-: <a class="el" href="d1/d7c/a00003.php#ad63ee67279e62ee5eaf73bb188ba0b4a">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a4fde67e89032a42ae21d36f455132c73">functions.hpp</a>
 </li>
 <li>listGame()
-: <a class="el" href="d1/d7c/a00003.php#a1caf2a7a9b33c712063314f6bac74470">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a2b68ec33abd0730a4d7d28e2a0d4a667">functions.hpp</a>
 </li>
 <li>listPoints()
-: <a class="el" href="d1/d7c/a00003.php#af34790c4f5c0c4ad30d069fa2766559c">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#ad9c42ebd9fc0594c28d0acb30946da64">functions.hpp</a>
 </li>
 <li>listQuestion()
-: <a class="el" href="d1/d7c/a00003.php#a887113739bafac257bbd35996edfeb81">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#aadfdc0076d839bd6c4ca16f32c9a134c">functions.hpp</a>
 </li>
 <li>listUsers()
-: <a class="el" href="d1/d7c/a00003.php#aa43b53615192bcce310fc51944bf217b">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a88b6fd46a86bb6b1bb0007393b776f46">functions.hpp</a>
 </li>
 <li>updateAsk()
-: <a class="el" href="d1/d7c/a00003.php#aaee44428f5b0401f7b9ad5b073254fd3">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#aaee44428f5b0401f7b9ad5b073254fd3">functions.hpp</a>
 </li>
 <li>updateCategory()
-: <a class="el" href="d1/d7c/a00003.php#a2227326c53ffa5963bcc96c7983c6383">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a2227326c53ffa5963bcc96c7983c6383">functions.hpp</a>
 </li>
 <li>updateDifficulty()
-: <a class="el" href="d1/d7c/a00003.php#a4f84d201465ec63094f6407c0cdb6a8d">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a4f84d201465ec63094f6407c0cdb6a8d">functions.hpp</a>
 </li>
 <li>updateGame()
-: <a class="el" href="d1/d7c/a00003.php#a870df29ea630e53aa77c960373e0825f">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#a870df29ea630e53aa77c960373e0825f">functions.hpp</a>
 </li>
 <li>updateQuestion()
-: <a class="el" href="d1/d7c/a00003.php#ae13343b52f992bcba9e6fcb79bddf71e">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#ae13343b52f992bcba9e6fcb79bddf71e">functions.hpp</a>
 </li>
 <li>updateUsers()
-: <a class="el" href="d1/d7c/a00003.php#ac6acc509b5aa3caa3f76450ed835759e">functions.hpp</a>
+: <a class="el" href="df/d86/a00012.php#ac6acc509b5aa3caa3f76450ed835759e">functions.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

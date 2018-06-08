@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Hierarchy</title>
+<title>Hot Dog QUIZ: Class Hierarchy</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -113,9 +112,21 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <div class="textblock">
 <p><a href="inherits.php">Go to the graphical class hierarchy</a></p>
 This inheritance list is sorted roughly, but not completely, alphabetically:</div><div class="directory">
-<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span>]</div><table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>QMainWindow</b></td><td class="desc"></td></tr>
-<tr id="row_0_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/d46/a00002.php" target="_self">MainWindow</a></td><td class="desc">The window that is shown </td></tr>
+<div class="levels">[detail level <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span>]</div><table class="directory">
+<tr id="row_0_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_0_" class="arrow" onclick="toggleFolder('0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>QCheckBox</b></td><td class="desc"></td></tr>
+<tr id="row_0_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d8/d84/a00001.php" target="_self">CheckBox</a></td><td class="desc">An implementation of QCheckBox for the software </td></tr>
+<tr id="row_1_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_1_" class="arrow" onclick="toggleFolder('1_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>QDialog</b></td><td class="desc"></td></tr>
+<tr id="row_1_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d7/d46/a00002.php" target="_self">Dialog</a></td><td class="desc">An implementation of QDialog for the software </td></tr>
+<tr id="row_2_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_2_" class="arrow" onclick="toggleFolder('2_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>QLabel</b></td><td class="desc"></td></tr>
+<tr id="row_2_0_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_2_0_" class="arrow" onclick="toggleFolder('2_0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="da/da0/a00009.php" target="_self">TitleLabel</a></td><td class="desc">An implementation of QLabel for the software </td></tr>
+<tr id="row_2_0_0_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="dd/dad/a00005.php" target="_self">H2TitleLabel</a></td><td class="desc">An implementation of <a class="el" href="da/da0/a00009.php" title="An implementation of QLabel for the software. ">TitleLabel</a> for the software </td></tr>
+<tr id="row_3_"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_3_" class="arrow" onclick="toggleFolder('3_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>QPushButton</b></td><td class="desc"></td></tr>
+<tr id="row_3_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span id="arr_3_0_" class="arrow" onclick="toggleFolder('3_0_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="de/d5e/a00007.php" target="_self">PushButton</a></td><td class="desc">An implementation of QPushButton for the software </td></tr>
+<tr id="row_3_0_0_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d1/d7c/a00003.php" target="_self">GreenPushButton</a></td><td class="desc">An implementation of <a class="el" href="de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software </td></tr>
+<tr id="row_3_0_1_" class="even"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d0/d0b/a00004.php" target="_self">GreyPushButton</a></td><td class="desc">An implementation of <a class="el" href="de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software </td></tr>
+<tr id="row_3_0_2_"><td class="entry"><span style="width:48px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="d4/dee/a00008.php" target="_self">RedPushButton</a></td><td class="desc">An implementation of <a class="el" href="de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software </td></tr>
+<tr id="row_4_" class="even"><td class="entry"><span style="width:0px;display:inline-block;">&#160;</span><span id="arr_4_" class="arrow" onclick="toggleFolder('4_')">&#9660;</span><span class="icona"><span class="icon">C</span></span><b>Window</b></td><td class="desc"></td></tr>
+<tr id="row_4_0_"><td class="entry"><span style="width:32px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">C</span></span><a class="el" href="de/d21/a00006.php" target="_self">MainWindow</a></td><td class="desc">The window that is shown </td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

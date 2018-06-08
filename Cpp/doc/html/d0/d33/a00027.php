@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: QHSpacerItem Class Reference</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -89,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
+$(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -107,91 +105,25 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d1/d72/a00204.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">QHSpacerItem Class Reference</div>  </div>
+<div class="title">CheckBox Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of QSpacerItem.  
- <a href="../../d0/d33/a00027.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for QHSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/d13/a00205.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
-<map name="QHSpacerItem_inherit__map" id="QHSpacerItem_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for QHSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/df1/a00206.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
-<map name="QHSpacerItem_coll__map" id="QHSpacerItem_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aba8192a3f3587a70b418ad3a04d6c324"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">QHSpacerItem</a> (int w=20, int h=40)</td></tr>
-<tr class="memdesc:aba8192a3f3587a70b418ad3a04d6c324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend horizontally.  <a href="#aba8192a3f3587a70b418ad3a04d6c324">More...</a><br /></td></tr>
-<tr class="separator:aba8192a3f3587a70b418ad3a04d6c324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of QSpacerItem. </p>
-
-<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00017">17</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aba8192a3f3587a70b418ad3a04d6c324"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QHSpacerItem::QHSpacerItem </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em> = <code>20</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em> = <code>40</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a QSpacerItem that expend horizontally. </p>
-
-<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00020">20</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d8/d84/a00001.php">CheckBox</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a2d303cb0c794df8e046e6ee38b7b2be0">changeActive</a>(int state)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a087c4b9b8bcc8d631756e53a5c795efb">getIndex</a>() const </td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a8750f3494181edef39fda4e23e13a0cb">getTable</a>() const </td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#af473fc46af7d680963e7aca100aae1f3">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#ad24f0483b08b440dad2d4569be54a1ff">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a2a8d7c87f758badc4fcb643519e7d78a">stateChanged</a>(int state, std::string table, std::string index)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

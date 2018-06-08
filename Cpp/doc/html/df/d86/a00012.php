@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: ContraptionAttr Struct Reference</title>
+<title>Hot Dog QUIZ: functions.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,10 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,10 +69,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -108,86 +104,939 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d5/dcb/a00170.php">List of all members</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ContraptionAttr Struct Reference</div>  </div>
+<div class="title">functions.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A struct to define <b><a class="el" href="../../da/d45/a00011.php" title="A contraption. ">Contraption</a></b> attributes.  
- <a href="../../df/d86/a00012.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>&gt;</code></p>
+<div class="textblock"><code>#include &quot;Widgets/C++/C++.hpp&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for functions.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/db2/a00020.png" border="0" usemap="#functions_8hpp" alt=""/></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d11/a00021.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
+<map name="functions_8hppdep" id="functions_8hppdep">
+<area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
+</map>
+</div>
+</div>
+<p><a href="../../df/d86/a00012_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a949dbd15efa71ddbb294abf15517d8b0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a949dbd15efa71ddbb294abf15517d8b0">w</a></td></tr>
-<tr class="separator:a949dbd15efa71ddbb294abf15517d8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480fb32edc0218d9d1cead0a8e6f9d15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a480fb32edc0218d9d1cead0a8e6f9d15">h</a></td></tr>
-<tr class="separator:a480fb32edc0218d9d1cead0a8e6f9d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a062e1a4fe2f7d6f8d771f13f10844a19"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a062e1a4fe2f7d6f8d771f13f10844a19">angle</a> = 0</td></tr>
-<tr class="separator:a062e1a4fe2f7d6f8d771f13f10844a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">list</a> (BDD &amp;bdd)</td></tr>
+<tr class="memdesc:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the entries in the bdd.  <a href="#a487aa0a5ee1a53eddfa78ea676d3ff2b">More...</a><br /></td></tr>
+<tr class="separator:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b6fd46a86bb6b1bb0007393b776f46"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a88b6fd46a86bb6b1bb0007393b776f46">listUsers</a> (BDD &amp;bdd)</td></tr>
+<tr class="memdesc:a88b6fd46a86bb6b1bb0007393b776f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the users.  <a href="#a88b6fd46a86bb6b1bb0007393b776f46">More...</a><br /></td></tr>
+<tr class="separator:a88b6fd46a86bb6b1bb0007393b776f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#aff4b34ff516467549fc9daa6a8f3d4ac">addUsers</a> (BDD &amp;bdd, std::string args)</td></tr>
+<tr class="separator:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6acc509b5aa3caa3f76450ed835759e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ac6acc509b5aa3caa3f76450ed835759e">updateUsers</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:ac6acc509b5aa3caa3f76450ed835759e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df7c0879644507b94167bd565cd88bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a4df7c0879644507b94167bd565cd88bc">deleteUsers</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:a4df7c0879644507b94167bd565cd88bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e682f03702a0bf37a7cee874f26fd7"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a41e682f03702a0bf37a7cee874f26fd7">listCategory</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:a41e682f03702a0bf37a7cee874f26fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#afeb2d8632fb1dad24def5d95d27f43f0">addCategory</a> (BDD &amp;bdd, std::string args)</td></tr>
+<tr class="separator:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2227326c53ffa5963bcc96c7983c6383"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a2227326c53ffa5963bcc96c7983c6383">updateCategory</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:a2227326c53ffa5963bcc96c7983c6383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14880f51cece87ca27691c7acfa01d8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a14880f51cece87ca27691c7acfa01d8a">deleteCategory</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:a14880f51cece87ca27691c7acfa01d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fde67e89032a42ae21d36f455132c73"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a4fde67e89032a42ae21d36f455132c73">listDifficulty</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:a4fde67e89032a42ae21d36f455132c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a4f84d201465ec63094f6407c0cdb6a8d">updateDifficulty</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b68ec33abd0730a4d7d28e2a0d4a667"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a2b68ec33abd0730a4d7d28e2a0d4a667">listGame</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:a2b68ec33abd0730a4d7d28e2a0d4a667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ee2c6a333148aed442bb741b2bf82d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a35ee2c6a333148aed442bb741b2bf82d">addGame</a> (BDD &amp;bdd, std::string args)</td></tr>
+<tr class="separator:a35ee2c6a333148aed442bb741b2bf82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a870df29ea630e53aa77c960373e0825f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a870df29ea630e53aa77c960373e0825f">updateGame</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:a870df29ea630e53aa77c960373e0825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a8205b4d8f60ec0146b15eace1d79d95a">deleteGame</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f39593da592ecd20c33ff35fd3117e"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ab1f39593da592ecd20c33ff35fd3117e">listAsk</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:ab1f39593da592ecd20c33ff35fd3117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2003fa6138007746e85c2b697d147b58"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a2003fa6138007746e85c2b697d147b58">addAsk</a> (BDD &amp;bdd, std::string args)</td></tr>
+<tr class="separator:a2003fa6138007746e85c2b697d147b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#aaee44428f5b0401f7b9ad5b073254fd3">updateAsk</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57e491c251eeaf366674ea6df624cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#af57e491c251eeaf366674ea6df624cd1">deleteAsk</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:af57e491c251eeaf366674ea6df624cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadfdc0076d839bd6c4ca16f32c9a134c"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#aadfdc0076d839bd6c4ca16f32c9a134c">listQuestion</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:aadfdc0076d839bd6c4ca16f32c9a134c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86a004962b3149094f4cc660ecb05d4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ad86a004962b3149094f4cc660ecb05d4">addQuestion</a> (BDD &amp;bdd, std::string args)</td></tr>
+<tr class="separator:ad86a004962b3149094f4cc660ecb05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ae13343b52f992bcba9e6fcb79bddf71e">updateQuestion</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
+<tr class="separator:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a0c5a4808a05a3628f1b8e88ac398c70a">deleteQuestion</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c42ebd9fc0594c28d0acb30946da64"><td class="memItemLeft" align="right" valign="top">ListArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ad9c42ebd9fc0594c28d0acb30946da64">listPoints</a> (BDD &amp;bdd)</td></tr>
+<tr class="separator:ad9c42ebd9fc0594c28d0acb30946da64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46e754bfd8e03764969330bc39a1fa66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a46e754bfd8e03764969330bc39a1fa66">deletePoints</a> (BDD &amp;bdd, std::string condition)</td></tr>
+<tr class="separator:a46e754bfd8e03764969330bc39a1fa66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a7b4f7ad736a4c60a7dbb5009193df31d">formatColumn</a> (std::string str, std::string table)</td></tr>
+<tr class="separator:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A struct to define <b><a class="el" href="../../da/d45/a00011.php" title="A contraption. ">Contraption</a></b> attributes. </p>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>06 juin 2018 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00070">70</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a062e1a4fe2f7d6f8d771f13f10844a19"></a>
+<p>Definition in file <a class="el" href="../../df/d86/a00012_source.php">functions.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a2003fa6138007746e85c2b697d147b58"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double ContraptionAttr::angle = 0</td>
+          <td class="memname">size_t addAsk </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Angle </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00076">76</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the index of the added entry </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a480fb32edc0218d9d1cead0a8e6f9d15"></a>
+<a class="anchor" id="afeb2d8632fb1dad24def5d95d27f43f0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double ContraptionAttr::h</td>
+          <td class="memname">size_t addCategory </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Height </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00074">74</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the index of the added entry </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a949dbd15efa71ddbb294abf15517d8b0"></a>
+<a class="anchor" id="a35ee2c6a333148aed442bb741b2bf82d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double ContraptionAttr::w</td>
+          <td class="memname">size_t addGame </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Width </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00072">72</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the index of the added entry </dd></dl>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a></li>
-</ul>
+<a class="anchor" id="ad86a004962b3149094f4cc660ecb05d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t addQuestion </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the index of the added entry </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aff4b34ff516467549fc9daa6a8f3d4ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool addUsers </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af57e491c251eeaf366674ea6df624cd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deleteAsk </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a14880f51cece87ca27691c7acfa01d8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deleteCategory </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8205b4d8f60ec0146b15eace1d79d95a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deleteGame </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a46e754bfd8e03764969330bc39a1fa66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deletePoints </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0c5a4808a05a3628f1b8e88ac398c70a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deleteQuestion </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4df7c0879644507b94167bd565cd88bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deleteUsers </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a7b4f7ad736a4c60a7dbb5009193df31d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string formatColumn </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to format for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the formatted string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a487aa0a5ee1a53eddfa78ea676d3ff2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void list </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List the entries in the bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab1f39593da592ecd20c33ff35fd3117e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listAsk </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a41e682f03702a0bf37a7cee874f26fd7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listCategory </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4fde67e89032a42ae21d36f455132c73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listDifficulty </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2b68ec33abd0730a4d7d28e2a0d4a667"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listGame </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9c42ebd9fc0594c28d0acb30946da64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listPoints </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aadfdc0076d839bd6c4ca16f32c9a134c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listQuestion </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a88b6fd46a86bb6b1bb0007393b776f46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ListArray listUsers </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List the users. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of vector of string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aaee44428f5b0401f7b9ad5b073254fd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateAsk </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2227326c53ffa5963bcc96c7983c6383"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateCategory </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4f84d201465ec63094f6407c0cdb6a8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateDifficulty </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a870df29ea630e53aa77c960373e0825f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateGame </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae13343b52f992bcba9e6fcb79bddf71e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateQuestion </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac6acc509b5aa3caa3f76450ed835759e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateUsers </td>
+          <td>(</td>
+          <td class="paramtype">BDD &amp;&#160;</td>
+          <td class="paramname"><em>bdd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The bdd var </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The conditions for the treatment </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></li>
+    <li class="navelem"><a class="el" href="../../df/d86/a00012.php">functions.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -11,6 +11,7 @@
 #include "Widgets/Qt.hpp"
 
 #include "CheckBox.hpp"
+#include "Dialog.hpp"
 #include "PushButton.hpp"
 #include "TitleLabel.hpp"
 
@@ -58,34 +59,34 @@ class MainWindow : public Window {
 		void fillWidgets(std::string table,
 						 std::map<std::string, std::string> col,
 						 size_t index,
-						 size_t lineId);
+						 std::string lineId);
 
 	public slots:
 		/*! \brief Try and verify the connection */
 		void connections();
 
 		/*! \brief Change the active state of a value */
-		void changeActive(int state, std::string table, size_t index);
+		void changeActive(int state, std::string table, std::string index);
 
 		/*! \brief Show all the widgets for adding something */
-		void addingWidgets(std::string table, size_t index);
+		void addingWidgets(std::string table, std::string index);
 
 		/*! \brief Delete an entry in the bdd */
-		void deleteEntry(std::string table, size_t index);
+		void deleteEntry(std::string table, std::string index);
 
 		/*! \brief Update an entry in the bdd */
-		void updateEntry(std::string table, size_t index);
+		void updateEntry(std::string table, std::string index);
 		/*! \brief Update an entry in the bdd */
-		void updEntry(std::string table, size_t index);
+		void updEntry(std::string table, std::string index);
 
 		/*! \brief Allow to add an entry to the bdd */
-		void addEntry(std::string table, size_t index);
+		void addEntry(std::string table, std::string index);
 
 		/*! \brief Quit the application */
 		void quit();
 
 		/*! \brief Recreate administration */
-		void toAdmin(std::string table = "", size_t index = 0);
+		void toAdmin(std::string table = "", std::string index = "");
 
 	signals:
 		
@@ -110,15 +111,6 @@ class MainWindow : public Window {
 		
 			/*! \brief Verify the connection to the database */
 			void verifyConnection();
-		
-			/*! \brief Create the connection QDialog message on error */
-			void createConnectDialog();
-			/*! \brief Initialize all the widgets of the QDialog */
-			void initConnectDialog();
-			/*! \brief Do all the add for these widgets */
-			void setContentConnectDialog();
-			/*! \brief Show the QDialog */
-			void useConnectDialog();
 		/**************/
 		/* Since connected */
 			/*! \brief Create and initialize the widgets for the administration */
@@ -143,10 +135,18 @@ class MainWindow : public Window {
 		*		\param[in]		col			The column for typping
 		*		\param[in]		index		The index of the column
 		*/
-		std::string createWidgetsLabel(std::map<std::string, std::string> col, size_t index);
+		std::string createWidgetsLabel(std::map<std::string, std::string> col, std::string index);
 
 		/*! \brief Put the accents for all the texts that need it */
 		void putAccents(std::string& text);
+
+		/*!
+		* \brief Create the values' table for an update ask
+		*		\param[in]		table		The table to read
+		*		\param[out]		values		The values to get
+		*		\return			void
+		*/
+		void createValues(std::string table, std::vector<std::string>& values);
 
 	private:
 		std::string config_file;
@@ -162,8 +162,9 @@ class MainWindow : public Window {
 		std::map<std::string, PushButton*> tableButtons;
 		std::map<std::string, WindowButton*> closes;
 		std::map<std::string, QComboBox*> combos;
+		std::map<std::string, TableWidget*> tLayouts;
 
-		QDialog* messageBox;
+		Dialog* messageBox;
 		QWidget* center;
 		QTabWidget* tabWidget;
 

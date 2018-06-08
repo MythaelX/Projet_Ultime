@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Hierarchy</title>
+<title>Hot Dog QUIZ: Class Hierarchy</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -113,9 +112,33 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <div class="textblock">
 <p><a href="hierarchy.php">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#MainWindow"/>
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#CheckBox"/>
+<map name="CheckBox" id="CheckBox">
+<area shape="rect" id="node2" href="d8/d84/a00001.php" title="An implementation of QCheckBox for the software. " alt="" coords="147,5,229,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#Dialog"/>
+<map name="Dialog" id="Dialog">
+<area shape="rect" id="node2" href="d7/d46/a00002.php" title="An implementation of QDialog for the software. " alt="" coords="123,5,181,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#MainWindow"/>
 <map name="MainWindow" id="MainWindow">
-<area shape="rect" id="node2" href="d7/d46/a00002.php" title="The window that is shown. " alt="" coords="160,5,257,32"/>
+<area shape="rect" id="node2" href="de/d21/a00006.php" title="The window that is shown. " alt="" coords="123,5,220,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#PushButton"/>
+<map name="PushButton" id="PushButton">
+<area shape="rect" id="node2" href="de/d5e/a00007.php" title="An implementation of QPushButton for the software. " alt="" coords="153,56,244,83"/>
+<area shape="rect" id="node3" href="d1/d7c/a00003.php" title="An implementation of PushButton for the software. " alt="" coords="292,5,417,32"/>
+<area shape="rect" id="node4" href="d0/d0b/a00004.php" title="An implementation of PushButton for the software. " alt="" coords="295,56,414,83"/>
+<area shape="rect" id="node5" href="d4/dee/a00008.php" title="An implementation of PushButton for the software. " alt="" coords="297,107,412,133"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#TitleLabel"/>
+<map name="TitleLabel" id="TitleLabel">
+<area shape="rect" id="node2" href="da/da0/a00009.php" title="An implementation of QLabel for the software. " alt="" coords="116,5,195,32"/>
+<area shape="rect" id="node3" href="dd/dad/a00005.php" title="An implementation of TitleLabel for the software. " alt="" coords="243,5,337,32"/>
 </map>
 </td></tr>
 </table>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mainwindow',['MainWindow',['../d7/d46/a00002.php',1,'MainWindow'],['../d7/d46/a00002.php#a08a133d21fea8948f84acc105ab5fc33',1,'MainWindow::MainWindow()']]],
-  ['mainwindow_2eh',['MainWindow.h',['../d0/d0b/a00004.php',1,'']]]
+  ['h2titlelabel',['H2TitleLabel',['../dd/dad/a00005.php',1,'H2TitleLabel'],['../dd/dad/a00005.php#a63831a9a77053bc8389e5036712218bf',1,'H2TitleLabel::H2TitleLabel()']]]
 ];

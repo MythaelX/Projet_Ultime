@@ -23,11 +23,11 @@ class PushButton : public QPushButton {
 		/*! \brief	Set the table linked to the button */
 		void setTable(std::string table){ this->table = table; }
 		/*! \brief	Set the index linked to the button */
-		void setIndex(size_t index){ this->index = index; }
+		void setIndex(std::string index){ this->index = index; }
 	
 	public slots:
 		/*! \brief Change the active state of a value */
-		void click();
+		virtual void click();
 		
 	signals:
 		/*!
@@ -37,11 +37,15 @@ class PushButton : public QPushButton {
 		*
 		*	\return			void
 		*/
-		void clicked(std::string table, size_t index);
+		void clicked(std::string table, std::string index);
+		
+	protected:
+		std::string getTable()const { return table; }
+		std::string getIndex()const { return index; }
 		
 	private:
 		std::string table;
-		size_t index;
+		std::string index;
 };
 
 /*!

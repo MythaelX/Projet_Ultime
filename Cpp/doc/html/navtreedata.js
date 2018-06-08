@@ -1,7 +1,6 @@
 var NAVTREE =
 [
-  [ "ProjetFinalCPP", "index.php", [
-    [ "Todo List", "d8/d84/a00001.php", null ],
+  [ "Hot Dog QUIZ", "index.php", [
     [ "Classes", "annotated.php", [
       [ "Class List", "annotated.php", "annotated_dup" ],
       [ "Class Index", "classes.php", null ],

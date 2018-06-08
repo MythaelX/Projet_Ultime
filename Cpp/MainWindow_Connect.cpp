@@ -49,7 +49,7 @@ void MainWindow::initConnectWidgets(){
 	lines["connect username"]->setText(user.c_str());
 
 	labels["connect password"]->setText("Mot de passe");
-	lines["connect password"]->setText("hotdogquiz");
+	lines["connect password"]->setText("hotdogquiz");info_log(line_number, __FILE__, "Don't forget to delete me !");
 	lines["connect password"]->setEchoMode(QLineEdit::Password);
 
 	labels["connect database"]->setText("Base de données");
@@ -110,11 +110,6 @@ void MainWindow::useConnectWidgets(){
 }
 
 void MainWindow::connections(){
-	this->initConnectDialog();
-	this->useConnectDialog();
-
-	connect(buttons["dialog ok"], SIGNAL(clicked()), messageBox, SLOT(accept()));
-
 	this->verifyConnection();
 }
 
@@ -125,8 +120,6 @@ void MainWindow::verifyConnection(){
 	std::string database = lines["connect database"]->text().toStdString();
 
 	if(bdd.try_connect(url, user, pass)){
-		labels["dialog text"]->setText("La connexion à réussi !");
-
 		if(bdd.try_database(database)){
 			VS datas;
 
@@ -142,16 +135,16 @@ void MainWindow::verifyConnection(){
 
 			adminWidgets();
 		} else {
-			labels["dialog text"]->setText("La base de données demandée n'existe pas !");
 			lines["connect password"]->setText("");
+			messageBox->setText("LA BASE DE DONNÉES DEMANDÉE N'EXISTE PAS !");
 
 			bdd.reset();
 
 			messageBox->exec();
 		}
 	} else {
-		labels["dialog text"]->setText("La connexion à échoué !\nVeuillez vérifier les informations saisies.\nSinon, vérifiez votre connexion.");
 		lines["connect password"]->setText("");
+			messageBox->setText("LA CONNEXION À ÉCHOUÉ !\nVEUILLEZ VÉRIFIER LES INFORMATIONS SAISIES.\nSINON, VÉRIFIEZ VOTRE CONNEXION.");
 
 		bdd.reset();
 

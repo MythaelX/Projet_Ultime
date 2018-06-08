@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7emainwindow',['~MainWindow',['../d7/d46/a00002.php#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['quit',['quit',['../de/d21/a00006.php#a542a7527ced73b2c9bc14f8dc9661a66',1,'MainWindow']]]
 ];

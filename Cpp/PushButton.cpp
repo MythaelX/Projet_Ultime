@@ -2,7 +2,8 @@
 
 PushButton::PushButton(QWidget* parent) :
 	QPushButton(parent),
-	index(0)
+	table(""),
+	index("")
 {
 	connect(this, SIGNAL(clicked()), this, SLOT(click()));
 }

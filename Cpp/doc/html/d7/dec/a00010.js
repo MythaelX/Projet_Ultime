@@ -1,7 +1,29 @@
 var a00010 =
 [
-    [ "goTo", "d7/dec/a00010.php#a007a2a8bda4e52a48930875f4ee8616e", null ],
-    [ "home", "d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f", null ],
-    [ "restore", "d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142", null ],
-    [ "save", "d7/dec/a00010.php#a3b03a811157d84449f3cf467c1f4758e", null ]
+    [ "addAsk", "d7/dec/a00010.php#a2003fa6138007746e85c2b697d147b58", null ],
+    [ "addCategory", "d7/dec/a00010.php#afeb2d8632fb1dad24def5d95d27f43f0", null ],
+    [ "addGame", "d7/dec/a00010.php#a35ee2c6a333148aed442bb741b2bf82d", null ],
+    [ "addQuestion", "d7/dec/a00010.php#ad86a004962b3149094f4cc660ecb05d4", null ],
+    [ "addUsers", "d7/dec/a00010.php#aff4b34ff516467549fc9daa6a8f3d4ac", null ],
+    [ "deleteAsk", "d7/dec/a00010.php#af57e491c251eeaf366674ea6df624cd1", null ],
+    [ "deleteCategory", "d7/dec/a00010.php#a14880f51cece87ca27691c7acfa01d8a", null ],
+    [ "deleteGame", "d7/dec/a00010.php#a8205b4d8f60ec0146b15eace1d79d95a", null ],
+    [ "deletePoints", "d7/dec/a00010.php#a46e754bfd8e03764969330bc39a1fa66", null ],
+    [ "deleteQuestion", "d7/dec/a00010.php#a0c5a4808a05a3628f1b8e88ac398c70a", null ],
+    [ "deleteUsers", "d7/dec/a00010.php#a4df7c0879644507b94167bd565cd88bc", null ],
+    [ "formatColumn", "d7/dec/a00010.php#a7b4f7ad736a4c60a7dbb5009193df31d", null ],
+    [ "list", "d7/dec/a00010.php#a487aa0a5ee1a53eddfa78ea676d3ff2b", null ],
+    [ "listAsk", "d7/dec/a00010.php#ab1f39593da592ecd20c33ff35fd3117e", null ],
+    [ "listCategory", "d7/dec/a00010.php#a41e682f03702a0bf37a7cee874f26fd7", null ],
+    [ "listDifficulty", "d7/dec/a00010.php#a4fde67e89032a42ae21d36f455132c73", null ],
+    [ "listGame", "d7/dec/a00010.php#a2b68ec33abd0730a4d7d28e2a0d4a667", null ],
+    [ "listPoints", "d7/dec/a00010.php#ad9c42ebd9fc0594c28d0acb30946da64", null ],
+    [ "listQuestion", "d7/dec/a00010.php#aadfdc0076d839bd6c4ca16f32c9a134c", null ],
+    [ "listUsers", "d7/dec/a00010.php#a88b6fd46a86bb6b1bb0007393b776f46", null ],
+    [ "updateAsk", "d7/dec/a00010.php#aaee44428f5b0401f7b9ad5b073254fd3", null ],
+    [ "updateCategory", "d7/dec/a00010.php#a2227326c53ffa5963bcc96c7983c6383", null ],
+    [ "updateDifficulty", "d7/dec/a00010.php#a4f84d201465ec63094f6407c0cdb6a8d", null ],
+    [ "updateGame", "d7/dec/a00010.php#a870df29ea630e53aa77c960373e0825f", null ],
+    [ "updateQuestion", "d7/dec/a00010.php#ae13343b52f992bcba9e6fcb79bddf71e", null ],
+    [ "updateUsers", "d7/dec/a00010.php#ac6acc509b5aa3caa3f76450ed835759e", null ]
 ];

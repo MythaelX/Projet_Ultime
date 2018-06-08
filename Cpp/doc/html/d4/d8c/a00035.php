@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: WorldDimensions Struct Reference</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -89,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
+$(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -107,84 +105,51 @@ $(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d5/ddf/a00224.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">WorldDimensions Struct Reference</div>  </div>
+<div class="title">MainWindow Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An object to group the dimensions of the world.  
- <a href="../../d4/d8c/a00035.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a56d14d07cb773a1a4bf12f16e7b57d07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a56d14d07cb773a1a4bf12f16e7b57d07">w</a> = 0</td></tr>
-<tr class="separator:a56d14d07cb773a1a4bf12f16e7b57d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab0b2a75b9747cdc33e2982b2df3c322"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#aab0b2a75b9747cdc33e2982b2df3c322">h</a> = 0</td></tr>
-<tr class="separator:aab0b2a75b9747cdc33e2982b2df3c322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa07c34b536e895dc3ab45bb353aa54a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#aa07c34b536e895dc3ab45bb353aa54a6">z</a> = 0</td></tr>
-<tr class="separator:aa07c34b536e895dc3ab45bb353aa54a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An object to group the dimensions of the world. </p>
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00035">35</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aab0b2a75b9747cdc33e2982b2df3c322"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t WorldDimensions::h = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00037">37</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a56d14d07cb773a1a4bf12f16e7b57d07"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t WorldDimensions::w = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00036">36</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa07c34b536e895dc3ab45bb353aa54a6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t WorldDimensions::z = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00038">38</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d7/df7/a00058_source.php">Map.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../dd/dad/a00005.php">MainWindow</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a4c5997d915dc5101e208682364723048">addEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a9b236786067bb4d825a3c6717bf96b47">addingWidgets</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#afd48a422f88143ea6c66b0c71c55eb08">adminWidgets</a>(std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#acfdbadec2420e7862c53e511332992cc">changeActive</a>(int state, std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a74ed49cc57a01562288f4be1e665f450">createAddingWidgets</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a2364ae069aba1f220ac4cd2fecaf4d6c">createAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a63c8b347f526518517340a5f912c5575">createConnectDialog</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a78ab18fed76eb54bda4508dc9be4b64b">createConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a9eb2d8d3bff2599bef550d68a4d11925">createValues</a>(std::string table, std::vector&lt; std::string &gt; &amp;values)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#abf97603f986be8d9d79252512949fb30">createWidgetsLabel</a>(std::map&lt; std::string, std::string &gt; col, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a400129c80a43e87a9777a06f919060f7">createWidgetsLabels</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::vector&lt; std::string &gt; &amp;out)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#aae5abc1edc939a854d3da3bec4e95c9a">deleteAll</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#ac44a72386cf26dcc86f108aed760ddf0">deleteEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#abc9f5971cf1748fae12a5acf641ecd1d">drawBackground</a>(QPixmap *cache)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a6db4ef4db3e407746616115fce25c199">fillWidgets</a>(std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::string lineId)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#ae9685223f3a3fecce767e877bbc344ca">getCheckedChoices</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a79d1533b5cbbc9040c5d78c9dfb29d38">initConnectDialog</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a5cfeb89a38b9225a3b3964e6d688ba60">initConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#ab09110d257b762db4f2be34235d8465f">putAccents</a>(std::string &amp;text)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a542a7527ced73b2c9bc14f8dc9661a66">quit</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#af0aca5335b2f075de2cdbf0fe9c33645">setContentAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a3338456a91f9f32f2f30b9e702df5ea4">setContentConnectDialog</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a9da75111decb2a68a08c06dec6796d8a">setContentConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a4cd7e847432365bae79f88a3acf278c7">toAdmin</a>(std::string table=&quot;&quot;, std::string index=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a675227b9f43a0a590d2446b074053943">updateEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">updEntry</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">useAdminWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a79a619ed1dd1d17b8b3624d919fefe4e">useConnectDialog</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#aad6ca3020e583fffe727258905c15629">useConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a70aa06cbac136bf2ce8bee98b9bebd27">verifyConnection</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">MainWindow</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d8c/a00035.php">WorldDimensions</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

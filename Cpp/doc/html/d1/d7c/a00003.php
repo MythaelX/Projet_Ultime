@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: functions.hpp File Reference</title>
+<title>Hot Dog QUIZ: GreenPushButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,9 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -70,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -105,694 +106,108 @@ $(document).ready(function(){initNavTree('d1/d7c/a00003.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/dc0/a00033.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">functions.hpp File Reference</div>  </div>
+<div class="title">GreenPushButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;Widgets/C++/C++.hpp&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+
+<p>An implementation of <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  
+ <a href="../../d1/d7c/a00003.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for GreenPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/dad/a00005.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
-<map name="functions_8hppdep" id="functions_8hppdep">
-<area shape="rect" id="node2" href="../../d0/d0b/a00004.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
+<div class="center"><img src="../../db/df3/a00034.png" border="0" usemap="#GreenPushButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="GreenPushButton_inherit__map" id="GreenPushButton_inherit__map">
+<area shape="rect" id="node2" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. " alt="" coords="23,80,113,107"/>
 </map>
-</div>
-</div>
-<p><a href="../../d1/d7c/a00003_source.php">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for GreenPushButton:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d8c/a00035.png" border="0" usemap="#GreenPushButton_coll__map" alt="Collaboration graph"/></div>
+<map name="GreenPushButton_coll__map" id="GreenPushButton_coll__map">
+<area shape="rect" id="node2" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. " alt="" coords="23,80,113,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">list</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43b53615192bcce310fc51944bf217b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aa43b53615192bcce310fc51944bf217b">listUsers</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:aa43b53615192bcce310fc51944bf217b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aff4b34ff516467549fc9daa6a8f3d4ac">addUsers</a> (BDD &amp;bdd, std::string args)</td></tr>
-<tr class="separator:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6acc509b5aa3caa3f76450ed835759e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#ac6acc509b5aa3caa3f76450ed835759e">updateUsers</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:ac6acc509b5aa3caa3f76450ed835759e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df7c0879644507b94167bd565cd88bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a4df7c0879644507b94167bd565cd88bc">deleteUsers</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:a4df7c0879644507b94167bd565cd88bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3143ec2b5319c969adf991c009373f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#af3143ec2b5319c969adf991c009373f0">listCategory</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:af3143ec2b5319c969adf991c009373f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#afeb2d8632fb1dad24def5d95d27f43f0">addCategory</a> (BDD &amp;bdd, std::string args)</td></tr>
-<tr class="separator:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2227326c53ffa5963bcc96c7983c6383"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a2227326c53ffa5963bcc96c7983c6383">updateCategory</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:a2227326c53ffa5963bcc96c7983c6383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14880f51cece87ca27691c7acfa01d8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a14880f51cece87ca27691c7acfa01d8a">deleteCategory</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:a14880f51cece87ca27691c7acfa01d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63ee67279e62ee5eaf73bb188ba0b4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#ad63ee67279e62ee5eaf73bb188ba0b4a">listDifficulty</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:ad63ee67279e62ee5eaf73bb188ba0b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a4f84d201465ec63094f6407c0cdb6a8d">updateDifficulty</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1caf2a7a9b33c712063314f6bac74470"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a1caf2a7a9b33c712063314f6bac74470">listGame</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:a1caf2a7a9b33c712063314f6bac74470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ee2c6a333148aed442bb741b2bf82d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a35ee2c6a333148aed442bb741b2bf82d">addGame</a> (BDD &amp;bdd, std::string args)</td></tr>
-<tr class="separator:a35ee2c6a333148aed442bb741b2bf82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a870df29ea630e53aa77c960373e0825f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a870df29ea630e53aa77c960373e0825f">updateGame</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:a870df29ea630e53aa77c960373e0825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a8205b4d8f60ec0146b15eace1d79d95a">deleteGame</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a0820a14dbb5072c112cf32466c8fc6c3">listAsk</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2003fa6138007746e85c2b697d147b58"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a2003fa6138007746e85c2b697d147b58">addAsk</a> (BDD &amp;bdd, std::string args)</td></tr>
-<tr class="separator:a2003fa6138007746e85c2b697d147b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aaee44428f5b0401f7b9ad5b073254fd3">updateAsk</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af57e491c251eeaf366674ea6df624cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#af57e491c251eeaf366674ea6df624cd1">deleteAsk</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:af57e491c251eeaf366674ea6df624cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887113739bafac257bbd35996edfeb81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a887113739bafac257bbd35996edfeb81">listQuestion</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:a887113739bafac257bbd35996edfeb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad86a004962b3149094f4cc660ecb05d4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#ad86a004962b3149094f4cc660ecb05d4">addQuestion</a> (BDD &amp;bdd, std::string args)</td></tr>
-<tr class="separator:ad86a004962b3149094f4cc660ecb05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#ae13343b52f992bcba9e6fcb79bddf71e">updateQuestion</a> (BDD &amp;bdd, std::string args, std::string condition)</td></tr>
-<tr class="separator:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a0c5a4808a05a3628f1b8e88ac398c70a">deleteQuestion</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34790c4f5c0c4ad30d069fa2766559c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#af34790c4f5c0c4ad30d069fa2766559c">listPoints</a> (BDD &amp;bdd)</td></tr>
-<tr class="separator:af34790c4f5c0c4ad30d069fa2766559c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46e754bfd8e03764969330bc39a1fa66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a46e754bfd8e03764969330bc39a1fa66">deletePoints</a> (BDD &amp;bdd, std::string condition)</td></tr>
-<tr class="separator:a46e754bfd8e03764969330bc39a1fa66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a240ce96b934a47803ffa02b23c9e9271"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a240ce96b934a47803ffa02b23c9e9271">GreenPushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a240ce96b934a47803ffa02b23c9e9271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a>.  <a href="#a240ce96b934a47803ffa02b23c9e9271">More...</a><br /></td></tr>
+<tr class="separator:a240ce96b934a47803ffa02b23c9e9271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00007"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00007')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QPushButton.  <a href="#aff7923c3d3fb0e46a57c06afa0f7f41e">More...</a><br /></td></tr>
+<tr class="separator:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the button.  <a href="#a9b4855b32fc3e96e6d0ca35a212aba5f">More...</a><br /></td></tr>
+<tr class="separator:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the button.  <a href="#a9deef0b896e8f06dcf727f52441df445">More...</a><br /></td></tr>
+<tr class="separator:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_slots_a00007"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00007')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a31bbce7532c03921c218f54465afcaef">click</a> ()</td></tr>
+<tr class="memdesc:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a31bbce7532c03921c218f54465afcaef">More...</a><br /></td></tr>
+<tr class="separator:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_a00007"><td colspan="2" onclick="javascript:toggleInherit('signals_a00007')"><img src="../../closed.png" alt="-"/>&#160;Signals inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the clicked signal.  <a href="#aeec905376bc407f74ba879f7dc029dcc">More...</a><br /></td></tr>
+<tr class="separator:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00007"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00007')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../de/d5e/a00007.php">PushButton</a></td></tr>
+<tr class="memitem:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00007"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a> () const </td></tr>
+<tr class="separator:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00007"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a138a6609129997496311c00ed4e1acb0">getIndex</a> () const </td></tr>
+<tr class="separator:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<div class="textblock"><p>An implementation of <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software. </p>
 
-<p>Definition in file <a class="el" href="../../d1/d7c/a00003_source.php">functions.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a2003fa6138007746e85c2b697d147b58"></a>
+<p>Definition at line <a class="el" href="../../d2/de7/a00014_source.php#l00077">77</a> of file <a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a240ce96b934a47803ffa02b23c9e9271"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t addAsk </td>
+          <td class="memname">GreenPushButton::GreenPushButton </td>
           <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afeb2d8632fb1dad24def5d95d27f43f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t addCategory </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a35ee2c6a333148aed442bb741b2bf82d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t addGame </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad86a004962b3149094f4cc660ecb05d4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t addQuestion </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aff4b34ff516467549fc9daa6a8f3d4ac"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool addUsers </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af57e491c251eeaf366674ea6df624cd1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteAsk </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a14880f51cece87ca27691c7acfa01d8a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteCategory </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8205b4d8f60ec0146b15eace1d79d95a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteGame </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a46e754bfd8e03764969330bc39a1fa66"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deletePoints </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0c5a4808a05a3628f1b8e88ac398c70a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteQuestion </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4df7c0879644507b94167bd565cd88bc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteUsers </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a487aa0a5ee1a53eddfa78ea676d3ff2b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void list </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Create a <a class="el" href="../../de/d5e/a00007.php" title="An implementation of QPushButton for the software. ">PushButton</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d2/de7/a00014_source.php#l00081">81</a> of file <a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0820a14dbb5072c112cf32466c8fc6c3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listAsk </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af3143ec2b5319c969adf991c009373f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listCategory </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad63ee67279e62ee5eaf73bb188ba0b4a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listDifficulty </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1caf2a7a9b33c712063314f6bac74470"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listGame </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af34790c4f5c0c4ad30d069fa2766559c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listPoints </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a887113739bafac257bbd35996edfeb81"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listQuestion </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa43b53615192bcce310fc51944bf217b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listUsers </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaee44428f5b0401f7b9ad5b073254fd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateAsk </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2227326c53ffa5963bcc96c7983c6383"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateCategory </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4f84d201465ec63094f6407c0cdb6a8d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateDifficulty </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a870df29ea630e53aa77c960373e0825f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateGame </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae13343b52f992bcba9e6fcb79bddf71e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateQuestion </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac6acc509b5aa3caa3f76450ed835759e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateUsers </td>
-          <td>(</td>
-          <td class="paramtype">BDD &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d7c/a00003.php">functions.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d1/d7c/a00003.php">GreenPushButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

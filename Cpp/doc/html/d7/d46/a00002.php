@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: MainWindow Class Reference</title>
+<title>Hot Dog QUIZ: Dialog Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -109,112 +108,86 @@ $(document).ready(function(){initNavTree('d7/d46/a00002.php','../../');});
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="../../de/d5e/a00007.php">List of all members</a>  </div>
+<a href="../../d5/d79/a00030.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MainWindow Class Reference</div>  </div>
+<div class="title">Dialog Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>The window that is shown.  
+<p>An implementation of QDialog for the software.  
  <a href="../../d7/d46/a00002.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d0/d0b/a00004_source.php">MainWindow.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for MainWindow:</div>
+Inheritance diagram for Dialog:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/dee/a00008.png" border="0" usemap="#MainWindow_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../df/d61/a00031.png" border="0" usemap="#Dialog_inherit__map" alt="Inheritance graph"/></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for MainWindow:</div>
+Collaboration diagram for Dialog:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/da0/a00009.png" border="0" usemap="#MainWindow_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../dc/d87/a00032.png" border="0" usemap="#Dialog_coll__map" alt="Collaboration graph"/></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a> ()</td></tr>
-<tr class="memdesc:a430b81b3bb84b8561b4e63fe76e28c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try and verify the connection.  <a href="#a430b81b3bb84b8561b4e63fe76e28c39">More...</a><br /></td></tr>
-<tr class="separator:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6505fd839711734947bfe2040a74f614"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a6505fd839711734947bfe2040a74f614">exec</a> ()</td></tr>
+<tr class="memdesc:a6505fd839711734947bfe2040a74f614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the exec slot of QDialog.  <a href="#a6505fd839711734947bfe2040a74f614">More...</a><br /></td></tr>
+<tr class="separator:a6505fd839711734947bfe2040a74f614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a08a133d21fea8948f84acc105ab5fc33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a> (QWidget *parent=NULL)</td></tr>
-<tr class="memdesc:a08a133d21fea8948f84acc105ab5fc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the window to connect to the database.  <a href="#a08a133d21fea8948f84acc105ab5fc33">More...</a><br /></td></tr>
-<tr class="separator:a08a133d21fea8948f84acc105ab5fc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a> ()</td></tr>
-<tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a78ab18fed76eb54bda4508dc9be4b64b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a78ab18fed76eb54bda4508dc9be4b64b">createConnectWidgets</a> ()</td></tr>
-<tr class="memdesc:a78ab18fed76eb54bda4508dc9be4b64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create all the connection's widgets.  <a href="#a78ab18fed76eb54bda4508dc9be4b64b">More...</a><br /></td></tr>
-<tr class="separator:a78ab18fed76eb54bda4508dc9be4b64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a5cfeb89a38b9225a3b3964e6d688ba60">initConnectWidgets</a> ()</td></tr>
-<tr class="memdesc:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all the connection's widgets.  <a href="#a5cfeb89a38b9225a3b3964e6d688ba60">More...</a><br /></td></tr>
-<tr class="separator:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da75111decb2a68a08c06dec6796d8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a9da75111decb2a68a08c06dec6796d8a">setContentConnectWidgets</a> ()</td></tr>
-<tr class="memdesc:a9da75111decb2a68a08c06dec6796d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the add for these widgets.  <a href="#a9da75111decb2a68a08c06dec6796d8a">More...</a><br /></td></tr>
-<tr class="separator:a9da75111decb2a68a08c06dec6796d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6ca3020e583fffe727258905c15629"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#aad6ca3020e583fffe727258905c15629">useConnectWidgets</a> ()</td></tr>
-<tr class="memdesc:aad6ca3020e583fffe727258905c15629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show only the connection's widgets.  <a href="#aad6ca3020e583fffe727258905c15629">More...</a><br /></td></tr>
-<tr class="separator:aad6ca3020e583fffe727258905c15629"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a70aa06cbac136bf2ce8bee98b9bebd27">verifyConnection</a> ()</td></tr>
-<tr class="memdesc:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the page after a connection.  <a href="#a70aa06cbac136bf2ce8bee98b9bebd27">More...</a><br /></td></tr>
-<tr class="separator:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c8b347f526518517340a5f912c5575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a63c8b347f526518517340a5f912c5575">createConnectDialog</a> ()</td></tr>
-<tr class="memdesc:a63c8b347f526518517340a5f912c5575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the connection QDialog message on error.  <a href="#a63c8b347f526518517340a5f912c5575">More...</a><br /></td></tr>
-<tr class="separator:a63c8b347f526518517340a5f912c5575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d1533b5cbbc9040c5d78c9dfb29d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a79d1533b5cbbc9040c5d78c9dfb29d38">initConnectDialog</a> ()</td></tr>
-<tr class="memdesc:a79d1533b5cbbc9040c5d78c9dfb29d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all the widgets of the QDialog.  <a href="#a79d1533b5cbbc9040c5d78c9dfb29d38">More...</a><br /></td></tr>
-<tr class="separator:a79d1533b5cbbc9040c5d78c9dfb29d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3338456a91f9f32f2f30b9e702df5ea4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a3338456a91f9f32f2f30b9e702df5ea4">setContentConnectDialog</a> ()</td></tr>
-<tr class="memdesc:a3338456a91f9f32f2f30b9e702df5ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the add for these widgets.  <a href="#a3338456a91f9f32f2f30b9e702df5ea4">More...</a><br /></td></tr>
-<tr class="separator:a3338456a91f9f32f2f30b9e702df5ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79a619ed1dd1d17b8b3624d919fefe4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a79a619ed1dd1d17b8b3624d919fefe4e">useConnectDialog</a> ()</td></tr>
-<tr class="memdesc:a79a619ed1dd1d17b8b3624d919fefe4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the QDialog.  <a href="#a79a619ed1dd1d17b8b3624d919fefe4e">More...</a><br /></td></tr>
-<tr class="separator:a79a619ed1dd1d17b8b3624d919fefe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2364ae069aba1f220ac4cd2fecaf4d6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a2364ae069aba1f220ac4cd2fecaf4d6c">createAdminWidgets</a> ()</td></tr>
-<tr class="separator:a2364ae069aba1f220ac4cd2fecaf4d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a601d88aa6fbda83575e07d7dc9e19a15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a601d88aa6fbda83575e07d7dc9e19a15">initAdminWidgets</a> ()</td></tr>
-<tr class="separator:a601d88aa6fbda83575e07d7dc9e19a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0aca5335b2f075de2cdbf0fe9c33645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#af0aca5335b2f075de2cdbf0fe9c33645">setContentAdminWidgets</a> ()</td></tr>
-<tr class="memdesc:af0aca5335b2f075de2cdbf0fe9c33645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the add for these widgets.  <a href="#af0aca5335b2f075de2cdbf0fe9c33645">More...</a><br /></td></tr>
-<tr class="separator:af0aca5335b2f075de2cdbf0fe9c33645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5cd67fa4d5e5aace91a9c98cc8feec7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">useAdminWidgets</a> ()</td></tr>
-<tr class="separator:ac5cd67fa4d5e5aace91a9c98cc8feec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceb5bf98f0d68be0d164584da0605624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#aceb5bf98f0d68be0d164584da0605624">adminWidgets</a> ()</td></tr>
-<tr class="separator:aceb5bf98f0d68be0d164584da0605624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#aa0b9cd0c1778f065842c9f5d8b1d0ade">Dialog</a> (QWidget *parent=nullptr, Qt::WindowFlags flags=Qt::WindowTitleHint|Qt::WindowSystemMenuHint)</td></tr>
+<tr class="memdesc:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QDialog.  <a href="#aa0b9cd0c1778f065842c9f5d8b1d0ade">More...</a><br /></td></tr>
+<tr class="separator:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1fe6ef28513eed13bfcd3a4da83ccb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a2a1fe6ef28513eed13bfcd3a4da83ccb">~Dialog</a> ()</td></tr>
+<tr class="separator:a2a1fe6ef28513eed13bfcd3a4da83ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fa68c918f499cf0882f10e163653b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a71fa68c918f499cf0882f10e163653b7">setText</a> (std::string text)</td></tr>
+<tr class="memdesc:a71fa68c918f499cf0882f10e163653b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the text of the <a class="el" href="../../d7/d46/a00002.php" title="An implementation of QDialog for the software. ">Dialog</a>.  <a href="#a71fa68c918f499cf0882f10e163653b7">More...</a><br /></td></tr>
+<tr class="separator:a71fa68c918f499cf0882f10e163653b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c10c671f4913a51c225eab2a3934f10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d46/a00002.php#a4c10c671f4913a51c225eab2a3934f10">enableCancel</a> (bool enable)</td></tr>
+<tr class="memdesc:a4c10c671f4913a51c225eab2a3934f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the cancel button is shown or hidden.  <a href="#a4c10c671f4913a51c225eab2a3934f10">More...</a><br /></td></tr>
+<tr class="separator:a4c10c671f4913a51c225eab2a3934f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The window that is shown. </p>
+<div class="textblock"><p>An implementation of QDialog for the software. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00017">17</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">MainWindow.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d45/a00011_source.php#l00020">20</a> of file <a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a08a133d21fea8948f84acc105ab5fc33"></a>
+<a class="anchor" id="aa0b9cd0c1778f065842c9f5d8b1d0ade"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MainWindow::MainWindow </td>
+          <td class="memname">Dialog::Dialog </td>
           <td>(</td>
           <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>parent</em> = <code>NULL</code></td><td>)</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Qt::WindowFlags&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>Qt::WindowTitleHint|Qt::WindowSystemMenuHint</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create the window to connect to the database. </p>
+<p>Create a QDialog. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae98d00a93bc118200eeef9f9bba1dba7"></a>
+<a class="anchor" id="a2a1fe6ef28513eed13bfcd3a4da83ccb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MainWindow::~MainWindow </td>
+          <td class="memname">Dialog::~Dialog </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -225,7 +198,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aceb5bf98f0d68be0d164584da0605624"></a>
+<a class="anchor" id="a4c10c671f4913a51c225eab2a3934f10"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -233,22 +206,37 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MainWindow::adminWidgets </td>
+          <td class="memname">void Dialog::enableCancel </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Set if the cancel button is shown or hidden. </p>
+
+<p>Definition at line <a class="el" href="../../da/d45/a00011_source.php#l00034">34</a> of file <a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d46/a00002_a4c10c671f4913a51c225eab2a3934f10_cgraph.png" border="0" usemap="#d7/d46/a00002_a4c10c671f4913a51c225eab2a3934f10_cgraph" alt=""/></div>
+<map name="d7/d46/a00002_a4c10c671f4913a51c225eab2a3934f10_cgraph" id="d7/d46/a00002_a4c10c671f4913a51c225eab2a3934f10_cgraph">
+<area shape="rect" id="node2" href="../../d7/d46/a00002.php#a6505fd839711734947bfe2040a74f614" title="Overload of the exec slot of QDialog. " alt="" coords="200,5,295,32"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
-<a class="anchor" id="a430b81b3bb84b8561b4e63fe76e28c39"></a>
+<a class="anchor" id="a6505fd839711734947bfe2040a74f614"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -256,7 +244,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MainWindow::connections </td>
+          <td class="memname">virtual int Dialog::exec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -264,16 +252,16 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Try and verify the connection. </p>
+<p>Overload of the exec slot of QDialog. </p>
 
 </div>
 </div>
-<a class="anchor" id="a2364ae069aba1f220ac4cd2fecaf4d6c"></a>
+<a class="anchor" id="a71fa68c918f499cf0882f10e163653b7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -281,328 +269,35 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MainWindow::createAdminWidgets </td>
+          <td class="memname">void Dialog::setText </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a63c8b347f526518517340a5f912c5575"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::createConnectDialog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Set the text of the <a class="el" href="../../d7/d46/a00002.php" title="An implementation of QDialog for the software. ">Dialog</a>. </p>
 
-<p>Create the connection QDialog message on error. </p>
-
-</div>
-</div>
-<a class="anchor" id="a78ab18fed76eb54bda4508dc9be4b64b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::createConnectWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create all the connection's widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="a601d88aa6fbda83575e07d7dc9e19a15"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::initAdminWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a79d1533b5cbbc9040c5d78c9dfb29d38"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::initConnectDialog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize all the widgets of the QDialog. </p>
-
-</div>
-</div>
-<a class="anchor" id="a5cfeb89a38b9225a3b3964e6d688ba60"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::initConnectWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initialize all the connection's widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="af0aca5335b2f075de2cdbf0fe9c33645"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::setContentAdminWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Do all the add for these widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="a3338456a91f9f32f2f30b9e702df5ea4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::setContentConnectDialog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Do all the add for these widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="a9da75111decb2a68a08c06dec6796d8a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::setContentConnectWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Do all the add for these widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac5cd67fa4d5e5aace91a9c98cc8feec7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::useAdminWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a79a619ed1dd1d17b8b3624d919fefe4e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::useConnectDialog </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Show the QDialog. </p>
-
-</div>
-</div>
-<a class="anchor" id="aad6ca3020e583fffe727258905c15629"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::useConnectWidgets </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Show only the connection's widgets. </p>
-
-</div>
-</div>
-<a class="anchor" id="a70aa06cbac136bf2ce8bee98b9bebd27"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::verifyConnection </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create the page after a connection. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000001">Todo:</a></b></dt><dd></dd></dl>
-<p>Verify the connection to the database </p>
+<p>Definition at line <a class="el" href="../../da/d45/a00011_source.php#l00030">30</a> of file <a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d0/d0b/a00004_source.php">MainWindow.h</a></li>
+<li><a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d46/a00002.php">MainWindow</a></li>
+    <li class="navelem"><a class="el" href="../../d7/d46/a00002.php">Dialog</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

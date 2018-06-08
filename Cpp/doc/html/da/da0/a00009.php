@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Color Class Reference</title>
+<title>Hot Dog QUIZ: TitleLabel Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -109,362 +107,68 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
-<a href="../../d0/d48/a00165.php">List of all members</a>  </div>
+<a href="../../d2/d79/a00051.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Color Class Reference</div>  </div>
+<div class="title">TitleLabel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Change the text color in the console.  
+<p>An implementation of QLabel for the software.  
  <a href="../../da/da0/a00009.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dd/d1b/a00015_source.php">TitleLabel.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Color:</div>
+Inheritance diagram for TitleLabel:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d38/a00166.png" border="0" usemap="#Color_inherit__map" alt="Inheritance graph"/></div>
-<map name="Color_inherit__map" id="Color_inherit__map">
-<area shape="rect" id="node2" href="../../d5/d16/a00029.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
+<div class="center"><img src="../../d1/d84/a00052.png" border="0" usemap="#TitleLabel_inherit__map" alt="Inheritance graph"/></div>
+<map name="TitleLabel_inherit__map" id="TitleLabel_inherit__map">
+<area shape="rect" id="node3" href="../../dd/dad/a00005.php" title="An implementation of TitleLabel for the software. " alt="" coords="5,155,100,181"/>
 </map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for TitleLabel:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/dee/a00053.png" border="0" usemap="#TitleLabel_coll__map" alt="Collaboration graph"/></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af13248c98bcd8bf432f3c9dab0a27135"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a> (std::string color)</td></tr>
-<tr class="memdesc:af13248c98bcd8bf432f3c9dab0a27135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="#af13248c98bcd8bf432f3c9dab0a27135">More...</a><br /></td></tr>
-<tr class="separator:af13248c98bcd8bf432f3c9dab0a27135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a> (Args...args)</td></tr>
-<tr class="memdesc:a20b97d6cf5e50f86b517f543142ac1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="#a20b97d6cf5e50f86b517f543142ac1e2">More...</a><br /></td></tr>
-<tr class="separator:a20b97d6cf5e50f86b517f543142ac1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f77bc1b8cfcd1382cd55e4ef6856bac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a> (int color)</td></tr>
-<tr class="memdesc:a4f77bc1b8cfcd1382cd55e4ef6856bac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a4f77bc1b8cfcd1382cd55e4ef6856bac">More...</a><br /></td></tr>
-<tr class="separator:a4f77bc1b8cfcd1382cd55e4ef6856bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
-<tr class="memdesc:ad810a3eea73cc7b62c80885692488738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
-<tr class="separator:ad810a3eea73cc7b62c80885692488738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d6/d42/a00043.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
-<tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
-<tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d6/d42/a00043.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
-<tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
-<tr class="separator:a1d83143ba7476b3f1d60c85b61713790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a84513fec989f2f817d2b1c5e6989450e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a> (std::ostream &amp;stream, <a class="el" href="../../da/da0/a00009.php">Color</a> const &amp;c)</td></tr>
-<tr class="memdesc:a84513fec989f2f817d2b1c5e6989450e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the &lt;&lt; operator.  <a href="#a84513fec989f2f817d2b1c5e6989450e">More...</a><br /></td></tr>
-<tr class="separator:a84513fec989f2f817d2b1c5e6989450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3088caa93da248b64c58d77141c5d94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aa3088caa93da248b64c58d77141c5d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QLabel.  <a href="#aa3088caa93da248b64c58d77141c5d94">More...</a><br /></td></tr>
+<tr class="separator:aa3088caa93da248b64c58d77141c5d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Change the text color in the console. </p>
+<div class="textblock"><p>An implementation of QLabel for the software. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00063">63</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00017">17</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">TitleLabel.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af13248c98bcd8bf432f3c9dab0a27135"></a>
+<a class="anchor" id="aa3088caa93da248b64c58d77141c5d94"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Color::Color </td>
+          <td class="memname">TitleLabel::TitleLabel </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with a first color. </p>
-
-</div>
-</div>
-<a class="anchor" id="a20b97d6cf5e50f86b517f543142ac1e2"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Color::Color </td>
-          <td>(</td>
-          <td class="paramtype">Args...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with colors. </p>
-
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00075">75</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4f77bc1b8cfcd1382cd55e4ef6856bac"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Color::addColors </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add a color to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The integer of the color</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00095">95</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/da0/a00009_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph.png" border="0" usemap="#da/da0/a00009_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph" alt=""/></div>
-<map name="da/da0/a00009_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph" id="da/da0/a00009_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph">
-<area shape="rect" id="node2" href="../../d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ad810a3eea73cc7b62c80885692488738"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Color::addColors </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add colors to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>One of the colors to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>the other colors to add</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00106">106</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/da0/a00009_ad810a3eea73cc7b62c80885692488738_cgraph.png" border="0" usemap="#da/da0/a00009_ad810a3eea73cc7b62c80885692488738_cgraph" alt=""/></div>
-<map name="da/da0/a00009_ad810a3eea73cc7b62c80885692488738_cgraph" id="da/da0/a00009_ad810a3eea73cc7b62c80885692488738_cgraph">
-<area shape="rect" id="node2" href="../../d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a9ef0be1de42c7a08b30d5715ae943a26"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Color::addColors </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d42/a00043.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
-          <td class="paramname"><em>color</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add a color to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>The integer of the color</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00118">118</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/da0/a00009_a9ef0be1de42c7a08b30d5715ae943a26_cgraph.png" border="0" usemap="#da/da0/a00009_a9ef0be1de42c7a08b30d5715ae943a26_cgraph" alt=""/></div>
-<map name="da/da0/a00009_a9ef0be1de42c7a08b30d5715ae943a26_cgraph" id="da/da0/a00009_a9ef0be1de42c7a08b30d5715ae943a26_cgraph">
-<area shape="rect" id="node2" href="../../d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1d83143ba7476b3f1d60c85b61713790"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Color::addColors </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d42/a00043.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
-          <td class="paramname"><em>color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add colors to the object. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>One of the colors to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>the other colors to add</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00129">129</a> of file <a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../da/da0/a00009_a1d83143ba7476b3f1d60c85b61713790_cgraph.png" border="0" usemap="#da/da0/a00009_a1d83143ba7476b3f1d60c85b61713790_cgraph" alt=""/></div>
-<map name="da/da0/a00009_a1d83143ba7476b3f1d60c85b61713790_cgraph" id="da/da0/a00009_a1d83143ba7476b3f1d60c85b61713790_cgraph">
-<area shape="rect" id="node2" href="../../d6/d97/a00045.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="a84513fec989f2f817d2b1c5e6989450e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>stream</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da0/a00009.php">Color</a> const &amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Overloading of the &lt;&lt; operator. </p>
+<p>Create a QLabel. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d42/a00043_source.php">console.hpp</a></li>
+<li><a class="el" href="../../dd/d1b/a00015_source.php">TitleLabel.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../da/da0/a00009.php">Color</a></li>
+    <li class="navelem"><a class="el" href="../../da/da0/a00009.php">TitleLabel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

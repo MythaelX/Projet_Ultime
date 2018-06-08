@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,7 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -82,6 +81,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func.php"><span>Functions</span></a></li>
     </ul>
   </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li><a href="#index_u"><span>u</span></a></li>
+      <li><a href="#index_v"><span>v</span></a></li>
+      <li class="current"><a href="#index_0x7e"><span>~</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -112,57 +132,221 @@ $(document).ready(function(){initNavTree('functions.php','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div><ul>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>addEntry()
+: <a class="el" href="de/d21/a00006.php#a4c5997d915dc5101e208682364723048">MainWindow</a>
+</li>
+<li>addingWidgets()
+: <a class="el" href="de/d21/a00006.php#a9b236786067bb4d825a3c6717bf96b47">MainWindow</a>
+</li>
 <li>adminWidgets()
-: <a class="el" href="d7/d46/a00002.php#aceb5bf98f0d68be0d164584da0605624">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#afd48a422f88143ea6c66b0c71c55eb08">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>changeActive()
+: <a class="el" href="d8/d84/a00001.php#a2d303cb0c794df8e046e6ee38b7b2be0">CheckBox</a>
+, <a class="el" href="de/d21/a00006.php#acfdbadec2420e7862c53e511332992cc">MainWindow</a>
+</li>
+<li>CheckBox()
+: <a class="el" href="d8/d84/a00001.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>
+</li>
+<li>click()
+: <a class="el" href="de/d5e/a00007.php#a31bbce7532c03921c218f54465afcaef">PushButton</a>
+</li>
+<li>clicked()
+: <a class="el" href="de/d5e/a00007.php#aeec905376bc407f74ba879f7dc029dcc">PushButton</a>
 </li>
 <li>connections()
-: <a class="el" href="d7/d46/a00002.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
+</li>
+<li>createAddingWidgets()
+: <a class="el" href="de/d21/a00006.php#a74ed49cc57a01562288f4be1e665f450">MainWindow</a>
 </li>
 <li>createAdminWidgets()
-: <a class="el" href="d7/d46/a00002.php#a2364ae069aba1f220ac4cd2fecaf4d6c">MainWindow</a>
-</li>
-<li>createConnectDialog()
-: <a class="el" href="d7/d46/a00002.php#a63c8b347f526518517340a5f912c5575">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a2364ae069aba1f220ac4cd2fecaf4d6c">MainWindow</a>
 </li>
 <li>createConnectWidgets()
-: <a class="el" href="d7/d46/a00002.php#a78ab18fed76eb54bda4508dc9be4b64b">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a78ab18fed76eb54bda4508dc9be4b64b">MainWindow</a>
 </li>
-<li>initAdminWidgets()
-: <a class="el" href="d7/d46/a00002.php#a601d88aa6fbda83575e07d7dc9e19a15">MainWindow</a>
+<li>createValues()
+: <a class="el" href="de/d21/a00006.php#a9eb2d8d3bff2599bef550d68a4d11925">MainWindow</a>
 </li>
-<li>initConnectDialog()
-: <a class="el" href="d7/d46/a00002.php#a79d1533b5cbbc9040c5d78c9dfb29d38">MainWindow</a>
+<li>createWidgetsLabel()
+: <a class="el" href="de/d21/a00006.php#abf97603f986be8d9d79252512949fb30">MainWindow</a>
 </li>
+<li>createWidgetsLabels()
+: <a class="el" href="de/d21/a00006.php#a400129c80a43e87a9777a06f919060f7">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>deleteAll()
+: <a class="el" href="de/d21/a00006.php#aae5abc1edc939a854d3da3bec4e95c9a">MainWindow</a>
+</li>
+<li>deleteEntry()
+: <a class="el" href="de/d21/a00006.php#ac44a72386cf26dcc86f108aed760ddf0">MainWindow</a>
+</li>
+<li>Dialog()
+: <a class="el" href="d7/d46/a00002.php#aa0b9cd0c1778f065842c9f5d8b1d0ade">Dialog</a>
+</li>
+<li>drawBackground()
+: <a class="el" href="de/d21/a00006.php#abc9f5971cf1748fae12a5acf641ecd1d">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>enableCancel()
+: <a class="el" href="d7/d46/a00002.php#a4c10c671f4913a51c225eab2a3934f10">Dialog</a>
+</li>
+<li>exec()
+: <a class="el" href="d7/d46/a00002.php#a6505fd839711734947bfe2040a74f614">Dialog</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>fillWidgets()
+: <a class="el" href="de/d21/a00006.php#a6db4ef4db3e407746616115fce25c199">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>getCheckedChoices()
+: <a class="el" href="de/d21/a00006.php#ae9685223f3a3fecce767e877bbc344ca">MainWindow</a>
+</li>
+<li>getIndex()
+: <a class="el" href="d8/d84/a00001.php#a087c4b9b8bcc8d631756e53a5c795efb">CheckBox</a>
+, <a class="el" href="de/d5e/a00007.php#a138a6609129997496311c00ed4e1acb0">PushButton</a>
+</li>
+<li>getTable()
+: <a class="el" href="d8/d84/a00001.php#a8750f3494181edef39fda4e23e13a0cb">CheckBox</a>
+, <a class="el" href="de/d5e/a00007.php#ad597238fb9396a94b1caa014c79f8c2e">PushButton</a>
+</li>
+<li>GreenPushButton()
+: <a class="el" href="d1/d7c/a00003.php#a240ce96b934a47803ffa02b23c9e9271">GreenPushButton</a>
+</li>
+<li>GreyPushButton()
+: <a class="el" href="d0/d0b/a00004.php#a8981df8ffdff12611eba021ac0fa2939">GreyPushButton</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>H2TitleLabel()
+: <a class="el" href="dd/dad/a00005.php#a63831a9a77053bc8389e5036712218bf">H2TitleLabel</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>initConnectWidgets()
-: <a class="el" href="d7/d46/a00002.php#a5cfeb89a38b9225a3b3964e6d688ba60">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a5cfeb89a38b9225a3b3964e6d688ba60">MainWindow</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>MainWindow()
-: <a class="el" href="d7/d46/a00002.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>PushButton()
+: <a class="el" href="de/d5e/a00007.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>
+</li>
+<li>putAccents()
+: <a class="el" href="de/d21/a00006.php#ab09110d257b762db4f2be34235d8465f">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>quit()
+: <a class="el" href="de/d21/a00006.php#a542a7527ced73b2c9bc14f8dc9661a66">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>RedPushButton()
+: <a class="el" href="d4/dee/a00008.php#a7ee2968a62200e85c85da783c41afedc">RedPushButton</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>setContentAdminWidgets()
-: <a class="el" href="d7/d46/a00002.php#af0aca5335b2f075de2cdbf0fe9c33645">MainWindow</a>
-</li>
-<li>setContentConnectDialog()
-: <a class="el" href="d7/d46/a00002.php#a3338456a91f9f32f2f30b9e702df5ea4">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#af0aca5335b2f075de2cdbf0fe9c33645">MainWindow</a>
 </li>
 <li>setContentConnectWidgets()
-: <a class="el" href="d7/d46/a00002.php#a9da75111decb2a68a08c06dec6796d8a">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a9da75111decb2a68a08c06dec6796d8a">MainWindow</a>
+</li>
+<li>setIndex()
+: <a class="el" href="d8/d84/a00001.php#af473fc46af7d680963e7aca100aae1f3">CheckBox</a>
+, <a class="el" href="de/d5e/a00007.php#a9deef0b896e8f06dcf727f52441df445">PushButton</a>
+</li>
+<li>setTable()
+: <a class="el" href="d8/d84/a00001.php#ad24f0483b08b440dad2d4569be54a1ff">CheckBox</a>
+, <a class="el" href="de/d5e/a00007.php#a9b4855b32fc3e96e6d0ca35a212aba5f">PushButton</a>
+</li>
+<li>setText()
+: <a class="el" href="d7/d46/a00002.php#a71fa68c918f499cf0882f10e163653b7">Dialog</a>
+</li>
+<li>stateChanged()
+: <a class="el" href="d8/d84/a00001.php#a2a8d7c87f758badc4fcb643519e7d78a">CheckBox</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>TitleLabel()
+: <a class="el" href="da/da0/a00009.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a>
+</li>
+<li>toAdmin()
+: <a class="el" href="de/d21/a00006.php#a4cd7e847432365bae79f88a3acf278c7">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
+<li>updateEntry()
+: <a class="el" href="de/d21/a00006.php#a675227b9f43a0a590d2446b074053943">MainWindow</a>
+</li>
+<li>updEntry()
+: <a class="el" href="de/d21/a00006.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">MainWindow</a>
 </li>
 <li>useAdminWidgets()
-: <a class="el" href="d7/d46/a00002.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">MainWindow</a>
-</li>
-<li>useConnectDialog()
-: <a class="el" href="d7/d46/a00002.php#a79a619ed1dd1d17b8b3624d919fefe4e">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">MainWindow</a>
 </li>
 <li>useConnectWidgets()
-: <a class="el" href="d7/d46/a00002.php#aad6ca3020e583fffe727258905c15629">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#aad6ca3020e583fffe727258905c15629">MainWindow</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>verifyConnection()
-: <a class="el" href="d7/d46/a00002.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_0x7e"></a>- ~ -</h3><ul>
+<li>~Dialog()
+: <a class="el" href="d7/d46/a00002.php#a2a1fe6ef28513eed13bfcd3a4da83ccb">Dialog</a>
 </li>
 <li>~MainWindow()
-: <a class="el" href="d7/d46/a00002.php#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow</a>
+: <a class="el" href="de/d21/a00006.php#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow</a>
 </li>
 </ul>
 </div><!-- contents -->

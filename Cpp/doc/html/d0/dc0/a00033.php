@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Timer Class Reference</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -89,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
+$(document).ready(function(){initNavTree('d1/d7c/a00003.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -107,182 +105,26 @@ $(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d5/d0b/a00220.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Timer Class Reference</div>  </div>
+<div class="title">GreenPushButton Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A timer to do something at the end.  
- <a href="../../d0/dc0/a00033.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>&gt;</code></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f16e8da27d2a5a5242dead46de05d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a> ()</td></tr>
-<tr class="separator:a5f16e8da27d2a5a5242dead46de05d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56cf495a8c9da8907efe755a550c734c"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a56cf495a8c9da8907efe755a550c734c">getStart</a> () const </td></tr>
-<tr class="separator:a56cf495a8c9da8907efe755a550c734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a29af58bc18e1644230c747afb35ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a18a29af58bc18e1644230c747afb35ec">start</a> (int sec)</td></tr>
-<tr class="separator:a18a29af58bc18e1644230c747afb35ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8422d61fac8765b8789c8056bd38f2f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a8422d61fac8765b8789c8056bd38f2f3">restart</a> (int sec)</td></tr>
-<tr class="separator:a8422d61fac8765b8789c8056bd38f2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">m_start</a></td></tr>
-<tr class="separator:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#ab3cd20a0909df03a384a09b1b8151d3e">started</a></td></tr>
-<tr class="separator:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A timer to do something at the end. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00066">66</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5f16e8da27d2a5a5242dead46de05d97"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Timer::Timer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a56cf495a8c9da8907efe755a550c734c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t Timer::getStart </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00072">72</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/dc0/a00033_a56cf495a8c9da8907efe755a550c734c_cgraph.png" border="0" usemap="#d0/dc0/a00033_a56cf495a8c9da8907efe755a550c734c_cgraph" alt=""/></div>
-<map name="d0/dc0/a00033_a56cf495a8c9da8907efe755a550c734c_cgraph" id="d0/dc0/a00033_a56cf495a8c9da8907efe755a550c734c_cgraph">
-<area shape="rect" id="node2" href="../../de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c" title="Clock::start" alt="" coords="168,5,259,32"/>
-<area shape="rect" id="node3" href="../../de/d5e/a00007.php#a775bf97123b58c768571868341d28b08" title="Clock::restart" alt="" coords="163,56,264,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8422d61fac8765b8789c8056bd38f2f3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Timer::restart </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a18a29af58bc18e1644230c747afb35ec"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Timer::start </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a8fb741bf0ac74d067fcfcfafb2c8ab61"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t Timer::m_start</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00079">79</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab3cd20a0909df03a384a09b1b8151d3e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Timer::started</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00080">80</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d1/d7c/a00003.php">GreenPushButton</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a31bbce7532c03921c218f54465afcaef">click</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a138a6609129997496311c00ed4e1acb0">getIndex</a>() const </td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a>() const </td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#a240ce96b934a47803ffa02b23c9e9271">GreenPushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">GreenPushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/dc0/a00033.php">Timer</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

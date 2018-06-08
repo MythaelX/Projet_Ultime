@@ -16,14 +16,13 @@ MainWindow::MainWindow(QWidget* parent) :
 
 	/* Creation of the objects */
 		center = new QWidget;
-		messageBox = new QDialog(this, Qt::Popup);
+		messageBox = new Dialog(this, Qt::Popup);
 		tabWidget = new QTabWidget;
 		hLayouts["connect container"] = nullptr;
 		hLayouts["admin container"] = nullptr;
 		vLayouts["adding layout"] = nullptr;
 
 		this->createConnectWidgets();
-		this->createConnectDialog();
 	/***************************/
 
 	this->initConnectWidgets();

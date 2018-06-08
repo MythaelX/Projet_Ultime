@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Member List</title>
+<title>Hot Dog QUIZ: MainWindow Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
+$(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,28 +105,1047 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../d5/db6/a00042.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MainWindow Member List</div>  </div>
+<div class="title">MainWindow Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d8/d84/a00001.php">MainWindow</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a63c8b347f526518517340a5f912c5575">createConnectDialog</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a78ab18fed76eb54bda4508dc9be4b64b">createConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a79d1533b5cbbc9040c5d78c9dfb29d38">initConnectDialog</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a5cfeb89a38b9225a3b3964e6d688ba60">initConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a>(QWidget *parent=NULL)</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a79a619ed1dd1d17b8b3624d919fefe4e">useConnectDialog</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#aad6ca3020e583fffe727258905c15629">useConnectWidgets</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d8/d84/a00001.php#a70aa06cbac136bf2ce8bee98b9bebd27">verifyConnection</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d8/d84/a00001.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a>()</td><td class="entry"><a class="el" href="../../d8/d84/a00001.php">MainWindow</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>The window that is shown.  
+ <a href="../../de/d21/a00006.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/dd4/a00013_source.php">MainWindow.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for MainWindow:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d42/a00043.png" border="0" usemap="#MainWindow_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for MainWindow:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/df9/a00044.png" border="0" usemap="#MainWindow_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a430b81b3bb84b8561b4e63fe76e28c39">connections</a> ()</td></tr>
+<tr class="memdesc:a430b81b3bb84b8561b4e63fe76e28c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try and verify the connection.  <a href="#a430b81b3bb84b8561b4e63fe76e28c39">More...</a><br /></td></tr>
+<tr class="separator:a430b81b3bb84b8561b4e63fe76e28c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdbadec2420e7862c53e511332992cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#acfdbadec2420e7862c53e511332992cc">changeActive</a> (int state, std::string table, std::string index)</td></tr>
+<tr class="memdesc:acfdbadec2420e7862c53e511332992cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#acfdbadec2420e7862c53e511332992cc">More...</a><br /></td></tr>
+<tr class="separator:acfdbadec2420e7862c53e511332992cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b236786067bb4d825a3c6717bf96b47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9b236786067bb4d825a3c6717bf96b47">addingWidgets</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:a9b236786067bb4d825a3c6717bf96b47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all the widgets for adding something.  <a href="#a9b236786067bb4d825a3c6717bf96b47">More...</a><br /></td></tr>
+<tr class="separator:a9b236786067bb4d825a3c6717bf96b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44a72386cf26dcc86f108aed760ddf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac44a72386cf26dcc86f108aed760ddf0">deleteEntry</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:ac44a72386cf26dcc86f108aed760ddf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an entry in the bdd.  <a href="#ac44a72386cf26dcc86f108aed760ddf0">More...</a><br /></td></tr>
+<tr class="separator:ac44a72386cf26dcc86f108aed760ddf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675227b9f43a0a590d2446b074053943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a675227b9f43a0a590d2446b074053943">updateEntry</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:a675227b9f43a0a590d2446b074053943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update an entry in the bdd.  <a href="#a675227b9f43a0a590d2446b074053943">More...</a><br /></td></tr>
+<tr class="separator:a675227b9f43a0a590d2446b074053943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7ab1ecbd6fbece432bb5cd2c7f35f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">updEntry</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:a9e7ab1ecbd6fbece432bb5cd2c7f35f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update an entry in the bdd.  <a href="#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">More...</a><br /></td></tr>
+<tr class="separator:a9e7ab1ecbd6fbece432bb5cd2c7f35f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c5997d915dc5101e208682364723048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a4c5997d915dc5101e208682364723048">addEntry</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:a4c5997d915dc5101e208682364723048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow to add an entry to the bdd.  <a href="#a4c5997d915dc5101e208682364723048">More...</a><br /></td></tr>
+<tr class="separator:a4c5997d915dc5101e208682364723048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542a7527ced73b2c9bc14f8dc9661a66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a542a7527ced73b2c9bc14f8dc9661a66">quit</a> ()</td></tr>
+<tr class="memdesc:a542a7527ced73b2c9bc14f8dc9661a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit the application.  <a href="#a542a7527ced73b2c9bc14f8dc9661a66">More...</a><br /></td></tr>
+<tr class="separator:a542a7527ced73b2c9bc14f8dc9661a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd7e847432365bae79f88a3acf278c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a4cd7e847432365bae79f88a3acf278c7">toAdmin</a> (std::string table=&quot;&quot;, std::string index=&quot;&quot;)</td></tr>
+<tr class="memdesc:a4cd7e847432365bae79f88a3acf278c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreate administration.  <a href="#a4cd7e847432365bae79f88a3acf278c7">More...</a><br /></td></tr>
+<tr class="separator:a4cd7e847432365bae79f88a3acf278c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a996c5a2b6f77944776856f08ec30858d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a996c5a2b6f77944776856f08ec30858d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the window to connect to the database.  <a href="#a996c5a2b6f77944776856f08ec30858d">More...</a><br /></td></tr>
+<tr class="separator:a996c5a2b6f77944776856f08ec30858d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae98d00a93bc118200eeef9f9bba1dba7">~MainWindow</a> ()</td></tr>
+<tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ed49cc57a01562288f4be1e665f450"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a74ed49cc57a01562288f4be1e665f450">createAddingWidgets</a> (std::string table, std::map&lt; std::string, std::string &gt; col, size_t index)</td></tr>
+<tr class="memdesc:a74ed49cc57a01562288f4be1e665f450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the widgets for adding some informations.  <a href="#a74ed49cc57a01562288f4be1e665f450">More...</a><br /></td></tr>
+<tr class="separator:a74ed49cc57a01562288f4be1e665f450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400129c80a43e87a9777a06f919060f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a400129c80a43e87a9777a06f919060f7">createWidgetsLabels</a> (std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::vector&lt; std::string &gt; &amp;out)</td></tr>
+<tr class="memdesc:a400129c80a43e87a9777a06f919060f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the labels for the adding widgets.  <a href="#a400129c80a43e87a9777a06f919060f7">More...</a><br /></td></tr>
+<tr class="separator:a400129c80a43e87a9777a06f919060f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db4ef4db3e407746616115fce25c199"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a6db4ef4db3e407746616115fce25c199">fillWidgets</a> (std::string table, std::map&lt; std::string, std::string &gt; col, size_t index, std::string lineId)</td></tr>
+<tr class="memdesc:a6db4ef4db3e407746616115fce25c199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the widgets for an update information.  <a href="#a6db4ef4db3e407746616115fce25c199">More...</a><br /></td></tr>
+<tr class="separator:a6db4ef4db3e407746616115fce25c199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abc9f5971cf1748fae12a5acf641ecd1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#abc9f5971cf1748fae12a5acf641ecd1d">drawBackground</a> (QPixmap *cache)</td></tr>
+<tr class="memdesc:abc9f5971cf1748fae12a5acf641ecd1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the drawBackground function.  <a href="#abc9f5971cf1748fae12a5acf641ecd1d">More...</a><br /></td></tr>
+<tr class="separator:abc9f5971cf1748fae12a5acf641ecd1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ab18fed76eb54bda4508dc9be4b64b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a78ab18fed76eb54bda4508dc9be4b64b">createConnectWidgets</a> ()</td></tr>
+<tr class="memdesc:a78ab18fed76eb54bda4508dc9be4b64b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create all the connection's widgets.  <a href="#a78ab18fed76eb54bda4508dc9be4b64b">More...</a><br /></td></tr>
+<tr class="separator:a78ab18fed76eb54bda4508dc9be4b64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a5cfeb89a38b9225a3b3964e6d688ba60">initConnectWidgets</a> ()</td></tr>
+<tr class="memdesc:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all the connection's widgets.  <a href="#a5cfeb89a38b9225a3b3964e6d688ba60">More...</a><br /></td></tr>
+<tr class="separator:a5cfeb89a38b9225a3b3964e6d688ba60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da75111decb2a68a08c06dec6796d8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9da75111decb2a68a08c06dec6796d8a">setContentConnectWidgets</a> ()</td></tr>
+<tr class="memdesc:a9da75111decb2a68a08c06dec6796d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the add for these widgets.  <a href="#a9da75111decb2a68a08c06dec6796d8a">More...</a><br /></td></tr>
+<tr class="separator:a9da75111decb2a68a08c06dec6796d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6ca3020e583fffe727258905c15629"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aad6ca3020e583fffe727258905c15629">useConnectWidgets</a> ()</td></tr>
+<tr class="memdesc:aad6ca3020e583fffe727258905c15629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show only the connection's widgets.  <a href="#aad6ca3020e583fffe727258905c15629">More...</a><br /></td></tr>
+<tr class="separator:aad6ca3020e583fffe727258905c15629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a70aa06cbac136bf2ce8bee98b9bebd27">verifyConnection</a> ()</td></tr>
+<tr class="memdesc:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify the connection to the database.  <a href="#a70aa06cbac136bf2ce8bee98b9bebd27">More...</a><br /></td></tr>
+<tr class="separator:a70aa06cbac136bf2ce8bee98b9bebd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2364ae069aba1f220ac4cd2fecaf4d6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a2364ae069aba1f220ac4cd2fecaf4d6c">createAdminWidgets</a> ()</td></tr>
+<tr class="memdesc:a2364ae069aba1f220ac4cd2fecaf4d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create and initialize the widgets for the administration.  <a href="#a2364ae069aba1f220ac4cd2fecaf4d6c">More...</a><br /></td></tr>
+<tr class="separator:a2364ae069aba1f220ac4cd2fecaf4d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0aca5335b2f075de2cdbf0fe9c33645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#af0aca5335b2f075de2cdbf0fe9c33645">setContentAdminWidgets</a> ()</td></tr>
+<tr class="memdesc:af0aca5335b2f075de2cdbf0fe9c33645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the add for these widgets.  <a href="#af0aca5335b2f075de2cdbf0fe9c33645">More...</a><br /></td></tr>
+<tr class="separator:af0aca5335b2f075de2cdbf0fe9c33645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5cd67fa4d5e5aace91a9c98cc8feec7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">useAdminWidgets</a> ()</td></tr>
+<tr class="memdesc:ac5cd67fa4d5e5aace91a9c98cc8feec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the layout to print the administration's widgets.  <a href="#ac5cd67fa4d5e5aace91a9c98cc8feec7">More...</a><br /></td></tr>
+<tr class="separator:ac5cd67fa4d5e5aace91a9c98cc8feec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd48a422f88143ea6c66b0c71c55eb08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#afd48a422f88143ea6c66b0c71c55eb08">adminWidgets</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:afd48a422f88143ea6c66b0c71c55eb08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls to createAdminWidgets, setContentAdminWidgets and useAdminWidgets.  <a href="#afd48a422f88143ea6c66b0c71c55eb08">More...</a><br /></td></tr>
+<tr class="separator:afd48a422f88143ea6c66b0c71c55eb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5abc1edc939a854d3da3bec4e95c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aae5abc1edc939a854d3da3bec4e95c9a">deleteAll</a> ()</td></tr>
+<tr class="memdesc:aae5abc1edc939a854d3da3bec4e95c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do all the deletions.  <a href="#aae5abc1edc939a854d3da3bec4e95c9a">More...</a><br /></td></tr>
+<tr class="separator:aae5abc1edc939a854d3da3bec4e95c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9685223f3a3fecce767e877bbc344ca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae9685223f3a3fecce767e877bbc344ca">getCheckedChoices</a> ()</td></tr>
+<tr class="memdesc:ae9685223f3a3fecce767e877bbc344ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array that contains the choices.  <a href="#ae9685223f3a3fecce767e877bbc344ca">More...</a><br /></td></tr>
+<tr class="separator:ae9685223f3a3fecce767e877bbc344ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf97603f986be8d9d79252512949fb30"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#abf97603f986be8d9d79252512949fb30">createWidgetsLabel</a> (std::map&lt; std::string, std::string &gt; col, std::string index)</td></tr>
+<tr class="memdesc:abf97603f986be8d9d79252512949fb30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the label for a widget depending on the bdd type.  <a href="#abf97603f986be8d9d79252512949fb30">More...</a><br /></td></tr>
+<tr class="separator:abf97603f986be8d9d79252512949fb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09110d257b762db4f2be34235d8465f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ab09110d257b762db4f2be34235d8465f">putAccents</a> (std::string &amp;text)</td></tr>
+<tr class="memdesc:ab09110d257b762db4f2be34235d8465f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put the accents for all the texts that need it.  <a href="#ab09110d257b762db4f2be34235d8465f">More...</a><br /></td></tr>
+<tr class="separator:ab09110d257b762db4f2be34235d8465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb2d8d3bff2599bef550d68a4d11925"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9eb2d8d3bff2599bef550d68a4d11925">createValues</a> (std::string table, std::vector&lt; std::string &gt; &amp;values)</td></tr>
+<tr class="memdesc:a9eb2d8d3bff2599bef550d68a4d11925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the values' table for an update ask.  <a href="#a9eb2d8d3bff2599bef550d68a4d11925">More...</a><br /></td></tr>
+<tr class="separator:a9eb2d8d3bff2599bef550d68a4d11925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The window that is shown. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dd4/a00013_source.php#l00022">22</a> of file <a class="el" href="../../d7/dd4/a00013_source.php">MainWindow.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a996c5a2b6f77944776856f08ec30858d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::MainWindow </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create the window to connect to the database. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae98d00a93bc118200eeef9f9bba1dba7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MainWindow::~MainWindow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4c5997d915dc5101e208682364723048"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addEntry </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Allow to add an entry to the bdd. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9b236786067bb4d825a3c6717bf96b47"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::addingWidgets </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Show all the widgets for adding something. </p>
+
+</div>
+</div>
+<a class="anchor" id="afd48a422f88143ea6c66b0c71c55eb08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::adminWidgets </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calls to createAdminWidgets, setContentAdminWidgets and useAdminWidgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="acfdbadec2420e7862c53e511332992cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::changeActive </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the active state of a value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a430b81b3bb84b8561b4e63fe76e28c39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::connections </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try and verify the connection. </p>
+
+</div>
+</div>
+<a class="anchor" id="a74ed49cc57a01562288f4be1e665f450"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createAddingWidgets </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::string, std::string &gt;&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create the widgets for adding some informations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>The column infos </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the column in the database </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2364ae069aba1f220ac4cd2fecaf4d6c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createAdminWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create and initialize the widgets for the administration. </p>
+
+</div>
+</div>
+<a class="anchor" id="a78ab18fed76eb54bda4508dc9be4b64b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createConnectWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create all the connection's widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9eb2d8d3bff2599bef550d68a4d11925"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createValues </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the values' table for an update ask. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to read </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">values</td><td>The values to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abf97603f986be8d9d79252512949fb30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MainWindow::createWidgetsLabel </td>
+          <td>(</td>
+          <td class="paramtype">std::map&lt; std::string, std::string &gt;&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the label for a widget depending on the bdd type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>The column for typping </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the column </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a400129c80a43e87a9777a06f919060f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createWidgetsLabels </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::string, std::string &gt;&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create the labels for the adding widgets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>The column infos </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the column in the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">out</td><td>An array to put the labels </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aae5abc1edc939a854d3da3bec4e95c9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::deleteAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do all the deletions. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac44a72386cf26dcc86f108aed760ddf0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::deleteEntry </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delete an entry in the bdd. </p>
+
+</div>
+</div>
+<a class="anchor" id="abc9f5971cf1748fae12a5acf641ecd1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::drawBackground </td>
+          <td>(</td>
+          <td class="paramtype">QPixmap *&#160;</td>
+          <td class="paramname"><em>cache</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the drawBackground function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cache</td><td>The cache Pixmap containning the window size </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6db4ef4db3e407746616115fce25c199"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::fillWidgets </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; std::string, std::string &gt;&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>lineId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill the widgets for an update information. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>The column infos </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the column in the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lineId</td><td>The id of the line </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae9685223f3a3fecce767e877bbc344ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;std::string, std::string&gt; &gt; MainWindow::getCheckedChoices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return an array that contains the choices. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5cfeb89a38b9225a3b3964e6d688ba60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::initConnectWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize all the connection's widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab09110d257b762db4f2be34235d8465f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::putAccents </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Put the accents for all the texts that need it. </p>
+
+</div>
+</div>
+<a class="anchor" id="a542a7527ced73b2c9bc14f8dc9661a66"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::quit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Quit the application. </p>
+
+</div>
+</div>
+<a class="anchor" id="af0aca5335b2f075de2cdbf0fe9c33645"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setContentAdminWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do all the add for these widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9da75111decb2a68a08c06dec6796d8a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setContentConnectWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do all the add for these widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4cd7e847432365bae79f88a3acf278c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::toAdmin </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recreate administration. </p>
+
+</div>
+</div>
+<a class="anchor" id="a675227b9f43a0a590d2446b074053943"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updateEntry </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update an entry in the bdd. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9e7ab1ecbd6fbece432bb5cd2c7f35f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updEntry </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update an entry in the bdd. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac5cd67fa4d5e5aace91a9c98cc8feec7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::useAdminWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the layout to print the administration's widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="aad6ca3020e583fffe727258905c15629"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::useConnectWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Show only the connection's widgets. </p>
+
+</div>
+</div>
+<a class="anchor" id="a70aa06cbac136bf2ce8bee98b9bebd27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::verifyConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify the connection to the database. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d7/dd4/a00013_source.php">MainWindow.h</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

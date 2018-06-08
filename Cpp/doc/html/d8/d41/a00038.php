@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Args.hpp File Reference</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,10 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d8/d41/a00038.php','../../');});
+$(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,94 +105,25 @@ $(document).ready(function(){initNavTree('d8/d41/a00038.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Args.hpp File Reference</div>  </div>
+<div class="title">PushButton Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;map&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/de7/a00039_source.php">array.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for Args.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/d63/a00082.png" border="0" usemap="#Args_8hpp" alt=""/></div>
-<map name="Args_8hpp" id="Args_8hpp">
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="473,80,553,107"/>
-<area shape="rect" id="node5" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="293,229,384,256"/>
-<area shape="rect" id="node17" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="749,155,821,181"/>
-<area shape="rect" id="node21" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="553,229,629,256"/>
-<area shape="rect" id="node4" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="397,155,489,181"/>
-<area shape="rect" id="node14" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="458,229,529,256"/>
-<area shape="rect" id="node11" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="653,229,731,256"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d1f/a00083.png" border="0" usemap="#Args_8hppdep" alt=""/></div>
-<map name="Args_8hppdep" id="Args_8hppdep">
-<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="603,80,693,107"/>
-<area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="464,155,579,181"/>
-<area shape="rect" id="node8" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="546,677,619,704"/>
-<area shape="rect" id="node15" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="686,304,783,331"/>
-<area shape="rect" id="node4" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,229,201,256"/>
-<area shape="rect" id="node7" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="267,528,357,555"/>
-<area shape="rect" id="node14" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="525,229,611,256"/>
-<area shape="rect" id="node5" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,379,102,405"/>
-<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,304,123,331"/>
-<area shape="rect" id="node11" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="220,379,311,405"/>
-<area shape="rect" id="node6" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
-<area shape="rect" id="node9" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="475,603,559,629"/>
-<area shape="rect" id="node12" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,453,325,480"/>
-<area shape="rect" id="node13" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,453,458,480"/>
-</map>
-</div>
-</div>
-<p><a href="../../d8/d41/a00038_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php">Arguments</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage the arguments.  <a href="../../d0/d0b/a00004.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ada59c388a54132792188bb23541d03c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d0b/a00004.php">Arguments</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d41/a00038.php#ada59c388a54132792188bb23541d03c1">arguments</a></td></tr>
-<tr class="memdesc:ada59c388a54132792188bb23541d03c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global arguments variable to save and keep some arguments.  <a href="#ada59c388a54132792188bb23541d03c1">More...</a><br /></td></tr>
-<tr class="separator:ada59c388a54132792188bb23541d03c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d8/d41/a00038_source.php">Args.hpp</a>.</p>
-</div><h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ada59c388a54132792188bb23541d03c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d0b/a00004.php">Arguments</a> arguments</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A global arguments variable to save and keep some arguments. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../de/d21/a00006.php">PushButton</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a31bbce7532c03921c218f54465afcaef">click</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a138a6609129997496311c00ed4e1acb0">getIndex</a>() const </td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a>() const </td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d8/d41/a00038.php">Args.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

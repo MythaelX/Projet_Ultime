@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['list',['list',['../d1/d7c/a00003.php#a487aa0a5ee1a53eddfa78ea676d3ff2b',1,'functions.hpp']]],
-  ['listask',['listAsk',['../d1/d7c/a00003.php#a0820a14dbb5072c112cf32466c8fc6c3',1,'functions.hpp']]],
-  ['listcategory',['listCategory',['../d1/d7c/a00003.php#af3143ec2b5319c969adf991c009373f0',1,'functions.hpp']]],
-  ['listdifficulty',['listDifficulty',['../d1/d7c/a00003.php#ad63ee67279e62ee5eaf73bb188ba0b4a',1,'functions.hpp']]],
-  ['listgame',['listGame',['../d1/d7c/a00003.php#a1caf2a7a9b33c712063314f6bac74470',1,'functions.hpp']]],
-  ['listpoints',['listPoints',['../d1/d7c/a00003.php#af34790c4f5c0c4ad30d069fa2766559c',1,'functions.hpp']]],
-  ['listquestion',['listQuestion',['../d1/d7c/a00003.php#a887113739bafac257bbd35996edfeb81',1,'functions.hpp']]],
-  ['listusers',['listUsers',['../d1/d7c/a00003.php#aa43b53615192bcce310fc51944bf217b',1,'functions.hpp']]]
+  ['getcheckedchoices',['getCheckedChoices',['../de/d21/a00006.php#ae9685223f3a3fecce767e877bbc344ca',1,'MainWindow']]],
+  ['getindex',['getIndex',['../d8/d84/a00001.php#a087c4b9b8bcc8d631756e53a5c795efb',1,'CheckBox::getIndex()'],['../de/d5e/a00007.php#a138a6609129997496311c00ed4e1acb0',1,'PushButton::getIndex()']]],
+  ['gettable',['getTable',['../d8/d84/a00001.php#a8750f3494181edef39fda4e23e13a0cb',1,'CheckBox::getTable()'],['../de/d5e/a00007.php#ad597238fb9396a94b1caa014c79f8c2e',1,'PushButton::getTable()']]],
+  ['greenpushbutton',['GreenPushButton',['../d1/d7c/a00003.php',1,'GreenPushButton'],['../d1/d7c/a00003.php#a240ce96b934a47803ffa02b23c9e9271',1,'GreenPushButton::GreenPushButton()']]],
+  ['greypushbutton',['GreyPushButton',['../d0/d0b/a00004.php',1,'GreyPushButton'],['../d0/d0b/a00004.php#a8981df8ffdff12611eba021ac0fa2939',1,'GreyPushButton::GreyPushButton()']]]
 ];

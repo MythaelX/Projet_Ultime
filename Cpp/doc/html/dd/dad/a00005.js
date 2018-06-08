@@ -1,25 +1,4 @@
 var a00005 =
 [
-    [ "BDD", "dd/dad/a00005.php#aed1a6117c471a7575a224321eaf0dba2", null ],
-    [ "~BDD", "dd/dad/a00005.php#a865c7d7590e1c3f227346b1045713099", null ],
-    [ "connect", "dd/dad/a00005.php#ad1c844ddb0d47a2f698942b640853274", null ],
-    [ "debug", "dd/dad/a00005.php#a280bf2b854a6a0e3a573fbd7c96c84c2", null ],
-    [ "exists", "dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b", null ],
-    [ "formatBdd", "dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07", null ],
-    [ "formatConditions", "dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821", null ],
-    [ "formatValues", "dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942", null ],
-    [ "getColumns", "dd/dad/a00005.php#a498e375deb333279886dd91cf389c986", null ],
-    [ "getCount", "dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e", null ],
-    [ "insert", "dd/dad/a00005.php#a059c72982d8075a1e0fcc175461b1430", null ],
-    [ "lastId", "dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac", null ],
-    [ "list", "dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354", null ],
-    [ "query", "dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c", null ],
-    [ "remove", "dd/dad/a00005.php#afc6583ca28c79b36ac1919eacd60b8b5", null ],
-    [ "reset", "dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9", null ],
-    [ "setDatabase", "dd/dad/a00005.php#a786ee3b78b40472d4a547263a2e583fa", null ],
-    [ "setTable", "dd/dad/a00005.php#afd2408212ec7516e6f6234395bb4b48e", null ],
-    [ "try_connect", "dd/dad/a00005.php#a1e496e66cfaf5dc0209f448480bead5e", null ],
-    [ "try_database", "dd/dad/a00005.php#afa848f628b17ea10115c828e1f97ba5b", null ],
-    [ "undebug", "dd/dad/a00005.php#a962782dc60b83f30a7ec387e0747178d", null ],
-    [ "update", "dd/dad/a00005.php#a9635488b6707d5dd16c669c9ca967716", null ]
+    [ "H2TitleLabel", "dd/dad/a00005.php#a63831a9a77053bc8389e5036712218bf", null ]
 ];

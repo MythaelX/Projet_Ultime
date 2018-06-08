@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['object',['Object',['../d3/d52/a00023.php',1,'Object'],['../d3/d52/a00023.php#ada4a84669e44b3ba65ac1d7be027dc73',1,'Object::Object()']]],
-  ['object_2ehpp',['Object.hpp',['../d4/de8/a00061.php',1,'']]],
-  ['operator_28_29',['operator()',['../db/db2/a00020.php#a0e13e5d2b98097934fe860a2245f45c2',1,'Map::operator()(const size_t &amp;i, const size_t &amp;j)'],['../db/db2/a00020.php#a787fa114db8b1925f2c00619088be05d',1,'Map::operator()(const size_t &amp;i, const size_t &amp;j) const '],['../d5/d79/a00030.php#ac81b86f2d95f99cb5e2f778592d6fd3a',1,'RNG::operator()()']]],
-  ['operator_3c_3c',['operator&lt;&lt;',['../da/da0/a00009.php#a84513fec989f2f817d2b1c5e6989450e',1,'Color::operator&lt;&lt;()'],['../d4/dee/a00008.php#abfeeaf1c236f7e094382544f1ffb888b',1,'Cls::operator&lt;&lt;()'],['../da/d45/a00011.php#a763a20bdd6cf99e565f2516d1c4bb161',1,'Contraption::operator&lt;&lt;()']]],
-  ['operator_5b_5d',['operator[]',['../d0/d0b/a00004.php#a2758413e36333940451ed0bf8c902706',1,'Arguments']]]
+  ['setcontentadminwidgets',['setContentAdminWidgets',['../de/d21/a00006.php#af0aca5335b2f075de2cdbf0fe9c33645',1,'MainWindow']]],
+  ['setcontentconnectwidgets',['setContentConnectWidgets',['../de/d21/a00006.php#a9da75111decb2a68a08c06dec6796d8a',1,'MainWindow']]],
+  ['setindex',['setIndex',['../d8/d84/a00001.php#af473fc46af7d680963e7aca100aae1f3',1,'CheckBox::setIndex()'],['../de/d5e/a00007.php#a9deef0b896e8f06dcf727f52441df445',1,'PushButton::setIndex()']]],
+  ['settable',['setTable',['../d8/d84/a00001.php#ad24f0483b08b440dad2d4569be54a1ff',1,'CheckBox::setTable()'],['../de/d5e/a00007.php#a9b4855b32fc3e96e6d0ca35a212aba5f',1,'PushButton::setTable()']]],
+  ['settext',['setText',['../d7/d46/a00002.php#a71fa68c918f499cf0882f10e163653b7',1,'Dialog']]],
+  ['statechanged',['stateChanged',['../d8/d84/a00001.php#a2a8d7c87f758badc4fcb643519e7d78a',1,'CheckBox']]]
 ];

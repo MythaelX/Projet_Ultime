@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Crypto Class Reference</title>
+<title>Hot Dog QUIZ: MainWindow.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,10 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,10 +69,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -108,89 +104,45 @@ $(document).ready(function(){initNavTree('d7/dd4/a00013.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d1/d0d/a00171.php">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Crypto Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">MainWindow.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A class to be the parent for every crypt class.  
- <a href="../../d7/dd4/a00013.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d3/dea/a00046_source.php">cryptage.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Crypto:</div>
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d86/a00012_source.php">functions.hpp</a>&quot;</code><br />
+<code>#include &quot;Widgets/Qt.hpp&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d45/a00011_source.php">Dialog.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d1b/a00015_source.php">TitleLabel.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for MainWindow.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/dfb/a00172.png" border="0" usemap="#Crypto_inherit__map" alt="Inheritance graph"/></div>
-<map name="Crypto_inherit__map" id="Crypto_inherit__map">
-<area shape="rect" id="node2" href="../../de/d21/a00006.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,80,63,107"/>
-<area shape="rect" id="node3" href="../../df/d61/a00031.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
+<div class="center"><img src="../../d7/de0/a00022.png" border="0" usemap="#MainWindow_8h" alt=""/></div>
+<map name="MainWindow_8h" id="MainWindow_8h">
+<area shape="rect" id="node3" href="../../df/d86/a00012.php" title="functions.hpp" alt="" coords="5959,80,6059,107"/>
+<area shape="rect" id="node6" href="../../d7/dec/a00010.php" title="CheckBox.hpp" alt="" coords="655,80,763,107"/>
+<area shape="rect" id="node7" href="../../da/d45/a00011.php" title="Dialog.hpp" alt="" coords="2926,80,3010,107"/>
+<area shape="rect" id="node8" href="../../d2/de7/a00014.php" title="PushButton.hpp" alt="" coords="44,169,159,196"/>
+<area shape="rect" id="node9" href="../../dd/d1b/a00015.php" title="TitleLabel.hpp" alt="" coords="5767,169,5870,196"/>
 </map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+</div>
+</div>
+<p><a href="../../d7/dd4/a00013_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:abc5714d83e17c9961258646a94e75079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a> ()</td></tr>
-<tr class="separator:abc5714d83e17c9961258646a94e75079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d99d39d43cf53d9b18a00bec7a8132"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">crypt</a> ()=0</td></tr>
-<tr class="separator:a76d99d39d43cf53d9b18a00bec7a8132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php">MainWindow</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The window that is shown.  <a href="../../de/d21/a00006.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to be the parent for every crypt class. </p>
-
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00017">17</a> of file <a class="el" href="../../d3/dea/a00046_source.php">cryptage.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abc5714d83e17c9961258646a94e75079"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Crypto::Crypto </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a76d99d39d43cf53d9b18a00bec7a8132"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Crypto::crypt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Pur virtual function to disallow you to use the class alone </p><pre class="fragment">\return     void</pre> 
-<p>Implemented in <a class="el" href="../../df/d61/a00031.php#ab84588271f2e5417d47251be249951b4">RSA</a>, and <a class="el" href="../../de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/dea/a00046_source.php">cryptage.hpp</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/dd4/a00013.php">Crypto</a></li>
+    <li class="navelem"><a class="el" href="../../d7/dd4/a00013.php">MainWindow.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

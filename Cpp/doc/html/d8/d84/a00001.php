@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Todo List</title>
+<title>Hot Dog QUIZ: CheckBox Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -47,8 +47,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -66,6 +65,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -98,19 +105,291 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/d33/a00027.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Todo List </div>  </div>
+<div class="title">CheckBox Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="../../d7/d46/a00002.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow::verifyConnection</a>  ()</dt>
-<dd></dd>
+
+<p>An implementation of QCheckBox for the software.  
+ <a href="../../d8/d84/a00001.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for CheckBox:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d3c/a00028.png" border="0" usemap="#CheckBox_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for CheckBox:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d16/a00029.png" border="0" usemap="#CheckBox_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a2d303cb0c794df8e046e6ee38b7b2be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a2d303cb0c794df8e046e6ee38b7b2be0">changeActive</a> (int state)</td></tr>
+<tr class="memdesc:a2d303cb0c794df8e046e6ee38b7b2be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a2d303cb0c794df8e046e6ee38b7b2be0">More...</a><br /></td></tr>
+<tr class="separator:a2d303cb0c794df8e046e6ee38b7b2be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a2a8d7c87f758badc4fcb643519e7d78a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a2a8d7c87f758badc4fcb643519e7d78a">stateChanged</a> (int state, std::string table, std::string index)</td></tr>
+<tr class="memdesc:a2a8d7c87f758badc4fcb643519e7d78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the stateChanged signal.  <a href="#a2a8d7c87f758badc4fcb643519e7d78a">More...</a><br /></td></tr>
+<tr class="separator:a2a8d7c87f758badc4fcb643519e7d78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:afe6e081ee7a25541ffcebb2063181b3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:afe6e081ee7a25541ffcebb2063181b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QCheckBox.  <a href="#afe6e081ee7a25541ffcebb2063181b3d">More...</a><br /></td></tr>
+<tr class="separator:afe6e081ee7a25541ffcebb2063181b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24f0483b08b440dad2d4569be54a1ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#ad24f0483b08b440dad2d4569be54a1ff">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:ad24f0483b08b440dad2d4569be54a1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the checkbox.  <a href="#ad24f0483b08b440dad2d4569be54a1ff">More...</a><br /></td></tr>
+<tr class="separator:ad24f0483b08b440dad2d4569be54a1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af473fc46af7d680963e7aca100aae1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#af473fc46af7d680963e7aca100aae1f3">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:af473fc46af7d680963e7aca100aae1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the checkbox.  <a href="#af473fc46af7d680963e7aca100aae1f3">More...</a><br /></td></tr>
+<tr class="separator:af473fc46af7d680963e7aca100aae1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8750f3494181edef39fda4e23e13a0cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a8750f3494181edef39fda4e23e13a0cb">getTable</a> () const </td></tr>
+<tr class="memdesc:a8750f3494181edef39fda4e23e13a0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the table.  <a href="#a8750f3494181edef39fda4e23e13a0cb">More...</a><br /></td></tr>
+<tr class="separator:a8750f3494181edef39fda4e23e13a0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a087c4b9b8bcc8d631756e53a5c795efb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a087c4b9b8bcc8d631756e53a5c795efb">getIndex</a> () const </td></tr>
+<tr class="memdesc:a087c4b9b8bcc8d631756e53a5c795efb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index.  <a href="#a087c4b9b8bcc8d631756e53a5c795efb">More...</a><br /></td></tr>
+<tr class="separator:a087c4b9b8bcc8d631756e53a5c795efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An implementation of QCheckBox for the software. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00017">17</a> of file <a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="afe6e081ee7a25541ffcebb2063181b3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CheckBox::CheckBox </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a QCheckBox. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a2d303cb0c794df8e046e6ee38b7b2be0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckBox::changeActive </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the active state of a value. </p>
+
+</div>
+</div>
+<a class="anchor" id="a087c4b9b8bcc8d631756e53a5c795efb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string CheckBox::getIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the index. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00031">31</a> of file <a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d84/a00001_a087c4b9b8bcc8d631756e53a5c795efb_cgraph.png" border="0" usemap="#d8/d84/a00001_a087c4b9b8bcc8d631756e53a5c795efb_cgraph" alt=""/></div>
+<map name="d8/d84/a00001_a087c4b9b8bcc8d631756e53a5c795efb_cgraph" id="d8/d84/a00001_a087c4b9b8bcc8d631756e53a5c795efb_cgraph">
+<area shape="rect" id="node2" href="../../d8/d84/a00001.php#a2d303cb0c794df8e046e6ee38b7b2be0" title="Change the active state of a value. " alt="" coords="195,5,365,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8750f3494181edef39fda4e23e13a0cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string CheckBox::getTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the table. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00029">29</a> of file <a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af473fc46af7d680963e7aca100aae1f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckBox::setIndex </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the index linked to the checkbox. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00026">26</a> of file <a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad24f0483b08b440dad2d4569be54a1ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckBox::setTable </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the table linked to the checkbox. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00024">24</a> of file <a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a8d7c87f758badc4fcb643519e7d78a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CheckBox::stateChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the stateChanged signal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>The new state of the checkbox </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table linked </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index linked</td></tr>
+  </table>
+  </dd>
 </dl>
-</div></div><!-- contents -->
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d7/dec/a00010_source.php">CheckBox.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../d8/d84/a00001.php">CheckBox</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['initadminwidgets',['initAdminWidgets',['../d7/d46/a00002.php#a601d88aa6fbda83575e07d7dc9e19a15',1,'MainWindow']]],
-  ['initconnectdialog',['initConnectDialog',['../d7/d46/a00002.php#a79d1533b5cbbc9040c5d78c9dfb29d38',1,'MainWindow']]],
-  ['initconnectwidgets',['initConnectWidgets',['../d7/d46/a00002.php#a5cfeb89a38b9225a3b3964e6d688ba60',1,'MainWindow']]]
+  ['fillwidgets',['fillWidgets',['../de/d21/a00006.php#a6db4ef4db3e407746616115fce25c199',1,'MainWindow']]],
+  ['formatcolumn',['formatColumn',['../df/d86/a00012.php#a7b4f7ad736a4c60a7dbb5009193df31d',1,'functions.hpp']]],
+  ['functions_2ehpp',['functions.hpp',['../df/d86/a00012.php',1,'']]]
 ];
