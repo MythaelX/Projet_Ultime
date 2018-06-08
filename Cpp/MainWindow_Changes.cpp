@@ -90,6 +90,8 @@ void MainWindow::updateEntry(std::string table, size_t index){
 
 	/* Modifications des différents widgets */
 		labels["name2"]->setText("Modifications");
+		tableButtons["ajouter"]->setText("Valider");
+
 		disconnect(tableButtons["ajouter"], SIGNAL(clicked(std::string, size_t)), this, SLOT(addEntry(std::string, size_t)));
 		connect(tableButtons["ajouter"], SIGNAL(clicked(std::string, size_t)), this, SLOT(updEntry(std::string, size_t)));
 
