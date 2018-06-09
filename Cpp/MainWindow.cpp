@@ -7,12 +7,13 @@ MainWindow::MainWindow(QWidget* parent) :
 	imgPath("res/img/background.png")
 {
 	this->enableResize(false);
+	this->setSize(612, 612);
 	this->showTitlebar(false);
-	this->setMargin(100, 75, 70, 65);
+	this->setMargin(120, 85, 80, 75);
 
 	closeBtnSize = 25;
-	closeBtnX = this->width() - 110;
-	closeBtnY = 80;
+	closeBtnX = this->width() - 130;
+	closeBtnY = 90;
 
 	/* Creation of the objects */
 		center = new QWidget;
@@ -101,6 +102,10 @@ void MainWindow::putAccents(std::string& text){
 	replacements["difficulte"] = "difficulté";
 	replacements["Password"] = "Mot de passe";
 	replacements["password"] = "mot de passe";
+	replacements["Solution un"] = "Un";
+	replacements["solution un"] = "un";
+	replacements["Solution deux"] = "Deux";
+	replacements["solution deux"] = "deux";
 
 	for(auto& item : replacements){
 		if(text == item.first){
