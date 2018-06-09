@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quit',['quit',['../de/d21/a00006.php#a542a7527ced73b2c9bc14f8dc9661a66',1,'MainWindow']]]
+  ['redpushbutton',['RedPushButton',['../d4/dee/a00008.php',1,'RedPushButton'],['../d4/dee/a00008.php#a7ee2968a62200e85c85da783c41afedc',1,'RedPushButton::RedPushButton()']]]
 ];

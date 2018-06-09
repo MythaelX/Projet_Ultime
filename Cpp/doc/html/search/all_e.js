@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['titlelabel',['TitleLabel',['../da/da0/a00009.php',1,'TitleLabel'],['../da/da0/a00009.php#aa3088caa93da248b64c58d77141c5d94',1,'TitleLabel::TitleLabel()']]],
-  ['titlelabel_2ehpp',['TitleLabel.hpp',['../dd/d1b/a00015.php',1,'']]],
-  ['toadmin',['toAdmin',['../de/d21/a00006.php#a4cd7e847432365bae79f88a3acf278c7',1,'MainWindow']]]
+  ['updateentry',['updateEntry',['../de/d21/a00006.php#a675227b9f43a0a590d2446b074053943',1,'MainWindow']]],
+  ['updentry',['updEntry',['../de/d21/a00006.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7',1,'MainWindow']]],
+  ['useadminwidgets',['useAdminWidgets',['../de/d21/a00006.php#ac5cd67fa4d5e5aace91a9c98cc8feec7',1,'MainWindow']]],
+  ['useconnectwidgets',['useConnectWidgets',['../de/d21/a00006.php#aad6ca3020e583fffe727258905c15629',1,'MainWindow']]]
 ];

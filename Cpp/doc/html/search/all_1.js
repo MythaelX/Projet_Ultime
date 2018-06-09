@@ -9,6 +9,7 @@ var searchData=
   ['createaddingwidgets',['createAddingWidgets',['../de/d21/a00006.php#a74ed49cc57a01562288f4be1e665f450',1,'MainWindow']]],
   ['createadminwidgets',['createAdminWidgets',['../de/d21/a00006.php#a2364ae069aba1f220ac4cd2fecaf4d6c',1,'MainWindow']]],
   ['createconnectwidgets',['createConnectWidgets',['../de/d21/a00006.php#a78ab18fed76eb54bda4508dc9be4b64b',1,'MainWindow']]],
+  ['creategame',['createGame',['../df/d86/a00012.php#ada892294d2dfe805cc181fbbbf443396',1,'functions.hpp']]],
   ['createvalues',['createValues',['../de/d21/a00006.php#a9eb2d8d3bff2599bef550d68a4d11925',1,'MainWindow']]],
   ['createwidgetslabel',['createWidgetsLabel',['../de/d21/a00006.php#abf97603f986be8d9d79252512949fb30',1,'MainWindow']]],
   ['createwidgetslabels',['createWidgetsLabels',['../de/d21/a00006.php#a400129c80a43e87a9777a06f919060f7',1,'MainWindow']]]
