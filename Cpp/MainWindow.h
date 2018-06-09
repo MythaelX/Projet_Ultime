@@ -1,7 +1,7 @@
 /*!
 * \file MainWindow.hpp
 * \author Mathias CABIOCH-DELALANDE
-* \date 07 juin 2018
+* \date 09 juin 2018
 */
 #ifndef HEADER_MAINWINDOW
 #define HEADER_MAINWINDOW
@@ -163,6 +163,7 @@ class MainWindow : public Window {
 		std::map<std::string, WindowButton*> closes;
 		std::map<std::string, QComboBox*> combos;
 		std::map<std::string, TableWidget*> tLayouts;
+		std::map<std::string, QSpinBox*> spins;
 
 		Dialog* messageBox;
 		QWidget* center;

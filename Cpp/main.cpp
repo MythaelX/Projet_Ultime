@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
 	QApplication app(argc, argv);
 	MainWindow w;
 
+	bdd.setFatal(false);
 	w.show();
 
 	return app.exec();

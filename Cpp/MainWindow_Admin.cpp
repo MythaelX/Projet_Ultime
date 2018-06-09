@@ -51,6 +51,17 @@ void MainWindow::createAdminWidgets(){
 
 						colIndex++;
 					}
+
+					if(table.find("categorie") != std::string::npos){
+						std::string labelIndex = "label quantity";
+						labels[labelIndex] = new QLabel;
+
+						std::string labelText = "Nb questions";
+						this->putAccents(labelText);
+						labels[labelIndex]->setText(QString::fromUtf8(labelText.c_str()));
+
+						tLayouts[mapColIndex]->addHeader(labels[labelIndex]);
+					}
 				/***********/
 
 				/* Choices */
@@ -160,10 +171,21 @@ void MainWindow::createAdminWidgets(){
 								std::string labelIndex = "label " + tos(index) + " " + tos(i);
 								labels[labelIndex] = new QLabel;
 
-								labels[labelIndex]->setText(lineContent.c_str());
+								labels[labelIndex]->setText(QString::fromStdString(lineContent));
 
 								tLayouts[mapColIndex]->add(labels[labelIndex]);
 							}
+						}
+
+						if(table.find("categorie") != std::string::npos){
+							auto quantity = bdd.getCount("question", "WHERE id_categorie = " + tableLine[0]);
+
+							std::string labelIndex = "label " + tos(index) + " quantity";
+							labels[labelIndex] = new QLabel;
+
+							labels[labelIndex]->setText(tos(quantity).c_str());
+
+							tLayouts[mapColIndex]->add(labels[labelIndex]);
 						}
 
 						index++;
@@ -254,6 +276,8 @@ std::string MainWindow::createWidgetsLabel(std::map<std::string, std::string> co
 	if(col["name"].find("id_") != std::string::npos){
 		std::string otherTable = replace(col["name"], "id_", "");
 		return "combos str " + otherTable;
+	} else if(col["numeric"] == "1"){
+		return "spin " + index;
 	} else {
 		return "line " + index;
 	}
@@ -322,6 +346,10 @@ void MainWindow::createAddingWidgets(std::string table,
 		}
 
 		hLayouts[layoutIndex]->addWidget(combos[usefull]);
+	} else if(col["numeric"] == "1"){
+		spins[usefull] = new QSpinBox;
+		spins[usefull]->setRange(0, 100);
+		hLayouts[layoutIndex]->addWidget(spins[usefull]);
 	} else {
 		lines[usefull] = new QLineEdit;
 		hLayouts[layoutIndex]->addWidget(lines[usefull]);
@@ -359,7 +387,11 @@ void MainWindow::fillWidgets(std::string table,
 		combos[label]->setCurrentIndex(comboIndex);
 	} else if(label.find("line ") != std::string::npos){
 		lines[label]->setText(value.c_str());
-	} else {}
+	} else if(label.find("spin ") != std::string::npos){
+		spins[label]->setValue(toi(value));
+	} else if(label == ""){} else {
+		info_log(line_number, __FILE__, "You have to add something here for label '", label, "'");
+	}
 
 	tableButtons["ajouter"]->setIndex(lineId);
 }
@@ -375,8 +407,12 @@ void MainWindow::createValues(std::string table, std::vector<std::string>& value
 
 			values.push_back(combos["combos int " + strIndex]->itemText(index).toStdString());
 		} else if(label.find("line ") != std::string::npos){
-			values.push_back(lines[label]->text().toStdString());
-		} else {}
+			values.push_back(replace(lines[label]->text().toStdString(), ", ", "\\, "));
+		} else if(label.find("spin ") != std::string::npos){
+			values.push_back(tos(spins[label]->value()));
+		} else if(label == ""){} else {
+			info_log(line_number, __FILE__, "You have to add something here for label '", label, "'");
+		}
 	}
 }
 

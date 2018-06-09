@@ -552,8 +552,8 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -596,8 +596,8 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -656,8 +656,8 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -715,8 +715,8 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -763,8 +763,8 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -806,8 +806,8 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -850,8 +850,8 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -918,8 +918,8 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -961,8 +961,8 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -997,8 +997,8 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1050,8 +1050,8 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1103,8 +1103,8 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1156,8 +1156,8 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1209,8 +1209,8 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1269,8 +1269,8 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -1320,8 +1320,8 @@ Font.o: Widgets/Font.cpp Widgets/Font.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
@@ -1359,8 +1359,8 @@ QtFunctions.o: Widgets/QtFunctions.cpp Widgets/QtFunctions.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o QtFunctions.o Widgets/QtFunctions.cpp
 
@@ -1388,8 +1388,8 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
@@ -1435,8 +1435,8 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1480,8 +1480,8 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1525,8 +1525,8 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1568,8 +1568,8 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1612,8 +1612,8 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1656,8 +1656,8 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1700,8 +1700,8 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1744,8 +1744,8 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1786,8 +1786,8 @@ Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1810,8 +1810,8 @@ Ant.o: Widgets/C++/Ant.cpp Widgets/C++/Ant.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -1841,7 +1841,8 @@ bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
-		Widgets/C++/array.hpp
+		Widgets/C++/array.hpp \
+		Widgets/C++/RNG.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bdd.o Widgets/C++/bdd.cpp
 
 Clock.o: Widgets/C++/Clock.cpp Widgets/C++/time.hpp
@@ -1869,8 +1870,8 @@ Contraption.o: Widgets/C++/Contraption.cpp Widgets/C++/Contraption.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -1892,8 +1893,8 @@ cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cryptage.o Widgets/C++/cryptage.cpp
 
@@ -1909,8 +1910,8 @@ defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o defines.o Widgets/C++/defines.cpp
 
@@ -1928,8 +1929,8 @@ Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -1961,8 +1962,8 @@ Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -1996,8 +1997,8 @@ Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -2017,8 +2018,8 @@ Object.o: Widgets/C++/Object.cpp Widgets/C++/Object.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -2040,8 +2041,8 @@ Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp
@@ -2062,8 +2063,8 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp \
@@ -2080,7 +2081,8 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 string.o: Widgets/C++/string.cpp Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/convert.hpp \
-		Widgets/C++/array.hpp
+		Widgets/C++/array.hpp \
+		Widgets/C++/RNG.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o string.o Widgets/C++/string.cpp
 
 time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp
@@ -2107,8 +2109,8 @@ Vegetal.o: Widgets/C++/Vegetal.cpp Widgets/C++/Vegetal.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/Args.hpp \
 		Widgets/C++/RNG.hpp \
+		Widgets/C++/Args.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/Map.hpp

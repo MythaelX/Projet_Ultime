@@ -122,9 +122,32 @@ void MainWindow::addEntry(std::string table, std::string){
 			values.push_back(combos["combos int " + strIndex]->itemText(index).toStdString());
 		} else if(label.find("line ") != std::string::npos){
 			values.push_back(lines[label]->text().toStdString());
-		} else {}
+		} else if(label.find("spin ") != std::string::npos){
+			values.push_back(tos(spins[label]->value()));
+		} else if(label == ""){} else {
+			info_log(line_number, __FILE__, "You have to add something here for label '", label, "'");
+		}
 	}
 
-	bdd.insert(implode(values, ", "), "", table);
+	if(table.find("partie") != std::string::npos){
+		if(!createGame(values)){
+			messageBox->setText("UNE ERREUR EST SURVENUE\nIMPOSSIBLE DE CRÉER LA PARTIE\nVEUILLEZ RÉESSAYER");
+			messageBox->exec();
+		}
+	} else {
+		std::string command = "";
+
+		for(auto value : values){
+			if(command != ""){ command += ", "; }
+			command += replace(value, ", ", "\\, ");
+		}
+
+		auto back = bdd.insert(command, "", table);
+
+		if(back == 0){
+			messageBox->setText("UNE ERREUR EST SURVENUE\nVEUILLEZ RÉESSAYER");
+			messageBox->exec();
+		}
+	}
 	this->toAdmin(table);
 }

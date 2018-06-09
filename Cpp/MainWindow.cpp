@@ -69,6 +69,9 @@ void MainWindow::deleteAll(){
 	for(auto& item : combos){
 		deletePtr(item.second);
 	}
+	for(auto& item : spins){
+		deletePtr(item.second);
+	}
 	deletePtr(hLayouts["connect container"]);
 	deletePtr(hLayouts["admin container"]);
 	deletePtr(vLayouts["adding layout"]);
