@@ -18,7 +18,7 @@ class DrawScene : public Scene {
 	Q_OBJECT
 	public:
 		/*! \brief	Create the DrawScene */
-		DrawScene(QObject* parent = NULL);
+		DrawScene(QObject* parent = nullptr);
 		~DrawScene();
 
 		/*!

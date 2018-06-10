@@ -1,5 +1,64 @@
 <?php
 	/*!
+	*	\mainpage	My own PHP Features
+	*		\par	Objects
+	*					- Bdd
+	*					- Contact
+	*					- Head_Creator
+	*					- Mail
+	*					- Paypal
+	*					- Scraper (TODO)
+	*		\par	Functions
+	*					- print_all()
+	*					- createId()
+	*					- replace_all()
+	*					- deleteMapIndex()
+	*					- deleteIndex()
+	*					- deleteFirst()
+	*					- deleteLast()
+	*					- typeValue_array()
+	*					- get_in_array()
+	*					- it_exists()
+	*					- error_log_array()
+	*
+	*					- dateSql()
+	*					- sqlDate()
+	*
+	*					- setError()
+	*					- badRequest()
+	*					- unauthorized()
+	*					- forbidden()
+	*					- notFound()
+	*					- laugth()
+	*					- serverError()
+	*					- notImplemented()
+	*					- badGateway()
+	*					- unavailable()
+	*					- error()
+	*
+	*					- createDir()
+	*					- deleteFile()
+	*					- saveFileTo()
+	*					- get_all_in()
+	*					- get_all_files_in()
+	*					- get_all_folders_in()
+	*
+	*					- nextRes()
+	*					- resNumber()
+	*
+	*					- get_site_name()
+	*					- is_this_active()
+	*
+	*					- createZip()
+	*					- pushZip()
+	*		\par	Some structures & defines
+	*					- $_PUT (Created on a \b PUT request)
+	*					- $_DELETE (Created on a \b DELETE request)
+	*
+	*	\date		10 juin 2018
+	*	\author		Mathias CABIOCH-DELALANDE
+	*/
+	/*!
 	*
 	*	\file		_functions.php
 	*	\author		Mathias CABIOCH-DELALANDE

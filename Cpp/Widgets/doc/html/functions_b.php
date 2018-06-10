@@ -151,22 +151,22 @@ $(document).ready(function(){initNavTree('functions_b.php','');});
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>BDD()
-: <a class="el" href="dd/dad/a00005.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a>
+: <a class="el" href="de/d21/a00006.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a>
 </li>
 <li>BUTTON_CLOSE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
 </li>
 <li>BUTTON_MAXIMIZE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
 </li>
 <li>BUTTON_MINIMIZE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
 </li>
 <li>ButtonState
-: <a class="el" href="d8/d41/a00038.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
 </li>
 <li>ButtonType
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
 </li>
 </ul>
 </div><!-- contents -->

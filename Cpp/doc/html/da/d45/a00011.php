@@ -113,9 +113,18 @@ $(document).ready(function(){initNavTree('da/d45/a00011.php','../../');});
 <code>#include &quot;<a class="el" href="../../d2/de7/a00014_source.php">PushButton.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d1b/a00015_source.php">TitleLabel.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
+Include dependency graph for Dialog.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019.png" border="0" usemap="#Dialog_8hpp" alt=""/></div>
+<map name="Dialog_8hpp" id="Dialog_8hpp">
+<area shape="rect" id="node3" href="../../d2/de7/a00014.php" title="PushButton.hpp" alt="" coords="38,80,153,107"/>
+<area shape="rect" id="node4" href="../../dd/d1b/a00015.php" title="TitleLabel.hpp" alt="" coords="177,80,280,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/da2/a00019.png" border="0" usemap="#Dialog_8hppdep" alt=""/></div>
+<div class="center"><img src="../../db/db2/a00020.png" border="0" usemap="#Dialog_8hppdep" alt=""/></div>
 <map name="Dialog_8hppdep" id="Dialog_8hppdep">
 <area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
 </map>

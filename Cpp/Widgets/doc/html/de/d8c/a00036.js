@@ -1,6 +1,7 @@
 var a00036 =
 [
-    [ "Widget", "de/d8c/a00036.php#ace1aa23652eb4425355a81760b39fd37", null ],
-    [ "~Widget", "de/d8c/a00036.php#a714cf798aadb4d615f6f60a355382c02", null ],
-    [ "paintEvent", "de/d8c/a00036.php#af755e8891f462562c88c37735345a798", null ]
+    [ "Vegetal", "de/d8c/a00036.php#ac9d1bee0742cb45180637db1bed06294", null ],
+    [ "~Vegetal", "de/d8c/a00036.php#ae273444c873c7f3be7f38b6f60156a4c", null ],
+    [ "cut", "de/d8c/a00036.php#a4ea0ad75fb2add027996b1653a4751f4", null ],
+    [ "printInfos", "de/d8c/a00036.php#ac3ac9ca3d977facf17953da4c853f37f", null ]
 ];

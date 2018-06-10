@@ -4,16 +4,16 @@
 *	\author		Mathias CABIOCH-DELALANDE
 *	\date		09 juin 2018
 *
-*	\details	At page onload, add a map of France where you can choose a region\n
-*				The choosen region is in the url of the path\n
-*				Attributes ;\n
-*					\b id = map \n
-*					\b path \n
-*					\b plain-color \n
-*					\b line-color \n
-*					\b hover-plain-color \n
-*					\b hover-line-color \n
-*					\b scale \n
+*	\details	- At page onload, add a map of France where you can choose a region\n
+*				- The choosen region is in the url of the path\n
+*				- Attributes ;\n
+*					- \b id = map \n
+*					- \b path \n
+*					- \b plain-color \n
+*					- \b line-color \n
+*					- \b hover-plain-color \n
+*					- \b hover-line-color \n
+*					- \b scale \n
 *
 */
 'use strict';

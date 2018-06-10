@@ -1,18 +1,26 @@
 var a00039 =
 [
-    [ "WindowTitleBar", "d3/de7/a00039.php#acbc4eaf9b9265fe9ac013aeba5e80e76", null ],
-    [ "~WindowTitleBar", "d3/de7/a00039.php#a8fa4e86180d7e76a04f68b864b5a8c3a", null ],
-    [ "ApplyResizeChange", "d3/de7/a00039.php#a91ce1aab8c3ed4a14554a1ddc32a87f1", null ],
-    [ "ApplyTitleBarState", "d3/de7/a00039.php#a4def0f2b659a07381fe8abaedd90e303", null ],
-    [ "drawButtonsArea", "d3/de7/a00039.php#a2929d886be76951491d9bb53a6e1ce9e", null ],
-    [ "drawTitleBar", "d3/de7/a00039.php#a51c99fb3d787abe8bc647145272981f0", null ],
-    [ "Maximized", "d3/de7/a00039.php#a7d91818e1ef1189dc5c0524729a62e34", null ],
-    [ "Minimized", "d3/de7/a00039.php#aae235853885d03ddd070efb8fef2f4e1", null ],
-    [ "mouseMoveEvent", "d3/de7/a00039.php#a5fa1f19401f127094ba42152928892a1", null ],
-    [ "mousePressEvent", "d3/de7/a00039.php#a50b62b3569bb0e173904117cb875d157", null ],
-    [ "mouseReleaseEvent", "d3/de7/a00039.php#a5c3e48aa0d5bc65f2958b3037a0e1587", null ],
-    [ "paintEvent", "d3/de7/a00039.php#a43be58f98c5d53bce63cd96999e7c71a", null ],
-    [ "Quit", "d3/de7/a00039.php#a1604ff5ed446b01e08dbb4d05be48f63", null ],
-    [ "resizeEvent", "d3/de7/a00039.php#aade75345fb7a4b62c361345c64884a82", null ],
-    [ "UpdateWindowTitle", "d3/de7/a00039.php#a5a96b7bd195f625fc4ffb6c7fe180709", null ]
+    [ "ButtonState", "d3/de7/a00039.php#a52e7cf1fa9d4c97891ac0080c65dd57e", [
+      [ "STATE_NORMAL", "d3/de7/a00039.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97", null ],
+      [ "STATE_HOVERED", "d3/de7/a00039.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e", null ],
+      [ "STATE_CLICKED", "d3/de7/a00039.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7", null ]
+    ] ],
+    [ "ButtonType", "d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084b", [
+      [ "BUTTON_MINIMIZE", "d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d", null ],
+      [ "BUTTON_MAXIMIZE", "d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0", null ],
+      [ "BUTTON_CLOSE", "d3/de7/a00039.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74", null ]
+    ] ],
+    [ "WindowButton", "d3/de7/a00039.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0", null ],
+    [ "~WindowButton", "d3/de7/a00039.php#af6a0e6f87bae8c50d9d2e57b371a548a", null ],
+    [ "enterEvent", "d3/de7/a00039.php#aab556dedddbb1c9832f572b747449055", null ],
+    [ "leaveEvent", "d3/de7/a00039.php#a8a89e083618d2f239a60bf5adb7c79a2", null ],
+    [ "mousePressEvent", "d3/de7/a00039.php#af7caa976fc5766ddc3d89eef1965a9c6", null ],
+    [ "mouseReleaseEvent", "d3/de7/a00039.php#afd414539e6cf2fc7072a175032a6f1ff", null ],
+    [ "paintEvent", "d3/de7/a00039.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11", null ],
+    [ "resizeEvent", "d3/de7/a00039.php#a2dd52661908250a571804fe967bcd316", null ],
+    [ "setBackground", "d3/de7/a00039.php#ac7b9d8d3e328e0285ef4664e20acb8d3", null ],
+    [ "setClickedColor", "d3/de7/a00039.php#a7a087338372f7592853b050d168df152", null ],
+    [ "setGradient", "d3/de7/a00039.php#a434a8192bfe4dea8c7b4e1b052a1a943", null ],
+    [ "setHoveredColor", "d3/de7/a00039.php#a6947ea55943b909c1d492ad2f79ae1f8", null ],
+    [ "setNormalColor", "d3/de7/a00039.php#a4babac31336534efca737c5f73710c1d", null ]
 ];

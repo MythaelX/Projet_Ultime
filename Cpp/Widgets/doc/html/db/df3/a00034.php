@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Timer Class Reference</title>
+<title>Qt: TableWidget Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,48 +110,123 @@ $(document).ready(function(){initNavTree('db/df3/a00034.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d6/d08/a00244.php">List of all members</a>  </div>
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../d2/dc8/a00242.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Timer Class Reference</div>  </div>
+<div class="title">TableWidget Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A timer to do something at the end.  
+<p>Create a personnalized <a class="el" href="../../db/df3/a00034.php" title="Create a personnalized TableWidget. ">TableWidget</a>.  
  <a href="../../db/df3/a00034.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d9/da4/a00078_source.php">TableWidget.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for TableWidget:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d82/a00243.png" border="0" usemap="#TableWidget_inherit__map" alt="Inheritance graph"/></div>
+<map name="TableWidget_inherit__map" id="TableWidget_inherit__map">
+<area shape="rect" id="node2" href="../../d1/dc6/a00037.php" title="Create a personnalized Widget. " alt="" coords="21,80,84,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for TableWidget:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d08/a00244.png" border="0" usemap="#TableWidget_coll__map" alt="Collaboration graph"/></div>
+<map name="TableWidget_coll__map" id="TableWidget_coll__map">
+<area shape="rect" id="node2" href="../../d1/dc6/a00037.php" title="Create a personnalized Widget. " alt="" coords="21,80,84,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f16e8da27d2a5a5242dead46de05d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a> ()</td></tr>
-<tr class="separator:a5f16e8da27d2a5a5242dead46de05d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56cf495a8c9da8907efe755a550c734c"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a56cf495a8c9da8907efe755a550c734c">getStart</a> () const </td></tr>
-<tr class="separator:a56cf495a8c9da8907efe755a550c734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a29af58bc18e1644230c747afb35ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a18a29af58bc18e1644230c747afb35ec">start</a> (int sec)</td></tr>
-<tr class="separator:a18a29af58bc18e1644230c747afb35ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8422d61fac8765b8789c8056bd38f2f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a8422d61fac8765b8789c8056bd38f2f3">restart</a> (int sec)</td></tr>
-<tr class="separator:a8422d61fac8765b8789c8056bd38f2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29e2c37c0e310779790537890c529f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a> (QWidget *parent=nullptr, size_t w=0, size_t h=0)</td></tr>
+<tr class="memdesc:aa29e2c37c0e310779790537890c529f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QGridLayout.  <a href="#aa29e2c37c0e310779790537890c529f2">More...</a><br /></td></tr>
+<tr class="separator:aa29e2c37c0e310779790537890c529f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb6edc429e21280d8f47faf6fe012fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a5fb6edc429e21280d8f47faf6fe012fa">~TableWidget</a> ()</td></tr>
+<tr class="separator:a5fb6edc429e21280d8f47faf6fe012fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9965d8f6b70b52fc8e25906a20d4a771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9965d8f6b70b52fc8e25906a20d4a771">addHeader</a> (QWidget *widget)</td></tr>
+<tr class="separator:a9965d8f6b70b52fc8e25906a20d4a771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59d73338e3d97bafc754ed798fd487f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a59d73338e3d97bafc754ed798fd487f6">addHeader</a> (QWidget *widget, size_t x)</td></tr>
+<tr class="separator:a59d73338e3d97bafc754ed798fd487f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bba3124cdbe518985157ff23b0b1d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a25bba3124cdbe518985157ff23b0b1d0">setHeader</a> (QWidget *widget, size_t x)</td></tr>
+<tr class="separator:a25bba3124cdbe518985157ff23b0b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe173d2bf4af78a34eea42f6015dfc24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#abe173d2bf4af78a34eea42f6015dfc24">add</a> (QWidget *widget)</td></tr>
+<tr class="memdesc:abe173d2bf4af78a34eea42f6015dfc24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a widget to the table.  <a href="#abe173d2bf4af78a34eea42f6015dfc24">More...</a><br /></td></tr>
+<tr class="separator:abe173d2bf4af78a34eea42f6015dfc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acce74e5071c06cb79eb9120e7ca321f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#acce74e5071c06cb79eb9120e7ca321f2">add</a> (QCheckBox *widget)</td></tr>
+<tr class="memdesc:acce74e5071c06cb79eb9120e7ca321f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a checkbox to the table.  <a href="#acce74e5071c06cb79eb9120e7ca321f2">More...</a><br /></td></tr>
+<tr class="separator:acce74e5071c06cb79eb9120e7ca321f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b038bcb974698aa762291d72cb52e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a89b038bcb974698aa762291d72cb52e3">add</a> (QWidget *widget, size_t x, size_t y)</td></tr>
+<tr class="memdesc:a89b038bcb974698aa762291d72cb52e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put a widget at the position <em>x/<em>y</em>.</em>  <a href="#a89b038bcb974698aa762291d72cb52e3">More...</a><br /></td></tr>
+<tr class="separator:a89b038bcb974698aa762291d72cb52e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b92f2d6e93627e3034f07a73138b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a38b92f2d6e93627e3034f07a73138b1e">set</a> (QWidget *widget, size_t x, size_t y)</td></tr>
+<tr class="memdesc:a38b92f2d6e93627e3034f07a73138b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace a widget at the position <em>x/<em>y</em>.</em>  <a href="#a38b92f2d6e93627e3034f07a73138b1e">More...</a><br /></td></tr>
+<tr class="separator:a38b92f2d6e93627e3034f07a73138b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec3251ece680a9da68c7e4adb1f6531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df3/a00034.php">TableWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a6ec3251ece680a9da68c7e4adb1f6531">get</a> (size_t w=0, size_t h=0)</td></tr>
+<tr class="memdesc:a6ec3251ece680a9da68c7e4adb1f6531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the grid layout address.  <a href="#a6ec3251ece680a9da68c7e4adb1f6531">More...</a><br /></td></tr>
+<tr class="separator:a6ec3251ece680a9da68c7e4adb1f6531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00037"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00037')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d1/dc6/a00037.php">Widget</a></td></tr>
+<tr class="memitem:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00037"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#ace1aa23652eb4425355a81760b39fd37">Widget</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QWidget.  <a href="#ace1aa23652eb4425355a81760b39fd37">More...</a><br /></td></tr>
+<tr class="separator:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714cf798aadb4d615f6f60a355382c02 inherit pub_methods_a00037"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a> ()</td></tr>
+<tr class="separator:a714cf798aadb4d615f6f60a355382c02 inherit pub_methods_a00037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">m_start</a></td></tr>
-<tr class="separator:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#ab3cd20a0909df03a384a09b1b8151d3e">started</a></td></tr>
-<tr class="separator:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8ee97e18b4afb72672b36ef2002537ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a8ee97e18b4afb72672b36ef2002537ae">update</a> ()</td></tr>
+<tr class="memdesc:a8ee97e18b4afb72672b36ef2002537ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the grid layout.  <a href="#a8ee97e18b4afb72672b36ef2002537ae">More...</a><br /></td></tr>
+<tr class="separator:a8ee97e18b4afb72672b36ef2002537ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00037"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00037')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d1/dc6/a00037.php">Widget</a></td></tr>
+<tr class="memitem:af755e8891f462562c88c37735345a798 inherit pro_methods_a00037"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#af755e8891f462562c88c37735345a798">paintEvent</a> (QPaintEvent *event)</td></tr>
+<tr class="separator:af755e8891f462562c88c37735345a798 inherit pro_methods_a00037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A timer to do something at the end. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000004">Todo:</a></b></dt><dd></dd></dl>
+<div class="textblock"><p>Create a personnalized <a class="el" href="../../db/df3/a00034.php" title="Create a personnalized TableWidget. ">TableWidget</a>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00066">66</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00018">18</a> of file <a class="el" href="../../d9/da4/a00078_source.php">TableWidget.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5f16e8da27d2a5a5242dead46de05d97"></a>
+<a class="anchor" id="aa29e2c37c0e310779790537890c529f2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Timer::Timer </td>
+          <td class="memname">TableWidget::TableWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>w</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a QGridLayout. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5fb6edc429e21280d8f47faf6fe012fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TableWidget::~TableWidget </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -162,7 +237,266 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a56cf495a8c9da8907efe755a550c734c"></a>
+<a class="anchor" id="abe173d2bf4af78a34eea42f6015dfc24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::add </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a widget to the table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acce74e5071c06cb79eb9120e7ca321f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::add </td>
+          <td>(</td>
+          <td class="paramtype">QCheckBox *&#160;</td>
+          <td class="paramname"><em>widget</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a checkbox to the table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The checkbox to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a89b038bcb974698aa762291d72cb52e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::add </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Put a widget at the position <em>x/<em>y</em>.</em> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position in the grid </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position in the grid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000007">Todo:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9965d8f6b70b52fc8e25906a20d4a771"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::addHeader </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a59d73338e3d97bafc754ed798fd487f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::addHeader </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position on the top of the grid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6ec3251ece680a9da68c7e4adb1f6531"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/df3/a00034.php">TableWidget</a>* TableWidget::get </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>w</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the grid layout address. </p>
+
+</div>
+</div>
+<a class="anchor" id="a38b92f2d6e93627e3034f07a73138b1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::set </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replace a widget at the position <em>x/<em>y</em>.</em> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position in the grid </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position in the grid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000008">Todo:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a25bba3124cdbe518985157ff23b0b1d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableWidget::setHeader </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>widget</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position on the top of the grid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000006">Todo:</a></b></dt><dd></dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8ee97e18b4afb72672b36ef2002537ae"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -170,76 +504,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::time_t Timer::getStart </td>
+          <td class="memname">void TableWidget::update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00072">72</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/df3/a00034_a56cf495a8c9da8907efe755a550c734c_cgraph.png" border="0" usemap="#db/df3/a00034_a56cf495a8c9da8907efe755a550c734c_cgraph" alt=""/></div>
-<map name="db/df3/a00034_a56cf495a8c9da8907efe755a550c734c_cgraph" id="db/df3/a00034_a56cf495a8c9da8907efe755a550c734c_cgraph">
-<area shape="rect" id="node2" href="../../de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c" title="Clock::start" alt="" coords="168,5,259,32"/>
-<area shape="rect" id="node3" href="../../de/d5e/a00007.php#a775bf97123b58c768571868341d28b08" title="Clock::restart" alt="" coords="163,56,264,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8422d61fac8765b8789c8056bd38f2f3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Timer::restart </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a18a29af58bc18e1644230c747afb35ec"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Timer::start </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a8fb741bf0ac74d067fcfcfafb2c8ab61"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t Timer::m_start</td>
         </tr>
       </table>
   </td>
@@ -249,41 +517,19 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00079">79</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab3cd20a0909df03a384a09b1b8151d3e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Timer::started</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00080">80</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
+<p>Update the grid layout. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a></li>
+<li><a class="el" href="../../d9/da4/a00078_source.php">TableWidget.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/df3/a00034.php">Timer</a></li>
+    <li class="navelem"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

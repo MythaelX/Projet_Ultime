@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: ConsoleCursor Class Reference</title>
+<title>Qt: Widget Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -109,89 +108,82 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d7/d6e/a00190.php">List of all members</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../d6/d2c/a00072.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ConsoleCursor Class Reference</div>  </div>
+<div class="title">Widget Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to play with the cursor in the console.  
+<p>Create a personnalized <a class="el" href="../../d7/dec/a00010.php" title="Create a personnalized Widget. ">Widget</a>.  
  <a href="../../d7/dec/a00010.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/d52/a00023_source.php">Widget.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Widget:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d6e/a00073.png" border="0" usemap="#Widget_inherit__map" alt="Inheritance graph"/></div>
+<map name="Widget_inherit__map" id="Widget_inherit__map">
+<area shape="rect" id="node3" href="../../da/da0/a00009.php" title="Create a personnalized TableWidget. " alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node4" href="../../da/d45/a00011.php" title="A custom window. " alt="" coords="125,155,194,181"/>
+<area shape="rect" id="node5" href="../../d7/dd4/a00013.php" title="The titlebar of the Window class. " alt="" coords="218,155,333,181"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Widget:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/db6/a00074.png" border="0" usemap="#Widget_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a007a2a8bda4e52a48930875f4ee8616e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a007a2a8bda4e52a48930875f4ee8616e"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a007a2a8bda4e52a48930875f4ee8616e">goTo</a> (T x, T y)</td></tr>
-<tr class="memdesc:a007a2a8bda4e52a48930875f4ee8616e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to an x/y position.  <a href="#a007a2a8bda4e52a48930875f4ee8616e">More...</a><br /></td></tr>
-<tr class="separator:a007a2a8bda4e52a48930875f4ee8616e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b03a811157d84449f3cf467c1f4758e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a3b03a811157d84449f3cf467c1f4758e">save</a> ()</td></tr>
-<tr class="memdesc:a3b03a811157d84449f3cf467c1f4758e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the actual cursor position.  <a href="#a3b03a811157d84449f3cf467c1f4758e">More...</a><br /></td></tr>
-<tr class="separator:a3b03a811157d84449f3cf467c1f4758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceee1a7bd3a4ff19cd06170c15048142"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142">restore</a> ()</td></tr>
-<tr class="memdesc:aceee1a7bd3a4ff19cd06170c15048142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the cursor's saved position.  <a href="#aceee1a7bd3a4ff19cd06170c15048142">More...</a><br /></td></tr>
-<tr class="separator:aceee1a7bd3a4ff19cd06170c15048142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a129aafa021f4f29239b8e014f426f15f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f">home</a> ()</td></tr>
-<tr class="memdesc:a129aafa021f4f29239b8e014f426f15f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for the restore member.  <a href="#a129aafa021f4f29239b8e014f426f15f">More...</a><br /></td></tr>
-<tr class="separator:a129aafa021f4f29239b8e014f426f15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ace1aa23652eb4425355a81760b39fd37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ace1aa23652eb4425355a81760b39fd37">Widget</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:ace1aa23652eb4425355a81760b39fd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QWidget.  <a href="#ace1aa23652eb4425355a81760b39fd37">More...</a><br /></td></tr>
+<tr class="separator:ace1aa23652eb4425355a81760b39fd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714cf798aadb4d615f6f60a355382c02"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a> ()</td></tr>
+<tr class="separator:a714cf798aadb4d615f6f60a355382c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a0ce51928b65b53bd72575e7138e3238c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a0ce51928b65b53bd72575e7138e3238c">paintEvent</a> (QPaintEvent *event)</td></tr>
+<tr class="memdesc:a0ce51928b65b53bd72575e7138e3238c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the paintEvent of QWidget to use stylesheets.  <a href="#a0ce51928b65b53bd72575e7138e3238c">More...</a><br /></td></tr>
+<tr class="separator:a0ce51928b65b53bd72575e7138e3238c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to play with the cursor in the console. </p>
-<p>This class allow you to move, save and restore the cursor position </p>
+<div class="textblock"><p>Create a personnalized <a class="el" href="../../d7/dec/a00010.php" title="Create a personnalized Widget. ">Widget</a>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00180">180</a> of file <a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a007a2a8bda4e52a48930875f4ee8616e"></a>
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00017">17</a> of file <a class="el" href="../../d3/d52/a00023_source.php">Widget.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ace1aa23652eb4425355a81760b39fd37"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ConsoleCursor::goTo </td>
+          <td class="memname">Widget::Widget </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Go to an x/y position. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Create a QWidget. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00190">190</a> of file <a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00021">21</a> of file <a class="el" href="../../d3/d52/a00023_source.php">Widget.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a129aafa021f4f29239b8e014f426f15f"></a>
+<a class="anchor" id="a714cf798aadb4d615f6f60a355382c02"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -199,7 +191,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ConsoleCursor::home </td>
+          <td class="memname">virtual Widget::~Widget </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -207,19 +199,27 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Alias for the restore member. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00022">22</a> of file <a class="el" href="../../d3/d52/a00023_source.php">Widget.hpp</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00213">213</a> of file <a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>.</p>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a714cf798aadb4d615f6f60a355382c02_cgraph.png" border="0" usemap="#d7/dec/a00010_a714cf798aadb4d615f6f60a355382c02_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a714cf798aadb4d615f6f60a355382c02_cgraph" id="d7/dec/a00010_a714cf798aadb4d615f6f60a355382c02_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a0ce51928b65b53bd72575e7138e3238c" title="Overload of the paintEvent of QWidget to use stylesheets. " alt="" coords="173,5,307,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="aceee1a7bd3a4ff19cd06170c15048142"></a>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0ce51928b65b53bd72575e7138e3238c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -227,59 +227,35 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void ConsoleCursor::restore </td>
+          <td class="memname">virtual void Widget::paintEvent </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Restore the cursor's saved position. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Overload of the paintEvent of QWidget to use stylesheets. </p>
 
-</div>
-</div>
-<a class="anchor" id="a3b03a811157d84449f3cf467c1f4758e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ConsoleCursor::save </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Save the actual cursor position. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Reimplemented in <a class="el" href="../../da/d45/a00011.php#a1b653d42eb4810a8c0be48dc65d98b3a">Window</a>, and <a class="el" href="../../d7/dd4/a00013.php#a43be58f98c5d53bce63cd96999e7c71a">WindowTitleBar</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a></li>
+<li><a class="el" href="../../d3/d52/a00023_source.php">Widget.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></li>
+    <li class="navelem"><a class="el" href="../../d7/dec/a00010.php">Widget</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,19 +1,4 @@
-<map id="Contraption.hpp" name="Contraption.hpp">
-<area shape="rect" id="node2" href="$dd/d32/a00041.php" title="defines.hpp" alt="" coords="1155,80,1245,107"/>
-<area shape="rect" id="node17" href="$d9/d73/a00060.php" title="types.hpp" alt="" coords="233,379,311,405"/>
-<area shape="rect" id="node44" href="$de/d8c/a00036.php" title="collides.hpp" alt="" coords="1625,80,1716,107"/>
-<area shape="rect" id="node45" href="$d4/dca/a00048.php" title="Map.hpp" alt="" coords="160,155,232,181"/>
-<area shape="rect" id="node9" href="$db/df3/a00034.php" title="bdd.hpp" alt="" coords="1122,155,1190,181"/>
-<area shape="rect" id="node22" href="$d3/de7/a00039.php" title="convert.hpp" alt="" coords="1451,379,1541,405"/>
-<area shape="rect" id="node27" href="$d6/d97/a00045.php" title="files.hpp" alt="" coords="79,304,150,331"/>
-<area shape="rect" id="node30" href="$d7/df7/a00058.php" title="time.hpp" alt="" coords="327,304,399,331"/>
-<area shape="rect" id="node33" href="$d1/dea/a00054.php" title="pointers.hpp" alt="" coords="1517,229,1611,256"/>
-<area shape="rect" id="node34" href="$d1/d22/a00057.php" title="string.hpp" alt="" coords="1655,304,1734,331"/>
-<area shape="rect" id="node38" href="$d4/d6d/a00055.php" title="RNG.hpp" alt="" coords="1904,379,1981,405"/>
-<area shape="rect" id="node40" href="$dc/d87/a00032.php" title="Args.hpp" alt="" coords="417,155,492,181"/>
-<area shape="rect" id="node42" href="$d2/dee/a00049.php" title="maths.hpp" alt="" coords="1943,155,2025,181"/>
-<area shape="rect" id="node20" href="$d5/df9/a00044.php" title="errors.hpp" alt="" coords="195,229,275,256"/>
-<area shape="rect" id="node37" href="$d0/dc0/a00033.php" title="array.hpp" alt="" coords="1198,379,1274,405"/>
-<area shape="rect" id="node21" href="$d1/dc6/a00037.php" title="console.hpp" alt="" coords="199,304,291,331"/>
-<area shape="rect" id="node36" href="$d6/d2d/a00047.php" title="macro.hpp" alt="" coords="1747,379,1829,405"/>
+<map id="console.hpp" name="console.hpp">
+<area shape="rect" id="node2" href="$db/d3a/a00040.php" title="convert.hpp" alt="" coords="219,80,309,107"/>
+<area shape="rect" id="node8" href="$d4/de8/a00061.php" title="types.hpp" alt="" coords="474,80,553,107"/>
 </map>

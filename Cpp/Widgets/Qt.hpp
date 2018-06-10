@@ -1,4 +1,32 @@
 /*!
+*	\mainpage	My own Qt Widgets & Features
+*		\par	Widgets
+*					- Widget
+*					- QHSpacerItem
+*					- QVSpacerItem
+*					- TableWidget
+*
+*					- Window
+*						- WindowTitleBar
+*							- WindowButton
+*		\par	Objects
+*					- DrawScene
+*					- GraphScene
+*					- Font
+*					- abstract Scene
+*		\par	Some structures & defines
+*					- QtWindow (A struct that contains \b w, \b h, \b angle attributes)
+*		\par	Functions
+*					- Font::load(QString)
+*					- getDesktopSize()
+*					- getDesktopWidth()
+*					- getDesktopHeight()
+*					- cssReader(std::string)
+*
+*	\date		10 juin 2018
+*	\author		Mathias CABIOCH-DELALANDE
+*/
+/*!
 *
 *	\file		Qt.hpp
 *	\author		Mathias CABIOCH-DELALANDE

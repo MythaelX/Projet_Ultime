@@ -3,12 +3,13 @@
 	*
 	*	\file		class-Paypal.php
 	*	\author		Mathias CABIOCH-DELALANDE
-	*	\date		07 juin 2018
+	*	\date		10 juin 2018
 	*
 	*/
 	/*!
-	* \class Paypal
-	* \brief A class to talk with the Paypal API
+	* \class	Paypal
+	* \brief	A class to talk with the Paypal API
+	* \todo		Recreate the API communication part
 	*/
 	class Paypal {
 		private $version;

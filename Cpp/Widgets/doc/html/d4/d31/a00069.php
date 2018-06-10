@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Qt.hpp File Reference</title>
+<title>Qt: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,8 +71,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -88,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d31/a00069.php','../../');});
+$(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -107,51 +108,31 @@ $(document).ready(function(){initNavTree('d4/d31/a00069.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Qt.hpp File Reference</div>  </div>
+<div class="title">TableWidget Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d2/db1/a00070_source.php">QtDefines.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d1f/a00083_source.php">Window.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d09/a00077_source.php">TableWidget.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for Qt.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#Qt_8hpp" alt=""/></div>
-<map name="Qt_8hpp" id="Qt_8hpp">
-<area shape="rect" id="node2" href="../../d2/db1/a00070.php" title="QtDefines.hpp" alt="" coords="4168,80,4274,107"/>
-<area shape="rect" id="node48" href="../../d2/d1f/a00083.php" title="Window.hpp" alt="" coords="4726,80,4820,107"/>
-<area shape="rect" id="node50" href="../../d1/d09/a00077.php" title="TableWidget.hpp" alt="" coords="4845,80,4965,107"/>
-<area shape="rect" id="node4" href="../../d4/d63/a00082.php" title="Widget.hpp" alt="" coords="4177,155,4265,181"/>
-<area shape="rect" id="node5" href="../../dc/dee/a00053.php" title="DrawScene.hpp" alt="" coords="3988,155,4102,181"/>
-<area shape="rect" id="node6" href="../../d1/d6e/a00073.php" title="Scene.hpp" alt="" coords="4108,244,4192,271"/>
-<area shape="rect" id="node8" href="../../d3/d8b/a00059.php" title="GraphScene.hpp" alt="" coords="3844,155,3963,181"/>
-<area shape="rect" id="node13" href="../../d9/da5/a00075.php" title="Spacers.hpp" alt="" coords="4432,155,4527,181"/>
-<area shape="rect" id="node14" href="../../d0/d89/a00071.php" title="QtFunctions.hpp" alt="" coords="4290,155,4408,181"/>
-<area shape="rect" id="node16" href="../../d7/df7/a00058.php" title="Font.hpp" alt="" coords="2092,155,2166,181"/>
-<area shape="rect" id="node49" href="../../df/d13/a00085.php" title="WindowTitleBar.hpp" alt="" coords="4704,155,4842,181"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d82/a00142.png" border="0" usemap="#Qt_8hppdep" alt=""/></div>
-<map name="Qt_8hppdep" id="Qt_8hppdep">
-<area shape="rect" id="node2" href="../../d1/d09/a00077.php" title="TableWidget.hpp" alt="" coords="5,80,125,107"/>
-</map>
-</div>
-</div>
-<p><a href="../../d4/d31/a00069_source.php">Go to the source code of this file.</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/d31/a00069_source.php">Qt.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../da/da0/a00009.php">TableWidget</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#abe173d2bf4af78a34eea42f6015dfc24">add</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#acce74e5071c06cb79eb9120e7ca321f2">add</a>(QCheckBox *widget)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a89b038bcb974698aa762291d72cb52e3">add</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a9965d8f6b70b52fc8e25906a20d4a771">addHeader</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a59d73338e3d97bafc754ed798fd487f6">addHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a6ec3251ece680a9da68c7e4adb1f6531">get</a>(size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a0ce51928b65b53bd72575e7138e3238c">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Widget</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a38b92f2d6e93627e3034f07a73138b1e">set</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a25bba3124cdbe518985157ff23b0b1d0">setHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>(QWidget *parent=nullptr, size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a8ee97e18b4afb72672b36ef2002537ae">update</a>()</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a5fb6edc429e21280d8f47faf6fe012fa">~TableWidget</a>()</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d4/d31/a00069.php">Qt.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

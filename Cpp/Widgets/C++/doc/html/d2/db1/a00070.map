@@ -1,3 +1,32 @@
-<map id="collides.hpp" name="collides.hpp">
-<area shape="rect" id="node2" href="$d2/dee/a00049.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
+<map id="C++.hpp" name="C++.hpp">
+<area shape="rect" id="node2" href="$d6/d42/a00043.php" title="Entities.hpp" alt="" coords="1377,155,1468,181"/>
+<area shape="rect" id="node4" href="$d5/db6/a00042.php" title="defines.hpp" alt="" coords="641,528,730,555"/>
+<area shape="rect" id="node14" href="$d4/de8/a00061.php" title="types.hpp" alt="" coords="1365,827,1443,853"/>
+<area shape="rect" id="node16" href="$d6/d97/a00045.php" title="errors.hpp" alt="" coords="1027,677,1107,704"/>
+<area shape="rect" id="node17" href="$d8/d41/a00038.php" title="console.hpp" alt="" coords="1134,752,1226,779"/>
+<area shape="rect" id="node18" href="$db/d3a/a00040.php" title="convert.hpp" alt="" coords="529,827,620,853"/>
+<area shape="rect" id="node23" href="$d3/dea/a00046.php" title="files.hpp" alt="" coords="1250,752,1321,779"/>
+<area shape="rect" id="node26" href="$d3/d8b/a00059.php" title="time.hpp" alt="" coords="57,752,129,779"/>
+<area shape="rect" id="node30" href="$d7/df7/a00058.php" title="string.hpp" alt="" coords="570,677,649,704"/>
+<area shape="rect" id="node32" href="$d4/dca/a00048.php" title="macro.hpp" alt="" coords="1027,752,1109,779"/>
+<area shape="rect" id="node33" href="$db/df3/a00034.php" title="array.hpp" alt="" coords="850,752,926,779"/>
+<area shape="rect" id="node36" href="$d5/de0/a00050.php" title="maths.hpp" alt="" coords="1893,603,1976,629"/>
+<area shape="rect" id="node38" href="$d1/dc6/a00037.php" title="collides.hpp" alt="" coords="1872,528,1963,555"/>
+<area shape="rect" id="node39" href="$d2/dee/a00049.php" title="Map.hpp" alt="" coords="1267,603,1339,629"/>
+<area shape="rect" id="node47" href="$d1/dea/a00054.php" title="Player.hpp" alt="" coords="1259,80,1343,107"/>
+<area shape="rect" id="node48" href="$dd/d32/a00041.php" title="cryptage.hpp" alt="" coords="755,379,853,405"/>
+<area shape="rect" id="node49" href="$d1/d22/a00057.php" title="sorting.hpp" alt="" coords="1519,827,1606,853"/>
+<area shape="rect" id="node50" href="$d9/d73/a00060.php" title="tree.hpp" alt="" coords="2037,155,2107,181"/>
+<area shape="rect" id="node3" href="$d3/de7/a00039.php" title="Contraption.hpp" alt="" coords="1559,453,1673,480"/>
+<area shape="rect" id="node40" href="$d1/d84/a00052.php" title="Object.hpp" alt="" coords="1712,304,1797,331"/>
+<area shape="rect" id="node41" href="$d5/df9/a00044.php" title="Entity.hpp" alt="" coords="1417,379,1498,405"/>
+<area shape="rect" id="node42" href="$df/d61/a00031.php" title="Animal.hpp" alt="" coords="1354,304,1441,331"/>
+<area shape="rect" id="node43" href="$dc/d87/a00032.php" title="Ant.hpp" alt="" coords="1293,229,1360,256"/>
+<area shape="rect" id="node44" href="$df/d03/a00062.php" title="Vegetal.hpp" alt="" coords="1472,304,1563,331"/>
+<area shape="rect" id="node45" href="$dc/dee/a00053.php" title="Plant.hpp" alt="" coords="1485,229,1563,256"/>
+<area shape="rect" id="node46" href="$d2/d79/a00051.php" title="Mushroom.hpp" alt="" coords="1587,229,1695,256"/>
+<area shape="rect" id="node11" href="$d4/d8c/a00035.php" title="bdd.hpp" alt="" coords="971,603,1039,629"/>
+<area shape="rect" id="node29" href="$d4/d6d/a00055.php" title="pointers.hpp" alt="" coords="1435,677,1528,704"/>
+<area shape="rect" id="node34" href="$d9/d2e/a00056.php" title="RNG.hpp" alt="" coords="207,752,284,779"/>
+<area shape="rect" id="node35" href="$d0/dc0/a00033.php" title="Args.hpp" alt="" coords="821,603,896,629"/>
 </map>

@@ -1,4 +1,37 @@
 /*!
+*	\mainpage	My own JS Features
+*		\par	Some classes & ids
+*					- score					(\b class)
+*						- width					(\b attributes)
+*						- height				(\b attributes)
+*						- min					(\b attributes)
+*						- max					(\b attributes)
+*						- note					(\b attributes)
+*						- degre					(\b attributes)
+*					- map					(\b id)
+*						- path					(\b attributes)
+*						- plain-color			(\b attributes)
+*						- line-color			(\b attributes)
+*						- hover-plain-color		(\b attributes)
+*						- hover-line-color		(\b attributes)
+*						- scale					(\b attributes)
+*					- gallery				(\b class)
+*					- tchat					(\b id)
+*						- human					(\b class)
+*						- bot					(\b class)
+*					- stars					(\b id)
+*					- shower				(\b class)
+*		\par	Functions
+*					- addOnload()
+*					- addOnresize()
+*					- ajaxRequest()
+*					- html_encode()
+*					- html_decode()
+*
+*	\date		10 juin 2018
+*	\author		Mathias CABIOCH-DELALANDE
+*/
+/*!
 *
 *	\file		_script.js
 *	\author		Mathias CABIOCH-DELALANDE
@@ -9,10 +42,8 @@
 
 /*!
 * \brief	Adding a css stylesheet to the page
-*		\param[in]		script				
-*		\param[in]		css					
-*
-*		\return			
+*		\param[in]		script				The script to get the path to the css
+*		\param[in]		css					The css filename
 */
 function addCss(script, css){
 	var link = document.createElement("link");
@@ -26,9 +57,9 @@ function addCss(script, css){
 
 /*!
 * \brief	Getting the path of the page with the path written in the script tag
-*		\param[in]		shape				
+*		\param[in]		shape				The shape of the path to search
 *
-*		\return			
+*		\return			Return the path finded
 */
 function getPath(shape){
 	var scripts = document.getElementsByTagName("script");
@@ -48,9 +79,9 @@ function getPath(shape){
 
 /*!
 * \brief	Creat a random string of the specified size
-*		\param[in]		nb					
+*		\param[in]		nb					The number of caracters
 *
-*		\return			
+*		\return			Return a random string
 */
 function randStr(nb){
 	var list = new Array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z","0","1","2","3","4","5","6","7","8","9", " ", "", ".", ",", "?", "!", ":", ";");
@@ -99,7 +130,7 @@ function randStr(nb){
 	* \brief	Get an element dimension
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the element height
 	*/
 	function getHeight(e){
 		var out = parseInt(e.clientHeight || e.offsetHeight);
@@ -109,7 +140,7 @@ function randStr(nb){
 	* \brief	Get an element dimension
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the element width
 	*/
 	function getWidth(e){
 		var out = parseInt(e.clientWidth || e.offsetWidth);
@@ -118,7 +149,7 @@ function randStr(nb){
 
 	/*!
 	* \brief	Get the principal struct dimension
-	*		\return			
+	*		\return			Return the total struct height
 	*/
 	function getStructHeight(){
 		var header = $("header");
@@ -149,7 +180,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the top position of an element
 	*/
 	function getTop(e){
 		var out = parseInt(e.clientTop || e.offsetTop);
@@ -159,7 +190,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the bottom position of an element
 	*/
 	function getBottom(e){
 		var out = parseInt(e.clientBottom || e.offsetBottom);
@@ -170,7 +201,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the left position of an element
 	*/
 	function getLeft(e){
 		var out = parseInt(e.clientLeft || e.offsetLeft);
@@ -180,7 +211,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the right position of an element
 	*/
 	function getRight(e){
 		var out = parseInt(e.clientRight || e.offsetRight);
@@ -193,7 +224,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element from the window
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the top position of an element from the window
 	*/
 	function onWindowTop(e){
 		if(!e){
@@ -205,7 +236,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element from the window
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the bottom position of an element from the window
 	*/
 	function onWindowBottom(e){
 		if(!e){
@@ -218,7 +249,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element from the window
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the left position of an element from the window
 	*/
 	function onWindowLeft(e){
 		if(!e){
@@ -230,7 +261,7 @@ function randStr(nb){
 	* \brief	Get the positions of an element from the window
 	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the right position of an element from the window
 	*/
 	function onWindowRight(e){
 		if(!e){
@@ -243,14 +274,14 @@ function randStr(nb){
 /* Function to verify the scroll position of an element */
 	/*!
 	* \brief	Function to verify the scroll position of an element
-	*		\return			
+	*		\return			Return the scroll top position
 	*/
 	function getScrollTop(){
 		return parseInt(document.documentElement.scrollTop || document.body.scrollTop);
 	}
 	/*!
 	* \brief	Function to verify the scroll position of an element
-	*		\return			
+	*		\return			Return the scroll left position
 	*/
 	function getScrollLeft(){
 		return parseInt(document.documentElement.scrollLeft || document.body.scrollLeft)
@@ -260,10 +291,8 @@ function randStr(nb){
 /* Function to simulate a scroll */
 	/*!
 	* \brief	Function to simulate a scroll
-	*		\param[in]		el
-	*		\param[in]		duration
-	*
-	*		\return			
+	*		\param[in]		el				The element to treat
+	*		\param[in]		duration		The time to go to the element
 	*/
 	function scrollTo(el, duration) {
 		var e = document.documentElement;
@@ -279,12 +308,10 @@ function randStr(nb){
 
 	/*!
 	* \brief	Function to simulate a scroll
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*
-	*		\return			
+	*		\param[in]		el				The element to treat
+	*		\param[in]		from			The start element
+	*		\param[in]		to				The end element
+	*		\param[in]		duration		The time to go to the element
 	*/
 	function scrollToC(el, from, to, duration) {
 		if (duration < 0) return;
@@ -296,15 +323,13 @@ function randStr(nb){
 
 	/*!
 	* \brief	Function to simulate a scroll
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*		\param[in]		
-	*
-	*		\return			
+	*		\param[in]		el				The element to treat
+	*		\param[in]		x1				The X position of the first element
+	*		\param[in]		x2				The X position of the second element
+	*		\param[in]		t				The new position
+	*		\param[in]		v				The speed to go to
+	*		\param[in]		step			The number of step to go to
+	*		\param[in]		operacion		The function to do the scroll animation
 	*/
 	function scrollToX(el, x1, x2, t, v, step, operacion) {
 		if (t < 0 || t > 1 || v <= 0) return;
@@ -319,9 +344,9 @@ function randStr(nb){
 
 	/*!
 	* \brief	An ease out animation
-	*		\param[in]		
+	*		\param[in]		t				The new position
 	*
-	*		\return			
+	*		\return			Return t^3 + 1
 	*/
 	function easeOutCuaic(t){
 		t--;
@@ -330,9 +355,9 @@ function randStr(nb){
 
 	/*!
 	* \brief	Get the offset of an element
-	*		\param[in]		
+	*		\param[in]		e				The element to treat
 	*
-	*		\return			
+	*		\return			Return the offset top of an element
 	*/
 	function getOffsetTop(e){
 		var pos = 0;
@@ -346,10 +371,8 @@ function randStr(nb){
 	}
 
 	/*!
-	* \brief	Function to simulate a scroll
-	*		\param[in]		
-	*
-	*		\return			
+	* \brief	Scroll to the end of something
+	*		\param[in]		el				The element to treat
 	*/
 	function scrollToEnd(el){
 		el.scrollTop = el.scrollHeight;
@@ -358,9 +381,9 @@ function randStr(nb){
 
 /*!
 * \brief	Function that create a struct object with as fields, the ones that were pass in argument
-*		\param[in]		
+*		\param[in]		fields				The fields to add to the struct
 *
-*		\return			
+*		\return			Return the constructor of the struct
 */
 function createStruct(fields) {
 	var fields = fields.split(' ');
@@ -377,7 +400,8 @@ function createStruct(fields) {
 
 /*!
 * \brief	Function to know if a variable exist
-*		\return			
+*		\param[in]		args				The variable to verify if it exists
+*		\return			\b true or \b false
 */
 function isset(){
 	var a = arguments;
@@ -392,9 +416,9 @@ function isset(){
 
 /*!
 * \brief	Function to cancel a link click
-*		\param[in]		
+*		\param[in]		e				The element to treat
 *
-*		\return			
+*		\return			\b false
 */
 function cancel(e){
 	if(e && e.stopPropagation && e.preventDefault) {
@@ -410,9 +434,9 @@ function cancel(e){
 
 /*!
 * \brief	Function to get the event caller
-*		\param[in]		
+*		\param[in]		e				The event to treat
 *
-*		\return			
+*		\return			Return the target of the event
 */
 function getEventElement(e){
 	return e.target;
@@ -420,9 +444,7 @@ function getEventElement(e){
 
 /*!
 * \brief	Function to set the active class to an element and erase it if it is on an other one brother element
-*		\param[in]		
-*
-*		\return			
+*		\param[in]		e				The element to treat
 */
 function setActive(e){
 	var p = e.parentElement;
@@ -456,10 +478,8 @@ function setActive(e){
 
 /*!
 * \brief	Function to set the id of an element
-*		\param[in]		
-*		\param[in]		
-*
-*		\return			
+*		\param[in]		e				The element to treat
+*		\param[in]		id				The id to set to the element
 */
 function setId(e, id){
 	if(isset(e) && isset(id)){
@@ -469,9 +489,8 @@ function setId(e, id){
 
 /*!
 * \brief	Function to copy the element text
-*		\param[in]		
-*
-*		\return			
+*		\param[in]		text				The text to copy to the clipboard
+* \todo
 */
 function copyToClipboard(text){
 	alert(text);
@@ -479,11 +498,11 @@ function copyToClipboard(text){
 
 /*!
 * \brief	Function that replace all occurences in a string
-*		\param[in]		
-*		\param[in]		
-*		\param[in]		
+*		\param[in]		from				The caracter to replace
+*		\param[in]		to					The caracter to use for the replacement
+*		\param[in]		str					The string in which to do the replacement
 *
-*		\return			
+*		\return			Return the replaced string
 */
 function replace_all(from, to, str){
 	return str.split(from).join(to);
@@ -495,9 +514,8 @@ function replace_all(from, to, str){
 
 	/*!
 	* \brief	Add a function to the onloadFunction array and save the arguments
-	*		\param[in]		
-	*
-	*		\return			
+	*		\param[in]		funct			The function to add
+	*		\param[in]		args			The arguments of the function
 	*/
 	function addOnload(funct){
 		var args = new Array;
@@ -528,9 +546,8 @@ function replace_all(from, to, str){
 
 	/*!
 	* \brief	Add a function to the onresizeFunction array and save the arguments
-	*		\param[in]		
-	*
-	*		\return			
+	*		\param[in]		funct			The function to add
+	*		\param[in]		args			The arguments of the function
 	*/
 	function addOnresize(funct){
 		var args = new Array;
@@ -557,9 +574,7 @@ function replace_all(from, to, str){
 
 /*!
 * \brief	Disable an element
-*		\param[in]		
-*
-*		\return			
+*		\param[in]		el				The element to treat
 */
 function disable(el){
 	if(isset(el)){
@@ -568,9 +583,7 @@ function disable(el){
 }
 /*!
 * \brief	Enable an element
-*		\param[in]		
-*
-*		\return			
+*		\param[in]		el				The element to treat
 */
 function enable(el){
 	if(isset(el)){
@@ -638,7 +651,7 @@ function enable(el){
 /**************************/
 
 /*!
-* \fn		$(selector)
+* \fn		selector()
 * \brief	Selector as in JQuery
 *		\param[in]		selector			The css selector of the wanted object
 */
@@ -646,7 +659,7 @@ var $ = function(selector){
 	return document.querySelector(selector);
 }
 
-/* Add an ease-out effect to scroll to a position where a link point to */
+/*! \brief	Add an ease-out effect to scroll to a position where a link point to */
 document.addEventListener('DOMContentLoaded', function() {
 	var links = document.querySelectorAll('a[href*="#"]');
 	for(var i = 0, len = links.length; i < len; ++i) {

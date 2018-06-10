@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -85,36 +84,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
       <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
-      <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li class="current"><a href="functions.php#index_a"><span>a</span></a></li>
-      <li><a href="functions_b.php#index_b"><span>b</span></a></li>
-      <li><a href="functions_c.php#index_c"><span>c</span></a></li>
-      <li><a href="functions_d.php#index_d"><span>d</span></a></li>
-      <li><a href="functions_e.php#index_e"><span>e</span></a></li>
-      <li><a href="functions_f.php#index_f"><span>f</span></a></li>
-      <li><a href="functions_g.php#index_g"><span>g</span></a></li>
-      <li><a href="functions_h.php#index_h"><span>h</span></a></li>
-      <li><a href="functions_i.php#index_i"><span>i</span></a></li>
-      <li><a href="functions_j.php#index_j"><span>j</span></a></li>
-      <li><a href="functions_l.php#index_l"><span>l</span></a></li>
-      <li><a href="functions_m.php#index_m"><span>m</span></a></li>
-      <li><a href="functions_o.php#index_o"><span>o</span></a></li>
-      <li><a href="functions_p.php#index_p"><span>p</span></a></li>
-      <li><a href="functions_q.php#index_q"><span>q</span></a></li>
-      <li><a href="functions_r.php#index_r"><span>r</span></a></li>
-      <li><a href="functions_s.php#index_s"><span>s</span></a></li>
-      <li><a href="functions_t.php#index_t"><span>t</span></a></li>
-      <li><a href="functions_u.php#index_u"><span>u</span></a></li>
-      <li><a href="functions_v.php#index_v"><span>v</span></a></li>
-      <li><a href="functions_w.php#index_w"><span>w</span></a></li>
-      <li><a href="functions_x.php#index_x"><span>x</span></a></li>
-      <li><a href="functions_y.php#index_y"><span>y</span></a></li>
-      <li><a href="functions_z.php#index_z"><span>z</span></a></li>
-      <li><a href="functions_0x7e.php#index_0x7e"><span>~</span></a></li>
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li><a href="#index_u"><span>u</span></a></li>
+      <li><a href="#index_w"><span>w</span></a></li>
+      <li class="current"><a href="#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -151,54 +141,340 @@ $(document).ready(function(){initNavTree('functions.php','');});
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>add()
-: <a class="el" href="d0/d0b/a00004.php#a0e9d109a0cf2783b6ab6bfab6df719f3">Arguments</a>
-, <a class="el" href="d0/dc0/a00033.php#abe173d2bf4af78a34eea42f6015dfc24">TableWidget</a>
-</li>
-<li>addColors()
-: <a class="el" href="da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">Color</a>
+: <a class="el" href="da/da0/a00009.php#abe173d2bf4af78a34eea42f6015dfc24">TableWidget</a>
 </li>
 <li>addGraph()
-: <a class="el" href="d4/d51/a00017.php#ad24a3692edd1ba8099c9b823ca91705c">GraphScene</a>
+: <a class="el" href="dd/dad/a00005.php#ad24a3692edd1ba8099c9b823ca91705c">GraphScene</a>
 </li>
 <li>addHeader()
-: <a class="el" href="d0/dc0/a00033.php#a9965d8f6b70b52fc8e25906a20d4a771">TableWidget</a>
+: <a class="el" href="da/da0/a00009.php#a59d73338e3d97bafc754ed798fd487f6">TableWidget</a>
 </li>
 <li>addInGraph()
-: <a class="el" href="d4/d51/a00017.php#a262f69fe1830ded7878cf087236024f0">GraphScene</a>
-</li>
-<li>addPosition()
-: <a class="el" href="da/d45/a00011.php#a3af679109317a6740c661fe5164158ff">Contraption</a>
-</li>
-<li>addProg()
-: <a class="el" href="d0/d0b/a00004.php#a126d62fd1d3eed743b06cb1b83f9093d">Arguments</a>
-</li>
-<li>angle
-: <a class="el" href="df/d86/a00012.php#a062e1a4fe2f7d6f8d771f13f10844a19">ContraptionAttr</a>
-</li>
-<li>Animal()
-: <a class="el" href="d7/d46/a00002.php#a46fa459910827becd0cc0463f260d4e0">Animal</a>
-</li>
-<li>Ant()
-: <a class="el" href="d1/d7c/a00003.php#a088ebbdb8d6cd05cf6f6c1d35b766c6e">Ant</a>
-</li>
-<li>anyObstacle()
-: <a class="el" href="d7/d46/a00002.php#a3106b384960dd889ce599eed9d2b61d9">Animal</a>
-</li>
-<li>applyForEach()
-: <a class="el" href="dd/dad/a00005.php#a57fd2669fe6febe24cde0db73b5a438f">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#a262f69fe1830ded7878cf087236024f0">GraphScene</a>
 </li>
 <li>ApplyResizeChange()
-: <a class="el" href="d3/de7/a00039.php#a91ce1aab8c3ed4a14554a1ddc32a87f1">WindowTitleBar</a>
+: <a class="el" href="d7/dd4/a00013.php#a91ce1aab8c3ed4a14554a1ddc32a87f1">WindowTitleBar</a>
 </li>
 <li>ApplyTitleBarState()
-: <a class="el" href="d3/de7/a00039.php#a4def0f2b659a07381fe8abaedd90e303">WindowTitleBar</a>
+: <a class="el" href="d7/dd4/a00013.php#a4def0f2b659a07381fe8abaedd90e303">WindowTitleBar</a>
 </li>
-<li>Arguments()
-: <a class="el" href="d0/d0b/a00004.php#afe56d8477bfae32c239771056c233311">Arguments</a>
+</ul>
+
+
+<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>BUTTON_CLOSE
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
 </li>
-<li>attack()
-: <a class="el" href="d7/d46/a00002.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>
-, <a class="el" href="d1/d2b/a00018.php#aa3fec9f067507361ca93e6f4edf4b731">Hostile</a>
+<li>BUTTON_MAXIMIZE
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
+</li>
+<li>BUTTON_MINIMIZE
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
+</li>
+<li>ButtonState
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
+</li>
+<li>ButtonType
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>drawBackground()
+: <a class="el" href="da/d45/a00011.php#a1ce5696d3fac4e90e6c9fbd0477d0f9d">Window</a>
+</li>
+<li>drawButtonsArea()
+: <a class="el" href="d7/dd4/a00013.php#a2929d886be76951491d9bb53a6e1ce9e">WindowTitleBar</a>
+</li>
+<li>drawDefaultBackground()
+: <a class="el" href="da/d45/a00011.php#acbed45e30a51c6855e5e6ea88197b161">Window</a>
+</li>
+<li>DrawScene()
+: <a class="el" href="d1/d7c/a00003.php#a8264ece5e7fb59ec874720b710d8f353">DrawScene</a>
+</li>
+<li>drawTitleBar()
+: <a class="el" href="d7/dd4/a00013.php#a51c99fb3d787abe8bc647145272981f0">WindowTitleBar</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>enableResize()
+: <a class="el" href="da/d45/a00011.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7">Window</a>
+</li>
+<li>enterEvent()
+: <a class="el" href="df/d86/a00012.php#aab556dedddbb1c9832f572b747449055">WindowButton</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>Font()
+: <a class="el" href="d0/d0b/a00004.php#a4e6a119206f505522100221c1fafde45">Font</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>get()
+: <a class="el" href="da/da0/a00009.php#a6ec3251ece680a9da68c7e4adb1f6531">TableWidget</a>
+</li>
+<li>getNbGraphs()
+: <a class="el" href="dd/dad/a00005.php#a14cdb7c7d2167512a42815286cd75dba">GraphScene</a>
+</li>
+<li>GraphScene()
+: <a class="el" href="dd/dad/a00005.php#a7c64f302d928e583cecd5602f3ef9b6e">GraphScene</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>initialized
+: <a class="el" href="d4/dee/a00008.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>leaveEvent()
+: <a class="el" href="df/d86/a00012.php#a8a89e083618d2f239a60bf5adb7c79a2">WindowButton</a>
+</li>
+<li>load()
+: <a class="el" href="d0/d0b/a00004.php#a1b263a092a8579ac1058af09e39389e0">Font</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>m_Cache
+: <a class="el" href="da/d45/a00011.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
+</li>
+<li>Maximized()
+: <a class="el" href="d7/dd4/a00013.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
+</li>
+<li>Minimized()
+: <a class="el" href="d7/dd4/a00013.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
+</li>
+<li>mouseMoveEvent()
+: <a class="el" href="d7/dd4/a00013.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
+</li>
+<li>mousePressEvent()
+: <a class="el" href="df/d86/a00012.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
+, <a class="el" href="d7/dd4/a00013.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
+</li>
+<li>mouseReleaseEvent()
+: <a class="el" href="df/d86/a00012.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
+, <a class="el" href="d7/dd4/a00013.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>paintEvent()
+: <a class="el" href="d7/dec/a00010.php#a0ce51928b65b53bd72575e7138e3238c">Widget</a>
+, <a class="el" href="da/d45/a00011.php#a1b653d42eb4810a8c0be48dc65d98b3a">Window</a>
+, <a class="el" href="df/d86/a00012.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11">WindowButton</a>
+, <a class="el" href="d7/dd4/a00013.php#a43be58f98c5d53bce63cd96999e7c71a">WindowTitleBar</a>
+</li>
+<li>pixmaps
+: <a class="el" href="d1/d7c/a00003.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">DrawScene</a>
+</li>
+<li>printed_background
+: <a class="el" href="d1/d7c/a00003.php#aecb82ecbd590818d52d58227101a490d">DrawScene</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>QHSpacerItem()
+: <a class="el" href="de/d21/a00006.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a>
+</li>
+<li>Quit()
+: <a class="el" href="d7/dd4/a00013.php#a1604ff5ed446b01e08dbb4d05be48f63">WindowTitleBar</a>
+</li>
+<li>QVSpacerItem()
+: <a class="el" href="de/d5e/a00007.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>reinit()
+: <a class="el" href="dd/dad/a00005.php#a9ee91facfb6fd4eda61385809e122f43">GraphScene</a>
+</li>
+<li>resizeEvent()
+: <a class="el" href="da/d45/a00011.php#a3d72edbec3fed3709ea3d374973c70b4">Window</a>
+, <a class="el" href="df/d86/a00012.php#a2dd52661908250a571804fe967bcd316">WindowButton</a>
+, <a class="el" href="d7/dd4/a00013.php#aade75345fb7a4b62c361345c64884a82">WindowTitleBar</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>scaled_pixmaps
+: <a class="el" href="d1/d7c/a00003.php#af1a71ac1ae84ae88e00810307b2f146d">DrawScene</a>
+</li>
+<li>Scene()
+: <a class="el" href="d4/dee/a00008.php#abaaf58cde185094df3ab47c5eedef55e">Scene</a>
+</li>
+<li>set()
+: <a class="el" href="da/da0/a00009.php#a38b92f2d6e93627e3034f07a73138b1e">TableWidget</a>
+</li>
+<li>setBackground()
+: <a class="el" href="da/d45/a00011.php#a3f710c0adafe15f27766f70a1c5b4dee">Window</a>
+, <a class="el" href="df/d86/a00012.php#ac7b9d8d3e328e0285ef4664e20acb8d3">WindowButton</a>
+</li>
+<li>setCentralWidget()
+: <a class="el" href="da/d45/a00011.php#a8c65cb42e811de87be8743af6b9d21ed">Window</a>
+</li>
+<li>setClickedColor()
+: <a class="el" href="df/d86/a00012.php#a7a087338372f7592853b050d168df152">WindowButton</a>
+</li>
+<li>setGradient()
+: <a class="el" href="df/d86/a00012.php#a434a8192bfe4dea8c7b4e1b052a1a943">WindowButton</a>
+</li>
+<li>setHeader()
+: <a class="el" href="da/da0/a00009.php#a25bba3124cdbe518985157ff23b0b1d0">TableWidget</a>
+</li>
+<li>setHoveredColor()
+: <a class="el" href="df/d86/a00012.php#a6947ea55943b909c1d492ad2f79ae1f8">WindowButton</a>
+</li>
+<li>setMargin()
+: <a class="el" href="da/d45/a00011.php#a4cec8e761a776437c9886d6982c22a54">Window</a>
+</li>
+<li>setNormalColor()
+: <a class="el" href="df/d86/a00012.php#a4babac31336534efca737c5f73710c1d">WindowButton</a>
+</li>
+<li>setPointsDist()
+: <a class="el" href="dd/dad/a00005.php#a8039208138c6c15d89f3460b552f6b37">GraphScene</a>
+</li>
+<li>setSize()
+: <a class="el" href="da/d45/a00011.php#a2983759dc6be4f8da44eff6069b2d3c8">Window</a>
+</li>
+<li>setTilesize()
+: <a class="el" href="d1/d7c/a00003.php#aa9cd414cc46f3396f58e4a7af88d6b4c">DrawScene</a>
+</li>
+<li>setWindowTitle()
+: <a class="el" href="da/d45/a00011.php#a008e887882941bcd08b6439dc001ea51">Window</a>
+</li>
+<li>setXMax()
+: <a class="el" href="dd/dad/a00005.php#a294013125013fbd6218eeb892c53d6b4">GraphScene</a>
+</li>
+<li>setXMin()
+: <a class="el" href="dd/dad/a00005.php#a53a17a634417fcde5b9cac44699ed7a6">GraphScene</a>
+</li>
+<li>setXRange()
+: <a class="el" href="dd/dad/a00005.php#a7b4d85fc0786904021c33902cec3dbdb">GraphScene</a>
+</li>
+<li>setXStep()
+: <a class="el" href="dd/dad/a00005.php#a7bcd5ff38039ca92991a9b72b6f0e8ea">GraphScene</a>
+</li>
+<li>setYMax()
+: <a class="el" href="dd/dad/a00005.php#a4345f99a23e4cc5fa07c55cf3511537e">GraphScene</a>
+</li>
+<li>setYMin()
+: <a class="el" href="dd/dad/a00005.php#a4a87303127505bce46d4dcc30ce1f122">GraphScene</a>
+</li>
+<li>setYRange()
+: <a class="el" href="dd/dad/a00005.php#a4f75f2238bcc5df131f3e4198bc1c186">GraphScene</a>
+</li>
+<li>setYStep()
+: <a class="el" href="dd/dad/a00005.php#a0691b268ad07ea33bf254b0f489df59d">GraphScene</a>
+</li>
+<li>showEvent()
+: <a class="el" href="da/d45/a00011.php#a677a2c1046a84743e709515f5618b1e8">Window</a>
+</li>
+<li>showTitlebar()
+: <a class="el" href="da/d45/a00011.php#a8ad2a767e19299b153f9bc0457f13114">Window</a>
+</li>
+<li>STATE_CLICKED
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">WindowButton</a>
+</li>
+<li>STATE_HOVERED
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">WindowButton</a>
+</li>
+<li>STATE_NORMAL
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">WindowButton</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>TableWidget()
+: <a class="el" href="da/da0/a00009.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>
+</li>
+<li>tileSize
+: <a class="el" href="d1/d7c/a00003.php#a124d4bd03677251c2159bd0dd4254306">DrawScene</a>
+</li>
+<li>TitleBarShowState()
+: <a class="el" href="da/d45/a00011.php#a1f3319d59097b7c9e5bde545e6867c1b">Window</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
+<li>update()
+: <a class="el" href="d1/d7c/a00003.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">DrawScene</a>
+, <a class="el" href="dd/dad/a00005.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">GraphScene</a>
+, <a class="el" href="d4/dee/a00008.php#a7faff47f5c1b1ebc986f768c9b9732ec">Scene</a>
+, <a class="el" href="da/da0/a00009.php#a8ee97e18b4afb72672b36ef2002537ae">TableWidget</a>
+</li>
+<li>UpdateWindowTitle()
+: <a class="el" href="d7/dd4/a00013.php#a5a96b7bd195f625fc4ffb6c7fe180709">WindowTitleBar</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>Widget()
+: <a class="el" href="d7/dec/a00010.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>
+</li>
+<li>Window()
+: <a class="el" href="da/d45/a00011.php#a8c86e48ef3180201cc97cb928abd66ca">Window</a>
+</li>
+<li>WindowButton()
+: <a class="el" href="df/d86/a00012.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>
+</li>
+<li>WindowResizeChanged()
+: <a class="el" href="da/d45/a00011.php#a9b8e592bf73f07ec549125eb6367395c">Window</a>
+</li>
+<li>WindowTitleBar()
+: <a class="el" href="d7/dd4/a00013.php#acbc4eaf9b9265fe9ac013aeba5e80e76">WindowTitleBar</a>
+</li>
+<li>WindowTitleChanged()
+: <a class="el" href="da/d45/a00011.php#a56ced9e90dad8415ce9ba9ccdb8f50c7">Window</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_0x7e"></a>- ~ -</h3><ul>
+<li>~DrawScene()
+: <a class="el" href="d1/d7c/a00003.php#ab95069018a89de490bb75a7847a7c999">DrawScene</a>
+</li>
+<li>~Font()
+: <a class="el" href="d0/d0b/a00004.php#a134aaa2f78af0c12d3ce504957169768">Font</a>
+</li>
+<li>~GraphScene()
+: <a class="el" href="dd/dad/a00005.php#a37cbb072493b457564dda12502c9af7f">GraphScene</a>
+</li>
+<li>~Scene()
+: <a class="el" href="d4/dee/a00008.php#a3b8cec2e32546713915f8c6303c951f1">Scene</a>
+</li>
+<li>~TableWidget()
+: <a class="el" href="da/da0/a00009.php#a5fb6edc429e21280d8f47faf6fe012fa">TableWidget</a>
+</li>
+<li>~Widget()
+: <a class="el" href="d7/dec/a00010.php#a714cf798aadb4d615f6f60a355382c02">Widget</a>
+</li>
+<li>~Window()
+: <a class="el" href="da/d45/a00011.php#a245d821e6016fa1f6970ccbbedd635f6">Window</a>
+</li>
+<li>~WindowButton()
+: <a class="el" href="df/d86/a00012.php#af6a0e6f87bae8c50d9d2e57b371a548a">WindowButton</a>
+</li>
+<li>~WindowTitleBar()
+: <a class="el" href="d7/dd4/a00013.php#a8fa4e86180d7e76a04f68b864b5a8c3a">WindowTitleBar</a>
 </li>
 </ul>
 </div><!-- contents -->

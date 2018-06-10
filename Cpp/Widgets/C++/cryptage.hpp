@@ -2,7 +2,7 @@
 *
 *	\file		cryptage.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		07 juin 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_CRYPTAGE
@@ -80,6 +80,7 @@ class Cesar : public Crypto {
 /*!
 * \class	RSA
 * \brief	A class to use the RSA algorithm for encryption
+* \todo		Create the class
 */
 class RSA : public Crypto {
 	public:

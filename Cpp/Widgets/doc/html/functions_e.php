@@ -151,16 +151,16 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
 <li>enableResize()
-: <a class="el" href="d1/dc6/a00037.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7">Window</a>
+: <a class="el" href="d8/d41/a00038.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7">Window</a>
 </li>
 <li>enterEvent()
-: <a class="el" href="d8/d41/a00038.php#aab556dedddbb1c9832f572b747449055">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#aab556dedddbb1c9832f572b747449055">WindowButton</a>
 </li>
 <li>Entity()
-: <a class="el" href="dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
+: <a class="el" href="d7/d7a/a00016.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
 </li>
 <li>exists()
-: <a class="el" href="dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

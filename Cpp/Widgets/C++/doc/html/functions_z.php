@@ -149,8 +149,8 @@ $(document).ready(function(){initNavTree('functions_z.php','');});
 
 <h3><a class="anchor" id="index_z"></a>- z -</h3><ul>
 <li>z
-: <a class="el" href="d3/d52/a00023.php#a05ba3b1dfcb19430582ae953cbbfbded">Point</a>
-, <a class="el" href="d5/d16/a00029.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
+: <a class="el" href="dc/de2/a00024.php#a05ba3b1dfcb19430582ae953cbbfbded">Point</a>
+, <a class="el" href="d5/d79/a00030.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
 </li>
 </ul>
 </div><!-- contents -->

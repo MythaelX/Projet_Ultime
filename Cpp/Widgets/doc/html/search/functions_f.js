@@ -1,21 +1,12 @@
 var searchData=
 [
-  ['randstr',['randStr',['../db/df8/a00076.php#abfbfe8f3754081903836460cd2f72cb8',1,'string.hpp']]],
-  ['reinit',['Reinit',['../d5/d16/a00029.php#aae482f034556d2539b85c90cefe9da82',1,'Reinit::Reinit()'],['../d4/d51/a00017.php#a9ee91facfb6fd4eda61385809e122f43',1,'GraphScene::reinit()']]],
-  ['remove',['remove',['../dd/dad/a00005.php#a8adcb89c3bd40c783880fa6355180655',1,'BDD']]],
-  ['replace',['replace',['../db/df8/a00076.php#a925387acbdabec822115ff7e71e440a4',1,'string.hpp']]],
-  ['reset',['reset',['../dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9',1,'BDD']]],
-  ['resizeevent',['resizeEvent',['../d1/dc6/a00037.php#a3d72edbec3fed3709ea3d374973c70b4',1,'Window::resizeEvent()'],['../d8/d41/a00038.php#a2dd52661908250a571804fe967bcd316',1,'WindowButton::resizeEvent()'],['../d3/de7/a00039.php#aade75345fb7a4b62c361345c64884a82',1,'WindowTitleBar::resizeEvent()']]],
-  ['restart',['restart',['../de/d5e/a00007.php#a775bf97123b58c768571868341d28b08',1,'Clock::restart()'],['../db/df3/a00034.php#a8422d61fac8765b8789c8056bd38f2f3',1,'Timer::restart()']]],
-  ['restore',['restore',['../d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142',1,'ConsoleCursor']]],
-  ['resume',['resume',['../d3/dfe/a00025.php#adfa756f1570500ee9b9628ad4a990e2e',1,'Player']]],
-  ['retreive',['retreive',['../d3/dfe/a00025.php#a5c1f4f7b9404f7ec686dcb4038892a6c',1,'Player']]],
-  ['rewrite',['rewrite',['../d5/df9/a00044.php#addfa691004e6d94461994bb7eccadf19',1,'array.hpp']]],
-  ['rightbalance',['rightBalance',['../d1/d51/a00079.php#a382275a07cf1f2a46cbaabc75fa93215',1,'tree.hpp']]],
-  ['rightbalancevine',['rightBalanceVine',['../d1/d51/a00079.php#a3e3bec3cf3101c5fd44f21ff9c4349f7',1,'tree.hpp']]],
-  ['rightrotate',['rightRotate',['../d1/d51/a00079.php#ac0c95fabf27f049acdedcbc8dac1df25',1,'tree.hpp']]],
-  ['rng',['RNG',['../d5/d79/a00030.php#a9981de0f2f28a52ae600df8fbc0404c6',1,'RNG']]],
-  ['rngrange',['rngRange',['../d6/d2c/a00072.php#a9f2903f65500ce246447f08fea1d734a',1,'RNG.hpp']]],
-  ['round',['round',['../d1/d6f/a00063.php#a709c7dabaae9dea50d277980278081e0',1,'maths.hpp']]],
-  ['rsa',['RSA',['../df/d61/a00031.php#a8b8df3c7a74905f3e35a8e01bfd7da59',1,'RSA']]]
+  ['_7edrawscene',['~DrawScene',['../d1/d7c/a00003.php#ab95069018a89de490bb75a7847a7c999',1,'DrawScene']]],
+  ['_7efont',['~Font',['../d0/d0b/a00004.php#a134aaa2f78af0c12d3ce504957169768',1,'Font']]],
+  ['_7egraphscene',['~GraphScene',['../dd/dad/a00005.php#a37cbb072493b457564dda12502c9af7f',1,'GraphScene']]],
+  ['_7escene',['~Scene',['../d4/dee/a00008.php#a3b8cec2e32546713915f8c6303c951f1',1,'Scene']]],
+  ['_7etablewidget',['~TableWidget',['../da/da0/a00009.php#a5fb6edc429e21280d8f47faf6fe012fa',1,'TableWidget']]],
+  ['_7ewidget',['~Widget',['../d7/dec/a00010.php#a714cf798aadb4d615f6f60a355382c02',1,'Widget']]],
+  ['_7ewindow',['~Window',['../da/d45/a00011.php#a245d821e6016fa1f6970ccbbedd635f6',1,'Window']]],
+  ['_7ewindowbutton',['~WindowButton',['../df/d86/a00012.php#af6a0e6f87bae8c50d9d2e57b371a548a',1,'WindowButton']]],
+  ['_7ewindowtitlebar',['~WindowTitleBar',['../d7/dd4/a00013.php#a8fa4e86180d7e76a04f68b864b5a8c3a',1,'WindowTitleBar']]]
 ];

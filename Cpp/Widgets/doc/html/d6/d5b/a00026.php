@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Point Struct Reference</title>
+<title>Qt: WindowTitleBar.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,10 +71,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,86 +106,60 @@ $(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d5/ddf/a00224.php">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Point Struct Reference</div>  </div>
+<div class="title">WindowTitleBar.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A struct to define a point in space.  
- <a href="../../d6/d5b/a00026.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a>&gt;</code></p>
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dfe/a00025_source.php">WindowButton.hpp</a>&quot;</code><br />
+<code>#include &quot;C++/C++.hpp&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for WindowTitleBar.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d79/a00051.png" border="0" usemap="#WindowTitleBar_8hpp" alt=""/></div>
+<map name="WindowTitleBar_8hpp" id="WindowTitleBar_8hpp">
+<area shape="rect" id="node3" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="513,80,645,107"/>
+<area shape="rect" id="node5" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="525,155,632,181"/>
+<area shape="rect" id="node6" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="93,229,181,256"/>
+<area shape="rect" id="node7" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="569,229,684,256"/>
+<area shape="rect" id="node8" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="505,319,589,345"/>
+<area shape="rect" id="node10" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="709,229,827,256"/>
+<area shape="rect" id="node15" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="206,229,301,256"/>
+<area shape="rect" id="node16" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="325,229,443,256"/>
+<area shape="rect" id="node18" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2427,229,2501,256"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d84/a00052.png" border="0" usemap="#WindowTitleBar_8hppdep" alt=""/></div>
+<map name="WindowTitleBar_8hppdep" id="WindowTitleBar_8hppdep">
+<area shape="rect" id="node2" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="27,80,122,107"/>
+<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="44,155,105,181"/>
+<area shape="rect" id="node4" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="15,229,135,256"/>
+</map>
+</div>
+</div>
+<p><a href="../../d6/d5b/a00026_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#ab99c56589bc8ad5fa5071387110a5bc7">x</a></td></tr>
-<tr class="separator:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#afa38be143ae800e6ad69ce8ed4df62d8">y</a></td></tr>
-<tr class="separator:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a05ba3b1dfcb19430582ae953cbbfbded">z</a> = 0</td></tr>
-<tr class="separator:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php">WindowTitleBar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The titlebar of the <a class="el" href="../../da/d45/a00011.php" title="A custom window. ">Window</a> class.  <a href="../../d7/dd4/a00013.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A struct to define a point in space. </p>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00060">60</a> of file <a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab99c56589bc8ad5fa5071387110a5bc7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Point::x</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>X position </p>
-
-<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00062">62</a> of file <a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afa38be143ae800e6ad69ce8ed4df62d8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Point::y</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Y position </p>
-
-<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00064">64</a> of file <a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a05ba3b1dfcb19430582ae953cbbfbded"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Point::z = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Z position </p>
-
-<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00066">66</a> of file <a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d84/a00052_source.php">defines.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d6/d5b/a00026_source.php">WindowTitleBar.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d5b/a00026.php">Point</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d6/d5b/a00026.php">WindowTitleBar.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

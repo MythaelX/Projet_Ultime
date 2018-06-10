@@ -145,16 +145,16 @@ $(document).ready(function(){initNavTree('functions_func_f.php','');});
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
 <li>formatBdd()
-: <a class="el" href="dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07">BDD</a>
 </li>
 <li>formatColumn()
-: <a class="el" href="dd/dad/a00005.php#a3a309489e289988579ec94eae459f8df">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a3a309489e289988579ec94eae459f8df">BDD</a>
 </li>
 <li>formatConditions()
-: <a class="el" href="dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821">BDD</a>
+: <a class="el" href="de/d21/a00006.php#af8d633320c008fade8c3ee5ff08cc821">BDD</a>
 </li>
 <li>formatValues()
-: <a class="el" href="dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942">BDD</a>
+: <a class="el" href="de/d21/a00006.php#ac99c0f8c86fab4de2efe6b91b22fb942">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

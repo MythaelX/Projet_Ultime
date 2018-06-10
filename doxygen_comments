@@ -1,0 +1,53 @@
+MainFile ;
+
+/*!
+*	\mainpage	
+*		\par	
+*
+*	\date		
+*	\author		
+*/
+
+File ;
+
+/*!
+*	\file		
+*	\author		
+*	\date		
+*/
+
+Function ;
+
+/*!
+*	\brief		
+*		\param[]		azerty				
+*
+*		\return			
+*/
+
+ou
+
+/*!
+*	\brief		
+*		\param[]		azerty				
+*
+*		\return			
+*
+*	\details	
+*/
+
+Class ;
+
+/*!
+*	\class		
+*	\brief		
+*/
+
+ou
+
+/*!
+*	\class		
+*	\brief		
+*
+*	\details	
+*/

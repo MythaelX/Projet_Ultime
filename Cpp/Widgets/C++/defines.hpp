@@ -2,36 +2,34 @@
 *
 *	\file		defines.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		02 juin 2018
+*	\date		10 juin 2018
+*
+*	\details	- Include ;
+*					- iostream\n
+*					- fstream\n
+*					- sstream\n\n
+*					- vector\n
+*					- map\n
+*					- tuple\n
+*					- iterator\n\n
+*					- string\n
+*					- numeric\n\n
+*					- type_traits\n
+*					- typeinfo\n\n
+*					- thread\n
+*					- mutex\n\n
+*					- limits\n
+*					- utility\n
+*					- memory\n
+*					- random\n
+*					- algorithm\n
+*					- ios\n\n
+*					- cmath\n
+*					- ctime\n
 *
 */
 #ifndef HEADER_DEFINES
 #define HEADER_DEFINES
-
-/*!
-*		#include <iostream>
-*
-*		#include <fstream>
-*		#include <sstream>
-*
-*		#include <vector>
-*		#include <map>
-*
-*		#include <string>
-*
-*		#include <random>
-*		#include <algorithm>
-*
-*		#include <type_traits>
-*		#include <typeinfo>
-*		#include <numeric>
-*
-*		#include <thread>
-*		#include <mutex>
-*
-*		#include <cmath>
-*		#include <ctime>
-*/
 
 #include <limits>
 #include <utility>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: DrawScene Class Reference</title>
+<title>Qt: DrawScene.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,10 +71,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,265 +106,54 @@ $(document).ready(function(){initNavTree('d2/de7/a00014.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-slots">Public Slots</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d7/ded/a00196.php">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">DrawScene Class Reference</div>  </div>
+<div class="title">DrawScene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  
- <a href="../../d2/de7/a00014.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for DrawScene:</div>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../db/db2/a00020_source.php">Scene.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for DrawScene.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/db1/a00197.png" border="0" usemap="#DrawScene_inherit__map" alt="Inheritance graph"/></div>
-<map name="DrawScene_inherit__map" id="DrawScene_inherit__map">
-<area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../dc/d3c/a00028.png" border="0" usemap="#DrawScene_8hpp" alt=""/></div>
+<map name="DrawScene_8hpp" id="DrawScene_8hpp">
+<area shape="rect" id="node2" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="56,80,140,107"/>
 </map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for DrawScene:</div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/da0/a00198.png" border="0" usemap="#DrawScene_coll__map" alt="Collaboration graph"/></div>
-<map name="DrawScene_coll__map" id="DrawScene_coll__map">
-<area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../d5/d16/a00029.png" border="0" usemap="#DrawScene_8hppdep" alt=""/></div>
+<map name="DrawScene_8hppdep" id="DrawScene_8hppdep">
+<area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
 </map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+</div>
+</div>
+<p><a href="../../d2/de7/a00014_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
-Public Slots</h2></td></tr>
-<tr class="memitem:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">update</a> ()</td></tr>
-<tr class="memdesc:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the pur virtual parent method <a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a>  <a href="#ad0292ea7a4d4c501a7bf5c9fb6282d7e">More...</a><br /></td></tr>
-<tr class="separator:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_slots_a00032"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00032')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a> ()=0</td></tr>
-<tr class="memdesc:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual method to redefine it in child classes.  <a href="#a7faff47f5c1b1ebc986f768c9b9732ec">More...</a><br /></td></tr>
-<tr class="separator:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f57b8878a4c601e45990ab2f461fcba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#a1f57b8878a4c601e45990ab2f461fcba">DrawScene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:a1f57b8878a4c601e45990ab2f461fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the <a class="el" href="../../d2/de7/a00014.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>.  <a href="#a1f57b8878a4c601e45990ab2f461fcba">More...</a><br /></td></tr>
-<tr class="separator:a1f57b8878a4c601e45990ab2f461fcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab95069018a89de490bb75a7847a7c999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#ab95069018a89de490bb75a7847a7c999">~DrawScene</a> ()</td></tr>
-<tr class="separator:ab95069018a89de490bb75a7847a7c999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#aa9cd414cc46f3396f58e4a7af88d6b4c">setTilesize</a> (int s)</td></tr>
-<tr class="memdesc:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tiles' size.  <a href="#aa9cd414cc46f3396f58e4a7af88d6b4c">More...</a><br /></td></tr>
-<tr class="separator:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00032"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00032')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the QGraphicsScene.  <a href="#a8f0ae2c1c11ac3f3fd382baf33fb934a">More...</a><br /></td></tr>
-<tr class="separator:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
-<tr class="separator:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a124d4bd03677251c2159bd0dd4254306"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#a124d4bd03677251c2159bd0dd4254306">tileSize</a></td></tr>
-<tr class="separator:a124d4bd03677251c2159bd0dd4254306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecb82ecbd590818d52d58227101a490d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#aecb82ecbd590818d52d58227101a490d">printed_background</a></td></tr>
-<tr class="separator:aecb82ecbd590818d52d58227101a490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">pixmaps</a></td></tr>
-<tr class="separator:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a71ac1ae84ae88e00810307b2f146d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php#af1a71ac1ae84ae88e00810307b2f146d">scaled_pixmaps</a></td></tr>
-<tr class="separator:af1a71ac1ae84ae88e00810307b2f146d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00032"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00032')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00032"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td></tr>
-<tr class="separator:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../d4/dee/a00008.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  <a href="../../d1/d7c/a00003.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system. </p>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00017">17</a> of file <a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1f57b8878a4c601e45990ab2f461fcba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DrawScene::DrawScene </td>
-          <td>(</td>
-          <td class="paramtype">QObject *&#160;</td>
-          <td class="paramname"><em>parent</em> = <code>NULL</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create the <a class="el" href="../../d2/de7/a00014.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab95069018a89de490bb75a7847a7c999"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DrawScene::~DrawScene </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa9cd414cc46f3396f58e4a7af88d6b4c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DrawScene::setTilesize </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the tiles' size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad0292ea7a4d4c501a7bf5c9fb6282d7e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DrawScene::update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Overload of the pur virtual parent method <a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a> </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a99f3c0b81bbecfbf850e920ffc2f6f0a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::pixmaps</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00046">46</a> of file <a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aecb82ecbd590818d52d58227101a490d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DrawScene::printed_background</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00044">44</a> of file <a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1a71ac1ae84ae88e00810307b2f146d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::scaled_pixmaps</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00047">47</a> of file <a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a124d4bd03677251c2159bd0dd4254306"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DrawScene::tileSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00043">43</a> of file <a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/dee/a00053_source.php">DrawScene.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d2/de7/a00014_source.php">DrawScene.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/de7/a00014.php">DrawScene</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d2/de7/a00014.php">DrawScene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

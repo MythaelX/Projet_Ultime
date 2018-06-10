@@ -4,15 +4,17 @@
 *	\author		Mathias CABIOCH-DELALANDE
 *	\date		07 juin 2018
 *
+*	\todo		Transform all to do a Tree class
+*
 */
 #ifndef HEADER_TREE
 #define HEADER_TREE
 
 #include "maths.hpp"
 
-#define RIGHT_NODE 1;
-#define LEFT_NODE -1;
-#define NO_NODE 0;
+#define RIGHT_NODE 1
+#define LEFT_NODE -1
+#define NO_NODE 0
 
 typedef long double NodeWeight;
 

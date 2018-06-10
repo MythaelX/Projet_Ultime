@@ -13,6 +13,7 @@
 	*		\param[in]		$code		The code to treat
 	*		\param[in]		$id			The id to get
 	*		\return			Return the element that have this id
+	*		\todo			Create the function
 	*/
 	function getElementById($code, $id){
 		//$out = strstr($code, "id=\"".$id."\"");
@@ -23,7 +24,7 @@
 	/*!
 	*	\class Scraper
 	*	\brief A class to scrap content from another page
-	*	\todo
+	*	\todo Create the class
 	*/
 	class Scraper {
 		private $url;

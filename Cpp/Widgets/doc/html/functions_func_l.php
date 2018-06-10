@@ -148,20 +148,20 @@ $(document).ready(function(){initNavTree('functions_func_l.php','');});
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
 <li>lastId()
-: <a class="el" href="dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
 </li>
 <li>leaveEvent()
-: <a class="el" href="d8/d41/a00038.php#a8a89e083618d2f239a60bf5adb7c79a2">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#a8a89e083618d2f239a60bf5adb7c79a2">WindowButton</a>
 </li>
 <li>list()
-: <a class="el" href="dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
 </li>
 <li>load()
-: <a class="el" href="d7/d7a/a00016.php#a1b263a092a8579ac1058af09e39389e0">Font</a>
-, <a class="el" href="db/db2/a00020.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
+: <a class="el" href="d4/d51/a00017.php#a1b263a092a8579ac1058af09e39389e0">Font</a>
+, <a class="el" href="de/d11/a00021.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
 </li>
 <li>lost()
-: <a class="el" href="d3/dfe/a00025.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d6/d5b/a00026.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

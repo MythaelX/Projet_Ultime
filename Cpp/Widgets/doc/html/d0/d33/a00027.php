@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: QHSpacerItem Class Reference</title>
+<title>Qt: Point Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,86 +109,86 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dc/d98/a00225.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">QHSpacerItem Class Reference</div>  </div>
+<div class="title">Point Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of QSpacerItem.  
+<p>A struct to define a point in space.  
  <a href="../../d0/d33/a00027.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/da5/a00075_source.php">Spacers.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for QHSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d55/a00226.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for QHSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d01/a00227.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a7fa21864bd309afcca8221e427ecbe62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a> (int w=0, int h=0)</td></tr>
-<tr class="memdesc:a7fa21864bd309afcca8221e427ecbe62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend horizontally.  <a href="#a7fa21864bd309afcca8221e427ecbe62">More...</a><br /></td></tr>
-<tr class="separator:a7fa21864bd309afcca8221e427ecbe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#ab99c56589bc8ad5fa5071387110a5bc7">x</a></td></tr>
+<tr class="separator:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#afa38be143ae800e6ad69ce8ed4df62d8">y</a></td></tr>
+<tr class="separator:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a05ba3b1dfcb19430582ae953cbbfbded">z</a> = 0</td></tr>
+<tr class="separator:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of QSpacerItem. </p>
+<div class="textblock"><p>A struct to define a point in space. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da5/a00075_source.php#l00017">17</a> of file <a class="el" href="../../d9/da5/a00075_source.php">Spacers.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7fa21864bd309afcca8221e427ecbe62"></a>
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00060">60</a> of file <a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ab99c56589bc8ad5fa5071387110a5bc7"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QHSpacerItem::QHSpacerItem </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">double Point::x</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<p>X position </p>
 
-<p>Create a QSpacerItem that expend horizontally. </p>
-
-<p>Definition at line <a class="el" href="../../d9/da5/a00075_source.php#l00020">20</a> of file <a class="el" href="../../d9/da5/a00075_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00062">62</a> of file <a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/da5/a00075_source.php">Spacers.hpp</a></li>
+<a class="anchor" id="afa38be143ae800e6ad69ce8ed4df62d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Point::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Y position </p>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00064">64</a> of file <a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05ba3b1dfcb19430582ae953cbbfbded"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Point::z = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Z position </p>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00066">66</a> of file <a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a></li>
+    <li class="navelem"><a class="el" href="../../d0/d33/a00027.php">Point</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

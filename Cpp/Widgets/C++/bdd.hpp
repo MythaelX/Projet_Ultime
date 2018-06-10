@@ -2,7 +2,7 @@
 *
 *	\file		bdd.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		09 juin 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_BDD
@@ -23,26 +23,25 @@
 #include "string.hpp"
 #include "array.hpp"
 
-/*! The type of the array that contains the columns */
+/*! \brief	The type of the array that contains the columns */
 using ColsArray = std::vector<std::map<std::string, std::string>>;
-/*! The type of the array that contains the list of something */
+/*! \brief	The type of the array that contains the list of something */
 using ListArray = std::vector<std::vector<std::string>>;
 
 /*!
 * \class	BDD
 * \brief	A class to connect to a BDD
-* \details	Usefull commands with a query answer\n
-*			sql::ResultSet* rep = stmt->executeQuery(...);\n
-*			auto meta = rep->getMetaData()			 : 	return the answer's meta-datas\n
-*			meta->getColumnCount()					 : 	return the answer's column's number\n
-*\n
-*			rep->next()								 : 	return the next datas\n
-*			For each answers' lines,\n
-*			meta->getColumnLabel(numLine)			 : 	return the column's name\n
-*			meta->getColumnName(numLine)			 : 	return the column's name\n
-*			meta->getColumnType(numLine)\n
-*			meta->getColumnTypeName(numLine)		 : 	return the column's type in capital\n
-*			meta->isAutoIncrement(numLine)			 : 	return true if the column is autoincrement, false either\n
+* \details	- Usefull commands with a query answer\n
+*			- sql::ResultSet* rep = stmt->executeQuery(...);\n
+*			- auto meta = rep->getMetaData() : return the answer's meta-datas\n
+*				- meta->getColumnCount() : return the answer's column's number\n
+*			- rep->next() : return the next datas (to get something after a query you must use next() at least once\n
+*			- For each answers' lines,\n
+*				- meta->getColumnLabel(numLine) : return the column's name\n
+*				- meta->getColumnName(numLine) : return the column's name\n
+*				- meta->getColumnType(numLine)\n
+*				- meta->getColumnTypeName(numLine) : return the column's type in capital\n
+*				- meta->isAutoIncrement(numLine) : return true if the column is autoincrement, false either\n
 */
 class BDD {
 	public:
@@ -172,6 +171,15 @@ class BDD {
 			*		\param[in]		table		The table where to search
 			*
 			*		\return			Return a vector containing the attributes
+			*
+			* \details	- Each column contains the listed fields\n
+			*				- name : The column name\n
+			*				- type : The column type in uppercase\n
+			*				- autoincrement : 1 if the column is autoincremented, 0 otherwise\n
+			*				- null : 1 if the column can be set to NULL, 0 otherwise\n
+			*				- numeric : 1 if the column type is a numeric type, 0 otherwise\n
+			*				- default : 1 if the column has a default value, 0 otherwise\n
+			*				- default value (only if \b default = 1) : The default value of the column\n
 			*/
 			ColsArray getColumns(std::string table = "");
 

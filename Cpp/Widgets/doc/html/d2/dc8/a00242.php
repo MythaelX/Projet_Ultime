@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
+$(document).ready(function(){initNavTree('db/df3/a00034.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,27 +109,26 @@ $(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">WindowTitleBar Member List</div>  </div>
+<div class="title">TableWidget Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../db/df3/a00034.php">TableWidget</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a91ce1aab8c3ed4a14554a1ddc32a87f1">ApplyResizeChange</a>(bool state)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a4def0f2b659a07381fe8abaedd90e303">ApplyTitleBarState</a>(bool state)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a2929d886be76951491d9bb53a6e1ce9e">drawButtonsArea</a>(QPainter &amp;painter)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a51c99fb3d787abe8bc647145272981f0">drawTitleBar</a>(QPainter &amp;painter)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a7d91818e1ef1189dc5c0524729a62e34">Maximized</a>()</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#aae235853885d03ddd070efb8fef2f4e1">Minimized</a>()</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a5fa1f19401f127094ba42152928892a1">mouseMoveEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a50b62b3569bb0e173904117cb875d157">mousePressEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a5c3e48aa0d5bc65f2958b3037a0e1587">mouseReleaseEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a43be58f98c5d53bce63cd96999e7c71a">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a1604ff5ed446b01e08dbb4d05be48f63">Quit</a>()</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#aade75345fb7a4b62c361345c64884a82">resizeEvent</a>(QResizeEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a5a96b7bd195f625fc4ffb6c7fe180709">UpdateWindowTitle</a>(QString title)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#acbc4eaf9b9265fe9ac013aeba5e80e76">WindowTitleBar</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a8fa4e86180d7e76a04f68b864b5a8c3a">~WindowTitleBar</a>()</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">WindowTitleBar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#abe173d2bf4af78a34eea42f6015dfc24">add</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/df3/a00034.php#acce74e5071c06cb79eb9120e7ca321f2">add</a>(QCheckBox *widget)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#a89b038bcb974698aa762291d72cb52e3">add</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/df3/a00034.php#a9965d8f6b70b52fc8e25906a20d4a771">addHeader</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#a59d73338e3d97bafc754ed798fd487f6">addHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/df3/a00034.php#a6ec3251ece680a9da68c7e4adb1f6531">get</a>(size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#af755e8891f462562c88c37735345a798">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">Widget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/df3/a00034.php#a38b92f2d6e93627e3034f07a73138b1e">set</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#a25bba3124cdbe518985157ff23b0b1d0">setHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../db/df3/a00034.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>(QWidget *parent=nullptr, size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#a8ee97e18b4afb72672b36ef2002537ae">update</a>()</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../db/df3/a00034.php#a5fb6edc429e21280d8f47faf6fe012fa">~TableWidget</a>()</td><td class="entry"><a class="el" href="../../db/df3/a00034.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/dc6/a00037.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a>()</td><td class="entry"><a class="el" href="../../d1/dc6/a00037.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

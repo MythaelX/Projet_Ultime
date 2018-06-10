@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -105,21 +104,13 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="../../dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b">BDD::exists</a>  (std::string task, std::string table="")</dt>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="../../da/da0/a00009.php#a89b038bcb974698aa762291d72cb52e3">TableWidget::add</a>  (QWidget *widget, size_t x, size_t y)</dt>
 <dd></dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="../../d9/da4/a00078.php#a61c3fca982e77f1f6899239b22b9ad79">getMilli</a>  ()</dt>
-<dd>Return the milliseconds since the Epoch  </dd>
-<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../dd/da2/a00019.php">jumble</a>  </dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="../../da/da0/a00009.php#a59d73338e3d97bafc754ed798fd487f6">TableWidget::addHeader</a>  (QWidget *widget, size_t x)</dt>
 <dd></dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="../../d0/dc0/a00033.php#a89b038bcb974698aa762291d72cb52e3">TableWidget::add</a>  (QWidget *widget, size_t x, size_t y)</dt>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="../../da/da0/a00009.php#a38b92f2d6e93627e3034f07a73138b1e">TableWidget::set</a>  (QWidget *widget, size_t x, size_t y)</dt>
 <dd></dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="../../d0/dc0/a00033.php#a59d73338e3d97bafc754ed798fd487f6">TableWidget::addHeader</a>  (QWidget *widget, size_t x)</dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="../../d0/dc0/a00033.php#a38b92f2d6e93627e3034f07a73138b1e">TableWidget::set</a>  (QWidget *widget, size_t x, size_t y)</dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="../../d0/dc0/a00033.php#a25bba3124cdbe518985157ff23b0b1d0">TableWidget::setHeader</a>  (QWidget *widget, size_t x)</dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../db/df3/a00034.php">Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="../../da/da0/a00009.php#a25bba3124cdbe518985157ff23b0b1d0">TableWidget::setHeader</a>  (QWidget *widget, size_t x)</dt>
 <dd></dd>
 </dl>
 </div></div><!-- contents -->

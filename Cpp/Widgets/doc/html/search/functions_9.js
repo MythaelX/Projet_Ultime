@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['jumble',['jumble',['../dd/da2/a00019.php#a4f82dc848cfaed87d3c8c41d11611cdf',1,'jumble']]]
+  ['qhspaceritem',['QHSpacerItem',['../de/d21/a00006.php#a7fa21864bd309afcca8221e427ecbe62',1,'QHSpacerItem']]],
+  ['quit',['Quit',['../d7/dd4/a00013.php#a1604ff5ed446b01e08dbb4d05be48f63',1,'WindowTitleBar']]],
+  ['qvspaceritem',['QVSpacerItem',['../de/d5e/a00007.php#a833d08c247a52f8eff4109f5f1e26210',1,'QVSpacerItem']]]
 ];

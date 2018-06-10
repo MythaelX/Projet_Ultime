@@ -1,16 +1,2 @@
-<map id="Args.hpp" name="Args.hpp">
-<area shape="rect" id="node2" href="$d3/dea/a00046.php" title="defines.hpp" alt="" coords="603,80,693,107"/>
-<area shape="rect" id="node3" href="$d6/d42/a00043.php" title="Contraption.hpp" alt="" coords="464,155,579,181"/>
-<area shape="rect" id="node8" href="$db/d3a/a00040.php" title="C++.hpp" alt="" coords="546,677,619,704"/>
-<area shape="rect" id="node15" href="$d6/d97/a00045.php" title="cryptage.hpp" alt="" coords="686,304,783,331"/>
-<area shape="rect" id="node4" href="$d2/dee/a00049.php" title="Entity.hpp" alt="" coords="119,229,201,256"/>
-<area shape="rect" id="node7" href="$d4/dca/a00048.php" title="Entities.hpp" alt="" coords="267,528,357,555"/>
-<area shape="rect" id="node14" href="$d7/df7/a00058.php" title="Object.hpp" alt="" coords="525,229,611,256"/>
-<area shape="rect" id="node5" href="$d4/d8c/a00035.php" title="Animal.hpp" alt="" coords="15,379,102,405"/>
-<area shape="rect" id="node10" href="$dc/dee/a00053.php" title="Hostile.hpp" alt="" coords="35,304,123,331"/>
-<area shape="rect" id="node11" href="$d6/d2c/a00072.php" title="Vegetal.hpp" alt="" coords="220,379,311,405"/>
-<area shape="rect" id="node6" href="$de/d8c/a00036.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
-<area shape="rect" id="node9" href="$d9/d73/a00060.php" title="Player.hpp" alt="" coords="475,603,559,629"/>
-<area shape="rect" id="node12" href="$d3/d8b/a00059.php" title="Plant.hpp" alt="" coords="248,453,325,480"/>
-<area shape="rect" id="node13" href="$d1/d22/a00057.php" title="Mushroom.hpp" alt="" coords="350,453,458,480"/>
+<map id="WindowButton" name="WindowButton">
 </map>

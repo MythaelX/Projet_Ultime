@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: types.hpp File Reference</title>
+<title>C++: tree.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,155 +107,1238 @@ $(document).ready(function(){initNavTree('d9/d73/a00060.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">types.hpp File Reference</div>  </div>
+<div class="title">tree.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;typeinfo&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/de0/a00050_source.php">maths.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for types.hpp:</div>
+Include dependency graph for tree.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d7d/a00093.png" border="0" usemap="#types_8hpp" alt=""/></div>
+<div class="center"><img src="../../d4/d7d/a00093.png" border="0" usemap="#tree_8hpp" alt=""/></div>
+<map name="tree_8hpp" id="tree_8hpp">
+<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
+</map>
 </div>
 </div>
 <p><a href="../../d9/d73/a00060_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:df/d03/a00062"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php">Typer</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php">Node&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/db2/a00020.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae4fbe8a34f580e60f6ed9f42c245489c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ae4fbe8a34f580e60f6ed9f42c245489c">RIGHT_NODE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ae4fbe8a34f580e60f6ed9f42c245489c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ab3f795890edd232dacd1bf163ef02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ab2ab3f795890edd232dacd1bf163ef02">LEFT_NODE</a>&#160;&#160;&#160;-1</td></tr>
+<tr class="separator:ab2ab3f795890edd232dacd1bf163ef02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa80cc857b10a19d8c8146856d390fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#adfa80cc857b10a19d8c8146856d390fe">NO_NODE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:adfa80cc857b10a19d8c8146856d390fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0a1e73288e0ceb794c65bd86a4b7f231"><td class="memItemLeft" align="right" valign="top">typedef long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a></td></tr>
+<tr class="separator:a0a1e73288e0ceb794c65bd86a4b7f231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#aecf59a2b719b8c7121eee69d1bb737e8">printType</a> (C &amp;obj)</td></tr>
-<tr class="memdesc:aecf59a2b719b8c7121eee69d1bb737e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the type of \â obj.  <a href="#aecf59a2b719b8c7121eee69d1bb737e8">More...</a><br /></td></tr>
-<tr class="separator:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer::firstLetter</a> (std::string in)</td></tr>
-<tr class="memdesc:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the first letter in the in string.  <a href="../../df/d03/a00062.php#ad2c2baf0c63c7c94b50ef7407851cc8e">More...</a><br /></td></tr>
-<tr class="separator:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a6d01957e99131ce0c8d0902a9a8cdf38">getType</a> (C &amp;obj)</td></tr>
-<tr class="memdesc:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of <em>obj</em> in a string.  <a href="#a6d01957e99131ce0c8d0902a9a8cdf38">More...</a><br /></td></tr>
-<tr class="separator:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ae549f98d8a0469bd0533f807c2b51b84">getType</a> (C obj)</td></tr>
-<tr class="memdesc:ae549f98d8a0469bd0533f807c2b51b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a pointer <em>obj</em> in a string.  <a href="#ae549f98d8a0469bd0533f807c2b51b84">More...</a><br /></td></tr>
-<tr class="separator:ae549f98d8a0469bd0533f807c2b51b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a150358d1355a1feec0dd9c239e528ba5"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a150358d1355a1feec0dd9c239e528ba5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a150358d1355a1feec0dd9c239e528ba5">printNode</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *node, long int index=-1)</td></tr>
+<tr class="memdesc:a150358d1355a1feec0dd9c239e528ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to print the node value in cout stream.  <a href="#a150358d1355a1feec0dd9c239e528ba5">More...</a><br /></td></tr>
+<tr class="separator:a150358d1355a1feec0dd9c239e528ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba86e01e66ef0911ee1fd3e3a1db1ca"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6ba86e01e66ef0911ee1fd3e3a1db1ca"><td class="memTemplItemLeft" align="right" valign="top">short&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a6ba86e01e66ef0911ee1fd3e3a1db1ca">sorter</a> (std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas, std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; nodeDatas)</td></tr>
+<tr class="memdesc:a6ba86e01e66ef0911ee1fd3e3a1db1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to sort a tree depending on weights.  <a href="#a6ba86e01e66ef0911ee1fd3e3a1db1ca">More...</a><br /></td></tr>
+<tr class="separator:a6ba86e01e66ef0911ee1fd3e3a1db1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d56f2cd35d9fdf524dc21c2fd243233"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a0d56f2cd35d9fdf524dc21c2fd243233"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a0d56f2cd35d9fdf524dc21c2fd243233">convertInTreeValues</a> (std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td></tr>
+<tr class="memdesc:a0d56f2cd35d9fdf524dc21c2fd243233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array format for the tree.  <a href="#a0d56f2cd35d9fdf524dc21c2fd243233">More...</a><br /></td></tr>
+<tr class="separator:a0d56f2cd35d9fdf524dc21c2fd243233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bcdc1113d4578db82209cd9c38d8cb1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8bcdc1113d4578db82209cd9c38d8cb1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a8bcdc1113d4578db82209cd9c38d8cb1">createChild</a> (T values, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> weight)</td></tr>
+<tr class="memdesc:a8bcdc1113d4578db82209cd9c38d8cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a child for the tree.  <a href="#a8bcdc1113d4578db82209cd9c38d8cb1">More...</a><br /></td></tr>
+<tr class="separator:a8bcdc1113d4578db82209cd9c38d8cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43dc65d8aebbcca6dd43ec0a2b0637b6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a43dc65d8aebbcca6dd43ec0a2b0637b6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a43dc65d8aebbcca6dd43ec0a2b0637b6">insert</a> (std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *node, short(*comparator)(std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;, std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;))</td></tr>
+<tr class="memdesc:a43dc65d8aebbcca6dd43ec0a2b0637b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert datas in the tree.  <a href="#a43dc65d8aebbcca6dd43ec0a2b0637b6">More...</a><br /></td></tr>
+<tr class="separator:a43dc65d8aebbcca6dd43ec0a2b0637b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca042957dcee09f6c183f30c6bcb109b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aca042957dcee09f6c183f30c6bcb109b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#aca042957dcee09f6c183f30c6bcb109b">createBinaryTree</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt; datas, short(*comparator)(std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;, std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;))</td></tr>
+<tr class="memdesc:aca042957dcee09f6c183f30c6bcb109b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binary tree with a custom sort function.  <a href="#aca042957dcee09f6c183f30c6bcb109b">More...</a><br /></td></tr>
+<tr class="separator:aca042957dcee09f6c183f30c6bcb109b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2acdabec1b9860acb985d49992db032"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac2acdabec1b9860acb985d49992db032"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ac2acdabec1b9860acb985d49992db032">createBinaryTree</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt; datas)</td></tr>
+<tr class="memdesc:ac2acdabec1b9860acb985d49992db032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binary tree with default sorter function.  <a href="#ac2acdabec1b9860acb985d49992db032">More...</a><br /></td></tr>
+<tr class="separator:ac2acdabec1b9860acb985d49992db032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf57df4057638a264b98edf669612682"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abf57df4057638a264b98edf669612682"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682">copyData</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *nodeSource, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *nodeCopy)</td></tr>
+<tr class="memdesc:abf57df4057638a264b98edf669612682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy datas from a node to another.  <a href="#abf57df4057638a264b98edf669612682">More...</a><br /></td></tr>
+<tr class="separator:abf57df4057638a264b98edf669612682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1186e4caac5cd7b49c6ebb5dfac23e53"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1186e4caac5cd7b49c6ebb5dfac23e53"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a1186e4caac5cd7b49c6ebb5dfac23e53">treeHeight</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root)</td></tr>
+<tr class="memdesc:a1186e4caac5cd7b49c6ebb5dfac23e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the height of the tree.  <a href="#a1186e4caac5cd7b49c6ebb5dfac23e53">More...</a><br /></td></tr>
+<tr class="separator:a1186e4caac5cd7b49c6ebb5dfac23e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fde380f27243eba602c10dd02d7e377"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3fde380f27243eba602c10dd02d7e377"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a3fde380f27243eba602c10dd02d7e377">GRD</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *node, void(*func)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, long int), long int index=-1)</td></tr>
+<tr class="memdesc:a3fde380f27243eba602c10dd02d7e377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the tree from left then root to right.  <a href="#a3fde380f27243eba602c10dd02d7e377">More...</a><br /></td></tr>
+<tr class="separator:a3fde380f27243eba602c10dd02d7e377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822f289cec240962d857d201aaea89b5"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a822f289cec240962d857d201aaea89b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a822f289cec240962d857d201aaea89b5">printTree</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *node)</td></tr>
+<tr class="memdesc:a822f289cec240962d857d201aaea89b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the tree.  <a href="#a822f289cec240962d857d201aaea89b5">More...</a><br /></td></tr>
+<tr class="separator:a822f289cec240962d857d201aaea89b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382275a07cf1f2a46cbaabc75fa93215"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a382275a07cf1f2a46cbaabc75fa93215"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a382275a07cf1f2a46cbaabc75fa93215">rightBalance</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root)</td></tr>
+<tr class="memdesc:a382275a07cf1f2a46cbaabc75fa93215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Balance right the tree.  <a href="#a382275a07cf1f2a46cbaabc75fa93215">More...</a><br /></td></tr>
+<tr class="separator:a382275a07cf1f2a46cbaabc75fa93215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a22cef67a94326ca5c854c6426dfa4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a92a22cef67a94326ca5c854c6426dfa4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a92a22cef67a94326ca5c854c6426dfa4">leftBalance</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root)</td></tr>
+<tr class="memdesc:a92a22cef67a94326ca5c854c6426dfa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Balance left the tree.  <a href="#a92a22cef67a94326ca5c854c6426dfa4">More...</a><br /></td></tr>
+<tr class="separator:a92a22cef67a94326ca5c854c6426dfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89459cf62f1cb8716e7e369ec281555"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab89459cf62f1cb8716e7e369ec281555"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ab89459cf62f1cb8716e7e369ec281555">leftRotate</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree, void(*func)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *))</td></tr>
+<tr class="memdesc:ab89459cf62f1cb8716e7e369ec281555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate the branch to the left.  <a href="#ab89459cf62f1cb8716e7e369ec281555">More...</a><br /></td></tr>
+<tr class="separator:ab89459cf62f1cb8716e7e369ec281555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c95fabf27f049acdedcbc8dac1df25"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac0c95fabf27f049acdedcbc8dac1df25"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ac0c95fabf27f049acdedcbc8dac1df25">rightRotate</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree, void(*func)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *))</td></tr>
+<tr class="memdesc:ac0c95fabf27f049acdedcbc8dac1df25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate the branch to the right.  <a href="#ac0c95fabf27f049acdedcbc8dac1df25">More...</a><br /></td></tr>
+<tr class="separator:ac0c95fabf27f049acdedcbc8dac1df25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac291426463c8625f13688e606a05e4b8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac291426463c8625f13688e606a05e4b8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ac291426463c8625f13688e606a05e4b8">createRightVine</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree)</td></tr>
+<tr class="separator:ac291426463c8625f13688e606a05e4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574c0b660263cb94d9a1e8afd486d25a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a574c0b660263cb94d9a1e8afd486d25a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a574c0b660263cb94d9a1e8afd486d25a">createLeftVine</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree)</td></tr>
+<tr class="separator:a574c0b660263cb94d9a1e8afd486d25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d38298b4f4a9c44baa90aa8e9f29b0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a62d38298b4f4a9c44baa90aa8e9f29b0"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a62d38298b4f4a9c44baa90aa8e9f29b0">getRightNodeCount</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree)</td></tr>
+<tr class="memdesc:a62d38298b4f4a9c44baa90aa8e9f29b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on right.  <a href="#a62d38298b4f4a9c44baa90aa8e9f29b0">More...</a><br /></td></tr>
+<tr class="separator:a62d38298b4f4a9c44baa90aa8e9f29b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c778ab71fa0fc25e9fc3d1d32e2c6a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac5c778ab71fa0fc25e9fc3d1d32e2c6a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#ac5c778ab71fa0fc25e9fc3d1d32e2c6a">getLeftNodeCount</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree)</td></tr>
+<tr class="memdesc:ac5c778ab71fa0fc25e9fc3d1d32e2c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth on left.  <a href="#ac5c778ab71fa0fc25e9fc3d1d32e2c6a">More...</a><br /></td></tr>
+<tr class="separator:ac5c778ab71fa0fc25e9fc3d1d32e2c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e3bec3cf3101c5fd44f21ff9c4349f7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a3e3bec3cf3101c5fd44f21ff9c4349f7"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a3e3bec3cf3101c5fd44f21ff9c4349f7">rightBalanceVine</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree, int nodeCount)</td></tr>
+<tr class="separator:a3e3bec3cf3101c5fd44f21ff9c4349f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6cae1bd0191f7106f1ad3375c3855e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6f6cae1bd0191f7106f1ad3375c3855e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a6f6cae1bd0191f7106f1ad3375c3855e">leftBalanceVine</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *tree, int nodeCount)</td></tr>
+<tr class="separator:a6f6cae1bd0191f7106f1ad3375c3855e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b614bb30047d2274d091e553426e85"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a10b614bb30047d2274d091e553426e85"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a10b614bb30047d2274d091e553426e85">finder</a> (T value, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *node, std::string &amp;path)</td></tr>
+<tr class="memdesc:a10b614bb30047d2274d091e553426e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a value in the tree and return the right node.  <a href="#a10b614bb30047d2274d091e553426e85">More...</a><br /></td></tr>
+<tr class="separator:a10b614bb30047d2274d091e553426e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653f604d83b424493ac7d0d3d586a3c2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a653f604d83b424493ac7d0d3d586a3c2"><td class="memTemplItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, std::string &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#a653f604d83b424493ac7d0d3d586a3c2">find</a> (T value, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root)</td></tr>
+<tr class="memdesc:a653f604d83b424493ac7d0d3d586a3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a value in the tree and return the node and the path to the node.  <a href="#a653f604d83b424493ac7d0d3d586a3c2">More...</a><br /></td></tr>
+<tr class="separator:a653f604d83b424493ac7d0d3d586a3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf4abb2890328ad05c09398704e641a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:afcf4abb2890328ad05c09398704e641a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#afcf4abb2890328ad05c09398704e641a">freeTree</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root, void(*func)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *))</td></tr>
+<tr class="memdesc:afcf4abb2890328ad05c09398704e641a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the differents nodes of the tree with a function for the node.  <a href="#afcf4abb2890328ad05c09398704e641a">More...</a><br /></td></tr>
+<tr class="separator:afcf4abb2890328ad05c09398704e641a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f015a27dd3c807d38c0e9762706a31"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa7f015a27dd3c807d38c0e9762706a31"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d73/a00060.php#aa7f015a27dd3c807d38c0e9762706a31">freeTree</a> (<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *root)</td></tr>
+<tr class="memdesc:aa7f015a27dd3c807d38c0e9762706a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free the tree and the differents nodes.  <a href="#aa7f015a27dd3c807d38c0e9762706a31">More...</a><br /></td></tr>
+<tr class="separator:aa7f015a27dd3c807d38c0e9762706a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000006">Todo:</a></b></dt><dd>Transform all to do a Tree class</dd></dl>
 
-<p>Definition in file <a class="el" href="../../d9/d73/a00060_source.php">types.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a6d01957e99131ce0c8d0902a9a8cdf38"></a>
+<p>Definition in file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="ab2ab3f795890edd232dacd1bf163ef02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEFT_NODE&#160;&#160;&#160;-1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00016">16</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adfa80cc857b10a19d8c8146856d390fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NO_NODE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00017">17</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4fbe8a34f580e60f6ed9f42c245489c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RIGHT_NODE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00015">15</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a0a1e73288e0ceb794c65bd86a4b7f231"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef long double <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00019">19</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0d56f2cd35d9fdf524dc21c2fd243233"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;!std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td class="memname">std::vector&lt;std::pair&lt;T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&gt; &gt; convertInTreeValues </td>
           <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; T, U &gt;&gt;&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the type of <em>obj</em> in a string. </p>
+<p>Return an array format for the tree. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to convert</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Return <em>in</em> converted for the tree </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00043">43</a> of file <a class="el" href="../../d9/d73/a00060_source.php">types.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d73/a00060_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph.png" border="0" usemap="#d9/d73/a00060_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" alt=""/></div>
-<map name="d9/d73/a00060_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" id="d9/d73/a00060_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph">
-<area shape="rect" id="node2" href="../../df/d03/a00062.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00079">79</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae549f98d8a0469bd0533f807c2b51b84"></a>
+<a class="anchor" id="abf57df4057638a264b98edf669612682"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td class="memname">void copyData </td>
           <td>(</td>
-          <td class="paramtype">C&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>nodeSource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>nodeCopy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the type of a pointer <em>obj</em> in a string. </p>
+<p>Copy datas from a node to another. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00056">56</a> of file <a class="el" href="../../d9/d73/a00060_source.php">types.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d73/a00060_ae549f98d8a0469bd0533f807c2b51b84_cgraph.png" border="0" usemap="#d9/d73/a00060_ae549f98d8a0469bd0533f807c2b51b84_cgraph" alt=""/></div>
-<map name="d9/d73/a00060_ae549f98d8a0469bd0533f807c2b51b84_cgraph" id="d9/d73/a00060_ae549f98d8a0469bd0533f807c2b51b84_cgraph">
-<area shape="rect" id="node2" href="../../df/d03/a00062.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aecf59a2b719b8c7121eee69d1bb737e8"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void printType </td>
-          <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the type of \â obj. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to print the type of</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nodeSource</td><td>The node to get the datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nodeCopy</td><td>The node where to copy the datas</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00021">21</a> of file <a class="el" href="../../d9/d73/a00060_source.php">types.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00194">194</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca042957dcee09f6c183f30c6bcb109b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* createBinaryTree </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>datas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short(*)(std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;, std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;)&#160;</td>
+          <td class="paramname"><em>comparator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a binary tree with a custom sort function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>All the datas for the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">comparator</td><td>The compare function to sort the datas</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00165">165</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_aca042957dcee09f6c183f30c6bcb109b_cgraph.png" border="0" usemap="#d9/d73/a00060_aca042957dcee09f6c183f30c6bcb109b_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_aca042957dcee09f6c183f30c6bcb109b_cgraph" id="d9/d73/a00060_aca042957dcee09f6c183f30c6bcb109b_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a43dc65d8aebbcca6dd43ec0a2b0637b6" title="Insert datas in the tree. " alt="" coords="175,5,229,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#a8bcdc1113d4578db82209cd9c38d8cb1" title="Create a child for the tree. " alt="" coords="277,5,365,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac2acdabec1b9860acb985d49992db032"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* createBinaryTree </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt;&#160;</td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a binary tree with default sorter function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>All the datas for the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00182">182</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_ac2acdabec1b9860acb985d49992db032_cgraph.png" border="0" usemap="#d9/d73/a00060_ac2acdabec1b9860acb985d49992db032_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_ac2acdabec1b9860acb985d49992db032_cgraph" id="d9/d73/a00060_ac2acdabec1b9860acb985d49992db032_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#aca042957dcee09f6c183f30c6bcb109b" title="Create a binary tree with a custom sort function. " alt="" coords="175,5,296,32"/>
+<area shape="rect" id="node5" href="../../d9/d73/a00060.php#a6ba86e01e66ef0911ee1fd3e3a1db1ca" title="Function to sort a tree depending on weights. " alt="" coords="208,56,263,83"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#a43dc65d8aebbcca6dd43ec0a2b0637b6" title="Insert datas in the tree. " alt="" coords="344,5,399,32"/>
+<area shape="rect" id="node4" href="../../d9/d73/a00060.php#a8bcdc1113d4578db82209cd9c38d8cb1" title="Create a child for the tree. " alt="" coords="447,5,535,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bcdc1113d4578db82209cd9c38d8cb1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* createChild </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td>
+          <td class="paramname"><em>weight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a child for the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">values</td><td>The value for the child </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">weight</td><td>The weight for the child</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00100">100</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a574c0b660263cb94d9a1e8afd486d25a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* createLeftVine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00363">363</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a574c0b660263cb94d9a1e8afd486d25a_cgraph.png" border="0" usemap="#d9/d73/a00060_a574c0b660263cb94d9a1e8afd486d25a_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a574c0b660263cb94d9a1e8afd486d25a_cgraph" id="d9/d73/a00060_a574c0b660263cb94d9a1e8afd486d25a_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="160,5,239,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="160,56,239,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac291426463c8625f13688e606a05e4b8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* createRightVine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00344">344</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_ac291426463c8625f13688e606a05e4b8_cgraph.png" border="0" usemap="#d9/d73/a00060_ac291426463c8625f13688e606a05e4b8_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_ac291426463c8625f13688e606a05e4b8_cgraph" id="d9/d73/a00060_ac291426463c8625f13688e606a05e4b8_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="168,5,255,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="172,56,251,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a653f604d83b424493ac7d0d3d586a3c2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;<a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;*, std::string&gt; find </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a value in the tree and return the node and the path to the node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to find in the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the node and the path to this node from the root </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00517">517</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a653f604d83b424493ac7d0d3d586a3c2_cgraph.png" border="0" usemap="#d9/d73/a00060_a653f604d83b424493ac7d0d3d586a3c2_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a653f604d83b424493ac7d0d3d586a3c2_cgraph" id="d9/d73/a00060_a653f604d83b424493ac7d0d3d586a3c2_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="96,5,151,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a10b614bb30047d2274d091e553426e85"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* finder </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a value in the tree and return the right node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to find </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">path</td><td>The path to the value in the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00482">482</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afcf4abb2890328ad05c09398704e641a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void freeTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *)&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free the differents nodes of the tree with a function for the node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to apply to each nodes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00537">537</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7f015a27dd3c807d38c0e9762706a31"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void freeTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free the tree and the differents nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00554">554</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_aa7f015a27dd3c807d38c0e9762706a31_cgraph.png" border="0" usemap="#d9/d73/a00060_aa7f015a27dd3c807d38c0e9762706a31_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_aa7f015a27dd3c807d38c0e9762706a31_cgraph" id="d9/d73/a00060_aa7f015a27dd3c807d38c0e9762706a31_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#afcf4abb2890328ad05c09398704e641a" title="Free the differents nodes of the tree with a function for the node. " alt="" coords="124,5,195,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5c778ab71fa0fc25e9fc3d1d32e2c6a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int getLeftNodeCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the depth on left. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the left </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00404">404</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a62d38298b4f4a9c44baa90aa8e9f29b0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int getRightNodeCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the depth on right. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the right </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00382">382</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3fde380f27243eba602c10dd02d7e377"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void GRD </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, long int)&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long int&#160;</td>
+          <td class="paramname"><em>index</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the tree from left then root to right. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The function to do something on each node </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index to let know the number of GRD call</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00232">232</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43dc65d8aebbcca6dd43ec0a2b0637b6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* insert </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
+          <td class="paramname"><em>datas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short(*)(std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;, std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;)&#160;</td>
+          <td class="paramname"><em>comparator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Insert datas in the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas for the new node </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The node where to insert </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">comparator</td><td>The function to sort the new node</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00119">119</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a43dc65d8aebbcca6dd43ec0a2b0637b6_cgraph.png" border="0" usemap="#d9/d73/a00060_a43dc65d8aebbcca6dd43ec0a2b0637b6_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a43dc65d8aebbcca6dd43ec0a2b0637b6_cgraph" id="d9/d73/a00060_a43dc65d8aebbcca6dd43ec0a2b0637b6_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a8bcdc1113d4578db82209cd9c38d8cb1" title="Create a child for the tree. " alt="" coords="108,5,196,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a92a22cef67a94326ca5c854c6426dfa4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* leftBalance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Balance left the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00281">281</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a92a22cef67a94326ca5c854c6426dfa4_cgraph.png" border="0" usemap="#d9/d73/a00060_a92a22cef67a94326ca5c854c6426dfa4_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a92a22cef67a94326ca5c854c6426dfa4_cgraph" id="d9/d73/a00060_a92a22cef67a94326ca5c854c6426dfa4_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a574c0b660263cb94d9a1e8afd486d25a" title="createLeftVine" alt="" coords="151,31,257,57"/>
+<area shape="rect" id="node5" href="../../d9/d73/a00060.php#a6f6cae1bd0191f7106f1ad3375c3855e" title="leftBalanceVine" alt="" coords="147,81,261,108"/>
+<area shape="rect" id="node7" href="../../d9/d73/a00060.php#ac5c778ab71fa0fc25e9fc3d1d32e2c6a" title="Get the depth on left. " alt="" coords="140,132,268,159"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="320,5,399,32"/>
+<area shape="rect" id="node4" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="320,56,399,83"/>
+<area shape="rect" id="node6" href="../../d9/d73/a00060.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="316,107,403,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f6cae1bd0191f7106f1ad3375c3855e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* leftBalanceVine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nodeCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nodeCount</td><td>The number of nodes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00454">454</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a6f6cae1bd0191f7106f1ad3375c3855e_cgraph.png" border="0" usemap="#d9/d73/a00060_a6f6cae1bd0191f7106f1ad3375c3855e_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a6f6cae1bd0191f7106f1ad3375c3855e_cgraph" id="d9/d73/a00060_a6f6cae1bd0191f7106f1ad3375c3855e_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="167,5,253,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="171,56,249,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab89459cf62f1cb8716e7e369ec281555"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* leftRotate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *)&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotate the branch to the left. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The compare function to sort the rotation of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00295">295</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a150358d1355a1feec0dd9c239e528ba5"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void printNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long int&#160;</td>
+          <td class="paramname"><em>index</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function to print the node value in cout stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index to know how much point to print before the node value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00043">43</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a822f289cec240962d857d201aaea89b5"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void printTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>node</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00257">257</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a822f289cec240962d857d201aaea89b5_cgraph.png" border="0" usemap="#d9/d73/a00060_a822f289cec240962d857d201aaea89b5_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a822f289cec240962d857d201aaea89b5_cgraph" id="d9/d73/a00060_a822f289cec240962d857d201aaea89b5_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a3fde380f27243eba602c10dd02d7e377" title="Read the tree from left then root to right. " alt="" coords="140,5,192,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#a150358d1355a1feec0dd9c239e528ba5" title="A function to print the node value in cout stream. " alt="" coords="127,56,205,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a382275a07cf1f2a46cbaabc75fa93215"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* rightBalance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Balance right the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00268">268</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a382275a07cf1f2a46cbaabc75fa93215_cgraph.png" border="0" usemap="#d9/d73/a00060_a382275a07cf1f2a46cbaabc75fa93215_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a382275a07cf1f2a46cbaabc75fa93215_cgraph" id="d9/d73/a00060_a382275a07cf1f2a46cbaabc75fa93215_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#ac291426463c8625f13688e606a05e4b8" title="createRightVine" alt="" coords="159,31,274,57"/>
+<area shape="rect" id="node5" href="../../d9/d73/a00060.php#a3e3bec3cf3101c5fd44f21ff9c4349f7" title="rightBalanceVine" alt="" coords="157,81,277,108"/>
+<area shape="rect" id="node7" href="../../d9/d73/a00060.php#a62d38298b4f4a9c44baa90aa8e9f29b0" title="Get the depth on right. " alt="" coords="148,132,285,159"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="333,5,420,32"/>
+<area shape="rect" id="node4" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="337,56,416,83"/>
+<area shape="rect" id="node6" href="../../d9/d73/a00060.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="337,107,416,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e3bec3cf3101c5fd44f21ff9c4349f7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* rightBalanceVine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nodeCount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nodeCount</td><td>The number of nodes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00427">427</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d73/a00060_a3e3bec3cf3101c5fd44f21ff9c4349f7_cgraph.png" border="0" usemap="#d9/d73/a00060_a3e3bec3cf3101c5fd44f21ff9c4349f7_cgraph" alt=""/></div>
+<map name="d9/d73/a00060_a3e3bec3cf3101c5fd44f21ff9c4349f7_cgraph" id="d9/d73/a00060_a3e3bec3cf3101c5fd44f21ff9c4349f7_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="173,5,252,32"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="173,56,252,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0c95fabf27f049acdedcbc8dac1df25"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt;T&gt;* rightRotate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *, <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *)&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rotate the branch to the right. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tree</td><td>The root node of the tree </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The compare function to sort the rotation of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00320">320</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ba86e01e66ef0911ee1fd3e3a1db1ca"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">short sorter </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
+          <td class="paramname"><em>datas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodeDatas</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to sort a tree depending on weights. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas to compare to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nodeDatas</td><td>The datas of the node to compare to <em>datas</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return -1/0/1 to say which node to go </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00059">59</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1186e4caac5cd7b49c6ebb5dfac23e53"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int treeHeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>root</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the height of the tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">root</td><td>The root node of the tree</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the height of the tree </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00212">212</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -264,7 +1347,7 @@ template&lt;class C &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d9/d73/a00060.php">types.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d9/d73/a00060.php">tree.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

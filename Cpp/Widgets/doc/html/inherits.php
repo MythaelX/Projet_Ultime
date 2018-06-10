@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -115,131 +114,35 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <div class="textblock">
 <p><a href="hierarchy.php">Go to the textual class hierarchy</a></p>
 </div><table border="0" cellspacing="10" cellpadding="0">
-<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#Arguments"/>
-<map name="Arguments" id="Arguments">
-<area shape="rect" id="node1" href="d0/d0b/a00004.php" title="A class to manage the arguments. " alt="" coords="5,5,91,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#BDD"/>
-<map name="BDD" id="BDD">
-<area shape="rect" id="node1" href="dd/dad/a00005.php" title="A class to connect to a BDD. " alt="" coords="5,5,56,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#Clock"/>
-<map name="Clock" id="Clock">
-<area shape="rect" id="node1" href="de/d5e/a00007.php" title="A clock to measure the elapsed time. " alt="" coords="5,5,61,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#Cls"/>
-<map name="Cls" id="Cls">
-<area shape="rect" id="node1" href="d4/dee/a00008.php" title="Clear the console. " alt="" coords="5,5,48,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#Color"/>
-<map name="Color" id="Color">
-<area shape="rect" id="node1" href="da/da0/a00009.php" title="Change the text color in the console. " alt="" coords="5,5,59,32"/>
-<area shape="rect" id="node2" href="d5/d16/a00029.php" title="Reinit the color in the console. " alt="" coords="107,5,163,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" alt="" usemap="#ConsoleCursor"/>
-<map name="ConsoleCursor" id="ConsoleCursor">
-<area shape="rect" id="node1" href="d7/dec/a00010.php" title="A class to play with the cursor in the console. " alt="" coords="5,5,115,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" alt="" usemap="#ContraptionAttr"/>
-<map name="ContraptionAttr" id="ContraptionAttr">
-<area shape="rect" id="node1" href="df/d86/a00012.php" title="A struct to define Contraption attributes. " alt="" coords="5,5,116,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" alt="" usemap="#Crypto"/>
-<map name="Crypto" id="Crypto">
-<area shape="rect" id="node1" href="d7/dd4/a00013.php" title="A class to be the parent for every crypt class. " alt="" coords="5,31,67,57"/>
-<area shape="rect" id="node2" href="de/d21/a00006.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="115,5,172,32"/>
-<area shape="rect" id="node3" href="df/d61/a00031.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="118,56,169,83"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" alt="" usemap="#Font"/>
+<tr><td><img src="inherit_graph_0.png" border="0" alt="" usemap="#Font"/>
 <map name="Font" id="Font">
-<area shape="rect" id="node1" href="d7/d7a/a00016.php" title="A class to treat fonts with QFont. " alt="" coords="5,5,53,32"/>
+<area shape="rect" id="node1" href="d0/d0b/a00004.php" title="A class to treat fonts with QFont. " alt="" coords="5,5,53,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" alt="" usemap="#Hostile"/>
-<map name="Hostile" id="Hostile">
-<area shape="rect" id="node1" href="da/d45/a00011.php" title="A contraption. " alt="" coords="5,31,95,57"/>
-<area shape="rect" id="node2" href="dd/d1b/a00015.php" title="An entity. " alt="" coords="146,56,202,83"/>
-<area shape="rect" id="node8" href="d3/d52/a00023.php" title="An object. " alt="" coords="144,5,204,32"/>
-<area shape="rect" id="node3" href="d7/d46/a00002.php" title="An animal. " alt="" coords="255,107,318,133"/>
-<area shape="rect" id="node5" href="d4/d8c/a00035.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
-<area shape="rect" id="node4" href="d1/d7c/a00003.php" title="An ant. " alt="" coords="388,107,431,133"/>
-<area shape="rect" id="node6" href="de/d11/a00021.php" title="A mushroom. " alt="" coords="368,56,451,83"/>
-<area shape="rect" id="node7" href="dc/de2/a00024.php" title="A plant. " alt="" coords="383,5,435,32"/>
-<area shape="rect" id="node9" href="d1/d2b/a00018.php" title="A class to derivate from when the thing can attack. " alt="" coords="143,107,205,133"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" alt="" usemap="#jumble"/>
-<map name="jumble" id="jumble">
-<area shape="rect" id="node1" href="dd/da2/a00019.php" title="A dynamic array to store any type of variable. " alt="" coords="5,5,65,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" alt="" usemap="#Map"/>
-<map name="Map" id="Map">
-<area shape="rect" id="node1" href="db/db2/a00020.php" title="A map class to have something common. " alt="" coords="5,5,52,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" alt="" usemap="#Node_3_01T_01_4"/>
-<map name="Node_3_01T_01_4" id="Node_3_01T_01_4">
-<area shape="rect" id="node1" href="d7/de0/a00022.php" title="A struct to define a node for the tree. " alt="" coords="5,5,91,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" alt="" usemap="#Player_3_01PlayerParent_01_4"/>
-<map name="Player_3_01PlayerParent_01_4" id="Player_3_01PlayerParent_01_4">
-<area shape="rect" id="node2" href="d3/dfe/a00025.php" title="A player that can be a child from any class. " alt="" coords="151,5,309,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" alt="" usemap="#Point"/>
-<map name="Point" id="Point">
-<area shape="rect" id="node1" href="d6/d5b/a00026.php" title="A struct to define a point in space. " alt="" coords="5,5,57,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#QHSpacerItem"/>
+<tr><td><img src="inherit_graph_1.png" border="0" alt="" usemap="#QHSpacerItem"/>
 <map name="QHSpacerItem" id="QHSpacerItem">
-<area shape="rect" id="node2" href="d0/d33/a00027.php" title="An implementation of QSpacerItem. " alt="" coords="152,5,261,32"/>
-<area shape="rect" id="node3" href="dc/d3c/a00028.php" title="An implementation of QSpacerItem. " alt="" coords="153,56,261,83"/>
+<area shape="rect" id="node2" href="de/d21/a00006.php" title="An implementation of QSpacerItem. " alt="" coords="152,5,261,32"/>
+<area shape="rect" id="node3" href="de/d5e/a00007.php" title="An implementation of QSpacerItem. " alt="" coords="153,56,261,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#RNG_3_01T_00_01U_01_4"/>
-<map name="RNG_3_01T_00_01U_01_4" id="RNG_3_01T_00_01U_01_4">
-<area shape="rect" id="node1" href="d5/d79/a00030.php" title="A class to simplify the use of random. " alt="" coords="5,5,108,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#Scene"/>
+<tr><td><img src="inherit_graph_2.png" border="0" alt="" usemap="#Scene"/>
 <map name="Scene" id="Scene">
-<area shape="rect" id="node2" href="dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="175,31,233,57"/>
-<area shape="rect" id="node3" href="d2/de7/a00014.php" title="A Scene implementation to draw with tiles system. " alt="" coords="283,5,374,32"/>
-<area shape="rect" id="node4" href="d4/d51/a00017.php" title="A Scene implementation to draw graphs. " alt="" coords="281,56,376,83"/>
+<area shape="rect" id="node2" href="d4/dee/a00008.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="175,31,233,57"/>
+<area shape="rect" id="node3" href="d1/d7c/a00003.php" title="A Scene implementation to draw with tiles system. " alt="" coords="283,5,374,32"/>
+<area shape="rect" id="node4" href="dd/dad/a00005.php" title="A Scene implementation to draw graphs. " alt="" coords="281,56,376,83"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#Timer"/>
-<map name="Timer" id="Timer">
-<area shape="rect" id="node1" href="db/df3/a00034.php" title="A timer to do something at the end. " alt="" coords="5,5,60,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#Widget"/>
+<tr><td><img src="inherit_graph_3.png" border="0" alt="" usemap="#Widget"/>
 <map name="Widget" id="Widget">
-<area shape="rect" id="node2" href="de/d8c/a00036.php" title="Create a personnalized Widget. " alt="" coords="127,56,189,83"/>
-<area shape="rect" id="node3" href="d0/dc0/a00033.php" title="Create a personnalized TableWidget. " alt="" coords="247,5,342,32"/>
-<area shape="rect" id="node4" href="d1/dc6/a00037.php" title="A custom window. " alt="" coords="260,56,329,83"/>
-<area shape="rect" id="node5" href="d3/de7/a00039.php" title="The titlebar of the Window class. " alt="" coords="237,107,352,133"/>
+<area shape="rect" id="node2" href="d7/dec/a00010.php" title="Create a personnalized Widget. " alt="" coords="127,56,189,83"/>
+<area shape="rect" id="node3" href="da/da0/a00009.php" title="Create a personnalized TableWidget. " alt="" coords="247,5,342,32"/>
+<area shape="rect" id="node4" href="da/d45/a00011.php" title="A custom window. " alt="" coords="260,56,329,83"/>
+<area shape="rect" id="node5" href="d7/dd4/a00013.php" title="The titlebar of the Window class. " alt="" coords="237,107,352,133"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#WindowButton"/>
+<tr><td><img src="inherit_graph_4.png" border="0" alt="" usemap="#WindowButton"/>
 <map name="WindowButton" id="WindowButton">
-<area shape="rect" id="node2" href="d8/d41/a00038.php" title="The buttons for the WindowTitleBar and the Window. " alt="" coords="172,5,279,32"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" alt="" usemap="#WorldDimensions"/>
-<map name="WorldDimensions" id="WorldDimensions">
-<area shape="rect" id="node1" href="db/d3a/a00040.php" title="An object to group the dimensions of the world. " alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node2" href="df/d86/a00012.php" title="The buttons for the WindowTitleBar and the Window. " alt="" coords="172,5,279,32"/>
 </map>
 </td></tr>
 </table>

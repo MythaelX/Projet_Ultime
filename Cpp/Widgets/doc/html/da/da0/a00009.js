@@ -1,10 +1,14 @@
 var a00009 =
 [
-    [ "Color", "da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135", null ],
-    [ "Color", "da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2", null ],
-    [ "addColors", "da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac", null ],
-    [ "addColors", "da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738", null ],
-    [ "addColors", "da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26", null ],
-    [ "addColors", "da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790", null ],
-    [ "operator<<", "da/da0/a00009.php#a84513fec989f2f817d2b1c5e6989450e", null ]
+    [ "TableWidget", "da/da0/a00009.php#aa29e2c37c0e310779790537890c529f2", null ],
+    [ "~TableWidget", "da/da0/a00009.php#a5fb6edc429e21280d8f47faf6fe012fa", null ],
+    [ "add", "da/da0/a00009.php#abe173d2bf4af78a34eea42f6015dfc24", null ],
+    [ "add", "da/da0/a00009.php#acce74e5071c06cb79eb9120e7ca321f2", null ],
+    [ "add", "da/da0/a00009.php#a89b038bcb974698aa762291d72cb52e3", null ],
+    [ "addHeader", "da/da0/a00009.php#a9965d8f6b70b52fc8e25906a20d4a771", null ],
+    [ "addHeader", "da/da0/a00009.php#a59d73338e3d97bafc754ed798fd487f6", null ],
+    [ "get", "da/da0/a00009.php#a6ec3251ece680a9da68c7e4adb1f6531", null ],
+    [ "set", "da/da0/a00009.php#a38b92f2d6e93627e3034f07a73138b1e", null ],
+    [ "setHeader", "da/da0/a00009.php#a25bba3124cdbe518985157ff23b0b1d0", null ],
+    [ "update", "da/da0/a00009.php#a8ee97e18b4afb72672b36ef2002537ae", null ]
 ];

@@ -4,11 +4,11 @@
 *	\author		Mathias CABIOCH-DELALANDE
 *	\date		09 juin 2018
 *
-*	\details	Implement a tchat on the website \n
-*				Create an object(\b div, \b span, ...) with the id \b tchat \n
-*				You can add some attributes ; \n
-*					\b textbefore : The input text's placeholder \n
-*					\b buttonvalue : The text on the sender button
+*	\details	- Implement a tchat on the website \n
+*				- Create an object(\b div, \b span, ...) with the id \b tchat \n
+*				- You can add some attributes ; \n
+*					- \b textbefore : The input text's placeholder \n
+*					- \b buttonvalue : The text on the sender button
 *
 */
 'use strict';

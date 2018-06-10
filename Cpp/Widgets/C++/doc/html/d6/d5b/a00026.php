@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: RSA Class Reference</title>
+<title>C++: RNG&lt; T, U &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,309 +110,128 @@ $(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/d82/a00142.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RSA Class Reference</div>  </div>
+<div class="title">RNG&lt; T, U &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to use the <a class="el" href="../../d6/d5b/a00026.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  
+<p>A class to simplify the use of random.  
  <a href="../../d6/d5b/a00026.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for RSA:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/dce/a00143.png" border="0" usemap="#RSA_inherit__map" alt="Inheritance graph"/></div>
-<map name="RSA_inherit__map" id="RSA_inherit__map">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. " alt="" coords="5,5,67,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for RSA:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#RSA_coll__map" alt="Collaboration graph"/></div>
-<map name="RSA_coll__map" id="RSA_coll__map">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. " alt="" coords="5,5,67,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d9/d2e/a00056_source.php">RNG.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b8df3c7a74905f3e35a8e01bfd7da59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a> ()</td></tr>
-<tr class="separator:a8b8df3c7a74905f3e35a8e01bfd7da59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a552895f20169b13fd412bc83738b5db5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a552895f20169b13fd412bc83738b5db5">getPublic</a> ()</td></tr>
-<tr class="memdesc:a552895f20169b13fd412bc83738b5db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the public key.  <a href="#a552895f20169b13fd412bc83738b5db5">More...</a><br /></td></tr>
-<tr class="separator:a552895f20169b13fd412bc83738b5db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa900df17edf76fe7158630ec63db1fa4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#aa900df17edf76fe7158630ec63db1fa4">getPrivate</a> ()</td></tr>
-<tr class="memdesc:aa900df17edf76fe7158630ec63db1fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the private key.  <a href="#aa900df17edf76fe7158630ec63db1fa4">More...</a><br /></td></tr>
-<tr class="separator:aa900df17edf76fe7158630ec63db1fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0019252770d8ace87c447472d5d8b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#ab0019252770d8ace87c447472d5d8b1e">setPublic</a> (std::string key=&quot;&quot;)</td></tr>
-<tr class="memdesc:ab0019252770d8ace87c447472d5d8b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the public key.  <a href="#ab0019252770d8ace87c447472d5d8b1e">More...</a><br /></td></tr>
-<tr class="separator:ab0019252770d8ace87c447472d5d8b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa502d81bc7559e4db119b81ce898b2ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#aa502d81bc7559e4db119b81ce898b2ce">setPrivate</a> (std::string key=&quot;&quot;)</td></tr>
-<tr class="memdesc:aa502d81bc7559e4db119b81ce898b2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the private key.  <a href="#aa502d81bc7559e4db119b81ce898b2ce">More...</a><br /></td></tr>
-<tr class="separator:aa502d81bc7559e4db119b81ce898b2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d51d182786f83236c013c7cb10c2095"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a3d51d182786f83236c013c7cb10c2095">crypt</a> (std::string message)</td></tr>
-<tr class="memdesc:a3d51d182786f83236c013c7cb10c2095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#a3d51d182786f83236c013c7cb10c2095">More...</a><br /></td></tr>
-<tr class="separator:a3d51d182786f83236c013c7cb10c2095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77fb6e6d0ce8b989bfa013c324c310d7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a77fb6e6d0ce8b989bfa013c324c310d7">decrypt</a> (std::string message)</td></tr>
-<tr class="memdesc:a77fb6e6d0ce8b989bfa013c324c310d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#a77fb6e6d0ce8b989bfa013c324c310d7">More...</a><br /></td></tr>
-<tr class="separator:a77fb6e6d0ce8b989bfa013c324c310d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab84588271f2e5417d47251be249951b4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#ab84588271f2e5417d47251be249951b4">crypt</a> ()</td></tr>
-<tr class="separator:ab84588271f2e5417d47251be249951b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00013"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00013')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/dd4/a00013.php">Crypto</a></td></tr>
-<tr class="memitem:abc5714d83e17c9961258646a94e75079 inherit pub_methods_a00013"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a> ()</td></tr>
-<tr class="separator:abc5714d83e17c9961258646a94e75079 inherit pub_methods_a00013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a7d293f0a39aacf8eb05abc7355d436e2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a7d293f0a39aacf8eb05abc7355d436e2">publicK</a></td></tr>
-<tr class="separator:a7d293f0a39aacf8eb05abc7355d436e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a933f86ffad0a7a2d5d5e6099bdb5f1be"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a933f86ffad0a7a2d5d5e6099bdb5f1be">privateK</a></td></tr>
-<tr class="separator:a933f86ffad0a7a2d5d5e6099bdb5f1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a> ()</td></tr>
+<tr class="separator:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a> (T a, T b)</td></tr>
+<tr class="memdesc:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="#ac81b86f2d95f99cb5e2f778592d6fd3a">More...</a><br /></td></tr>
+<tr class="separator:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to use the <a class="el" href="../../d6/d5b/a00026.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
+<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
+class RNG&lt; T, U &gt;</h3>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00084">84</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
+<p>A class to simplify the use of random. </p>
+
+<p>Definition at line <a class="el" href="../../d9/d2e/a00056_source.php#l00021">21</a> of file <a class="el" href="../../d9/d2e/a00056_source.php">RNG.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8b8df3c7a74905f3e35a8e01bfd7da59"></a>
+<a class="anchor" id="a9981de0f2f28a52ae600df8fbc0404c6"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">RSA::RSA </td>
+          <td class="memname"><a class="el" href="../../d6/d5b/a00026.php">RNG</a>&lt; T, U &gt;::<a class="el" href="../../d6/d5b/a00026.php">RNG</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d2e/a00056_source.php#l00023">23</a> of file <a class="el" href="../../d9/d2e/a00056_source.php">RNG.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3d51d182786f83236c013c7cb10c2095"></a>
+<a class="anchor" id="ac81b86f2d95f99cb5e2f778592d6fd3a"></a>
 <div class="memitem">
 <div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::crypt </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overload of the crypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to encrypt</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the encrypted message </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ab84588271f2e5417d47251be249951b4"></a>
-<div class="memitem">
-<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void RSA::crypt </td>
+          <td class="memname">T <a class="el" href="../../d6/d5b/a00026.php">RNG</a>&lt; T, U &gt;::operator() </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Rewrite the pur virtual method crypt of the parent <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a></p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Implements <a class="el" href="../../d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>.</p>
-
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00138">138</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a77fb6e6d0ce8b989bfa013c324c310d7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::decrypt </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Overload of the decrypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aa900df17edf76fe7158630ec63db1fa4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::getPrivate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the private key. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the private key of the object </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a552895f20169b13fd412bc83738b5db5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::getPublic </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the public key. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the public key of the object </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aa502d81bc7559e4db119b81ce898b2ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RSA::setPrivate </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the private key. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ab0019252770d8ace87c447472d5d8b1e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RSA::setPublic </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>key</em> = <code>&quot;&quot;</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the public key. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>The key</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a933f86ffad0a7a2d5d5e6099bdb5f1be"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::privateK</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00141">141</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
+<p>The definition of the operator () </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
 
-</div>
-</div>
-<a class="anchor" id="a7d293f0a39aacf8eb05abc7355d436e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RSA::publicK</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d9/d2e/a00056_source.php#l00032">32</a> of file <a class="el" href="../../d9/d2e/a00056_source.php">RNG.hpp</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00140">140</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d5b/a00026_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph.png" border="0" usemap="#d6/d5b/a00026_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" alt=""/></div>
+<map name="d6/d5b/a00026_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" id="d6/d5b/a00026_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph">
+<area shape="rect" id="node2" href="../../d5/de0/a00050.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. " alt="" coords="168,5,211,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a></li>
+<li><a class="el" href="../../d9/d2e/a00056_source.php">RNG.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d5b/a00026.php">RSA</a></li>
+    <li class="navelem"><a class="el" href="../../d6/d5b/a00026.php">RNG</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -151,23 +151,23 @@ $(document).ready(function(){initNavTree('functions_h.php','');});
 
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>h
-: <a class="el" href="df/d86/a00012.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
-, <a class="el" href="db/d3a/a00040.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
+: <a class="el" href="d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
+, <a class="el" href="dd/d32/a00041.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
 </li>
 <li>hasAutoincrement()
-: <a class="el" href="dd/dad/a00005.php#a84c0df9de34d028bfa4a6711f3ff38ed">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">BDD</a>
 </li>
 <li>hit()
-: <a class="el" href="dd/d1b/a00015.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>
+: <a class="el" href="d7/d7a/a00016.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>
 </li>
 <li>home()
-: <a class="el" href="d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f">ConsoleCursor</a>
+: <a class="el" href="da/d45/a00011.php#a129aafa021f4f29239b8e014f426f15f">ConsoleCursor</a>
 </li>
 <li>Hostile()
-: <a class="el" href="d1/d2b/a00018.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>
+: <a class="el" href="dd/da2/a00019.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>
 </li>
 <li>hurt()
-: <a class="el" href="d1/d2b/a00018.php#a7ad578b926f0be7cf84ee0f45665fa1f">Hostile</a>
+: <a class="el" href="dd/da2/a00019.php#a7ad578b926f0be7cf84ee0f45665fa1f">Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

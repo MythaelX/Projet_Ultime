@@ -119,7 +119,7 @@ bool contains(std::vector<T> table, T value){
 /*!
 * \class	jumble
 * \brief	A dynamic array to store any type of variable
-* \todo
+* \todo		Create the class
 */
 class jumble {
 	public:

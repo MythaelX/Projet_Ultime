@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Font Class Reference</title>
+<title>Qt: GraphScene.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,10 +71,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,110 +106,120 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../db/d53/a00202.php">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
-<div class="title">Font Class Reference</div>  </div>
+<div class="title">GraphScene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A class to treat fonts with QFont.  
- <a href="../../d7/d7a/a00016.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d7/df7/a00058_source.php">Font.hpp</a>&gt;</code></p>
+<div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../db/db2/a00020_source.php">Scene.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for GraphScene.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d61/a00031.png" border="0" usemap="#GraphScene_8hpp" alt=""/></div>
+<map name="GraphScene_8hpp" id="GraphScene_8hpp">
+<area shape="rect" id="node6" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="320,80,404,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d87/a00032.png" border="0" usemap="#GraphScene_8hppdep" alt=""/></div>
+<map name="GraphScene_8hppdep" id="GraphScene_8hppdep">
+<area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
+</map>
+</div>
+</div>
+<p><a href="../../d7/d7a/a00016_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e6a119206f505522100221c1fafde45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4e6a119206f505522100221c1fafde45">Font</a> ()</td></tr>
-<tr class="separator:a4e6a119206f505522100221c1fafde45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a134aaa2f78af0c12d3ce504957169768"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a134aaa2f78af0c12d3ce504957169768">~Font</a> ()</td></tr>
-<tr class="separator:a134aaa2f78af0c12d3ce504957169768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php">GraphScene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../d4/dee/a00008.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw graphs.  <a href="../../dd/dad/a00005.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1b263a092a8579ac1058af09e39389e0"><td class="memItemLeft" align="right" valign="top">static QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a1b263a092a8579ac1058af09e39389e0">load</a> (QString path)</td></tr>
-<tr class="memdesc:a1b263a092a8579ac1058af09e39389e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a font from a file.  <a href="#a1b263a092a8579ac1058af09e39389e0">More...</a><br /></td></tr>
-<tr class="separator:a1b263a092a8579ac1058af09e39389e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memItemLeft" align="right" valign="top">typedef long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td></tr>
+<tr class="memdesc:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alias to simplify the use of the type for the graph.  <a href="#a8dcc9a1fe4837db39cd87e259f0ed6ed">More...</a><br /></td></tr>
+<tr class="separator:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5373de30ddd6b6c0f911f63ed642739"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td></tr>
+<tr class="memdesc:ad5373de30ddd6b6c0f911f63ed642739"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array where the graphs' points are stored.  <a href="#ad5373de30ddd6b6c0f911f63ed642739">More...</a><br /></td></tr>
+<tr class="separator:ad5373de30ddd6b6c0f911f63ed642739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::pair&lt; <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;, std::pair&lt; <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td></tr>
+<tr class="memdesc:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data type to simplify the draw of the differents graphs.  <a href="#a464fcd96dfa56d6feac32bfcd2e0403f">More...</a><br /></td></tr>
+<tr class="separator:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to treat fonts with QFont. </p>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00017">17</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Font.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4e6a119206f505522100221c1fafde45"></a>
+<p>Definition in file <a class="el" href="../../d7/d7a/a00016_source.php">GraphScene.hpp</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ad5373de30ddd6b6c0f911f63ed642739"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Font::Font </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; <a class="el" href="../../d7/d7a/a00016.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>The array where the graphs' points are stored. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d7a/a00016_source.php#l00021">21</a> of file <a class="el" href="../../d7/d7a/a00016_source.php">GraphScene.hpp</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a134aaa2f78af0c12d3ce504957169768"></a>
+<a class="anchor" id="a8dcc9a1fe4837db39cd87e259f0ed6ed"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Font::~Font </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef long double <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>An alias to simplify the use of the type for the graph. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d7a/a00016_source.php#l00019">19</a> of file <a class="el" href="../../d7/d7a/a00016_source.php">GraphScene.hpp</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a1b263a092a8579ac1058af09e39389e0"></a>
+<a class="anchor" id="a464fcd96dfa56d6feac32bfcd2e0403f"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static QFont Font::load </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef std::pair&lt;std::pair&lt;<a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt;, std::pair&lt;<a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d7/d7a/a00016.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; &gt; <a class="el" href="../../d7/d7a/a00016.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Load a font from a file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path of the file </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a QFont of the font </dd></dl>
+<p>A data type to simplify the draw of the differents graphs. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d7a/a00016_source.php#l00023">23</a> of file <a class="el" href="../../d7/d7a/a00016_source.php">GraphScene.hpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/df7/a00058_source.php">Font.hpp</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">Font</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">GraphScene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

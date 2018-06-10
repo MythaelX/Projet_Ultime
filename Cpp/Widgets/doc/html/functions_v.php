@@ -151,10 +151,10 @@ $(document).ready(function(){initNavTree('functions_v.php','');});
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>values
-: <a class="el" href="d7/de0/a00022.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="d4/d8c/a00035.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+: <a class="el" href="de/d8c/a00036.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

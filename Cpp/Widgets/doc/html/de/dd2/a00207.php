@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
+$(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,18 +109,23 @@ $(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Timer Member List</div>  </div>
+<div class="title">Hostile Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d61/a00031.php">Timer</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/da2/a00019.php">Hostile</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#a56cf495a8c9da8907efe755a550c734c">getStart</a>() const </td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">m_start</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#a8422d61fac8765b8789c8056bd38f2f3">restart</a>(int sec)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a18a29af58bc18e1644230c747afb35ec">start</a>(int sec)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#ab3cd20a0909df03a384a09b1b8151d3e">started</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>()</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">Timer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#aa3fec9f067507361ca93e6f4edf4b731">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a2e41323724ce153631596d0a2e037197">getStrength</a>() const </td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#ae9646e71bc0ee3240492aa98060e4942">getTarget</a>() const </td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>()</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a7ad578b926f0be7cf84ee0f45665fa1f">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a1640c2447984cd193da200e3c76e0859">printInfos</a>(std::ostream &amp;stream) const </td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a49702b5127cacf36d0e401dee60bc341">setStrength</a>(double strength)</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#ab2f44509aba02128b145f53b45ae3d6e">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a4b91ff7920ded02f9662134608f11d6f">untarget</a>()</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#af1c3ba743ce0c9b50d501fb86f4127f8">~Hostile</a>()</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

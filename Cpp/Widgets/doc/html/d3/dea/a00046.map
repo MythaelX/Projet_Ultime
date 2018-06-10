@@ -1,12 +1,9 @@
-<map id="Window.hpp" name="Window.hpp">
-<area shape="rect" id="node3" href="$d3/dfe/a00025.php" title="WindowTitleBar.hpp" alt="" coords="540,80,679,107"/>
-<area shape="rect" id="node4" href="$dc/de2/a00024.php" title="WindowButton.hpp" alt="" coords="543,155,675,181"/>
-<area shape="rect" id="node6" href="$d4/d51/a00017.php" title="QtDefines.hpp" alt="" coords="556,229,663,256"/>
-<area shape="rect" id="node7" href="$d7/de0/a00022.php" title="Widget.hpp" alt="" coords="195,304,283,331"/>
-<area shape="rect" id="node8" href="$d7/dd4/a00013.php" title="DrawScene.hpp" alt="" coords="357,304,472,331"/>
-<area shape="rect" id="node9" href="$dd/da2/a00019.php" title="Scene.hpp" alt="" coords="246,393,330,420"/>
-<area shape="rect" id="node11" href="$dd/d1b/a00015.php" title="GraphScene.hpp" alt="" coords="615,304,734,331"/>
-<area shape="rect" id="node16" href="$db/db2/a00020.php" title="Spacers.hpp" alt="" coords="497,304,591,331"/>
-<area shape="rect" id="node17" href="$d1/d2b/a00018.php" title="QtFunctions.hpp" alt="" coords="758,304,877,331"/>
-<area shape="rect" id="node19" href="$d2/de7/a00014.php" title="Font.hpp" alt="" coords="2109,304,2182,331"/>
+<map id="Widget.hpp" name="Widget.hpp">
+<area shape="rect" id="node2" href="$d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="$dd/d1b/a00015.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="$d4/d51/a00017.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="$d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="$d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="$d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="$dc/de2/a00024.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
 </map>

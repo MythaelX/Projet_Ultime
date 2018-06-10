@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Classes</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -113,8 +112,6 @@ $(document).ready(function(){initNavTree('dir_badfd550b617ce52cc73ed1c8c9513f6.p
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="subdirs"></a>
 Directories</h2></td></tr>
-<tr class="memitem:dir_1788504ec76a4dda5464562bc560d0b5"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dir_a02ca41573efbfa5a2fd3c2b5453f5e3"><td class="memItemLeft" align="right" valign="top">directory &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

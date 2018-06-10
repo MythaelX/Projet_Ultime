@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: collides.hpp File Reference</title>
+<title>Qt: C++.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,474 +106,78 @@ $(document).ready(function(){initNavTree('d6/d2d/a00047.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">collides.hpp File Reference</div>  </div>
+<div class="title">C++.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d6f/a00063_source.php">maths.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d6d/a00055_source.php">Entities.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d24/a00068_source.php">Player.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d84/a00052_source.php">cryptage.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dee/a00049_source.php">console.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dee/a00053_source.php">defines.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">errors.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">convert.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">collides.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d09/a00077_source.php">string.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">array.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d51/a00079_source.php">time.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d5f/a00064_source.php">maths.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/df7/a00058_source.php">files.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/da5/a00075_source.php">sorting.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/dec/a00080_source.php">tree.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d6f/a00063_source.php">Map.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d03/a00062_source.php">macro.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d53/a00081_source.php">types.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for collides.hpp:</div>
+Include dependency graph for C++.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#collides_8hpp" alt=""/></div>
-<map name="collides_8hpp" id="collides_8hpp">
-<area shape="rect" id="node2" href="../../d1/d6f/a00063.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/d61/a00100.png" border="0" usemap="#collides_8hppdep" alt=""/></div>
-<map name="collides_8hppdep" id="collides_8hppdep">
-<area shape="rect" id="node2" href="../../d2/dee/a00049.php" title="Contraption.hpp" alt="" coords="471,80,585,107"/>
-<area shape="rect" id="node7" href="../../d3/dea/a00046.php" title="C++.hpp" alt="" coords="330,603,403,629"/>
-<area shape="rect" id="node3" href="../../d4/d6d/a00055.php" title="Entity.hpp" alt="" coords="119,155,201,181"/>
-<area shape="rect" id="node6" href="../../d1/dea/a00054.php" title="Entities.hpp" alt="" coords="241,453,332,480"/>
-<area shape="rect" id="node13" href="../../de/de1/a00065.php" title="Object.hpp" alt="" coords="533,229,619,256"/>
-<area shape="rect" id="node4" href="../../dd/d32/a00041.php" title="Animal.hpp" alt="" coords="15,304,102,331"/>
-<area shape="rect" id="node9" href="../../d9/d73/a00060.php" title="Hostile.hpp" alt="" coords="35,229,123,256"/>
-<area shape="rect" id="node10" href="../../d8/d53/a00081.php" title="Vegetal.hpp" alt="" coords="223,304,313,331"/>
-<area shape="rect" id="node5" href="../../d5/db6/a00042.php" title="Ant.hpp" alt="" coords="5,379,72,405"/>
-<area shape="rect" id="node8" href="../../dc/ddf/a00067.php" title="Player.hpp" alt="" coords="325,528,409,555"/>
-<area shape="rect" id="node11" href="../../d9/db3/a00066.php" title="Plant.hpp" alt="" coords="248,379,325,405"/>
-<area shape="rect" id="node12" href="../../df/d5f/a00064.php" title="Mushroom.hpp" alt="" coords="350,379,458,405"/>
+<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#C_09_09_8hpp" alt=""/></div>
+<map name="C_09_09_8hpp" id="C_09_09_8hpp">
+<area shape="rect" id="node2" href="../../d4/d6d/a00055.php" title="Entities.hpp" alt="" coords="1377,155,1468,181"/>
+<area shape="rect" id="node4" href="../../dc/dee/a00053.php" title="defines.hpp" alt="" coords="641,528,730,555"/>
+<area shape="rect" id="node14" href="../../d8/d53/a00081.php" title="types.hpp" alt="" coords="1365,827,1443,853"/>
+<area shape="rect" id="node16" href="../../d1/d22/a00057.php" title="errors.hpp" alt="" coords="1027,677,1107,704"/>
+<area shape="rect" id="node17" href="../../d2/dee/a00049.php" title="console.hpp" alt="" coords="1134,752,1226,779"/>
+<area shape="rect" id="node18" href="../../d2/d79/a00051.php" title="convert.hpp" alt="" coords="529,827,620,853"/>
+<area shape="rect" id="node23" href="../../d7/df7/a00058.php" title="files.hpp" alt="" coords="1250,752,1321,779"/>
+<area shape="rect" id="node26" href="../../d1/d51/a00079.php" title="time.hpp" alt="" coords="57,752,129,779"/>
+<area shape="rect" id="node30" href="../../d1/d09/a00077.php" title="string.hpp" alt="" coords="570,677,649,704"/>
+<area shape="rect" id="node32" href="../../df/d03/a00062.php" title="macro.hpp" alt="" coords="1027,752,1109,779"/>
+<area shape="rect" id="node33" href="../../d6/d97/a00045.php" title="array.hpp" alt="" coords="850,752,926,779"/>
+<area shape="rect" id="node36" href="../../df/d5f/a00064.php" title="maths.hpp" alt="" coords="1893,603,1976,629"/>
+<area shape="rect" id="node38" href="../../d4/dca/a00048.php" title="collides.hpp" alt="" coords="1872,528,1963,555"/>
+<area shape="rect" id="node39" href="../../d1/d6f/a00063.php" title="Map.hpp" alt="" coords="1267,603,1339,629"/>
+<area shape="rect" id="node47" href="../../da/d24/a00068.php" title="Player.hpp" alt="" coords="1259,80,1343,107"/>
+<area shape="rect" id="node48" href="../../d1/d84/a00052.php" title="cryptage.hpp" alt="" coords="755,379,853,405"/>
+<area shape="rect" id="node49" href="../../d9/da5/a00075.php" title="sorting.hpp" alt="" coords="1519,827,1606,853"/>
+<area shape="rect" id="node50" href="../../da/dec/a00080.php" title="tree.hpp" alt="" coords="2037,155,2107,181"/>
+<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="Contraption.hpp" alt="" coords="1559,453,1673,480"/>
+<area shape="rect" id="node40" href="../../d9/db3/a00066.php" title="Object.hpp" alt="" coords="1712,304,1797,331"/>
+<area shape="rect" id="node41" href="../../d9/d2e/a00056.php" title="Entity.hpp" alt="" coords="1417,379,1498,405"/>
+<area shape="rect" id="node42" href="../../d5/db6/a00042.php" title="Animal.hpp" alt="" coords="1354,304,1441,331"/>
+<area shape="rect" id="node43" href="../../d6/d42/a00043.php" title="Ant.hpp" alt="" coords="1293,229,1360,256"/>
+<area shape="rect" id="node44" href="../../d4/d63/a00082.php" title="Vegetal.hpp" alt="" coords="1472,304,1563,331"/>
+<area shape="rect" id="node45" href="../../dc/ddf/a00067.php" title="Plant.hpp" alt="" coords="1485,229,1563,256"/>
+<area shape="rect" id="node46" href="../../de/de1/a00065.php" title="Mushroom.hpp" alt="" coords="1587,229,1695,256"/>
+<area shape="rect" id="node11" href="../../d3/dea/a00046.php" title="bdd.hpp" alt="" coords="971,603,1039,629"/>
+<area shape="rect" id="node29" href="../../d4/d31/a00069.php" title="pointers.hpp" alt="" coords="1435,677,1528,704"/>
+<area shape="rect" id="node34" href="../../d1/d6e/a00073.php" title="RNG.hpp" alt="" coords="207,752,284,779"/>
+<area shape="rect" id="node35" href="../../d5/df9/a00044.php" title="Args.hpp" alt="" coords="821,603,896,629"/>
 </map>
 </div>
 </div>
 <p><a href="../../d6/d2d/a00047_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a9e71f7b4b2dc9351d81534c753d02b2f">collidesC</a> (double r1, double x1, double y1, double r2, double x2, double y2)</td></tr>
-<tr class="memdesc:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="#a9e71f7b4b2dc9351d81534c753d02b2f">More...</a><br /></td></tr>
-<tr class="separator:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a2c41f8567fc8effdd8ee6a163fbe9440">collidesR</a> (double x1, double y1, double w1, double h1, double x2, double y2, double w2, double h2)</td></tr>
-<tr class="memdesc:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="#a2c41f8567fc8effdd8ee6a163fbe9440">More...</a><br /></td></tr>
-<tr class="separator:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a8e7babfd2bd0dd7b2f392372848edc80">collidesRC</a> (double rx, double ry, double w, double h, double cx, double cy, double r)</td></tr>
-<tr class="memdesc:a8e7babfd2bd0dd7b2f392372848edc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="#a8e7babfd2bd0dd7b2f392372848edc80">More...</a><br /></td></tr>
-<tr class="separator:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a3ce463b4b6c6477444bad3dcb1499f85">collidesPC</a> (double cx, double cy, double r, double x, double y)</td></tr>
-<tr class="memdesc:a3ce463b4b6c6477444bad3dcb1499f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="#a3ce463b4b6c6477444bad3dcb1499f85">More...</a><br /></td></tr>
-<tr class="separator:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a2d9df4f37d280cec5c3e91ba7b83ed11">collidesPR</a> (double rx, double ry, double w, double h, double x, double y)</td></tr>
-<tr class="memdesc:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="#a2d9df4f37d280cec5c3e91ba7b83ed11">More...</a><br /></td></tr>
-<tr class="separator:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1213c000f201a2e1991e60a0e2973d91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a1213c000f201a2e1991e60a0e2973d91">ProjectionSurSegment</a> (double Cx, double Cy, double Ax, double Ay, double Bx, double By)</td></tr>
-<tr class="memdesc:a1213c000f201a2e1991e60a0e2973d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="#a1213c000f201a2e1991e60a0e2973d91">More...</a><br /></td></tr>
-<tr class="separator:a1213c000f201a2e1991e60a0e2973d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d6/d2d/a00047_source.php">collides.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a9e71f7b4b2dc9351d81534c753d02b2f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between two circles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">r1</td><td>Radius of the first circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r2</td><td>Radius of the second circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second circle's center</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a3ce463b4b6c6477444bad3dcb1499f85"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesPC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a point and a circle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2d9df4f37d280cec5c3e91ba7b83ed11"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesPR </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a point and a rectangle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2c41f8567fc8effdd8ee6a163fbe9440"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesR </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>y2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between two rectangles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w1</td><td>Width of the first rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h1</td><td>Height of the first rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second rectangle's left corner </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w2</td><td>Width of the second rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h2</td><td>Height of the second rectangle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8e7babfd2bd0dd7b2f392372848edc80"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool collidesRC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision between a rectangle and a circle. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a1213c000f201a2e1991e60a0e2973d91"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ProjectionSurSegment </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Cx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Cy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Ax</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Ay</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Bx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>By</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compute if there is a collision on a segment. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">Cx</td><td>X position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Cy</td><td>Y position of the point </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Ax</td><td>X position of the segment's first side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Ay</td><td>Y position of the segment's first side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">Bx</td><td>X position of the segment's second side </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">By</td><td>Y position of the segment's second side</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d6/d2d/a00047_source.php">C++.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">collides.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">C++.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

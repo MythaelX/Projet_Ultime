@@ -20,7 +20,7 @@ class Scene : public QGraphicsScene {
 	Q_OBJECT
 	public:
 		/*! \brief	Construct the QGraphicsScene */
-		Scene(QObject* parent = NULL);
+		Scene(QObject* parent = nullptr);
 		~Scene();
 
 	public slots:

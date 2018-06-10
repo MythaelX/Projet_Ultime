@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: sorting.hpp File Reference</title>
+<title>Qt: Scene.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,113 +107,56 @@ $(document).ready(function(){initNavTree('db/db6/a00074.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">sorting.hpp File Reference</div>  </div>
+<div class="title">Scene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;map&gt;</code><br />
-<code>#include &lt;set&gt;</code><br />
-<code>#include &lt;functional&gt;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for sorting.hpp:</div>
+Include dependency graph for Scene.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/db2/a00151.png" border="0" usemap="#sorting_8hpp" alt=""/></div>
+<div class="center"><img src="../../d9/d7d/a00150.png" border="0" usemap="#Scene_8hpp" alt=""/></div>
+<map name="Scene_8hpp" id="Scene_8hpp">
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d9a/a00152.png" border="0" usemap="#sorting_8hppdep" alt=""/></div>
-<map name="sorting_8hppdep" id="sorting_8hppdep">
-<area shape="rect" id="node2" href="../../d3/dea/a00046.php" title="C++.hpp" alt="" coords="12,80,85,107"/>
+<div class="center"><img src="../../dd/db2/a00151.png" border="0" usemap="#Scene_8hppdep" alt=""/></div>
+<map name="Scene_8hppdep" id="Scene_8hppdep">
+<area shape="rect" id="node2" href="../../d1/dea/a00054.php" title="DrawScene.hpp" alt="" coords="5,80,120,107"/>
+<area shape="rect" id="node3" href="../../d0/d89/a00071.php" title="QtDefines.hpp" alt="" coords="104,155,211,181"/>
+<area shape="rect" id="node10" href="../../d9/d73/a00060.php" title="GraphScene.hpp" alt="" coords="195,80,314,107"/>
+<area shape="rect" id="node4" href="../../d3/d8b/a00059.php" title="Font.hpp" alt="" coords="83,229,157,256"/>
+<area shape="rect" id="node5" href="../../d2/db1/a00070.php" title="Qt.hpp" alt="" coords="212,453,273,480"/>
+<area shape="rect" id="node7" href="../../df/d13/a00085.php" title="WindowButton.hpp" alt="" coords="234,229,366,256"/>
+<area shape="rect" id="node6" href="../../d9/da4/a00078.php" title="TableWidget.hpp" alt="" coords="183,528,303,555"/>
+<area shape="rect" id="node8" href="../../da/d2a/a00086.php" title="WindowTitleBar.hpp" alt="" coords="232,304,371,331"/>
+<area shape="rect" id="node9" href="../../df/d5d/a00084.php" title="Window.hpp" alt="" coords="243,379,338,405"/>
 </map>
 </div>
 </div>
 <p><a href="../../db/db6/a00074_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a26ed92f1897ceffb429cd8f436460a3e"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
-<tr class="memitem:a26ed92f1897ceffb429cd8f436460a3e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/db6/a00074.php#a26ed92f1897ceffb429cd8f436460a3e">sortAsc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:a26ed92f1897ceffb429cd8f436460a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort a map ascendently  <a href="#a26ed92f1897ceffb429cd8f436460a3e">More...</a><br /></td></tr>
-<tr class="separator:a26ed92f1897ceffb429cd8f436460a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d14862e28ea7d3bb92662b4068f5763"><td class="memTemplParams" colspan="2">template&lt;class Key , class Value &gt; </td></tr>
-<tr class="memitem:a3d14862e28ea7d3bb92662b4068f5763"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/db6/a00074.php#a3d14862e28ea7d3bb92662b4068f5763">sortDesc</a> (std::map&lt; Key, Value &gt; map)</td></tr>
-<tr class="memdesc:a3d14862e28ea7d3bb92662b4068f5763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a map descendently.  <a href="#a3d14862e28ea7d3bb92662b4068f5763">More...</a><br /></td></tr>
-<tr class="separator:a3d14862e28ea7d3bb92662b4068f5763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QGraphcsScene with an updator.  <a href="../../d0/dc0/a00033.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../db/db6/a00074_source.php">sorting.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a26ed92f1897ceffb429cd8f436460a3e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Key , typename Value &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto sortAsc </td>
-          <td>(</td>
-          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
-          <td class="paramname"><em>map</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>sort a map ascendently </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map to sort</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a sorted vector </dd></dl>
-
-<p>Definition at line <a class="el" href="../../db/db6/a00074_source.php#l00024">24</a> of file <a class="el" href="../../db/db6/a00074_source.php">sorting.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3d14862e28ea7d3bb92662b4068f5763"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Key , class Value &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto sortDesc </td>
-          <td>(</td>
-          <td class="paramtype">std::map&lt; Key, Value &gt;&#160;</td>
-          <td class="paramname"><em>map</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sort a map descendently. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">map</td><td>The map to sort</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a sorted vector </dd></dl>
-
-<p>Definition at line <a class="el" href="../../db/db6/a00074_source.php#l00051">51</a> of file <a class="el" href="../../db/db6/a00074_source.php">sorting.hpp</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../db/db6/a00074.php">sorting.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../db/db6/a00074.php">Scene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

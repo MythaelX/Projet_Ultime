@@ -4,10 +4,10 @@
 *	\author		Mathias CABIOCH-DELALANDE
 *	\date		09 juin 2018
 *
-*	\details	Add \b stars to the page at \b onload \n
-*				The value of the choosen note is in an hidden input\n
-*				\b id = starInput
-*				\b name = stars
+*	\details	- Add \b stars to the page at \b onload \n
+*				- The value of the choosen note is in an hidden input\n
+*					- \b id = starInput
+*					- \b name = stars
 *
 */
 'use strict';

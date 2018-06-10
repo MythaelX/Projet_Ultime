@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Clock Class Reference</title>
+<title>Qt: QVSpacerItem Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -110,80 +109,39 @@ $(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d8/d00/a00186.php">List of all members</a>  </div>
+<a href="../../d1/d6f/a00063.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Clock Class Reference</div>  </div>
+<div class="title">QVSpacerItem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A clock to measure the elapsed time.  
+<p>An implementation of QSpacerItem.  
  <a href="../../de/d5e/a00007.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/d11/a00021_source.php">Spacers.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for QVSpacerItem:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d5f/a00064.png" border="0" usemap="#QVSpacerItem_inherit__map" alt="Inheritance graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for QVSpacerItem:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/de1/a00065.png" border="0" usemap="#QVSpacerItem_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adbc370eb6b5f8d01645cf440188160a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a> ()</td></tr>
-<tr class="separator:adbc370eb6b5f8d01645cf440188160a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38ca26b1111d2ecf1751f0d0d5e943e1"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a38ca26b1111d2ecf1751f0d0d5e943e1">getElapsed</a> ()</td></tr>
-<tr class="memdesc:a38ca26b1111d2ecf1751f0d0d5e943e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get time elapsed.  <a href="#a38ca26b1111d2ecf1751f0d0d5e943e1">More...</a><br /></td></tr>
-<tr class="separator:a38ca26b1111d2ecf1751f0d0d5e943e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac195ced602d8b707b0fd7e5b15d103a7"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#ac195ced602d8b707b0fd7e5b15d103a7">getStart</a> () const </td></tr>
-<tr class="memdesc:ac195ced602d8b707b0fd7e5b15d103a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the time start.  <a href="#ac195ced602d8b707b0fd7e5b15d103a7">More...</a><br /></td></tr>
-<tr class="separator:ac195ced602d8b707b0fd7e5b15d103a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a050959dcff11c85d695989e9099a8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c">start</a> ()</td></tr>
-<tr class="separator:a8a050959dcff11c85d695989e9099a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a775bf97123b58c768571868341d28b08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a775bf97123b58c768571868341d28b08">restart</a> ()</td></tr>
-<tr class="separator:a775bf97123b58c768571868341d28b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ad482076b35f14f806f688e956245483a"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#ad482076b35f14f806f688e956245483a">m_start</a></td></tr>
-<tr class="separator:ad482076b35f14f806f688e956245483a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed945651f59f21f56df523af2719597e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aed945651f59f21f56df523af2719597e">started</a></td></tr>
-<tr class="separator:aed945651f59f21f56df523af2719597e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833d08c247a52f8eff4109f5f1e26210"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a> (int w=0, int h=0)</td></tr>
+<tr class="memdesc:a833d08c247a52f8eff4109f5f1e26210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend vertically.  <a href="#a833d08c247a52f8eff4109f5f1e26210">More...</a><br /></td></tr>
+<tr class="separator:a833d08c247a52f8eff4109f5f1e26210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A clock to measure the elapsed time. </p>
+<div class="textblock"><p>An implementation of QSpacerItem. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00029">29</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00027">27</a> of file <a class="el" href="../../de/d11/a00021_source.php">Spacers.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="adbc370eb6b5f8d01645cf440188160a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Clock::Clock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a38ca26b1111d2ecf1751f0d0d5e943e1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t Clock::getElapsed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get time elapsed. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return time elapsed since the clock started </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ac195ced602d8b707b0fd7e5b15d103a7"></a>
+<a class="anchor" id="a833d08c247a52f8eff4109f5f1e26210"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -191,10 +149,21 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::time_t Clock::getStart </td>
+          <td class="memname">QVSpacerItem::QVSpacerItem </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -204,110 +173,21 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the time start. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the start time since last clock start </dd></dl>
+<p>Create a QSpacerItem that expend vertically. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00044">44</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d5e/a00007_ac195ced602d8b707b0fd7e5b15d103a7_cgraph.png" border="0" usemap="#de/d5e/a00007_ac195ced602d8b707b0fd7e5b15d103a7_cgraph" alt=""/></div>
-<map name="de/d5e/a00007_ac195ced602d8b707b0fd7e5b15d103a7_cgraph" id="de/d5e/a00007_ac195ced602d8b707b0fd7e5b15d103a7_cgraph">
-<area shape="rect" id="node2" href="../../de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c" title="Clock::start" alt="" coords="169,5,260,32"/>
-<area shape="rect" id="node3" href="../../de/d5e/a00007.php#a775bf97123b58c768571868341d28b08" title="Clock::restart" alt="" coords="164,56,265,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a775bf97123b58c768571868341d28b08"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Clock::restart </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Restart the clock </p>
-
-</div>
-</div>
-<a class="anchor" id="a8a050959dcff11c85d695989e9099a8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Clock::start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Start the clock </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ad482076b35f14f806f688e956245483a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t Clock::m_start</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00057">57</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aed945651f59f21f56df523af2719597e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Clock::started</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/da4/a00078_source.php#l00058">58</a> of file <a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00030">30</a> of file <a class="el" href="../../de/d11/a00021_source.php">Spacers.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/da4/a00078_source.php">time.hpp</a></li>
+<li><a class="el" href="../../de/d11/a00021_source.php">Spacers.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d5e/a00007.php">Clock</a></li>
+    <li class="navelem"><a class="el" href="../../de/d5e/a00007.php">QVSpacerItem</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

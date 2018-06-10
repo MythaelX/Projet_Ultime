@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: RNG.hpp File Reference</title>
+<title>C++: pointers.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,100 +107,62 @@ $(document).ready(function(){initNavTree('d4/d6d/a00055.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RNG.hpp File Reference</div>  </div>
+<div class="title">pointers.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;random&gt;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for RNG.hpp:</div>
+Include dependency graph for pointers.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../db/ddf/a00088.png" border="0" usemap="#RNG_8hpp" alt=""/></div>
+<div class="center"><img src="../../db/ddf/a00088.png" border="0" usemap="#pointers_8hpp" alt=""/></div>
 </div>
 </div>
 <p><a href="../../d4/d6d/a00055_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/a00025.php">RNG&lt; T, U &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d3/dfe/a00025.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d6d/a00055.php#a9f2903f65500ce246447f08fea1d734a">rngRange</a> (T a, U b=0.1)</td></tr>
-<tr class="memdesc:a9f2903f65500ce246447f08fea1d734a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="#a9f2903f65500ce246447f08fea1d734a">More...</a><br /></td></tr>
-<tr class="separator:a9f2903f65500ce246447f08fea1d734a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6d/a00055.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">rng</a></td></tr>
-<tr class="memdesc:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="#a9aee8b16f4c2f21fdebf0ecb0b514b96">More...</a><br /></td></tr>
-<tr class="separator:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f9782a77b1459ff662dd21a69edab3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a55f9782a77b1459ff662dd21a69edab3"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_pointer&lt; T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d6d/a00055.php#a55f9782a77b1459ff662dd21a69edab3">deletePtr</a> (T &amp;pointer)</td></tr>
+<tr class="memdesc:a55f9782a77b1459ff662dd21a69edab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="#a55f9782a77b1459ff662dd21a69edab3">More...</a><br /></td></tr>
+<tr class="separator:a55f9782a77b1459ff662dd21a69edab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/d6d/a00055_source.php">RNG.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../d4/d6d/a00055_source.php">pointers.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a9f2903f65500ce246447f08fea1d734a"></a>
+<a class="anchor" id="a55f9782a77b1459ff662dd21a69edab3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U  = double&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T rngRange </td>
+          <td class="memname">std::enable_if&lt;std::is_pointer&lt;T&gt;::value, void&gt;::type deletePtr </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>pointer</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">U&#160;</td>
-          <td class="paramname"><em>b</em> = <code>0.1</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute a random number in a computed range. </p>
+<p>Delete a pointer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The boundary of the range </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The distance btween the boundaries</td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">pointer</td><td>The pointer to delete</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void</dd></dl>
+<p>Delete <em>pointer</em> if is <b>not</b> <b>equal</b> to nullptr and <b>not</b> a joinable thread pointer.<br />
+ For a joinable thread pointer, it wait for the end of the function.<br />
+ After delete, it put the pointer to <b>nullptr</b>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d6d/a00055_source.php#l00054">54</a> of file <a class="el" href="../../d4/d6d/a00055_source.php">RNG.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a9aee8b16f4c2f21fdebf0ecb0b514b96"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Rng rng</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A global rng variable to compute random integers. </p>
-<p>rng(<b>int</b>, <b>int</b>) </p>
+<p>Definition at line <a class="el" href="../../d4/d6d/a00055_source.php#l00039">39</a> of file <a class="el" href="../../d4/d6d/a00055_source.php">pointers.hpp</a>.</p>
 
 </div>
 </div>
@@ -209,7 +171,7 @@ template&lt;typename T , typename U  = double&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d6d/a00055.php">RNG.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d6d/a00055.php">pointers.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

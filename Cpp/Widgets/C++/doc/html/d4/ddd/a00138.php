@@ -109,19 +109,15 @@ $(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Reinit Member List</div>  </div>
+<div class="title">Point Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/de2/a00024.php">Reinit</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/de2/a00024.php">Point</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/de2/a00024.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>()</td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Reinit</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de2/a00024.php#ab99c56589bc8ad5fa5071387110a5bc7">x</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de2/a00024.php#afa38be143ae800e6ad69ce8ed4df62d8">y</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de2/a00024.php#a05ba3b1dfcb19430582ae953cbbfbded">z</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

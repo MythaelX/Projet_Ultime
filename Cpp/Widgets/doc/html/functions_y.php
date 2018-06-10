@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('functions_y.php','');});
 
 <h3><a class="anchor" id="index_y"></a>- y -</h3><ul>
 <li>y
-: <a class="el" href="d6/d5b/a00026.php#afa38be143ae800e6ad69ce8ed4df62d8">Point</a>
+: <a class="el" href="d0/d33/a00027.php#afa38be143ae800e6ad69ce8ed4df62d8">Point</a>
 </li>
 </ul>
 </div><!-- contents -->

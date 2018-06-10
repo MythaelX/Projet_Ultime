@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -85,7 +84,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
       <li class="current"><a href="functions_enum.php"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
-      <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -120,10 +118,10 @@ $(document).ready(function(){initNavTree('functions_enum.php','');});
 <div class="contents">
 &#160;<ul>
 <li>ButtonState
-: <a class="el" href="d8/d41/a00038.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
 </li>
 <li>ButtonType
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
 </li>
 </ul>
 </div><!-- contents -->

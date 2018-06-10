@@ -1,2 +1,2 @@
 /home/mathias/Bureau/ISEN/Projet_CIR2/Cpp/MainWindow.h:2: warning: the name `MainWindow.hpp' supplied as the second argument in the \file statement is not an input file
-warning: Include graph for 'Dialog.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.
+warning: Include graph for 'functions.hpp' not generated, too many nodes. Consider increasing DOT_GRAPH_MAX_NODES.

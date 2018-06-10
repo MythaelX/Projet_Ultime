@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: jumble Class Reference</title>
+<title>C++: Hostile Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,37 +110,85 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../df/dc8/a00122.php">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d4/d98/a00120.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">jumble Class Reference</div>  </div>
+<div class="title">Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A dynamic array to store any type of variable.  
+<p>A class to derivate from when the thing can attack.  
  <a href="../../d7/d7a/a00016.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc0/a00033_source.php">array.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Hostile:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/dfa/a00121.png" border="0" usemap="#Hostile_inherit__map" alt="Inheritance graph"/></div>
+<map name="Hostile_inherit__map" id="Hostile_inherit__map">
+<area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node3" href="../../d0/d0b/a00004.php" title="An ant. " alt="" coords="15,155,58,181"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Hostile:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/dc8/a00122.png" border="0" usemap="#Hostile_coll__map" alt="Collaboration graph"/></div>
+<map name="Hostile_coll__map" id="Hostile_coll__map">
+<area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
+<area shape="rect" id="node3" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a> ()</td></tr>
-<tr class="memdesc:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a4f82dc848cfaed87d3c8c41d11611cdf">More...</a><br /></td></tr>
-<tr class="separator:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a6a130a7d5490029afb5cf14fb7d37ee3">~jumble</a> ()</td></tr>
-<tr class="separator:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ee3eebdea8943c1cb6ebd1b875bbf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a> ()</td></tr>
+<tr class="memdesc:ab5ee3eebdea8943c1cb6ebd1b875bbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the class.  <a href="#ab5ee3eebdea8943c1cb6ebd1b875bbf1">More...</a><br /></td></tr>
+<tr class="separator:ab5ee3eebdea8943c1cb6ebd1b875bbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1c3ba743ce0c9b50d501fb86f4127f8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#af1c3ba743ce0c9b50d501fb86f4127f8">~Hostile</a> ()</td></tr>
+<tr class="memdesc:af1c3ba743ce0c9b50d501fb86f4127f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#af1c3ba743ce0c9b50d501fb86f4127f8">More...</a><br /></td></tr>
+<tr class="separator:af1c3ba743ce0c9b50d501fb86f4127f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49702b5127cacf36d0e401dee60bc341"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a49702b5127cacf36d0e401dee60bc341">setStrength</a> (double strength)</td></tr>
+<tr class="memdesc:a49702b5127cacf36d0e401dee60bc341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength.  <a href="#a49702b5127cacf36d0e401dee60bc341">More...</a><br /></td></tr>
+<tr class="separator:a49702b5127cacf36d0e401dee60bc341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f44509aba02128b145f53b45ae3d6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ab2f44509aba02128b145f53b45ae3d6e">setTarget</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>)</td></tr>
+<tr class="memdesc:ab2f44509aba02128b145f53b45ae3d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="../../d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength.  <a href="#ab2f44509aba02128b145f53b45ae3d6e">More...</a><br /></td></tr>
+<tr class="separator:ab2f44509aba02128b145f53b45ae3d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e41323724ce153631596d0a2e037197"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a2e41323724ce153631596d0a2e037197">getStrength</a> () const </td></tr>
+<tr class="memdesc:a2e41323724ce153631596d0a2e037197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's strength.  <a href="#a2e41323724ce153631596d0a2e037197">More...</a><br /></td></tr>
+<tr class="separator:a2e41323724ce153631596d0a2e037197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9646e71bc0ee3240492aa98060e4942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ae9646e71bc0ee3240492aa98060e4942">getTarget</a> () const </td></tr>
+<tr class="memdesc:ae9646e71bc0ee3240492aa98060e4942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hotsile's target.  <a href="#ae9646e71bc0ee3240492aa98060e4942">More...</a><br /></td></tr>
+<tr class="separator:ae9646e71bc0ee3240492aa98060e4942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1640c2447984cd193da200e3c76e0859"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a1640c2447984cd193da200e3c76e0859">printInfos</a> (std::ostream &amp;stream) const </td></tr>
+<tr class="memdesc:a1640c2447984cd193da200e3c76e0859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#a1640c2447984cd193da200e3c76e0859">More...</a><br /></td></tr>
+<tr class="separator:a1640c2447984cd193da200e3c76e0859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad578b926f0be7cf84ee0f45665fa1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a7ad578b926f0be7cf84ee0f45665fa1f">hurt</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>=nullptr)</td></tr>
+<tr class="memdesc:a7ad578b926f0be7cf84ee0f45665fa1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hurt the target.  <a href="#a7ad578b926f0be7cf84ee0f45665fa1f">More...</a><br /></td></tr>
+<tr class="separator:a7ad578b926f0be7cf84ee0f45665fa1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fec9f067507361ca93e6f4edf4b731"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aa3fec9f067507361ca93e6f4edf4b731">attack</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>=nullptr)=0</td></tr>
+<tr class="memdesc:aa3fec9f067507361ca93e6f4edf4b731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack.  <a href="#aa3fec9f067507361ca93e6f4edf4b731">More...</a><br /></td></tr>
+<tr class="separator:aa3fec9f067507361ca93e6f4edf4b731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b91ff7920ded02f9662134608f11d6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4b91ff7920ded02f9662134608f11d6f">untarget</a> ()</td></tr>
+<tr class="memdesc:a4b91ff7920ded02f9662134608f11d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the target to null.  <a href="#a4b91ff7920ded02f9662134608f11d6f">More...</a><br /></td></tr>
+<tr class="separator:a4b91ff7920ded02f9662134608f11d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a54cd84496707554686bc5fc43b57a4f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td></tr>
+<tr class="separator:a54cd84496707554686bc5fc43b57a4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A dynamic array to store any type of variable. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000001">Todo:</a></b></dt><dd></dd></dl>
+<div class="textblock"><p>A class to derivate from when the thing can attack. </p>
 
-<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00124">124</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">array.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00017">17</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4f82dc848cfaed87d3c8c41d11611cdf"></a>
+<a class="anchor" id="ab5ee3eebdea8943c1cb6ebd1b875bbf1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">jumble::jumble </td>
+          <td class="memname">Hostile::Hostile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -148,34 +196,329 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor of the class. </p>
+<p>The constructor of the class. </p>
 
 </div>
 </div>
-<a class="anchor" id="a6a130a7d5490029afb5cf14fb7d37ee3"></a>
+<a class="anchor" id="af1c3ba743ce0c9b50d501fb86f4127f8"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">jumble::~jumble </td>
+          <td class="memname">virtual Hostile::~Hostile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Virtual destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa3fec9f067507361ca93e6f4edf4b731"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Hostile::attack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td>
+          <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attack. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The target to attack</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+<p>Implemented in <a class="el" href="../../d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2e41323724ce153631596d0a2e037197"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Hostile::getStrength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Hotsile's strength. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the strength </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00046">46</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9646e71bc0ee3240492aa98060e4942"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d1b/a00015.php">Entity</a>* Hostile::getTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the Hotsile's target. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the target </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00051">51</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d7a/a00016_ae9646e71bc0ee3240492aa98060e4942_cgraph.png" border="0" usemap="#d7/d7a/a00016_ae9646e71bc0ee3240492aa98060e4942_cgraph" alt=""/></div>
+<map name="d7/d7a/a00016_ae9646e71bc0ee3240492aa98060e4942_cgraph" id="d7/d7a/a00016_ae9646e71bc0ee3240492aa98060e4942_cgraph">
+<area shape="rect" id="node2" href="../../d7/d7a/a00016.php#a1640c2447984cd193da200e3c76e0859" title="Print the infos in the instance of the class in stream. " alt="" coords="180,5,305,32"/>
+<area shape="rect" id="node3" href="../../d7/d7a/a00016.php#a7ad578b926f0be7cf84ee0f45665fa1f" title="Hurt the target. " alt="" coords="196,56,289,83"/>
+<area shape="rect" id="node4" href="../../d7/d7a/a00016.php#aa3fec9f067507361ca93e6f4edf4b731" title="Attack. " alt="" coords="189,107,296,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ad578b926f0be7cf84ee0f45665fa1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hostile::hurt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td>
+          <td class="paramname"><em>target</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Hurt the target. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The target to hurt</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1640c2447984cd193da200e3c76e0859"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Hostile::printInfos </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print the infos in the instance of the class in <em>stream</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">stream</td><td>The output stream</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Reimplemented in <a class="el" href="../../d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>, and <a class="el" href="../../d0/d0b/a00004.php#a199ef1722ee48997bc56b183f3c2e417">Ant</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a49702b5127cacf36d0e401dee60bc341"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hostile::setStrength </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>strength</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">strength</td><td>The new strength</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00032">32</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab2f44509aba02128b145f53b45ae3d6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hostile::setTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the <a class="el" href="../../d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. ">Hostile</a>'s strength. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target</td><td>The new target</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00039">39</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b91ff7920ded02f9662134608f11d6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Hostile::untarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the target to null. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00084">84</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a54cd84496707554686bc5fc43b57a4f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d1b/a00015.php">Entity</a>* Hostile::target</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00087">87</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d0/dc0/a00033_source.php">array.hpp</a></li>
+<li><a class="el" href="../../d6/d2d/a00047_source.php">Hostile.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">jumble</a></li>
+    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -149,13 +149,13 @@ $(document).ready(function(){initNavTree('functions_u.php','');});
 
 <h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>undebug()
-: <a class="el" href="dd/dad/a00005.php#a962782dc60b83f30a7ec387e0747178d">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a962782dc60b83f30a7ec387e0747178d">BDD</a>
 </li>
 <li>untarget()
-: <a class="el" href="dd/d1b/a00015.php#a4b91ff7920ded02f9662134608f11d6f">Hostile</a>
+: <a class="el" href="d7/d7a/a00016.php#a4b91ff7920ded02f9662134608f11d6f">Hostile</a>
 </li>
 <li>update()
-: <a class="el" href="dd/dad/a00005.php#ad18c3bdb5afcce76344b9bb201362b95">BDD</a>
+: <a class="el" href="de/d21/a00006.php#ad18c3bdb5afcce76344b9bb201362b95">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

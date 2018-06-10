@@ -2,7 +2,7 @@
 *
 *	\file		Widget.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		08 juin 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_WIDGET
@@ -26,7 +26,8 @@ class Widget : public QWidget {
 	signals:
 
 	protected:
-		void paintEvent(QPaintEvent* event);
+		/*! \brief	Overload of the paintEvent of QWidget to use stylesheets */
+		virtual void paintEvent(QPaintEvent* event);
 
 	private:
 

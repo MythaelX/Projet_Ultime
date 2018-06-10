@@ -145,140 +145,140 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>save()
-: <a class="el" href="d7/dec/a00010.php#a3b03a811157d84449f3cf467c1f4758e">ConsoleCursor</a>
-, <a class="el" href="d4/d51/a00017.php#a28dc3cce3cd6eb596209d10174d0b37b">Map</a>
+: <a class="el" href="da/d45/a00011.php#a3b03a811157d84449f3cf467c1f4758e">ConsoleCursor</a>
+, <a class="el" href="d1/d2b/a00018.php#a28dc3cce3cd6eb596209d10174d0b37b">Map</a>
 </li>
 <li>setA()
-: <a class="el" href="da/d45/a00011.php#ad1482208cab08d738341ab2265b37deb">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">Contraption</a>
 </li>
 <li>setAge()
-: <a class="el" href="d2/de7/a00014.php#a1dd5e5689f86ac1ddc9a539c498d82ec">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a1dd5e5689f86ac1ddc9a539c498d82ec">Entity</a>
 </li>
 <li>setAttributes()
-: <a class="el" href="da/d45/a00011.php#a3e221cb1cdd414d2d06492b575ec7120">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a3e221cb1cdd414d2d06492b575ec7120">Contraption</a>
 </li>
 <li>setCaste()
-: <a class="el" href="d1/d7c/a00003.php#a1817b0ca58a288635443ec70eef39435">Ant</a>
+: <a class="el" href="d0/d0b/a00004.php#a1817b0ca58a288635443ec70eef39435">Ant</a>
 </li>
 <li>setDamages()
-: <a class="el" href="d2/de7/a00014.php#abcead1c3d42baabdcfb06b695b163a04">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#abcead1c3d42baabdcfb06b695b163a04">Entity</a>
 </li>
 <li>setDatabase()
-: <a class="el" href="dd/dad/a00005.php#a14ed61f03ce957690801dcc27e59930a">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a14ed61f03ce957690801dcc27e59930a">BDD</a>
 </li>
 <li>setExperience()
-: <a class="el" href="d7/de0/a00022.php#af93214bdf82686e3c24401d6fb50ee4d">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#af93214bdf82686e3c24401d6fb50ee4d">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setExperienceMax()
-: <a class="el" href="d7/de0/a00022.php#a835918495707d8b37e0ebeed0d6cf439">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#a835918495707d8b37e0ebeed0d6cf439">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setFatal()
-: <a class="el" href="dd/dad/a00005.php#a1c3535db0b4aa44778421c5f35c379ff">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a1c3535db0b4aa44778421c5f35c379ff">BDD</a>
 </li>
 <li>setFood()
-: <a class="el" href="d7/d46/a00002.php#ac1860f30915418b618296f857be9151d">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#ac1860f30915418b618296f857be9151d">Animal</a>
 </li>
 <li>setFoodMax()
-: <a class="el" href="d7/d46/a00002.php#ae77854b90674fa4d0de31766b04efc36">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#ae77854b90674fa4d0de31766b04efc36">Animal</a>
 </li>
 <li>setH()
-: <a class="el" href="da/d45/a00011.php#afb8030a7a7df2bef59356c293f845487">Contraption</a>
-, <a class="el" href="d4/d51/a00017.php#a713ccdad293fb792e0a8cf29d9b048e0">Map</a>
+: <a class="el" href="df/d86/a00012.php#afb8030a7a7df2bef59356c293f845487">Contraption</a>
+, <a class="el" href="d1/d2b/a00018.php#a713ccdad293fb792e0a8cf29d9b048e0">Map</a>
 </li>
 <li>setId()
-: <a class="el" href="d7/de0/a00022.php#aaf3aba878522716fba266caa573df8f9">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#aaf3aba878522716fba266caa573df8f9">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setLevel()
-: <a class="el" href="da/d45/a00011.php#ae9131d3133c67c22f8692d4bd806187e">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#ae9131d3133c67c22f8692d4bd806187e">Contraption</a>
 </li>
 <li>setLife()
-: <a class="el" href="d2/de7/a00014.php#afd211ba2273c0fafef236763c80df4e9">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#afd211ba2273c0fafef236763c80df4e9">Entity</a>
 </li>
 <li>setMail()
-: <a class="el" href="d7/de0/a00022.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setMap()
-: <a class="el" href="da/d45/a00011.php#a0d88e87317d6f003471fcf52808a4a25">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">Contraption</a>
 </li>
 <li>setPassword()
-: <a class="el" href="d7/de0/a00022.php#a809fc643a612879ac35690383dfd31e8">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#a809fc643a612879ac35690383dfd31e8">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setPosition()
-: <a class="el" href="da/d45/a00011.php#a05facc668dcb27c1bab72118aa5bafe7">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">Contraption</a>
 </li>
 <li>setPrivate()
-: <a class="el" href="d6/d5b/a00026.php#aa502d81bc7559e4db119b81ce898b2ce">RSA</a>
+: <a class="el" href="d0/d33/a00027.php#aa502d81bc7559e4db119b81ce898b2ce">RSA</a>
 </li>
 <li>setPublic()
-: <a class="el" href="d6/d5b/a00026.php#ab0019252770d8ace87c447472d5d8b1e">RSA</a>
+: <a class="el" href="d0/d33/a00027.php#ab0019252770d8ace87c447472d5d8b1e">RSA</a>
 </li>
 <li>setReborn()
-: <a class="el" href="d2/de7/a00014.php#a192bdf0dc40a986f8aed9be2d8607cb5">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a192bdf0dc40a986f8aed9be2d8607cb5">Entity</a>
 </li>
 <li>setRegen()
-: <a class="el" href="d2/de7/a00014.php#a5741125f8abd83cf979bc9a590712057">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a5741125f8abd83cf979bc9a590712057">Entity</a>
 </li>
 <li>setResistance()
-: <a class="el" href="d2/de7/a00014.php#a91d83b59b1f3bcae287c7185cc06f561">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a91d83b59b1f3bcae287c7185cc06f561">Entity</a>
 </li>
 <li>setSize()
-: <a class="el" href="d4/d51/a00017.php#a9813f83a659948693862d888b259a322">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#a9813f83a659948693862d888b259a322">Map</a>
 </li>
 <li>setSpecialAttack()
-: <a class="el" href="d7/d46/a00002.php#acd3a1a440f7f4f0553235f0ed106b7f8">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#acd3a1a440f7f4f0553235f0ed106b7f8">Animal</a>
 </li>
 <li>setSpecies()
-: <a class="el" href="d7/d46/a00002.php#aacbfd4edeec5da6823f8f64d615aa23e">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#aacbfd4edeec5da6823f8f64d615aa23e">Animal</a>
 </li>
 <li>setSpeed()
-: <a class="el" href="d7/d46/a00002.php#aebcd5a392cc2f21a3a84c64bdb6da8d8">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#aebcd5a392cc2f21a3a84c64bdb6da8d8">Animal</a>
 </li>
 <li>setStone()
-: <a class="el" href="d1/d7c/a00003.php#a98381326b3d00b7ae08aae01a9b84ab7">Ant</a>
+: <a class="el" href="d0/d0b/a00004.php#a98381326b3d00b7ae08aae01a9b84ab7">Ant</a>
 </li>
 <li>setStoneMax()
-: <a class="el" href="d1/d7c/a00003.php#a81a08f12660a3591d2eaa89d4d8ade22">Ant</a>
+: <a class="el" href="d0/d0b/a00004.php#a81a08f12660a3591d2eaa89d4d8ade22">Ant</a>
 </li>
 <li>setStrength()
-: <a class="el" href="dd/d1b/a00015.php#a49702b5127cacf36d0e401dee60bc341">Hostile</a>
+: <a class="el" href="d7/d7a/a00016.php#a49702b5127cacf36d0e401dee60bc341">Hostile</a>
 </li>
 <li>setTable()
-: <a class="el" href="dd/dad/a00005.php#aa6720203c42f48b71f4d9a97f64b687f">BDD</a>
+: <a class="el" href="de/d21/a00006.php#aa6720203c42f48b71f4d9a97f64b687f">BDD</a>
 </li>
 <li>setTarget()
-: <a class="el" href="dd/d1b/a00015.php#ab2f44509aba02128b145f53b45ae3d6e">Hostile</a>
+: <a class="el" href="d7/d7a/a00016.php#ab2f44509aba02128b145f53b45ae3d6e">Hostile</a>
 </li>
 <li>setTimeActReborn()
-: <a class="el" href="d2/de7/a00014.php#ad52da0415cd4ba8b93f34ceb0c229569">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#ad52da0415cd4ba8b93f34ceb0c229569">Entity</a>
 </li>
 <li>setTimeActRegen()
-: <a class="el" href="d2/de7/a00014.php#ac4980b5bbf4fcba13d28be159c7c8739">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#ac4980b5bbf4fcba13d28be159c7c8739">Entity</a>
 </li>
 <li>setTimePrecReborn()
-: <a class="el" href="d2/de7/a00014.php#a9150f012d86d1ef0f9c070d41da8e5ba">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a9150f012d86d1ef0f9c070d41da8e5ba">Entity</a>
 </li>
 <li>setTimePrecRegen()
-: <a class="el" href="d2/de7/a00014.php#a67c69bfc713e0275c704bd2ad40bf997">Entity</a>
+: <a class="el" href="dd/d1b/a00015.php#a67c69bfc713e0275c704bd2ad40bf997">Entity</a>
 </li>
 <li>setUsername()
-: <a class="el" href="d7/de0/a00022.php#a5b02ead36931c416ed8000b9a0a2d8aa">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="d3/d52/a00023.php#a5b02ead36931c416ed8000b9a0a2d8aa">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setW()
-: <a class="el" href="da/d45/a00011.php#a83d954f1cb764a7410de01d33cb9e396">Contraption</a>
-, <a class="el" href="d4/d51/a00017.php#a60a9e42b7c5a623a9ff3b5754519c0df">Map</a>
+: <a class="el" href="df/d86/a00012.php#a83d954f1cb764a7410de01d33cb9e396">Contraption</a>
+, <a class="el" href="d1/d2b/a00018.php#a60a9e42b7c5a623a9ff3b5754519c0df">Map</a>
 </li>
 <li>setX()
-: <a class="el" href="da/d45/a00011.php#ab14db8239bfc09ba3c5c6e07a23033b7">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#ab14db8239bfc09ba3c5c6e07a23033b7">Contraption</a>
 </li>
 <li>setY()
-: <a class="el" href="da/d45/a00011.php#a9a260fe681d3f4be9cb08546dff4d3d4">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a9a260fe681d3f4be9cb08546dff4d3d4">Contraption</a>
 </li>
 <li>setZ()
-: <a class="el" href="da/d45/a00011.php#a61b34301ffd55f3f9b6bc319020e691d">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a61b34301ffd55f3f9b6bc319020e691d">Contraption</a>
 </li>
 <li>start()
-: <a class="el" href="de/d5e/a00007.php#a8a050959dcff11c85d695989e9099a8c">Clock</a>
-, <a class="el" href="d0/d33/a00027.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
+: <a class="el" href="d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c">Clock</a>
+, <a class="el" href="dc/d3c/a00028.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
 </li>
 </ul>
 </div><!-- contents -->

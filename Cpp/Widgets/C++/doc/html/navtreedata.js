@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "C++", "index.php", [
+    [ "My own C++ Features", "index.php", null ],
     [ "Todo List", "d8/d84/a00001.php", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.php", "namespaces" ],
@@ -37,8 +38,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d5/df9/a00044.php#ab02b1d548b1c53cda0de554f2e086e43",
-"de/d8c/a00036.php#a1213c000f201a2e1991e60a0e2973d91"
+"d7/de0/a00022.php",
+"df/d86/a00012.php#a96a40d8c6b09bc86be65042fad49592f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -11,7 +11,7 @@
 #include "convert.hpp"
 #include "types.hpp"
 
-/*! Colors list */
+/*! \brief	Colors list */
 enum class Colors {
 	BLACK_F = 30,
 	RED_F = 31,
@@ -55,7 +55,6 @@ enum class Colors {
 	CROSS = 9
 };
 
-/* Class to color the console text */
 /*!
 * \class	Color
 * \brief	Change the text color in the console
@@ -139,7 +138,6 @@ class Color{
 		std::string code2;
 };
 
-/* Class to reinit the console colors */
 /*!
 * \class	Reinit
 * \brief	Reinit the color in the console
@@ -151,7 +149,6 @@ class Reinit : public Color{
 	private:
 };
 
-/* Class to clear the console */
 /*!
 * \class	Cls
 * \brief	Clear the console
@@ -171,7 +168,6 @@ class Cls{
 
 };
 
-/* Position the console cursor */
 /*!
 * \class	ConsoleCursor
 * \brief	A class to play with the cursor in the console

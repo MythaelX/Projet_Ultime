@@ -1,14 +1,21 @@
 var a00018 =
 [
-    [ "Hostile", "d1/d2b/a00018.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1", null ],
-    [ "~Hostile", "d1/d2b/a00018.php#af1c3ba743ce0c9b50d501fb86f4127f8", null ],
-    [ "attack", "d1/d2b/a00018.php#aa3fec9f067507361ca93e6f4edf4b731", null ],
-    [ "getStrength", "d1/d2b/a00018.php#a2e41323724ce153631596d0a2e037197", null ],
-    [ "getTarget", "d1/d2b/a00018.php#ae9646e71bc0ee3240492aa98060e4942", null ],
-    [ "hurt", "d1/d2b/a00018.php#a7ad578b926f0be7cf84ee0f45665fa1f", null ],
-    [ "printInfos", "d1/d2b/a00018.php#a1640c2447984cd193da200e3c76e0859", null ],
-    [ "setStrength", "d1/d2b/a00018.php#a49702b5127cacf36d0e401dee60bc341", null ],
-    [ "setTarget", "d1/d2b/a00018.php#ab2f44509aba02128b145f53b45ae3d6e", null ],
-    [ "untarget", "d1/d2b/a00018.php#a4b91ff7920ded02f9662134608f11d6f", null ],
-    [ "target", "d1/d2b/a00018.php#a54cd84496707554686bc5fc43b57a4f8", null ]
+    [ "GraphScene", "d1/d2b/a00018.php#aaeb35fa52c5b126eb5e0c72f1291f1c2", null ],
+    [ "~GraphScene", "d1/d2b/a00018.php#a37cbb072493b457564dda12502c9af7f", null ],
+    [ "addGraph", "d1/d2b/a00018.php#ad24a3692edd1ba8099c9b823ca91705c", null ],
+    [ "addGraph", "d1/d2b/a00018.php#aa00a275c68b5ba1fd39998c2e47db34a", null ],
+    [ "addGraph", "d1/d2b/a00018.php#a0ae96172f1b8598300c4ac6134444697", null ],
+    [ "addInGraph", "d1/d2b/a00018.php#a262f69fe1830ded7878cf087236024f0", null ],
+    [ "getNbGraphs", "d1/d2b/a00018.php#a14cdb7c7d2167512a42815286cd75dba", null ],
+    [ "reinit", "d1/d2b/a00018.php#a9ee91facfb6fd4eda61385809e122f43", null ],
+    [ "setPointsDist", "d1/d2b/a00018.php#a8039208138c6c15d89f3460b552f6b37", null ],
+    [ "setXMax", "d1/d2b/a00018.php#a294013125013fbd6218eeb892c53d6b4", null ],
+    [ "setXMin", "d1/d2b/a00018.php#a53a17a634417fcde5b9cac44699ed7a6", null ],
+    [ "setXRange", "d1/d2b/a00018.php#a7b4d85fc0786904021c33902cec3dbdb", null ],
+    [ "setXStep", "d1/d2b/a00018.php#a7bcd5ff38039ca92991a9b72b6f0e8ea", null ],
+    [ "setYMax", "d1/d2b/a00018.php#a4345f99a23e4cc5fa07c55cf3511537e", null ],
+    [ "setYMin", "d1/d2b/a00018.php#a4a87303127505bce46d4dcc30ce1f122", null ],
+    [ "setYRange", "d1/d2b/a00018.php#a4f75f2238bcc5df131f3e4198bc1c186", null ],
+    [ "setYStep", "d1/d2b/a00018.php#a0691b268ad07ea33bf254b0f489df59d", null ],
+    [ "update", "d1/d2b/a00018.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5", null ]
 ];

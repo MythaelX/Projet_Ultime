@@ -1,0 +1,10 @@
+<map id="Window::setMargin" name="Window::setMargin">
+<area shape="rect" id="node2" href="$da/d45/a00011.php#a677a2c1046a84743e709515f5618b1e8" title="The show event of the window. " alt="" coords="225,5,367,32"/>
+<area shape="rect" id="node3" href="$da/d45/a00011.php#a1b653d42eb4810a8c0be48dc65d98b3a" title="The paint event of the window. " alt="" coords="227,56,365,83"/>
+<area shape="rect" id="node4" href="$da/d45/a00011.php#a3d72edbec3fed3709ea3d374973c70b4" title="The resize event of the window. " alt="" coords="223,107,369,133"/>
+<area shape="rect" id="node5" href="$da/d45/a00011.php#a1ce5696d3fac4e90e6c9fbd0477d0f9d" title="Draw the background of the window. " alt="" coords="209,157,383,184"/>
+<area shape="rect" id="node6" href="$da/d45/a00011.php#acbed45e30a51c6855e5e6ea88197b161" title="Draw the default background of the window. " alt="" coords="188,208,404,235"/>
+<area shape="rect" id="node7" href="$da/d45/a00011.php#a3f710c0adafe15f27766f70a1c5b4dee" title="Set the background window. " alt="" coords="214,259,378,285"/>
+<area shape="rect" id="node8" href="$da/d45/a00011.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7" title="Set if yes or no the window can be resized. " alt="" coords="218,309,374,336"/>
+<area shape="rect" id="node9" href="$da/d45/a00011.php#a8ad2a767e19299b153f9bc0457f13114" title="Set the titlebar visibility. " alt="" coords="221,360,371,387"/>
+</map>

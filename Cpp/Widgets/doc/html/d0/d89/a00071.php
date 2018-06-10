@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: QtFunctions.hpp File Reference</title>
+<title>Qt: QtDefines.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,164 +106,59 @@ $(document).ready(function(){initNavTree('d0/d89/a00071.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">QtFunctions.hpp File Reference</div>  </div>
+<div class="title">QtDefines.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
-<code>#include &quot;C++/defines.hpp&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d1f/a00083_source.php">Widget.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dea/a00054_source.php">DrawScene.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">GraphScene.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/df8/a00076_source.php">Spacers.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2c/a00072_source.php">QtFunctions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">Font.hpp</a>&quot;</code><br />
+<code>#include &quot;C++/C++.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for QtFunctions.hpp:</div>
+Include dependency graph for QtDefines.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#QtFunctions_8hpp" alt=""/></div>
+<div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#QtDefines_8hpp" alt=""/></div>
+<map name="QtDefines_8hpp" id="QtDefines_8hpp">
+<area shape="rect" id="node3" href="../../d2/d1f/a00083.php" title="Widget.hpp" alt="" coords="267,80,355,107"/>
+<area shape="rect" id="node4" href="../../d1/dea/a00054.php" title="DrawScene.hpp" alt="" coords="481,80,595,107"/>
+<area shape="rect" id="node5" href="../../db/db6/a00074.php" title="Scene.hpp" alt="" coords="416,169,500,196"/>
+<area shape="rect" id="node7" href="../../d9/d73/a00060.php" title="GraphScene.hpp" alt="" coords="620,80,739,107"/>
+<area shape="rect" id="node12" href="../../db/df8/a00076.php" title="Spacers.hpp" alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node13" href="../../d6/d2c/a00072.php" title="QtFunctions.hpp" alt="" coords="124,80,243,107"/>
+<area shape="rect" id="node15" href="../../d3/d8b/a00059.php" title="Font.hpp" alt="" coords="2447,80,2520,107"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/db6/a00146.png" border="0" usemap="#QtFunctions_8hppdep" alt=""/></div>
-<map name="QtFunctions_8hppdep" id="QtFunctions_8hppdep">
-<area shape="rect" id="node2" href="../../d2/db1/a00070.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
-<area shape="rect" id="node3" href="../../d7/df7/a00058.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
-<area shape="rect" id="node4" href="../../d4/d31/a00069.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
-<area shape="rect" id="node6" href="../../df/d5d/a00084.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
-<area shape="rect" id="node5" href="../../d1/d09/a00077.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
-<area shape="rect" id="node7" href="../../df/d13/a00085.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
-<area shape="rect" id="node8" href="../../d2/d1f/a00083.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
+<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#QtDefines_8hppdep" alt=""/></div>
+<map name="QtDefines_8hppdep" id="QtDefines_8hppdep">
+<area shape="rect" id="node2" href="../../d3/d8b/a00059.php" title="Font.hpp" alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="../../d2/db1/a00070.php" title="Qt.hpp" alt="" coords="134,304,195,331"/>
+<area shape="rect" id="node5" href="../../df/d13/a00085.php" title="WindowButton.hpp" alt="" coords="156,80,288,107"/>
+<area shape="rect" id="node4" href="../../d9/da4/a00078.php" title="TableWidget.hpp" alt="" coords="105,379,225,405"/>
+<area shape="rect" id="node6" href="../../da/d2a/a00086.php" title="WindowTitleBar.hpp" alt="" coords="154,155,293,181"/>
+<area shape="rect" id="node7" href="../../df/d5d/a00084.php" title="Window.hpp" alt="" coords="165,229,260,256"/>
 </map>
 </div>
 </div>
 <p><a href="../../d0/d89/a00071_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> = <a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></td></tr>
-<tr class="memdesc:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alias for Qt.  <a href="#af5c0e4b3ee16e7efaa2220fe898e0138">More...</a><br /></td></tr>
-<tr class="separator:af5c0e4b3ee16e7efaa2220fe898e0138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0272cd6761e50151f46337d1d7f793f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d89/a00071.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a0272cd6761e50151f46337d1d7f793f2">getDesktopSize</a> ()</td></tr>
-<tr class="memdesc:a0272cd6761e50151f46337d1d7f793f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the size of the desktop.  <a href="#a0272cd6761e50151f46337d1d7f793f2">More...</a><br /></td></tr>
-<tr class="separator:a0272cd6761e50151f46337d1d7f793f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a5b8564155df959a2ed36b171090ec2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a7a5b8564155df959a2ed36b171090ec2">getDesktopWidth</a> ()</td></tr>
-<tr class="memdesc:a7a5b8564155df959a2ed36b171090ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the width of the desktop.  <a href="#a7a5b8564155df959a2ed36b171090ec2">More...</a><br /></td></tr>
-<tr class="separator:a7a5b8564155df959a2ed36b171090ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e89aa67e6219267f0f2965567c447a5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a4e89aa67e6219267f0f2965567c447a5">getDesktopHeight</a> ()</td></tr>
-<tr class="memdesc:a4e89aa67e6219267f0f2965567c447a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of the desktop.  <a href="#a4e89aa67e6219267f0f2965567c447a5">More...</a><br /></td></tr>
-<tr class="separator:a4e89aa67e6219267f0f2965567c447a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac35a8acbe17be1d705ecf8d940eacc95"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#ac35a8acbe17be1d705ecf8d940eacc95">cssReader</a> (std::string path)</td></tr>
-<tr class="memdesc:ac35a8acbe17be1d705ecf8d940eacc95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a Cascade Style Sheet and translate it for Qt.  <a href="#ac35a8acbe17be1d705ecf8d940eacc95">More...</a><br /></td></tr>
-<tr class="separator:ac35a8acbe17be1d705ecf8d940eacc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d0/d89/a00071_source.php">QtFunctions.hpp</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="af5c0e4b3ee16e7efaa2220fe898e0138"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d0/d89/a00071.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> =  <a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>An alias for Qt. </p>
-
-<p>Definition at line <a class="el" href="../../d0/d89/a00071_source.php#l00016">16</a> of file <a class="el" href="../../d0/d89/a00071_source.php">QtFunctions.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ac35a8acbe17be1d705ecf8d940eacc95"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string cssReader </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read a Cascade Style Sheet and translate it for Qt. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to the file </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the file contents as a string </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a4e89aa67e6219267f0f2965567c447a5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t getDesktopHeight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the height of the desktop. </p>
-
-</div>
-</div>
-<a class="anchor" id="a0272cd6761e50151f46337d1d7f793f2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d89/a00071.php#af5c0e4b3ee16e7efaa2220fe898e0138">QtWindow</a> getDesktopSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the size of the desktop. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return a QtWindow struct </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a7a5b8564155df959a2ed36b171090ec2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t getDesktopWidth </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the width of the desktop. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d0/d89/a00071_source.php">QtDefines.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d0/d89/a00071.php">QtFunctions.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d0/d89/a00071.php">QtDefines.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

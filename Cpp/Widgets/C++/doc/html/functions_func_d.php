@@ -145,11 +145,11 @@ $(document).ready(function(){initNavTree('functions_func_d.php','');});
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
 <li>debug()
-: <a class="el" href="dd/dad/a00005.php#a280bf2b854a6a0e3a573fbd7c96c84c2">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a280bf2b854a6a0e3a573fbd7c96c84c2">BDD</a>
 </li>
 <li>decrypt()
-: <a class="el" href="de/d21/a00006.php#aa7c94ff5f6e8bc01697271877e05e367">Cesar</a>
-, <a class="el" href="d6/d5b/a00026.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
+: <a class="el" href="de/d5e/a00007.php#aa7c94ff5f6e8bc01697271877e05e367">Cesar</a>
+, <a class="el" href="d0/d33/a00027.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
 </li>
 </ul>
 </div><!-- contents -->

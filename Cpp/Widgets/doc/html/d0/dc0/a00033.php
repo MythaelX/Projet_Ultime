@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: TableWidget Class Reference</title>
+<title>Qt: Scene Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,124 +109,84 @@ $(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="../../d6/db6/a00241.php">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d0/d27/a00239.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TableWidget Class Reference</div>  </div>
+<div class="title">Scene Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Create a personnalized <a class="el" href="../../d0/dc0/a00033.php" title="Create a personnalized TableWidget. ">TableWidget</a>.  
+<p>An implementation of QGraphcsScene with an updator.  
  <a href="../../d0/dc0/a00033.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/d09/a00077_source.php">TableWidget.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for TableWidget:</div>
+Inheritance diagram for Scene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/dc8/a00242.png" border="0" usemap="#TableWidget_inherit__map" alt="Inheritance graph"/></div>
-<map name="TableWidget_inherit__map" id="TableWidget_inherit__map">
-<area shape="rect" id="node2" href="../../de/d8c/a00036.php" title="Create a personnalized Widget. " alt="" coords="21,80,84,107"/>
+<div class="center"><img src="../../d9/d21/a00240.png" border="0" usemap="#Scene_inherit__map" alt="Inheritance graph"/></div>
+<map name="Scene_inherit__map" id="Scene_inherit__map">
+<area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="A Scene implementation to draw with tiles system. " alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="../../d1/d2b/a00018.php" title="A Scene implementation to draw graphs. " alt="" coords="121,155,215,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for TableWidget:</div>
+Collaboration diagram for Scene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d82/a00243.png" border="0" usemap="#TableWidget_coll__map" alt="Collaboration graph"/></div>
-<map name="TableWidget_coll__map" id="TableWidget_coll__map">
-<area shape="rect" id="node2" href="../../de/d8c/a00036.php" title="Create a personnalized Widget. " alt="" coords="21,80,84,107"/>
+<div class="center"><img src="../../d6/db6/a00241.png" border="0" usemap="#Scene_coll__map" alt="Collaboration graph"/></div>
+<map name="Scene_coll__map" id="Scene_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a7faff47f5c1b1ebc986f768c9b9732ec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a> ()=0</td></tr>
+<tr class="memdesc:a7faff47f5c1b1ebc986f768c9b9732ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual method to redefine it in child classes.  <a href="#a7faff47f5c1b1ebc986f768c9b9732ec">More...</a><br /></td></tr>
+<tr class="separator:a7faff47f5c1b1ebc986f768c9b9732ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa29e2c37c0e310779790537890c529f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a> (QWidget *parent=nullptr, size_t w=0, size_t h=0)</td></tr>
-<tr class="memdesc:aa29e2c37c0e310779790537890c529f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QGridLayout.  <a href="#aa29e2c37c0e310779790537890c529f2">More...</a><br /></td></tr>
-<tr class="separator:aa29e2c37c0e310779790537890c529f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fb6edc429e21280d8f47faf6fe012fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a5fb6edc429e21280d8f47faf6fe012fa">~TableWidget</a> ()</td></tr>
-<tr class="separator:a5fb6edc429e21280d8f47faf6fe012fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9965d8f6b70b52fc8e25906a20d4a771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a9965d8f6b70b52fc8e25906a20d4a771">addHeader</a> (QWidget *widget)</td></tr>
-<tr class="separator:a9965d8f6b70b52fc8e25906a20d4a771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d73338e3d97bafc754ed798fd487f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a59d73338e3d97bafc754ed798fd487f6">addHeader</a> (QWidget *widget, size_t x)</td></tr>
-<tr class="separator:a59d73338e3d97bafc754ed798fd487f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25bba3124cdbe518985157ff23b0b1d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a25bba3124cdbe518985157ff23b0b1d0">setHeader</a> (QWidget *widget, size_t x)</td></tr>
-<tr class="separator:a25bba3124cdbe518985157ff23b0b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe173d2bf4af78a34eea42f6015dfc24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#abe173d2bf4af78a34eea42f6015dfc24">add</a> (QWidget *widget)</td></tr>
-<tr class="memdesc:abe173d2bf4af78a34eea42f6015dfc24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a widget to the table.  <a href="#abe173d2bf4af78a34eea42f6015dfc24">More...</a><br /></td></tr>
-<tr class="separator:abe173d2bf4af78a34eea42f6015dfc24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce74e5071c06cb79eb9120e7ca321f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#acce74e5071c06cb79eb9120e7ca321f2">add</a> (QCheckBox *widget)</td></tr>
-<tr class="memdesc:acce74e5071c06cb79eb9120e7ca321f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a checkbox to the table.  <a href="#acce74e5071c06cb79eb9120e7ca321f2">More...</a><br /></td></tr>
-<tr class="separator:acce74e5071c06cb79eb9120e7ca321f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b038bcb974698aa762291d72cb52e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a89b038bcb974698aa762291d72cb52e3">add</a> (QWidget *widget, size_t x, size_t y)</td></tr>
-<tr class="memdesc:a89b038bcb974698aa762291d72cb52e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put a widget at the position <em>x/<em>y</em>.</em>  <a href="#a89b038bcb974698aa762291d72cb52e3">More...</a><br /></td></tr>
-<tr class="separator:a89b038bcb974698aa762291d72cb52e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b92f2d6e93627e3034f07a73138b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a38b92f2d6e93627e3034f07a73138b1e">set</a> (QWidget *widget, size_t x, size_t y)</td></tr>
-<tr class="memdesc:a38b92f2d6e93627e3034f07a73138b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace a widget at the position <em>x/<em>y</em>.</em>  <a href="#a38b92f2d6e93627e3034f07a73138b1e">More...</a><br /></td></tr>
-<tr class="separator:a38b92f2d6e93627e3034f07a73138b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec3251ece680a9da68c7e4adb1f6531"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc0/a00033.php">TableWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a6ec3251ece680a9da68c7e4adb1f6531">get</a> (size_t w=0, size_t h=0)</td></tr>
-<tr class="memdesc:a6ec3251ece680a9da68c7e4adb1f6531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the grid layout address.  <a href="#a6ec3251ece680a9da68c7e4adb1f6531">More...</a><br /></td></tr>
-<tr class="separator:a6ec3251ece680a9da68c7e4adb1f6531"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00036"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00036')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../de/d8c/a00036.php">Widget</a></td></tr>
-<tr class="memitem:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00036"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8c/a00036.php#ace1aa23652eb4425355a81760b39fd37">Widget</a> (QWidget *parent=nullptr)</td></tr>
-<tr class="memdesc:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QWidget.  <a href="#ace1aa23652eb4425355a81760b39fd37">More...</a><br /></td></tr>
-<tr class="separator:ace1aa23652eb4425355a81760b39fd37 inherit pub_methods_a00036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a714cf798aadb4d615f6f60a355382c02 inherit pub_methods_a00036"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8c/a00036.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a> ()</td></tr>
-<tr class="separator:a714cf798aadb4d615f6f60a355382c02 inherit pub_methods_a00036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0ae2c1c11ac3f3fd382baf33fb934a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a> (QObject *parent=NULL)</td></tr>
+<tr class="memdesc:a8f0ae2c1c11ac3f3fd382baf33fb934a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the QGraphicsScene.  <a href="#a8f0ae2c1c11ac3f3fd382baf33fb934a">More...</a><br /></td></tr>
+<tr class="separator:a8f0ae2c1c11ac3f3fd382baf33fb934a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
+<tr class="separator:a3b8cec2e32546713915f8c6303c951f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a8ee97e18b4afb72672b36ef2002537ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a8ee97e18b4afb72672b36ef2002537ae">update</a> ()</td></tr>
-<tr class="memdesc:a8ee97e18b4afb72672b36ef2002537ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the grid layout.  <a href="#a8ee97e18b4afb72672b36ef2002537ae">More...</a><br /></td></tr>
-<tr class="separator:a8ee97e18b4afb72672b36ef2002537ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a00036"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00036')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../de/d8c/a00036.php">Widget</a></td></tr>
-<tr class="memitem:af755e8891f462562c88c37735345a798 inherit pro_methods_a00036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8c/a00036.php#af755e8891f462562c88c37735345a798">paintEvent</a> (QPaintEvent *event)</td></tr>
-<tr class="separator:af755e8891f462562c88c37735345a798 inherit pro_methods_a00036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5b9c0375ba50d6f3f7e83d983088ac08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td></tr>
+<tr class="separator:a5b9c0375ba50d6f3f7e83d983088ac08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Create a personnalized <a class="el" href="../../d0/dc0/a00033.php" title="Create a personnalized TableWidget. ">TableWidget</a>. </p>
+<div class="textblock"><p>An implementation of QGraphcsScene with an updator. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d09/a00077_source.php#l00018">18</a> of file <a class="el" href="../../d1/d09/a00077_source.php">TableWidget.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/db6/a00074_source.php#l00019">19</a> of file <a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa29e2c37c0e310779790537890c529f2"></a>
+<a class="anchor" id="a8f0ae2c1c11ac3f3fd382baf33fb934a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TableWidget::TableWidget </td>
+          <td class="memname">Scene::Scene </td>
           <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>parent</em> = <code>nullptr</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>NULL</code></td><td>)</td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>w</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create a QGridLayout. </p>
+<p>Construct the QGraphicsScene. </p>
 
 </div>
 </div>
-<a class="anchor" id="a5fb6edc429e21280d8f47faf6fe012fa"></a>
+<a class="anchor" id="a3b8cec2e32546713915f8c6303c951f1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TableWidget::~TableWidget </td>
+          <td class="memname">Scene::~Scene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -237,266 +197,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="abe173d2bf4af78a34eea42f6015dfc24"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::add </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add a widget to the table. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="acce74e5071c06cb79eb9120e7ca321f2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::add </td>
-          <td>(</td>
-          <td class="paramtype">QCheckBox *&#160;</td>
-          <td class="paramname"><em>widget</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add a checkbox to the table. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The checkbox to add </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a89b038bcb974698aa762291d72cb52e3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::add </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Put a widget at the position <em>x/<em>y</em>.</em> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position in the grid </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position in the grid </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000007">Todo:</a></b></dt><dd></dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a9965d8f6b70b52fc8e25906a20d4a771"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::addHeader </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a59d73338e3d97bafc754ed798fd487f6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::addHeader </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>x</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position on the top of the grid </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd></dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a6ec3251ece680a9da68c7e4adb1f6531"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dc0/a00033.php">TableWidget</a>* TableWidget::get </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>w</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the grid layout address. </p>
-
-</div>
-</div>
-<a class="anchor" id="a38b92f2d6e93627e3034f07a73138b1e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::set </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replace a widget at the position <em>x/<em>y</em>.</em> </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position in the grid </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>The y position in the grid </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000008">Todo:</a></b></dt><dd></dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a25bba3124cdbe518985157ff23b0b1d0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TableWidget::setHeader </td>
-          <td>(</td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>widget</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>x</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">widget</td><td>The widget to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>The x position on the top of the grid </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000006">Todo:</a></b></dt><dd></dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8ee97e18b4afb72672b36ef2002537ae"></a>
+<a class="anchor" id="a7faff47f5c1b1ebc986f768c9b9732ec"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -504,10 +205,34 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TableWidget::update </td>
+          <td class="memname">virtual void Scene::update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A pure virtual method to redefine it in child classes. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a5b9c0375ba50d6f3f7e83d983088ac08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::initialized</td>
         </tr>
       </table>
   </td>
@@ -517,19 +242,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Update the grid layout. </p>
+<p>Definition at line <a class="el" href="../../db/db6/a00074_source.php#l00037">37</a> of file <a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d09/a00077_source.php">TableWidget.hpp</a></li>
+<li><a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/dc0/a00033.php">TableWidget</a></li>
+    <li class="navelem"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

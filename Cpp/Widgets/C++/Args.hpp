@@ -23,7 +23,7 @@
 class Arguments {
 	public:
 		/* Constructor et Destroyer */
-			/*! \brief		Constructor of the class */
+			/*! \brief	Constructor of the class */
 			Arguments(){}
 			~Arguments(){}
 

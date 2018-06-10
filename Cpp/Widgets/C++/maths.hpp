@@ -2,7 +2,7 @@
 *
 *	\file		maths.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		29 mai 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_MATHS
@@ -273,10 +273,10 @@ inline double dsigmoide(double in){
 }
 
 /*!
-* \brief	Je ne sais plus ce que c'est
+* \brief	Do the log of x in base 2
 *		\param[in]		x		The value to compute
 *
-*		\return			Return log(\a x) / log(2)
+*		\return			Return log2(\a x)
 */
 inline int log2p(int x){
 	return static_cast<int>(log(x) / log(2));

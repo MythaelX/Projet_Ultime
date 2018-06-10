@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Crypto Class Reference</title>
+<title>C++: ContraptionAttr Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,89 +109,86 @@ $(document).ready(function(){initNavTree('d7/dd4/a00013.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d8/d17/a00114.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Crypto Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ContraptionAttr Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to be the parent for every crypt class.  
+<p>A struct to define <b><a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a></b> attributes.  
  <a href="../../d7/dd4/a00013.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Crypto:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/da3/a00115.png" border="0" usemap="#Crypto_inherit__map" alt="Inheritance graph"/></div>
-<map name="Crypto_inherit__map" id="Crypto_inherit__map">
-<area shape="rect" id="node2" href="../../de/d21/a00006.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,80,63,107"/>
-<area shape="rect" id="node3" href="../../d6/d5b/a00026.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:abc5714d83e17c9961258646a94e75079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a> ()</td></tr>
-<tr class="separator:abc5714d83e17c9961258646a94e75079"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d99d39d43cf53d9b18a00bec7a8132"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">crypt</a> ()=0</td></tr>
-<tr class="separator:a76d99d39d43cf53d9b18a00bec7a8132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a949dbd15efa71ddbb294abf15517d8b0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">w</a></td></tr>
+<tr class="separator:a949dbd15efa71ddbb294abf15517d8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a480fb32edc0218d9d1cead0a8e6f9d15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">h</a></td></tr>
+<tr class="separator:a480fb32edc0218d9d1cead0a8e6f9d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062e1a4fe2f7d6f8d771f13f10844a19"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a062e1a4fe2f7d6f8d771f13f10844a19">angle</a> = 0</td></tr>
+<tr class="separator:a062e1a4fe2f7d6f8d771f13f10844a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to be the parent for every crypt class. </p>
+<div class="textblock"><p>A struct to define <b><a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a></b> attributes. </p>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00017">17</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="abc5714d83e17c9961258646a94e75079"></a>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00068">68</a> of file <a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a062e1a4fe2f7d6f8d771f13f10844a19"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Crypto::Crypto </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">double ContraptionAttr::angle = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Angle </p>
+
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00074">74</a> of file <a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a76d99d39d43cf53d9b18a00bec7a8132"></a>
+<a class="anchor" id="a480fb32edc0218d9d1cead0a8e6f9d15"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Crypto::crypt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">double ContraptionAttr::h</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Pur virtual function to disallow you to use the class alone </p><pre class="fragment">\return     void</pre> 
-<p>Implemented in <a class="el" href="../../d6/d5b/a00026.php#ab84588271f2e5417d47251be249951b4">RSA</a>, and <a class="el" href="../../de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>.</p>
+<p>Height </p>
+
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00072">72</a> of file <a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a></li>
+<a class="anchor" id="a949dbd15efa71ddbb294abf15517d8b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ContraptionAttr::w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Width </p>
+
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00070">70</a> of file <a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d5/db6/a00042_source.php">defines.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/dd4/a00013.php">Crypto</a></li>
+    <li class="navelem"><a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

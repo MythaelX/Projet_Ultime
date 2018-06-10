@@ -1,5 +1,6 @@
 <map id="Animal" name="Animal">
-<area shape="rect" id="node2" href="$d2/de7/a00014.php" title="An entity. " alt="" coords="22,81,78,108"/>
-<area shape="rect" id="node4" href="$dd/d1b/a00015.php" title="A class to derivate from when the thing can attack. " alt="" coords="67,171,129,197"/>
-<area shape="rect" id="node3" href="$da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node5" href="$d0/d0b/a00004.php" title="An ant. " alt="" coords="70,229,113,256"/>
+<area shape="rect" id="node2" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
+<area shape="rect" id="node3" href="$df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node4" href="$d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. " alt="" coords="103,80,165,107"/>
 </map>

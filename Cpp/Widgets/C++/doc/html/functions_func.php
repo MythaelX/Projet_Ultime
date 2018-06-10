@@ -145,35 +145,35 @@ $(document).ready(function(){initNavTree('functions_func.php','');});
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>add()
-: <a class="el" href="d0/d0b/a00004.php#a0e9d109a0cf2783b6ab6bfab6df719f3">Arguments</a>
+: <a class="el" href="dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3">Arguments</a>
 </li>
 <li>addColors()
-: <a class="el" href="da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">Color</a>
+: <a class="el" href="d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">Color</a>
 </li>
 <li>addPosition()
-: <a class="el" href="da/d45/a00011.php#a3af679109317a6740c661fe5164158ff">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#a3af679109317a6740c661fe5164158ff">Contraption</a>
 </li>
 <li>addProg()
-: <a class="el" href="d0/d0b/a00004.php#a126d62fd1d3eed743b06cb1b83f9093d">Arguments</a>
+: <a class="el" href="dd/dad/a00005.php#a126d62fd1d3eed743b06cb1b83f9093d">Arguments</a>
 </li>
 <li>Animal()
-: <a class="el" href="d7/d46/a00002.php#a46fa459910827becd0cc0463f260d4e0">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a46fa459910827becd0cc0463f260d4e0">Animal</a>
 </li>
 <li>Ant()
-: <a class="el" href="d1/d7c/a00003.php#a088ebbdb8d6cd05cf6f6c1d35b766c6e">Ant</a>
+: <a class="el" href="d0/d0b/a00004.php#a088ebbdb8d6cd05cf6f6c1d35b766c6e">Ant</a>
 </li>
 <li>anyObstacle()
-: <a class="el" href="d7/d46/a00002.php#a3106b384960dd889ce599eed9d2b61d9">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a3106b384960dd889ce599eed9d2b61d9">Animal</a>
 </li>
 <li>applyForEach()
-: <a class="el" href="dd/dad/a00005.php#a57fd2669fe6febe24cde0db73b5a438f">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a57fd2669fe6febe24cde0db73b5a438f">BDD</a>
 </li>
 <li>Arguments()
-: <a class="el" href="d0/d0b/a00004.php#afe56d8477bfae32c239771056c233311">Arguments</a>
+: <a class="el" href="dd/dad/a00005.php#afe56d8477bfae32c239771056c233311">Arguments</a>
 </li>
 <li>attack()
-: <a class="el" href="d7/d46/a00002.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>
-, <a class="el" href="dd/d1b/a00015.php#aa3fec9f067507361ca93e6f4edf4b731">Hostile</a>
+: <a class="el" href="d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>
+, <a class="el" href="d7/d7a/a00016.php#aa3fec9f067507361ca93e6f4edf4b731">Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

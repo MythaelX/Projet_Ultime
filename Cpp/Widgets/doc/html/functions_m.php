@@ -151,37 +151,37 @@ $(document).ready(function(){initNavTree('functions_m.php','');});
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>m_Cache
-: <a class="el" href="d1/dc6/a00037.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
+: <a class="el" href="d8/d41/a00038.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
 </li>
 <li>m_start
-: <a class="el" href="de/d5e/a00007.php#ad482076b35f14f806f688e956245483a">Clock</a>
-, <a class="el" href="db/df3/a00034.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
+: <a class="el" href="d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">Clock</a>
+, <a class="el" href="d4/d8c/a00035.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
 </li>
 <li>Map()
-: <a class="el" href="db/db2/a00020.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="de/d11/a00021.php#a5c9015eea1519003e305315fc6933968">Map</a>
 </li>
 <li>Maximized()
-: <a class="el" href="d3/de7/a00039.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
+: <a class="el" href="db/d3a/a00040.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
 </li>
 <li>Minimized()
-: <a class="el" href="d3/de7/a00039.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
+: <a class="el" href="db/d3a/a00040.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
 </li>
 <li>mouseMoveEvent()
-: <a class="el" href="d3/de7/a00039.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
+: <a class="el" href="db/d3a/a00040.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
 </li>
 <li>mousePressEvent()
-: <a class="el" href="d8/d41/a00038.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
-, <a class="el" href="d3/de7/a00039.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
+: <a class="el" href="d3/de7/a00039.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
+, <a class="el" href="db/d3a/a00040.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
 </li>
 <li>mouseReleaseEvent()
-: <a class="el" href="d8/d41/a00038.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
-, <a class="el" href="d3/de7/a00039.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
+: <a class="el" href="d3/de7/a00039.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
+, <a class="el" href="db/d3a/a00040.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
 </li>
 <li>move()
-: <a class="el" href="d7/d46/a00002.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="de/d11/a00021.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="d7/de0/a00022.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 </ul>
 </div><!-- contents -->

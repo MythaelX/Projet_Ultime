@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Cesar Class Reference</title>
+<title>C++: BDD Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,55 +110,370 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../d5/d1e/a00103.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Cesar Class Reference</div>  </div>
+<div class="title">BDD Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to use the cesar algorithm for encryption.  
+<p>A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>.  
  <a href="../../de/d21/a00006.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for Cesar:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/dc2/a00104.png" border="0" usemap="#Cesar_inherit__map" alt="Inheritance graph"/></div>
-<map name="Cesar_inherit__map" id="Cesar_inherit__map">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. " alt="" coords="5,5,67,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for Cesar:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/d32/a00105.png" border="0" usemap="#Cesar_coll__map" alt="Collaboration graph"/></div>
-<map name="Cesar_coll__map" id="Cesar_coll__map">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. " alt="" coords="5,5,67,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9a70a4a1e758085855fd550404687388"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9a70a4a1e758085855fd550404687388">Cesar</a> ()</td></tr>
-<tr class="separator:a9a70a4a1e758085855fd550404687388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aace459faf00e2f62e573674489d10568"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aace459faf00e2f62e573674489d10568">crypt</a> (std::string message, int decal=0)</td></tr>
-<tr class="memdesc:aace459faf00e2f62e573674489d10568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the crypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#aace459faf00e2f62e573674489d10568">More...</a><br /></td></tr>
-<tr class="separator:aace459faf00e2f62e573674489d10568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7c94ff5f6e8bc01697271877e05e367"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aa7c94ff5f6e8bc01697271877e05e367">decrypt</a> (std::string message, int decal=0)</td></tr>
-<tr class="memdesc:aa7c94ff5f6e8bc01697271877e05e367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the decrypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method.  <a href="#aa7c94ff5f6e8bc01697271877e05e367">More...</a><br /></td></tr>
-<tr class="separator:aa7c94ff5f6e8bc01697271877e05e367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09635aa52fa6a1245a6b2b4fbe024f1e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">crypt</a> ()</td></tr>
-<tr class="separator:a09635aa52fa6a1245a6b2b4fbe024f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00013"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00013')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/dd4/a00013.php">Crypto</a></td></tr>
-<tr class="memitem:abc5714d83e17c9961258646a94e75079 inherit pub_methods_a00013"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a> ()</td></tr>
-<tr class="separator:abc5714d83e17c9961258646a94e75079 inherit pub_methods_a00013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed1a6117c471a7575a224321eaf0dba2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a> (bool fatal_error=true)</td></tr>
+<tr class="memdesc:aed1a6117c471a7575a224321eaf0dba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#aed1a6117c471a7575a224321eaf0dba2">More...</a><br /></td></tr>
+<tr class="separator:aed1a6117c471a7575a224321eaf0dba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865c7d7590e1c3f227346b1045713099"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a865c7d7590e1c3f227346b1045713099">~BDD</a> ()</td></tr>
+<tr class="separator:a865c7d7590e1c3f227346b1045713099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ed61f03ce957690801dcc27e59930a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a14ed61f03ce957690801dcc27e59930a">setDatabase</a> (std::string database)</td></tr>
+<tr class="memdesc:a14ed61f03ce957690801dcc27e59930a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to the database.  <a href="#a14ed61f03ce957690801dcc27e59930a">More...</a><br /></td></tr>
+<tr class="separator:a14ed61f03ce957690801dcc27e59930a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa848f628b17ea10115c828e1f97ba5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#afa848f628b17ea10115c828e1f97ba5b">try_database</a> (std::string database)</td></tr>
+<tr class="memdesc:afa848f628b17ea10115c828e1f97ba5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a connection to the database.  <a href="#afa848f628b17ea10115c828e1f97ba5b">More...</a><br /></td></tr>
+<tr class="separator:afa848f628b17ea10115c828e1f97ba5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6720203c42f48b71f4d9a97f64b687f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aa6720203c42f48b71f4d9a97f64b687f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:aa6720203c42f48b71f4d9a97f64b687f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the table to simplify the others functions.  <a href="#aa6720203c42f48b71f4d9a97f64b687f">More...</a><br /></td></tr>
+<tr class="separator:aa6720203c42f48b71f4d9a97f64b687f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memItemLeft" align="right" valign="top">sql::ResultSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">query</a> (std::string task)</td></tr>
+<tr class="memdesc:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the task to the database.  <a href="#a9d8f1885fa2114dd0fa34c13e4e99a5c">More...</a><br /></td></tr>
+<tr class="separator:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624539007ee74764ba5d8f6bb0e7a354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">list</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a624539007ee74764ba5d8f6bb0e7a354"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the content of the given table.  <a href="#a624539007ee74764ba5d8f6bb0e7a354">More...</a><br /></td></tr>
+<tr class="separator:a624539007ee74764ba5d8f6bb0e7a354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059c72982d8075a1e0fcc175461b1430"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a059c72982d8075a1e0fcc175461b1430">insert</a> (std::string values, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a059c72982d8075a1e0fcc175461b1430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the INSERT in SQL.  <a href="#a059c72982d8075a1e0fcc175461b1430">More...</a><br /></td></tr>
+<tr class="separator:a059c72982d8075a1e0fcc175461b1430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18c3bdb5afcce76344b9bb201362b95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ad18c3bdb5afcce76344b9bb201362b95">update</a> (std::string values, std::string conditions, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad18c3bdb5afcce76344b9bb201362b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the UPDATE in SQL.  <a href="#ad18c3bdb5afcce76344b9bb201362b95">More...</a><br /></td></tr>
+<tr class="separator:ad18c3bdb5afcce76344b9bb201362b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a54ee2df1609f504fe4a2d189f51be7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a6a54ee2df1609f504fe4a2d189f51be7">update</a> (std::vector&lt; std::string &gt; values, std::string conditions, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a6a54ee2df1609f504fe4a2d189f51be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the UPDATE in SQL.  <a href="#a6a54ee2df1609f504fe4a2d189f51be7">More...</a><br /></td></tr>
+<tr class="separator:a6a54ee2df1609f504fe4a2d189f51be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8adcb89c3bd40c783880fa6355180655"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655">remove</a> (std::string condition, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a8adcb89c3bd40c783880fa6355180655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the DELETE in SQL.  <a href="#a8adcb89c3bd40c783880fa6355180655">More...</a><br /></td></tr>
+<tr class="separator:a8adcb89c3bd40c783880fa6355180655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006fc2acc34962ebafb9ce19640ad18b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">exists</a> (std::string task, std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a006fc2acc34962ebafb9ce19640ad18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if something exist in the bdd.  <a href="#a006fc2acc34962ebafb9ce19640ad18b">More...</a><br /></td></tr>
+<tr class="separator:a006fc2acc34962ebafb9ce19640ad18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359d41a12c304f95abb33d77698bd5ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">connect</a> (std::string url, std::string user, std::string pass)</td></tr>
+<tr class="memdesc:a359d41a12c304f95abb33d77698bd5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to a bdd.  <a href="#a359d41a12c304f95abb33d77698bd5ba">More...</a><br /></td></tr>
+<tr class="separator:a359d41a12c304f95abb33d77698bd5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e496e66cfaf5dc0209f448480bead5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a1e496e66cfaf5dc0209f448480bead5e">try_connect</a> (std::string url, std::string user, std::string pass)</td></tr>
+<tr class="memdesc:a1e496e66cfaf5dc0209f448480bead5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a connection to a bdd.  <a href="#a1e496e66cfaf5dc0209f448480bead5e">More...</a><br /></td></tr>
+<tr class="separator:a1e496e66cfaf5dc0209f448480bead5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a61fdb222ad3b05fb70a221d78da5a9c9">reset</a> ()</td></tr>
+<tr class="memdesc:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the object.  <a href="#a61fdb222ad3b05fb70a221d78da5a9c9">More...</a><br /></td></tr>
+<tr class="separator:a61fdb222ad3b05fb70a221d78da5a9c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a280bf2b854a6a0e3a573fbd7c96c84c2">debug</a> ()</td></tr>
+<tr class="memdesc:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the debug for the class.  <a href="#a280bf2b854a6a0e3a573fbd7c96c84c2">More...</a><br /></td></tr>
+<tr class="separator:a280bf2b854a6a0e3a573fbd7c96c84c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a962782dc60b83f30a7ec387e0747178d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a962782dc60b83f30a7ec387e0747178d">undebug</a> ()</td></tr>
+<tr class="memdesc:a962782dc60b83f30a7ec387e0747178d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the debug for the class.  <a href="#a962782dc60b83f30a7ec387e0747178d">More...</a><br /></td></tr>
+<tr class="separator:a962782dc60b83f30a7ec387e0747178d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a498e375deb333279886dd91cf389c986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d8c/a00035.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986">getColumns</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a498e375deb333279886dd91cf389c986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the columns of a table with their attributes.  <a href="#a498e375deb333279886dd91cf389c986">More...</a><br /></td></tr>
+<tr class="separator:a498e375deb333279886dd91cf389c986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c0df9de34d028bfa4a6711f3ff38ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">hasAutoincrement</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memdesc:a84c0df9de34d028bfa4a6711f3ff38ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a table contains an autoincremented column.  <a href="#a84c0df9de34d028bfa4a6711f3ff38ed">More...</a><br /></td></tr>
+<tr class="separator:a84c0df9de34d028bfa4a6711f3ff38ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae9ad54a4e2ca989e1f22dc497db4b43e">getCount</a> (std::string table=&quot;&quot;, std::string conditions=&quot;&quot;)</td></tr>
+<tr class="memdesc:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of lines with the conditions.  <a href="#ae9ad54a4e2ca989e1f22dc497db4b43e">More...</a><br /></td></tr>
+<tr class="separator:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02190012120478141702fb616c89ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac02190012120478141702fb616c89ab1">tables</a> ()</td></tr>
+<tr class="memdesc:ac02190012120478141702fb616c89ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the tables of the database.  <a href="#ac02190012120478141702fb616c89ab1">More...</a><br /></td></tr>
+<tr class="separator:ac02190012120478141702fb616c89ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a035bbfa977617239704b3d33c4c5ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">lastId</a> ()</td></tr>
+<tr class="memdesc:a9a035bbfa977617239704b3d33c4c5ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the last created id in the table.  <a href="#a9a035bbfa977617239704b3d33c4c5ac">More...</a><br /></td></tr>
+<tr class="separator:a9a035bbfa977617239704b3d33c4c5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c3535db0b4aa44778421c5f35c379ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a1c3535db0b4aa44778421c5f35c379ff">setFatal</a> (bool state)</td></tr>
+<tr class="memdesc:a1c3535db0b4aa44778421c5f35c379ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if an error is fatal or just like a warning.  <a href="#a1c3535db0b4aa44778421c5f35c379ff">More...</a><br /></td></tr>
+<tr class="separator:a1c3535db0b4aa44778421c5f35c379ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57fd2669fe6febe24cde0db73b5a438f"><td class="memTemplParams" colspan="2">template&lt;typename Func , class C , typename... Args&gt; </td></tr>
+<tr class="memitem:a57fd2669fe6febe24cde0db73b5a438f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a57fd2669fe6febe24cde0db73b5a438f">applyForEach</a> (Func &amp;&amp;f, C obj, std::string table, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a57fd2669fe6febe24cde0db73b5a438f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run an object method for each column of the <em>table</em>.  <a href="#a57fd2669fe6febe24cde0db73b5a438f">More...</a><br /></td></tr>
+<tr class="separator:a57fd2669fe6febe24cde0db73b5a438f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab15af0cd596105ba8f678fa38af6697a"><td class="memTemplParams" colspan="2">template&lt;typename Func , typename... Args&gt; </td></tr>
+<tr class="memitem:ab15af0cd596105ba8f678fa38af6697a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ab15af0cd596105ba8f678fa38af6697a">applyForEach</a> (Func &amp;&amp;f, std::string table, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:ab15af0cd596105ba8f678fa38af6697a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a function for each column of the <em>table</em>.  <a href="#ab15af0cd596105ba8f678fa38af6697a">More...</a><br /></td></tr>
+<tr class="separator:ab15af0cd596105ba8f678fa38af6697a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3a309489e289988579ec94eae459f8df"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a3a309489e289988579ec94eae459f8df">formatColumn</a> (std::string name)</td></tr>
+<tr class="memdesc:a3a309489e289988579ec94eae459f8df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a column name for text.  <a href="#a3a309489e289988579ec94eae459f8df">More...</a><br /></td></tr>
+<tr class="separator:a3a309489e289988579ec94eae459f8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac99c0f8c86fab4de2efe6b91b22fb942">formatValues</a> (std::string &amp;values, std::string table)</td></tr>
+<tr class="memdesc:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the values string.  <a href="#ac99c0f8c86fab4de2efe6b91b22fb942">More...</a><br /></td></tr>
+<tr class="separator:ac99c0f8c86fab4de2efe6b91b22fb942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d633320c008fade8c3ee5ff08cc821"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#af8d633320c008fade8c3ee5ff08cc821">formatConditions</a> (std::string &amp;conditions, std::string table)</td></tr>
+<tr class="memdesc:af8d633320c008fade8c3ee5ff08cc821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the conditions string.  <a href="#af8d633320c008fade8c3ee5ff08cc821">More...</a><br /></td></tr>
+<tr class="separator:af8d633320c008fade8c3ee5ff08cc821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07">formatBdd</a> (std::vector&lt; std::string &gt; &amp;args)</td></tr>
+<tr class="memdesc:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format values for the bdd.  <a href="#a79cffc4dc63f93f9d9fce893c5b66a07">More...</a><br /></td></tr>
+<tr class="separator:a79cffc4dc63f93f9d9fce893c5b66a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to use the cesar algorithm for encryption. </p>
+<div class="textblock"><p>A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>. </p>
+<ul>
+<li>Usefull commands with a query answer<br />
+<ul>
+<li>sql::ResultSet* rep = stmt-&gt;executeQuery(...);<br />
+</li>
+<li>auto meta = rep-&gt;getMetaData() : return the answer's meta-datas<br />
+<ul>
+<li>meta-&gt;getColumnCount() : return the answer's column's number<br />
+</li>
+</ul>
+</li>
+<li>rep-&gt;next() : return the next datas (to get something after a query you must use next() at least once<br />
+</li>
+<li>For each answers' lines,<br />
+<ul>
+<li>meta-&gt;getColumnLabel(numLine) : return the column's name<br />
+</li>
+<li>meta-&gt;getColumnName(numLine) : return the column's name<br />
+</li>
+<li>meta-&gt;getColumnType(numLine)<br />
+</li>
+<li>meta-&gt;getColumnTypeName(numLine) : return the column's type in capital<br />
+</li>
+<li>meta-&gt;isAutoIncrement(numLine) : return true if the column is autoincrement, false either<br />
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00042">42</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00046">46</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9a70a4a1e758085855fd550404687388"></a>
+<a class="anchor" id="aed1a6117c471a7575a224321eaf0dba2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BDD::BDD </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fatal_error</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor of the class. </p>
+
+</div>
+</div>
+<a class="anchor" id="a865c7d7590e1c3f227346b1045713099"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BDD::~BDD </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a57fd2669fe6febe24cde0db73b5a438f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func , class C , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::applyForEach </td>
+          <td>(</td>
+          <td class="paramtype">Func &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">C&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run an object method for each column of the <em>table</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>The function to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object on which to use the method </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The other arguments </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00237">237</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d21/a00006_a57fd2669fe6febe24cde0db73b5a438f_cgraph.png" border="0" usemap="#de/d21/a00006_a57fd2669fe6febe24cde0db73b5a438f_cgraph" alt=""/></div>
+<map name="de/d21/a00006_a57fd2669fe6febe24cde0db73b5a438f_cgraph" id="de/d21/a00006_a57fd2669fe6febe24cde0db73b5a438f_cgraph">
+<area shape="rect" id="node2" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="192,5,321,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab15af0cd596105ba8f678fa38af6697a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::applyForEach </td>
+          <td>(</td>
+          <td class="paramtype">Func &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run a function for each column of the <em>table</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">f</td><td>The function to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The object on which to use the method </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table name </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The other arguments </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00257">257</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d21/a00006_ab15af0cd596105ba8f678fa38af6697a_cgraph.png" border="0" usemap="#de/d21/a00006_ab15af0cd596105ba8f678fa38af6697a_cgraph" alt=""/></div>
+<map name="de/d21/a00006_ab15af0cd596105ba8f678fa38af6697a_cgraph" id="de/d21/a00006_ab15af0cd596105ba8f678fa38af6697a_cgraph">
+<area shape="rect" id="node2" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="207,5,336,32"/>
+<area shape="rect" id="node3" href="../../de/d21/a00006.php#ac99c0f8c86fab4de2efe6b91b22fb942" title="Format the values string. " alt="" coords="203,56,339,83"/>
+<area shape="rect" id="node4" href="../../de/d21/a00006.php#af8d633320c008fade8c3ee5ff08cc821" title="Format the conditions string. " alt="" coords="192,107,351,133"/>
+<area shape="rect" id="node5" href="../../de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07" title="Format values for the bdd. " alt="" coords="212,157,331,184"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a359d41a12c304f95abb33d77698bd5ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::connect </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>pass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connection to a bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">url</td><td>The url to connect to the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">user</td><td>The user for the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pass</td><td>The password for this user</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a280bf2b854a6a0e3a573fbd7c96c84c2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -166,7 +481,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Cesar::Cesar </td>
+          <td class="memname">void BDD::debug </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -179,36 +494,27 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00045">45</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
+<p>Start the debug for the class. </p>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d21/a00006_a9a70a4a1e758085855fd550404687388_cgraph.png" border="0" usemap="#de/d21/a00006_a9a70a4a1e758085855fd550404687388_cgraph" alt=""/></div>
-<map name="de/d21/a00006_a9a70a4a1e758085855fd550404687388_cgraph" id="de/d21/a00006_a9a70a4a1e758085855fd550404687388_cgraph">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132" title="Crypto::crypt" alt="" coords="153,5,252,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00165">165</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aace459faf00e2f62e573674489d10568"></a>
+<a class="anchor" id="a006fc2acc34962ebafb9ce19640ad18b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string Cesar::crypt </td>
+          <td class="memname">bool BDD::exists </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
+          <td class="paramname"><em>task</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>decal</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -218,19 +524,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Overload of the crypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<p>Verify if something exist in the bdd. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to encrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">decal</td><td>The shift to crypt the message</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">task</td><td>The task to verify </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the crypted message </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a09635aa52fa6a1245a6b2b4fbe024f1e"></a>
+<a class="anchor" id="a79cffc4dc63f93f9d9fce893c5b66a07"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -238,42 +545,212 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Cesar::crypt </td>
+          <td class="memname">void BDD::formatBdd </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Rewrite the pur virtual method crypt of the parent <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a></p>
+
+<p>Format values for the bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">args</td><td>The arguments to format</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Implements <a class="el" href="../../d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>.</p>
-
-<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00074">74</a> of file <a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="aa7c94ff5f6e8bc01697271877e05e367"></a>
+<a class="anchor" id="a3a309489e289988579ec94eae459f8df"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string Cesar::decrypt </td>
+          <td class="memname">static std::string BDD::formatColumn </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format a column name for text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>The column name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the formatted name </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af8d633320c008fade8c3ee5ff08cc821"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::formatConditions </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>conditions</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>decal</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format the conditions string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">conditions</td><td>The conditions to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where are the values</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac99c0f8c86fab4de2efe6b91b22fb942"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::formatValues </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format the values string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">values</td><td>The values to send </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where are the values</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a498e375deb333279886dd91cf389c986"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d8c/a00035.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> BDD::getColumns </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the columns of a table with their attributes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector containing the attributes</dd></dl>
+<ul>
+<li>Each column contains the listed fields<br />
+<ul>
+<li>name : The column name<br />
+</li>
+<li>type : The column type in uppercase<br />
+</li>
+<li>autoincrement : 1 if the column is autoincremented, 0 otherwise<br />
+</li>
+<li>null : 1 if the column can be set to NULL, 0 otherwise<br />
+</li>
+<li>numeric : 1 if the column type is a numeric type, 0 otherwise<br />
+</li>
+<li>default : 1 if the column has a default value, 0 otherwise<br />
+</li>
+<li>default value (only if <b>default</b> = 1) : The default value of the column<br />
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+<a class="anchor" id="ae9ad54a4e2ca989e1f22dc497db4b43e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BDD::getCount </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>conditions</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -283,27 +760,541 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Overload of the decrypt <a class="el" href="../../d7/dd4/a00013.php" title="A class to be the parent for every crypt class. ">Crypto</a>'s method. </p>
+<p>Get the number of lines with the conditions. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The message to decrypt </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">decal</td><td>The shift to decrypt the message</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">conditions</td><td>The conditions for the search</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the decrypted message </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the number of lines </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a84c0df9de34d028bfa4a6711f3ff38ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::hasAutoincrement </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify if a table contains an autoincremented column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a059c72982d8075a1e0fcc175461b1430"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BDD::insert </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use of the INSERT in SQL. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">values</td><td>The values to insert in the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Other arguments </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The new created index or 0 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9a035bbfa977617239704b3d33c4c5ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t BDD::lastId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the last created id in the table. </p>
+
+</div>
+</div>
+<a class="anchor" id="a624539007ee74764ba5d8f6bb0e7a354"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::list </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List the content of the given table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a vector of a vector of the content in strings </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9d8f1885fa2114dd0fa34c13e4e99a5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sql::ResultSet* BDD::query </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>task</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Query the task to the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">task</td><td>The task to query</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the result of the query </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8adcb89c3bd40c783880fa6355180655"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::remove </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>condition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use of the DELETE in SQL. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">condition</td><td>The condition to delete datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Other arguments </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a61fdb222ad3b05fb70a221d78da5a9c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the object. </p>
+
+</div>
+</div>
+<a class="anchor" id="a14ed61f03ce957690801dcc27e59930a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::setDatabase </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>database</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connection to the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">database</td><td>The database to connect to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1c3535db0b4aa44778421c5f35c379ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::setFatal </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set if an error is fatal or just like a warning. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td><b>true</b> or <b>false</b> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00226">226</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6720203c42f48b71f4d9a97f64b687f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::setTable </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Choose the table to simplify the others functions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the actions</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac02190012120478141702fb616c89ab1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::tables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the tables of the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table where to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return all the tables </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1e496e66cfaf5dc0209f448480bead5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::try_connect </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>user</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>pass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try a connection to a bdd. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">url</td><td>The url to connect to the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">user</td><td>The user for the database </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pass</td><td>The password for this user</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afa848f628b17ea10115c828e1f97ba5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::try_database </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>database</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try a connection to the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">database</td><td>The database to connect to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a962782dc60b83f30a7ec387e0747178d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BDD::undebug </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stop the debug for the class. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00167">167</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d21/a00006_a962782dc60b83f30a7ec387e0747178d_cgraph.png" border="0" usemap="#de/d21/a00006_a962782dc60b83f30a7ec387e0747178d_cgraph" alt=""/></div>
+<map name="de/d21/a00006_a962782dc60b83f30a7ec387e0747178d_cgraph" id="de/d21/a00006_a962782dc60b83f30a7ec387e0747178d_cgraph">
+<area shape="rect" id="node2" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="179,5,308,32"/>
+<area shape="rect" id="node3" href="../../de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed" title="Verify if a table contains an autoincremented column. " alt="" coords="161,56,325,83"/>
+<area shape="rect" id="node4" href="../../de/d21/a00006.php#ae9ad54a4e2ca989e1f22dc497db4b43e" title="Get the number of lines with the conditions. " alt="" coords="187,107,299,133"/>
+<area shape="rect" id="node5" href="../../de/d21/a00006.php#ac02190012120478141702fb616c89ab1" title="Get all the tables of the database. " alt="" coords="196,157,291,184"/>
+<area shape="rect" id="node6" href="../../de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac" title="Get the last created id in the table. " alt="" coords="198,208,289,235"/>
+<area shape="rect" id="node7" href="../../de/d21/a00006.php#a3a309489e289988579ec94eae459f8df" title="Format a column name for text. " alt="" coords="173,259,314,285"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad18c3bdb5afcce76344b9bb201362b95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::update </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use of the UPDATE in SQL. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">values</td><td>The new values of the datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">conditions</td><td>The conditions to update datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Other arguments </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6a54ee2df1609f504fe4a2d189f51be7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BDD::update </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>conditions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>args</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use of the UPDATE in SQL. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">values</td><td>The new values of the datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">conditions</td><td>The conditions to update datas </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>Other arguments </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/d3a/a00040_source.php">cryptage.hpp</a></li>
+<li><a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d21/a00006.php">Cesar</a></li>
+    <li class="navelem"><a class="el" href="../../de/d21/a00006.php">BDD</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

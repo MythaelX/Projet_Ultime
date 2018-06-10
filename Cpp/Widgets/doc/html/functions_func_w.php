@@ -148,22 +148,22 @@ $(document).ready(function(){initNavTree('functions_func_w.php','');});
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
 <li>Widget()
-: <a class="el" href="de/d8c/a00036.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>
+: <a class="el" href="d1/dc6/a00037.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>
 </li>
 <li>Window()
-: <a class="el" href="d1/dc6/a00037.php#a8c86e48ef3180201cc97cb928abd66ca">Window</a>
+: <a class="el" href="d8/d41/a00038.php#a8c86e48ef3180201cc97cb928abd66ca">Window</a>
 </li>
 <li>WindowButton()
-: <a class="el" href="d8/d41/a00038.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>
+: <a class="el" href="d3/de7/a00039.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>
 </li>
 <li>WindowResizeChanged()
-: <a class="el" href="d1/dc6/a00037.php#a9b8e592bf73f07ec549125eb6367395c">Window</a>
+: <a class="el" href="d8/d41/a00038.php#a9b8e592bf73f07ec549125eb6367395c">Window</a>
 </li>
 <li>WindowTitleBar()
-: <a class="el" href="d3/de7/a00039.php#acbc4eaf9b9265fe9ac013aeba5e80e76">WindowTitleBar</a>
+: <a class="el" href="db/d3a/a00040.php#acbc4eaf9b9265fe9ac013aeba5e80e76">WindowTitleBar</a>
 </li>
 <li>WindowTitleChanged()
-: <a class="el" href="d1/dc6/a00037.php#a56ced9e90dad8415ce9ba9ccdb8f50c7">Window</a>
+: <a class="el" href="d8/d41/a00038.php#a56ced9e90dad8415ce9ba9ccdb8f50c7">Window</a>
 </li>
 </ul>
 </div><!-- contents -->

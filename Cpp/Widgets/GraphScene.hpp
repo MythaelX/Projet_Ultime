@@ -2,7 +2,7 @@
 *
 *	\file		GraphScene.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		30 mai 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_GRAPH_SCENE
@@ -15,11 +15,11 @@
 
 #include "Scene.hpp"
 
-/*! \brief	 */
+/*! \brief	An alias to simplify the use of the type for the graph */
 typedef long double GraphMapType;
-/*! \brief	 */
+/*! \brief	The array where the graphs' points are stored */
 typedef std::map<GraphMapType, GraphMapType> GraphMap;
-/*! \brief	 */
+/*! \brief	A data type to simplify the draw of the differents graphs */
 typedef std::pair<std::pair<GraphMapType, GraphMapType>, std::pair<GraphMapType, GraphMapType>> utmost;
 
 /*!
@@ -30,7 +30,7 @@ class GraphScene : public Scene {
 	Q_OBJECT
 	public:
 		/*! \brief	Construct the Scene */
-		GraphScene(QObject* parent = NULL);
+		GraphScene(QObject* parent = nullptr);
 		~GraphScene();
 
 		/*!
@@ -230,22 +230,20 @@ class GraphScene : public Scene {
 
 
 	private:
-		#ifndef DOXYGEN_SHOULD_SKIP_THIS
-			utmost drawGraph(GraphMap graph, size_t index);
+		utmost drawGraph(GraphMap graph, size_t index);
 
-			GraphMapType transX(GraphMapType in){
-				return in * pointsDist;
-			}
+		GraphMapType transX(GraphMapType in){
+			return in * pointsDist;
+		}
 
-			GraphMapType transY(GraphMapType in){
-				return -1 * in * pointsDist;
-			}
+		GraphMapType transY(GraphMapType in){
+			return -1 * in * pointsDist;
+		}
 
-			GraphMapType minX(std::vector<utmost> ins);
-			GraphMapType maxX(std::vector<utmost> ins);
-			GraphMapType minY(std::vector<utmost> ins);
-			GraphMapType maxY(std::vector<utmost> ins);
-		#endif /* DOXYGEN_SHOULD_SKIP_THIS */
+		GraphMapType minX(std::vector<utmost> ins);
+		GraphMapType maxX(std::vector<utmost> ins);
+		GraphMapType minY(std::vector<utmost> ins);
+		GraphMapType maxY(std::vector<utmost> ins);
 
 	private:
 		std::vector<GraphMap> graphs;

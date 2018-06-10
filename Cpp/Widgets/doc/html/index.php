@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Main Page</title>
+<title>Qt: My own Qt Widgets &amp; Features</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -101,10 +100,45 @@ $(document).ready(function(){initNavTree('index.php','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Qt Documentation</div>  </div>
+<div class="title">My own Qt Widgets &amp; Features </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><dl class="section user"><dt>Widgets</dt><dd><ul>
+<li><a class="el" href="d7/dec/a00010.php" title="Create a personnalized Widget. ">Widget</a></li>
+<li><a class="el" href="de/d21/a00006.php" title="An implementation of QSpacerItem. ">QHSpacerItem</a></li>
+<li><a class="el" href="de/d5e/a00007.php" title="An implementation of QSpacerItem. ">QVSpacerItem</a></li>
+<li><a class="el" href="da/da0/a00009.php" title="Create a personnalized TableWidget. ">TableWidget</a></li>
+<li><a class="el" href="da/d45/a00011.php" title="A custom window. ">Window</a><ul>
+<li><a class="el" href="d7/dd4/a00013.php" title="The titlebar of the Window class. ">WindowTitleBar</a><ul>
+<li><a class="el" href="df/d86/a00012.php" title="The buttons for the WindowTitleBar and the Window. ">WindowButton</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Objects</dt><dd><ul>
+<li><a class="el" href="d1/d7c/a00003.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a></li>
+<li><a class="el" href="dd/dad/a00005.php" title="A Scene implementation to draw graphs. ">GraphScene</a></li>
+<li><a class="el" href="d0/d0b/a00004.php" title="A class to treat fonts with QFont. ">Font</a></li>
+<li>abstract <a class="el" href="d4/dee/a00008.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> </li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Some structures &amp; defines</dt><dd><ul>
+<li>QtWindow (A struct that contains <b>w</b>, <b>h</b>, <b>angle</b> attributes) </li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Functions</dt><dd><ul>
+<li><a class="el" href="d0/d0b/a00004.php#a1b263a092a8579ac1058af09e39389e0" title="Load a font from a file. ">Font::load(QString)</a></li>
+<li><a class="el" href="dd/da2/a00019.php#a0272cd6761e50151f46337d1d7f793f2" title="Get the size of the desktop. ">getDesktopSize()</a></li>
+<li><a class="el" href="dd/da2/a00019.php#a7a5b8564155df959a2ed36b171090ec2" title="Get the width of the desktop. ">getDesktopWidth()</a></li>
+<li><a class="el" href="dd/da2/a00019.php#a4e89aa67e6219267f0f2965567c447a5" title="Get the height of the desktop. ">getDesktopHeight()</a></li>
+<li><a class="el" href="dd/da2/a00019.php#ac35a8acbe17be1d705ecf8d940eacc95" title="Read a Cascade Style Sheet and translate it for Qt. ">cssReader(std::string)</a></li>
+</ul>
+</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

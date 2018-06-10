@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
+$(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,16 +109,13 @@ $(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Scene Member List</div>  </div>
+<div class="title">QVSpacerItem Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d87/a00032.php">Scene</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/d16/a00029.php">QVSpacerItem</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a>(QObject *parent=NULL)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a>()=0</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Scene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a>(int w=0, int h=0)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">QVSpacerItem</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: RNG&lt; T, U &gt; Class Template Reference</title>
+<title>Qt: Reinit Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,128 +110,89 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../da/d31/a00234.php">List of all members</a>  </div>
+<a href="../../d0/d53/a00232.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RNG&lt; T, U &gt; Class Template Reference</div>  </div>
+<div class="title">Reinit Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to simplify the use of random.  
+<p><a class="el" href="../../d5/d79/a00030.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
  <a href="../../d5/d79/a00030.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d6/d2c/a00072_source.php">RNG.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/dee/a00049_source.php">console.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Reinit:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/de1/a00233.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
+<map name="Reinit_inherit__map" id="Reinit_inherit__map">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Reinit:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../da/d31/a00234.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
+<map name="Reinit_coll__map" id="Reinit_coll__map">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a> ()</td></tr>
-<tr class="separator:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a> (T a, T b)</td></tr>
-<tr class="memdesc:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="#ac81b86f2d95f99cb5e2f778592d6fd3a">More...</a><br /></td></tr>
-<tr class="separator:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae482f034556d2539b85c90cefe9da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#aae482f034556d2539b85c90cefe9da82">Reinit</a> ()</td></tr>
+<tr class="separator:aae482f034556d2539b85c90cefe9da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00010"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00010')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/dec/a00010.php">Color</a></td></tr>
+<tr class="memitem:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a> (std::string color)</td></tr>
+<tr class="memdesc:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="#af13248c98bcd8bf432f3c9dab0a27135">More...</a><br /></td></tr>
+<tr class="separator:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a> (Args...args)</td></tr>
+<tr class="memdesc:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="#a20b97d6cf5e50f86b517f543142ac1e2">More...</a><br /></td></tr>
+<tr class="separator:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a> (int color)</td></tr>
+<tr class="memdesc:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a4f77bc1b8cfcd1382cd55e4ef6856bac">More...</a><br /></td></tr>
+<tr class="separator:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
+<tr class="memdesc:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
+<tr class="separator:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d2/dee/a00049.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
+<tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
+<tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d2/dee/a00049.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
+<tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
+<tr class="separator:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
-class RNG&lt; T, U &gt;</h3>
+<div class="textblock"><p><a class="el" href="../../d5/d79/a00030.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
 
-<p>A class to simplify the use of random. </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00021">21</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">RNG.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00147">147</a> of file <a class="el" href="../../d2/dee/a00049_source.php">console.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9981de0f2f28a52ae600df8fbc0404c6"></a>
+<a class="anchor" id="aae482f034556d2539b85c90cefe9da82"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d79/a00030.php">RNG</a>&lt; T, U &gt;::<a class="el" href="../../d5/d79/a00030.php">RNG</a> </td>
+          <td class="memname">Reinit::Reinit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00023">23</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">RNG.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac81b86f2d95f99cb5e2f778592d6fd3a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="../../d5/d79/a00030.php">RNG</a>&lt; T, U &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The definition of the operator () </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00032">32</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">RNG.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/d79/a00030_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph.png" border="0" usemap="#d5/d79/a00030_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" alt=""/></div>
-<map name="d5/d79/a00030_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" id="d5/d79/a00030_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph">
-<area shape="rect" id="node2" href="../../d1/d6f/a00063.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. " alt="" coords="168,5,211,32"/>
-</map>
-</div>
-</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d2c/a00072_source.php">RNG.hpp</a></li>
+<li><a class="el" href="../../d2/dee/a00049_source.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d79/a00030.php">RNG</a></li>
+    <li class="navelem"><a class="el" href="../../d5/d79/a00030.php">Reinit</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

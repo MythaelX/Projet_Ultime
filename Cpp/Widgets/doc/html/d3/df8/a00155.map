@@ -1,6 +1,9 @@
-<map id="string.hpp" name="string.hpp">
-<area shape="rect" id="node8" href="$d4/de8/a00061.php" title="macro.hpp" alt="" coords="632,80,715,107"/>
-<area shape="rect" id="node9" href="$d5/de0/a00050.php" title="convert.hpp" alt="" coords="336,80,427,107"/>
-<area shape="rect" id="node11" href="$d5/df9/a00044.php" title="array.hpp" alt="" coords="101,80,177,107"/>
-<area shape="rect" id="node13" href="$d6/d2c/a00072.php" title="RNG.hpp" alt="" coords="739,80,816,107"/>
+<map id="Spacers.hpp" name="Spacers.hpp">
+<area shape="rect" id="node2" href="$d0/d89/a00071.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="$d3/d8b/a00059.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="$d2/db1/a00070.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="$df/d13/a00085.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="$d9/da4/a00078.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="$da/d2a/a00086.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="$df/d5d/a00084.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Node&lt; T &gt; Struct Template Reference</title>
+<title>Qt: TableWidget.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,10 +71,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
-      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
-      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -109,128 +106,59 @@ $(document).ready(function(){initNavTree('d7/de0/a00022.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d3/dd1/a00214.php">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Node&lt; T &gt; Struct Template Reference</div>  </div>
+<div class="title">TableWidget.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A struct to define a node for the tree.  
- <a href="../../d7/de0/a00022.php#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>&gt;</code></p>
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d51/a00017_source.php">Qt.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for TableWidget.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d42/a00043.png" border="0" usemap="#TableWidget_8hpp" alt=""/></div>
+<map name="TableWidget_8hpp" id="TableWidget_8hpp">
+<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="4671,80,4733,107"/>
+<area shape="rect" id="node4" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="1999,155,2106,181"/>
+<area shape="rect" id="node49" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="4655,155,4749,181"/>
+<area shape="rect" id="node5" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="4275,229,4363,256"/>
+<area shape="rect" id="node6" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="61,229,175,256"/>
+<area shape="rect" id="node7" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="5,319,89,345"/>
+<area shape="rect" id="node9" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="319,229,437,256"/>
+<area shape="rect" id="node14" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="200,229,295,256"/>
+<area shape="rect" id="node15" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="4388,229,4507,256"/>
+<area shape="rect" id="node17" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2016,229,2089,256"/>
+<area shape="rect" id="node50" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="4633,229,4771,256"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/df9/a00044.png" border="0" usemap="#TableWidget_8hppdep" alt=""/></div>
+<map name="TableWidget_8hppdep" id="TableWidget_8hppdep">
+<area shape="rect" id="node2" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="35,80,96,107"/>
+</map>
+</div>
+</div>
+<p><a href="../../d7/de0/a00022_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a440411e958356c1d3912dce01ae74edc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a440411e958356c1d3912dce01ae74edc">values</a></td></tr>
-<tr class="separator:a440411e958356c1d3912dce01ae74edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d51/a00079.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td></tr>
-<tr class="separator:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a6faa1b5c8a9e19348d0bfef6232c90cb">initialized</a> = false</td></tr>
-<tr class="separator:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2841886a16c27e72b21885025c00b44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a2841886a16c27e72b21885025c00b44b">left</a> = nullptr</td></tr>
-<tr class="separator:a2841886a16c27e72b21885025c00b44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7092450d89448320103cde1f72da320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#ad7092450d89448320103cde1f72da320">right</a> = nullptr</td></tr>
-<tr class="separator:ad7092450d89448320103cde1f72da320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php">TableWidget</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a personnalized <a class="el" href="../../da/da0/a00009.php" title="Create a personnalized TableWidget. ">TableWidget</a>.  <a href="../../da/da0/a00009.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T&gt;<br />
-struct Node&lt; T &gt;</h3>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
 
-<p>A struct to define a node for the tree. </p>
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00023">23</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6faa1b5c8a9e19348d0bfef6232c90cb"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::initialized = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00027">27</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2841886a16c27e72b21885025c00b44b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt;T&gt;* <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::left = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00029">29</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad7092450d89448320103cde1f72da320"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt;T&gt;* <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::right = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00030">30</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a440411e958356c1d3912dce01ae74edc"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::values</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00024">24</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa2cb07a6e63a4dc1f1a05d3e634a8fdd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d51/a00079.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::weight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d51/a00079_source.php#l00025">25</a> of file <a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d51/a00079_source.php">tree.hpp</a></li>
-</ul>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d7/de0/a00022_source.php">TableWidget.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de0/a00022.php">Node</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d7/de0/a00022.php">TableWidget.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

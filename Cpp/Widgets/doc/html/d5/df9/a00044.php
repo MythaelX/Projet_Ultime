@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: array.hpp File Reference</title>
+<title>Qt: Args.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,41 +108,49 @@ $(document).ready(function(){initNavTree('d5/df9/a00044.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">array.hpp File Reference</div>  </div>
+<div class="title">Args.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">errors.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">convert.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">array.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d51/a00079_source.php">time.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for array.hpp:</div>
+Include dependency graph for Args.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d54/a00094.png" border="0" usemap="#array_8hpp" alt=""/></div>
+<div class="center"><img src="../../d4/d7d/a00093.png" border="0" usemap="#Args_8hpp" alt=""/></div>
+<map name="Args_8hpp" id="Args_8hpp">
+<area shape="rect" id="node3" href="../../d1/d22/a00057.php" title="errors.hpp" alt="" coords="473,80,553,107"/>
+<area shape="rect" id="node5" href="../../d2/d79/a00051.php" title="convert.hpp" alt="" coords="293,229,384,256"/>
+<area shape="rect" id="node17" href="../../d1/d51/a00079.php" title="time.hpp" alt="" coords="749,155,821,181"/>
+<area shape="rect" id="node21" href="../../d6/d97/a00045.php" title="array.hpp" alt="" coords="553,229,629,256"/>
+<area shape="rect" id="node4" href="../../d2/dee/a00049.php" title="console.hpp" alt="" coords="397,155,489,181"/>
+<area shape="rect" id="node14" href="../../d7/df7/a00058.php" title="files.hpp" alt="" coords="458,229,529,256"/>
+<area shape="rect" id="node11" href="../../d8/d53/a00081.php" title="types.hpp" alt="" coords="653,229,731,256"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d77/a00095.png" border="0" usemap="#array_8hppdep" alt=""/></div>
-<map name="array_8hppdep" id="array_8hppdep">
-<area shape="rect" id="node2" href="../../db/df8/a00076.php" title="string.hpp" alt="" coords="449,80,527,107"/>
-<area shape="rect" id="node3" href="../../d6/d97/a00045.php" title="bdd.hpp" alt="" coords="521,155,589,181"/>
-<area shape="rect" id="node10" href="../../d3/dea/a00046.php" title="C++.hpp" alt="" coords="410,827,483,853"/>
-<area shape="rect" id="node18" href="../../d6/d42/a00043.php" title="Args.hpp" alt="" coords="613,155,688,181"/>
-<area shape="rect" id="node4" href="../../d1/d84/a00052.php" title="defines.hpp" alt="" coords="510,229,599,256"/>
-<area shape="rect" id="node5" href="../../d2/dee/a00049.php" title="Contraption.hpp" alt="" coords="497,304,612,331"/>
-<area shape="rect" id="node17" href="../../d2/d79/a00051.php" title="cryptage.hpp" alt="" coords="77,453,174,480"/>
-<area shape="rect" id="node6" href="../../d4/d6d/a00055.php" title="Entity.hpp" alt="" coords="435,379,517,405"/>
-<area shape="rect" id="node9" href="../../d1/dea/a00054.php" title="Entities.hpp" alt="" coords="401,677,492,704"/>
-<area shape="rect" id="node16" href="../../de/de1/a00065.php" title="Object.hpp" alt="" coords="592,379,677,405"/>
-<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="Animal.hpp" alt="" coords="389,528,475,555"/>
-<area shape="rect" id="node12" href="../../d9/d73/a00060.php" title="Hostile.hpp" alt="" coords="355,453,443,480"/>
-<area shape="rect" id="node13" href="../../d8/d53/a00081.php" title="Vegetal.hpp" alt="" coords="216,528,307,555"/>
-<area shape="rect" id="node8" href="../../d5/db6/a00042.php" title="Ant.hpp" alt="" coords="379,603,445,629"/>
-<area shape="rect" id="node11" href="../../dc/ddf/a00067.php" title="Player.hpp" alt="" coords="445,752,529,779"/>
-<area shape="rect" id="node14" href="../../d9/db3/a00066.php" title="Plant.hpp" alt="" coords="277,603,355,629"/>
-<area shape="rect" id="node15" href="../../df/d5f/a00064.php" title="Mushroom.hpp" alt="" coords="94,603,202,629"/>
+<div class="center"><img src="../../dc/d54/a00094.png" border="0" usemap="#Args_8hppdep" alt=""/></div>
+<map name="Args_8hppdep" id="Args_8hppdep">
+<area shape="rect" id="node2" href="../../dc/dee/a00053.php" title="defines.hpp" alt="" coords="603,80,693,107"/>
+<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="Contraption.hpp" alt="" coords="464,155,579,181"/>
+<area shape="rect" id="node8" href="../../d6/d2d/a00047.php" title="C++.hpp" alt="" coords="546,677,619,704"/>
+<area shape="rect" id="node15" href="../../d1/d84/a00052.php" title="cryptage.hpp" alt="" coords="686,304,783,331"/>
+<area shape="rect" id="node4" href="../../d9/d2e/a00056.php" title="Entity.hpp" alt="" coords="119,229,201,256"/>
+<area shape="rect" id="node7" href="../../d4/d6d/a00055.php" title="Entities.hpp" alt="" coords="267,528,357,555"/>
+<area shape="rect" id="node14" href="../../d9/db3/a00066.php" title="Object.hpp" alt="" coords="525,229,611,256"/>
+<area shape="rect" id="node5" href="../../d5/db6/a00042.php" title="Animal.hpp" alt="" coords="15,379,102,405"/>
+<area shape="rect" id="node10" href="../../d4/de8/a00061.php" title="Hostile.hpp" alt="" coords="35,304,123,331"/>
+<area shape="rect" id="node11" href="../../d4/d63/a00082.php" title="Vegetal.hpp" alt="" coords="220,379,311,405"/>
+<area shape="rect" id="node6" href="../../d6/d42/a00043.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
+<area shape="rect" id="node9" href="../../da/d24/a00068.php" title="Player.hpp" alt="" coords="475,603,559,629"/>
+<area shape="rect" id="node12" href="../../dc/ddf/a00067.php" title="Plant.hpp" alt="" coords="248,453,325,480"/>
+<area shape="rect" id="node13" href="../../de/de1/a00065.php" title="Mushroom.hpp" alt="" coords="350,453,458,480"/>
 </map>
 </div>
 </div>
@@ -150,235 +158,33 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php">jumble</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dynamic array to store any type of variable.  <a href="../../dd/da2/a00019.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage the arguments.  <a href="../../dd/dad/a00005.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#a5090547d046a342ba3ac573e8248f628">implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
-<tr class="memdesc:a5090547d046a342ba3ac573e8248f628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a5090547d046a342ba3ac573e8248f628">More...</a><br /></td></tr>
-<tr class="separator:a5090547d046a342ba3ac573e8248f628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#ad2b1019448d0599264d51172242e1be4">print_r</a> (std::vector&lt; T &gt; a)</td></tr>
-<tr class="memdesc:ad2b1019448d0599264d51172242e1be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of a vector.  <a href="#ad2b1019448d0599264d51172242e1be4">More...</a><br /></td></tr>
-<tr class="separator:ad2b1019448d0599264d51172242e1be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_array&lt; T &gt;::value &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">print_r</a> (T a)</td></tr>
-<tr class="memdesc:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">More...</a><br /></td></tr>
-<tr class="separator:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
-<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#addfa691004e6d94461994bb7eccadf19">rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
-<tr class="memdesc:addfa691004e6d94461994bb7eccadf19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#addfa691004e6d94461994bb7eccadf19">More...</a><br /></td></tr>
-<tr class="separator:addfa691004e6d94461994bb7eccadf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#a54f668e0211381d2d15ca45dcf3c55d0">contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
-<tr class="memdesc:a54f668e0211381d2d15ca45dcf3c55d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#a54f668e0211381d2d15ca45dcf3c55d0">More...</a><br /></td></tr>
-<tr class="separator:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ada59c388a54132792188bb23541d03c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dad/a00005.php">Arguments</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df9/a00044.php#ada59c388a54132792188bb23541d03c1">arguments</a></td></tr>
+<tr class="memdesc:ada59c388a54132792188bb23541d03c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global arguments variable to save and keep some arguments.  <a href="#ada59c388a54132792188bb23541d03c1">More...</a><br /></td></tr>
+<tr class="separator:ada59c388a54132792188bb23541d03c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a54f668e0211381d2d15ca45dcf3c55d0"></a>
+<p>Definition in file <a class="el" href="../../d5/df9/a00044_source.php">Args.hpp</a>.</p>
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ada59c388a54132792188bb23541d03c1"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool contains </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../dd/dad/a00005.php">Arguments</a> arguments</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Verify if a vector contains or not something. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array in which to verify </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to search</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00103">103</a> of file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/df9/a00044_a54f668e0211381d2d15ca45dcf3c55d0_cgraph.png" border="0" usemap="#d5/df9/a00044_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" alt=""/></div>
-<map name="d5/df9/a00044_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" id="d5/df9/a00044_a54f668e0211381d2d15ca45dcf3c55d0_cgraph">
-<area shape="rect" id="node2" href="../../d1/d51/a00079.php#a653f604d83b424493ac7d0d3d586a3c2" title="Find a value in the tree and return the node and the path to the node. " alt="" coords="124,5,167,32"/>
-<area shape="rect" id="node3" href="../../d1/d51/a00079.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="215,5,269,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a5090547d046a342ba3ac573e8248f628"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string implode </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>glue</em> = <code>&quot;&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Stick the <em>a</em> vector with the <em>glue</em> given. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The arrau to stick </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">glue</td><td>The string to stick the array's elements</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a string of the array </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00023">23</a> of file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/df9/a00044_a5090547d046a342ba3ac573e8248f628_cgraph.png" border="0" usemap="#d5/df9/a00044_a5090547d046a342ba3ac573e8248f628_cgraph" alt=""/></div>
-<map name="d5/df9/a00044_a5090547d046a342ba3ac573e8248f628_cgraph" id="d5/df9/a00044_a5090547d046a342ba3ac573e8248f628_cgraph">
-<area shape="rect" id="node2" href="../../d5/de0/a00050.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="120,5,160,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ad2b1019448d0599264d51172242e1be4"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void print_r </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the content of a vector. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The vector to print</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00048">48</a> of file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aeda2dbc3a1ec9d5f58f2991fb7d0ad13"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if&lt;std::is_array&lt;T&gt;::value&gt;::type print_r </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the content of an array. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The array to print</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00065">65</a> of file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="addfa691004e6d94461994bb7eccadf19"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;V&gt; rewrite </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; V &gt;&#160;</td>
-          <td class="paramname"><em>table</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>index</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Rewrite a vector array without the value at the given index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array to rewrite </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index not to let in the array</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return an array without the <em>index</em> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00082">82</a> of file <a class="el" href="../../d5/df9/a00044_source.php">array.hpp</a>.</p>
+<p>A global arguments variable to save and keep some arguments. </p>
 
 </div>
 </div>
@@ -387,7 +193,7 @@ template&lt;typename V &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d5/df9/a00044.php">array.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d5/df9/a00044.php">Args.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

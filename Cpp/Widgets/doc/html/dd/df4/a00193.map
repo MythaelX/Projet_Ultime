@@ -1,2 +1,9 @@
-<map id="Player&lt; PlayerParent &gt;" name="Player&lt; PlayerParent &gt;">
+<map id="Contraption" name="Contraption">
+<area shape="rect" id="node2" href="$d7/d7a/a00016.php" title="An entity. " alt="" coords="53,80,109,107"/>
+<area shape="rect" id="node8" href="$dc/de2/a00024.php" title="An object. " alt="" coords="133,80,193,107"/>
+<area shape="rect" id="node3" href="$d1/d7c/a00003.php" title="An animal. " alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node5" href="$de/d8c/a00036.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
+<area shape="rect" id="node4" href="$d0/d0b/a00004.php" title="An ant. " alt="" coords="15,229,58,256"/>
+<area shape="rect" id="node6" href="$d7/de0/a00022.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
+<area shape="rect" id="node7" href="$d3/dfe/a00025.php" title="A plant. " alt="" coords="191,229,243,256"/>
 </map>

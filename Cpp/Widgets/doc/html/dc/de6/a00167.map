@@ -1,2 +1,7 @@
-<map id="Widget.hpp" name="Widget.hpp">
+<map id="Vegetal.hpp" name="Vegetal.hpp">
+<area shape="rect" id="node2" href="$d4/d6d/a00055.php" title="Entities.hpp" alt="" coords="13,155,104,181"/>
+<area shape="rect" id="node5" href="$dc/ddf/a00067.php" title="Plant.hpp" alt="" coords="20,80,97,107"/>
+<area shape="rect" id="node6" href="$de/de1/a00065.php" title="Mushroom.hpp" alt="" coords="122,80,230,107"/>
+<area shape="rect" id="node3" href="$d6/d2d/a00047.php" title="C++.hpp" alt="" coords="22,304,95,331"/>
+<area shape="rect" id="node4" href="$da/d24/a00068.php" title="Player.hpp" alt="" coords="57,229,141,256"/>
 </map>

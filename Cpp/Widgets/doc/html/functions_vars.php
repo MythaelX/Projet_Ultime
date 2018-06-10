@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -85,26 +84,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_vars.php"><span>Variables</span></a></li>
       <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
-      <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow4" class="tabs3">
-    <ul class="tablist">
-      <li><a href="#index_a"><span>a</span></a></li>
-      <li><a href="#index_d"><span>d</span></a></li>
-      <li><a href="#index_h"><span>h</span></a></li>
-      <li><a href="#index_i"><span>i</span></a></li>
-      <li><a href="#index_l"><span>l</span></a></li>
-      <li><a href="#index_m"><span>m</span></a></li>
-      <li><a href="#index_p"><span>p</span></a></li>
-      <li><a href="#index_r"><span>r</span></a></li>
-      <li><a href="#index_s"><span>s</span></a></li>
-      <li><a href="#index_t"><span>t</span></a></li>
-      <li><a href="#index_v"><span>v</span></a></li>
-      <li><a href="#index_w"><span>w</span></a></li>
-      <li><a href="#index_x"><span>x</span></a></li>
-      <li><a href="#index_y"><span>y</span></a></li>
-      <li class="current"><a href="#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -137,145 +116,24 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </div>
 
 <div class="contents">
-&#160;
-
-<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>angle
-: <a class="el" href="df/d86/a00012.php#a062e1a4fe2f7d6f8d771f13f10844a19">ContraptionAttr</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>direction
-: <a class="el" href="d7/d46/a00002.php#a3f306d4e967d165b8ef55f6cdf9bde23">Animal</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
-<li>h
-: <a class="el" href="df/d86/a00012.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
-, <a class="el" href="db/d3a/a00040.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
-<li>init
-: <a class="el" href="d3/dfe/a00025.php#a024d37d9bdf83c1cc6618df8cc574aa2">Player&lt; PlayerParent &gt;</a>
-</li>
+&#160;<ul>
 <li>initialized
-: <a class="el" href="d7/de0/a00022.php#a6faa1b5c8a9e19348d0bfef6232c90cb">Node&lt; T &gt;</a>
-, <a class="el" href="dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
+: <a class="el" href="d4/dee/a00008.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
 </li>
-</ul>
-
-
-<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
-<li>left
-: <a class="el" href="d7/de0/a00022.php#a2841886a16c27e72b21885025c00b44b">Node&lt; T &gt;</a>
-</li>
-<li>losted
-: <a class="el" href="d3/dfe/a00025.php#ac3b3f61fa669c386bb9b2c912363d0b5">Player&lt; PlayerParent &gt;</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>m_Cache
-: <a class="el" href="d1/dc6/a00037.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
-</li>
-<li>m_start
-: <a class="el" href="de/d5e/a00007.php#ad482076b35f14f806f688e956245483a">Clock</a>
-, <a class="el" href="db/df3/a00034.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
-<li>paused
-: <a class="el" href="d3/dfe/a00025.php#aefb2fbad6ea8b979f46de232a4ff9eaa">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="da/d45/a00011.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
 </li>
 <li>pixmaps
-: <a class="el" href="d2/de7/a00014.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">DrawScene</a>
+: <a class="el" href="d1/d7c/a00003.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">DrawScene</a>
 </li>
 <li>printed_background
-: <a class="el" href="d2/de7/a00014.php#aecb82ecbd590818d52d58227101a490d">DrawScene</a>
+: <a class="el" href="d1/d7c/a00003.php#aecb82ecbd590818d52d58227101a490d">DrawScene</a>
 </li>
-<li>privateK
-: <a class="el" href="df/d61/a00031.php#a933f86ffad0a7a2d5d5e6099bdb5f1be">RSA</a>
-</li>
-<li>publicK
-: <a class="el" href="df/d61/a00031.php#a7d293f0a39aacf8eb05abc7355d436e2">RSA</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>right
-: <a class="el" href="d7/de0/a00022.php#ad7092450d89448320103cde1f72da320">Node&lt; T &gt;</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>scaled_pixmaps
-: <a class="el" href="d2/de7/a00014.php#af1a71ac1ae84ae88e00810307b2f146d">DrawScene</a>
-</li>
-<li>started
-: <a class="el" href="de/d5e/a00007.php#aed945651f59f21f56df523af2719597e">Clock</a>
-, <a class="el" href="db/df3/a00034.php#ab3cd20a0909df03a384a09b1b8151d3e">Timer</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
-<li>target
-: <a class="el" href="d1/d2b/a00018.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
+: <a class="el" href="d1/d7c/a00003.php#af1a71ac1ae84ae88e00810307b2f146d">DrawScene</a>
 </li>
 <li>tileSize
-: <a class="el" href="d2/de7/a00014.php#a124d4bd03677251c2159bd0dd4254306">DrawScene</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
-<li>values
-: <a class="el" href="d7/de0/a00022.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
-<li>w
-: <a class="el" href="df/d86/a00012.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
-, <a class="el" href="db/d3a/a00040.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
-</li>
-<li>weight
-: <a class="el" href="d7/de0/a00022.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_x"></a>- x -</h3><ul>
-<li>x
-: <a class="el" href="d6/d5b/a00026.php#ab99c56589bc8ad5fa5071387110a5bc7">Point</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_y"></a>- y -</h3><ul>
-<li>y
-: <a class="el" href="d6/d5b/a00026.php#afa38be143ae800e6ad69ce8ed4df62d8">Point</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_z"></a>- z -</h3><ul>
-<li>z
-: <a class="el" href="d6/d5b/a00026.php#a05ba3b1dfcb19430582ae953cbbfbded">Point</a>
-, <a class="el" href="db/d3a/a00040.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
+: <a class="el" href="d1/d7c/a00003.php#a124d4bd03677251c2159bd0dd4254306">DrawScene</a>
 </li>
 </ul>
 </div><!-- contents -->

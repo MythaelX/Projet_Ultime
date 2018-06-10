@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.php"><span>Classes</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -85,7 +84,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
       <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
       <li class="current"><a href="functions_eval.php"><span>Enumerator</span></a></li>
-      <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -120,22 +118,22 @@ $(document).ready(function(){initNavTree('functions_eval.php','');});
 <div class="contents">
 &#160;<ul>
 <li>BUTTON_CLOSE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
 </li>
 <li>BUTTON_MAXIMIZE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
 </li>
 <li>BUTTON_MINIMIZE
-: <a class="el" href="d8/d41/a00038.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
 </li>
 <li>STATE_CLICKED
-: <a class="el" href="d8/d41/a00038.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">WindowButton</a>
 </li>
 <li>STATE_HOVERED
-: <a class="el" href="d8/d41/a00038.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">WindowButton</a>
 </li>
 <li>STATE_NORMAL
-: <a class="el" href="d8/d41/a00038.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">WindowButton</a>
+: <a class="el" href="df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">WindowButton</a>
 </li>
 </ul>
 </div><!-- contents -->

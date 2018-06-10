@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_q.php','');});
 
 <h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
 <li>query()
-: <a class="el" href="dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">BDD</a>
 </li>
 </ul>
 </div><!-- contents -->

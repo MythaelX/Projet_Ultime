@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Entities.hpp File Reference</title>
+<title>Qt: DrawScene.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,73 +106,55 @@ $(document).ready(function(){initNavTree('d1/dea/a00054.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Entities.hpp File Reference</div>  </div>
+<div class="title">DrawScene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d2/dee/a00049_source.php">Contraption.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/de1/a00065_source.php">Object.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d6d/a00055_source.php">Entity.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d32/a00041_source.php">Animal.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db6/a00042_source.php">Ant.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d53/a00081_source.php">Vegetal.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">Plant.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d5f/a00064_source.php">Mushroom.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Entities.hpp:</div>
+Include dependency graph for DrawScene.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d00/a00113.png" border="0" usemap="#Entities_8hpp" alt=""/></div>
-<map name="Entities_8hpp" id="Entities_8hpp">
-<area shape="rect" id="node2" href="../../d2/dee/a00049.php" title="Contraption.hpp" alt="" coords="1293,379,1408,405"/>
-<area shape="rect" id="node43" href="../../de/de1/a00065.php" title="Object.hpp" alt="" coords="1308,229,1393,256"/>
-<area shape="rect" id="node44" href="../../d4/d6d/a00055.php" title="Entity.hpp" alt="" coords="1441,304,1522,331"/>
-<area shape="rect" id="node45" href="../../dd/d32/a00041.php" title="Animal.hpp" alt="" coords="1494,155,1581,181"/>
-<area shape="rect" id="node47" href="../../d5/db6/a00042.php" title="Ant.hpp" alt="" coords="1519,80,1585,107"/>
-<area shape="rect" id="node48" href="../../d8/d53/a00081.php" title="Vegetal.hpp" alt="" coords="1616,155,1707,181"/>
-<area shape="rect" id="node49" href="../../d9/db3/a00066.php" title="Plant.hpp" alt="" coords="1609,80,1687,107"/>
-<area shape="rect" id="node50" href="../../df/d5f/a00064.php" title="Mushroom.hpp" alt="" coords="1711,80,1819,107"/>
-<area shape="rect" id="node3" href="../../d1/d84/a00052.php" title="defines.hpp" alt="" coords="1395,453,1485,480"/>
-<area shape="rect" id="node18" href="../../da/dec/a00080.php" title="types.hpp" alt="" coords="675,752,754,779"/>
-<area shape="rect" id="node41" href="../../d6/d2d/a00047.php" title="collides.hpp" alt="" coords="1740,453,1831,480"/>
-<area shape="rect" id="node42" href="../../df/d03/a00062.php" title="Map.hpp" alt="" coords="1129,528,1201,555"/>
-<area shape="rect" id="node10" href="../../d6/d97/a00045.php" title="bdd.hpp" alt="" coords="753,528,821,555"/>
-<area shape="rect" id="node23" href="../../d5/de0/a00050.php" title="convert.hpp" alt="" coords="1753,752,1844,779"/>
-<area shape="rect" id="node28" href="../../d1/d22/a00057.php" title="files.hpp" alt="" coords="1210,677,1281,704"/>
-<area shape="rect" id="node30" href="../../d9/da4/a00078.php" title="time.hpp" alt="" coords="960,677,1032,704"/>
-<area shape="rect" id="node31" href="../../da/d24/a00068.php" title="pointers.hpp" alt="" coords="987,603,1080,629"/>
-<area shape="rect" id="node32" href="../../db/df8/a00076.php" title="string.hpp" alt="" coords="1619,677,1698,704"/>
-<area shape="rect" id="node36" href="../../d6/d2c/a00072.php" title="RNG.hpp" alt="" coords="1919,752,1996,779"/>
-<area shape="rect" id="node38" href="../../d6/d42/a00043.php" title="Args.hpp" alt="" coords="1276,528,1351,555"/>
-<area shape="rect" id="node40" href="../../d1/d6f/a00063.php" title="maths.hpp" alt="" coords="1937,528,2020,555"/>
-<area shape="rect" id="node21" href="../../d9/d2e/a00056.php" title="errors.hpp" alt="" coords="1205,603,1285,629"/>
-<area shape="rect" id="node35" href="../../d5/df9/a00044.php" title="array.hpp" alt="" coords="1213,752,1289,779"/>
-<area shape="rect" id="node22" href="../../d4/dca/a00048.php" title="console.hpp" alt="" coords="1317,677,1409,704"/>
-<area shape="rect" id="node34" href="../../d4/de8/a00061.php" title="macro.hpp" alt="" coords="1495,752,1577,779"/>
-<area shape="rect" id="node46" href="../../d9/d73/a00060.php" title="Hostile.hpp" alt="" coords="1519,229,1607,256"/>
+<div class="center"><img src="../../db/d57/a00112.png" border="0" usemap="#DrawScene_8hpp" alt=""/></div>
+<map name="DrawScene_8hpp" id="DrawScene_8hpp">
+<area shape="rect" id="node2" href="../../db/db6/a00074.php" title="Scene.hpp" alt="" coords="56,80,140,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d17/a00114.png" border="0" usemap="#Entities_8hppdep" alt=""/></div>
-<map name="Entities_8hppdep" id="Entities_8hppdep">
-<area shape="rect" id="node2" href="../../d3/dea/a00046.php" title="C++.hpp" alt="" coords="14,155,87,181"/>
-<area shape="rect" id="node3" href="../../dc/ddf/a00067.php" title="Player.hpp" alt="" coords="49,80,133,107"/>
+<div class="center"><img src="../../d3/d00/a00113.png" border="0" usemap="#DrawScene_8hppdep" alt=""/></div>
+<map name="DrawScene_8hppdep" id="DrawScene_8hppdep">
+<area shape="rect" id="node2" href="../../d0/d89/a00071.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="../../d2/db1/a00070.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="../../df/d13/a00085.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="../../d9/da4/a00078.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="../../da/d2a/a00086.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="../../df/d5d/a00084.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
 </map>
 </div>
 </div>
 <p><a href="../../d1/dea/a00054_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php">DrawScene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../d0/dc0/a00033.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  <a href="../../dd/d1b/a00015.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/dea/a00054_source.php">Entities.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../d1/dea/a00054_source.php">DrawScene.hpp</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/dea/a00054.php">Entities.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d1/dea/a00054.php">DrawScene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

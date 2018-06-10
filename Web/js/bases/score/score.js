@@ -198,7 +198,7 @@ function createScore(el, w, h, min, max, n, r, d){
 	/*****/
 }
 
-/*! \brief	Create al the score in the page */
+/*! \brief	Create all the score in the page */
 function initScore(){
 	var scores = document.getElementsByClassName("score");
 

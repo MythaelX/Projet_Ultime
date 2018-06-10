@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d8c/a00036.php','../../');});
+$(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,33 +109,16 @@ $(document).ready(function(){initNavTree('de/d8c/a00036.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">WindowButton Member List</div>  </div>
+<div class="title">Scene Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d8c/a00036.php">WindowButton</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/dc0/a00033.php">Scene</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">BUTTON_CLOSE</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">BUTTON_MAXIMIZE</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">BUTTON_MINIMIZE</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a52e7cf1fa9d4c97891ac0080c65dd57e">ButtonState</a> enum name</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a1a23c44a782fc06df076f22ea249084b">ButtonType</a> enum name</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#aab556dedddbb1c9832f572b747449055">enterEvent</a>(QEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a8a89e083618d2f239a60bf5adb7c79a2">leaveEvent</a>(QEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#af7caa976fc5766ddc3d89eef1965a9c6">mousePressEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#afd414539e6cf2fc7072a175032a6f1ff">mouseReleaseEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a2dd52661908250a571804fe967bcd316">resizeEvent</a>(QResizeEvent *event)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#ac7b9d8d3e328e0285ef4664e20acb8d3">setBackground</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a7a087338372f7592853b050d168df152">setClickedColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a434a8192bfe4dea8c7b4e1b052a1a943">setGradient</a>(int r1, int g1, int b1, int a1, int r2, int g2, int b2, int a2)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a6947ea55943b909c1d492ad2f79ae1f8">setHoveredColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a4babac31336534efca737c5f73710c1d">setNormalColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">STATE_CLICKED</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">STATE_HOVERED</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">STATE_NORMAL</a> enum value</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d8c/a00036.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>(ButtonType type, QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d8c/a00036.php#af6a0e6f87bae8c50d9d2e57b371a548a">~WindowButton</a>()</td><td class="entry"><a class="el" href="../../de/d8c/a00036.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a>(QObject *parent=NULL)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a>()=0</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></td><td class="entry"><span class="mlabel">pure virtual</span><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a>()</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">Scene</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

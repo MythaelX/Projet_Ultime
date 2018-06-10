@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: Reinit Class Reference</title>
+<title>Qt: QVSpacerItem Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,89 +110,87 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../df/d17/a00231.php">List of all members</a>  </div>
+<a href="../../dd/d2d/a00229.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Reinit Class Reference</div>  </div>
+<div class="title">QVSpacerItem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d5/d16/a00029.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
+<p>An implementation of QSpacerItem.  
  <a href="../../d5/d16/a00029.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../db/df8/a00076_source.php">Spacers.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Reinit:</div>
+Inheritance diagram for QVSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d53/a00232.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
-<map name="Reinit_inherit__map" id="Reinit_inherit__map">
-<area shape="rect" id="node2" href="../../da/da0/a00009.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
-</map>
+<div class="center"><img src="../../d1/da8/a00230.png" border="0" usemap="#QVSpacerItem_inherit__map" alt="Inheritance graph"/></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Reinit:</div>
+Collaboration diagram for QVSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/de1/a00233.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
-<map name="Reinit_coll__map" id="Reinit_coll__map">
-<area shape="rect" id="node2" href="../../da/da0/a00009.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
+<div class="center"><img src="../../df/d17/a00231.png" border="0" usemap="#QVSpacerItem_coll__map" alt="Collaboration graph"/></div>
+<map name="QVSpacerItem_coll__map" id="QVSpacerItem_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae482f034556d2539b85c90cefe9da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a00029.php#aae482f034556d2539b85c90cefe9da82">Reinit</a> ()</td></tr>
-<tr class="separator:aae482f034556d2539b85c90cefe9da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00009"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00009')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../da/da0/a00009.php">Color</a></td></tr>
-<tr class="memitem:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00009"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a> (std::string color)</td></tr>
-<tr class="memdesc:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="#af13248c98bcd8bf432f3c9dab0a27135">More...</a><br /></td></tr>
-<tr class="separator:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00009"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00009"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a> (Args...args)</td></tr>
-<tr class="memdesc:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../da/da0/a00009.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="#a20b97d6cf5e50f86b517f543142ac1e2">More...</a><br /></td></tr>
-<tr class="separator:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00009"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a> (int color)</td></tr>
-<tr class="memdesc:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a4f77bc1b8cfcd1382cd55e4ef6856bac">More...</a><br /></td></tr>
-<tr class="separator:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00009"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00009"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
-<tr class="memdesc:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
-<tr class="separator:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00009"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d4/dca/a00048.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
-<tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
-<tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00009"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00009"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d4/dca/a00048.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
-<tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
-<tr class="separator:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00009"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833d08c247a52f8eff4109f5f1e26210"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a00029.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a> (int w=0, int h=0)</td></tr>
+<tr class="memdesc:a833d08c247a52f8eff4109f5f1e26210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend vertically.  <a href="#a833d08c247a52f8eff4109f5f1e26210">More...</a><br /></td></tr>
+<tr class="separator:a833d08c247a52f8eff4109f5f1e26210"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d5/d16/a00029.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
+<div class="textblock"><p>An implementation of QSpacerItem. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00147">147</a> of file <a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/df8/a00076_source.php#l00027">27</a> of file <a class="el" href="../../db/df8/a00076_source.php">Spacers.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aae482f034556d2539b85c90cefe9da82"></a>
+<a class="anchor" id="a833d08c247a52f8eff4109f5f1e26210"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Reinit::Reinit </td>
+          <td class="memname">QVSpacerItem::QVSpacerItem </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>w</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Create a QSpacerItem that expend vertically. </p>
+
+<p>Definition at line <a class="el" href="../../db/df8/a00076_source.php#l00030">30</a> of file <a class="el" href="../../db/df8/a00076_source.php">Spacers.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/dca/a00048_source.php">console.hpp</a></li>
+<li><a class="el" href="../../db/df8/a00076_source.php">Spacers.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d16/a00029.php">Reinit</a></li>
+    <li class="navelem"><a class="el" href="../../d5/d16/a00029.php">QVSpacerItem</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

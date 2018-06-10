@@ -2,7 +2,7 @@
 *
 *	\file		time.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		29 mai 2018
+*	\date		10 juin 2018
 *
 */
 #ifndef HEADER_TIME
@@ -61,7 +61,7 @@ class Clock {
 /*!
 * \class	Timer
 * \brief	A timer to do something at the end
-* \todo
+* \todo		Create the class
 */
 class Timer {
 	public:

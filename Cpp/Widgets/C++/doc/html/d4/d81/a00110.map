@@ -1,4 +1,3 @@
-<map id="Crypto" name="Crypto">
-<area shape="rect" id="node2" href="$dd/dad/a00005.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,80,63,107"/>
-<area shape="rect" id="node3" href="$dc/de2/a00024.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
+<map id="Color" name="Color">
+<area shape="rect" id="node2" href="$d3/dfe/a00025.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
 </map>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('namespacemembers.php','');});
 <div class="contents">
 <div class="textblock">Here is a list of all namespace members with links to the namespace documentation for each member:</div><ul>
 <li>firstLetter()
-: <a class="el" href="da/d2a/a00086.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer</a>
+: <a class="el" href="d1/d1e/a00087.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer</a>
 </li>
 </ul>
 </div><!-- contents -->

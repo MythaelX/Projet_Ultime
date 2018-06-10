@@ -145,48 +145,48 @@ $(document).ready(function(){initNavTree('functions_func_c.php','');});
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>Cesar()
-: <a class="el" href="de/d21/a00006.php#a9a70a4a1e758085855fd550404687388">Cesar</a>
+: <a class="el" href="de/d5e/a00007.php#a9a70a4a1e758085855fd550404687388">Cesar</a>
 </li>
 <li>clear()
-: <a class="el" href="d4/d51/a00017.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
 </li>
 <li>Clock()
-: <a class="el" href="de/d5e/a00007.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>
+: <a class="el" href="d4/dee/a00008.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>
 </li>
 <li>Cls()
-: <a class="el" href="d4/dee/a00008.php#a441ea70daac8caec56684cf47b187672">Cls</a>
+: <a class="el" href="da/da0/a00009.php#a441ea70daac8caec56684cf47b187672">Cls</a>
 </li>
 <li>collides()
-: <a class="el" href="d7/d46/a00002.php#ad9fd8916f14ba954f4f98911e34a6d99">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#ad9fd8916f14ba954f4f98911e34a6d99">Animal</a>
 </li>
 <li>collidesCircle()
-: <a class="el" href="d7/d46/a00002.php#a8cffa1f64b0ecc62e555ec029e4fd930">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a8cffa1f64b0ecc62e555ec029e4fd930">Animal</a>
 </li>
 <li>collidesRect()
-: <a class="el" href="d7/d46/a00002.php#aab6124c1e2241cf9491eb0dcc9c7d482">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#aab6124c1e2241cf9491eb0dcc9c7d482">Animal</a>
 </li>
 <li>Color()
-: <a class="el" href="da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>
+: <a class="el" href="d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>
 </li>
 <li>connect()
-: <a class="el" href="dd/dad/a00005.php#a359d41a12c304f95abb33d77698bd5ba">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">BDD</a>
 </li>
 <li>consolePrint()
-: <a class="el" href="d4/d51/a00017.php#aae5f7c464841d017086abe1d553da50d">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#aae5f7c464841d017086abe1d553da50d">Map</a>
 </li>
 <li>Contraption()
-: <a class="el" href="da/d45/a00011.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
+: <a class="el" href="df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
 </li>
 <li>crypt()
-: <a class="el" href="de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>
-, <a class="el" href="d7/dd4/a00013.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
-, <a class="el" href="d6/d5b/a00026.php#ab84588271f2e5417d47251be249951b4">RSA</a>
+: <a class="el" href="de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>
+, <a class="el" href="d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
+, <a class="el" href="d0/d33/a00027.php#ab84588271f2e5417d47251be249951b4">RSA</a>
 </li>
 <li>Crypto()
-: <a class="el" href="d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
+: <a class="el" href="d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="dc/d3c/a00028.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
+: <a class="el" href="d5/d16/a00029.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

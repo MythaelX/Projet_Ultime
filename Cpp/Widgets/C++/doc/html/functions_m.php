@@ -149,17 +149,17 @@ $(document).ready(function(){initNavTree('functions_m.php','');});
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>m_start
-: <a class="el" href="de/d5e/a00007.php#ad482076b35f14f806f688e956245483a">Clock</a>
-, <a class="el" href="d0/d33/a00027.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
+: <a class="el" href="d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">Clock</a>
+, <a class="el" href="dc/d3c/a00028.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
 </li>
 <li>Map()
-: <a class="el" href="d4/d51/a00017.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#a5c9015eea1519003e305315fc6933968">Map</a>
 </li>
 <li>move()
-: <a class="el" href="d7/d46/a00002.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="d1/d2b/a00018.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="dd/da2/a00019.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 </ul>
 </div><!-- contents -->
