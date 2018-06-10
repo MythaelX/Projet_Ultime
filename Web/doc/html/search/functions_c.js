@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['k',['K',['../d1/d2b/a00018.php#a7485039b26b94cba347d1d022da98aa4',1,'bootstrap.bundle.min.js']]]
+  ['movegallery',['moveGallery',['../db/df3/a00034.php#ae02e93562a3633076b6e0e7bf4952238',1,'gallery.js']]]
 ];

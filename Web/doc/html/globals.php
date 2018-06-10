@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li class="current"><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li class="current"><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -147,13 +140,53 @@ $(document).ready(function(){initNavTree('globals.php','');});
 <div class="contents">
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
-<h3><a class="anchor" id="index_0x21"></a>- ! -</h3><ul>
-<li>!function()
-: <a class="el" href="d1/d2b/a00018.php#aa2bdb854ead8cc8b8018b1e7f536e543">bootstrap.bundle.min.js</a>
-, <a class="el" href="d4/dca/a00048.php#afaeef3a1a07af568051b656bbbffec25">less.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#afcc778a3e07eb56672fb93c2a8eef157">jquery.min.js</a>
-, <a class="el" href="de/d11/a00021.php#a6e2c9a4472a75ae2ec32ee54ff87c001">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a6e2c9a4472a75ae2ec32ee54ff87c001">bootstrap.bundle.min.js</a>
+<h3><a class="anchor" id="index_0x24"></a>- $ -</h3><ul>
+<li>$avatar
+: <a class="el" href="d4/dca/a00048.php#ac62167326fcdc762297fe76407218b55">register.php</a>
+</li>
+<li>$bdd
+: <a class="el" href="d7/de0/a00022.php#a94f91e878bce0991e2cd595c5dd79b3f">connexion.php</a>
+, <a class="el" href="d6/d5b/a00026.php#a94f91e878bce0991e2cd595c5dd79b3f">creer-une-partie.php</a>
+, <a class="el" href="d5/db6/a00042.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier.php</a>
+, <a class="el" href="d6/d97/a00045.php#a94f91e878bce0991e2cd595c5dd79b3f">palmares.php</a>
+, <a class="el" href="de/d8c/a00036.php#a94f91e878bce0991e2cd595c5dd79b3f">index.php</a>
+, <a class="el" href="d7/df7/a00058.php#a94f91e878bce0991e2cd595c5dd79b3f">tchat.php</a>
+, <a class="el" href="d4/dca/a00048.php#a94f91e878bce0991e2cd595c5dd79b3f">register.php</a>
+, <a class="el" href="d3/dfe/a00025.php#a94f91e878bce0991e2cd595c5dd79b3f">cree-une-partie.php</a>
+, <a class="el" href="d8/d41/a00038.php#a94f91e878bce0991e2cd595c5dd79b3f">inscription.php</a>
+, <a class="el" href="d2/dee/a00049.php#a94f91e878bce0991e2cd595c5dd79b3f">request.php</a>
+, <a class="el" href="db/d3a/a00040.php#a94f91e878bce0991e2cd595c5dd79b3f">jeu.php</a>
+</li>
+<li>$data
+: <a class="el" href="d2/dee/a00049.php#a6efc15b5a2314dd4b5aaa556a375c6d6">request.php</a>
+</li>
+<li>$email
+: <a class="el" href="d4/dca/a00048.php#ad634f418b20382e2802f80532d76d3cd">register.php</a>
+</li>
+<li>$head
+: <a class="el" href="d3/dfe/a00025.php#a687ea7fcd78263867b5bd34ed56b6379">cree-une-partie.php</a>
+, <a class="el" href="d6/d5b/a00026.php#a687ea7fcd78263867b5bd34ed56b6379">creer-une-partie.php</a>
+, <a class="el" href="de/d8c/a00036.php#a687ea7fcd78263867b5bd34ed56b6379">index.php</a>
+, <a class="el" href="d6/d97/a00045.php#a687ea7fcd78263867b5bd34ed56b6379">palmares.php</a>
+, <a class="el" href="db/d3a/a00040.php#a687ea7fcd78263867b5bd34ed56b6379">jeu.php</a>
+, <a class="el" href="d5/db6/a00042.php#a687ea7fcd78263867b5bd34ed56b6379">modifier.php</a>
+, <a class="el" href="d8/d41/a00038.php#a687ea7fcd78263867b5bd34ed56b6379">inscription.php</a>
+, <a class="el" href="d7/de0/a00022.php#a687ea7fcd78263867b5bd34ed56b6379">connexion.php</a>
+</li>
+<li>$mdp
+: <a class="el" href="d4/dca/a00048.php#a8a65334de2f0d486a42b02ecf82fe8fb">register.php</a>
+</li>
+<li>$pseudo
+: <a class="el" href="d4/dca/a00048.php#a5aaec5de32a8e7a31b5104f80d58dec0">register.php</a>
+</li>
+<li>$requestRessource
+: <a class="el" href="d2/dee/a00049.php#a7fd0384e6fc79c4dac5e25ab16d186ba">request.php</a>
+</li>
+<li>$res
+: <a class="el" href="d7/df7/a00058.php#a49a8a4009b02e49717caa88b128affc5">tchat.php</a>
+</li>
+<li>$type
+: <a class="el" href="d4/d8c/a00035.php#a9a4a6fba2208984cabb3afacadf33919">getter.php</a>
 </li>
 </ul>
 </div><!-- contents -->

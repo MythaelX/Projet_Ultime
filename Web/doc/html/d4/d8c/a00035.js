@@ -1,8 +1,6 @@
 var a00035 =
 [
-    [ "authentification", "d4/d8c/a00035.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6", null ],
-    [ "creationPartie", "d4/d8c/a00035.php#a724c1f237bf9d61e65f9190f327a36ca", null ],
-    [ "score", "d4/d8c/a00035.php#af5fde6a754bc0e9c7872a974abde85a8", null ],
-    [ "sendJsonData", "d4/d8c/a00035.php#afcef1294902ca07027096e59292f89c1", null ],
-    [ "verifieToken", "d4/d8c/a00035.php#a392292a494893cd5382dd1c9273ee9c8", null ]
+    [ "nextRes", "d4/d8c/a00035.php#a443ea3a863c29aed90f572de52c0b04d", null ],
+    [ "resNumber", "d4/d8c/a00035.php#ab1aeaedb8bf332eee5b85200acfee982", null ],
+    [ "$type", "d4/d8c/a00035.php#a9a4a6fba2208984cabb3afacadf33919", null ]
 ];

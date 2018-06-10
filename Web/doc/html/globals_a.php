@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li class="current"><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,26 +141,17 @@ $(document).ready(function(){initNavTree('globals_a.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>a
-: <a class="el" href="db/db2/a00020.php#ae8f6b400ed3390908c5cdeebed3a82b9">autres/bootstrap.min.js</a>
-, <a class="el" href="de/d11/a00021.php#a82ca4ee5dd63e58a2bb967077dc8b8fb">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="db/db2/a00020.php#aa40d46545e7534c1454ab41aa8ccf9a2">autres/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#a82ca4ee5dd63e58a2bb967077dc8b8fb">jquery.min.js</a>
-</li>
-<li>A
-: <a class="el" href="de/d11/a00021.php#a9757042cb6157b0f84e78a5ff4aa6f93">bootstrap/bootstrap.min.js</a>
-</li>
 <li>addCss()
 : <a class="el" href="d7/dec/a00010.php#a568b4440ebffdda209a8bde49f78e0bb">_script.js</a>
 </li>
 <li>addOnload()
 : <a class="el" href="d7/dec/a00010.php#abc28be0063ceea3a2dbac6e5d8f42bd4">_script.js</a>
-, <a class="el" href="d3/de7/a00039.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1">gallery.js</a>
-, <a class="el" href="d2/dee/a00049.php#aa72428ec28ea58db7cbf03b3614ea4f2">map.js</a>
-, <a class="el" href="d3/d8b/a00059.php#abb848f46d7695bd4fca7f7966f065321">score.js</a>
-, <a class="el" href="df/d03/a00062.php#a1171755a7214bdc0d500187f301f5b0f">show_pass.js</a>
-, <a class="el" href="df/d5f/a00064.php#a34b8ff6d001a03489d89d2104f8d1e66">stars.js</a>
-, <a class="el" href="d9/db3/a00066.php#afef3d8e0e45b703894d323481d52a97f">tchat.js</a>
+, <a class="el" href="dd/d32/a00041.php#aa72428ec28ea58db7cbf03b3614ea4f2">map.js</a>
+, <a class="el" href="d1/d22/a00057.php#afef3d8e0e45b703894d323481d52a97f">tchat.js</a>
+, <a class="el" href="d5/de0/a00050.php#abb848f46d7695bd4fca7f7966f065321">score.js</a>
+, <a class="el" href="db/df3/a00034.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1">gallery.js</a>
+, <a class="el" href="dc/dee/a00053.php#a1171755a7214bdc0d500187f301f5b0f">show_pass.js</a>
+, <a class="el" href="d4/d6d/a00055.php#a34b8ff6d001a03489d89d2104f8d1e66">stars.js</a>
 </li>
 <li>addOnresize()
 : <a class="el" href="d7/dec/a00010.php#af25c5b56dd6e0a4c8e76e1d6ec197417">_script.js</a>
@@ -176,73 +160,51 @@ $(document).ready(function(){initNavTree('globals_a.php','');});
 : <a class="el" href="df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61">admin.php</a>
 </li>
 <li>affichage()
-: <a class="el" href="d1/d84/a00052.php#af74f80f2d76592fc7d873aeabb9aecf5">palmares.js</a>
+: <a class="el" href="d5/df9/a00044.php#af74f80f2d76592fc7d873aeabb9aecf5">palmares.js</a>
 </li>
 <li>affichageAccueil()
 : <a class="el" href="da/d45/a00011.php#ad7bb1a471a64bb1b432a6429de39da82">accueilPerso.js</a>
 </li>
 <li>affichageBouton()
-: <a class="el" href="d1/d84/a00052.php#aae5ee08540b9075228e330d9f9db693c">palmares.js</a>
+: <a class="el" href="d5/df9/a00044.php#aae5ee08540b9075228e330d9f9db693c">palmares.js</a>
 </li>
 <li>affichageConnecter()
-: <a class="el" href="d2/d79/a00051.php#a373c65ea2fc1b38e81387398e287ac8d">navBar.js</a>
+: <a class="el" href="d6/d42/a00043.php#a373c65ea2fc1b38e81387398e287ac8d">navBar.js</a>
 </li>
 <li>affichageDeconnecter()
-: <a class="el" href="d2/d79/a00051.php#a57c667ec3d857e12e4d334e3f2453313">navBar.js</a>
+: <a class="el" href="d6/d42/a00043.php#a57c667ec3d857e12e4d334e3f2453313">navBar.js</a>
 </li>
 <li>affichageDifficulte()
-: <a class="el" href="dc/d3c/a00028.php#a34b3788c0664245d1de030f262f040ef">Creation.js</a>
-, <a class="el" href="d5/df9/a00044.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
+: <a class="el" href="d3/d52/a00023.php#a34b3788c0664245d1de030f262f040ef">Creation.js</a>
+, <a class="el" href="d3/de7/a00039.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
 </li>
 <li>affichageJeu()
-: <a class="el" href="d5/df9/a00044.php#a5cab69f44f6222a1ebdef86c7812ab6f">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f">jeu.js</a>
 </li>
 <li>affichageNav()
-: <a class="el" href="d2/d79/a00051.php#a476430a7bbd11ed57401416535999339">navBar.js</a>
+: <a class="el" href="d6/d42/a00043.php#a476430a7bbd11ed57401416535999339">navBar.js</a>
 </li>
 <li>affichageParties()
 : <a class="el" href="da/d45/a00011.php#adbff0145fcc69a075dff45ab975c2b2d">accueilPerso.js</a>
 </li>
 <li>affichageScore()
-: <a class="el" href="d5/df9/a00044.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">jeu.js</a>
 </li>
 <li>affichageTableau()
-: <a class="el" href="d1/d84/a00052.php#abb8998e94bb89c9a2293f342374e97bc">palmares.js</a>
+: <a class="el" href="d5/df9/a00044.php#abb8998e94bb89c9a2293f342374e97bc">palmares.js</a>
 </li>
 <li>affichageThemes()
-: <a class="el" href="dc/d3c/a00028.php#aee6c29e01ed8d036be6656155f1080fe">Creation.js</a>
+: <a class="el" href="d3/d52/a00023.php#aee6c29e01ed8d036be6656155f1080fe">Creation.js</a>
 </li>
 <li>ajaxRequest()
-: <a class="el" href="d5/df9/a00044.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
-, <a class="el" href="d1/d84/a00052.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
-, <a class="el" href="dc/d3c/a00028.php#a806ccfa4bdd83d47638b934f63aa597f">Creation.js</a>
+: <a class="el" href="d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
+, <a class="el" href="d3/d52/a00023.php#a806ccfa4bdd83d47638b934f63aa597f">Creation.js</a>
+, <a class="el" href="d5/df9/a00044.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">palmares.js</a>
 , <a class="el" href="d7/dd4/a00013.php#abef425142325124458ad69a853742275">ajax.js</a>
-</li>
-<li>Alert
-: <a class="el" href="de/d11/a00021.php#a325aa456c345d1e9e83e5505cb8ef1f7">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a325aa456c345d1e9e83e5505cb8ef1f7">bootstrap.bundle.min.js</a>
-</li>
-<li>alert
-: <a class="el" href="db/db2/a00020.php#aaa41eef066735d697e7786ec86d52389">autres/bootstrap.min.js</a>
-</li>
-<li>Alert
-: <a class="el" href="d4/d51/a00017.php#a7d2656468b57cd8302b39f91252cb544">bootstrap.bundle.js</a>
-, <a class="el" href="dd/da2/a00019.php#a7d2656468b57cd8302b39f91252cb544">bootstrap.js</a>
-</li>
-<li>args
-: <a class="el" href="d4/d6d/a00055.php#a64e5c861448a80a00f5c93e96de17d7a">phantomLoader.js</a>
-</li>
-<li>At
-: <a class="el" href="d1/d2b/a00018.php#a697f596c35a2a9c7a7c4da8e3db81bca">bootstrap.bundle.min.js</a>
-</li>
-<li>at()
-: <a class="el" href="d1/d2b/a00018.php#a4b60f961e4bb9eeb610cc4ef4cd5790b">bootstrap.bundle.min.js</a>
-</li>
-<li>attachToScrollParents()
-: <a class="el" href="d4/d51/a00017.php#a5d33c8c99f4895dc1c7032a3d8550511">bootstrap.bundle.js</a>
+, <a class="el" href="d5/df9/a00044.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
 </li>
 <li>authentification()
-: <a class="el" href="d4/d8c/a00035.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">fonctions.php</a>
+: <a class="el" href="d5/d79/a00030.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">fonctions.php</a>
 </li>
 </ul>
 </div><!-- contents -->

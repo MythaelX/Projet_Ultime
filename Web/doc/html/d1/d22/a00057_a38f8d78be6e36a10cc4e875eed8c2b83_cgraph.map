@@ -1,0 +1,12 @@
+<map id="tchatSend" name="tchatSend">
+<area shape="rect" id="node2" href="$d1/d22/a00057.php#a47c05899a60dab59f07c18864339c5b6" title="Add a written message to the tchat with class human. " alt="" coords="267,5,393,32"/>
+<area shape="rect" id="node6" href="$d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="283,132,377,159"/>
+<area shape="rect" id="node9" href="$d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833" title="Add a received message to the that with class bot. " alt="" coords="271,56,389,83"/>
+<area shape="rect" id="node10" href="$d1/d22/a00057.php#afef3d8e0e45b703894d323481d52a97f" title="Launch the initialization of the tchat. " alt="" coords="135,208,219,235"/>
+<area shape="rect" id="node11" href="$d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639" title="Initialize the tchat. " alt="" coords="141,107,213,133"/>
+<area shape="rect" id="node3" href="$d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d" title="Create the child that will contains the text. " alt="" coords="441,5,565,32"/>
+<area shape="rect" id="node4" href="$d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb" title="Add the new message in the tchatbox. " alt="" coords="452,56,555,83"/>
+<area shape="rect" id="node5" href="$d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="613,56,704,83"/>
+<area shape="rect" id="node7" href="$d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="456,119,551,145"/>
+<area shape="rect" id="node8" href="$d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="464,169,543,196"/>
+</map>

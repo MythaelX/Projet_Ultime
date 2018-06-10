@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -123,7 +122,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a39a06d6c4a0e9dc2e5b11124e3b2537e"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e">httpSuccess</a> ()</td></tr>
 <tr class="memdesc:a39a06d6c4a0e9dc2e5b11124e3b2537e"><td class="mdescLeft">&#160;</td><td class="mdescRight">On success, hide the error div.  <a href="#a39a06d6c4a0e9dc2e5b11124e3b2537e">More...</a><br /></td></tr>
 <tr class="separator:a39a06d6c4a0e9dc2e5b11124e3b2537e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abef425142325124458ad69a853742275"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275">ajaxRequest</a> (type, request, callback, <a class="el" href="../../d5/df9/a00044.php#a20b6cd228a69593c03af5dc445393936">data</a>=null, errorCallback=function(){}, async=true)</td></tr>
+<tr class="memitem:abef425142325124458ad69a853742275"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275">ajaxRequest</a> (type, request, callback, <a class="el" href="../../d3/de7/a00039.php#a20b6cd228a69593c03af5dc445393936">data</a>=null, errorCallback=function(){}, async=true)</td></tr>
 <tr class="memdesc:abef425142325124458ad69a853742275"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function that start an ajax request.  <a href="#abef425142325124458ad69a853742275">More...</a><br /></td></tr>
 <tr class="separator:abef425142325124458ad69a853742275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -131,7 +130,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
 <tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4c6d9354ac67e1c3259ce578320aa6"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#acc4c6d9354ac67e1c3259ce578320aa6">errorDiv</a> = <a class="el" href="../../d9/d73/a00060.php#aa341c64280e4f907737862137f8ee707">document.getElementById</a>(&quot;errors&quot;)</td></tr>
+<tr class="memitem:acc4c6d9354ac67e1c3259ce578320aa6"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#acc4c6d9354ac67e1c3259ce578320aa6">errorDiv</a> = <a class="el" href="../../d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">document.getElementById</a>(&quot;errors&quot;)</td></tr>
 <tr class="separator:acc4c6d9354ac67e1c3259ce578320aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c35532bc95b97064568a25321d0e16b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php#a7c35532bc95b97064568a25321d0e16b">divErrorsClass</a> = &quot;container&quot;</td></tr>
 <tr class="separator:a7c35532bc95b97064568a25321d0e16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,7 +295,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var errorDiv = <a class="el" href="../../d9/d73/a00060.php#aa341c64280e4f907737862137f8ee707">document.getElementById</a>(&quot;errors&quot;)</td>
+          <td class="memname">var errorDiv = <a class="el" href="../../d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">document.getElementById</a>(&quot;errors&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -158,7 +157,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to send mails. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00013">13</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00013">13</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac186b4fd84ab68c80ce2b0626c2ef6a5"></a>
 <div class="memitem">
@@ -192,7 +191,7 @@ Public Member Functions</h2></td></tr>
 
 <p>The constructor. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00022">22</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00022">22</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -213,7 +212,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Add a mail header. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00069">69</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00069">69</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -233,7 +232,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Add mail parameters. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00079">79</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00079">79</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -269,7 +268,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Send the mail. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00084">84</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00084">84</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -289,7 +288,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set a mail BCC. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00064">64</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00064">64</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -319,7 +318,7 @@ Here is the call graph for this function:</div>
 
 <p>Set a mail CC. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00059">59</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00059">59</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -349,7 +348,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the mail headers. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00048">48</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00048">48</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -369,7 +368,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the mail message. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00043">43</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00043">43</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -389,7 +388,7 @@ Here is the call graph for this function:</div>
 
 <p>Set mail parameters. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00074">74</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00074">74</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -409,7 +408,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the mail receiver. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00033">33</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00033">33</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
@@ -429,7 +428,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the mail sender. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00053">53</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00053">53</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -459,12 +458,12 @@ Here is the call graph for this function:</div>
 
 <p>Set the mail subject. </p>
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00038">38</a> of file <a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00038">38</a> of file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dc/de2/a00024_source.php">class-Mail.php</a></li>
+<li><a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,34 +83,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li class="current"><a href="globals_vars.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals_vars__.php#index__"><span>_</span></a></li>
-      <li><a href="globals_vars_a.php#index_a"><span>a</span></a></li>
-      <li><a href="globals_vars_b.php#index_b"><span>b</span></a></li>
-      <li><a href="globals_vars_c.php#index_c"><span>c</span></a></li>
-      <li><a href="globals_vars_d.php#index_d"><span>d</span></a></li>
-      <li><a href="globals_vars_e.php#index_e"><span>e</span></a></li>
-      <li><a href="globals_vars_f.php#index_f"><span>f</span></a></li>
-      <li><a href="globals_vars_g.php#index_g"><span>g</span></a></li>
-      <li><a href="globals_vars_h.php#index_h"><span>h</span></a></li>
-      <li><a href="globals_vars_i.php#index_i"><span>i</span></a></li>
-      <li><a href="globals_vars_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_vars_k.php#index_k"><span>k</span></a></li>
-      <li><a href="globals_vars_l.php#index_l"><span>l</span></a></li>
-      <li><a href="globals_vars_m.php#index_m"><span>m</span></a></li>
-      <li><a href="globals_vars_n.php#index_n"><span>n</span></a></li>
-      <li><a href="globals_vars_o.php#index_o"><span>o</span></a></li>
-      <li><a href="globals_vars_p.php#index_p"><span>p</span></a></li>
-      <li><a href="globals_vars_q.php#index_q"><span>q</span></a></li>
-      <li><a href="globals_vars_r.php#index_r"><span>r</span></a></li>
-      <li><a href="globals_vars_s.php#index_s"><span>s</span></a></li>
-      <li><a href="globals_vars_t.php#index_t"><span>t</span></a></li>
-      <li><a href="globals_vars_u.php#index_u"><span>u</span></a></li>
-      <li><a href="globals_vars_v.php#index_v"><span>v</span></a></li>
-      <li><a href="globals_vars_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_vars_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_vars_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_vars_z.php#index_z"><span>z</span></a></li>
+      <li><a href="#index_0x24"><span>$</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li class="current"><a href="#index_w"><span>w</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,51 +136,281 @@ $(document).ready(function(){initNavTree('globals_vars.php','');});
 
 <h3><a class="anchor" id="index_0x24"></a>- $ -</h3><ul>
 <li>$avatar
-: <a class="el" href="d1/d22/a00057.php#ac62167326fcdc762297fe76407218b55">register.php</a>
+: <a class="el" href="d4/dca/a00048.php#ac62167326fcdc762297fe76407218b55">register.php</a>
 </li>
 <li>$bdd
-: <a class="el" href="d0/d33/a00027.php#a94f91e878bce0991e2cd595c5dd79b3f">connexion.php</a>
-, <a class="el" href="df/d61/a00031.php#a94f91e878bce0991e2cd595c5dd79b3f">creer-une-partie.php</a>
-, <a class="el" href="d5/de0/a00050.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier.php</a>
-, <a class="el" href="dc/dee/a00053.php#a94f91e878bce0991e2cd595c5dd79b3f">palmares.php</a>
-, <a class="el" href="dd/d32/a00041.php#a94f91e878bce0991e2cd595c5dd79b3f">index.php</a>
-, <a class="el" href="dc/ddf/a00067.php#a94f91e878bce0991e2cd595c5dd79b3f">tchat.php</a>
-, <a class="el" href="d1/d22/a00057.php#a94f91e878bce0991e2cd595c5dd79b3f">register.php</a>
-, <a class="el" href="d5/d79/a00030.php#a94f91e878bce0991e2cd595c5dd79b3f">cree-une-partie.php</a>
-, <a class="el" href="d6/d42/a00043.php#a94f91e878bce0991e2cd595c5dd79b3f">inscription.php</a>
-, <a class="el" href="d7/df7/a00058.php#a94f91e878bce0991e2cd595c5dd79b3f">request.php</a>
-, <a class="el" href="d6/d97/a00045.php#a94f91e878bce0991e2cd595c5dd79b3f">jeu.php</a>
+: <a class="el" href="d7/de0/a00022.php#a94f91e878bce0991e2cd595c5dd79b3f">connexion.php</a>
+, <a class="el" href="d8/d41/a00038.php#a94f91e878bce0991e2cd595c5dd79b3f">inscription.php</a>
+, <a class="el" href="de/d8c/a00036.php#a94f91e878bce0991e2cd595c5dd79b3f">index.php</a>
+, <a class="el" href="db/d3a/a00040.php#a94f91e878bce0991e2cd595c5dd79b3f">jeu.php</a>
+, <a class="el" href="d2/dee/a00049.php#a94f91e878bce0991e2cd595c5dd79b3f">request.php</a>
+, <a class="el" href="d5/db6/a00042.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier.php</a>
+, <a class="el" href="d6/d97/a00045.php#a94f91e878bce0991e2cd595c5dd79b3f">palmares.php</a>
+, <a class="el" href="d7/df7/a00058.php#a94f91e878bce0991e2cd595c5dd79b3f">tchat.php</a>
+, <a class="el" href="d4/dca/a00048.php#a94f91e878bce0991e2cd595c5dd79b3f">register.php</a>
+, <a class="el" href="d3/dfe/a00025.php#a94f91e878bce0991e2cd595c5dd79b3f">cree-une-partie.php</a>
+, <a class="el" href="d6/d5b/a00026.php#a94f91e878bce0991e2cd595c5dd79b3f">creer-une-partie.php</a>
 </li>
 <li>$data
-: <a class="el" href="d7/df7/a00058.php#a6efc15b5a2314dd4b5aaa556a375c6d6">request.php</a>
+: <a class="el" href="d2/dee/a00049.php#a6efc15b5a2314dd4b5aaa556a375c6d6">request.php</a>
 </li>
 <li>$email
-: <a class="el" href="d1/d22/a00057.php#ad634f418b20382e2802f80532d76d3cd">register.php</a>
+: <a class="el" href="d4/dca/a00048.php#ad634f418b20382e2802f80532d76d3cd">register.php</a>
 </li>
 <li>$head
-: <a class="el" href="d5/d79/a00030.php#a687ea7fcd78263867b5bd34ed56b6379">cree-une-partie.php</a>
-, <a class="el" href="df/d61/a00031.php#a687ea7fcd78263867b5bd34ed56b6379">creer-une-partie.php</a>
-, <a class="el" href="dd/d32/a00041.php#a687ea7fcd78263867b5bd34ed56b6379">index.php</a>
-, <a class="el" href="dc/dee/a00053.php#a687ea7fcd78263867b5bd34ed56b6379">palmares.php</a>
-, <a class="el" href="d6/d97/a00045.php#a687ea7fcd78263867b5bd34ed56b6379">jeu.php</a>
-, <a class="el" href="d5/de0/a00050.php#a687ea7fcd78263867b5bd34ed56b6379">modifier.php</a>
-, <a class="el" href="d6/d42/a00043.php#a687ea7fcd78263867b5bd34ed56b6379">inscription.php</a>
-, <a class="el" href="d0/d33/a00027.php#a687ea7fcd78263867b5bd34ed56b6379">connexion.php</a>
+: <a class="el" href="d6/d5b/a00026.php#a687ea7fcd78263867b5bd34ed56b6379">creer-une-partie.php</a>
+, <a class="el" href="de/d8c/a00036.php#a687ea7fcd78263867b5bd34ed56b6379">index.php</a>
+, <a class="el" href="d6/d97/a00045.php#a687ea7fcd78263867b5bd34ed56b6379">palmares.php</a>
+, <a class="el" href="d7/de0/a00022.php#a687ea7fcd78263867b5bd34ed56b6379">connexion.php</a>
+, <a class="el" href="d5/db6/a00042.php#a687ea7fcd78263867b5bd34ed56b6379">modifier.php</a>
+, <a class="el" href="d8/d41/a00038.php#a687ea7fcd78263867b5bd34ed56b6379">inscription.php</a>
+, <a class="el" href="db/d3a/a00040.php#a687ea7fcd78263867b5bd34ed56b6379">jeu.php</a>
+, <a class="el" href="d3/dfe/a00025.php#a687ea7fcd78263867b5bd34ed56b6379">cree-une-partie.php</a>
 </li>
 <li>$mdp
-: <a class="el" href="d1/d22/a00057.php#a8a65334de2f0d486a42b02ecf82fe8fb">register.php</a>
+: <a class="el" href="d4/dca/a00048.php#a8a65334de2f0d486a42b02ecf82fe8fb">register.php</a>
 </li>
 <li>$pseudo
-: <a class="el" href="d1/d22/a00057.php#a5aaec5de32a8e7a31b5104f80d58dec0">register.php</a>
+: <a class="el" href="d4/dca/a00048.php#a5aaec5de32a8e7a31b5104f80d58dec0">register.php</a>
 </li>
 <li>$requestRessource
-: <a class="el" href="d7/df7/a00058.php#a7fd0384e6fc79c4dac5e25ab16d186ba">request.php</a>
+: <a class="el" href="d2/dee/a00049.php#a7fd0384e6fc79c4dac5e25ab16d186ba">request.php</a>
 </li>
 <li>$res
-: <a class="el" href="dc/ddf/a00067.php#a49a8a4009b02e49717caa88b128affc5">tchat.php</a>
+: <a class="el" href="d7/df7/a00058.php#a49a8a4009b02e49717caa88b128affc5">tchat.php</a>
 </li>
 <li>$type
-: <a class="el" href="db/d3a/a00040.php#a9a4a6fba2208984cabb3afacadf33919">getter.php</a>
+: <a class="el" href="d4/d8c/a00035.php#a9a4a6fba2208984cabb3afacadf33919">getter.php</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>change
+: <a class="el" href="d4/d6d/a00055.php#a386c3ec694dd3e8e178623e2d1cb302a">stars.js</a>
+</li>
+<li>compteurProposition
+: <a class="el" href="d3/de7/a00039.php#a8acc3305bb0c57accb21b6c3dfb9a6fd">jeu.js</a>
+</li>
+<li>compteurQuestion
+: <a class="el" href="d3/de7/a00039.php#a991c67d3335f20552b86efe85cc5d875">jeu.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>danger
+: <a class="el" href="d5/de0/a00050.php#a409be39b47b1e1ae747d6824755ca103">score.js</a>
+</li>
+<li>data
+: <a class="el" href="d3/de7/a00039.php#a20b6cd228a69593c03af5dc445393936">jeu.js</a>
+</li>
+<li>divErrorsClass
+: <a class="el" href="d7/dd4/a00013.php#a7c35532bc95b97064568a25321d0e16b">ajax.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>errorDiv
+: <a class="el" href="d7/dd4/a00013.php#acc4c6d9354ac67e1c3259ce578320aa6">ajax.js</a>
+</li>
+<li>exit
+: <a class="el" href="d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">request.php</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>file
+: <a class="el" href="dd/d32/a00041.php#a14523cb74edc3f6175c54e598a379c27">map.js</a>
+</li>
+<li>footerElement
+: <a class="el" href="d7/dec/a00010.php#abaaca770c365c07b25e6dcbafdc7cde3">_script.js</a>
+</li>
+<li>footerInterval
+: <a class="el" href="d7/dec/a00010.php#acd7d88b28d4f7bf14f884f0b2a141f03">_script.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>GALLERY
+: <a class="el" href="db/df3/a00034.php#a8f0c293ae78d762439729b2c979c2f8b">gallery.js</a>
+</li>
+<li>GALLERY_INITIATED
+: <a class="el" href="db/df3/a00034.php#a0ab70e60f6b9d9b0bc04800d0f4a9cd6">gallery.js</a>
+</li>
+<li>GALLERY_INTERVAL
+: <a class="el" href="db/df3/a00034.php#aeec31eabf3dc64f4846a65b0e5082952">gallery.js</a>
+</li>
+<li>GALLERY_INTERVAL_INITIATED
+: <a class="el" href="db/df3/a00034.php#a015f4b021bbce742d0ca11bdda0a691c">gallery.js</a>
+</li>
+<li>GALLERY_MARGE_OBJS
+: <a class="el" href="db/df3/a00034.php#a1b516ae0ba681e08470785de44acdd20">gallery.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>hlc
+: <a class="el" href="dd/d32/a00041.php#a2eff8c8ce9e90e8935a675a162e65740">map.js</a>
+</li>
+<li>hpc
+: <a class="el" href="dd/d32/a00041.php#ace94b0bf8ea7451bbb85d83324c0b1fe">map.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>info
+: <a class="el" href="d5/de0/a00050.php#a6fdce5857b83c94e55a859b273e17580">score.js</a>
+</li>
+<li>input
+: <a class="el" href="d4/d6d/a00055.php#a07a2aabd64594dc36dd810cad2669deb">stars.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>lc
+: <a class="el" href="dd/d32/a00041.php#a57e1ea504f03daee917d0e04d295e5f6">map.js</a>
+</li>
+<li>location
+: <a class="el" href="da/d45/a00011.php#a9e7735e216b2770753e10ca177623f0f">accueilPerso.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>map
+: <a class="el" href="dd/d32/a00041.php#a48e18769649a3ca5bab0fafdec44cb15">map.js</a>
+</li>
+<li>mapParent
+: <a class="el" href="dd/d32/a00041.php#a763e2208cbf426758308114c1a1e47c8">map.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>nbThemes
+: <a class="el" href="d3/d52/a00023.php#abaac36f85ddb9ededb3d06ba67dca72e">Creation.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>onload
+: <a class="el" href="d7/dec/a00010.php#a43397fd3516cd230995b3edbbadff48b">_script.js</a>
+</li>
+<li>onloadFunctions
+: <a class="el" href="d7/dec/a00010.php#aff8c296d7da803093d9770357bd3def4">_script.js</a>
+</li>
+<li>onloadLine
+: <a class="el" href="d7/dec/a00010.php#af428a914e036db4104583d8fc8601a2d">_script.js</a>
+</li>
+<li>onresize
+: <a class="el" href="d7/dec/a00010.php#a2fd0a27bb9fb5a6ad6fb0cd7d6bf08fa">_script.js</a>
+</li>
+<li>onresizeFunctions
+: <a class="el" href="d7/dec/a00010.php#a88949b61573dc3fc0d4fb69fe6a6ac53">_script.js</a>
+</li>
+<li>onresizeLine
+: <a class="el" href="d7/dec/a00010.php#afdc4824288c70b5ade9d6964d6e06bbf">_script.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>path
+: <a class="el" href="dd/d32/a00041.php#aa72e0c8a20e6bcc571d3a1c51846e627">map.js</a>
+, <a class="el" href="d4/d6d/a00055.php#aa72e0c8a20e6bcc571d3a1c51846e627">stars.js</a>
+</li>
+<li>pc
+: <a class="el" href="dd/d32/a00041.php#ad84057e5e00175fe176b18d3fe8eff11">map.js</a>
+</li>
+<li>proposition
+: <a class="el" href="d3/de7/a00039.php#ab516b26a4218f0f59b789a0d446bf79f">jeu.js</a>
+</li>
+<li>pseudo
+: <a class="el" href="d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">navBar.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>questions
+: <a class="el" href="d3/de7/a00039.php#ac11b64f88548d479a2d12c6d6cdf9c6b">jeu.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>scale
+: <a class="el" href="dd/d32/a00041.php#a531d8057e65534a794e87650c4a67c6c">map.js</a>
+</li>
+<li>solutionProposition
+: <a class="el" href="d3/de7/a00039.php#a160fd6ecbda71c65cdea78feb687bec1">jeu.js</a>
+</li>
+<li>starParent
+: <a class="el" href="d4/d6d/a00055.php#a743f72d241d1185709756428de13d3af">stars.js</a>
+</li>
+<li>stars
+: <a class="el" href="d4/d6d/a00055.php#a0b952db6fba6e7a88c006f17bf0d01d5">stars.js</a>
+</li>
+<li>strict
+: <a class="el" href="d5/df9/a00044.php#ae2475e10618961c050dcba04e8c42331">palmares.js</a>
+, <a class="el" href="d1/d84/a00052.php#ae2475e10618961c050dcba04e8c42331">script.js</a>
+, <a class="el" href="d1/dc6/a00037.php#ae2475e10618961c050dcba04e8c42331">inscription.js</a>
+, <a class="el" href="dd/d32/a00041.php#ae2475e10618961c050dcba04e8c42331">map.js</a>
+, <a class="el" href="d1/d22/a00057.php#ae2475e10618961c050dcba04e8c42331">tchat.js</a>
+, <a class="el" href="dc/dee/a00053.php#ae2475e10618961c050dcba04e8c42331">show_pass.js</a>
+, <a class="el" href="d5/de0/a00050.php#ae2475e10618961c050dcba04e8c42331">score.js</a>
+, <a class="el" href="d6/d42/a00043.php#ae2475e10618961c050dcba04e8c42331">navBar.js</a>
+, <a class="el" href="db/df3/a00034.php#ae2475e10618961c050dcba04e8c42331">gallery.js</a>
+, <a class="el" href="d7/dd4/a00013.php#ae2475e10618961c050dcba04e8c42331">ajax.js</a>
+, <a class="el" href="d7/dec/a00010.php#ae2475e10618961c050dcba04e8c42331">_script.js</a>
+, <a class="el" href="d4/d6d/a00055.php#ae2475e10618961c050dcba04e8c42331">stars.js</a>
+, <a class="el" href="dd/d1b/a00015.php#ae2475e10618961c050dcba04e8c42331">authentification.js</a>
+</li>
+<li>success
+: <a class="el" href="d5/de0/a00050.php#a900980c095eb341321cf9d6866db4972">score.js</a>
+</li>
+<li>svgNS
+: <a class="el" href="d5/de0/a00050.php#a96e0ac0dd875dedf8be0b565ef56e7d9">score.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>tchatButton
+: <a class="el" href="d1/d22/a00057.php#ac4098fcd83e8c7c24ad263c67086d76b">tchat.js</a>
+</li>
+<li>tchatChildType
+: <a class="el" href="d1/d22/a00057.php#a3eca938b760c840905978c08b3354958">tchat.js</a>
+</li>
+<li>tchatContainer
+: <a class="el" href="d1/d22/a00057.php#a3888caf192bed1af25b662a84dde950b">tchat.js</a>
+</li>
+<li>tchatSendZone
+: <a class="el" href="d1/d22/a00057.php#af1da6c59346f047e583b6dd47160e4b6">tchat.js</a>
+</li>
+<li>tchatTextToSend
+: <a class="el" href="d1/d22/a00057.php#a0343a97d29de414de2c4df4bafb67895">tchat.js</a>
+</li>
+<li>tchatTextZone
+: <a class="el" href="d1/d22/a00057.php#ad166970846bb8365d81b411a683c437e">tchat.js</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>warning
+: <a class="el" href="d5/de0/a00050.php#a01a70bfb22eb8e527cd6dce7499435a2">score.js</a>
+</li>
+<li>width
+: <a class="el" href="dd/d32/a00041.php#af873e7c3edea50d105e73b055c6bdacf">map.js</a>
 </li>
 </ul>
 </div><!-- contents -->

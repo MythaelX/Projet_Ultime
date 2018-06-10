@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,54 +141,41 @@ $(document).ready(function(){initNavTree('globals_g.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>g
-: <a class="el" href="de/d11/a00021.php#a103df269476e78897c9c4c6cb8f4eb06">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#a103df269476e78897c9c4c6cb8f4eb06">jquery.min.js</a>
-</li>
-<li>G()
-: <a class="el" href="d1/d2b/a00018.php#af3321775cdc3c96dfbe3cf315f2ec550">bootstrap.bundle.min.js</a>
-</li>
 <li>GALLERY
-: <a class="el" href="d3/de7/a00039.php#a8f0c293ae78d762439729b2c979c2f8b">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#a8f0c293ae78d762439729b2c979c2f8b">gallery.js</a>
 </li>
 <li>GALLERY_INITIATED
-: <a class="el" href="d3/de7/a00039.php#a0ab70e60f6b9d9b0bc04800d0f4a9cd6">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#a0ab70e60f6b9d9b0bc04800d0f4a9cd6">gallery.js</a>
 </li>
 <li>GALLERY_INTERVAL
-: <a class="el" href="d3/de7/a00039.php#aeec31eabf3dc64f4846a65b0e5082952">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#aeec31eabf3dc64f4846a65b0e5082952">gallery.js</a>
 </li>
 <li>GALLERY_INTERVAL_INITIATED
-: <a class="el" href="d3/de7/a00039.php#a015f4b021bbce742d0ca11bdda0a691c">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#a015f4b021bbce742d0ca11bdda0a691c">gallery.js</a>
 </li>
 <li>GALLERY_MARGE_OBJS
-: <a class="el" href="d3/de7/a00039.php#a1b516ae0ba681e08470785de44acdd20">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#a1b516ae0ba681e08470785de44acdd20">gallery.js</a>
 </li>
 <li>get_all_files_in()
-: <a class="el" href="db/df3/a00034.php#a022ec27ee87cab272994184667e4038e">files.php</a>
+: <a class="el" href="d5/d16/a00029.php#a022ec27ee87cab272994184667e4038e">files.php</a>
 </li>
 <li>get_all_folders_in()
-: <a class="el" href="db/df3/a00034.php#afda7401cac35d24c6b1d436cf67e2be6">files.php</a>
+: <a class="el" href="d5/d16/a00029.php#afda7401cac35d24c6b1d436cf67e2be6">files.php</a>
 </li>
 <li>get_all_in()
-: <a class="el" href="db/df3/a00034.php#a64d5d1874afee2516d03e95bc3d06a55">files.php</a>
+: <a class="el" href="d5/d16/a00029.php#a64d5d1874afee2516d03e95bc3d06a55">files.php</a>
 </li>
 <li>get_in_array()
 : <a class="el" href="d2/de7/a00014.php#a876add8c54fbea2f702f5365dfbe03be">arrays.php</a>
 </li>
 <li>get_site_name()
-: <a class="el" href="d1/d6f/a00063.php#ad208b57c36b8c1e0d09481b79b261b1c">site.php</a>
-</li>
-<li>getArea()
-: <a class="el" href="d4/d51/a00017.php#a9fa3042e5a4ee75afbc234ea2261f2dc">bootstrap.bundle.js</a>
-</li>
-<li>getBordersSize()
-: <a class="el" href="d4/d51/a00017.php#a6f99b2261196d1f2c9d5d035bb47bf40">bootstrap.bundle.js</a>
+: <a class="el" href="d1/dea/a00054.php#ad208b57c36b8c1e0d09481b79b261b1c">site.php</a>
 </li>
 <li>getBottom()
 : <a class="el" href="d7/dec/a00010.php#a7a0ef1bf7925cca53900fe45b4c2b20a">_script.js</a>
 </li>
 <li>getElementById()
-: <a class="el" href="d9/d73/a00060.php#aa341c64280e4f907737862137f8ee707">scraper.php</a>
+: <a class="el" href="d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">scraper.php</a>
 </li>
 <li>getEventElement()
 : <a class="el" href="d7/dec/a00010.php#a73a07d82d8a13b79a978cf6f5b55e3ae">_script.js</a>
@@ -205,9 +185,6 @@ $(document).ready(function(){initNavTree('globals_g.php','');});
 </li>
 <li>getLeft()
 : <a class="el" href="d7/dec/a00010.php#a2c66a459ec96a7cfc110a50890acf5f8">_script.js</a>
-</li>
-<li>getOffsetRectRelativeToArbitraryNode()
-: <a class="el" href="d4/d51/a00017.php#ab1a56442bacbc27c3a4e72aee080e209">bootstrap.bundle.js</a>
 </li>
 <li>getOffsetTop()
 : <a class="el" href="d7/dec/a00010.php#ad7a397e90db34413bcaae79d5ccd0ce5">_script.js</a>
@@ -224,33 +201,14 @@ $(document).ready(function(){initNavTree('globals_g.php','');});
 <li>getScrollTop()
 : <a class="el" href="d7/dec/a00010.php#a2e6a206705d91bc67357da5b0f12c315">_script.js</a>
 </li>
-<li>getSize()
-: <a class="el" href="d4/d51/a00017.php#a8214a24c6c0e45b5479c63b473cc6ce6">bootstrap.bundle.js</a>
-</li>
 <li>getStructHeight()
 : <a class="el" href="d7/dec/a00010.php#ae792a2c3cd89e06e387fdee69730e8cb">_script.js</a>
 </li>
 <li>getTop()
 : <a class="el" href="d7/dec/a00010.php#acd165138bf1e4351bf8ddc665af66324">_script.js</a>
 </li>
-<li>getViewportOffsetRectRelativeToArtbitraryNode()
-: <a class="el" href="d4/d51/a00017.php#a6cf88445ea7151cc8e81dc4b0cb8de77">bootstrap.bundle.js</a>
-</li>
 <li>getWidth()
 : <a class="el" href="d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9">_script.js</a>
-</li>
-<li>getWindow()
-: <a class="el" href="d4/d51/a00017.php#acf179fee398e6c6ca0aa3bfe412c95fc">bootstrap.bundle.js</a>
-</li>
-<li>getWindowSizes()
-: <a class="el" href="d4/d51/a00017.php#aa26c4a814e420d16eaf5c7ac49b667d9">bootstrap.bundle.js</a>
-</li>
-<li>global
-: <a class="el" href="d4/d51/a00017.php#a57efe929cc6b44042891d05e15cec785">bootstrap.bundle.js</a>
-, <a class="el" href="dd/da2/a00019.php#a57efe929cc6b44042891d05e15cec785">bootstrap.js</a>
-</li>
-<li>gt()
-: <a class="el" href="d1/d2b/a00018.php#a28160a2164860422bf08b0407ae89d91">bootstrap.bundle.min.js</a>
 </li>
 </ul>
 </div><!-- contents -->

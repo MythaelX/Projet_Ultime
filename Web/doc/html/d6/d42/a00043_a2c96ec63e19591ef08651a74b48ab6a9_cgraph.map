@@ -1,0 +1,8 @@
+<map id="if" name="if">
+<area shape="rect" id="node2" href="$d6/d42/a00043.php#a476430a7bbd11ed57401416535999339" title="affichageNav" alt="" coords="92,56,191,83"/>
+<area shape="rect" id="node3" href="$d6/d42/a00043.php#a57c667ec3d857e12e4d334e3f2453313" title="affichageDeconnecter" alt="" coords="239,5,388,32"/>
+<area shape="rect" id="node4" href="$d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="436,81,531,108"/>
+<area shape="rect" id="node7" href="$d6/d42/a00043.php#a373c65ea2fc1b38e81387398e287ac8d" title="affichageConnecter" alt="" coords="246,107,381,133"/>
+<area shape="rect" id="node5" href="$d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="579,56,673,83"/>
+<area shape="rect" id="node6" href="$d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="587,107,665,133"/>
+</map>

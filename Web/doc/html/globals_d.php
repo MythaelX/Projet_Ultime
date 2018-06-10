@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,46 +141,20 @@ $(document).ready(function(){initNavTree('globals_d.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>d
-: <a class="el" href="db/db2/a00020.php#aeb337d295abaddb5ec3cb34cc2e2bbc9">autres/bootstrap.min.js</a>
-, <a class="el" href="de/d11/a00021.php#aeb337d295abaddb5ec3cb34cc2e2bbc9">bootstrap/bootstrap.min.js</a>
-</li>
-<li>D
-: <a class="el" href="de/d11/a00021.php#ad741d7cd7e6eda75030b55e36b706c0a">bootstrap/bootstrap.min.js</a>
-</li>
-<li>d
-: <a class="el" href="d3/dea/a00046.php#aeb337d295abaddb5ec3cb34cc2e2bbc9">jquery.min.js</a>
-</li>
 <li>danger
-: <a class="el" href="d3/d8b/a00059.php#a409be39b47b1e1ae747d6824755ca103">score.js</a>
+: <a class="el" href="d5/de0/a00050.php#a409be39b47b1e1ae747d6824755ca103">score.js</a>
 </li>
 <li>data
-: <a class="el" href="d5/df9/a00044.php#a20b6cd228a69593c03af5dc445393936">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#a20b6cd228a69593c03af5dc445393936">jeu.js</a>
 </li>
 <li>dateSql()
-: <a class="el" href="dc/d87/a00032.php#a064414d8c8aa8cc8f2d5d023c7c9b485">dates.php</a>
-</li>
-<li>debounce
-: <a class="el" href="d4/d51/a00017.php#a1086dd4e23ce39ca6cf57fb61ac759c7">bootstrap.bundle.js</a>
+: <a class="el" href="d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485">dates.php</a>
 </li>
 <li>deconnect_admin()
 : <a class="el" href="df/d86/a00012.php#a736d0fc81455988edf3e5f505e0c9ead">admin.php</a>
 </li>
-<li>DEFAULTS
-: <a class="el" href="db/db2/a00020.php#a6c1cf0be5e5383617ddc5efdfdc8c651">autres/bootstrap.min.js</a>
-</li>
-<li>Defaults
-: <a class="el" href="d4/d51/a00017.php#a82ae6814d07287d0c9be02efec53e216">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#af9d06a53e0c85d33c2ba03ef8dda20b5">bootstrap.bundle.min.js</a>
-</li>
-<li>defineProperty()
-: <a class="el" href="dd/da2/a00019.php#a2981dc68da79c6db76965e22a748c4ef">bootstrap.js</a>
-, <a class="el" href="de/d11/a00021.php#a677f3f43ddb2b0c3d869973e9c157184">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d4/d51/a00017.php#a817fcb70b363027b28fec000da90139a">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a677f3f43ddb2b0c3d869973e9c157184">bootstrap.bundle.min.js</a>
-</li>
 <li>deleteFile()
-: <a class="el" href="db/df3/a00034.php#a813a54acf7a62363dfa223e6b172b1c9">files.php</a>
+: <a class="el" href="d5/d16/a00029.php#a813a54acf7a62363dfa223e6b172b1c9">files.php</a>
 </li>
 <li>deleteFirst()
 : <a class="el" href="d2/de7/a00014.php#af4f4a899c74553180042d2bea3412a74">arrays.php</a>
@@ -206,18 +173,6 @@ $(document).ready(function(){initNavTree('globals_d.php','');});
 </li>
 <li>divErrorsClass
 : <a class="el" href="d7/dd4/a00013.php#a7c35532bc95b97064568a25321d0e16b">ajax.js</a>
-</li>
-<li>Dropdown
-: <a class="el" href="d1/d2b/a00018.php#a6174f2fc2c57933a177931aa5c26d265">bootstrap.bundle.min.js</a>
-, <a class="el" href="dd/da2/a00019.php#a1ad233b38aa8a375e2ba938ca959bd15">bootstrap.js</a>
-, <a class="el" href="d4/d51/a00017.php#a1ad233b38aa8a375e2ba938ca959bd15">bootstrap.bundle.js</a>
-, <a class="el" href="de/d11/a00021.php#a6174f2fc2c57933a177931aa5c26d265">bootstrap/bootstrap.min.js</a>
-</li>
-<li>dt()
-: <a class="el" href="d1/d2b/a00018.php#a6533a1e578dfb59fe9b27b82982de85a">bootstrap.bundle.min.js</a>
-</li>
-<li>Dt()
-: <a class="el" href="d1/d2b/a00018.php#a86552330ca3fa8e3d3cb3df6f966fe47">bootstrap.bundle.min.js</a>
 </li>
 </ul>
 </div><!-- contents -->

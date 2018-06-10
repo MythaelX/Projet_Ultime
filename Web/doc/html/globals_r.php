@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,49 +141,30 @@ $(document).ready(function(){initNavTree('globals_r.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>r
-: <a class="el" href="d3/dea/a00046.php#a07c0e0a63b5b484807c0331c78558c9e">jquery.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a1e99b66ec05f848b367484f62b1d1521">bootstrap.bundle.min.js</a>
-</li>
-<li>R
-: <a class="el" href="de/d11/a00021.php#a09083e327c397ffc75bdc32d72212c70">bootstrap/bootstrap.min.js</a>
-</li>
-<li>r()
-: <a class="el" href="de/d11/a00021.php#a1e99b66ec05f848b367484f62b1d1521">bootstrap/bootstrap.min.js</a>
-</li>
 <li>randStr()
 : <a class="el" href="d7/dec/a00010.php#a3ec88ff3b46e3d01d220f644f687a78a">_script.js</a>
 </li>
 <li>recuperationReponseTemp()
-: <a class="el" href="d5/df9/a00044.php#a386cd203962abda96c636c5e90a9ba36">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#a386cd203962abda96c636c5e90a9ba36">jeu.js</a>
 </li>
 <li>recupererPropositions()
-: <a class="el" href="d5/df9/a00044.php#aeb580a625cac6fdcbd0386c6a35db66f">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#aeb580a625cac6fdcbd0386c6a35db66f">jeu.js</a>
 </li>
 <li>recupererQuestions()
-: <a class="el" href="d5/df9/a00044.php#a9fe0edff04aec322abcdf9789acffee7">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#a9fe0edff04aec322abcdf9789acffee7">jeu.js</a>
 </li>
 <li>recupérationAvatar()
-: <a class="el" href="d5/db6/a00042.php#a1426a760631d33602005a8bb59e49c7a">inscription.js</a>
+: <a class="el" href="d1/dc6/a00037.php#a1426a760631d33602005a8bb59e49c7a">inscription.js</a>
 </li>
 <li>replace_all()
-: <a class="el" href="d7/dec/a00010.php#ae62433ff7c2d58fccafe252a4e010720">_script.js</a>
-, <a class="el" href="d2/de7/a00014.php#aa49347b7e235619c160a816bd41898cf">arrays.php</a>
+: <a class="el" href="d2/de7/a00014.php#aa49347b7e235619c160a816bd41898cf">arrays.php</a>
+, <a class="el" href="d7/dec/a00010.php#ae62433ff7c2d58fccafe252a4e010720">_script.js</a>
 </li>
 <li>resizeOnloadFunctions()
 : <a class="el" href="d7/dec/a00010.php#a7b831f45c4465ab5a7813aae606c0ec2">_script.js</a>
 </li>
 <li>resNumber()
-: <a class="el" href="db/d3a/a00040.php#ab1aeaedb8bf332eee5b85200acfee982">getter.php</a>
-</li>
-<li>return
-: <a class="el" href="d1/d2b/a00018.php#a58bb107e2e36e8f85abe04406f37ea96">bootstrap.bundle.min.js</a>
-</li>
-<li>rt()
-: <a class="el" href="d1/d2b/a00018.php#a6ebca04e0374ffa9c0283498d3e582fc">bootstrap.bundle.min.js</a>
-</li>
-<li>Rt
-: <a class="el" href="d1/d2b/a00018.php#a27ee00d05d7021e3b587a325f904c420">bootstrap.bundle.min.js</a>
+: <a class="el" href="d4/d8c/a00035.php#ab1aeaedb8bf332eee5b85200acfee982">getter.php</a>
 </li>
 </ul>
 </div><!-- contents -->

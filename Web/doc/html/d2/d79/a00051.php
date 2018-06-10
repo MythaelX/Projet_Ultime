@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: navBar.js File Reference</title>
+<title>Hot Dog QUIZ: scraper.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -106,172 +105,79 @@ $(document).ready(function(){initNavTree('d2/d79/a00051.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">navBar.js File Reference</div>  </div>
+<div class="title">scraper.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d2/d79/a00051_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php">Scraper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to scrap content from another page.  <a href="../../d4/dee/a00008.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2c96ec63e19591ef08651a74b48ab6a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#a2c96ec63e19591ef08651a74b48ab6a9">if</a> (Cookies.get('<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>'))</td></tr>
-<tr class="separator:a2c96ec63e19591ef08651a74b48ab6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a476430a7bbd11ed57401416535999339"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#a476430a7bbd11ed57401416535999339">affichageNav</a> (<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
-<tr class="separator:a476430a7bbd11ed57401416535999339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c667ec3d857e12e4d334e3f2453313"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#a57c667ec3d857e12e4d334e3f2453313">affichageDeconnecter</a> ()</td></tr>
-<tr class="separator:a57c667ec3d857e12e4d334e3f2453313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a373c65ea2fc1b38e81387398e287ac8d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#a373c65ea2fc1b38e81387398e287ac8d">affichageConnecter</a> (ajaxResponse)</td></tr>
-<tr class="separator:a373c65ea2fc1b38e81387398e287ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f0d86ab32405786812d806542ca3280"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> =null</td></tr>
-<tr class="separator:a1f0d86ab32405786812d806542ca3280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa341c64280e4f907737862137f8ee707"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">getElementById</a> ($code, $id)</td></tr>
+<tr class="memdesc:aa341c64280e4f907737862137f8ee707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element by id.  <a href="#aa341c64280e4f907737862137f8ee707">More...</a><br /></td></tr>
+<tr class="separator:aa341c64280e4f907737862137f8ee707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a373c65ea2fc1b38e81387398e287ac8d"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aa341c64280e4f907737862137f8ee707"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function affichageConnecter </td>
+          <td class="memname">getElementById </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>$code</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00025">25</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d79/a00051_a373c65ea2fc1b38e81387398e287ac8d_cgraph.png" border="0" usemap="#d2/d79/a00051_a373c65ea2fc1b38e81387398e287ac8d_cgraph" alt=""/></div>
-<map name="d2/d79/a00051_a373c65ea2fc1b38e81387398e287ac8d_cgraph" id="d2/d79/a00051_a373c65ea2fc1b38e81387398e287ac8d_cgraph">
-<area shape="rect" id="node2" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="188,31,283,57"/>
-<area shape="rect" id="node3" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="331,5,425,32"/>
-<area shape="rect" id="node4" href="../../d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="339,56,417,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a57c667ec3d857e12e4d334e3f2453313"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">function affichageDeconnecter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00018">18</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a476430a7bbd11ed57401416535999339"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function affichageNav </td>
-          <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>pseudo</em></td><td>)</td>
+          <td class="paramname"><em>$id</em>&#160;</td>
+        </tr>
+        <tr>
           <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00010">10</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
+<p>Get an element by id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">$code</td><td>The code to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$id</td><td>The id to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the element that have this id </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000004">Todo:</a></b></dt><dd>Create the function </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00018">18</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d79/a00051_a476430a7bbd11ed57401416535999339_cgraph.png" border="0" usemap="#d2/d79/a00051_a476430a7bbd11ed57401416535999339_cgraph" alt=""/></div>
-<map name="d2/d79/a00051_a476430a7bbd11ed57401416535999339_cgraph" id="d2/d79/a00051_a476430a7bbd11ed57401416535999339_cgraph">
-<area shape="rect" id="node2" href="../../d2/d79/a00051.php#a57c667ec3d857e12e4d334e3f2453313" title="affichageDeconnecter" alt="" coords="152,5,301,32"/>
-<area shape="rect" id="node3" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="349,81,444,108"/>
-<area shape="rect" id="node6" href="../../d2/d79/a00051.php#a373c65ea2fc1b38e81387398e287ac8d" title="affichageConnecter" alt="" coords="159,107,294,133"/>
-<area shape="rect" id="node4" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="492,56,587,83"/>
-<area shape="rect" id="node5" href="../../d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="500,107,579,133"/>
+<div class="center"><img src="../../d2/d79/a00051_aa341c64280e4f907737862137f8ee707_cgraph.png" border="0" usemap="#d2/d79/a00051_aa341c64280e4f907737862137f8ee707_cgraph" alt=""/></div>
+<map name="d2/d79/a00051_aa341c64280e4f907737862137f8ee707_cgraph" id="d2/d79/a00051_aa341c64280e4f907737862137f8ee707_cgraph">
+<area shape="rect" id="node2" href="../../da/da0/a00009.php#a6a338d3ef737c870b435d300fca03b3b" title="Function that can print some of all types of variables like string, object or array. " alt="" coords="168,5,235,32"/>
 </map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a2c96ec63e19591ef08651a74b48ab6a9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">Cookies.&#160;</td>
-          <td class="paramname"><em>get</em>'pseudo'</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00004">4</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/d79/a00051_a2c96ec63e19591ef08651a74b48ab6a9_cgraph.png" border="0" usemap="#d2/d79/a00051_a2c96ec63e19591ef08651a74b48ab6a9_cgraph" alt=""/></div>
-<map name="d2/d79/a00051_a2c96ec63e19591ef08651a74b48ab6a9_cgraph" id="d2/d79/a00051_a2c96ec63e19591ef08651a74b48ab6a9_cgraph">
-<area shape="rect" id="node2" href="../../d2/d79/a00051.php#a476430a7bbd11ed57401416535999339" title="affichageNav" alt="" coords="92,56,191,83"/>
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php#a57c667ec3d857e12e4d334e3f2453313" title="affichageDeconnecter" alt="" coords="239,5,388,32"/>
-<area shape="rect" id="node4" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="436,81,531,108"/>
-<area shape="rect" id="node7" href="../../d2/d79/a00051.php#a373c65ea2fc1b38e81387398e287ac8d" title="affichageConnecter" alt="" coords="246,107,381,133"/>
-<area shape="rect" id="node5" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="579,56,673,83"/>
-<area shape="rect" id="node6" href="../../d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="587,107,665,133"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a1f0d86ab32405786812d806542ca3280"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var pseudo =null</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00003">3</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">use strict</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00001">1</a> of file <a class="el" href="../../d2/d79/a00051_source.php">navBar.js</a>.</p>
 
 </div>
 </div>
@@ -280,7 +186,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d2/d79/a00051.php">navBar.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d2/d79/a00051.php">scraper.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

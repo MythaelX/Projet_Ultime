@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -132,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class to create a contact page. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd></dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/de0/a00022_source.php#l00014">14</a> of file <a class="el" href="../../d7/de0/a00022_source.php">class-Contact.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00014">14</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a095c5d389db211932136b53f25f39685"></a>
 <div class="memitem">
@@ -149,7 +148,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de0/a00022_source.php#l00019">19</a> of file <a class="el" href="../../d7/de0/a00022_source.php">class-Contact.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00019">19</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
 
 </div>
 </div>
@@ -169,7 +168,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Set if the user can be a professional user. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de0/a00022_source.php#l00025">25</a> of file <a class="el" href="../../d7/de0/a00022_source.php">class-Contact.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00025">25</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
 
 </div>
 </div>
@@ -188,12 +187,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Add the contact form to the page. </p>
 
-<p>Definition at line <a class="el" href="../../d7/de0/a00022_source.php#l00061">61</a> of file <a class="el" href="../../d7/de0/a00022_source.php">class-Contact.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00061">61</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/de0/a00022_source.php">class-Contact.php</a></li>
+<li><a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

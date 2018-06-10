@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li class="current"><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -108,13 +107,13 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 <dd></dd>
 <dt><a class="anchor" id="_todo000001"></a>Global <a class="el" href="../../d7/dec/a00010.php#ac29b51e3850cc348b9c0eae8431b0a4b">copyToClipboard</a>  (text)</dt>
 <dd></dd>
-<dt><a class="anchor" id="_todo000004"></a>Global <a class="el" href="../../d9/d73/a00060.php#aa341c64280e4f907737862137f8ee707">getElementById</a>  ($code, $id)</dt>
+<dt><a class="anchor" id="_todo000004"></a>Global <a class="el" href="../../d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">getElementById</a>  ($code, $id)</dt>
 <dd>Create the function  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../de/d5e/a00007.php">Paypal</a>  </dt>
 <dd>Recreate the API communication part  </dd>
 <dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../d4/dee/a00008.php">Scraper</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000006"></a>File <a class="el" href="../../dc/ddf/a00067.php">tchat.php</a>  </dt>
+<dt><a class="anchor" id="_todo000006"></a>File <a class="el" href="../../d7/df7/a00058.php">tchat.php</a>  </dt>
 <dd></dd>
 </dl>
 </div></div><!-- contents -->

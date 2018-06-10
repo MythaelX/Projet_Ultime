@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li class="current"><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,43 +141,23 @@ $(document).ready(function(){initNavTree('globals_v.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
-<li>V
-: <a class="el" href="de/d11/a00021.php#a8b88915d3d3a06e98248a89807b077fa">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a87ec42a4a4aaf66f578fabcddc0d7ce0">bootstrap.bundle.min.js</a>
-</li>
-<li>v
-: <a class="el" href="d3/dea/a00046.php#afc3dd12de12777f6e20b4c93b7e7cb96">jquery.min.js</a>
-, <a class="el" href="de/d11/a00021.php#afc3dd12de12777f6e20b4c93b7e7cb96">bootstrap/bootstrap.min.js</a>
-</li>
 <li>valideInscription()
-: <a class="el" href="d5/db6/a00042.php#ae14c93c8599895dff3c04db5d1d8504c">inscription.js</a>
+: <a class="el" href="d1/dc6/a00037.php#ae14c93c8599895dff3c04db5d1d8504c">inscription.js</a>
 </li>
 <li>valideLogin()
 : <a class="el" href="dd/d1b/a00015.php#a1e3a84965da657b293ee3d8b023ad1fb">authentification.js</a>
 </li>
-<li>validPlacements
-: <a class="el" href="d4/d51/a00017.php#a4ccf3b6984f59af0bfb81b608fd51477">bootstrap.bundle.js</a>
-</li>
 <li>verifieToken()
-: <a class="el" href="d4/d8c/a00035.php#a392292a494893cd5382dd1c9273ee9c8">fonctions.php</a>
+: <a class="el" href="d5/d79/a00030.php#a392292a494893cd5382dd1c9273ee9c8">fonctions.php</a>
 </li>
 <li>verifMail()
-: <a class="el" href="d5/db6/a00042.php#a4a822815e57b31479eb6d364e3003fa2">inscription.js</a>
+: <a class="el" href="d1/dc6/a00037.php#a4a822815e57b31479eb6d364e3003fa2">inscription.js</a>
 </li>
 <li>verifMotDePasse()
-: <a class="el" href="d5/db6/a00042.php#a5e7778e2c5dd64ac673d79add217c6cf">inscription.js</a>
+: <a class="el" href="d1/dc6/a00037.php#a5e7778e2c5dd64ac673d79add217c6cf">inscription.js</a>
 </li>
 <li>verifPseudo()
-: <a class="el" href="d5/db6/a00042.php#a0db9c30b86d2f4aa120daa6247990007">inscription.js</a>
-</li>
-<li>version()
-: <a class="el" href="db/db2/a00020.php#af15ce22371f8af3b38c7d40a4987b366">autres/bootstrap.min.js</a>
-</li>
-<li>VERSION
-: <a class="el" href="db/db2/a00020.php#a3635f2df5844f69204b70bf7b3983587">autres/bootstrap.min.js</a>
-</li>
-<li>vt()
-: <a class="el" href="d1/d2b/a00018.php#a80099407ca06f8c1e1a3f401ace0c7b4">bootstrap.bundle.min.js</a>
+: <a class="el" href="d1/dc6/a00037.php#a0db9c30b86d2f4aa120daa6247990007">inscription.js</a>
 </li>
 </ul>
 </div><!-- contents -->

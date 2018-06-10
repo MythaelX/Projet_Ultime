@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,48 +141,18 @@ $(document).ready(function(){initNavTree('globals_p.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
-<li>p
-: <a class="el" href="de/d11/a00021.php#ad1707b001240e9c8298830073364c8bf">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#ad1707b001240e9c8298830073364c8bf">jquery.min.js</a>
-</li>
-<li>P
-: <a class="el" href="de/d11/a00021.php#a5f11e71574d0fa4e61140f70fd15f3cd">bootstrap/bootstrap.min.js</a>
-</li>
-<li>page
-: <a class="el" href="d4/d6d/a00055.php#a85d8b1b97106b359e1c9ee119ebe5832">phantomLoader.js</a>
-</li>
-<li>pageGetter()
-: <a class="el" href="d4/d6d/a00055.php#a777d340308efc2dc3c9640c6f390f098">phantomLoader.js</a>
-</li>
-<li>pageTreatment()
-: <a class="el" href="d4/d6d/a00055.php#a306ff2d1b3b3a0583f1bd137dbe7e6fb">phantomLoader.js</a>
-</li>
 <li>path
-: <a class="el" href="df/d5f/a00064.php#aa72e0c8a20e6bcc571d3a1c51846e627">stars.js</a>
-, <a class="el" href="d2/dee/a00049.php#aa72e0c8a20e6bcc571d3a1c51846e627">map.js</a>
+: <a class="el" href="dd/d32/a00041.php#aa72e0c8a20e6bcc571d3a1c51846e627">map.js</a>
+, <a class="el" href="d4/d6d/a00055.php#aa72e0c8a20e6bcc571d3a1c51846e627">stars.js</a>
 </li>
 <li>pc
-: <a class="el" href="d2/dee/a00049.php#ad84057e5e00175fe176b18d3fe8eff11">map.js</a>
+: <a class="el" href="dd/d32/a00041.php#ad84057e5e00175fe176b18d3fe8eff11">map.js</a>
 </li>
 <li>placeAll()
 : <a class="el" href="d7/dec/a00010.php#a71c7344e28d3f0bdf0c5445d4e50b067">_script.js</a>
 </li>
-<li>placements
-: <a class="el" href="d4/d51/a00017.php#a0e37ae01d446a8be7bf004a86805ffa6">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#ad68b36f8ff4a8a653461d1d2c7298197">bootstrap.bundle.min.js</a>
-</li>
 <li>polarToCartesian()
-: <a class="el" href="d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a">score.js</a>
-</li>
-<li>Popover
-: <a class="el" href="dd/da2/a00019.php#a2bf106dab0efd524a9e3f21400c0005e">bootstrap.js</a>
-, <a class="el" href="de/d11/a00021.php#a7326fc195e124b1acdd8f7b9c5584714">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d4/d51/a00017.php#a2bf106dab0efd524a9e3f21400c0005e">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a7326fc195e124b1acdd8f7b9c5584714">bootstrap.bundle.min.js</a>
-</li>
-<li>Popper
-: <a class="el" href="d4/d51/a00017.php#ab34a4e248b9bfbf76de92f866779e0e6">bootstrap.bundle.js</a>
-, <a class="el" href="dd/da2/a00019.php#adee3eefdf0550a70ab4d8ee0ca3b341e">bootstrap.js</a>
+: <a class="el" href="d5/de0/a00050.php#a50677de3f9695ebbec57e53cdbc7844a">score.js</a>
 </li>
 <li>preventDefault()
 : <a class="el" href="da/d45/a00011.php#abf5219628a269a37395ec5371980db8d">accueilPerso.js</a>
@@ -198,22 +161,16 @@ $(document).ready(function(){initNavTree('globals_p.php','');});
 : <a class="el" href="da/da0/a00009.php#a6a338d3ef737c870b435d300fca03b3b">_functions.php</a>
 </li>
 <li>proposition
-: <a class="el" href="d5/df9/a00044.php#ab516b26a4218f0f59b789a0d446bf79f">jeu.js</a>
+: <a class="el" href="d3/de7/a00039.php#ab516b26a4218f0f59b789a0d446bf79f">jeu.js</a>
 </li>
 <li>pseudo
-: <a class="el" href="d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">navBar.js</a>
-</li>
-<li>Pt
-: <a class="el" href="d1/d2b/a00018.php#a00723d0cb56312f076dd4f2ddf75a7b9">bootstrap.bundle.min.js</a>
-</li>
-<li>pt()
-: <a class="el" href="d1/d2b/a00018.php#a2a5b5d3c074a9a849089b3d4ad6e4a4a">bootstrap.bundle.min.js</a>
+: <a class="el" href="d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">navBar.js</a>
 </li>
 <li>pushZip()
-: <a class="el" href="da/d24/a00068.php#abdd84d8d44a501306cdfe5bccbeeb12b">zip.php</a>
+: <a class="el" href="d3/d8b/a00059.php#abdd84d8d44a501306cdfe5bccbeeb12b">zip.php</a>
 </li>
 <li>putTchatChild()
-: <a class="el" href="d9/db3/a00066.php#af535f9f9fa013b2543991bbe5e14d6eb">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb">tchat.js</a>
 </li>
 </ul>
 </div><!-- contents -->

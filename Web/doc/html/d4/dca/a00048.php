@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: less.min.js File Reference</title>
+<title>Hot Dog QUIZ: register.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -106,55 +105,95 @@ $(document).ready(function(){initNavTree('d4/dca/a00048.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">less.min.js File Reference</div>  </div>
+<div class="title">register.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d4/dca/a00048_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afaeef3a1a07af568051b656bbbffec25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#afaeef3a1a07af568051b656bbbffec25">!function</a> (<a class="el" href="../../db/db2/a00020.php#a9252b696bd8018d152e6640fcbe6e3b8">a</a>)</td></tr>
-<tr class="separator:afaeef3a1a07af568051b656bbbffec25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad634f418b20382e2802f80532d76d3cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#ad634f418b20382e2802f80532d76d3cd">$email</a> =$_POST['email']</td></tr>
+<tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> = $_POST['<a class="el" href="../../d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
+<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a> = $_POST['mdp']</td></tr>
+<tr class="separator:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62167326fcdc762297fe76407218b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#ac62167326fcdc762297fe76407218b55">$avatar</a> =<a class="el" href="../../d5/d16/a00029.php#a7fc3f2f4db9af0955fcc004c4bf83a24">saveFileTo</a>($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td></tr>
+<tr class="separator:ac62167326fcdc762297fe76407218b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="afaeef3a1a07af568051b656bbbffec25"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac62167326fcdc762297fe76407218b55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">!function </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>a</em></td><td>)</td>
-          <td></td>
+          <td class="memname">$avatar =<a class="el" href="../../d5/d16/a00029.php#a7fc3f2f4db9af0955fcc004c4bf83a24">saveFileTo</a>($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Less - Leaner CSS v2.7.2 <a href="http://lesscss.org">http://lesscss.org</a></p>
-<p>Copyright (c) 2009-2017, Alexis Sellier <a href="#" onclick="location.href='mai'+'lto:'+'sel'+'f@'+'clo'+'ud'+'hea'+'d.'+'net'; return false;">self@<span style="display: none;">.nosp@m.</span>clou<span style="display: none;">.nosp@m.</span>dhead<span style="display: none;">.nosp@m.</span>.net</a> Licensed under the Apache-2.0 License.*  Apache-2.0 </p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00013">13</a> of file <a class="el" href="../../d4/dca/a00048_source.php">less.min.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00013">13</a> of file <a class="el" href="../../d4/dca/a00048_source.php">register.php</a>.</p>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/dca/a00048_afaeef3a1a07af568051b656bbbffec25_cgraph.png" border="0" usemap="#d4/dca/a00048_afaeef3a1a07af568051b656bbbffec25_cgraph" alt=""/></div>
-<map name="d4/dca/a00048_afaeef3a1a07af568051b656bbbffec25_cgraph" id="d4/dca/a00048_afaeef3a1a07af568051b656bbbffec25_cgraph">
-<area shape="rect" id="node2" href="../../d1/d2b/a00018.php#a2bc222bf1175cfcc7d051e7d7d291946" title="q" alt="" coords="138,5,177,32"/>
-<area shape="rect" id="node3" href="../../d0/dc0/a00033.php#ac78ddc67fc721a1acddd93679e9c51ab" title="General error. " alt="" coords="133,56,181,83"/>
-<area shape="rect" id="node5" href="../../d1/d2b/a00018.php#a18eeb27f454f4fadb53317493bc51af0" title="z" alt="" coords="138,107,177,133"/>
-<area shape="rect" id="node6" href="../../db/db2/a00020.php#af15ce22371f8af3b38c7d40a4987b366" title="version" alt="" coords="125,157,189,184"/>
-<area shape="rect" id="node7" href="../../db/db2/a00020.php#aba2247af8276415699e6fb0e9cf0390e" title="call" alt="" coords="136,208,179,235"/>
-<area shape="rect" id="node8" href="../../d1/d2b/a00018.php#a4b60f961e4bb9eeb610cc4ef4cd5790b" title="at" alt="" coords="138,259,177,285"/>
-<area shape="rect" id="node9" href="../../d1/d2b/a00018.php#a30095f4365e5124967a155f24d3bac49" title="B" alt="" coords="138,309,177,336"/>
-<area shape="rect" id="node10" href="../../d1/d2b/a00018.php#a2a5b5d3c074a9a849089b3d4ad6e4a4a" title="pt" alt="" coords="138,360,177,387"/>
-<area shape="rect" id="node4" href="../../d0/dc0/a00033.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="237,56,305,83"/>
-</map>
 </div>
-</p>
+</div>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$bdd = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00008">8</a> of file <a class="el" href="../../d4/dca/a00048_source.php">register.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad634f418b20382e2802f80532d76d3cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$email =$_POST['email']</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00009">9</a> of file <a class="el" href="../../d4/dca/a00048_source.php">register.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a65334de2f0d486a42b02ecf82fe8fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$mdp = $_POST['mdp']</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00011">11</a> of file <a class="el" href="../../d4/dca/a00048_source.php">register.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$<a class="el" href="../../d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> = $_POST['<a class="el" href="../../d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00010">10</a> of file <a class="el" href="../../d4/dca/a00048_source.php">register.php</a>.</p>
 
 </div>
 </div>
@@ -163,7 +202,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../d4/dca/a00048.php">less.min.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d4/dca/a00048.php">register.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

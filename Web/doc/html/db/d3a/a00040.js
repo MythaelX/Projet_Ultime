@@ -1,6 +1,5 @@
 var a00040 =
 [
-    [ "nextRes", "db/d3a/a00040.php#a443ea3a863c29aed90f572de52c0b04d", null ],
-    [ "resNumber", "db/d3a/a00040.php#ab1aeaedb8bf332eee5b85200acfee982", null ],
-    [ "$type", "db/d3a/a00040.php#a9a4a6fba2208984cabb3afacadf33919", null ]
+    [ "$bdd", "db/d3a/a00040.php#a94f91e878bce0991e2cd595c5dd79b3f", null ],
+    [ "$head", "db/d3a/a00040.php#a687ea7fcd78263867b5bd34ed56b6379", null ]
 ];

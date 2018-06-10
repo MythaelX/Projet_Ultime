@@ -1,89 +1,12 @@
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/bases/scraper.php:4: warning: the name `scrapper.php' supplied as the second argument in the \file statement is not an input file
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3830: warning: member Defaults belongs to two different groups. The second one found here will be ignored.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2787: warning: Documentation for undefined enum `String' found.
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:654: warning: documented symbol `selector' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1478: warning: class `Popper.Utils' for related function `isFunction' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1490: warning: class `Popper.Utils' for related function `getStyleComputedProperty' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1506: warning: class `Popper.Utils' for related function `getParentNode' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1520: warning: class `Popper.Utils' for related function `getScrollParent' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1555: warning: class `Popper.Utils' for related function `getOffsetParent' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1593: warning: class `Popper.Utils' for related function `getRoot' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1609: warning: class `Popper.Utils' for related function `findCommonOffsetParent' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1653: warning: class `Popper.Utils' for related function `getScroll' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1801: warning: class `Popper.Utils' for related function `getClientRect' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1815: warning: class `Popper.Utils' for related function `getBoundingClientRect' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1936: warning: class `Popper.Utils' for related function `isFixed' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1957: warning: class `Popper.Utils' for related function `getBoundaries' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2022: warning: class `Popper.Utils' for related function `computeAutoPlacement' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2082: warning: class `Popper.Utils' for related function `getReferenceOffsets' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2094: warning: class `Popper.Utils' for related function `getOuterSizes' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2112: warning: class `Popper.Utils' for related function `getOppositePlacement' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2129: warning: class `Popper.Utils' for related function `getPopperOffsets' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2167: warning: class `Popper.Utils' for related function `find' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2186: warning: class `Popper.Utils' for related function `findIndex' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2211: warning: class `Popper.Utils' for related function `runModifiers' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2241: warning: class `Popper' for related function `update' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2290: warning: class `Popper.Utils' for related function `isModifierEnabled' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2305: warning: class `Popper.Utils' for related function `getSupportedPropertyName' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2324: warning: class `Popper' for related function `destroy' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2373: warning: class `Popper.Utils' for related function `setupEventListeners' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2393: warning: class `Popper' for related function `enableEventListeners' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2405: warning: class `Popper.Utils' for related function `removeEventListeners' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2429: warning: class `Popper' for related function `disableEventListeners' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2443: warning: class `Popper.Utils' for related function `isNumeric' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2455: warning: class `Popper.Utils' for related function `setStyles' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2474: warning: class `Popper.Utils' for related function `setAttributes' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2494: warning: class `Modifiers' for related function `applyStyle' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2523: warning: class `Popper.modifiers' for related function `applyStyleOnLoad' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2548: warning: class `Modifiers' for related function `computeStyle' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2645: warning: class `Popper.Utils' for related function `isModifierRequired' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2670: warning: class `Modifiers' for related function `arrow' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2752: warning: class `Popper.Utils' for related function `getOppositeVariation' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2807: warning: class `Popper.Utils' for related function `clockwise' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2828: warning: class `Modifiers' for related function `flip' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2918: warning: class `Modifiers' for related function `keepTogether' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2952: warning: class `modifiers' for related function `toValue' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3004: warning: class `modifiers' for related function `parseOffset' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3080: warning: class `Modifiers' for related function `offset' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3121: warning: class `Modifiers' for related function `preventOverflow' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3172: warning: class `Modifiers' for related function `shift' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3205: warning: class `Modifiers' for related function `hide' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3243: warning: class `Modifiers' for related function `inner' is not documented.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3590: warning: documented symbol `Object data instance The Popper js instance' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3591: warning: documented symbol `String data placement Placement applied to popper' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3592: warning: documented symbol `String data originalPlacement Placement originally defined on init' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3593: warning: documented symbol `Boolean data flipped True if popper has been flipped by flip modifier' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3594: warning: documented symbol `Boolean data hide True if the reference element is out of boundaries useful to know when to hide the popper' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3595: warning: documented symbol `HTMLElement data arrowElement Node used as arrow by arrow modifier' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3596: warning: documented symbol `Object data styles Any CSS property defined here will be applied to the popper it expects the JavaScript nomenclature' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3597: warning: documented symbol `Object data arrowStyles Any CSS property defined here will be applied to the popper arrow it expects the JavaScript nomenclature' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3598: warning: documented symbol `Object data boundaries Offsets of the popper boundaries' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3599: warning: documented symbol `Object data offsets The measurements of popper reference and arrow elements' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3600: warning: documented symbol `Object data offsets popper top left width height values' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3601: warning: documented symbol `Object data offsets reference top left width height values' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3602: warning: member with no name found.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3819: warning: documented symbol `Function data getBoundingClientRect' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3821: warning: documented symbol `number data clientWidth' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3823: warning: documented symbol `number data clientHeight' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3830: warning: member Defaults belongs to two different groups. The second one found here will be ignored.
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/bases/_functions.php:3: warning: found more than one \mainpage comment block! (first occurrence: /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js, line 3), Skipping current block!
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/tchat.js:128: warning: argument 'funct' of command @param is not found in the argument list of addOnload(funct)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/tchat.js:128: warning: argument 'args' of command @param is not found in the argument list of addOnload(funct)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:548: warning: argument 'funct' of command @param is not found in the argument list of addOnresize(funct)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:548: warning: argument 'args' of command @param is not found in the argument list of addOnresize(funct)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:402: warning: argument 'args' of command @param is not found in the argument list of isset()
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:2348: warning: Found unknown command `\argument'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1464: warning: Found unknown command `\method'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1466: warning: Found unknown command `\argument'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3617: warning: Found unknown command `\type'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1398: warning: Found unknown command `\fileOverview'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1400: warning: Found unknown command `\license'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:1709: warning: Found unknown command `\method'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3672: warning: Found unknown command `\callback'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3674: warning: Found unknown command `\callback'
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'funct' of command @param is not found in the argument list of addOnload(initGalleries)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'args' of command @param is not found in the argument list of addOnload(initGalleries)
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/less.min.js:14: warning: Found unknown command `\license'
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'funct' of command @param is not found in the argument list of addOnload(initMap)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'args' of command @param is not found in the argument list of addOnload(initMap)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'funct' of command @param is not found in the argument list of addOnload(initScore)
@@ -94,6 +17,3 @@
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/_script.js:516: warning: argument 'args' of command @param is not found in the argument list of addOnload(initStars)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/tchat.js:128: warning: argument 'funct' of command @param is not found in the argument list of addOnload(initTchat)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/tchat.js:128: warning: argument 'args' of command @param is not found in the argument list of addOnload(initTchat)
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3279: warning: Found unknown command `\function'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3280: warning: Found unknown command `\argument'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/bases/bootstrap/bootstrap.bundle.js:3281: warning: Found unknown command `\argument'

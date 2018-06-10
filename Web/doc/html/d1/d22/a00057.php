@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: register.php File Reference</title>
+<title>Hot Dog QUIZ: tchat.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -106,95 +105,417 @@ $(document).ready(function(){initNavTree('d1/d22/a00057.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">register.php File Reference</div>  </div>
+<div class="title">tchat.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d1/d22/a00057_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9ec791f85c73ebbcd2015de18f44532d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d">tchatChildCreator</a> (text)</td></tr>
+<tr class="memdesc:a9ec791f85c73ebbcd2015de18f44532d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the child that will contains the text.  <a href="#a9ec791f85c73ebbcd2015de18f44532d">More...</a><br /></td></tr>
+<tr class="separator:a9ec791f85c73ebbcd2015de18f44532d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472e643fae19070bd14fd3e960455833"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833">tchatAddAnswer</a> (text)</td></tr>
+<tr class="memdesc:a472e643fae19070bd14fd3e960455833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a received message to the that with class <b>bot</b>.  <a href="#a472e643fae19070bd14fd3e960455833">More...</a><br /></td></tr>
+<tr class="separator:a472e643fae19070bd14fd3e960455833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c05899a60dab59f07c18864339c5b6"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a47c05899a60dab59f07c18864339c5b6">tchatAddQuestion</a> (text)</td></tr>
+<tr class="memdesc:a47c05899a60dab59f07c18864339c5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a written message to the tchat with class <b>human</b>.  <a href="#a47c05899a60dab59f07c18864339c5b6">More...</a><br /></td></tr>
+<tr class="separator:a47c05899a60dab59f07c18864339c5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af535f9f9fa013b2543991bbe5e14d6eb"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb">putTchatChild</a> (child)</td></tr>
+<tr class="memdesc:af535f9f9fa013b2543991bbe5e14d6eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the new message in the tchatbox.  <a href="#af535f9f9fa013b2543991bbe5e14d6eb">More...</a><br /></td></tr>
+<tr class="separator:af535f9f9fa013b2543991bbe5e14d6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec7a287eb4e2fe648076a2e656a1639"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639">initTchat</a> ()</td></tr>
+<tr class="memdesc:a5ec7a287eb4e2fe648076a2e656a1639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the tchat.  <a href="#a5ec7a287eb4e2fe648076a2e656a1639">More...</a><br /></td></tr>
+<tr class="separator:a5ec7a287eb4e2fe648076a2e656a1639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f8d78be6e36a10cc4e875eed8c2b83"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a38f8d78be6e36a10cc4e875eed8c2b83">tchatSend</a> ()</td></tr>
+<tr class="memdesc:a38f8d78be6e36a10cc4e875eed8c2b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send something in the tchat with AJAX.  <a href="#a38f8d78be6e36a10cc4e875eed8c2b83">More...</a><br /></td></tr>
+<tr class="separator:a38f8d78be6e36a10cc4e875eed8c2b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef3d8e0e45b703894d323481d52a97f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#afef3d8e0e45b703894d323481d52a97f">addOnload</a> (<a class="el" href="../../d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639">initTchat</a>)</td></tr>
+<tr class="memdesc:afef3d8e0e45b703894d323481d52a97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch the initialization of the tchat.  <a href="#afef3d8e0e45b703894d323481d52a97f">More...</a><br /></td></tr>
+<tr class="separator:afef3d8e0e45b703894d323481d52a97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad634f418b20382e2802f80532d76d3cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#ad634f418b20382e2802f80532d76d3cd">$email</a> =$_POST['email']</td></tr>
-<tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> = $_POST['<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
-<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a> = $_POST['mdp']</td></tr>
-<tr class="separator:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac62167326fcdc762297fe76407218b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#ac62167326fcdc762297fe76407218b55">$avatar</a> =<a class="el" href="../../db/df3/a00034.php#a7fc3f2f4db9af0955fcc004c4bf83a24">saveFileTo</a>($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td></tr>
-<tr class="separator:ac62167326fcdc762297fe76407218b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
+<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3888caf192bed1af25b662a84dde950b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a3888caf192bed1af25b662a84dde950b">tchatContainer</a></td></tr>
+<tr class="separator:a3888caf192bed1af25b662a84dde950b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad166970846bb8365d81b411a683c437e"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#ad166970846bb8365d81b411a683c437e">tchatTextZone</a></td></tr>
+<tr class="separator:ad166970846bb8365d81b411a683c437e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eca938b760c840905978c08b3354958"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a3eca938b760c840905978c08b3354958">tchatChildType</a> = &quot;li&quot;</td></tr>
+<tr class="separator:a3eca938b760c840905978c08b3354958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1da6c59346f047e583b6dd47160e4b6"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#af1da6c59346f047e583b6dd47160e4b6">tchatSendZone</a></td></tr>
+<tr class="separator:af1da6c59346f047e583b6dd47160e4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0343a97d29de414de2c4df4bafb67895"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a0343a97d29de414de2c4df4bafb67895">tchatTextToSend</a></td></tr>
+<tr class="separator:a0343a97d29de414de2c4df4bafb67895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4098fcd83e8c7c24ad263c67086d76b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#ac4098fcd83e8c7c24ad263c67086d76b">tchatButton</a></td></tr>
+<tr class="separator:ac4098fcd83e8c7c24ad263c67086d76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018</dd></dl>
+<ul>
+<li>Implement a tchat on the website <br />
+<ul>
+<li>Create an object(<b>div</b>, <b>span</b>, ...) with the id <b>tchat</b> <br />
+</li>
+<li>You can add some attributes ; <br />
+<ul>
+<li><b>textbefore</b> : The input text's placeholder <br />
+</li>
+<li><b>buttonvalue</b> : The text on the sender button </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>Definition in file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="afef3d8e0e45b703894d323481d52a97f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addOnload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639">initTchat</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Launch the initialization of the tchat. </p>
+<p>Launch the initialization of the tchat.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">funct</td><td>The function to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments of the function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00520">520</a> of file <a class="el" href="../../d7/dec/a00010_source.php">_script.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ec7a287eb4e2fe648076a2e656a1639"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function initTchat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the tchat. </p>
+<p>Create the tchat's variables</p>
+<p>Create the tchat's children</p>
+<p>Print the welcome message </p>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00072">72</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d22/a00057_a5ec7a287eb4e2fe648076a2e656a1639_cgraph.png" border="0" usemap="#d1/d22/a00057_a5ec7a287eb4e2fe648076a2e656a1639_cgraph" alt=""/></div>
+<map name="d1/d22/a00057_a5ec7a287eb4e2fe648076a2e656a1639_cgraph" id="d1/d22/a00057_a5ec7a287eb4e2fe648076a2e656a1639_cgraph">
+<area shape="rect" id="node2" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="137,56,232,83"/>
+<area shape="rect" id="node5" href="../../d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833" title="Add a received message to the that with class bot. " alt="" coords="125,107,244,133"/>
+<area shape="rect" id="node3" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="307,5,401,32"/>
+<area shape="rect" id="node4" href="../../d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="315,56,393,83"/>
+<area shape="rect" id="node6" href="../../d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d" title="Create the child that will contains the text. " alt="" coords="292,107,416,133"/>
+<area shape="rect" id="node7" href="../../d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb" title="Add the new message in the tchatbox. " alt="" coords="303,157,405,184"/>
+<area shape="rect" id="node8" href="../../d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="464,157,555,184"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af535f9f9fa013b2543991bbe5e14d6eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function putTchatChild </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add the new message in the tchatbox. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">child</td><td>The object that contains the message to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Scroll to the end of the tchatbox </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00066">66</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d22/a00057_af535f9f9fa013b2543991bbe5e14d6eb_cgraph.png" border="0" usemap="#d1/d22/a00057_af535f9f9fa013b2543991bbe5e14d6eb_cgraph" alt=""/></div>
+<map name="d1/d22/a00057_af535f9f9fa013b2543991bbe5e14d6eb_cgraph" id="d1/d22/a00057_af535f9f9fa013b2543991bbe5e14d6eb_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="156,5,247,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a472e643fae19070bd14fd3e960455833"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function tchatAddAnswer </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a received message to the that with class <b>bot</b>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The message to add to the tchat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00040">40</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d22/a00057_a472e643fae19070bd14fd3e960455833_cgraph.png" border="0" usemap="#d1/d22/a00057_a472e643fae19070bd14fd3e960455833_cgraph" alt=""/></div>
+<map name="d1/d22/a00057_a472e643fae19070bd14fd3e960455833_cgraph" id="d1/d22/a00057_a472e643fae19070bd14fd3e960455833_cgraph">
+<area shape="rect" id="node2" href="../../d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d" title="Create the child that will contains the text. " alt="" coords="172,5,296,32"/>
+<area shape="rect" id="node3" href="../../d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb" title="Add the new message in the tchatbox. " alt="" coords="183,56,285,83"/>
+<area shape="rect" id="node4" href="../../d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="344,56,435,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a47c05899a60dab59f07c18864339c5b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function tchatAddQuestion </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a written message to the tchat with class <b>human</b>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The message to add to the tchat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00052">52</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d22/a00057_a47c05899a60dab59f07c18864339c5b6_cgraph.png" border="0" usemap="#d1/d22/a00057_a47c05899a60dab59f07c18864339c5b6_cgraph" alt=""/></div>
+<map name="d1/d22/a00057_a47c05899a60dab59f07c18864339c5b6_cgraph" id="d1/d22/a00057_a47c05899a60dab59f07c18864339c5b6_cgraph">
+<area shape="rect" id="node2" href="../../d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d" title="Create the child that will contains the text. " alt="" coords="180,5,304,32"/>
+<area shape="rect" id="node3" href="../../d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb" title="Add the new message in the tchatbox. " alt="" coords="191,56,293,83"/>
+<area shape="rect" id="node4" href="../../d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="352,56,443,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ec791f85c73ebbcd2015de18f44532d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function tchatChildCreator </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create the child that will contains the text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The text to put in the child object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the child that contains the text </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00029">29</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38f8d78be6e36a10cc4e875eed8c2b83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function tchatSend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send something in the tchat with AJAX. </p>
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00115">115</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d22/a00057_a38f8d78be6e36a10cc4e875eed8c2b83_cgraph.png" border="0" usemap="#d1/d22/a00057_a38f8d78be6e36a10cc4e875eed8c2b83_cgraph" alt=""/></div>
+<map name="d1/d22/a00057_a38f8d78be6e36a10cc4e875eed8c2b83_cgraph" id="d1/d22/a00057_a38f8d78be6e36a10cc4e875eed8c2b83_cgraph">
+<area shape="rect" id="node2" href="../../d1/d22/a00057.php#a47c05899a60dab59f07c18864339c5b6" title="Add a written message to the tchat with class human. " alt="" coords="267,5,393,32"/>
+<area shape="rect" id="node6" href="../../d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. " alt="" coords="283,132,377,159"/>
+<area shape="rect" id="node9" href="../../d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833" title="Add a received message to the that with class bot. " alt="" coords="271,56,389,83"/>
+<area shape="rect" id="node10" href="../../d1/d22/a00057.php#afef3d8e0e45b703894d323481d52a97f" title="Launch the initialization of the tchat. " alt="" coords="135,208,219,235"/>
+<area shape="rect" id="node11" href="../../d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639" title="Initialize the tchat. " alt="" coords="141,107,213,133"/>
+<area shape="rect" id="node3" href="../../d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d" title="Create the child that will contains the text. " alt="" coords="441,5,565,32"/>
+<area shape="rect" id="node4" href="../../d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb" title="Add the new message in the tchatbox. " alt="" coords="452,56,555,83"/>
+<area shape="rect" id="node5" href="../../d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d" title="Scroll to the end of something. " alt="" coords="613,56,704,83"/>
+<area shape="rect" id="node7" href="../../d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e" title="On success, hide the error div. " alt="" coords="456,119,551,145"/>
+<area shape="rect" id="node8" href="../../d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a" title="Initialize the error div. " alt="" coords="464,169,543,196"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ac62167326fcdc762297fe76407218b55"></a>
+<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$avatar =<a class="el" href="../../db/df3/a00034.php#a7fc3f2f4db9af0955fcc004c4bf83a24">saveFileTo</a>($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td>
+          <td class="memname">use strict</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00013">13</a> of file <a class="el" href="../../d1/d22/a00057_source.php">register.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00014">14</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
+<a class="anchor" id="ac4098fcd83e8c7c24ad263c67086d76b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bdd = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">var tchatButton</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00008">8</a> of file <a class="el" href="../../d1/d22/a00057_source.php">register.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00021">21</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad634f418b20382e2802f80532d76d3cd"></a>
+<a class="anchor" id="a3eca938b760c840905978c08b3354958"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$email =$_POST['email']</td>
+          <td class="memname">var tchatChildType = &quot;li&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00009">9</a> of file <a class="el" href="../../d1/d22/a00057_source.php">register.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00018">18</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8a65334de2f0d486a42b02ecf82fe8fb"></a>
+<a class="anchor" id="a3888caf192bed1af25b662a84dde950b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$mdp = $_POST['mdp']</td>
+          <td class="memname">var tchatContainer</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00011">11</a> of file <a class="el" href="../../d1/d22/a00057_source.php">register.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00016">16</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
+<a class="anchor" id="af1da6c59346f047e583b6dd47160e4b6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> = $_POST['<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
+          <td class="memname">var tchatSendZone</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00010">10</a> of file <a class="el" href="../../d1/d22/a00057_source.php">register.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00019">19</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0343a97d29de414de2c4df4bafb67895"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">var tchatTextToSend</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00020">20</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad166970846bb8365d81b411a683c437e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">var tchatTextZone</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00017">17</a> of file <a class="el" href="../../d1/d22/a00057_source.php">tchat.js</a>.</p>
 
 </div>
 </div>
@@ -203,7 +524,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d1/d22/a00057.php">register.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../d1/d22/a00057.php">tchat.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

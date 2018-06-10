@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: js.cookie.js File Reference</title>
+<title>Hot Dog QUIZ: presentation.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -105,99 +104,18 @@ $(document).ready(function(){initNavTree('d6/d2d/a00047.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">js.cookie.js File Reference</div>  </div>
+<div class="title">presentation.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d6/d2d/a00047_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a55bf8e12339412d59e0a999214324127"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a55bf8e12339412d59e0a999214324127">if</a> (typeof define=== 'function'&amp;&amp;define.amd)</td></tr>
-<tr class="separator:a55bf8e12339412d59e0a999214324127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5505b732d85e51fbc09b23f7f2bfff7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a5505b732d85e51fbc09b23f7f2bfff7f">if</a> (!registeredInModuleLoader)</td></tr>
-<tr class="separator:a5505b732d85e51fbc09b23f7f2bfff7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:abf075bdbe59fd2c3336ed052c9c72b31"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#abf075bdbe59fd2c3336ed052c9c72b31">factory</a></td></tr>
-<tr class="separator:abf075bdbe59fd2c3336ed052c9c72b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a55bf8e12339412d59e0a999214324127"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">typeof&#160;</td>
-          <td class="paramname"><em>define</em> = <code>==&#160;'function'&#160;&amp;&amp;&#160;define.amd</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00010">10</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">js.cookie.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5505b732d85e51fbc09b23f7f2bfff7f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">!&#160;</td>
-          <td class="paramname"><em>registeredInModuleLoader</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00018">18</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">js.cookie.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d6/d2d/a00047_a5505b732d85e51fbc09b23f7f2bfff7f_cgraph.png" border="0" usemap="#d6/d2d/a00047_a5505b732d85e51fbc09b23f7f2bfff7f_cgraph" alt=""/></div>
-<map name="d6/d2d/a00047_a5505b732d85e51fbc09b23f7f2bfff7f_cgraph" id="d6/d2d/a00047_a5505b732d85e51fbc09b23f7f2bfff7f_cgraph">
-<area shape="rect" id="node2" href="../../d1/d2b/a00018.php#a30095f4365e5124967a155f24d3bac49" title="B" alt="" coords="92,5,131,32"/>
-<area shape="rect" id="node3" href="../../d1/d2b/a00018.php#a0a72db2ddb8ffa68c0c31ce49fafa1f1" title="F" alt="" coords="92,56,131,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="abf075bdbe59fd2c3336ed052c9c72b31"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function factory</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    var registeredInModuleLoader = <span class="keyword">false</span></div></div><!-- fragment --><p>JavaScript Cookie v2.2.0 <a href="https://github.com/js-cookie/js-cookie">https://github.com/js-cookie/js-cookie</a></p>
-<p>Copyright 2006, 2015 Klaus Hartl &amp; Fagner Brack Released under the MIT license </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00008">8</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">js.cookie.js</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">js.cookie.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">presentation.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -117,25 +116,25 @@ Directories</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
-<tr class="memitem:d5/d16/a00029"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d5/d16/a00029.php">creation.php</a> <a href="d5/d16/a00029_source.php">[code]</a></td></tr>
+<tr class="memitem:dc/de2/a00024"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dc/de2/a00024.php">creation.php</a> <a href="dc/de2/a00024_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d8c/a00035"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d4/d8c/a00035.php">fonctions.php</a> <a href="d4/d8c/a00035_source.php">[code]</a></td></tr>
+<tr class="memitem:d5/d79/a00030"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d5/d79/a00030.php">fonctions.php</a> <a href="d5/d79/a00030_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/d8c/a00036"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="de/d8c/a00036.php">formulaire.php</a> <a href="de/d8c/a00036_source.php">[code]</a></td></tr>
+<tr class="memitem:df/d61/a00031"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="df/d61/a00031.php">formulaire.php</a> <a href="df/d61/a00031_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/dc6/a00037"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/dc6/a00037.php">formulaireConnexion.php</a> <a href="d1/dc6/a00037_source.php">[code]</a></td></tr>
+<tr class="memitem:dc/d87/a00032"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dc/d87/a00032.php">formulaireConnexion.php</a> <a href="dc/d87/a00032_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/d41/a00038"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d8/d41/a00038.php">formulaireInscription.php</a> <a href="d8/d41/a00038_source.php">[code]</a></td></tr>
+<tr class="memitem:d0/dc0/a00033"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d0/dc0/a00033.php">formulaireInscription.php</a> <a href="d0/dc0/a00033_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/dea/a00054"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/dea/a00054.php">partie.php</a> <a href="d1/dea/a00054_source.php">[code]</a></td></tr>
+<tr class="memitem:d3/dea/a00046"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d3/dea/a00046.php">partie.php</a> <a href="d3/dea/a00046_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d2e/a00056"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d9/d2e/a00056.php">presentation.php</a> <a href="d9/d2e/a00056_source.php">[code]</a></td></tr>
+<tr class="memitem:d6/d2d/a00047"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d6/d2d/a00047.php">presentation.php</a> <a href="d6/d2d/a00047_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/d22/a00057"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/d22/a00057.php">register.php</a> <a href="d1/d22/a00057_source.php">[code]</a></td></tr>
+<tr class="memitem:d4/dca/a00048"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d4/dca/a00048.php">register.php</a> <a href="d4/dca/a00048_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/df7/a00058"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d7/df7/a00058.php">request.php</a> <a href="d7/df7/a00058_source.php">[code]</a></td></tr>
+<tr class="memitem:d2/dee/a00049"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d2/dee/a00049.php">request.php</a> <a href="d2/dee/a00049_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/de1/a00065"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="de/de1/a00065.php">tableauPalmares.php</a> <a href="de/de1/a00065_source.php">[code]</a></td></tr>
+<tr class="memitem:d9/d2e/a00056"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d9/d2e/a00056.php">tableauPalmares.php</a> <a href="d9/d2e/a00056_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

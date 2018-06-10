@@ -1,0 +1,5 @@
+<map id="createScore" name="createScore">
+<area shape="rect" id="node2" href="$d5/de0/a00050.php#ab62d0f7ff871ba950d8acc73ef4fd0f0" title="Create the background of the score. " alt="" coords="145,5,268,32"/>
+<area shape="rect" id="node4" href="$d5/de0/a00050.php#ae4a161ce9a41036f148f21c028ec8fdb" title="Create the colored round for the score. " alt="" coords="159,56,255,83"/>
+<area shape="rect" id="node3" href="$d5/de0/a00050.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="316,31,437,57"/>
+</map>

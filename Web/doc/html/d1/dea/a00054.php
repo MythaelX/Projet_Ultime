@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: partie.php File Reference</title>
+<title>Hot Dog QUIZ: site.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -105,18 +104,123 @@ $(document).ready(function(){initNavTree('d1/dea/a00054.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">partie.php File Reference</div>  </div>
+<div class="title">site.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d1/dea/a00054_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad208b57c36b8c1e0d09481b79b261b1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/a00054.php#ad208b57c36b8c1e0d09481b79b261b1c">get_site_name</a> ($bdd)</td></tr>
+<tr class="memdesc:ad208b57c36b8c1e0d09481b79b261b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the website.  <a href="#ad208b57c36b8c1e0d09481b79b261b1c">More...</a><br /></td></tr>
+<tr class="separator:ad208b57c36b8c1e0d09481b79b261b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d839f332f102d8050f984a05897f17c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/a00054.php#a7d839f332f102d8050f984a05897f17c">is_this_active</a> ($page, $opt=&quot;&quot;)</td></tr>
+<tr class="memdesc:a7d839f332f102d8050f984a05897f17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that verify if it's the asked page.  <a href="#a7d839f332f102d8050f984a05897f17c">More...</a><br /></td></tr>
+<tr class="separator:a7d839f332f102d8050f984a05897f17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../d1/dea/a00054_source.php">site.php</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ad208b57c36b8c1e0d09481b79b261b1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">get_site_name </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the name of the website. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">$bdd</td><td>The database communication object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the site name save in the database </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00014">14</a> of file <a class="el" href="../../d1/dea/a00054_source.php">site.php</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dea/a00054_ad208b57c36b8c1e0d09481b79b261b1c_cgraph.png" border="0" usemap="#d1/dea/a00054_ad208b57c36b8c1e0d09481b79b261b1c_cgraph" alt=""/></div>
+<map name="d1/dea/a00054_ad208b57c36b8c1e0d09481b79b261b1c_cgraph" id="d1/dea/a00054_ad208b57c36b8c1e0d09481b79b261b1c_cgraph">
+<area shape="rect" id="node2" href="../../d2/de7/a00014.php#ac25e0cea9220cf427db18de77a1cc282" title="Convert a type/value array in an index/value array. " alt="" coords="160,5,276,32"/>
+<area shape="rect" id="node4" href="../../d2/de7/a00014.php#a876add8c54fbea2f702f5365dfbe03be" title="Return the given value in the array if it exists. " alt="" coords="171,56,265,83"/>
+<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="324,31,375,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d839f332f102d8050f984a05897f17c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">is_this_active </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$opt</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that verify if it's the asked page. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">$page</td><td>The page associate to active </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$opt</td><td>An option variable to specify a page with a variable GET </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return an empty string or <b>active</b> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00030">30</a> of file <a class="el" href="../../d1/dea/a00054_source.php">site.php</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/dea/a00054_a7d839f332f102d8050f984a05897f17c_cgraph.png" border="0" usemap="#d1/dea/a00054_a7d839f332f102d8050f984a05897f17c_cgraph" alt=""/></div>
+<map name="d1/dea/a00054_a7d839f332f102d8050f984a05897f17c_cgraph" id="d1/dea/a00054_a7d839f332f102d8050f984a05897f17c_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="156,5,207,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d1/dea/a00054.php">partie.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d1/dea/a00054.php">site.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

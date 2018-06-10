@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li class="current"><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,68 +141,38 @@ $(document).ready(function(){initNavTree('globals_i.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
-<li>I
-: <a class="el" href="de/d11/a00021.php#aeaf7b778b1c5115bbe67bc6c0a472011">bootstrap/bootstrap.min.js</a>
-</li>
-<li>i
-: <a class="el" href="d3/dea/a00046.php#a5e25b1d1bed9ab5f3174b76d6a722180">jquery.min.js</a>
-, <a class="el" href="de/d11/a00021.php#a73aff07b65d7c0b09ccf6b4c4f1b7a9d">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#ae982135e2602020be2bd350aebaf4fba">bootstrap.bundle.min.js</a>
-</li>
 <li>if()
-: <a class="el" href="dd/da2/a00019.php#a464b6f75f6d1ac2d8136c5f2be3996ec">bootstrap.js</a>
-, <a class="el" href="d6/d2d/a00047.php#a55bf8e12339412d59e0a999214324127">js.cookie.js</a>
-, <a class="el" href="db/db2/a00020.php#ac2d69f5011896c6ed4a54e0dd36f6334">autres/bootstrap.min.js</a>
-, <a class="el" href="d6/d2d/a00047.php#a5505b732d85e51fbc09b23f7f2bfff7f">js.cookie.js</a>
-, <a class="el" href="d4/d6d/a00055.php#a4f51755beb9f3b9cd734072db8452461">phantomLoader.js</a>
-, <a class="el" href="db/db2/a00020.php#ab46cc49ddd78779f76bf855060e8f4db">autres/bootstrap.min.js</a>
-, <a class="el" href="d2/d79/a00051.php#a2c96ec63e19591ef08651a74b48ab6a9">navBar.js</a>
-, <a class="el" href="d4/d51/a00017.php#a464b6f75f6d1ac2d8136c5f2be3996ec">bootstrap.bundle.js</a>
-</li>
-<li>includeScroll()
-: <a class="el" href="d4/d51/a00017.php#a08e668616aad32cf43ed2ca4d2af7182">bootstrap.bundle.js</a>
+: <a class="el" href="d6/d42/a00043.php#a2c96ec63e19591ef08651a74b48ab6a9">navBar.js</a>
 </li>
 <li>info
-: <a class="el" href="d3/d8b/a00059.php#a6fdce5857b83c94e55a859b273e17580">score.js</a>
+: <a class="el" href="d5/de0/a00050.php#a6fdce5857b83c94e55a859b273e17580">score.js</a>
 </li>
 <li>initGalleries()
-: <a class="el" href="d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">gallery.js</a>
+: <a class="el" href="db/df3/a00034.php#ad86766041e2b01584fae8bd1698c35e6">gallery.js</a>
 </li>
 <li>initMap()
-: <a class="el" href="d2/dee/a00049.php#a5fdd1fc67d338661568dbc6e4fe7e719">map.js</a>
+: <a class="el" href="dd/d32/a00041.php#a5fdd1fc67d338661568dbc6e4fe7e719">map.js</a>
 </li>
 <li>initScore()
-: <a class="el" href="d3/d8b/a00059.php#a10fbf45945d13d59caee20c0127921d9">score.js</a>
+: <a class="el" href="d5/de0/a00050.php#a10fbf45945d13d59caee20c0127921d9">score.js</a>
 </li>
 <li>initStars()
-: <a class="el" href="df/d5f/a00064.php#a8d8ff71978dcadc4b21e080d661d45dd">stars.js</a>
+: <a class="el" href="d4/d6d/a00055.php#a8d8ff71978dcadc4b21e080d661d45dd">stars.js</a>
 </li>
 <li>initTchat()
-: <a class="el" href="d9/db3/a00066.php#a5ec7a287eb4e2fe648076a2e656a1639">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639">tchat.js</a>
 </li>
 <li>input
-: <a class="el" href="df/d5f/a00064.php#a07a2aabd64594dc36dd810cad2669deb">stars.js</a>
+: <a class="el" href="d4/d6d/a00055.php#a07a2aabd64594dc36dd810cad2669deb">stars.js</a>
 </li>
 <li>is_admin_connected()
 : <a class="el" href="df/d86/a00012.php#ade15b4790187078fa9c6cadefc91c736">admin.php</a>
 </li>
 <li>is_this_active()
-: <a class="el" href="d1/d6f/a00063.php#a7d839f332f102d8050f984a05897f17c">site.php</a>
-</li>
-<li>isBrowser
-: <a class="el" href="d4/d51/a00017.php#addc9193a1db02e0d80e6dfe0eb7321c6">bootstrap.bundle.js</a>
-</li>
-<li>isIE10
-: <a class="el" href="d4/d51/a00017.php#afdf7dbd507451f3148f2fe067eb7fc30">bootstrap.bundle.js</a>
-</li>
-<li>isOffsetContainer()
-: <a class="el" href="d4/d51/a00017.php#a1fe412e3e396aa0250776634a65b544c">bootstrap.bundle.js</a>
+: <a class="el" href="d1/dea/a00054.php#a7d839f332f102d8050f984a05897f17c">site.php</a>
 </li>
 <li>isset()
 : <a class="el" href="d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898">_script.js</a>
-</li>
-<li>It()
-: <a class="el" href="d1/d2b/a00018.php#a03a5b3a606f29323421d507e14b48ecb">bootstrap.bundle.min.js</a>
 </li>
 <li>it_exists()
 : <a class="el" href="d2/de7/a00014.php#a036c7414be684df67cb85655b9999528">arrays.php</a>

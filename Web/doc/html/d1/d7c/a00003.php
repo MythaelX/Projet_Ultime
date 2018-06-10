@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -606,7 +605,7 @@ Here is the call graph for this function:</div>
 <map name="d1/d7c/a00003_acdbc7d53f773fc1aa4f87d3091977e88_cgraph" id="d1/d7c/a00003_acdbc7d53f773fc1aa4f87d3091977e88_cgraph">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php#a339d28e140f0d54394c2d3a8287eff6c" title="Get the columns of a table of the database. " alt="" coords="115,5,239,32"/>
 <area shape="rect" id="node3" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="287,31,337,57"/>
-<area shape="rect" id="node4" href="../../dc/d87/a00032.php#a064414d8c8aa8cc8f2d5d023c7c9b485" title="Convert a date DD/MM/YYYY to YYYY&#45;MM&#45;DD. " alt="" coords="143,107,210,133"/>
+<area shape="rect" id="node4" href="../../d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485" title="Convert a date DD/MM/YYYY to YYYY&#45;MM&#45;DD. " alt="" coords="143,107,210,133"/>
 </map>
 </div>
 </p>

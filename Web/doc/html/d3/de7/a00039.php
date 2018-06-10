@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: gallery.js File Reference</title>
+<title>Hot Dog QUIZ: jeu.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -109,7 +108,7 @@ $(document).ready(function(){initNavTree('d3/de7/a00039.php','../../');});
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">gallery.js File Reference</div>  </div>
+<div class="title">jeu.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,129 +116,123 @@ $(document).ready(function(){initNavTree('d3/de7/a00039.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad86766041e2b01584fae8bd1698c35e6"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">initGalleries</a> ()</td></tr>
-<tr class="memdesc:ad86766041e2b01584fae8bd1698c35e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all the galleries.  <a href="#ad86766041e2b01584fae8bd1698c35e6">More...</a><br /></td></tr>
-<tr class="separator:ad86766041e2b01584fae8bd1698c35e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2890e55a673ac016e1d3277b3d9feca7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a2890e55a673ac016e1d3277b3d9feca7">createGallery</a> (<a class="el" href="../../d3/dea/a00046.php#a103df269476e78897c9c4c6cb8f4eb06">g</a>)</td></tr>
-<tr class="memdesc:a2890e55a673ac016e1d3277b3d9feca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a gallery.  <a href="#a2890e55a673ac016e1d3277b3d9feca7">More...</a><br /></td></tr>
-<tr class="separator:a2890e55a673ac016e1d3277b3d9feca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c29ca2eefb410f596bfa65d7a52004e"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a1c29ca2eefb410f596bfa65d7a52004e">createGalleryArrow</a> (parent, arrow)</td></tr>
-<tr class="memdesc:a1c29ca2eefb410f596bfa65d7a52004e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the gallery arrow.  <a href="#a1c29ca2eefb410f596bfa65d7a52004e">More...</a><br /></td></tr>
-<tr class="separator:a1c29ca2eefb410f596bfa65d7a52004e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab634298de9bead214fc2452731540058"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ab634298de9bead214fc2452731540058">showArrows</a> (el)</td></tr>
-<tr class="memdesc:ab634298de9bead214fc2452731540058"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the arrows on hover.  <a href="#ab634298de9bead214fc2452731540058">More...</a><br /></td></tr>
-<tr class="separator:ab634298de9bead214fc2452731540058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a3a4ba83aa3ca3c045cd2c5339671c4"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a8a3a4ba83aa3ca3c045cd2c5339671c4">hideArrows</a> (el)</td></tr>
-<tr class="memdesc:a8a3a4ba83aa3ca3c045cd2c5339671c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hide the arrows.  <a href="#a8a3a4ba83aa3ca3c045cd2c5339671c4">More...</a><br /></td></tr>
-<tr class="separator:a8a3a4ba83aa3ca3c045cd2c5339671c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02e93562a3633076b6e0e7bf4952238"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ae02e93562a3633076b6e0e7bf4952238">moveGallery</a> (el)</td></tr>
-<tr class="memdesc:ae02e93562a3633076b6e0e7bf4952238"><td class="mdescLeft">&#160;</td><td class="mdescRight">The movement of the gallery.  <a href="#ae02e93562a3633076b6e0e7bf4952238">More...</a><br /></td></tr>
-<tr class="separator:ae02e93562a3633076b6e0e7bf4952238"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24ae3c4bcdaa8b98f7a772e3d5beb3d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1">addOnload</a> (<a class="el" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">initGalleries</a>)</td></tr>
-<tr class="memdesc:a24ae3c4bcdaa8b98f7a772e3d5beb3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function to the onloadFunction array and save the arguments.  <a href="#a24ae3c4bcdaa8b98f7a772e3d5beb3d1">More...</a><br /></td></tr>
-<tr class="separator:a24ae3c4bcdaa8b98f7a772e3d5beb3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71c22630f509647a916f70887b8c2ad"><td class="memItemLeft" align="right" valign="top">console&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ab71c22630f509647a916f70887b8c2ad">log</a> (id_partie)</td></tr>
+<tr class="separator:ab71c22630f509647a916f70887b8c2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0228b8c787f8da646bec8fdca3eb908b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b">ajaxRequest</a> ('GET','php/request.php/nomDifficulte', <a class="el" href="../../d3/de7/a00039.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>,'id_partie='+id_partie)</td></tr>
+<tr class="separator:a0228b8c787f8da646bec8fdca3eb908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939d4356eec3d36168c300490d57eaff"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a939d4356eec3d36168c300490d57eaff">compteur</a> (event)</td></tr>
+<tr class="separator:a939d4356eec3d36168c300490d57eaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b3788c0664245d1de030f262f040ef"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a> (ajaxResponse)</td></tr>
+<tr class="separator:a34b3788c0664245d1de030f262f040ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9d97109099b8ce02792d0c4abd3ae3"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a8c9d97109099b8ce02792d0c4abd3ae3">jeu</a> ()</td></tr>
+<tr class="separator:a8c9d97109099b8ce02792d0c4abd3ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cab69f44f6222a1ebdef86c7812ab6f"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f">affichageJeu</a> ()</td></tr>
+<tr class="separator:a5cab69f44f6222a1ebdef86c7812ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386cd203962abda96c636c5e90a9ba36"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a386cd203962abda96c636c5e90a9ba36">recuperationReponseTemp</a> (reponse)</td></tr>
+<tr class="separator:a386cd203962abda96c636c5e90a9ba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe0edff04aec322abcdf9789acffee7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a9fe0edff04aec322abcdf9789acffee7">recupererQuestions</a> (ajaxResponse)</td></tr>
+<tr class="separator:a9fe0edff04aec322abcdf9789acffee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb580a625cac6fdcbd0386c6a35db66f"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#aeb580a625cac6fdcbd0386c6a35db66f">recupererPropositions</a> (ajaxResponse)</td></tr>
+<tr class="separator:aeb580a625cac6fdcbd0386c6a35db66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f570fb5c26a4deb0c8f0fe5d0187b2"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">affichageScore</a> (ajaxResponse)</td></tr>
+<tr class="separator:ab6f570fb5c26a4deb0c8f0fe5d0187b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b516ae0ba681e08470785de44acdd20"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a1b516ae0ba681e08470785de44acdd20">GALLERY_MARGE_OBJS</a> = 10</td></tr>
-<tr class="separator:a1b516ae0ba681e08470785de44acdd20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeec31eabf3dc64f4846a65b0e5082952"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#aeec31eabf3dc64f4846a65b0e5082952">GALLERY_INTERVAL</a> = false</td></tr>
-<tr class="separator:aeec31eabf3dc64f4846a65b0e5082952"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ab70e60f6b9d9b0bc04800d0f4a9cd6"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a0ab70e60f6b9d9b0bc04800d0f4a9cd6">GALLERY_INITIATED</a> = false</td></tr>
-<tr class="separator:a0ab70e60f6b9d9b0bc04800d0f4a9cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a015f4b021bbce742d0ca11bdda0a691c"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a015f4b021bbce742d0ca11bdda0a691c">GALLERY_INTERVAL_INITIATED</a> = setInterval(<a class="el" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">initGalleries</a>, 100)</td></tr>
-<tr class="separator:a015f4b021bbce742d0ca11bdda0a691c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f0c293ae78d762439729b2c979c2f8b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a8f0c293ae78d762439729b2c979c2f8b">GALLERY</a></td></tr>
-<tr class="separator:a8f0c293ae78d762439729b2c979c2f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11b64f88548d479a2d12c6d6cdf9c6b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ac11b64f88548d479a2d12c6d6cdf9c6b">questions</a> =new Array()</td></tr>
+<tr class="separator:ac11b64f88548d479a2d12c6d6cdf9c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab516b26a4218f0f59b789a0d446bf79f"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#ab516b26a4218f0f59b789a0d446bf79f">proposition</a> =new Array()</td></tr>
+<tr class="separator:ab516b26a4218f0f59b789a0d446bf79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160fd6ecbda71c65cdea78feb687bec1"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a160fd6ecbda71c65cdea78feb687bec1">solutionProposition</a> =new Array()</td></tr>
+<tr class="separator:a160fd6ecbda71c65cdea78feb687bec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b6cd228a69593c03af5dc445393936"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a20b6cd228a69593c03af5dc445393936">data</a> =new Array()</td></tr>
+<tr class="separator:a20b6cd228a69593c03af5dc445393936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8acc3305bb0c57accb21b6c3dfb9a6fd"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a8acc3305bb0c57accb21b6c3dfb9a6fd">compteurProposition</a> =0</td></tr>
+<tr class="separator:a8acc3305bb0c57accb21b6c3dfb9a6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991c67d3335f20552b86efe85cc5d875"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php#a991c67d3335f20552b86efe85cc5d875">compteurQuestion</a> =0</td></tr>
+<tr class="separator:a991c67d3335f20552b86efe85cc5d875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
-
-<p>Definition in file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a24ae3c4bcdaa8b98f7a772e3d5beb3d1"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a34b3788c0664245d1de030f262f040ef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">addOnload </td>
+          <td class="memname">function affichageDifficulte </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">initGalleries</a>&#160;</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00034">34</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5cab69f44f6222a1ebdef86c7812ab6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageJeu </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Add a function to the onloadFunction array and save the arguments. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">funct</td><td>The function to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments of the function </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00520">520</a> of file <a class="el" href="../../d7/dec/a00010_source.php">_script.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00047">47</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2890e55a673ac016e1d3277b3d9feca7"></a>
+<a class="anchor" id="ab6f570fb5c26a4deb0c8f0fe5d0187b2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function createGallery </td>
+          <td class="memname">function affichageScore </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>g</em></td><td>)</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create a gallery. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">g</td><td>The gallery object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00031">31</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/de7/a00039_a2890e55a673ac016e1d3277b3d9feca7_cgraph.png" border="0" usemap="#d3/de7/a00039_a2890e55a673ac016e1d3277b3d9feca7_cgraph" alt=""/></div>
-<map name="d3/de7/a00039_a2890e55a673ac016e1d3277b3d9feca7_cgraph" id="d3/de7/a00039_a2890e55a673ac016e1d3277b3d9feca7_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9" title="Get an element dimension. " alt="" coords="181,5,256,32"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d" title="Get an element dimension. " alt="" coords="179,56,258,83"/>
-<area shape="rect" id="node4" href="../../d3/de7/a00039.php#a1c29ca2eefb410f596bfa65d7a52004e" title="Create the gallery arrow. " alt="" coords="152,107,285,133"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00104">104</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1c29ca2eefb410f596bfa65d7a52004e"></a>
+<a class="anchor" id="a0228b8c787f8da646bec8fdca3eb908b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function createGalleryArrow </td>
+          <td class="memname">ajaxRequest </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>arrow</em>&#160;</td>
+          <td class="paramtype">'php/request.php/nomDifficulte'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/de7/a00039.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'&#160;</td>
+          <td class="paramname"><em>id_partie</em> = <code>'+id_partie</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -249,51 +242,46 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Create the gallery arrow. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>The parent object of the arrow </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">arrow</td><td>The arrow object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00195">195</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a8a3a4ba83aa3ca3c045cd2c5339671c4"></a>
+<a class="anchor" id="a939d4356eec3d36168c300490d57eaff"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function hideArrows </td>
+          <td class="memname">function compteur </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em></td><td>)</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Hide the arrows. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The parent of the arrows </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00022">22</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00250">250</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/de7/a00039_a939d4356eec3d36168c300490d57eaff_cgraph.png" border="0" usemap="#d3/de7/a00039_a939d4356eec3d36168c300490d57eaff_cgraph" alt=""/></div>
+<map name="d3/de7/a00039_a939d4356eec3d36168c300490d57eaff_cgraph" id="d3/de7/a00039_a939d4356eec3d36168c300490d57eaff_cgraph">
+<area shape="rect" id="node2" href="../../d3/de7/a00039.php#a386cd203962abda96c636c5e90a9ba36" title="recuperationReponseTemp" alt="" coords="129,5,308,32"/>
+<area shape="rect" id="node3" href="../../d3/de7/a00039.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="199,56,238,83"/>
+<area shape="rect" id="node4" href="../../d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="363,5,459,32"/>
+<area shape="rect" id="node5" href="../../d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="363,56,458,83"/>
+<area shape="rect" id="node6" href="../../d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="356,107,465,133"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="ad86766041e2b01584fae8bd1698c35e6"></a>
+<a class="anchor" id="a8c9d97109099b8ce02792d0c4abd3ae3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function initGalleries </td>
+          <td class="memname">function jeu </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -301,176 +289,201 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Initialize all the galleries. </p>
-
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00017">17</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00039">39</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/de7/a00039_ad86766041e2b01584fae8bd1698c35e6_cgraph.png" border="0" usemap="#d3/de7/a00039_ad86766041e2b01584fae8bd1698c35e6_cgraph" alt=""/></div>
-<map name="d3/de7/a00039_ad86766041e2b01584fae8bd1698c35e6_cgraph" id="d3/de7/a00039_ad86766041e2b01584fae8bd1698c35e6_cgraph">
-<area shape="rect" id="node2" href="../../d3/de7/a00039.php#a2890e55a673ac016e1d3277b3d9feca7" title="Create a gallery. " alt="" coords="144,56,243,83"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9" title="Get an element dimension. " alt="" coords="320,5,395,32"/>
-<area shape="rect" id="node4" href="../../d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d" title="Get an element dimension. " alt="" coords="318,56,397,83"/>
-<area shape="rect" id="node5" href="../../d3/de7/a00039.php#a1c29ca2eefb410f596bfa65d7a52004e" title="Create the gallery arrow. " alt="" coords="291,107,424,133"/>
+<div class="center"><img src="../../d3/de7/a00039_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph.png" border="0" usemap="#d3/de7/a00039_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph" alt=""/></div>
+<map name="d3/de7/a00039_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph" id="d3/de7/a00039_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph">
+<area shape="rect" id="node2" href="../../d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="99,5,195,32"/>
+<area shape="rect" id="node3" href="../../d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="99,56,194,83"/>
+<area shape="rect" id="node4" href="../../d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="92,107,201,133"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ae02e93562a3633076b6e0e7bf4952238"></a>
+<a class="anchor" id="ab71c22630f509647a916f70887b8c2ad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function moveGallery </td>
+          <td class="memname">console log </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em></td><td>)</td>
+          <td class="paramtype">id_partie&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The movement of the gallery. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The content of the gallery </td></tr>
-  </table>
-  </dd>
-</dl>
+</div>
+</div>
+<a class="anchor" id="a386cd203962abda96c636c5e90a9ba36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function recuperationReponseTemp </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>reponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00264">264</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00060">60</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb580a625cac6fdcbd0386c6a35db66f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function recupererPropositions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00087">87</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/de7/a00039_ae02e93562a3633076b6e0e7bf4952238_cgraph.png" border="0" usemap="#d3/de7/a00039_ae02e93562a3633076b6e0e7bf4952238_cgraph" alt=""/></div>
-<map name="d3/de7/a00039_ae02e93562a3633076b6e0e7bf4952238_cgraph" id="d3/de7/a00039_ae02e93562a3633076b6e0e7bf4952238_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a1ccc84f988b8a12d9a09d6318d54003d" title="Get the positions of an element from the window. " alt="" coords="148,5,253,32"/>
-<area shape="rect" id="node4" href="../../d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9" title="Get an element dimension. " alt="" coords="477,56,552,83"/>
-<area shape="rect" id="node5" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6" title="Initialize all the galleries. " alt="" coords="155,107,246,133"/>
-<area shape="rect" id="node9" href="../../d3/de7/a00039.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="159,157,243,184"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a2c66a459ec96a7cfc110a50890acf5f8" title="Get the positions of an element. " alt="" coords="319,5,382,32"/>
-<area shape="rect" id="node6" href="../../d3/de7/a00039.php#a2890e55a673ac016e1d3277b3d9feca7" title="Create a gallery. " alt="" coords="301,107,400,133"/>
-<area shape="rect" id="node7" href="../../d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d" title="Get an element dimension. " alt="" coords="475,107,554,133"/>
-<area shape="rect" id="node8" href="../../d3/de7/a00039.php#a1c29ca2eefb410f596bfa65d7a52004e" title="Create the gallery arrow. " alt="" coords="448,157,581,184"/>
+<div class="center"><img src="../../d3/de7/a00039_aeb580a625cac6fdcbd0386c6a35db66f_cgraph.png" border="0" usemap="#d3/de7/a00039_aeb580a625cac6fdcbd0386c6a35db66f_cgraph" alt=""/></div>
+<map name="d3/de7/a00039_aeb580a625cac6fdcbd0386c6a35db66f_cgraph" id="d3/de7/a00039_aeb580a625cac6fdcbd0386c6a35db66f_cgraph">
+<area shape="rect" id="node2" href="../../d3/de7/a00039.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="201,56,240,83"/>
+<area shape="rect" id="node3" href="../../d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="295,5,391,32"/>
+<area shape="rect" id="node4" href="../../d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="295,56,390,83"/>
+<area shape="rect" id="node5" href="../../d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="288,107,397,133"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ab634298de9bead214fc2452731540058"></a>
+<a class="anchor" id="a9fe0edff04aec322abcdf9789acffee7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function showArrows </td>
+          <td class="memname">function recupererQuestions </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em></td><td>)</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Show the arrows on hover. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The parent of the arrows </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00075">75</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00236">236</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/de7/a00039_a9fe0edff04aec322abcdf9789acffee7_cgraph.png" border="0" usemap="#d3/de7/a00039_a9fe0edff04aec322abcdf9789acffee7_cgraph" alt=""/></div>
+<map name="d3/de7/a00039_a9fe0edff04aec322abcdf9789acffee7_cgraph" id="d3/de7/a00039_a9fe0edff04aec322abcdf9789acffee7_cgraph">
+<area shape="rect" id="node2" href="../../d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="478,5,573,32"/>
+<area shape="rect" id="node3" href="../../d3/de7/a00039.php#aeb580a625cac6fdcbd0386c6a35db66f" title="recupererPropositions" alt="" coords="188,56,336,83"/>
+<area shape="rect" id="node4" href="../../d3/de7/a00039.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="384,56,423,83"/>
+<area shape="rect" id="node5" href="../../d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="477,56,573,83"/>
+<area shape="rect" id="node6" href="../../d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="471,107,580,133"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a8f0c293ae78d762439729b2c979c2f8b"></a>
+<a class="anchor" id="a8acc3305bb0c57accb21b6c3dfb9a6fd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var GALLERY</td>
+          <td class="memname">var compteurProposition =0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00014">14</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00011">11</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0ab70e60f6b9d9b0bc04800d0f4a9cd6"></a>
+<a class="anchor" id="a991c67d3335f20552b86efe85cc5d875"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var GALLERY_INITIATED = false</td>
+          <td class="memname">var compteurQuestion =0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00012">12</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00012">12</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aeec31eabf3dc64f4846a65b0e5082952"></a>
+<a class="anchor" id="a20b6cd228a69593c03af5dc445393936"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var GALLERY_INTERVAL = false</td>
+          <td class="memname">data['reponses'] =new Array()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00011">11</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00008">8</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a015f4b021bbce742d0ca11bdda0a691c"></a>
+<a class="anchor" id="ab516b26a4218f0f59b789a0d446bf79f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GALLERY_INTERVAL_INITIATED = setInterval(<a class="el" href="../../d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6">initGalleries</a>, 100)</td>
+          <td class="memname">var proposition =new Array()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00013">13</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00006">6</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1b516ae0ba681e08470785de44acdd20"></a>
+<a class="anchor" id="ac11b64f88548d479a2d12c6d6cdf9c6b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var GALLERY_MARGE_OBJS = 10</td>
+          <td class="memname">questions['solution_deux'] =new Array()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00010">10</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00003">3</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
+<a class="anchor" id="a160fd6ecbda71c65cdea78feb687bec1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">use strict</td>
+          <td class="memname">var solutionProposition =new Array()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00008">8</a> of file <a class="el" href="../../d3/de7/a00039_source.php">gallery.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00007">7</a> of file <a class="el" href="../../d3/de7/a00039_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
@@ -479,7 +492,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../dir_e555a9db8c4c52dd936bbd2abaeb5d16.php">gallery</a></li><li class="navelem"><a class="el" href="../../d3/de7/a00039.php">gallery.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d3/de7/a00039.php">jeu.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

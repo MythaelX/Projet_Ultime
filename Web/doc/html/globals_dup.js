@@ -1,8 +1,6 @@
 var globals_dup =
 [
-    [ "!", "globals.php", null ],
-    [ "$", "globals_0x24.php", null ],
-    [ "_", "globals__.php", null ],
+    [ "$", "globals.php", null ],
     [ "a", "globals_a.php", null ],
     [ "b", "globals_b.php", null ],
     [ "c", "globals_c.php", null ],
@@ -13,7 +11,6 @@ var globals_dup =
     [ "h", "globals_h.php", null ],
     [ "i", "globals_i.php", null ],
     [ "j", "globals_j.php", null ],
-    [ "k", "globals_k.php", null ],
     [ "l", "globals_l.php", null ],
     [ "m", "globals_m.php", null ],
     [ "n", "globals_n.php", null ],
@@ -25,8 +22,5 @@ var globals_dup =
     [ "t", "globals_t.php", null ],
     [ "u", "globals_u.php", null ],
     [ "v", "globals_v.php", null ],
-    [ "w", "globals_w.php", null ],
-    [ "x", "globals_x.php", null ],
-    [ "y", "globals_y.php", null ],
-    [ "z", "globals_z.php", null ]
+    [ "w", "globals_w.php", null ]
 ];

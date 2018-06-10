@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -119,7 +118,7 @@ $(document).ready(function(){initNavTree('da/d45/a00011.php','../../');});
 Functions</h2></td></tr>
 <tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/a00011.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
 <tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7bb1a471a64bb1b432a6429de39da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/a00011.php#ad7bb1a471a64bb1b432a6429de39da82">affichageAccueil</a> (<a class="el" href="../../d2/d79/a00051.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
+<tr class="memitem:ad7bb1a471a64bb1b432a6429de39da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/a00011.php#ad7bb1a471a64bb1b432a6429de39da82">affichageAccueil</a> (<a class="el" href="../../d6/d42/a00043.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
 <tr class="separator:ad7bb1a471a64bb1b432a6429de39da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbff0145fcc69a075dff45ab975c2b2d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/a00011.php#adbff0145fcc69a075dff45ab975c2b2d">affichageParties</a> (ajaxResponse)</td></tr>
 <tr class="separator:adbff0145fcc69a075dff45ab975c2b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>

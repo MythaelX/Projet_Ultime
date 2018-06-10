@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -126,7 +125,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a439900afc8f798290a4b6bc9ce0eb414"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a439900afc8f798290a4b6bc9ce0eb414">header</a> ($header)</td></tr>
 <tr class="memdesc:a439900afc8f798290a4b6bc9ce0eb414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the page header.  <a href="#a439900afc8f798290a4b6bc9ce0eb414">More...</a><br /></td></tr>
 <tr class="separator:a439900afc8f798290a4b6bc9ce0eb414"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0640f2c890a8f9e33b77e3e73432043f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a0640f2c890a8f9e33b77e3e73432043f">get</a> ($func, $<a class="el" href="../../d4/d6d/a00055.php#a64e5c861448a80a00f5c93e96de17d7a">args</a>=array())</td></tr>
+<tr class="memitem:a0640f2c890a8f9e33b77e3e73432043f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a0640f2c890a8f9e33b77e3e73432043f">get</a> ($func, $args=array())</td></tr>
 <tr class="memdesc:a0640f2c890a8f9e33b77e3e73432043f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object and do <em>$func</em>.  <a href="#a0640f2c890a8f9e33b77e3e73432043f">More...</a><br /></td></tr>
 <tr class="separator:a0640f2c890a8f9e33b77e3e73432043f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -134,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class to scrap content from another page. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd>Create the class </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00029">29</a> of file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00029">29</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a05b8e65fe9a79401565983789ad1c4fe"></a>
 <div class="memitem">
@@ -149,7 +148,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00033">33</a> of file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00033">33</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -189,7 +188,7 @@ Here is the call graph for this function:</div>
 
 <p>Return the object and do <em>$func</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00050">50</a> of file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00050">50</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -220,7 +219,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the page header. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00044">44</a> of file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00044">44</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 
 </div>
 </div>
@@ -240,12 +239,12 @@ Here is the call graph for this function:</div>
 
 <p>Set the page url. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00038">38</a> of file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00038">38</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a></li>
+<li><a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

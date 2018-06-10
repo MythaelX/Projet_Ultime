@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: palmares.php File Reference</title>
+<title>Hot Dog QUIZ: show_pass.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -106,47 +105,104 @@ $(document).ready(function(){initNavTree('dc/dee/a00053.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">palmares.php File Reference</div>  </div>
+<div class="title">show_pass.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../dc/dee/a00053_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac916a879e99dde7caf00f59284870538"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ac916a879e99dde7caf00f59284870538">showPass</a> ()</td></tr>
+<tr class="memdesc:ac916a879e99dde7caf00f59284870538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show/Hide passwords.  <a href="#ac916a879e99dde7caf00f59284870538">More...</a><br /></td></tr>
+<tr class="separator:ac916a879e99dde7caf00f59284870538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1171755a7214bdc0d500187f301f5b0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a1171755a7214bdc0d500187f301f5b0f">addOnload</a> (<a class="el" href="../../dc/dee/a00053.php#ac916a879e99dde7caf00f59284870538">showPass</a>)</td></tr>
+<tr class="memdesc:a1171755a7214bdc0d500187f301f5b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function to the onloadFunction array and save the arguments.  <a href="#a1171755a7214bdc0d500187f301f5b0f">More...</a><br /></td></tr>
+<tr class="separator:a1171755a7214bdc0d500187f301f5b0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687ea7fcd78263867b5bd34ed56b6379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a687ea7fcd78263867b5bd34ed56b6379">$head</a> = new <a class="el" href="../../dd/dad/a00005.php">Head_Creator</a>(&quot;./&quot;)</td></tr>
-<tr class="separator:a687ea7fcd78263867b5bd34ed56b6379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
+<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../dc/dee/a00053_source.php">show_pass.js</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a1171755a7214bdc0d500187f301f5b0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addOnload </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/dee/a00053.php#ac916a879e99dde7caf00f59284870538">showPass</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a function to the onloadFunction array and save the arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">funct</td><td>The function to add </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments of the function </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00520">520</a> of file <a class="el" href="../../d7/dec/a00010_source.php">_script.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac916a879e99dde7caf00f59284870538"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function showPass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show/Hide passwords. </p>
+<p>Create a show/hide effect for password's inputs </p>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00014">14</a> of file <a class="el" href="../../dc/dee/a00053_source.php">show_pass.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/dee/a00053_ac916a879e99dde7caf00f59284870538_cgraph.png" border="0" usemap="#dc/dee/a00053_ac916a879e99dde7caf00f59284870538_cgraph" alt=""/></div>
+<map name="dc/dee/a00053_ac916a879e99dde7caf00f59284870538_cgraph" id="dc/dee/a00053_ac916a879e99dde7caf00f59284870538_cgraph">
+<area shape="rect" id="node2" href="../../dc/dee/a00053.php#a1171755a7214bdc0d500187f301f5b0f" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="136,5,220,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
+<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bdd = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">use strict</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00007">7</a> of file <a class="el" href="../../dc/dee/a00053_source.php">palmares.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a687ea7fcd78263867b5bd34ed56b6379"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$head = new <a class="el" href="../../dd/dad/a00005.php">Head_Creator</a>(&quot;./&quot;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00008">8</a> of file <a class="el" href="../../dc/dee/a00053_source.php">palmares.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00008">8</a> of file <a class="el" href="../../dc/dee/a00053_source.php">show_pass.js</a>.</p>
 
 </div>
 </div>
@@ -155,7 +211,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/dee/a00053.php">palmares.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../dir_5e1534bde339b64fb6ffc1a80c986b00.php">show_pass</a></li><li class="navelem"><a class="el" href="../../dc/dee/a00053.php">show_pass.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

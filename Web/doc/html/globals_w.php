@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li class="current"><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,27 +141,17 @@ $(document).ready(function(){initNavTree('globals_w.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
-<li>w
-: <a class="el" href="de/d11/a00021.php#a9721a992655f700bdc2e91ba68b71e26">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#a9721a992655f700bdc2e91ba68b71e26">jquery.min.js</a>
-</li>
-<li>W
-: <a class="el" href="de/d11/a00021.php#a0b02f09bf5aa8ca34f72487f7d0e6e63">bootstrap/bootstrap.min.js</a>
-</li>
 <li>warning
-: <a class="el" href="d3/d8b/a00059.php#a01a70bfb22eb8e527cd6dce7499435a2">score.js</a>
+: <a class="el" href="d5/de0/a00050.php#a01a70bfb22eb8e527cd6dce7499435a2">score.js</a>
 </li>
 <li>width
-: <a class="el" href="d2/dee/a00049.php#af873e7c3edea50d105e73b055c6bdacf">map.js</a>
+: <a class="el" href="dd/d32/a00041.php#af873e7c3edea50d105e73b055c6bdacf">map.js</a>
 </li>
 <li>windowHeight()
 : <a class="el" href="d7/dec/a00010.php#aff876efafdc714da57916e240c4da6f4">_script.js</a>
 </li>
 <li>windowWidth()
 : <a class="el" href="d7/dec/a00010.php#a70df9b56b7888e346802f74749b3a630">_script.js</a>
-</li>
-<li>wt
-: <a class="el" href="d1/d2b/a00018.php#afbce0a18fa4ef1bb8fa69d7ff3d3eb74">bootstrap.bundle.min.js</a>
 </li>
 </ul>
 </div><!-- contents -->

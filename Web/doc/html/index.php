@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -136,8 +135,8 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li><a class="el" href="d7/dec/a00010.php#abc28be0063ceea3a2dbac6e5d8f42bd4" title="Add a function to the onloadFunction array and save the arguments. ">addOnload()</a></li>
 <li><a class="el" href="d7/dec/a00010.php#af25c5b56dd6e0a4c8e76e1d6ec197417" title="Add a function to the onresizeFunction array and save the arguments. ">addOnresize()</a></li>
 <li><a class="el" href="d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. ">ajaxRequest()</a></li>
-<li><a class="el" href="d6/d5b/a00026.php#a9feccf800829cefff3a1214b7aaf1e51" title="Encode html caracters in string. ">html_encode()</a></li>
-<li><a class="el" href="d6/d5b/a00026.php#a45e51b85c4813b1c858c8c4ed7fed67f" title="Decode html caracters in string. ">html_decode()</a></li>
+<li><a class="el" href="de/d11/a00021.php#a9feccf800829cefff3a1214b7aaf1e51" title="Encode html caracters in string. ">html_encode()</a></li>
+<li><a class="el" href="de/d11/a00021.php#a45e51b85c4813b1c858c8c4ed7fed67f" title="Decode html caracters in string. ">html_decode()</a></li>
 </ul>
 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>

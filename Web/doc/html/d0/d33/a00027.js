@@ -1,5 +1,5 @@
 var a00027 =
 [
-    [ "$bdd", "d0/d33/a00027.php#a94f91e878bce0991e2cd595c5dd79b3f", null ],
-    [ "$head", "d0/d33/a00027.php#a687ea7fcd78263867b5bd34ed56b6379", null ]
+    [ "dateSql", "d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485", null ],
+    [ "sqlDate", "d0/d33/a00027.php#a9163d2fe688993dee3abd2ca8f183067", null ]
 ];

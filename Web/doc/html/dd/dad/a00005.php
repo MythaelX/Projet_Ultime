@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -118,7 +117,7 @@ $(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ded9c06403143740e1488cb0484ce75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a5ded9c06403143740e1488cb0484ce75">__construct</a> ($<a class="el" href="../../df/d5f/a00064.php#aa72e0c8a20e6bcc571d3a1c51846e627">path</a>, $session=1)</td></tr>
+<tr class="memitem:a5ded9c06403143740e1488cb0484ce75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a5ded9c06403143740e1488cb0484ce75">__construct</a> ($<a class="el" href="../../d4/d6d/a00055.php#aa72e0c8a20e6bcc571d3a1c51846e627">path</a>, $session=1)</td></tr>
 <tr class="memdesc:a5ded9c06403143740e1488cb0484ce75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="#a5ded9c06403143740e1488cb0484ce75">More...</a><br /></td></tr>
 <tr class="separator:a5ded9c06403143740e1488cb0484ce75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8e3779f5bd8c38f70307574859bd36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dad/a00005.php#a2b8e3779f5bd8c38f70307574859bd36">show</a> ()</td></tr>
@@ -164,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to create the html head of a page. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00013">13</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00013">13</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5ded9c06403143740e1488cb0484ce75"></a>
 <div class="memitem">
@@ -194,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <p>Start the PHP session system</p>
 <p>Create the beginning part of the code </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00018">18</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00018">18</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -214,7 +213,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Return the head code. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00039">39</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00039">39</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -233,7 +232,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Recovery of the saved path. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00044">44</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00044">44</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -263,7 +262,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page author. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00138">138</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00138">138</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -283,7 +282,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the charset. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00049">49</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00049">49</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -303,7 +302,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page description. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00128">128</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00128">128</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -323,7 +322,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page icon. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00078">78</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00078">78</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -353,7 +352,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page keywords. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00123">123</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00123">123</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -373,7 +372,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page language. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00133">133</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00133">133</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -409,7 +408,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of a JavaScript tag with JS source code. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00106">106</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00106">106</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -445,7 +444,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of a script tag to a javaScript file. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00083">83</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00083">83</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -475,7 +474,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of a style tag to a stylesheet. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00059">59</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00059">59</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -495,7 +494,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Definition of the page title. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00054">54</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00054">54</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
@@ -514,12 +513,12 @@ Public Member Functions</h2></td></tr>
 
 <p>Show the head tag. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00034">34</a> of file <a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d2b/a00018_source.php#l00034">34</a> of file <a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/d52/a00023_source.php">class-Head_Creator.php</a></li>
+<li><a class="el" href="../../d1/d2b/a00018_source.php">class-Head_Creator.php</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

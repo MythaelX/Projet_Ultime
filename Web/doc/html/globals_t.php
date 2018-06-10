@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -84,9 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.php#index_0x21"><span>!</span></a></li>
-      <li><a href="globals_0x24.php#index_0x24"><span>$</span></a></li>
-      <li><a href="globals__.php#index__"><span>_</span></a></li>
+      <li><a href="globals.php#index_0x24"><span>$</span></a></li>
       <li><a href="globals_a.php#index_a"><span>a</span></a></li>
       <li><a href="globals_b.php#index_b"><span>b</span></a></li>
       <li><a href="globals_c.php#index_c"><span>c</span></a></li>
@@ -97,7 +94,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_h.php#index_h"><span>h</span></a></li>
       <li><a href="globals_i.php#index_i"><span>i</span></a></li>
       <li><a href="globals_j.php#index_j"><span>j</span></a></li>
-      <li><a href="globals_k.php#index_k"><span>k</span></a></li>
       <li><a href="globals_l.php#index_l"><span>l</span></a></li>
       <li><a href="globals_m.php#index_m"><span>m</span></a></li>
       <li><a href="globals_n.php#index_n"><span>n</span></a></li>
@@ -110,9 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_u.php#index_u"><span>u</span></a></li>
       <li><a href="globals_v.php#index_v"><span>v</span></a></li>
       <li><a href="globals_w.php#index_w"><span>w</span></a></li>
-      <li><a href="globals_x.php#index_x"><span>x</span></a></li>
-      <li><a href="globals_y.php#index_y"><span>y</span></a></li>
-      <li><a href="globals_z.php#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -148,77 +141,35 @@ $(document).ready(function(){initNavTree('globals_t.php','');});
 <div class="textblock">Here is a list of all functions, variables, defines, enums, and typedefs with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
-<li>T
-: <a class="el" href="de/d11/a00021.php#aa798e0c32253f973f3154aa30c996eb2">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#aa798e0c32253f973f3154aa30c996eb2">jquery.min.js</a>
-</li>
-<li>t
-: <a class="el" href="de/d11/a00021.php#a23c5666e83bbbceee94adcd0851f50c4">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d3/dea/a00046.php#a23c5666e83bbbceee94adcd0851f50c4">jquery.min.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a23c5666e83bbbceee94adcd0851f50c4">bootstrap.bundle.min.js</a>
-</li>
-<li>Tab
-: <a class="el" href="dd/da2/a00019.php#a1796b6dc9a42d7d6f1993786e3c5ec60">bootstrap.js</a>
-, <a class="el" href="de/d11/a00021.php#a7894a1cbda762084cc44f2a47ac103eb">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d4/d51/a00017.php#a1796b6dc9a42d7d6f1993786e3c5ec60">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a7894a1cbda762084cc44f2a47ac103eb">bootstrap.bundle.min.js</a>
-</li>
-<li>taskDebounce()
-: <a class="el" href="d4/d51/a00017.php#a0183381b0aa13f5c36d406bb7071d2cc">bootstrap.bundle.js</a>
-</li>
 <li>tchatAddAnswer()
-: <a class="el" href="d9/db3/a00066.php#a472e643fae19070bd14fd3e960455833">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833">tchat.js</a>
 </li>
 <li>tchatAddQuestion()
-: <a class="el" href="d9/db3/a00066.php#a47c05899a60dab59f07c18864339c5b6">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a47c05899a60dab59f07c18864339c5b6">tchat.js</a>
 </li>
 <li>tchatButton
-: <a class="el" href="d9/db3/a00066.php#ac4098fcd83e8c7c24ad263c67086d76b">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#ac4098fcd83e8c7c24ad263c67086d76b">tchat.js</a>
 </li>
 <li>tchatChildCreator()
-: <a class="el" href="d9/db3/a00066.php#a9ec791f85c73ebbcd2015de18f44532d">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d">tchat.js</a>
 </li>
 <li>tchatChildType
-: <a class="el" href="d9/db3/a00066.php#a3eca938b760c840905978c08b3354958">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a3eca938b760c840905978c08b3354958">tchat.js</a>
 </li>
 <li>tchatContainer
-: <a class="el" href="d9/db3/a00066.php#a3888caf192bed1af25b662a84dde950b">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a3888caf192bed1af25b662a84dde950b">tchat.js</a>
 </li>
 <li>tchatSend()
-: <a class="el" href="d9/db3/a00066.php#a38f8d78be6e36a10cc4e875eed8c2b83">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a38f8d78be6e36a10cc4e875eed8c2b83">tchat.js</a>
 </li>
 <li>tchatSendZone
-: <a class="el" href="d9/db3/a00066.php#af1da6c59346f047e583b6dd47160e4b6">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#af1da6c59346f047e583b6dd47160e4b6">tchat.js</a>
 </li>
 <li>tchatTextToSend
-: <a class="el" href="d9/db3/a00066.php#a0343a97d29de414de2c4df4bafb67895">tchat.js</a>
+: <a class="el" href="d1/d22/a00057.php#a0343a97d29de414de2c4df4bafb67895">tchat.js</a>
 </li>
 <li>tchatTextZone
-: <a class="el" href="d9/db3/a00066.php#ad166970846bb8365d81b411a683c437e">tchat.js</a>
-</li>
-<li>this
-: <a class="el" href="d4/d51/a00017.php#a05c09a5e9d53fa7adf0a7936038c2fa3">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#a05c09a5e9d53fa7adf0a7936038c2fa3">bootstrap.bundle.min.js</a>
-, <a class="el" href="dd/da2/a00019.php#a05c09a5e9d53fa7adf0a7936038c2fa3">bootstrap.js</a>
-, <a class="el" href="de/d11/a00021.php#a05c09a5e9d53fa7adf0a7936038c2fa3">bootstrap/bootstrap.min.js</a>
-</li>
-<li>timeoutDuration
-: <a class="el" href="d4/d51/a00017.php#afc40ee311a39fef1f778824d2059d426">bootstrap.bundle.js</a>
-</li>
-<li>toggle
-: <a class="el" href="db/db2/a00020.php#aa8e797a9bda5e7e313be3518054164a3">autres/bootstrap.min.js</a>
-</li>
-<li>Tooltip
-: <a class="el" href="dd/da2/a00019.php#a8bc91fbc10ac1566135a747b9c84dd3d">bootstrap.js</a>
-, <a class="el" href="de/d11/a00021.php#ae594dde6f00c8c42cf498e21fd46c283">bootstrap/bootstrap.min.js</a>
-, <a class="el" href="d4/d51/a00017.php#a8bc91fbc10ac1566135a747b9c84dd3d">bootstrap.bundle.js</a>
-, <a class="el" href="d1/d2b/a00018.php#ae594dde6f00c8c42cf498e21fd46c283">bootstrap.bundle.min.js</a>
-</li>
-<li>TRANSITION_DURATION
-: <a class="el" href="db/db2/a00020.php#ae4adb159aeacba734c34bd530baf92f6">autres/bootstrap.min.js</a>
-</li>
-<li>Tt()
-: <a class="el" href="d1/d2b/a00018.php#ac04a172fa95486bd60a6dead73059950">bootstrap.bundle.min.js</a>
+: <a class="el" href="d1/d22/a00057.php#ad166970846bb8365d81b411a683c437e">tchat.js</a>
 </li>
 <li>typeValue_array()
 : <a class="el" href="d2/de7/a00014.php#ac25e0cea9220cf427db18de77a1cc282">arrays.php</a>

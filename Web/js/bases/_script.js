@@ -651,7 +651,6 @@ function enable(el){
 /**************************/
 
 /*!
-* \fn		selector()
 * \brief	Selector as in JQuery
 *		\param[in]		selector			The css selector of the wanted object
 */

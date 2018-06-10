@@ -127,7 +127,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:aa341c64280e4f907737862137f8ee707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an element by id.  <a href="#aa341c64280e4f907737862137f8ee707">More...</a><br /></td></tr>
 <tr class="separator:aa341c64280e4f907737862137f8ee707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../d9/d73/a00060_source.php">scraper.php</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="aa341c64280e4f907737862137f8ee707"></a>
 <div class="memitem">
 <div class="memproto">

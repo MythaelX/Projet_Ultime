@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: request.php File Reference</title>
+<title>Hot Dog QUIZ: tchat.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -108,7 +107,7 @@ $(document).ready(function(){initNavTree('d7/df7/a00058.php','../../');});
   <div class="summary">
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">request.php File Reference</div>  </div>
+<div class="title">tchat.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,70 +115,43 @@ $(document).ready(function(){initNavTree('d7/df7/a00058.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, &quot;127.0.0.1:3306&quot;, &quot;chatbottest&quot;, &quot;mathias&quot;, &quot;chipie&quot;)</td></tr>
 <tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#a7fd0384e6fc79c4dac5e25ab16d186ba">$requestRessource</a> = <a class="el" href="../../db/d3a/a00040.php#a443ea3a863c29aed90f572de52c0b04d">nextRes</a>()</td></tr>
-<tr class="separator:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#a6efc15b5a2314dd4b5aaa556a375c6d6">$data</a> = NULL</td></tr>
-<tr class="separator:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00944b44575a6b06d388e807358cd5"><td class="memItemLeft" align="right" valign="top">switch($type)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#afb00944b44575a6b06d388e807358cd5">exit</a></td></tr>
-<tr class="separator:afb00944b44575a6b06d388e807358cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a8a4009b02e49717caa88b128affc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df7/a00058.php#a49a8a4009b02e49717caa88b128affc5">$res</a> = <a class="el" href="../../d4/d8c/a00035.php#a443ea3a863c29aed90f572de52c0b04d">nextRes</a>()</td></tr>
+<tr class="separator:a49a8a4009b02e49717caa88b128affc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018</dd></dl>
+<p>Return some text as a little tchat connected with the database </p><dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000006">Todo:</a></b></dt><dd></dd></dl>
+
+<p>Definition in file <a class="el" href="../../d7/df7/a00058_source.php">tchat.php</a>.</p>
+</div><h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bdd = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">$bdd = new <a class="el" href="../../d1/d7c/a00003.php">Bdd</a>(&quot;mysql&quot;, &quot;127.0.0.1:3306&quot;, &quot;chatbottest&quot;, &quot;mathias&quot;, &quot;chipie&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00010">10</a> of file <a class="el" href="../../d7/df7/a00058_source.php">request.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00014">14</a> of file <a class="el" href="../../d7/df7/a00058_source.php">tchat.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6efc15b5a2314dd4b5aaa556a375c6d6"></a>
+<a class="anchor" id="a49a8a4009b02e49717caa88b128affc5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$<a class="el" href="../../d5/df9/a00044.php#a20b6cd228a69593c03af5dc445393936">data</a> = NULL</td>
+          <td class="memname">$res = <a class="el" href="../../d4/d8c/a00035.php#a443ea3a863c29aed90f572de52c0b04d">nextRes</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00014">14</a> of file <a class="el" href="../../d7/df7/a00058_source.php">request.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7fd0384e6fc79c4dac5e25ab16d186ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$requestRessource = <a class="el" href="../../db/d3a/a00040.php#a443ea3a863c29aed90f572de52c0b04d">nextRes</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00013">13</a> of file <a class="el" href="../../d7/df7/a00058_source.php">request.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afb00944b44575a6b06d388e807358cd5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">switch ($type) exit</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>traitement des données pour envoyer la requête sql </p>
-
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00016">16</a> of file <a class="el" href="../../d7/df7/a00058_source.php">request.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00016">16</a> of file <a class="el" href="../../d7/df7/a00058_source.php">tchat.php</a>.</p>
 
 </div>
 </div>
@@ -188,7 +160,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d7/df7/a00058.php">request.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d7/df7/a00058.php">tchat.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

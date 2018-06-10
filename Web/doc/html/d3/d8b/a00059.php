@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: score.js File Reference</title>
+<title>Hot Dog QUIZ: zip.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -106,10 +105,9 @@ $(document).ready(function(){initNavTree('d3/d8b/a00059.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">score.js File Reference</div>  </div>
+<div class="title">zip.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,105 +115,40 @@ $(document).ready(function(){initNavTree('d3/d8b/a00059.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a50677de3f9695ebbec57e53cdbc7844a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a">polarToCartesian</a> (centerX, centerY, radius, angleInDegrees)</td></tr>
-<tr class="memdesc:a50677de3f9695ebbec57e53cdbc7844a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a position from polar to cartesian.  <a href="#a50677de3f9695ebbec57e53cdbc7844a">More...</a><br /></td></tr>
-<tr class="separator:a50677de3f9695ebbec57e53cdbc7844a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab62d0f7ff871ba950d8acc73ef4fd0f0"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#ab62d0f7ff871ba950d8acc73ef4fd0f0">createBackScore</a> (el, <a class="el" href="../../d3/dea/a00046.php#a9721a992655f700bdc2e91ba68b71e26">w</a>, <a class="el" href="../../d3/dea/a00046.php#a79fe0eb780a2a4b5543b4dddf8b6188a">h</a>, deg)</td></tr>
-<tr class="memdesc:ab62d0f7ff871ba950d8acc73ef4fd0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the background of the score.  <a href="#ab62d0f7ff871ba950d8acc73ef4fd0f0">More...</a><br /></td></tr>
-<tr class="separator:ab62d0f7ff871ba950d8acc73ef4fd0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a161ce9a41036f148f21c028ec8fdb"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#ae4a161ce9a41036f148f21c028ec8fdb">createRound</a> (el, <a class="el" href="../../d3/dea/a00046.php#a9721a992655f700bdc2e91ba68b71e26">w</a>, <a class="el" href="../../d3/dea/a00046.php#a79fe0eb780a2a4b5543b4dddf8b6188a">h</a>, min, max, <a class="el" href="../../d1/d2b/a00018.php#a5723219560fc630298d53eb6e83b4d26">n</a>, deg)</td></tr>
-<tr class="memdesc:ae4a161ce9a41036f148f21c028ec8fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the colored round for the score.  <a href="#ae4a161ce9a41036f148f21c028ec8fdb">More...</a><br /></td></tr>
-<tr class="separator:ae4a161ce9a41036f148f21c028ec8fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9058c9f8dc74f92e18645bb8eae28f4"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#ac9058c9f8dc74f92e18645bb8eae28f4">createScore</a> (el, <a class="el" href="../../d3/dea/a00046.php#a9721a992655f700bdc2e91ba68b71e26">w</a>, <a class="el" href="../../d3/dea/a00046.php#a79fe0eb780a2a4b5543b4dddf8b6188a">h</a>, min, max, <a class="el" href="../../d1/d2b/a00018.php#a5723219560fc630298d53eb6e83b4d26">n</a>, <a class="el" href="../../de/d11/a00021.php#a1e99b66ec05f848b367484f62b1d1521">r</a>, <a class="el" href="../../d3/dea/a00046.php#aeb337d295abaddb5ec3cb34cc2e2bbc9">d</a>)</td></tr>
-<tr class="memdesc:ac9058c9f8dc74f92e18645bb8eae28f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the printed score.  <a href="#ac9058c9f8dc74f92e18645bb8eae28f4">More...</a><br /></td></tr>
-<tr class="separator:ac9058c9f8dc74f92e18645bb8eae28f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10fbf45945d13d59caee20c0127921d9"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a10fbf45945d13d59caee20c0127921d9">initScore</a> ()</td></tr>
-<tr class="memdesc:a10fbf45945d13d59caee20c0127921d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create all the score in the page.  <a href="#a10fbf45945d13d59caee20c0127921d9">More...</a><br /></td></tr>
-<tr class="separator:a10fbf45945d13d59caee20c0127921d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb848f46d7695bd4fca7f7966f065321"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#abb848f46d7695bd4fca7f7966f065321">addOnload</a> (<a class="el" href="../../d3/d8b/a00059.php#a10fbf45945d13d59caee20c0127921d9">initScore</a>)</td></tr>
-<tr class="memdesc:abb848f46d7695bd4fca7f7966f065321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a function to the onloadFunction array and save the arguments.  <a href="#abb848f46d7695bd4fca7f7966f065321">More...</a><br /></td></tr>
-<tr class="separator:abb848f46d7695bd4fca7f7966f065321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e0ac0dd875dedf8be0b565ef56e7d9"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a96e0ac0dd875dedf8be0b565ef56e7d9">svgNS</a> = &quot;http://www.w3.org/2000/svg&quot;</td></tr>
-<tr class="memdesc:a96e0ac0dd875dedf8be0b565ef56e7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an svg block.  <a href="#a96e0ac0dd875dedf8be0b565ef56e7d9">More...</a><br /></td></tr>
-<tr class="separator:a96e0ac0dd875dedf8be0b565ef56e7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a409be39b47b1e1ae747d6824755ca103"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a409be39b47b1e1ae747d6824755ca103">danger</a> = &quot;#F16328&quot;</td></tr>
-<tr class="memdesc:a409be39b47b1e1ae747d6824755ca103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the colors.  <a href="#a409be39b47b1e1ae747d6824755ca103">More...</a><br /></td></tr>
-<tr class="separator:a409be39b47b1e1ae747d6824755ca103"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01a70bfb22eb8e527cd6dce7499435a2"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a01a70bfb22eb8e527cd6dce7499435a2">warning</a> = &quot;#F6BB45&quot;</td></tr>
-<tr class="memdesc:a01a70bfb22eb8e527cd6dce7499435a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the colors.  <a href="#a01a70bfb22eb8e527cd6dce7499435a2">More...</a><br /></td></tr>
-<tr class="separator:a01a70bfb22eb8e527cd6dce7499435a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fdce5857b83c94e55a859b273e17580"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a6fdce5857b83c94e55a859b273e17580">info</a> = &quot;#68B3C8&quot;</td></tr>
-<tr class="memdesc:a6fdce5857b83c94e55a859b273e17580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the colors.  <a href="#a6fdce5857b83c94e55a859b273e17580">More...</a><br /></td></tr>
-<tr class="separator:a6fdce5857b83c94e55a859b273e17580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a900980c095eb341321cf9d6866db4972"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#a900980c095eb341321cf9d6866db4972">success</a> = &quot;#0f0&quot;</td></tr>
-<tr class="memdesc:a900980c095eb341321cf9d6866db4972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose the colors.  <a href="#a900980c095eb341321cf9d6866db4972">More...</a><br /></td></tr>
-<tr class="separator:a900980c095eb341321cf9d6866db4972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd84d8d44a501306cdfe5bccbeeb12b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#abdd84d8d44a501306cdfe5bccbeeb12b">pushZip</a> ($origin, $from, $zip)</td></tr>
+<tr class="memdesc:abdd84d8d44a501306cdfe5bccbeeb12b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push in a zip ressource from given path.  <a href="#abdd84d8d44a501306cdfe5bccbeeb12b">More...</a><br /></td></tr>
+<tr class="separator:abdd84d8d44a501306cdfe5bccbeeb12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b4d803f851d38bbafe42092fc5b8c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.php#af8b4d803f851d38bbafe42092fc5b8c5">createZip</a> ($from, $to, $name=&quot;&quot;)</td></tr>
+<tr class="memdesc:af8b4d803f851d38bbafe42092fc5b8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a zip folder from given to given.  <a href="#af8b4d803f851d38bbafe42092fc5b8c5">More...</a><br /></td></tr>
+<tr class="separator:af8b4d803f851d38bbafe42092fc5b8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
+<p>Definition in file <a class="el" href="../../d3/d8b/a00059_source.php">zip.php</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="abb848f46d7695bd4fca7f7966f065321"></a>
+<a class="anchor" id="af8b4d803f851d38bbafe42092fc5b8c5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">addOnload </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d8b/a00059.php#a10fbf45945d13d59caee20c0127921d9">initScore</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add a function to the onloadFunction array and save the arguments. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">funct</td><td>The function to add </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The arguments of the function </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00520">520</a> of file <a class="el" href="../../d7/dec/a00010_source.php">_script.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab62d0f7ff871ba950d8acc73ef4fd0f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function createBackScore </td>
+          <td class="memname">createZip </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em>, </td>
+          <td class="paramname"><em>$from</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
+          <td class="paramname"><em>$to</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>deg</em>&#160;</td>
+          <td class="paramname"><em>$name</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -225,76 +158,54 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create the background of the score. </p>
+<p>Create a zip folder from given to given. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The element where to print </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">deg</td><td>The degrees to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$from</td><td>The directory for the content to zip </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$to</td><td>The directory to save the zip </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$name</td><td>The name of the zip file, by default : YYYYMMDD_HHMMSS </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Create the zip or print an error_log </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00045">45</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00043">43</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">zip.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d8b/a00059_ab62d0f7ff871ba950d8acc73ef4fd0f0_cgraph.png" border="0" usemap="#d3/d8b/a00059_ab62d0f7ff871ba950d8acc73ef4fd0f0_cgraph" alt=""/></div>
-<map name="d3/d8b/a00059_ab62d0f7ff871ba950d8acc73ef4fd0f0_cgraph" id="d3/d8b/a00059_ab62d0f7ff871ba950d8acc73ef4fd0f0_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="176,5,297,32"/>
+<div class="center"><img src="../../d3/d8b/a00059_af8b4d803f851d38bbafe42092fc5b8c5_cgraph.png" border="0" usemap="#d3/d8b/a00059_af8b4d803f851d38bbafe42092fc5b8c5_cgraph" alt=""/></div>
+<map name="d3/d8b/a00059_af8b4d803f851d38bbafe42092fc5b8c5_cgraph" id="d3/d8b/a00059_af8b4d803f851d38bbafe42092fc5b8c5_cgraph">
+<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#abdd84d8d44a501306cdfe5bccbeeb12b" title="Push in a zip ressource from given path. " alt="" coords="129,31,197,57"/>
+<area shape="rect" id="node3" href="../../d5/d16/a00029.php#a64d5d1874afee2516d03e95bc3d06a55" title="Function that return all the content of a folder. " alt="" coords="249,5,326,32"/>
+<area shape="rect" id="node4" href="../../d7/dec/a00010.php#ae62433ff7c2d58fccafe252a4e010720" title="Function that replace all occurences in a string. " alt="" coords="245,56,329,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ae4a161ce9a41036f148f21c028ec8fdb"></a>
+<a class="anchor" id="abdd84d8d44a501306cdfe5bccbeeb12b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function createRound </td>
+          <td class="memname">pushZip </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em>, </td>
+          <td class="paramname"><em>$origin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
+          <td class="paramname"><em>$from</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>n</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>deg</em>&#160;</td>
+          <td class="paramname"><em>$zip</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -304,304 +215,28 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Create the colored round for the score. </p>
+<p>Push in a zip ressource from given path. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The element where to print </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>The minimum value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>The maximum value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>The actual value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">deg</td><td>The degrees to use </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$origin</td><td>The origin of the search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$from</td><td>The folder from the search </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">$zip</td><td>The zip file </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00088">88</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00015">15</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">zip.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d8b/a00059_ae4a161ce9a41036f148f21c028ec8fdb_cgraph.png" border="0" usemap="#d3/d8b/a00059_ae4a161ce9a41036f148f21c028ec8fdb_cgraph" alt=""/></div>
-<map name="d3/d8b/a00059_ae4a161ce9a41036f148f21c028ec8fdb_cgraph" id="d3/d8b/a00059_ae4a161ce9a41036f148f21c028ec8fdb_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="149,5,271,32"/>
+<div class="center"><img src="../../d3/d8b/a00059_abdd84d8d44a501306cdfe5bccbeeb12b_cgraph.png" border="0" usemap="#d3/d8b/a00059_abdd84d8d44a501306cdfe5bccbeeb12b_cgraph" alt=""/></div>
+<map name="d3/d8b/a00059_abdd84d8d44a501306cdfe5bccbeeb12b_cgraph" id="d3/d8b/a00059_abdd84d8d44a501306cdfe5bccbeeb12b_cgraph">
+<area shape="rect" id="node2" href="../../d5/d16/a00029.php#a64d5d1874afee2516d03e95bc3d06a55" title="Function that return all the content of a folder. " alt="" coords="125,5,202,32"/>
+<area shape="rect" id="node3" href="../../d7/dec/a00010.php#ae62433ff7c2d58fccafe252a4e010720" title="Function that replace all occurences in a string. " alt="" coords="121,56,205,83"/>
 </map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="ac9058c9f8dc74f92e18645bb8eae28f4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function createScore </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>el</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>w</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>h</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>n</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>d</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create the printed score. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">el</td><td>The element where to print </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>The width of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The height of the element to create </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>The minimum value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>The maximum value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>The actual value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>The ratio between the value and the boundaries </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">d</td><td>The degrees to use </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00147">147</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/d8b/a00059_ac9058c9f8dc74f92e18645bb8eae28f4_cgraph.png" border="0" usemap="#d3/d8b/a00059_ac9058c9f8dc74f92e18645bb8eae28f4_cgraph" alt=""/></div>
-<map name="d3/d8b/a00059_ac9058c9f8dc74f92e18645bb8eae28f4_cgraph" id="d3/d8b/a00059_ac9058c9f8dc74f92e18645bb8eae28f4_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#ab62d0f7ff871ba950d8acc73ef4fd0f0" title="Create the background of the score. " alt="" coords="145,5,268,32"/>
-<area shape="rect" id="node4" href="../../d3/d8b/a00059.php#ae4a161ce9a41036f148f21c028ec8fdb" title="Create the colored round for the score. " alt="" coords="159,56,255,83"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="316,31,437,57"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a10fbf45945d13d59caee20c0127921d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function initScore </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create all the score in the page. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00202">202</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/d8b/a00059_a10fbf45945d13d59caee20c0127921d9_cgraph.png" border="0" usemap="#d3/d8b/a00059_a10fbf45945d13d59caee20c0127921d9_cgraph" alt=""/></div>
-<map name="d3/d8b/a00059_a10fbf45945d13d59caee20c0127921d9_cgraph" id="d3/d8b/a00059_a10fbf45945d13d59caee20c0127921d9_cgraph">
-<area shape="rect" id="node2" href="../../d4/d8c/a00035.php#af5fde6a754bc0e9c7872a974abde85a8" title="score" alt="" coords="145,56,200,83"/>
-<area shape="rect" id="node5" href="../../d3/d8b/a00059.php#ac9058c9f8dc74f92e18645bb8eae28f4" title="Create the printed score. " alt="" coords="127,107,219,133"/>
-<area shape="rect" id="node9" href="../../d3/d8b/a00059.php#abb848f46d7695bd4fca7f7966f065321" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="131,157,215,184"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="303,5,353,32"/>
-<area shape="rect" id="node4" href="../../d4/d8c/a00035.php#afcef1294902ca07027096e59292f89c1" title="sendJsonData" alt="" coords="275,56,381,83"/>
-<area shape="rect" id="node6" href="../../d3/d8b/a00059.php#ab62d0f7ff871ba950d8acc73ef4fd0f0" title="Create the background of the score. " alt="" coords="267,107,389,133"/>
-<area shape="rect" id="node8" href="../../d3/d8b/a00059.php#ae4a161ce9a41036f148f21c028ec8fdb" title="Create the colored round for the score. " alt="" coords="280,157,376,184"/>
-<area shape="rect" id="node7" href="../../d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="437,132,559,159"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a50677de3f9695ebbec57e53cdbc7844a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function polarToCartesian </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>centerX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>centerY</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>angleInDegrees</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert a position from polar to cartesian. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">centerX</td><td>The X position of the center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">centerY</td><td>The Y position of the center </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">radius</td><td>The radius that we want to use </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">angleInDegrees</td><td>The angle in degrees </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00017">17</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a409be39b47b1e1ae747d6824755ca103"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var danger = &quot;#F16328&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Choose the colors. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00030">30</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6fdce5857b83c94e55a859b273e17580"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var info = &quot;#68B3C8&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Choose the colors. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00034">34</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">use strict</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00008">8</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a900980c095eb341321cf9d6866db4972"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var success = &quot;#0f0&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Choose the colors. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00036">36</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a96e0ac0dd875dedf8be0b565ef56e7d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var svgNS = &quot;http://www.w3.org/2000/svg&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create an svg block. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00027">27</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a01a70bfb22eb8e527cd6dce7499435a2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var warning = &quot;#F6BB45&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Choose the colors. </p>
-
-<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00032">32</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">score.js</a>.</p>
 
 </div>
 </div>
@@ -610,7 +245,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../dir_7f6039165b01e915906209a61c672699.php">score</a></li><li class="navelem"><a class="el" href="../../d3/d8b/a00059.php">score.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d3/d8b/a00059.php">zip.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

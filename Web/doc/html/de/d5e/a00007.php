@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -134,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class to talk with the <a class="el" href="../../de/d5e/a00007.php" title="A class to talk with the Paypal API. ">Paypal</a> API. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Recreate the API communication part </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dfe/a00025_source.php#l00014">14</a> of file <a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a>.</p>
+<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00014">14</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0ed77dab5f67e7f02f86e720999536a4"></a>
 <div class="memitem">
@@ -150,17 +149,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/dfe/a00025_source.php#l00022">22</a> of file <a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d5e/a00007_a0ed77dab5f67e7f02f86e720999536a4_cgraph.png" border="0" usemap="#de/d5e/a00007_a0ed77dab5f67e7f02f86e720999536a4_cgraph" alt=""/></div>
-<map name="de/d5e/a00007_a0ed77dab5f67e7f02f86e720999536a4_cgraph" id="de/d5e/a00007_a0ed77dab5f67e7f02f86e720999536a4_cgraph">
-<area shape="rect" id="node2" href="../../db/db2/a00020.php#af15ce22371f8af3b38c7d40a4987b366" title="version" alt="" coords="144,5,208,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00022">22</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
 
 </div>
 </div>
@@ -213,7 +202,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the request </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dfe/a00025_source.php#l00058">58</a> of file <a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a>.</p>
+<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00058">58</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -221,8 +210,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph.png" border="0" usemap="#de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph" alt=""/></div>
 <map name="de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph" id="de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph">
 <area shape="rect" id="node2" href="../../de/d5e/a00007.php#accd14bda49a1044b4d8dd93f020f11ee" title="Return the url of ask. " alt="" coords="143,5,200,32"/>
-<area shape="rect" id="node4" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="146,56,197,83"/>
-<area shape="rect" id="node3" href="../../db/db2/a00020.php#af15ce22371f8af3b38c7d40a4987b366" title="version" alt="" coords="248,5,312,32"/>
+<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="146,56,197,83"/>
 </map>
 </div>
 </p>
@@ -244,17 +232,7 @@ Here is the call graph for this function:</div>
 
 <p>Return the url of ask. </p>
 
-<p>Definition at line <a class="el" href="../../d3/dfe/a00025_source.php#l00040">40</a> of file <a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d5e/a00007_accd14bda49a1044b4d8dd93f020f11ee_cgraph.png" border="0" usemap="#de/d5e/a00007_accd14bda49a1044b4d8dd93f020f11ee_cgraph" alt=""/></div>
-<map name="de/d5e/a00007_accd14bda49a1044b4d8dd93f020f11ee_cgraph" id="de/d5e/a00007_accd14bda49a1044b4d8dd93f020f11ee_cgraph">
-<area shape="rect" id="node2" href="../../db/db2/a00020.php#af15ce22371f8af3b38c7d40a4987b366" title="version" alt="" coords="111,5,175,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00040">40</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
 
 </div>
 </div>
@@ -290,7 +268,7 @@ Here is the call graph for this function:</div>
 
 <p>Set the <em>$user</em>, <em>$pass</em>, <em>signature</em> for the API. </p>
 
-<p>Definition at line <a class="el" href="../../d3/dfe/a00025_source.php#l00028">28</a> of file <a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a>.</p>
+<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00028">28</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -305,7 +283,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/dfe/a00025_source.php">class-Paypal.php</a></li>
+<li><a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

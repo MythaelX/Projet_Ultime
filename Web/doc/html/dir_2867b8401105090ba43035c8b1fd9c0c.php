@@ -48,7 +48,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.php"><span>Namespaces</span></a></li>
       <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
@@ -121,17 +120,17 @@ Files</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/d1b/a00015"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dd/d1b/a00015.php">authentification.js</a> <a href="dd/d1b/a00015_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d3c/a00028"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dc/d3c/a00028.php">Creation.js</a> <a href="dc/d3c/a00028_source.php">[code]</a></td></tr>
+<tr class="memitem:d3/d52/a00023"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d3/d52/a00023.php">Creation.js</a> <a href="d3/d52/a00023_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/db6/a00042"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d5/db6/a00042.php">inscription.js</a> <a href="d5/db6/a00042_source.php">[code]</a></td></tr>
+<tr class="memitem:d1/dc6/a00037"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/dc6/a00037.php">inscription.js</a> <a href="d1/dc6/a00037_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/df9/a00044"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d5/df9/a00044.php">jeu.js</a> <a href="d5/df9/a00044_source.php">[code]</a></td></tr>
+<tr class="memitem:d3/de7/a00039"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d3/de7/a00039.php">jeu.js</a> <a href="d3/de7/a00039_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d2/d79/a00051"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d2/d79/a00051.php">navBar.js</a> <a href="d2/d79/a00051_source.php">[code]</a></td></tr>
+<tr class="memitem:d6/d42/a00043"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d6/d42/a00043.php">navBar.js</a> <a href="d6/d42/a00043_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/d84/a00052"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/d84/a00052.php">palmares.js</a> <a href="d1/d84/a00052_source.php">[code]</a></td></tr>
+<tr class="memitem:d5/df9/a00044"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d5/df9/a00044.php">palmares.js</a> <a href="d5/df9/a00044_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/de8/a00061"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d4/de8/a00061.php">script.js</a> <a href="d4/de8/a00061_source.php">[code]</a></td></tr>
+<tr class="memitem:d1/d84/a00052"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d1/d84/a00052.php">script.js</a> <a href="d1/d84/a00052_source.php">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
