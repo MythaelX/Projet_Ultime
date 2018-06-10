@@ -1,0 +1,35 @@
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:54: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:54: warning: Unsupported xml/html tag <iostream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:56: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:56: warning: Unsupported xml/html tag <fstream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:57: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:57: warning: Unsupported xml/html tag <sstream> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:59: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:59: warning: Unsupported xml/html tag <vector> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:60: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:60: warning: Unsupported xml/html tag <map> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:62: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:62: warning: Unsupported xml/html tag <string> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:64: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:64: warning: Unsupported xml/html tag <random> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:65: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:65: warning: Unsupported xml/html tag <algorithm> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:67: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:67: warning: Unsupported xml/html tag <type_traits> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:68: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:68: warning: Unsupported xml/html tag <typeinfo> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:69: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:69: warning: Unsupported xml/html tag <numeric> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:71: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:71: warning: Unsupported xml/html tag <thread> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:72: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:72: warning: Unsupported xml/html tag <mutex> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:74: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:74: warning: Unsupported xml/html tag <cmath> found
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:75: warning: explicit link request to 'include' could not be resolved
+/home/mathias/Bureau/Algo/C++Tests/C++/defines.hpp:75: warning: Unsupported xml/html tag <ctime> found
+/home/mathias/Bureau/Algo/C++Tests/C++/files.hpp:42: warning: argument 'input' of command @param is not found in the argument list of setlines(std::ofstream &output, std::vector< std::string > lines)
+/home/mathias/Bureau/Algo/C++Tests/C++/files.hpp:48: warning: The following parameters of setlines(std::ofstream &output, std::vector< std::string > lines) are not documented:
+  parameter 'output'
+/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:241: warning: argument 'obj' of command @param is not found in the argument list of BDD::applyForEach(Func &&f, std::string table, Args &&...args)
+/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:196: warning: argument 'table' of command @param is not found in the argument list of BDD::tables()

@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$da/d45/a00011.php" title="A contraption. " alt="" coords="5,31,95,57"/>
+<area shape="rect" id="node2" href="$d2/de7/a00014.php" title="An entity. " alt="" coords="146,56,202,83"/>
+<area shape="rect" id="node8" href="$db/db2/a00020.php" title="An object. " alt="" coords="144,5,204,32"/>
+<area shape="rect" id="node3" href="$d7/d46/a00002.php" title="An animal. " alt="" coords="255,107,318,133"/>
+<area shape="rect" id="node5" href="$dc/d3c/a00028.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
+<area shape="rect" id="node4" href="$d1/d7c/a00003.php" title="An ant. " alt="" coords="388,107,431,133"/>
+<area shape="rect" id="node6" href="$d1/d2b/a00018.php" title="A mushroom. " alt="" coords="368,56,451,83"/>
+<area shape="rect" id="node7" href="$de/d11/a00021.php" title="A plant. " alt="" coords="383,5,435,32"/>
+<area shape="rect" id="node9" href="$dd/d1b/a00015.php" title="A class to derivate from when the thing can attack. " alt="" coords="143,107,205,133"/>
+</map>

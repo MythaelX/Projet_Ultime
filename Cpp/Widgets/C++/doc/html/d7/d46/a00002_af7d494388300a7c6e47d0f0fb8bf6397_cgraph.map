@@ -1,0 +1,4 @@
+<map id="Animal::getSpecialAttack" name="Animal::getSpecialAttack">
+<area shape="rect" id="node2" href="$d7/d46/a00002.php#aab6124c1e2241cf9491eb0dcc9c7d482" title="Verify the collisions between two objects like rectangles. " alt="" coords="225,5,368,32"/>
+<area shape="rect" id="node3" href="$d7/d46/a00002.php#a68a645b96b63d106fafc6ef24f472cdc" title="Verify the collisions between a circle around this Animal and an other animal. " alt="" coords="223,56,371,83"/>
+</map>

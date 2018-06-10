@@ -1,0 +1,8 @@
+<map id="rightBalance" name="rightBalance">
+<area shape="rect" id="node2" href="$da/d24/a00068.php#ac291426463c8625f13688e606a05e4b8" title="createRightVine" alt="" coords="159,31,274,57"/>
+<area shape="rect" id="node5" href="$da/d24/a00068.php#a3e3bec3cf3101c5fd44f21ff9c4349f7" title="rightBalanceVine" alt="" coords="157,81,277,108"/>
+<area shape="rect" id="node7" href="$da/d24/a00068.php#a62d38298b4f4a9c44baa90aa8e9f29b0" title="Get the depth on right. " alt="" coords="148,132,285,159"/>
+<area shape="rect" id="node3" href="$da/d24/a00068.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="333,5,420,32"/>
+<area shape="rect" id="node4" href="$da/d24/a00068.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="337,56,416,83"/>
+<area shape="rect" id="node6" href="$da/d24/a00068.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="337,107,416,133"/>
+</map>
