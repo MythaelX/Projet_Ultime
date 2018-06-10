@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: coder.js File Reference</title>
+<title>Hot Dog QUIZ: partie.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,90 +102,18 @@ $(document).ready(function(){initNavTree('de/d11/a00021.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">coder.js File Reference</div>  </div>
+<div class="title">partie.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../de/d11/a00021_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9feccf800829cefff3a1214b7aaf1e51"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a9feccf800829cefff3a1214b7aaf1e51">html_encode</a> (str)</td></tr>
-<tr class="memdesc:a9feccf800829cefff3a1214b7aaf1e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode html caracters in string.  <a href="#a9feccf800829cefff3a1214b7aaf1e51">More...</a><br /></td></tr>
-<tr class="separator:a9feccf800829cefff3a1214b7aaf1e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45e51b85c4813b1c858c8c4ed7fed67f"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a45e51b85c4813b1c858c8c4ed7fed67f">html_decode</a> (str)</td></tr>
-<tr class="memdesc:a45e51b85c4813b1c858c8c4ed7fed67f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode html caracters in string.  <a href="#a45e51b85c4813b1c858c8c4ed7fed67f">More...</a><br /></td></tr>
-<tr class="separator:a45e51b85c4813b1c858c8c4ed7fed67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
-
-<p>Definition in file <a class="el" href="../../de/d11/a00021_source.php">coder.js</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a45e51b85c4813b1c858c8c4ed7fed67f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function html_decode </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Decode html caracters in string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to decode</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the decoded string </dd></dl>
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00024">24</a> of file <a class="el" href="../../de/d11/a00021_source.php">coder.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9feccf800829cefff3a1214b7aaf1e51"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function html_encode </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Encode html caracters in string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to encode</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the encoded string </dd></dl>
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00014">14</a> of file <a class="el" href="../../de/d11/a00021_source.php">coder.js</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dir_50bae84d6b514f2657cf039fb05a19d6.php">bases</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">coder.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">partie.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

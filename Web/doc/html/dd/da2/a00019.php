@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: class-Mail.php File Reference</title>
+<title>Hot Dog QUIZ: palmares.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,31 +103,253 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">class-Mail.php File Reference</div>  </div>
+<div class="title">palmares.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../dd/da2/a00019_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php">Mail</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to send mails.  <a href="../../de/d21/a00006.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab0dcb30b8bb2d32fb8190ee86ff68922"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#ab0dcb30b8bb2d32fb8190ee86ff68922">boutons</a> ()</td></tr>
+<tr class="separator:ab0dcb30b8bb2d32fb8190ee86ff68922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524">ajaxRequest</a> ('GET', 'php/request.php/tableauPalmares', <a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>,'difficulte=&quot;1&quot;')</td></tr>
+<tr class="separator:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">ajaxRequest</a> ('GET', 'php/request.php/tableauDifficulte', <a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>)</td></tr>
+<tr class="separator:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ee08540b9075228e330d9f9db693c"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a> (ajaxResponse)</td></tr>
+<tr class="separator:aae5ee08540b9075228e330d9f9db693c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5">affichage</a> (event)</td></tr>
+<tr class="separator:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8998e94bb89c9a2293f342374e97bc"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc">affichageTableau</a> (array)</td></tr>
+<tr class="separator:abb8998e94bb89c9a2293f342374e97bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ccf3e9b222affe42cc578b6d898694"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a> (ajaxResponse)</td></tr>
+<tr class="separator:aa1ccf3e9b222affe42cc578b6d898694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
+<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="af74f80f2d76592fc7d873aeabb9aecf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Definition in file <a class="el" href="../../dd/da2/a00019_source.php">class-Mail.php</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00018">18</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph.png" border="0" usemap="#dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" id="dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="142,5,237,32"/>
+<area shape="rect" id="node3" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694" title="loadTabPalmares" alt="" coords="128,56,251,83"/>
+<area shape="rect" id="node4" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="299,56,420,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aae5ee08540b9075228e330d9f9db693c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageBouton </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00011">11</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb8998e94bb89c9a2293f342374e97bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageTableau </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00038">38</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aefe809d5ec4fc79376f1ca1c67b71524"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauPalmares'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'&#160;</td>
+          <td class="paramname"><em>difficulte</em> = <code>&quot;1&quot;'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a20cd18a74fb2bbedbfacdb71b9aeadb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauDifficulte'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0dcb30b8bb2d32fb8190ee86ff68922"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function boutons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00005">5</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph.png" border="0" usemap="#dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph" id="dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5" title="affichage" alt="" coords="121,31,196,57"/>
+<area shape="rect" id="node3" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="258,5,353,32"/>
+<area shape="rect" id="node4" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694" title="loadTabPalmares" alt="" coords="244,56,367,83"/>
+<area shape="rect" id="node5" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="415,56,536,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1ccf3e9b222affe42cc578b6d898694"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function loadTabPalmares </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00051">51</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph.png" border="0" usemap="#dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph" id="dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="176,5,297,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">use strict</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00001">1</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../dd/da2/a00019.php">class-Mail.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dd/da2/a00019.php">palmares.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

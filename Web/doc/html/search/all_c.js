@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['laugth',['laugth',['../dc/d3c/a00028.php#a35117e28b8ed5b266466f2f509a39e28',1,'errors.php']]],
-  ['launchonloadfunctions',['launchOnloadFunctions',['../d7/dec/a00010.php#a7af845a157899e08b612d393f5b72fa5',1,'_script.js']]],
-  ['lc',['lc',['../dd/d32/a00041.php#a57e1ea504f03daee917d0e04d295e5f6',1,'map.js']]],
-  ['listimgs',['listImgs',['../d4/d6d/a00055.php#ab033da43f4d9abb9484023adb3cbe8da',1,'stars.js']]],
-  ['loadtabpalmares',['loadTabPalmares',['../d5/df9/a00044.php#aa1ccf3e9b222affe42cc578b6d898694',1,'palmares.js']]],
-  ['location',['location',['../da/d45/a00011.php#a9e7735e216b2770753e10ca177623f0f',1,'accueilPerso.js']]],
-  ['log',['log',['../d3/de7/a00039.php#ab71c22630f509647a916f70887b8c2ad',1,'jeu.js']]]
+  ['palmares_2ejs',['palmares.js',['../dd/da2/a00019.php',1,'']]],
+  ['palmares_2ephp',['palmares.php',['../db/db2/a00020.php',1,'']]],
+  ['partie_2ephp',['partie.php',['../de/d11/a00021.php',1,'']]],
+  ['presentation_2ephp',['presentation.php',['../d7/de0/a00022.php',1,'']]],
+  ['preventdefault',['preventDefault',['../d8/d84/a00001.php#abf5219628a269a37395ec5371980db8d',1,'accueilPerso.js']]],
+  ['proposition',['proposition',['../dd/d1b/a00015.php#ab516b26a4218f0f59b789a0d446bf79f',1,'jeu.js']]],
+  ['pseudo',['pseudo',['../d1/d2b/a00018.php#a1f0d86ab32405786812d806542ca3280',1,'navBar.js']]]
 ];

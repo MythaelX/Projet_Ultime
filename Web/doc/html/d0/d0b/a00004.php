@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Contact Class Reference</title>
+<title>Hot Dog QUIZ: Creation.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,9 +47,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -70,9 +68,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../classes.php"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="../../functions.php"><span>Data&#160;Fields</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -106,39 +103,106 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Contact Class Reference</div>  </div>
+<div class="title">Creation.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to create a contact page.  
- <a href="../../d0/d0b/a00004.php#details">More...</a></p>
+<p><a href="../../d0/d0b/a00004_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a095c5d389db211932136b53f25f39685"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a095c5d389db211932136b53f25f39685">__construct</a> ()</td></tr>
-<tr class="memdesc:a095c5d389db211932136b53f25f39685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a095c5d389db211932136b53f25f39685">More...</a><br /></td></tr>
-<tr class="separator:a095c5d389db211932136b53f25f39685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eab3fd69ef91baf43deb00ba1b9d4ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a0eab3fd69ef91baf43deb00ba1b9d4ff">canBePro</a> ()</td></tr>
-<tr class="memdesc:a0eab3fd69ef91baf43deb00ba1b9d4ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the user can be a professional user.  <a href="#a0eab3fd69ef91baf43deb00ba1b9d4ff">More...</a><br /></td></tr>
-<tr class="separator:a0eab3fd69ef91baf43deb00ba1b9d4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b8e3779f5bd8c38f70307574859bd36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a2b8e3779f5bd8c38f70307574859bd36">show</a> ()</td></tr>
-<tr class="memdesc:a2b8e3779f5bd8c38f70307574859bd36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the contact form to the page.  <a href="#a2b8e3779f5bd8c38f70307574859bd36">More...</a><br /></td></tr>
-<tr class="separator:a2b8e3779f5bd8c38f70307574859bd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a806ccfa4bdd83d47638b934f63aa597f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a806ccfa4bdd83d47638b934f63aa597f">ajaxRequest</a> ('GET','php/request.php/tableauThemes', <a class="el" href="../../d0/d0b/a00004.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a>)</td></tr>
+<tr class="separator:a806ccfa4bdd83d47638b934f63aa597f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6c29e01ed8d036be6656155f1080fe"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a> (ajaxResponse)</td></tr>
+<tr class="separator:aee6c29e01ed8d036be6656155f1080fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b3788c0664245d1de030f262f040ef"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a> (ajaxResponse)</td></tr>
+<tr class="separator:a34b3788c0664245d1de030f262f040ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2409b5e868763f39bddaca9e2c23035"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#ae2409b5e868763f39bddaca9e2c23035">creerPartie</a> ()</td></tr>
+<tr class="separator:ae2409b5e868763f39bddaca9e2c23035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#abaac36f85ddb9ededb3d06ba67dca72e">nbThemes</a> =0</td></tr>
+<tr class="separator:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to create a contact page. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00014">14</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a095c5d389db211932136b53f25f39685"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a34b3788c0664245d1de030f262f040ef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">function affichageDifficulte </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00018">18</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">Creation.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee6c29e01ed8d036be6656155f1080fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageThemes </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00005">5</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">Creation.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a806ccfa4bdd83d47638b934f63aa597f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauThemes'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d0b/a00004.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae2409b5e868763f39bddaca9e2c23035"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function creerPartie </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -146,60 +210,41 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor. </p>
+<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00028">28</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">Creation.js</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00019">19</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/d0b/a00004_ae2409b5e868763f39bddaca9e2c23035_cgraph.png" border="0" usemap="#d0/d0b/a00004_ae2409b5e868763f39bddaca9e2c23035_cgraph" alt=""/></div>
+<map name="d0/d0b/a00004_ae2409b5e868763f39bddaca9e2c23035_cgraph" id="d0/d0b/a00004_ae2409b5e868763f39bddaca9e2c23035_cgraph">
+<area shape="rect" id="node2" href="../../d0/d0b/a00004.php#a806ccfa4bdd83d47638b934f63aa597f" title="ajaxRequest" alt="" coords="139,5,233,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0eab3fd69ef91baf43deb00ba1b9d4ff"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="abaac36f85ddb9ededb3d06ba67dca72e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">canBePro </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">var nbThemes =0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set if the user can be a professional user. </p>
-
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00025">25</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00004">4</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">Creation.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2b8e3779f5bd8c38f70307574859bd36"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">show </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add the contact form to the page. </p>
-
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00061">61</a> of file <a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/d51/a00017_source.php">class-Contact.php</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d0b/a00004.php">Contact</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d0/d0b/a00004.php">Creation.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

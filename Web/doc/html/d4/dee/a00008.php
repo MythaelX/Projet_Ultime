@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Scraper Class Reference</title>
+<title>Hot Dog QUIZ: fonctions.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,9 +47,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -70,9 +68,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../classes.php"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="../../functions.php"><span>Data&#160;Fields</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -106,77 +103,61 @@ $(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Scraper Class Reference</div>  </div>
+<div class="title">fonctions.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to scrap content from another page.  
- <a href="../../d4/dee/a00008.php#details">More...</a></p>
+<p><a href="../../d4/dee/a00008_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a05b8e65fe9a79401565983789ad1c4fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a05b8e65fe9a79401565983789ad1c4fe">__constructor</a> ()</td></tr>
-<tr class="separator:a05b8e65fe9a79401565983789ad1c4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab39f151a1e427d9e0a88b93df2388bb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#ab39f151a1e427d9e0a88b93df2388bb1">url</a> ($url)</td></tr>
-<tr class="memdesc:ab39f151a1e427d9e0a88b93df2388bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the page url.  <a href="#ab39f151a1e427d9e0a88b93df2388bb1">More...</a><br /></td></tr>
-<tr class="separator:ab39f151a1e427d9e0a88b93df2388bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439900afc8f798290a4b6bc9ce0eb414"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a439900afc8f798290a4b6bc9ce0eb414">header</a> ($header)</td></tr>
-<tr class="memdesc:a439900afc8f798290a4b6bc9ce0eb414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the page header.  <a href="#a439900afc8f798290a4b6bc9ce0eb414">More...</a><br /></td></tr>
-<tr class="separator:a439900afc8f798290a4b6bc9ce0eb414"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0640f2c890a8f9e33b77e3e73432043f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a0640f2c890a8f9e33b77e3e73432043f">get</a> ($func, $args=array())</td></tr>
-<tr class="memdesc:a0640f2c890a8f9e33b77e3e73432043f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the object and do <em>$func</em>.  <a href="#a0640f2c890a8f9e33b77e3e73432043f">More...</a><br /></td></tr>
-<tr class="separator:a0640f2c890a8f9e33b77e3e73432043f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afcef1294902ca07027096e59292f89c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#afcef1294902ca07027096e59292f89c1">sendJsonData</a> ($message, $h)</td></tr>
+<tr class="separator:afcef1294902ca07027096e59292f89c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">authentification</a> ($bdd)</td></tr>
+<tr class="separator:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392292a494893cd5382dd1c9273ee9c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a392292a494893cd5382dd1c9273ee9c8">verifieToken</a> ($bdd)</td></tr>
+<tr class="separator:a392292a494893cd5382dd1c9273ee9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724c1f237bf9d61e65f9190f327a36ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#a724c1f237bf9d61e65f9190f327a36ca">creationPartie</a> ($bdd, $tabQuestions)</td></tr>
+<tr class="separator:a724c1f237bf9d61e65f9190f327a36ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5fde6a754bc0e9c7872a974abde85a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php#af5fde6a754bc0e9c7872a974abde85a8">score</a> ($bdd)</td></tr>
+<tr class="separator:af5fde6a754bc0e9c7872a974abde85a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to scrap content from another page. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd>Create the class </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00029">29</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a05b8e65fe9a79401565983789ad1c4fe"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a4c00ed23cbac293dc1b0c38b4ca6e3b6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__constructor </td>
+          <td class="memname">authentification </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bdd</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00033">33</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/dee/a00008_a05b8e65fe9a79401565983789ad1c4fe_cgraph.png" border="0" usemap="#d4/dee/a00008_a05b8e65fe9a79401565983789ad1c4fe_cgraph" alt=""/></div>
-<map name="d4/dee/a00008_a05b8e65fe9a79401565983789ad1c4fe_cgraph" id="d4/dee/a00008_a05b8e65fe9a79401565983789ad1c4fe_cgraph">
-<area shape="rect" id="node2" href="../../d4/dee/a00008.php#a439900afc8f798290a4b6bc9ce0eb414" title="Set the page header. " alt="" coords="155,5,216,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d4/dee/a00008_source.php#l00011">11</a> of file <a class="el" href="../../d4/dee/a00008_source.php">fonctions.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0640f2c890a8f9e33b77e3e73432043f"></a>
+<a class="anchor" id="a724c1f237bf9d61e65f9190f327a36ca"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">get </td>
+          <td class="memname">creationPartie </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$func</em>, </td>
+          <td class="paramname"><em>$bdd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$args</em> = <code>array()</code>&#160;</td>
+          <td class="paramname"><em>$tabQuestions</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -186,72 +167,90 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Return the object and do <em>$func</em>. </p>
+<p>Definition at line <a class="el" href="../../d4/dee/a00008_source.php#l00041">41</a> of file <a class="el" href="../../d4/dee/a00008_source.php">fonctions.php</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00050">50</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
+</div>
+</div>
+<a class="anchor" id="af5fde6a754bc0e9c7872a974abde85a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">score </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dee/a00008_source.php#l00053">53</a> of file <a class="el" href="../../d4/dee/a00008_source.php">fonctions.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/dee/a00008_a0640f2c890a8f9e33b77e3e73432043f_cgraph.png" border="0" usemap="#d4/dee/a00008_a0640f2c890a8f9e33b77e3e73432043f_cgraph" alt=""/></div>
-<map name="d4/dee/a00008_a0640f2c890a8f9e33b77e3e73432043f_cgraph" id="d4/dee/a00008_a0640f2c890a8f9e33b77e3e73432043f_cgraph">
-<area shape="rect" id="node2" href="../../d4/dee/a00008.php#a439900afc8f798290a4b6bc9ce0eb414" title="Set the page header. " alt="" coords="93,5,155,32"/>
-<area shape="rect" id="node3" href="../../d4/dee/a00008.php#ab39f151a1e427d9e0a88b93df2388bb1" title="Set the page url. " alt="" coords="105,56,143,83"/>
+<div class="center"><img src="../../d4/dee/a00008_af5fde6a754bc0e9c7872a974abde85a8_cgraph.png" border="0" usemap="#d4/dee/a00008_af5fde6a754bc0e9c7872a974abde85a8_cgraph" alt=""/></div>
+<map name="d4/dee/a00008_af5fde6a754bc0e9c7872a974abde85a8_cgraph" id="d4/dee/a00008_af5fde6a754bc0e9c7872a974abde85a8_cgraph">
+<area shape="rect" id="node2" href="../../d4/dee/a00008.php#afcef1294902ca07027096e59292f89c1" title="sendJsonData" alt="" coords="108,5,215,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a439900afc8f798290a4b6bc9ce0eb414"></a>
+<a class="anchor" id="afcef1294902ca07027096e59292f89c1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">header </td>
+          <td class="memname">sendJsonData </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$header</em></td><td>)</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dee/a00008_source.php#l00003">3</a> of file <a class="el" href="../../d4/dee/a00008_source.php">fonctions.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a392292a494893cd5382dd1c9273ee9c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">verifieToken </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$bdd</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the page header. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00044">44</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dee/a00008_source.php#l00029">29</a> of file <a class="el" href="../../d4/dee/a00008_source.php">fonctions.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab39f151a1e427d9e0a88b93df2388bb1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">url </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$url</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the page url. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00038">38</a> of file <a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d2/d79/a00051_source.php">scraper.php</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/dee/a00008.php">Scraper</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d4/dee/a00008.php">fonctions.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Todo List</title>
+<title>Hot Dog QUIZ: accueilPerso.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,9 +47,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +64,12 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
           </span>
         </div>
       </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -98,29 +102,114 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Todo List </div>  </div>
+<div class="title">accueilPerso.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d0/d0b/a00004.php">Contact</a>  </dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000001"></a>Global <a class="el" href="../../d7/dec/a00010.php#ac29b51e3850cc348b9c0eae8431b0a4b">copyToClipboard</a>  (text)</dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000004"></a>Global <a class="el" href="../../d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">getElementById</a>  ($code, $id)</dt>
-<dd>Create the function  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../de/d5e/a00007.php">Paypal</a>  </dt>
-<dd>Recreate the API communication part  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../d4/dee/a00008.php">Scraper</a>  </dt>
-<dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000006"></a>File <a class="el" href="../../d7/df7/a00058.php">tchat.php</a>  </dt>
-<dd></dd>
-</dl>
-</div></div><!-- contents -->
+
+<p><a href="../../d8/d84/a00001_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
+<tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7bb1a471a64bb1b432a6429de39da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#ad7bb1a471a64bb1b432a6429de39da82">affichageAccueil</a> (<a class="el" href="../../d1/d2b/a00018.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
+<tr class="separator:ad7bb1a471a64bb1b432a6429de39da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbff0145fcc69a075dff45ab975c2b2d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d">affichageParties</a> (ajaxResponse)</td></tr>
+<tr class="separator:adbff0145fcc69a075dff45ab975c2b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9e7735e216b2770753e10ca177623f0f"><td class="memItemLeft" align="right" valign="top">document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a9e7735e216b2770753e10ca177623f0f">location</a> =&quot;./modifier.php&quot;</td></tr>
+<tr class="separator:a9e7735e216b2770753e10ca177623f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ad7bb1a471a64bb1b432a6429de39da82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageAccueil </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>pseudo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00010">10</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph.png" border="0" usemap="#d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph" alt=""/></div>
+<map name="d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph" id="d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph">
+<area shape="rect" id="node2" href="../../d0/d0b/a00004.php#a806ccfa4bdd83d47638b934f63aa597f" title="ajaxRequest" alt="" coords="183,5,277,32"/>
+<area shape="rect" id="node3" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d" title="affichageParties" alt="" coords="172,56,288,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adbff0145fcc69a075dff45ab975c2b2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageParties </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00019">19</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abf5219628a269a37395ec5371980db8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">event preventDefault </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a9e7735e216b2770753e10ca177623f0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">document location =&quot;./modifier.php&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00003">3</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d8/d84/a00001.php">accueilPerso.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

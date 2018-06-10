@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Paypal Class Reference</title>
+<title>Hot Dog QUIZ: creer-une-partie.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,9 +47,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li class="current"><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -70,9 +68,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
-      <li><a href="../../classes.php"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="../../functions.php"><span>Data&#160;Fields</span></a></li>
+      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
+      <li><a href="../../globals.php"><span>Globals</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -106,191 +103,56 @@ $(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Paypal Class Reference</div>  </div>
+<div class="title">creer-une-partie.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A class to talk with the <a class="el" href="../../de/d5e/a00007.php" title="A class to talk with the Paypal API. ">Paypal</a> API.  
- <a href="../../de/d5e/a00007.php#details">More...</a></p>
+<p><a href="../../de/d5e/a00007_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a0ed77dab5f67e7f02f86e720999536a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a0ed77dab5f67e7f02f86e720999536a4">__construct</a> ($debug=false)</td></tr>
-<tr class="separator:a0ed77dab5f67e7f02f86e720999536a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef0e8bcafd146bad2546d7672fcc0787"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#aef0e8bcafd146bad2546d7672fcc0787">setInformations</a> ($user, $pass, $signature)</td></tr>
-<tr class="memdesc:aef0e8bcafd146bad2546d7672fcc0787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <em>$user</em>, <em>$pass</em>, <em>signature</em> for the API.  <a href="#aef0e8bcafd146bad2546d7672fcc0787">More...</a><br /></td></tr>
-<tr class="separator:aef0e8bcafd146bad2546d7672fcc0787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd14bda49a1044b4d8dd93f020f11ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#accd14bda49a1044b4d8dd93f020f11ee">getUrl</a> ()</td></tr>
-<tr class="memdesc:accd14bda49a1044b4d8dd93f020f11ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the url of ask.  <a href="#accd14bda49a1044b4d8dd93f020f11ee">More...</a><br /></td></tr>
-<tr class="separator:accd14bda49a1044b4d8dd93f020f11ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3380e4f27e13c6c10cee88aefff37309"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a3380e4f27e13c6c10cee88aefff37309">getRequest</a> ($cancelUrl, $returnUrl, $amount, $desc=&quot;&quot;)</td></tr>
-<tr class="memdesc:a3380e4f27e13c6c10cee88aefff37309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the request asked.  <a href="#a3380e4f27e13c6c10cee88aefff37309">More...</a><br /></td></tr>
-<tr class="separator:a3380e4f27e13c6c10cee88aefff37309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687ea7fcd78263867b5bd34ed56b6379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5e/a00007.php#a687ea7fcd78263867b5bd34ed56b6379">$head</a> = new Head_Creator(&quot;./&quot;)</td></tr>
+<tr class="separator:a687ea7fcd78263867b5bd34ed56b6379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A class to talk with the <a class="el" href="../../de/d5e/a00007.php" title="A class to talk with the Paypal API. ">Paypal</a> API. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Recreate the API communication part </dd></dl>
-
-<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00014">14</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a0ed77dab5f67e7f02f86e720999536a4"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$debug</em> = <code>false</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00022">22</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d5e/a00007_source.php#l00007">7</a> of file <a class="el" href="../../de/d5e/a00007_source.php">creer-une-partie.php</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3380e4f27e13c6c10cee88aefff37309"></a>
+<a class="anchor" id="a687ea7fcd78263867b5bd34ed56b6379"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getRequest </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$cancelUrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$returnUrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$amount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$desc</em> = <code>&quot;&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">$head = new Head_Creator(&quot;./&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return the request asked. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">$cancelUrl</td><td>The callback url on cancel </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">$returnUrl</td><td>The callback url on success </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">$amount</td><td>The mount of the order </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">$desc</td><td>The optional description of the order </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the request </dd></dl>
-
-<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00058">58</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph.png" border="0" usemap="#de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph" alt=""/></div>
-<map name="de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph" id="de/d5e/a00007_a3380e4f27e13c6c10cee88aefff37309_cgraph">
-<area shape="rect" id="node2" href="../../de/d5e/a00007.php#accd14bda49a1044b4d8dd93f020f11ee" title="Return the url of ask. " alt="" coords="143,5,200,32"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="146,56,197,83"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../de/d5e/a00007_source.php#l00008">8</a> of file <a class="el" href="../../de/d5e/a00007_source.php">creer-une-partie.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="accd14bda49a1044b4d8dd93f020f11ee"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">getUrl </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the url of ask. </p>
-
-<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00040">40</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aef0e8bcafd146bad2546d7672fcc0787"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">setInformations </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$user</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$pass</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$signature</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the <em>$user</em>, <em>$pass</em>, <em>signature</em> for the API. </p>
-
-<p>Definition at line <a class="el" href="../../db/db2/a00020_source.php#l00028">28</a> of file <a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d5e/a00007_aef0e8bcafd146bad2546d7672fcc0787_cgraph.png" border="0" usemap="#de/d5e/a00007_aef0e8bcafd146bad2546d7672fcc0787_cgraph" alt=""/></div>
-<map name="de/d5e/a00007_aef0e8bcafd146bad2546d7672fcc0787_cgraph" id="de/d5e/a00007_aef0e8bcafd146bad2546d7672fcc0787_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="165,5,216,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/db2/a00020_source.php">class-Paypal.php</a></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d5e/a00007.php">Paypal</a></li>
+    <li class="navelem"><a class="el" href="../../de/d5e/a00007.php">creer-une-partie.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

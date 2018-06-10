@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: My own JS Features</title>
+<title>Hot Dog QUIZ: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li class="current"><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li><a href="files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -99,49 +97,10 @@ $(document).ready(function(){initNavTree('index.php','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">My own JS Features </div>  </div>
+<div class="title">Hot Dog QUIZ Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="section user"><dt>Some classes &amp; ids</dt><dd><ul>
-<li>score (<b>class</b>)<ul>
-<li>width (<b>attributes</b>)</li>
-<li>height (<b>attributes</b>)</li>
-<li>min (<b>attributes</b>)</li>
-<li>max (<b>attributes</b>)</li>
-<li>note (<b>attributes</b>)</li>
-<li>degre (<b>attributes</b>)</li>
-</ul>
-</li>
-<li>map (<b>id</b>)<ul>
-<li>path (<b>attributes</b>)</li>
-<li>plain-color (<b>attributes</b>)</li>
-<li>line-color (<b>attributes</b>)</li>
-<li>hover-plain-color (<b>attributes</b>)</li>
-<li>hover-line-color (<b>attributes</b>)</li>
-<li>scale (<b>attributes</b>)</li>
-</ul>
-</li>
-<li>gallery (<b>class</b>)</li>
-<li>tchat (<b>id</b>)<ul>
-<li>human (<b>class</b>)</li>
-<li>bot (<b>class</b>)</li>
-</ul>
-</li>
-<li>stars (<b>id</b>)</li>
-<li>shower (<b>class</b>) </li>
-</ul>
-</dd></dl>
-<dl class="section user"><dt>Functions</dt><dd><ul>
-<li><a class="el" href="d7/dec/a00010.php#abc28be0063ceea3a2dbac6e5d8f42bd4" title="Add a function to the onloadFunction array and save the arguments. ">addOnload()</a></li>
-<li><a class="el" href="d7/dec/a00010.php#af25c5b56dd6e0a4c8e76e1d6ec197417" title="Add a function to the onresizeFunction array and save the arguments. ">addOnresize()</a></li>
-<li><a class="el" href="d7/dd4/a00013.php#abef425142325124458ad69a853742275" title="The function that start an ajax request. ">ajaxRequest()</a></li>
-<li><a class="el" href="de/d11/a00021.php#a9feccf800829cefff3a1214b7aaf1e51" title="Encode html caracters in string. ">html_encode()</a></li>
-<li><a class="el" href="de/d11/a00021.php#a45e51b85c4813b1c858c8c4ed7fed67f" title="Decode html caracters in string. ">html_decode()</a></li>
-</ul>
-</dd></dl>
-<dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>
-<dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

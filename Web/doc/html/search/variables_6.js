@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['hlc',['hlc',['../dd/d32/a00041.php#a2eff8c8ce9e90e8935a675a162e65740',1,'map.js']]],
-  ['hpc',['hpc',['../dd/d32/a00041.php#ace94b0bf8ea7451bbb85d83324c0b1fe',1,'map.js']]]
+  ['proposition',['proposition',['../dd/d1b/a00015.php#ab516b26a4218f0f59b789a0d446bf79f',1,'jeu.js']]],
+  ['pseudo',['pseudo',['../d1/d2b/a00018.php#a1f0d86ab32405786812d806542ca3280',1,'navBar.js']]]
 ];

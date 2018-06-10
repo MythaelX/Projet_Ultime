@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: admin.php File Reference</title>
+<title>Hot Dog QUIZ: index.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,154 +103,47 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">admin.php File Reference</div>  </div>
+<div class="title">index.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../df/d86/a00012_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a7983f8581db1e6d22e4c73911c503f61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61">admin_do_something</a> ()</td></tr>
-<tr class="memdesc:a7983f8581db1e6d22e4c73911c503f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh a timestamp when the admin do an action.  <a href="#a7983f8581db1e6d22e4c73911c503f61">More...</a><br /></td></tr>
-<tr class="separator:a7983f8581db1e6d22e4c73911c503f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6015ef10996b6f84b8a27308b2a5b63a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a6015ef10996b6f84b8a27308b2a5b63a">connect_admin</a> ()</td></tr>
-<tr class="memdesc:a6015ef10996b6f84b8a27308b2a5b63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect the admin.  <a href="#a6015ef10996b6f84b8a27308b2a5b63a">More...</a><br /></td></tr>
-<tr class="separator:a6015ef10996b6f84b8a27308b2a5b63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a736d0fc81455988edf3e5f505e0c9ead"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a736d0fc81455988edf3e5f505e0c9ead">deconnect_admin</a> ()</td></tr>
-<tr class="memdesc:a736d0fc81455988edf3e5f505e0c9ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deconnect the admin.  <a href="#a736d0fc81455988edf3e5f505e0c9ead">More...</a><br /></td></tr>
-<tr class="separator:a736d0fc81455988edf3e5f505e0c9ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade15b4790187078fa9c6cadefc91c736"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ade15b4790187078fa9c6cadefc91c736">is_admin_connected</a> ()</td></tr>
-<tr class="memdesc:ade15b4790187078fa9c6cadefc91c736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if the admin is connected.  <a href="#ade15b4790187078fa9c6cadefc91c736">More...</a><br /></td></tr>
-<tr class="separator:ade15b4790187078fa9c6cadefc91c736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687ea7fcd78263867b5bd34ed56b6379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a687ea7fcd78263867b5bd34ed56b6379">$head</a> = new Head_Creator(&quot;./&quot;)</td></tr>
+<tr class="separator:a687ea7fcd78263867b5bd34ed56b6379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
-
-<p>Definition in file <a class="el" href="../../df/d86/a00012_source.php">admin.php</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a7983f8581db1e6d22e4c73911c503f61"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">admin_do_something </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Refresh a timestamp when the admin do an action. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00013">13</a> of file <a class="el" href="../../df/d86/a00012_source.php">admin.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d86/a00012_a7983f8581db1e6d22e4c73911c503f61_cgraph.png" border="0" usemap="#df/d86/a00012_a7983f8581db1e6d22e4c73911c503f61_cgraph" alt=""/></div>
-<map name="df/d86/a00012_a7983f8581db1e6d22e4c73911c503f61_cgraph" id="df/d86/a00012_a7983f8581db1e6d22e4c73911c503f61_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="199,5,249,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00007">7</a> of file <a class="el" href="../../df/d86/a00012_source.php">index.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6015ef10996b6f84b8a27308b2a5b63a"></a>
+<a class="anchor" id="a687ea7fcd78263867b5bd34ed56b6379"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">connect_admin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">$head = new Head_Creator(&quot;./&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Connect the admin. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>false</b> or <a class="el" href="../../df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61" title="Refresh a timestamp when the admin do an action. ">admin_do_something()</a> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00028">28</a> of file <a class="el" href="../../df/d86/a00012_source.php">admin.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d86/a00012_a6015ef10996b6f84b8a27308b2a5b63a_cgraph.png" border="0" usemap="#df/d86/a00012_a6015ef10996b6f84b8a27308b2a5b63a_cgraph" alt=""/></div>
-<map name="df/d86/a00012_a6015ef10996b6f84b8a27308b2a5b63a_cgraph" id="df/d86/a00012_a6015ef10996b6f84b8a27308b2a5b63a_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="357,5,408,32"/>
-<area shape="rect" id="node3" href="../../df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61" title="Refresh a timestamp when the admin do an action. " alt="" coords="164,31,309,57"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a736d0fc81455988edf3e5f505e0c9ead"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">deconnect_admin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Deconnect the admin. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00044">44</a> of file <a class="el" href="../../df/d86/a00012_source.php">admin.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d86/a00012_a736d0fc81455988edf3e5f505e0c9ead_cgraph.png" border="0" usemap="#df/d86/a00012_a736d0fc81455988edf3e5f505e0c9ead_cgraph" alt=""/></div>
-<map name="df/d86/a00012_a736d0fc81455988edf3e5f505e0c9ead_cgraph" id="df/d86/a00012_a736d0fc81455988edf3e5f505e0c9ead_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="177,5,228,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ade15b4790187078fa9c6cadefc91c736"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">is_admin_connected </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Verify if the admin is connected. </p>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00061">61</a> of file <a class="el" href="../../df/d86/a00012_source.php">admin.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d86/a00012_ade15b4790187078fa9c6cadefc91c736_cgraph.png" border="0" usemap="#df/d86/a00012_ade15b4790187078fa9c6cadefc91c736_cgraph" alt=""/></div>
-<map name="df/d86/a00012_ade15b4790187078fa9c6cadefc91c736_cgraph" id="df/d86/a00012_ade15b4790187078fa9c6cadefc91c736_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="367,5,417,32"/>
-<area shape="rect" id="node3" href="../../df/d86/a00012.php#a736d0fc81455988edf3e5f505e0c9ead" title="Deconnect the admin. " alt="" coords="195,31,319,57"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../df/d86/a00012_source.php#l00008">8</a> of file <a class="el" href="../../df/d86/a00012_source.php">index.php</a>.</p>
 
 </div>
 </div>
@@ -261,7 +152,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../df/d86/a00012.php">admin.php</a></li>
+    <li class="navelem"><a class="el" href="../../df/d86/a00012.php">index.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

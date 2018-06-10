@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -86,24 +84,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_a"><span>a</span></a></li>
       <li><a href="#index_b"><span>b</span></a></li>
       <li><a href="#index_c"><span>c</span></a></li>
-      <li><a href="#index_d"><span>d</span></a></li>
-      <li><a href="#index_e"><span>e</span></a></li>
-      <li><a href="#index_f"><span>f</span></a></li>
-      <li><a href="#index_g"><span>g</span></a></li>
-      <li><a href="#index_h"><span>h</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_j"><span>j</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
-      <li><a href="#index_m"><span>m</span></a></li>
-      <li><a href="#index_n"><span>n</span></a></li>
-      <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
-      <li><a href="#index_t"><span>t</span></a></li>
-      <li><a href="#index_u"><span>u</span></a></li>
-      <li><a href="#index_v"><span>v</span></a></li>
-      <li class="current"><a href="#index_w"><span>w</span></a></li>
+      <li class="current"><a href="#index_v"><span>v</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -139,541 +126,153 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>addCss()
-: <a class="el" href="d7/dec/a00010.php#a568b4440ebffdda209a8bde49f78e0bb">_script.js</a>
-</li>
-<li>addOnload()
-: <a class="el" href="d7/dec/a00010.php#abc28be0063ceea3a2dbac6e5d8f42bd4">_script.js</a>
-, <a class="el" href="dd/d32/a00041.php#aa72428ec28ea58db7cbf03b3614ea4f2">map.js</a>
-, <a class="el" href="d1/d22/a00057.php#afef3d8e0e45b703894d323481d52a97f">tchat.js</a>
-, <a class="el" href="d5/de0/a00050.php#abb848f46d7695bd4fca7f7966f065321">score.js</a>
-, <a class="el" href="db/df3/a00034.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1">gallery.js</a>
-, <a class="el" href="dc/dee/a00053.php#a1171755a7214bdc0d500187f301f5b0f">show_pass.js</a>
-, <a class="el" href="d4/d6d/a00055.php#a34b8ff6d001a03489d89d2104f8d1e66">stars.js</a>
-</li>
-<li>addOnresize()
-: <a class="el" href="d7/dec/a00010.php#af25c5b56dd6e0a4c8e76e1d6ec197417">_script.js</a>
-</li>
-<li>admin_do_something()
-: <a class="el" href="df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61">admin.php</a>
-</li>
 <li>affichage()
-: <a class="el" href="d5/df9/a00044.php#af74f80f2d76592fc7d873aeabb9aecf5">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5">palmares.js</a>
 </li>
 <li>affichageAccueil()
-: <a class="el" href="da/d45/a00011.php#ad7bb1a471a64bb1b432a6429de39da82">accueilPerso.js</a>
+: <a class="el" href="d8/d84/a00001.php#ad7bb1a471a64bb1b432a6429de39da82">accueilPerso.js</a>
 </li>
 <li>affichageBouton()
-: <a class="el" href="d5/df9/a00044.php#aae5ee08540b9075228e330d9f9db693c">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">palmares.js</a>
 </li>
 <li>affichageConnecter()
-: <a class="el" href="d6/d42/a00043.php#a373c65ea2fc1b38e81387398e287ac8d">navBar.js</a>
+: <a class="el" href="d1/d2b/a00018.php#a373c65ea2fc1b38e81387398e287ac8d">navBar.js</a>
 </li>
 <li>affichageDeconnecter()
-: <a class="el" href="d6/d42/a00043.php#a57c667ec3d857e12e4d334e3f2453313">navBar.js</a>
+: <a class="el" href="d1/d2b/a00018.php#a57c667ec3d857e12e4d334e3f2453313">navBar.js</a>
 </li>
 <li>affichageDifficulte()
-: <a class="el" href="d3/d52/a00023.php#a34b3788c0664245d1de030f262f040ef">Creation.js</a>
-, <a class="el" href="d3/de7/a00039.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
+: <a class="el" href="d0/d0b/a00004.php#a34b3788c0664245d1de030f262f040ef">Creation.js</a>
+, <a class="el" href="dd/d1b/a00015.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
 </li>
 <li>affichageJeu()
-: <a class="el" href="d3/de7/a00039.php#a5cab69f44f6222a1ebdef86c7812ab6f">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f">jeu.js</a>
 </li>
 <li>affichageNav()
-: <a class="el" href="d6/d42/a00043.php#a476430a7bbd11ed57401416535999339">navBar.js</a>
+: <a class="el" href="d1/d2b/a00018.php#a476430a7bbd11ed57401416535999339">navBar.js</a>
 </li>
 <li>affichageParties()
-: <a class="el" href="da/d45/a00011.php#adbff0145fcc69a075dff45ab975c2b2d">accueilPerso.js</a>
+: <a class="el" href="d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d">accueilPerso.js</a>
 </li>
 <li>affichageScore()
-: <a class="el" href="d3/de7/a00039.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">jeu.js</a>
 </li>
 <li>affichageTableau()
-: <a class="el" href="d5/df9/a00044.php#abb8998e94bb89c9a2293f342374e97bc">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc">palmares.js</a>
 </li>
 <li>affichageThemes()
-: <a class="el" href="d3/d52/a00023.php#aee6c29e01ed8d036be6656155f1080fe">Creation.js</a>
+: <a class="el" href="d0/d0b/a00004.php#aee6c29e01ed8d036be6656155f1080fe">Creation.js</a>
 </li>
 <li>ajaxRequest()
-: <a class="el" href="d3/de7/a00039.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
-, <a class="el" href="d3/d52/a00023.php#a806ccfa4bdd83d47638b934f63aa597f">Creation.js</a>
-, <a class="el" href="d5/df9/a00044.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">palmares.js</a>
-, <a class="el" href="d7/dd4/a00013.php#abef425142325124458ad69a853742275">ajax.js</a>
-, <a class="el" href="d5/df9/a00044.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
+, <a class="el" href="dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
+, <a class="el" href="dd/da2/a00019.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">palmares.js</a>
+, <a class="el" href="d0/d0b/a00004.php#a806ccfa4bdd83d47638b934f63aa597f">Creation.js</a>
 </li>
 <li>authentification()
-: <a class="el" href="d5/d79/a00030.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">fonctions.php</a>
+: <a class="el" href="d4/dee/a00008.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">fonctions.php</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
-<li>badGateway()
-: <a class="el" href="dc/d3c/a00028.php#a8a97be188d3b0d8fe3c9ad0794b83173">errors.php</a>
-</li>
-<li>badRequest()
-: <a class="el" href="dc/d3c/a00028.php#a49566ba58b1bc3e0fe9c6e031bcba7a7">errors.php</a>
-</li>
 <li>boutons()
-: <a class="el" href="d5/df9/a00044.php#ab0dcb30b8bb2d32fb8190ee86ff68922">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#ab0dcb30b8bb2d32fb8190ee86ff68922">palmares.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>cancel()
-: <a class="el" href="d7/dec/a00010.php#ac8326c47ff71d04eb9008d390d53a1df">_script.js</a>
-</li>
-<li>changeIn()
-: <a class="el" href="dd/d32/a00041.php#a43394d09245390ebc26bdb06b4604940">map.js</a>
-</li>
-<li>changeOut()
-: <a class="el" href="dd/d32/a00041.php#a01d3cfe94d4243a467f31642bb71b733">map.js</a>
-</li>
-<li>choose()
-: <a class="el" href="d4/d6d/a00055.php#a06b93344f587b996f3b18b0a0df6e151">stars.js</a>
-</li>
 <li>compteur()
-: <a class="el" href="d3/de7/a00039.php#a939d4356eec3d36168c300490d57eaff">jeu.js</a>
-</li>
-<li>connect_admin()
-: <a class="el" href="df/d86/a00012.php#a6015ef10996b6f84b8a27308b2a5b63a">admin.php</a>
-</li>
-<li>copyToClipboard()
-: <a class="el" href="d7/dec/a00010.php#ac29b51e3850cc348b9c0eae8431b0a4b">_script.js</a>
-</li>
-<li>createBackScore()
-: <a class="el" href="d5/de0/a00050.php#ab62d0f7ff871ba950d8acc73ef4fd0f0">score.js</a>
-</li>
-<li>createDir()
-: <a class="el" href="d5/d16/a00029.php#acb0efa95907a3a4868eebcdb960143e6">files.php</a>
-</li>
-<li>createGallery()
-: <a class="el" href="db/df3/a00034.php#a2890e55a673ac016e1d3277b3d9feca7">gallery.js</a>
-</li>
-<li>createGalleryArrow()
-: <a class="el" href="db/df3/a00034.php#a1c29ca2eefb410f596bfa65d7a52004e">gallery.js</a>
-</li>
-<li>createId()
-: <a class="el" href="da/da0/a00009.php#aa8164d5dea5ca9fbc23c9cf879692df5">_functions.php</a>
-</li>
-<li>createMap()
-: <a class="el" href="dd/d32/a00041.php#a17dbb98377912b404462ccec2e3c8e72">map.js</a>
-</li>
-<li>createRound()
-: <a class="el" href="d5/de0/a00050.php#ae4a161ce9a41036f148f21c028ec8fdb">score.js</a>
-</li>
-<li>createScore()
-: <a class="el" href="d5/de0/a00050.php#ac9058c9f8dc74f92e18645bb8eae28f4">score.js</a>
-</li>
-<li>createStars()
-: <a class="el" href="d4/d6d/a00055.php#a0c1449df7daaf21306568d1c11699946">stars.js</a>
-</li>
-<li>createStruct()
-: <a class="el" href="d7/dec/a00010.php#ac6145616a57b246abba6ae25f0b68d76">_script.js</a>
-</li>
-<li>createZip()
-: <a class="el" href="d3/d8b/a00059.php#af8b4d803f851d38bbafe42092fc5b8c5">zip.php</a>
+: <a class="el" href="dd/d1b/a00015.php#a939d4356eec3d36168c300490d57eaff">jeu.js</a>
 </li>
 <li>creationPartie()
-: <a class="el" href="d5/d79/a00030.php#a724c1f237bf9d61e65f9190f327a36ca">fonctions.php</a>
+: <a class="el" href="d4/dee/a00008.php#a724c1f237bf9d61e65f9190f327a36ca">fonctions.php</a>
 </li>
 <li>creerPartie()
-: <a class="el" href="d3/d52/a00023.php#ae2409b5e868763f39bddaca9e2c23035">Creation.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
-<li>dateSql()
-: <a class="el" href="d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485">dates.php</a>
-</li>
-<li>deconnect_admin()
-: <a class="el" href="df/d86/a00012.php#a736d0fc81455988edf3e5f505e0c9ead">admin.php</a>
-</li>
-<li>deleteFile()
-: <a class="el" href="d5/d16/a00029.php#a813a54acf7a62363dfa223e6b172b1c9">files.php</a>
-</li>
-<li>deleteFirst()
-: <a class="el" href="d2/de7/a00014.php#af4f4a899c74553180042d2bea3412a74">arrays.php</a>
-</li>
-<li>deleteIndex()
-: <a class="el" href="d2/de7/a00014.php#ab46b061f71601ad13967e3faa737e7e5">arrays.php</a>
-</li>
-<li>deleteLast()
-: <a class="el" href="d2/de7/a00014.php#aa260c051ba00921f461dd4d2092ed270">arrays.php</a>
-</li>
-<li>deleteMapIndex()
-: <a class="el" href="d2/de7/a00014.php#aea7ad19f6d28a81c980beb024ec73922">arrays.php</a>
-</li>
-<li>disable()
-: <a class="el" href="d7/dec/a00010.php#a6667c3e0f03757bf309b971ac3b7baa2">_script.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
-<li>easeOutCuaic()
-: <a class="el" href="d7/dec/a00010.php#a963713239c6a0dfec7d92b05a3518791">_script.js</a>
-</li>
-<li>enable()
-: <a class="el" href="d7/dec/a00010.php#ae20e0427fb5ca9cd0a2d6a2789758220">_script.js</a>
-</li>
-<li>enlight()
-: <a class="el" href="d4/d6d/a00055.php#a9ff16f762d4b2a92426066a7753ac288">stars.js</a>
-</li>
-<li>envoid()
-: <a class="el" href="d4/d6d/a00055.php#a1dfb32225dcbd4dd553ee4204d6f1d5f">stars.js</a>
-</li>
-<li>error()
-: <a class="el" href="dc/d3c/a00028.php#ac78ddc67fc721a1acddd93679e9c51ab">errors.php</a>
-</li>
-<li>error_log_array()
-: <a class="el" href="d2/de7/a00014.php#ae5bb45152f585894d61fed14c6e743d1">arrays.php</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
-<li>forbidden()
-: <a class="el" href="dc/d3c/a00028.php#ac64b33d00115e0de4cc70856413f5a29">errors.php</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>get_all_files_in()
-: <a class="el" href="d5/d16/a00029.php#a022ec27ee87cab272994184667e4038e">files.php</a>
-</li>
-<li>get_all_folders_in()
-: <a class="el" href="d5/d16/a00029.php#afda7401cac35d24c6b1d436cf67e2be6">files.php</a>
-</li>
-<li>get_all_in()
-: <a class="el" href="d5/d16/a00029.php#a64d5d1874afee2516d03e95bc3d06a55">files.php</a>
-</li>
-<li>get_in_array()
-: <a class="el" href="d2/de7/a00014.php#a876add8c54fbea2f702f5365dfbe03be">arrays.php</a>
-</li>
-<li>get_site_name()
-: <a class="el" href="d1/dea/a00054.php#ad208b57c36b8c1e0d09481b79b261b1c">site.php</a>
-</li>
-<li>getBottom()
-: <a class="el" href="d7/dec/a00010.php#a7a0ef1bf7925cca53900fe45b4c2b20a">_script.js</a>
-</li>
-<li>getElementById()
-: <a class="el" href="d2/d79/a00051.php#aa341c64280e4f907737862137f8ee707">scraper.php</a>
-</li>
-<li>getEventElement()
-: <a class="el" href="d7/dec/a00010.php#a73a07d82d8a13b79a978cf6f5b55e3ae">_script.js</a>
-</li>
-<li>getHeight()
-: <a class="el" href="d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d">_script.js</a>
-</li>
-<li>getLeft()
-: <a class="el" href="d7/dec/a00010.php#a2c66a459ec96a7cfc110a50890acf5f8">_script.js</a>
-</li>
-<li>getOffsetTop()
-: <a class="el" href="d7/dec/a00010.php#ad7a397e90db34413bcaae79d5ccd0ce5">_script.js</a>
-</li>
-<li>getPath()
-: <a class="el" href="d7/dec/a00010.php#ac1cae7889e785f3db47c7977abb370b6">_script.js</a>
-</li>
-<li>getRight()
-: <a class="el" href="d7/dec/a00010.php#a10324603d7e1ea446681c3c1f285b385">_script.js</a>
-</li>
-<li>getScrollLeft()
-: <a class="el" href="d7/dec/a00010.php#a29a9432691d1646205bce4f44b14b3c4">_script.js</a>
-</li>
-<li>getScrollTop()
-: <a class="el" href="d7/dec/a00010.php#a2e6a206705d91bc67357da5b0f12c315">_script.js</a>
-</li>
-<li>getStructHeight()
-: <a class="el" href="d7/dec/a00010.php#ae792a2c3cd89e06e387fdee69730e8cb">_script.js</a>
-</li>
-<li>getTop()
-: <a class="el" href="d7/dec/a00010.php#acd165138bf1e4351bf8ddc665af66324">_script.js</a>
-</li>
-<li>getWidth()
-: <a class="el" href="d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9">_script.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
-<li>hideArrows()
-: <a class="el" href="db/df3/a00034.php#a8a3a4ba83aa3ca3c045cd2c5339671c4">gallery.js</a>
-</li>
-<li>html_decode()
-: <a class="el" href="de/d11/a00021.php#a45e51b85c4813b1c858c8c4ed7fed67f">coder.js</a>
-</li>
-<li>html_encode()
-: <a class="el" href="de/d11/a00021.php#a9feccf800829cefff3a1214b7aaf1e51">coder.js</a>
-</li>
-<li>httpErrors()
-: <a class="el" href="d7/dd4/a00013.php#aa048c2d0291f4b7a55ba31de642c5a9a">ajax.js</a>
-</li>
-<li>httpSuccess()
-: <a class="el" href="d7/dd4/a00013.php#a39a06d6c4a0e9dc2e5b11124e3b2537e">ajax.js</a>
+: <a class="el" href="d0/d0b/a00004.php#ae2409b5e868763f39bddaca9e2c23035">Creation.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>if()
-: <a class="el" href="d6/d42/a00043.php#a2c96ec63e19591ef08651a74b48ab6a9">navBar.js</a>
-</li>
-<li>initGalleries()
-: <a class="el" href="db/df3/a00034.php#ad86766041e2b01584fae8bd1698c35e6">gallery.js</a>
-</li>
-<li>initMap()
-: <a class="el" href="dd/d32/a00041.php#a5fdd1fc67d338661568dbc6e4fe7e719">map.js</a>
-</li>
-<li>initScore()
-: <a class="el" href="d5/de0/a00050.php#a10fbf45945d13d59caee20c0127921d9">score.js</a>
-</li>
-<li>initStars()
-: <a class="el" href="d4/d6d/a00055.php#a8d8ff71978dcadc4b21e080d661d45dd">stars.js</a>
-</li>
-<li>initTchat()
-: <a class="el" href="d1/d22/a00057.php#a5ec7a287eb4e2fe648076a2e656a1639">tchat.js</a>
-</li>
-<li>is_admin_connected()
-: <a class="el" href="df/d86/a00012.php#ade15b4790187078fa9c6cadefc91c736">admin.php</a>
-</li>
-<li>is_this_active()
-: <a class="el" href="d1/dea/a00054.php#a7d839f332f102d8050f984a05897f17c">site.php</a>
-</li>
-<li>isset()
-: <a class="el" href="d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898">_script.js</a>
-</li>
-<li>it_exists()
-: <a class="el" href="d2/de7/a00014.php#a036c7414be684df67cb85655b9999528">arrays.php</a>
+: <a class="el" href="d1/d2b/a00018.php#a2c96ec63e19591ef08651a74b48ab6a9">navBar.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_j"></a>- j -</h3><ul>
 <li>jeu()
-: <a class="el" href="d3/de7/a00039.php#a8c9d97109099b8ce02792d0c4abd3ae3">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#a8c9d97109099b8ce02792d0c4abd3ae3">jeu.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
-<li>laugth()
-: <a class="el" href="dc/d3c/a00028.php#a35117e28b8ed5b266466f2f509a39e28">errors.php</a>
-</li>
-<li>launchOnloadFunctions()
-: <a class="el" href="d7/dec/a00010.php#a7af845a157899e08b612d393f5b72fa5">_script.js</a>
-</li>
-<li>listImgs()
-: <a class="el" href="d4/d6d/a00055.php#ab033da43f4d9abb9484023adb3cbe8da">stars.js</a>
-</li>
 <li>loadTabPalmares()
-: <a class="el" href="d5/df9/a00044.php#aa1ccf3e9b222affe42cc578b6d898694">palmares.js</a>
+: <a class="el" href="dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">palmares.js</a>
 </li>
 <li>log()
-: <a class="el" href="d3/de7/a00039.php#ab71c22630f509647a916f70887b8c2ad">jeu.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
-<li>moveGallery()
-: <a class="el" href="db/df3/a00034.php#ae02e93562a3633076b6e0e7bf4952238">gallery.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
-<li>nextRes()
-: <a class="el" href="d4/d8c/a00035.php#a443ea3a863c29aed90f572de52c0b04d">getter.php</a>
-</li>
-<li>notFound()
-: <a class="el" href="dc/d3c/a00028.php#a97ae92c22c1e5668410ba32acb032ac0">errors.php</a>
-</li>
-<li>notImplemented()
-: <a class="el" href="dc/d3c/a00028.php#a856ce32f72a512d154b16e4bea83b469">errors.php</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
-<li>onWindowBottom()
-: <a class="el" href="d7/dec/a00010.php#a25b321289d25d2c4a7c88c18cdfea6ef">_script.js</a>
-</li>
-<li>onWindowLeft()
-: <a class="el" href="d7/dec/a00010.php#a1ccc84f988b8a12d9a09d6318d54003d">_script.js</a>
-</li>
-<li>onWindowRight()
-: <a class="el" href="d7/dec/a00010.php#ab06b0c4c32c446639b71c18d8cd67d98">_script.js</a>
-</li>
-<li>onWindowTop()
-: <a class="el" href="d7/dec/a00010.php#a83acddc8f9ff0fb06b3a6fda2bc54c11">_script.js</a>
+: <a class="el" href="dd/d1b/a00015.php#ab71c22630f509647a916f70887b8c2ad">jeu.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
-<li>placeAll()
-: <a class="el" href="d7/dec/a00010.php#a71c7344e28d3f0bdf0c5445d4e50b067">_script.js</a>
-</li>
-<li>polarToCartesian()
-: <a class="el" href="d5/de0/a00050.php#a50677de3f9695ebbec57e53cdbc7844a">score.js</a>
-</li>
 <li>preventDefault()
-: <a class="el" href="da/d45/a00011.php#abf5219628a269a37395ec5371980db8d">accueilPerso.js</a>
-</li>
-<li>print_all()
-: <a class="el" href="da/da0/a00009.php#a6a338d3ef737c870b435d300fca03b3b">_functions.php</a>
-</li>
-<li>pushZip()
-: <a class="el" href="d3/d8b/a00059.php#abdd84d8d44a501306cdfe5bccbeeb12b">zip.php</a>
-</li>
-<li>putTchatChild()
-: <a class="el" href="d1/d22/a00057.php#af535f9f9fa013b2543991bbe5e14d6eb">tchat.js</a>
+: <a class="el" href="d8/d84/a00001.php#abf5219628a269a37395ec5371980db8d">accueilPerso.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>randStr()
-: <a class="el" href="d7/dec/a00010.php#a3ec88ff3b46e3d01d220f644f687a78a">_script.js</a>
-</li>
 <li>recuperationReponseTemp()
-: <a class="el" href="d3/de7/a00039.php#a386cd203962abda96c636c5e90a9ba36">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#a386cd203962abda96c636c5e90a9ba36">jeu.js</a>
 </li>
 <li>recupererPropositions()
-: <a class="el" href="d3/de7/a00039.php#aeb580a625cac6fdcbd0386c6a35db66f">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#aeb580a625cac6fdcbd0386c6a35db66f">jeu.js</a>
 </li>
 <li>recupererQuestions()
-: <a class="el" href="d3/de7/a00039.php#a9fe0edff04aec322abcdf9789acffee7">jeu.js</a>
+: <a class="el" href="dd/d1b/a00015.php#a9fe0edff04aec322abcdf9789acffee7">jeu.js</a>
 </li>
 <li>recupérationAvatar()
-: <a class="el" href="d1/dc6/a00037.php#a1426a760631d33602005a8bb59e49c7a">inscription.js</a>
-</li>
-<li>replace_all()
-: <a class="el" href="d2/de7/a00014.php#aa49347b7e235619c160a816bd41898cf">arrays.php</a>
-, <a class="el" href="d7/dec/a00010.php#ae62433ff7c2d58fccafe252a4e010720">_script.js</a>
-</li>
-<li>resizeOnloadFunctions()
-: <a class="el" href="d7/dec/a00010.php#a7b831f45c4465ab5a7813aae606c0ec2">_script.js</a>
-</li>
-<li>resNumber()
-: <a class="el" href="d4/d8c/a00035.php#ab1aeaedb8bf332eee5b85200acfee982">getter.php</a>
+: <a class="el" href="d7/dd4/a00013.php#a1426a760631d33602005a8bb59e49c7a">inscription.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>saveFileTo()
-: <a class="el" href="d5/d16/a00029.php#a7fc3f2f4db9af0955fcc004c4bf83a24">files.php</a>
-</li>
 <li>score()
-: <a class="el" href="d5/d79/a00030.php#af5fde6a754bc0e9c7872a974abde85a8">fonctions.php</a>
-</li>
-<li>scrollTo()
-: <a class="el" href="d7/dec/a00010.php#a09e57842c5e01d9ec59cdcefca4ced17">_script.js</a>
-</li>
-<li>scrollToC()
-: <a class="el" href="d7/dec/a00010.php#ac5d6071e0a5be58c23869e8a6df856af">_script.js</a>
-</li>
-<li>scrollToEnd()
-: <a class="el" href="d7/dec/a00010.php#aa3ec1a835eed518a0155433ff96b827d">_script.js</a>
-</li>
-<li>scrollToX()
-: <a class="el" href="d7/dec/a00010.php#a9c830694d7ae43ca4fe8f502fec440ed">_script.js</a>
+: <a class="el" href="d4/dee/a00008.php#af5fde6a754bc0e9c7872a974abde85a8">fonctions.php</a>
 </li>
 <li>sendJsonData()
-: <a class="el" href="d5/d79/a00030.php#afcef1294902ca07027096e59292f89c1">fonctions.php</a>
-</li>
-<li>serverError()
-: <a class="el" href="dc/d3c/a00028.php#acbd041cd9910f5f824af42ec0d252b5c">errors.php</a>
-</li>
-<li>setActive()
-: <a class="el" href="d7/dec/a00010.php#a971392259eca595d520db8a8bf280b3f">_script.js</a>
-</li>
-<li>setAll()
-: <a class="el" href="d7/dec/a00010.php#a0d1d68cf89a4925c39cf1bab98e5d250">_script.js</a>
-</li>
-<li>setError()
-: <a class="el" href="dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500">errors.php</a>
-</li>
-<li>setId()
-: <a class="el" href="d7/dec/a00010.php#a8ae089c8a5330c10b1e89134abbf6e91">_script.js</a>
-</li>
-<li>showArrows()
-: <a class="el" href="db/df3/a00034.php#ab634298de9bead214fc2452731540058">gallery.js</a>
-</li>
-<li>showPass()
-: <a class="el" href="dc/dee/a00053.php#ac916a879e99dde7caf00f59284870538">show_pass.js</a>
-</li>
-<li>sqlDate()
-: <a class="el" href="d0/d33/a00027.php#a9163d2fe688993dee3abd2ca8f183067">dates.php</a>
+: <a class="el" href="d4/dee/a00008.php#afcef1294902ca07027096e59292f89c1">fonctions.php</a>
 </li>
 <li>surligne()
-: <a class="el" href="d1/dc6/a00037.php#a76081b25499ce0257c512f37f1ad9988">inscription.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
-<li>tchatAddAnswer()
-: <a class="el" href="d1/d22/a00057.php#a472e643fae19070bd14fd3e960455833">tchat.js</a>
-</li>
-<li>tchatAddQuestion()
-: <a class="el" href="d1/d22/a00057.php#a47c05899a60dab59f07c18864339c5b6">tchat.js</a>
-</li>
-<li>tchatChildCreator()
-: <a class="el" href="d1/d22/a00057.php#a9ec791f85c73ebbcd2015de18f44532d">tchat.js</a>
-</li>
-<li>tchatSend()
-: <a class="el" href="d1/d22/a00057.php#a38f8d78be6e36a10cc4e875eed8c2b83">tchat.js</a>
-</li>
-<li>typeValue_array()
-: <a class="el" href="d2/de7/a00014.php#ac25e0cea9220cf427db18de77a1cc282">arrays.php</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
-<li>unauthorized()
-: <a class="el" href="dc/d3c/a00028.php#a69b3252462672dfe02aed986c9ad420c">errors.php</a>
-</li>
-<li>unavailable()
-: <a class="el" href="dc/d3c/a00028.php#ac653444828c80c7f9242e306b5d591fd">errors.php</a>
+: <a class="el" href="d7/dd4/a00013.php#a76081b25499ce0257c512f37f1ad9988">inscription.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>valideInscription()
-: <a class="el" href="d1/dc6/a00037.php#ae14c93c8599895dff3c04db5d1d8504c">inscription.js</a>
+: <a class="el" href="d7/dd4/a00013.php#ae14c93c8599895dff3c04db5d1d8504c">inscription.js</a>
 </li>
 <li>valideLogin()
-: <a class="el" href="dd/d1b/a00015.php#a1e3a84965da657b293ee3d8b023ad1fb">authentification.js</a>
+: <a class="el" href="d7/d46/a00002.php#a1e3a84965da657b293ee3d8b023ad1fb">authentification.js</a>
 </li>
 <li>verifieToken()
-: <a class="el" href="d5/d79/a00030.php#a392292a494893cd5382dd1c9273ee9c8">fonctions.php</a>
+: <a class="el" href="d4/dee/a00008.php#a392292a494893cd5382dd1c9273ee9c8">fonctions.php</a>
 </li>
 <li>verifMail()
-: <a class="el" href="d1/dc6/a00037.php#a4a822815e57b31479eb6d364e3003fa2">inscription.js</a>
+: <a class="el" href="d7/dd4/a00013.php#a4a822815e57b31479eb6d364e3003fa2">inscription.js</a>
 </li>
 <li>verifMotDePasse()
-: <a class="el" href="d1/dc6/a00037.php#a5e7778e2c5dd64ac673d79add217c6cf">inscription.js</a>
+: <a class="el" href="d7/dd4/a00013.php#a5e7778e2c5dd64ac673d79add217c6cf">inscription.js</a>
 </li>
 <li>verifPseudo()
-: <a class="el" href="d1/dc6/a00037.php#a0db9c30b86d2f4aa120daa6247990007">inscription.js</a>
-</li>
-</ul>
-
-
-<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
-<li>windowHeight()
-: <a class="el" href="d7/dec/a00010.php#aff876efafdc714da57916e240c4da6f4">_script.js</a>
-</li>
-<li>windowWidth()
-: <a class="el" href="d7/dec/a00010.php#a70df9b56b7888e346802f74749b3a630">_script.js</a>
+: <a class="el" href="d7/dd4/a00013.php#a0db9c30b86d2f4aa120daa6247990007">inscription.js</a>
 </li>
 </ul>
 </div><!-- contents -->

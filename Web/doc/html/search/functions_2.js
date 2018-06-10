@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['badgateway',['badGateway',['../dc/d3c/a00028.php#a8a97be188d3b0d8fe3c9ad0794b83173',1,'errors.php']]],
-  ['badrequest',['badRequest',['../dc/d3c/a00028.php#a49566ba58b1bc3e0fe9c6e031bcba7a7',1,'errors.php']]],
-  ['boutons',['boutons',['../d5/df9/a00044.php#ab0dcb30b8bb2d32fb8190ee86ff68922',1,'palmares.js']]]
+  ['compteur',['compteur',['../dd/d1b/a00015.php#a939d4356eec3d36168c300490d57eaff',1,'jeu.js']]],
+  ['creationpartie',['creationPartie',['../d4/dee/a00008.php#a724c1f237bf9d61e65f9190f327a36ca',1,'fonctions.php']]],
+  ['creerpartie',['creerPartie',['../d0/d0b/a00004.php#ae2409b5e868763f39bddaca9e2c23035',1,'Creation.js']]]
 ];

@@ -1,7 +1,8 @@
 var a00008 =
 [
-    [ "__constructor", "d4/dee/a00008.php#a05b8e65fe9a79401565983789ad1c4fe", null ],
-    [ "get", "d4/dee/a00008.php#a0640f2c890a8f9e33b77e3e73432043f", null ],
-    [ "header", "d4/dee/a00008.php#a439900afc8f798290a4b6bc9ce0eb414", null ],
-    [ "url", "d4/dee/a00008.php#ab39f151a1e427d9e0a88b93df2388bb1", null ]
+    [ "authentification", "d4/dee/a00008.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6", null ],
+    [ "creationPartie", "d4/dee/a00008.php#a724c1f237bf9d61e65f9190f327a36ca", null ],
+    [ "score", "d4/dee/a00008.php#af5fde6a754bc0e9c7872a974abde85a8", null ],
+    [ "sendJsonData", "d4/dee/a00008.php#afcef1294902ca07027096e59292f89c1", null ],
+    [ "verifieToken", "d4/dee/a00008.php#a392292a494893cd5382dd1c9273ee9c8", null ]
 ];

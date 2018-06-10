@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['canbepro',['canBePro',['../d0/d0b/a00004.php#a0eab3fd69ef91baf43deb00ba1b9d4ff',1,'Contact']]],
-  ['cancel',['cancel',['../d7/dec/a00010.php#ac8326c47ff71d04eb9008d390d53a1df',1,'_script.js']]],
-  ['changein',['changeIn',['../dd/d32/a00041.php#a43394d09245390ebc26bdb06b4604940',1,'map.js']]],
-  ['changeout',['changeOut',['../dd/d32/a00041.php#a01d3cfe94d4243a467f31642bb71b733',1,'map.js']]],
-  ['choose',['choose',['../d4/d6d/a00055.php#a06b93344f587b996f3b18b0a0df6e151',1,'stars.js']]],
-  ['compteur',['compteur',['../d3/de7/a00039.php#a939d4356eec3d36168c300490d57eaff',1,'jeu.js']]],
-  ['connect_5fadmin',['connect_admin',['../df/d86/a00012.php#a6015ef10996b6f84b8a27308b2a5b63a',1,'admin.php']]],
-  ['copytoclipboard',['copyToClipboard',['../d7/dec/a00010.php#ac29b51e3850cc348b9c0eae8431b0a4b',1,'_script.js']]],
-  ['createbackscore',['createBackScore',['../d5/de0/a00050.php#ab62d0f7ff871ba950d8acc73ef4fd0f0',1,'score.js']]],
-  ['createdir',['createDir',['../d5/d16/a00029.php#acb0efa95907a3a4868eebcdb960143e6',1,'files.php']]],
-  ['creategallery',['createGallery',['../db/df3/a00034.php#a2890e55a673ac016e1d3277b3d9feca7',1,'gallery.js']]],
-  ['creategalleryarrow',['createGalleryArrow',['../db/df3/a00034.php#a1c29ca2eefb410f596bfa65d7a52004e',1,'gallery.js']]],
-  ['createid',['createId',['../da/da0/a00009.php#aa8164d5dea5ca9fbc23c9cf879692df5',1,'_functions.php']]],
-  ['createmap',['createMap',['../dd/d32/a00041.php#a17dbb98377912b404462ccec2e3c8e72',1,'map.js']]],
-  ['createround',['createRound',['../d5/de0/a00050.php#ae4a161ce9a41036f148f21c028ec8fdb',1,'score.js']]],
-  ['createscore',['createScore',['../d5/de0/a00050.php#ac9058c9f8dc74f92e18645bb8eae28f4',1,'score.js']]],
-  ['createstars',['createStars',['../d4/d6d/a00055.php#a0c1449df7daaf21306568d1c11699946',1,'stars.js']]],
-  ['createstruct',['createStruct',['../d7/dec/a00010.php#ac6145616a57b246abba6ae25f0b68d76',1,'_script.js']]],
-  ['createzip',['createZip',['../d3/d8b/a00059.php#af8b4d803f851d38bbafe42092fc5b8c5',1,'zip.php']]],
-  ['creationpartie',['creationPartie',['../d5/d79/a00030.php#a724c1f237bf9d61e65f9190f327a36ca',1,'fonctions.php']]],
-  ['creerpartie',['creerPartie',['../d3/d52/a00023.php#ae2409b5e868763f39bddaca9e2c23035',1,'Creation.js']]]
+  ['if',['if',['../d1/d2b/a00018.php#a2c96ec63e19591ef08651a74b48ab6a9',1,'navBar.js']]]
 ];

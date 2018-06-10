@@ -1,7 +1,5 @@
 var a00012 =
 [
-    [ "admin_do_something", "df/d86/a00012.php#a7983f8581db1e6d22e4c73911c503f61", null ],
-    [ "connect_admin", "df/d86/a00012.php#a6015ef10996b6f84b8a27308b2a5b63a", null ],
-    [ "deconnect_admin", "df/d86/a00012.php#a736d0fc81455988edf3e5f505e0c9ead", null ],
-    [ "is_admin_connected", "df/d86/a00012.php#ade15b4790187078fa9c6cadefc91c736", null ]
+    [ "$bdd", "df/d86/a00012.php#a94f91e878bce0991e2cd595c5dd79b3f", null ],
+    [ "$head", "df/d86/a00012.php#a687ea7fcd78263867b5bd34ed56b6379", null ]
 ];
