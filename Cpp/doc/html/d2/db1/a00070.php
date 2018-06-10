@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Spacers.hpp File Reference</title>
+<title>Hot Dog QUIZ: functions.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,50 +106,105 @@ $(document).ready(function(){initNavTree('d2/db1/a00070.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Spacers.hpp File Reference</div>  </div>
+<div class="title">functions.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<div class="textblock"><code>#include &quot;Widgets/C++/C++.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Spacers.hpp:</div>
+Include dependency graph for functions.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/db1/a00140.png" border="0" usemap="#Spacers_8hpp" alt=""/></div>
-<map name="Spacers_8hpp" id="Spacers_8hpp">
+<div class="center"><img src="../../d5/db1/a00140.png" border="0" usemap="#functions_8hpp" alt=""/></div>
+<map name="functions_8hpp" id="functions_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#Spacers_8hppdep" alt=""/></div>
-<map name="Spacers_8hppdep" id="Spacers_8hppdep">
-<area shape="rect" id="node2" href="../../de/de1/a00065.php" title="QtDefines.hpp" alt="" coords="5,80,112,107"/>
+<div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
+<map name="functions_8hppdep" id="functions_8hppdep">
+<area shape="rect" id="node2" href="../../db/db6/a00074.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
 </map>
 </div>
 </div>
 <p><a href="../../d2/db1/a00070_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php">QHSpacerItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QSpacerItem.  <a href="../../d0/d33/a00027.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QSpacerItem.  <a href="../../dc/d3c/a00028.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db1/a00070.php#a7b4f7ad736a4c60a7dbb5009193df31d">formatColumn</a> (std::string str, std::string table)</td></tr>
+<tr class="memdesc:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the string to erase the table name.  <a href="#a7b4f7ad736a4c60a7dbb5009193df31d">More...</a><br /></td></tr>
+<tr class="separator:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada892294d2dfe805cc181fbbbf443396"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db1/a00070.php#ada892294d2dfe805cc181fbbbf443396">createGame</a> (std::vector&lt; std::string &gt; values)</td></tr>
+<tr class="memdesc:ada892294d2dfe805cc181fbbbf443396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a game.  <a href="#ada892294d2dfe805cc181fbbbf443396">More...</a><br /></td></tr>
+<tr class="separator:ada892294d2dfe805cc181fbbbf443396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d2/db1/a00070_source.php">functions.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ada892294d2dfe805cc181fbbbf443396"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool createGame </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a game. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b4f7ad736a4c60a7dbb5009193df31d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string formatColumn </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Format the string to erase the table name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to format for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the formatted string </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d2/db1/a00070.php">Spacers.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d2/db1/a00070.php">functions.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

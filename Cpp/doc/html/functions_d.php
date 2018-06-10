@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -152,13 +154,35 @@ $(document).ready(function(){initNavTree('functions_d.php','');});
 </li>
 <li>decrypt()
 : <a class="el" href="de/d21/a00006.php#aa7c94ff5f6e8bc01697271877e05e367">Cesar</a>
-, <a class="el" href="df/d61/a00031.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
+, <a class="el" href="d3/de7/a00039.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
+</li>
+<li>deleteAll()
+: <a class="el" href="d3/dfe/a00025.php#aae5abc1edc939a854d3da3bec4e95c9a">MainWindow</a>
+</li>
+<li>deleteEntry()
+: <a class="el" href="d3/dfe/a00025.php#ac44a72386cf26dcc86f108aed760ddf0">MainWindow</a>
+</li>
+<li>Dialog()
+: <a class="el" href="dd/d1b/a00015.php#aa0b9cd0c1778f065842c9f5d8b1d0ade">Dialog</a>
 </li>
 <li>direction
 : <a class="el" href="d7/d46/a00002.php#a3f306d4e967d165b8ef55f6cdf9bde23">Animal</a>
 </li>
+<li>drawBackground()
+: <a class="el" href="d3/dfe/a00025.php#abc9f5971cf1748fae12a5acf641ecd1d">MainWindow</a>
+, <a class="el" href="d3/dea/a00046.php#a1ce5696d3fac4e90e6c9fbd0477d0f9d">Window</a>
+</li>
+<li>drawButtonsArea()
+: <a class="el" href="d4/dca/a00048.php#a2929d886be76951491d9bb53a6e1ce9e">WindowTitleBar</a>
+</li>
+<li>drawDefaultBackground()
+: <a class="el" href="d3/dea/a00046.php#acbed45e30a51c6855e5e6ea88197b161">Window</a>
+</li>
 <li>DrawScene()
-: <a class="el" href="d2/de7/a00014.php#a1f57b8878a4c601e45990ab2f461fcba">DrawScene</a>
+: <a class="el" href="d7/d7a/a00016.php#a1f57b8878a4c601e45990ab2f461fcba">DrawScene</a>
+</li>
+<li>drawTitleBar()
+: <a class="el" href="d4/dca/a00048.php#a51c99fb3d787abe8bc647145272981f0">WindowTitleBar</a>
 </li>
 </ul>
 </div><!-- contents -->

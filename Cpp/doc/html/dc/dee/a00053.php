@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: functions.hpp File Reference</title>
+<title>Hot Dog QUIZ: array.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,97 +106,101 @@ $(document).ready(function(){initNavTree('dc/dee/a00053.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">functions.hpp File Reference</div>  </div>
+<div class="title">array.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;Widgets/C++/C++.hpp&quot;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for array.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/d42/a00109.png" border="0" usemap="#array_8hpp" alt=""/></div>
+<map name="array_8hpp" id="array_8hpp">
+</map>
+</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d6d/a00111.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
-<map name="functions_8hppdep" id="functions_8hppdep">
-<area shape="rect" id="node2" href="../../d1/d22/a00057.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
+<div class="center"><img src="../../d4/d81/a00110.png" border="0" usemap="#array_8hppdep" alt=""/></div>
+<map name="array_8hppdep" id="array_8hppdep">
+<area shape="rect" id="node2" href="../../d9/dec/a00090.php" title="string.hpp" alt="" coords="449,80,527,107"/>
+<area shape="rect" id="node3" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="521,155,589,181"/>
+<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="410,827,483,853"/>
+<area shape="rect" id="node18" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="613,155,688,181"/>
+<area shape="rect" id="node4" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="510,229,599,256"/>
+<area shape="rect" id="node5" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="497,304,612,331"/>
+<area shape="rect" id="node17" href="../../d4/de8/a00061.php" title="cryptage.hpp" alt="" coords="77,453,174,480"/>
+<area shape="rect" id="node6" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="435,379,517,405"/>
+<area shape="rect" id="node9" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="401,677,492,704"/>
+<area shape="rect" id="node16" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="592,379,677,405"/>
+<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="389,528,475,555"/>
+<area shape="rect" id="node12" href="../../d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="355,453,443,480"/>
+<area shape="rect" id="node13" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="216,528,307,555"/>
+<area shape="rect" id="node8" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="379,603,445,629"/>
+<area shape="rect" id="node11" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="445,752,529,779"/>
+<area shape="rect" id="node14" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="277,603,355,629"/>
+<area shape="rect" id="node15" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="94,603,202,629"/>
 </map>
 </div>
 </div>
 <p><a href="../../dc/dee/a00053_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php">jumble</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dynamic array to store any type of variable.  <a href="../../dc/de2/a00024.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a487aa0a5ee1a53eddfa78ea676d3ff2b">list</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:a487aa0a5ee1a53eddfa78ea676d3ff2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43b53615192bcce310fc51944bf217b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aa43b53615192bcce310fc51944bf217b">listUsers</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:aa43b53615192bcce310fc51944bf217b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aff4b34ff516467549fc9daa6a8f3d4ac">addUsers</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:aff4b34ff516467549fc9daa6a8f3d4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6acc509b5aa3caa3f76450ed835759e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ac6acc509b5aa3caa3f76450ed835759e">updateUsers</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:ac6acc509b5aa3caa3f76450ed835759e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df7c0879644507b94167bd565cd88bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a4df7c0879644507b94167bd565cd88bc">deleteUsers</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:a4df7c0879644507b94167bd565cd88bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3143ec2b5319c969adf991c009373f0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#af3143ec2b5319c969adf991c009373f0">listCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:af3143ec2b5319c969adf991c009373f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#afeb2d8632fb1dad24def5d95d27f43f0">addCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:afeb2d8632fb1dad24def5d95d27f43f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2227326c53ffa5963bcc96c7983c6383"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a2227326c53ffa5963bcc96c7983c6383">updateCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:a2227326c53ffa5963bcc96c7983c6383"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14880f51cece87ca27691c7acfa01d8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a14880f51cece87ca27691c7acfa01d8a">deleteCategory</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:a14880f51cece87ca27691c7acfa01d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63ee67279e62ee5eaf73bb188ba0b4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ad63ee67279e62ee5eaf73bb188ba0b4a">listDifficulty</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:ad63ee67279e62ee5eaf73bb188ba0b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a4f84d201465ec63094f6407c0cdb6a8d">updateDifficulty</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:a4f84d201465ec63094f6407c0cdb6a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1caf2a7a9b33c712063314f6bac74470"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a1caf2a7a9b33c712063314f6bac74470">listGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:a1caf2a7a9b33c712063314f6bac74470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ee2c6a333148aed442bb741b2bf82d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a35ee2c6a333148aed442bb741b2bf82d">addGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:a35ee2c6a333148aed442bb741b2bf82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a870df29ea630e53aa77c960373e0825f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a870df29ea630e53aa77c960373e0825f">updateGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:a870df29ea630e53aa77c960373e0825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a8205b4d8f60ec0146b15eace1d79d95a">deleteGame</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:a8205b4d8f60ec0146b15eace1d79d95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a0820a14dbb5072c112cf32466c8fc6c3">listAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:a0820a14dbb5072c112cf32466c8fc6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2003fa6138007746e85c2b697d147b58"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a2003fa6138007746e85c2b697d147b58">addAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:a2003fa6138007746e85c2b697d147b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aaee44428f5b0401f7b9ad5b073254fd3">updateAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:aaee44428f5b0401f7b9ad5b073254fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af57e491c251eeaf366674ea6df624cd1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#af57e491c251eeaf366674ea6df624cd1">deleteAsk</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:af57e491c251eeaf366674ea6df624cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887113739bafac257bbd35996edfeb81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a887113739bafac257bbd35996edfeb81">listQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:a887113739bafac257bbd35996edfeb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad86a004962b3149094f4cc660ecb05d4"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ad86a004962b3149094f4cc660ecb05d4">addQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args)</td></tr>
-<tr class="separator:ad86a004962b3149094f4cc660ecb05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ae13343b52f992bcba9e6fcb79bddf71e">updateQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string args, std::string condition)</td></tr>
-<tr class="separator:ae13343b52f992bcba9e6fcb79bddf71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a0c5a4808a05a3628f1b8e88ac398c70a">deleteQuestion</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:a0c5a4808a05a3628f1b8e88ac398c70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34790c4f5c0c4ad30d069fa2766559c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#af34790c4f5c0c4ad30d069fa2766559c">listPoints</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>)</td></tr>
-<tr class="separator:af34790c4f5c0c4ad30d069fa2766559c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46e754bfd8e03764969330bc39a1fa66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a46e754bfd8e03764969330bc39a1fa66">deletePoints</a> (<a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;<a class="el" href="../../db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a>, std::string condition)</td></tr>
-<tr class="separator:a46e754bfd8e03764969330bc39a1fa66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a5090547d046a342ba3ac573e8248f628">implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a5090547d046a342ba3ac573e8248f628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a5090547d046a342ba3ac573e8248f628">More...</a><br /></td></tr>
+<tr class="separator:a5090547d046a342ba3ac573e8248f628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#ad2b1019448d0599264d51172242e1be4">print_r</a> (std::vector&lt; T &gt; a)</td></tr>
+<tr class="memdesc:ad2b1019448d0599264d51172242e1be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of a vector.  <a href="#ad2b1019448d0599264d51172242e1be4">More...</a><br /></td></tr>
+<tr class="separator:ad2b1019448d0599264d51172242e1be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_array&lt; T &gt;::value &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">print_r</a> (T a)</td></tr>
+<tr class="memdesc:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">More...</a><br /></td></tr>
+<tr class="separator:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#addfa691004e6d94461994bb7eccadf19">rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
+<tr class="memdesc:addfa691004e6d94461994bb7eccadf19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#addfa691004e6d94461994bb7eccadf19">More...</a><br /></td></tr>
+<tr class="separator:addfa691004e6d94461994bb7eccadf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/dee/a00053.php#a54f668e0211381d2d15ca45dcf3c55d0">contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
+<tr class="memdesc:a54f668e0211381d2d15ca45dcf3c55d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#a54f668e0211381d2d15ca45dcf3c55d0">More...</a><br /></td></tr>
+<tr class="separator:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../dc/dee/a00053_source.php">functions.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a2003fa6138007746e85c2b697d147b58"></a>
+<a class="anchor" id="a54f668e0211381d2d15ca45dcf3c55d0"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t addAsk </td>
+          <td class="memname">bool contains </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -206,23 +210,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Verify if a vector contains or not something. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array in which to verify </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00103">103</a> of file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/dee/a00053_a54f668e0211381d2d15ca45dcf3c55d0_cgraph.png" border="0" usemap="#dc/dee/a00053_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" alt=""/></div>
+<map name="dc/dee/a00053_a54f668e0211381d2d15ca45dcf3c55d0_cgraph" id="dc/dee/a00053_a54f668e0211381d2d15ca45dcf3c55d0_cgraph">
+<area shape="rect" id="node2" href="../../dc/d54/a00094.php#a653f604d83b424493ac7d0d3d586a3c2" title="Find a value in the tree and return the node and the path to the node. " alt="" coords="124,5,167,32"/>
+<area shape="rect" id="node3" href="../../dc/d54/a00094.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="215,5,269,32"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
-<a class="anchor" id="afeb2d8632fb1dad24def5d95d27f43f0"></a>
+<a class="anchor" id="a5090547d046a342ba3ac573e8248f628"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t addCategory </td>
+          <td class="memname">std::string implode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramname"><em>glue</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -232,23 +261,105 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Stick the <em>a</em> vector with the <em>glue</em> given. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The arrau to stick </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">glue</td><td>The string to stick the array's elements</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a string of the array </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00023">23</a> of file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/dee/a00053_a5090547d046a342ba3ac573e8248f628_cgraph.png" border="0" usemap="#dc/dee/a00053_a5090547d046a342ba3ac573e8248f628_cgraph" alt=""/></div>
+<map name="dc/dee/a00053_a5090547d046a342ba3ac573e8248f628_cgraph" id="dc/dee/a00053_a5090547d046a342ba3ac573e8248f628_cgraph">
+<area shape="rect" id="node2" href="../../d9/d73/a00060.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="120,5,160,32"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
-<a class="anchor" id="a35ee2c6a333148aed442bb741b2bf82d"></a>
+<a class="anchor" id="ad2b1019448d0599264d51172242e1be4"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t addGame </td>
+          <td class="memname">void print_r </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the content of a vector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The vector to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00048">48</a> of file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeda2dbc3a1ec9d5f58f2991fb7d0ad13"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;std::is_array&lt;T&gt;::value&gt;::type print_r </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the content of an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The array to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00065">65</a> of file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="addfa691004e6d94461994bb7eccadf19"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;V&gt; rewrite </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; V &gt;&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -258,533 +369,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="ad86a004962b3149094f4cc660ecb05d4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t addQuestion </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Rewrite a vector array without the value at the given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array to rewrite </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index not to let in the array</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return an array without the <em>index</em> </dd></dl>
 
-</div>
-</div>
-<a class="anchor" id="aff4b34ff516467549fc9daa6a8f3d4ac"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool addUsers </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af57e491c251eeaf366674ea6df624cd1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteAsk </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a14880f51cece87ca27691c7acfa01d8a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteCategory </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8205b4d8f60ec0146b15eace1d79d95a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteGame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a46e754bfd8e03764969330bc39a1fa66"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deletePoints </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0c5a4808a05a3628f1b8e88ac398c70a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteQuestion </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4df7c0879644507b94167bd565cd88bc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool deleteUsers </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a487aa0a5ee1a53eddfa78ea676d3ff2b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void list </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0820a14dbb5072c112cf32466c8fc6c3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listAsk </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af3143ec2b5319c969adf991c009373f0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listCategory </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad63ee67279e62ee5eaf73bb188ba0b4a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listDifficulty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1caf2a7a9b33c712063314f6bac74470"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listGame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="af34790c4f5c0c4ad30d069fa2766559c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listPoints </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a887113739bafac257bbd35996edfeb81"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listQuestion </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa43b53615192bcce310fc51944bf217b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;std::string&gt; &gt; listUsers </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaee44428f5b0401f7b9ad5b073254fd3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateAsk </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2227326c53ffa5963bcc96c7983c6383"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateCategory </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4f84d201465ec63094f6407c0cdb6a8d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateDifficulty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a870df29ea630e53aa77c960373e0825f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateGame </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae13343b52f992bcba9e6fcb79bddf71e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateQuestion </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac6acc509b5aa3caa3f76450ed835759e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateUsers </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dad/a00005.php">BDD</a> &amp;&#160;</td>
-          <td class="paramname"><em>bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>args</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>condition</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00082">82</a> of file <a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>.</p>
 
 </div>
 </div>
@@ -793,7 +388,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/dee/a00053.php">functions.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dc/dee/a00053.php">array.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

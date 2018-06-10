@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: QtDefines.hpp File Reference</title>
+<title>Hot Dog QUIZ: Entities.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,29 +106,72 @@ $(document).ready(function(){initNavTree('de/de1/a00065.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">QtDefines.hpp File Reference</div>  </div>
+<div class="title">Entities.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">DrawScene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d24/a00068_source.php">Scene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">QtFunctions.hpp</a>&quot;</code><br />
-<code>#include &quot;C++/C++.hpp&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">Contraption.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/da4/a00078_source.php">Object.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">Entity.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/de0/a00050_source.php">Animal.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">Ant.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/df8/a00096_source.php">Vegetal.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d51/a00079_source.php">Plant.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d09/a00077_source.php">Mushroom.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for Entities.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d06/a00131.png" border="0" usemap="#Entities_8hpp" alt=""/></div>
+<map name="Entities_8hpp" id="Entities_8hpp">
+<area shape="rect" id="node2" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="1293,379,1408,405"/>
+<area shape="rect" id="node43" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="1308,229,1393,256"/>
+<area shape="rect" id="node44" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="1441,304,1522,331"/>
+<area shape="rect" id="node45" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="1494,155,1581,181"/>
+<area shape="rect" id="node47" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="1519,80,1585,107"/>
+<area shape="rect" id="node48" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="1616,155,1707,181"/>
+<area shape="rect" id="node49" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="1609,80,1687,107"/>
+<area shape="rect" id="node50" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="1711,80,1819,107"/>
+<area shape="rect" id="node3" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="1395,453,1485,480"/>
+<area shape="rect" id="node18" href="../../d9/d77/a00095.php" title="types.hpp" alt="" coords="675,752,754,779"/>
+<area shape="rect" id="node41" href="../../d1/d22/a00057.php" title="collides.hpp" alt="" coords="1740,453,1831,480"/>
+<area shape="rect" id="node42" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="1129,528,1201,555"/>
+<area shape="rect" id="node10" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="753,528,821,555"/>
+<area shape="rect" id="node23" href="../../d9/d73/a00060.php" title="convert.hpp" alt="" coords="1753,752,1844,779"/>
+<area shape="rect" id="node28" href="../../da/d24/a00068.php" title="files.hpp" alt="" coords="1210,677,1281,704"/>
+<area shape="rect" id="node30" href="../../d1/dc1/a00092.php" title="time.hpp" alt="" coords="960,677,1032,704"/>
+<area shape="rect" id="node31" href="../../d8/d53/a00081.php" title="pointers.hpp" alt="" coords="987,603,1080,629"/>
+<area shape="rect" id="node32" href="../../d9/dec/a00090.php" title="string.hpp" alt="" coords="1619,677,1698,704"/>
+<area shape="rect" id="node36" href="../../da/d2a/a00086.php" title="RNG.hpp" alt="" coords="1919,752,1996,779"/>
+<area shape="rect" id="node38" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="1276,528,1351,555"/>
+<area shape="rect" id="node40" href="../../db/df8/a00076.php" title="maths.hpp" alt="" coords="1937,528,2020,555"/>
+<area shape="rect" id="node21" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="1205,603,1285,629"/>
+<area shape="rect" id="node35" href="../../dc/dee/a00053.php" title="array.hpp" alt="" coords="1213,752,1289,779"/>
+<area shape="rect" id="node22" href="../../d7/df7/a00058.php" title="console.hpp" alt="" coords="1317,677,1409,704"/>
+<area shape="rect" id="node34" href="../../d1/d6e/a00073.php" title="macro.hpp" alt="" coords="1495,752,1577,779"/>
+<area shape="rect" id="node46" href="../../d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="1519,229,1607,256"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/deb/a00132.png" border="0" usemap="#Entities_8hppdep" alt=""/></div>
+<map name="Entities_8hppdep" id="Entities_8hppdep">
+<area shape="rect" id="node2" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="14,155,87,181"/>
+<area shape="rect" id="node3" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="49,80,133,107"/>
+</map>
+</div>
 </div>
 <p><a href="../../de/de1/a00065_source.php">Go to the source code of this file.</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../de/de1/a00065_source.php">QtDefines.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../de/de1/a00065_source.php">Entities.hpp</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../de/de1/a00065.php">QtDefines.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../de/de1/a00065.php">Entities.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

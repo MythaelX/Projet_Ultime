@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: defines.hpp File Reference</title>
+<title>Hot Dog QUIZ: WindowButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -49,8 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,8 +71,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -106,152 +108,103 @@ $(document).ready(function(){initNavTree('d6/d2d/a00047.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../d1/de3/a00306.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">defines.hpp File Reference</div>  </div>
+<div class="title">WindowButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;limits&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &lt;ios&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d3a/a00040_source.php">bdd.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d41/a00038_source.php">Args.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">convert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d89/a00071_source.php">string.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2c/a00072_source.php">time.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">maths.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d84/a00052_source.php">files.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d5f/a00064_source.php">pointers.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for defines.hpp:</div>
+
+<p>The buttons for the <a class="el" href="../../d4/dca/a00048.php" title="The titlebar of the Window class. ">WindowTitleBar</a> and the <a class="el" href="../../d3/dea/a00046.php" title="A custom window. ">Window</a>.  
+ <a href="../../d6/d2d/a00047.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../da/d74/a00099_source.php">WindowButton.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for WindowButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#defines_8hpp" alt=""/></div>
-<map name="defines_8hpp" id="defines_8hpp">
-<area shape="rect" id="node8" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="1163,80,1231,107"/>
-<area shape="rect" id="node20" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="685,304,776,331"/>
-<area shape="rect" id="node25" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="930,304,1001,331"/>
-<area shape="rect" id="node28" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="1772,229,1844,256"/>
-<area shape="rect" id="node31" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1901,155,1995,181"/>
-<area shape="rect" id="node32" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="478,229,557,256"/>
-<area shape="rect" id="node36" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1615,80,1689,107"/>
-<area shape="rect" id="node38" href="../../dc/ddf/a00067.php" title="RNG.hpp" alt="" coords="2123,80,2200,107"/>
-<area shape="rect" id="node40" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1991,80,2073,107"/>
-<area shape="rect" id="node15" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="1485,304,1563,331"/>
-<area shape="rect" id="node18" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1573,155,1653,181"/>
-<area shape="rect" id="node35" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="1218,304,1294,331"/>
-<area shape="rect" id="node19" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="1478,229,1570,256"/>
-<area shape="rect" id="node34" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="579,304,661,331"/>
+<div class="center"><img src="../../d0/da2/a00307.png" border="0" usemap="#WindowButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="WindowButton_inherit__map" id="WindowButton_inherit__map">
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for WindowButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d61/a00100.png" border="0" usemap="#defines_8hppdep" alt=""/></div>
-<map name="defines_8hppdep" id="defines_8hppdep">
-<area shape="rect" id="node2" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="464,80,579,107"/>
-<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="546,603,619,629"/>
-<area shape="rect" id="node14" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="686,229,783,256"/>
-<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,155,201,181"/>
-<area shape="rect" id="node6" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="267,453,357,480"/>
-<area shape="rect" id="node13" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="525,155,611,181"/>
-<area shape="rect" id="node4" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,304,102,331"/>
-<area shape="rect" id="node9" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,229,123,256"/>
-<area shape="rect" id="node10" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="220,304,311,331"/>
-<area shape="rect" id="node5" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,379,72,405"/>
-<area shape="rect" id="node8" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="475,528,559,555"/>
-<area shape="rect" id="node11" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,379,325,405"/>
-<area shape="rect" id="node12" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,379,458,405"/>
+<div class="center"><img src="../../d5/d0f/a00308.png" border="0" usemap="#WindowButton_coll__map" alt="Collaboration graph"/></div>
+<map name="WindowButton_coll__map" id="WindowButton_coll__map">
 </map>
-</div>
-</div>
-<p><a href="../../d6/d2d/a00047_source.php">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/a00026.php">Point</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../d6/d5b/a00026.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php">ContraptionAttr</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../da/d45/a00011.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../df/d86/a00012.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a44dfccd15fd47aa8db19125945f8af08"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a44dfccd15fd47aa8db19125945f8af08">VI</a> = std::vector&lt; int &gt;</td></tr>
-<tr class="memdesc:a44dfccd15fd47aa8db19125945f8af08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>std::vector&lt;int&gt;</b>  <a href="#a44dfccd15fd47aa8db19125945f8af08">More...</a><br /></td></tr>
-<tr class="separator:a44dfccd15fd47aa8db19125945f8af08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44aff682fd9726ed5ca19159f23b2e6b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a44aff682fd9726ed5ca19159f23b2e6b">VS</a> = std::vector&lt; std::string &gt;</td></tr>
-<tr class="memdesc:a44aff682fd9726ed5ca19159f23b2e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>std::vector&lt;std::string&gt;</b>  <a href="#a44aff682fd9726ed5ca19159f23b2e6b">More...</a><br /></td></tr>
-<tr class="separator:a44aff682fd9726ed5ca19159f23b2e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aaafbaedde498cdead4f2780217646e9ba1">Direction::UP</a>, 
-<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f">Direction::DOWN</a>, 
-<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aaa21507b40c80068eda19865706fdc2403">Direction::RIGHT</a>, 
-<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aaa684d325a7303f52e64011467ff5c5758">Direction::LEFT</a>, 
-<br />
-&#160;&#160;<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aaab50339a10e1de285ac99d4c3990b8693">Direction::NONE</a>
-<br />
- }<tr class="memdesc:a224b9163917ac32fc95a60d8c1eec3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directions to move.  <a href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a1a23c44a782fc06df076f22ea249084b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">ButtonType</a> { <a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">BUTTON_MINIMIZE</a>, 
+<a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">BUTTON_MAXIMIZE</a>, 
+<a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">BUTTON_CLOSE</a>
+ }<tr class="memdesc:a1a23c44a782fc06df076f22ea249084b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differents buttons type.  <a href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">More...</a><br /></td></tr>
 </td></tr>
-<tr class="separator:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1a23c44a782fc06df076f22ea249084b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac4f0b135bb2c7d7a301c8ccd8ed14ef0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a> (<a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">ButtonType</a> type, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:ac4f0b135bb2c7d7a301c8ccd8ed14ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor.  <a href="#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">More...</a><br /></td></tr>
+<tr class="separator:ac4f0b135bb2c7d7a301c8ccd8ed14ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a0e6f87bae8c50d9d2e57b371a548a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#af6a0e6f87bae8c50d9d2e57b371a548a">~WindowButton</a> ()</td></tr>
+<tr class="separator:af6a0e6f87bae8c50d9d2e57b371a548a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4babac31336534efca737c5f73710c1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a4babac31336534efca737c5f73710c1d">setNormalColor</a> (int r, int g, int b, int a=255)</td></tr>
+<tr class="memdesc:a4babac31336534efca737c5f73710c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the normal color of the button lines.  <a href="#a4babac31336534efca737c5f73710c1d">More...</a><br /></td></tr>
+<tr class="separator:a4babac31336534efca737c5f73710c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6947ea55943b909c1d492ad2f79ae1f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a6947ea55943b909c1d492ad2f79ae1f8">setHoveredColor</a> (int r, int g, int b, int a=255)</td></tr>
+<tr class="memdesc:a6947ea55943b909c1d492ad2f79ae1f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the hovered color of the button lines.  <a href="#a6947ea55943b909c1d492ad2f79ae1f8">More...</a><br /></td></tr>
+<tr class="separator:a6947ea55943b909c1d492ad2f79ae1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a087338372f7592853b050d168df152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a7a087338372f7592853b050d168df152">setClickedColor</a> (int r, int g, int b, int a=255)</td></tr>
+<tr class="memdesc:a7a087338372f7592853b050d168df152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the clicked color of the button lines.  <a href="#a7a087338372f7592853b050d168df152">More...</a><br /></td></tr>
+<tr class="separator:a7a087338372f7592853b050d168df152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7b9d8d3e328e0285ef4664e20acb8d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#ac7b9d8d3e328e0285ef4664e20acb8d3">setBackground</a> (int r, int g, int b, int a=255)</td></tr>
+<tr class="memdesc:ac7b9d8d3e328e0285ef4664e20acb8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the background color of the button.  <a href="#ac7b9d8d3e328e0285ef4664e20acb8d3">More...</a><br /></td></tr>
+<tr class="separator:ac7b9d8d3e328e0285ef4664e20acb8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a434a8192bfe4dea8c7b4e1b052a1a943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a434a8192bfe4dea8c7b4e1b052a1a943">setGradient</a> (int r1, int g1, int b1, int a1, int r2, int g2, int b2, int a2)</td></tr>
+<tr class="memdesc:a434a8192bfe4dea8c7b4e1b052a1a943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the gradient background color of the button.  <a href="#a434a8192bfe4dea8c7b4e1b052a1a943">More...</a><br /></td></tr>
+<tr class="separator:a434a8192bfe4dea8c7b4e1b052a1a943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a52e7cf1fa9d4c97891ac0080c65dd57e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e">ButtonState</a> { <a class="el" href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">STATE_NORMAL</a>, 
+<a class="el" href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">STATE_HOVERED</a>, 
+<a class="el" href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">STATE_CLICKED</a>
+ }<tr class="memdesc:a52e7cf1fa9d4c97891ac0080c65dd57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The differents buttons states.  <a href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a52e7cf1fa9d4c97891ac0080c65dd57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a2dd52661908250a571804fe967bcd316"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a2dd52661908250a571804fe967bcd316">resizeEvent</a> (QResizeEvent *event)</td></tr>
+<tr class="memdesc:a2dd52661908250a571804fe967bcd316"><td class="mdescLeft">&#160;</td><td class="mdescRight">The resize event of the button.  <a href="#a2dd52661908250a571804fe967bcd316">More...</a><br /></td></tr>
+<tr class="separator:a2dd52661908250a571804fe967bcd316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d63cf19bcf3f8ba8a7f03fe4f222f11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11">paintEvent</a> (QPaintEvent *event)</td></tr>
+<tr class="memdesc:a9d63cf19bcf3f8ba8a7f03fe4f222f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">The paint event of the button.  <a href="#a9d63cf19bcf3f8ba8a7f03fe4f222f11">More...</a><br /></td></tr>
+<tr class="separator:a9d63cf19bcf3f8ba8a7f03fe4f222f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab556dedddbb1c9832f572b747449055"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#aab556dedddbb1c9832f572b747449055">enterEvent</a> (QEvent *event)</td></tr>
+<tr class="memdesc:aab556dedddbb1c9832f572b747449055"><td class="mdescLeft">&#160;</td><td class="mdescRight">The enter event of the button.  <a href="#aab556dedddbb1c9832f572b747449055">More...</a><br /></td></tr>
+<tr class="separator:aab556dedddbb1c9832f572b747449055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a89e083618d2f239a60bf5adb7c79a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#a8a89e083618d2f239a60bf5adb7c79a2">leaveEvent</a> (QEvent *event)</td></tr>
+<tr class="memdesc:a8a89e083618d2f239a60bf5adb7c79a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The leave event of the button.  <a href="#a8a89e083618d2f239a60bf5adb7c79a2">More...</a><br /></td></tr>
+<tr class="separator:a8a89e083618d2f239a60bf5adb7c79a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7caa976fc5766ddc3d89eef1965a9c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#af7caa976fc5766ddc3d89eef1965a9c6">mousePressEvent</a> (QMouseEvent *event)</td></tr>
+<tr class="memdesc:af7caa976fc5766ddc3d89eef1965a9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mouse press event of the button.  <a href="#af7caa976fc5766ddc3d89eef1965a9c6">More...</a><br /></td></tr>
+<tr class="separator:af7caa976fc5766ddc3d89eef1965a9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd414539e6cf2fc7072a175032a6f1ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/a00047.php#afd414539e6cf2fc7072a175032a6f1ff">mouseReleaseEvent</a> (QMouseEvent *event)</td></tr>
+<tr class="memdesc:afd414539e6cf2fc7072a175032a6f1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mouse release event of the button.  <a href="#afd414539e6cf2fc7072a175032a6f1ff">More...</a><br /></td></tr>
+<tr class="separator:afd414539e6cf2fc7072a175032a6f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<div class="textblock"><p>The buttons for the <a class="el" href="../../d4/dca/a00048.php" title="The titlebar of the Window class. ">WindowTitleBar</a> and the <a class="el" href="../../d3/dea/a00046.php" title="A custom window. ">Window</a>. </p>
 
-<p>Definition in file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a44dfccd15fd47aa8db19125945f8af08"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d6/d2d/a00047.php#a44dfccd15fd47aa8db19125945f8af08">VI</a> =  std::vector&lt;int&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Alias for <b>std::vector&lt;int&gt;</b> </p>
-<p>#include &lt;iostream&gt;</p>
-<p>#include &lt;fstream&gt; #include &lt;sstream&gt;</p>
-<p>#include &lt;vector&gt; #include &lt;map&gt;</p>
-<p>#include &lt;string&gt;</p>
-<p>#include &lt;random&gt; #include &lt;algorithm&gt;</p>
-<p>#include &lt;type_traits&gt; #include &lt;typeinfo&gt; #include &lt;numeric&gt;</p>
-<p>#include &lt;thread&gt; #include &lt;mutex&gt;</p>
-<p>#include &lt;cmath&gt; #include &lt;ctime&gt; </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00055">55</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a44aff682fd9726ed5ca19159f23b2e6b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d6/d2d/a00047.php#a44aff682fd9726ed5ca19159f23b2e6b">VS</a> =  std::vector&lt;std::string&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Alias for <b>std::vector&lt;std::string&gt;</b> </p>
-
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00057">57</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aa"></a>
+<p>Definition at line <a class="el" href="../../da/d74/a00099_source.php#l00018">18</a> of file <a class="el" href="../../da/d74/a00099_source.php">WindowButton.hpp</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a52e7cf1fa9d4c97891ac0080c65dd57e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -259,40 +212,537 @@ Enumerations</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></td>
+          <td class="memname">enum <a class="el" href="../../d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton::ButtonState</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Directions to move. </p>
+<p>The differents buttons states. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaafbaedde498cdead4f2780217646e9ba1"></a>UP&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97"></a>STATE_NORMAL&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f"></a>DOWN&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e"></a>STATE_HOVERED&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaa21507b40c80068eda19865706fdc2403"></a>RIGHT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaa684d325a7303f52e64011467ff5c5758"></a>LEFT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7"></a>STATE_CLICKED&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00080">80</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d74/a00099_source.php#l00089">89</a> of file <a class="el" href="../../da/d74/a00099_source.php">WindowButton.hpp</a>.</p>
 
 </div>
 </div>
+<a class="anchor" id="a1a23c44a782fc06df076f22ea249084b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">WindowButton::ButtonType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The differents buttons type. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d"></a>BUTTON_MINIMIZE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0"></a>BUTTON_MAXIMIZE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74"></a>BUTTON_CLOSE&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../da/d74/a00099_source.php#l00022">22</a> of file <a class="el" href="../../da/d74/a00099_source.php">WindowButton.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ac4f0b135bb2c7d7a301c8ccd8ed14ef0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WindowButton::WindowButton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">ButtonType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>The type of the button as <b>ButtonType</b> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">parent</td><td>The parent widget </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af6a0e6f87bae8c50d9d2e57b371a548a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WindowButton::~WindowButton </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aab556dedddbb1c9832f572b747449055"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::enterEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The enter event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8a89e083618d2f239a60bf5adb7c79a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::leaveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The leave event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="af7caa976fc5766ddc3d89eef1965a9c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The mouse press event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="afd414539e6cf2fc7072a175032a6f1ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The mouse release event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a9d63cf19bcf3f8ba8a7f03fe4f222f11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::paintEvent </td>
+          <td>(</td>
+          <td class="paramtype">QPaintEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The paint event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2dd52661908250a571804fe967bcd316"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::resizeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QResizeEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The resize event of the button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event to treat </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac7b9d8d3e328e0285ef4664e20acb8d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::setBackground </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the background color of the button. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a087338372f7592853b050d168df152"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::setClickedColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the clicked color of the button lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a434a8192bfe4dea8c7b4e1b052a1a943"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::setGradient </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the gradient background color of the button. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6947ea55943b909c1d492ad2f79ae1f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::setHoveredColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the hovered color of the button lines. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4babac31336534efca737c5f73710c1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowButton::setNormalColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the normal color of the button lines. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d74/a00099_source.php">WindowButton.hpp</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">defines.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d6/d2d/a00047.php">WindowButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

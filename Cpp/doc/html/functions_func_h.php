@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Functions</title>
+<title>Hot Dog QUIZ: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li class="current"><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -107,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_t.php#index_t"><span>t</span></a></li>
       <li><a href="functions_func_u.php#index_u"><span>u</span></a></li>
       <li><a href="functions_func_v.php#index_v"><span>v</span></a></li>
+      <li><a href="functions_func_w.php#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -143,17 +146,23 @@ $(document).ready(function(){initNavTree('functions_func_h.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>H2TitleLabel()
+: <a class="el" href="d7/de0/a00022.php#a63831a9a77053bc8389e5036712218bf">H2TitleLabel</a>
+</li>
+<li>hasAutoincrement()
+: <a class="el" href="dd/dad/a00005.php#a84c0df9de34d028bfa4a6711f3ff38ed">BDD</a>
+</li>
 <li>hit()
-: <a class="el" href="dd/d1b/a00015.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>
+: <a class="el" href="d4/d51/a00017.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>
 </li>
 <li>home()
-: <a class="el" href="d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f">ConsoleCursor</a>
+: <a class="el" href="da/d45/a00011.php#a129aafa021f4f29239b8e014f426f15f">ConsoleCursor</a>
 </li>
 <li>Hostile()
-: <a class="el" href="d4/d51/a00017.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>
+: <a class="el" href="d3/d52/a00023.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>
 </li>
 <li>hurt()
-: <a class="el" href="d4/d51/a00017.php#a7ad578b926f0be7cf84ee0f45665fa1f">Hostile</a>
+: <a class="el" href="d3/d52/a00023.php#a7ad578b926f0be7cf84ee0f45665fa1f">Hostile</a>
 </li>
 </ul>
 </div><!-- contents -->

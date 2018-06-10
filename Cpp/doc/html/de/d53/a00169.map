@@ -1,9 +1,9 @@
-<map id="Contraption" name="Contraption">
-<area shape="rect" id="node2" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="53,80,109,107"/>
-<area shape="rect" id="node8" href="$d3/d52/a00023.php" title="An object. " alt="" coords="133,80,193,107"/>
-<area shape="rect" id="node3" href="$d7/d46/a00002.php" title="An animal. " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node5" href="$db/df3/a00034.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
-<area shape="rect" id="node4" href="$d1/d7c/a00003.php" title="An ant. " alt="" coords="15,229,58,256"/>
-<area shape="rect" id="node6" href="$de/d11/a00021.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
-<area shape="rect" id="node7" href="$dc/de2/a00024.php" title="A plant. " alt="" coords="191,229,243,256"/>
+<map id="QtFunctions.hpp" name="QtFunctions.hpp">
+<area shape="rect" id="node2" href="$df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
+<area shape="rect" id="node3" href="$d4/d31/a00069.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
+<area shape="rect" id="node4" href="$d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
+<area shape="rect" id="node6" href="$da/d74/a00099.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
+<area shape="rect" id="node5" href="$da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
+<area shape="rect" id="node7" href="$d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
+<area shape="rect" id="node8" href="$d1/d44/a00098.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
 </map>

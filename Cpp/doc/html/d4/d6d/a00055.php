@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Hostile.hpp File Reference</title>
+<title>Hot Dog QUIZ: C++.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -105,71 +105,78 @@ $(document).ready(function(){initNavTree('d4/d6d/a00055.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Hostile.hpp File Reference</div>  </div>
+<div class="title">C++.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/de0/a00050_source.php">Entity.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../de/de1/a00065_source.php">Entities.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/dec/a00080_source.php">Player.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/de8/a00061_source.php">cryptage.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">convert.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">collides.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/dec/a00090_source.php">string.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dee/a00053_source.php">array.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc1/a00092_source.php">time.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/df8/a00076_source.php">maths.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d24/a00068_source.php">files.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/ddf/a00088_source.php">sorting.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/da5/a00075_source.php">Map.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d6e/a00073_source.php">macro.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d77/a00095_source.php">types.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Hostile.hpp:</div>
+Include dependency graph for C++.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d17/a00114.png" border="0" usemap="#Hostile_8hpp" alt=""/></div>
-<map name="Hostile_8hpp" id="Hostile_8hpp">
-<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="1575,80,1657,107"/>
-<area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="1559,155,1673,181"/>
-<area shape="rect" id="node4" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="1343,229,1433,256"/>
-<area shape="rect" id="node18" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="1262,528,1341,555"/>
-<area shape="rect" id="node45" href="../../d5/db6/a00042.php" title="collides.hpp" alt="" coords="1881,229,1972,256"/>
-<area shape="rect" id="node46" href="../../d7/df7/a00058.php" title="Map.hpp" alt="" coords="536,304,608,331"/>
-<area shape="rect" id="node11" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="966,304,1034,331"/>
-<area shape="rect" id="node23" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="355,528,445,555"/>
-<area shape="rect" id="node28" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="1149,453,1219,480"/>
-<area shape="rect" id="node31" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="1493,453,1565,480"/>
-<area shape="rect" id="node34" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1713,379,1807,405"/>
-<area shape="rect" id="node35" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="125,453,203,480"/>
-<area shape="rect" id="node39" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1081,304,1156,331"/>
-<area shape="rect" id="node41" href="../../dc/ddf/a00067.php" title="RNG.hpp" alt="" coords="1489,304,1567,331"/>
-<area shape="rect" id="node43" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1883,304,1965,331"/>
-<area shape="rect" id="node21" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1143,379,1223,405"/>
-<area shape="rect" id="node38" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="690,528,766,555"/>
-<area shape="rect" id="node22" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="873,453,965,480"/>
-<area shape="rect" id="node37" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="248,528,331,555"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d2/da3/a00115.png" border="0" usemap="#Hostile_8hppdep" alt=""/></div>
-<map name="Hostile_8hppdep" id="Hostile_8hppdep">
-<area shape="rect" id="node2" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="30,80,117,107"/>
-<area shape="rect" id="node3" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,155,72,181"/>
-<area shape="rect" id="node4" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="28,229,119,256"/>
-<area shape="rect" id="node5" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="37,379,110,405"/>
-<area shape="rect" id="node6" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="71,304,155,331"/>
+<div class="center"><img src="../../d3/d00/a00113.png" border="0" usemap="#C_09_09_8hpp" alt=""/></div>
+<map name="C_09_09_8hpp" id="C_09_09_8hpp">
+<area shape="rect" id="node2" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="1377,155,1468,181"/>
+<area shape="rect" id="node4" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="641,528,730,555"/>
+<area shape="rect" id="node14" href="../../d9/d77/a00095.php" title="types.hpp" alt="" coords="1365,827,1443,853"/>
+<area shape="rect" id="node16" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="1027,677,1107,704"/>
+<area shape="rect" id="node17" href="../../d7/df7/a00058.php" title="console.hpp" alt="" coords="1134,752,1226,779"/>
+<area shape="rect" id="node18" href="../../d9/d73/a00060.php" title="convert.hpp" alt="" coords="529,827,620,853"/>
+<area shape="rect" id="node23" href="../../da/d24/a00068.php" title="files.hpp" alt="" coords="1250,752,1321,779"/>
+<area shape="rect" id="node26" href="../../d1/dc1/a00092.php" title="time.hpp" alt="" coords="57,752,129,779"/>
+<area shape="rect" id="node30" href="../../d9/dec/a00090.php" title="string.hpp" alt="" coords="570,677,649,704"/>
+<area shape="rect" id="node32" href="../../d1/d6e/a00073.php" title="macro.hpp" alt="" coords="1027,752,1109,779"/>
+<area shape="rect" id="node33" href="../../dc/dee/a00053.php" title="array.hpp" alt="" coords="850,752,926,779"/>
+<area shape="rect" id="node36" href="../../db/df8/a00076.php" title="maths.hpp" alt="" coords="1893,603,1976,629"/>
+<area shape="rect" id="node38" href="../../d1/d22/a00057.php" title="collides.hpp" alt="" coords="1872,528,1963,555"/>
+<area shape="rect" id="node39" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="1267,603,1339,629"/>
+<area shape="rect" id="node47" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="1259,80,1343,107"/>
+<area shape="rect" id="node48" href="../../d4/de8/a00061.php" title="cryptage.hpp" alt="" coords="755,379,853,405"/>
+<area shape="rect" id="node49" href="../../db/ddf/a00088.php" title="sorting.hpp" alt="" coords="1519,827,1606,853"/>
+<area shape="rect" id="node50" href="../../dc/d54/a00094.php" title="tree.hpp" alt="" coords="2037,155,2107,181"/>
+<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="1559,453,1673,480"/>
+<area shape="rect" id="node40" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="1712,304,1797,331"/>
+<area shape="rect" id="node41" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="1417,379,1498,405"/>
+<area shape="rect" id="node42" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="1354,304,1441,331"/>
+<area shape="rect" id="node43" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="1293,229,1360,256"/>
+<area shape="rect" id="node44" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="1472,304,1563,331"/>
+<area shape="rect" id="node45" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="1485,229,1563,256"/>
+<area shape="rect" id="node46" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="1587,229,1695,256"/>
+<area shape="rect" id="node11" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="971,603,1039,629"/>
+<area shape="rect" id="node29" href="../../d8/d53/a00081.php" title="pointers.hpp" alt="" coords="1435,677,1528,704"/>
+<area shape="rect" id="node34" href="../../da/d2a/a00086.php" title="RNG.hpp" alt="" coords="207,752,284,779"/>
+<area shape="rect" id="node35" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="821,603,896,629"/>
 </map>
 </div>
 </div>
 <p><a href="../../d4/d6d/a00055_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php">Hostile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d4/d51/a00017.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/d6d/a00055_source.php">Hostile.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../d4/d6d/a00055_source.php">C++.hpp</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d6d/a00055.php">Hostile.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d6d/a00055.php">C++.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

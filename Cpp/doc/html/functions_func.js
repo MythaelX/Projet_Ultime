@@ -20,5 +20,6 @@ var functions_func =
     [ "t", "functions_func_t.php", null ],
     [ "u", "functions_func_u.php", null ],
     [ "v", "functions_func_v.php", null ],
+    [ "w", "functions_func_w.php", null ],
     [ "~", "functions_func_0x7e.php", null ]
 ];

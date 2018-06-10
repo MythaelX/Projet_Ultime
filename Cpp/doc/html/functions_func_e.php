@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Functions</title>
+<title>Hot Dog QUIZ: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li class="current"><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -107,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_t.php#index_t"><span>t</span></a></li>
       <li><a href="functions_func_u.php#index_u"><span>u</span></a></li>
       <li><a href="functions_func_v.php#index_v"><span>v</span></a></li>
+      <li><a href="functions_func_w.php#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -143,8 +146,20 @@ $(document).ready(function(){initNavTree('functions_func_e.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>enableCancel()
+: <a class="el" href="dd/d1b/a00015.php#a4c10c671f4913a51c225eab2a3934f10">Dialog</a>
+</li>
+<li>enableResize()
+: <a class="el" href="d3/dea/a00046.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7">Window</a>
+</li>
+<li>enterEvent()
+: <a class="el" href="d6/d2d/a00047.php#aab556dedddbb1c9832f572b747449055">WindowButton</a>
+</li>
 <li>Entity()
-: <a class="el" href="dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
+: <a class="el" href="d4/d51/a00017.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
+</li>
+<li>exec()
+: <a class="el" href="dd/d1b/a00015.php#a6505fd839711734947bfe2040a74f614">Dialog</a>
 </li>
 <li>exists()
 : <a class="el" href="dd/dad/a00005.php#a006fc2acc34962ebafb9ce19640ad18b">BDD</a>

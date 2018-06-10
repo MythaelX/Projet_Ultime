@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Node&lt; T &gt; Struct Template Reference</title>
+<title>Hot Dog QUIZ: H2TitleLabel Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -108,128 +108,86 @@ $(document).ready(function(){initNavTree('d7/de0/a00022.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../dd/df4/a00193.php">List of all members</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d6/d82/a00243.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Node&lt; T &gt; Struct Template Reference</div>  </div>
+<div class="title">H2TitleLabel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A struct to define a node for the tree.  
+<p>An implementation of <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a> for the software.  
  <a href="../../d7/de0/a00022.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for H2TitleLabel:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d08/a00244.png" border="0" usemap="#H2TitleLabel_inherit__map" alt="Inheritance graph"/></div>
+<map name="H2TitleLabel_inherit__map" id="H2TitleLabel_inherit__map">
+<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. " alt="" coords="13,80,92,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for H2TitleLabel:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d22/a00245.png" border="0" usemap="#H2TitleLabel_coll__map" alt="Collaboration graph"/></div>
+<map name="H2TitleLabel_coll__map" id="H2TitleLabel_coll__map">
+<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. " alt="" coords="13,80,92,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a440411e958356c1d3912dce01ae74edc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a440411e958356c1d3912dce01ae74edc">values</a></td></tr>
-<tr class="separator:a440411e958356c1d3912dce01ae74edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6e/a00073.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td></tr>
-<tr class="separator:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a6faa1b5c8a9e19348d0bfef6232c90cb">initialized</a> = false</td></tr>
-<tr class="separator:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2841886a16c27e72b21885025c00b44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a2841886a16c27e72b21885025c00b44b">left</a> = nullptr</td></tr>
-<tr class="separator:a2841886a16c27e72b21885025c00b44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7092450d89448320103cde1f72da320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#ad7092450d89448320103cde1f72da320">right</a> = nullptr</td></tr>
-<tr class="separator:ad7092450d89448320103cde1f72da320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a63831a9a77053bc8389e5036712218bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a63831a9a77053bc8389e5036712218bf">H2TitleLabel</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a63831a9a77053bc8389e5036712218bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a>.  <a href="#a63831a9a77053bc8389e5036712218bf">More...</a><br /></td></tr>
+<tr class="separator:a63831a9a77053bc8389e5036712218bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00043"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00043')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/d42/a00043.php">TitleLabel</a></td></tr>
+<tr class="memitem:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d42/a00043.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QLabel.  <a href="#aa3088caa93da248b64c58d77141c5d94">More...</a><br /></td></tr>
+<tr class="separator:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T&gt;<br />
-struct Node&lt; T &gt;</h3>
+<div class="textblock"><p>An implementation of <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a> for the software. </p>
 
-<p>A struct to define a node for the tree. </p>
-
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00023">23</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6faa1b5c8a9e19348d0bfef6232c90cb"></a>
+<p>Definition at line <a class="el" href="../../d4/d7d/a00093_source.php#l00029">29</a> of file <a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a63831a9a77053bc8389e5036712218bf"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::initialized = false</td>
+          <td class="memname">H2TitleLabel::H2TitleLabel </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00027">27</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
+<p>Create a <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d7d/a00093_source.php#l00033">33</a> of file <a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2841886a16c27e72b21885025c00b44b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt;T&gt;* <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::left = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00029">29</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad7092450d89448320103cde1f72da320"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/de0/a00022.php">Node</a>&lt;T&gt;* <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::right = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00030">30</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a440411e958356c1d3912dce01ae74edc"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::values</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00024">24</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa2cb07a6e63a4dc1f1a05d3e634a8fdd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6e/a00073.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> <a class="el" href="../../d7/de0/a00022.php">Node</a>&lt; T &gt;::weight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d6e/a00073_source.php#l00025">25</a> of file <a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d6e/a00073_source.php">tree.hpp</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de0/a00022.php">Node</a></li>
+    <li class="navelem"><a class="el" href="../../d7/de0/a00022.php">H2TitleLabel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,2 +1,11 @@
-<map id="RNG.hpp" name="RNG.hpp">
+<map id="Entity.hpp" name="Entity.hpp">
+<area shape="rect" id="node2" href="$d5/de0/a00050.php" title="Animal.hpp" alt="" coords="15,155,102,181"/>
+<area shape="rect" id="node4" href="$de/de1/a00065.php" title="Entities.hpp" alt="" coords="140,304,231,331"/>
+<area shape="rect" id="node7" href="$d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="35,80,123,107"/>
+<area shape="rect" id="node8" href="$d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="219,155,309,181"/>
+<area shape="rect" id="node3" href="$d2/d79/a00051.php" title="Ant.hpp" alt="" coords="5,229,72,256"/>
+<area shape="rect" id="node5" href="$d4/d6d/a00055.php" title="C++.hpp" alt="" coords="149,453,222,480"/>
+<area shape="rect" id="node6" href="$da/dec/a00080.php" title="Player.hpp" alt="" coords="183,379,267,405"/>
+<area shape="rect" id="node9" href="$d1/d51/a00079.php" title="Plant.hpp" alt="" coords="248,229,325,256"/>
+<area shape="rect" id="node10" href="$d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="350,229,458,256"/>
 </map>

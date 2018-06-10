@@ -1,8 +1,8 @@
 <map id="BDD::undebug" name="BDD::undebug">
-<area shape="rect" id="node2" href="$dd/dad/a00005.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="176,5,305,32"/>
-<area shape="rect" id="node3" href="$dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e" title="Get the number of lines with the conditions. " alt="" coords="185,56,297,83"/>
-<area shape="rect" id="node4" href="$dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac" title="Get the last created id in the table. " alt="" coords="195,107,286,133"/>
-<area shape="rect" id="node5" href="$dd/dad/a00005.php#ac99c0f8c86fab4de2efe6b91b22fb942" title="Format the values string. " alt="" coords="173,157,309,184"/>
-<area shape="rect" id="node6" href="$dd/dad/a00005.php#af8d633320c008fade8c3ee5ff08cc821" title="Format the conditions string. " alt="" coords="161,208,320,235"/>
-<area shape="rect" id="node7" href="$dd/dad/a00005.php#a79cffc4dc63f93f9d9fce893c5b66a07" title="Format values for the bdd. " alt="" coords="181,259,300,285"/>
+<area shape="rect" id="node2" href="$dd/dad/a00005.php#a498e375deb333279886dd91cf389c986" title="Get all the columns of a table with their attributes. " alt="" coords="179,5,308,32"/>
+<area shape="rect" id="node3" href="$dd/dad/a00005.php#a84c0df9de34d028bfa4a6711f3ff38ed" title="Verify if a table contains an autoincremented column. " alt="" coords="161,56,325,83"/>
+<area shape="rect" id="node4" href="$dd/dad/a00005.php#ae9ad54a4e2ca989e1f22dc497db4b43e" title="Get the number of lines with the conditions. " alt="" coords="187,107,299,133"/>
+<area shape="rect" id="node5" href="$dd/dad/a00005.php#ac02190012120478141702fb616c89ab1" title="Get all the tables of the database. " alt="" coords="196,157,291,184"/>
+<area shape="rect" id="node6" href="$dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac" title="Get the last created id in the table. " alt="" coords="198,208,289,235"/>
+<area shape="rect" id="node7" href="$dd/dad/a00005.php#a3a309489e289988579ec94eae459f8df" title="Format a column name for text. " alt="" coords="173,259,314,285"/>
 </map>

@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['w',['w',['../df/d86/a00012.php#a949dbd15efa71ddbb294abf15517d8b0',1,'ContraptionAttr::w()'],['../d4/d8c/a00035.php#a56d14d07cb773a1a4bf12f16e7b57d07',1,'WorldDimensions::w()']]],
-  ['wall',['WALL',['../d7/df7/a00058.php#acd2017d946fd818c3b8ca377bc4006c7a48d536b2de1195d0c9f6ea8ab884085e',1,'Map.hpp']]],
-  ['warning_5flog',['warning_log',['../d2/d79/a00051.php#ab02b1d548b1c53cda0de554f2e086e43',1,'errors.hpp']]],
-  ['water',['WATER',['../d7/df7/a00058.php#acd2017d946fd818c3b8ca377bc4006c7a2add2964642f39099cb51edf4a4f5a70',1,'Map.hpp']]],
-  ['weight',['weight',['../d7/de0/a00022.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd',1,'Node']]],
-  ['wholepart',['wholePart',['../d3/d8b/a00059.php#ab5254a19797bf686467bc0f475bf6fdd',1,'maths.hpp']]],
-  ['worlddimensions',['WorldDimensions',['../d4/d8c/a00035.php',1,'']]],
-  ['writer',['writer',['../d1/d84/a00052.php#a5c037aab5abffa1d77dad2a0f0295b0e',1,'files.hpp']]]
+  ['w',['w',['../d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0',1,'ContraptionAttr::w()'],['../d2/dee/a00049.php#a56d14d07cb773a1a4bf12f16e7b57d07',1,'WorldDimensions::w()']]],
+  ['wall',['WALL',['../d9/da5/a00075.php#acd2017d946fd818c3b8ca377bc4006c7a48d536b2de1195d0c9f6ea8ab884085e',1,'Map.hpp']]],
+  ['warning_5flog',['warning_log',['../dc/ddf/a00067.php#ab02b1d548b1c53cda0de554f2e086e43',1,'errors.hpp']]],
+  ['water',['WATER',['../d9/da5/a00075.php#acd2017d946fd818c3b8ca377bc4006c7a2add2964642f39099cb51edf4a4f5a70',1,'Map.hpp']]],
+  ['weight',['weight',['../dc/d3c/a00028.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd',1,'Node']]],
+  ['wholepart',['wholePart',['../db/df8/a00076.php#ab5254a19797bf686467bc0f475bf6fdd',1,'maths.hpp']]],
+  ['widget',['Widget',['../d6/d97/a00045.php',1,'Widget'],['../d6/d97/a00045.php#ace1aa23652eb4425355a81760b39fd37',1,'Widget::Widget()']]],
+  ['widget_2ehpp',['Widget.hpp',['../d1/d84/a00097.php',1,'']]],
+  ['window',['Window',['../d3/dea/a00046.php',1,'Window'],['../d3/dea/a00046.php#a8c86e48ef3180201cc97cb928abd66ca',1,'Window::Window()']]],
+  ['window_2ehpp',['Window.hpp',['../d1/d44/a00098.php',1,'']]],
+  ['windowbutton',['WindowButton',['../d6/d2d/a00047.php',1,'WindowButton'],['../d6/d2d/a00047.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0',1,'WindowButton::WindowButton()']]],
+  ['windowbutton_2ehpp',['WindowButton.hpp',['../da/d74/a00099.php',1,'']]],
+  ['windowresizechanged',['WindowResizeChanged',['../d3/dea/a00046.php#a9b8e592bf73f07ec549125eb6367395c',1,'Window']]],
+  ['windowtitlebar',['WindowTitleBar',['../d4/dca/a00048.php',1,'WindowTitleBar'],['../d4/dca/a00048.php#acbc4eaf9b9265fe9ac013aeba5e80e76',1,'WindowTitleBar::WindowTitleBar()']]],
+  ['windowtitlebar_2ehpp',['WindowTitleBar.hpp',['../d0/d61/a00100.php',1,'']]],
+  ['windowtitlechanged',['WindowTitleChanged',['../d3/dea/a00046.php#a56ced9e90dad8415ce9ba9ccdb8f50c7',1,'Window']]],
+  ['worlddimensions',['WorldDimensions',['../d2/dee/a00049.php',1,'']]],
+  ['writer',['writer',['../da/d24/a00068.php#a5c037aab5abffa1d77dad2a0f0295b0e',1,'files.hpp']]]
 ];

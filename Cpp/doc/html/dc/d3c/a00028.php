@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: QVSpacerItem Class Reference</title>
+<title>Hot Dog QUIZ: Node&lt; T &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -108,90 +108,128 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../de/dd2/a00207.php">List of all members</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../d9/d39/a00257.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">QVSpacerItem Class Reference</div>  </div>
+<div class="title">Node&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of QSpacerItem.  
+<p>A struct to define a node for the tree.  
  <a href="../../dc/d3c/a00028.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for QVSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d31/a00208.png" border="0" usemap="#QVSpacerItem_inherit__map" alt="Inheritance graph"/></div>
-<map name="QVSpacerItem_inherit__map" id="QVSpacerItem_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for QVSpacerItem:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/de5/a00209.png" border="0" usemap="#QVSpacerItem_coll__map" alt="Collaboration graph"/></div>
-<map name="QVSpacerItem_coll__map" id="QVSpacerItem_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<p><code>#include &lt;<a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a413b13ea08b0343e9f93a0a847e54a31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem</a> (int w=40, int h=20)</td></tr>
-<tr class="memdesc:a413b13ea08b0343e9f93a0a847e54a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend vertically.  <a href="#a413b13ea08b0343e9f93a0a847e54a31">More...</a><br /></td></tr>
-<tr class="separator:a413b13ea08b0343e9f93a0a847e54a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a440411e958356c1d3912dce01ae74edc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a440411e958356c1d3912dce01ae74edc">values</a></td></tr>
+<tr class="separator:a440411e958356c1d3912dce01ae74edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d54/a00094.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td></tr>
+<tr class="separator:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a6faa1b5c8a9e19348d0bfef6232c90cb">initialized</a> = false</td></tr>
+<tr class="separator:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2841886a16c27e72b21885025c00b44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a2841886a16c27e72b21885025c00b44b">left</a> = nullptr</td></tr>
+<tr class="separator:a2841886a16c27e72b21885025c00b44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7092450d89448320103cde1f72da320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ad7092450d89448320103cde1f72da320">right</a> = nullptr</td></tr>
+<tr class="separator:ad7092450d89448320103cde1f72da320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of QSpacerItem. </p>
+<div class="textblock"><h3>template&lt;class T&gt;<br />
+struct Node&lt; T &gt;</h3>
 
-<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00027">27</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a413b13ea08b0343e9f93a0a847e54a31"></a>
+<p>A struct to define a node for the tree. </p>
+
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00023">23</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a6faa1b5c8a9e19348d0bfef6232c90cb"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">QVSpacerItem::QVSpacerItem </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em> = <code>40</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em> = <code>20</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">bool <a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt;::initialized = false</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Create a QSpacerItem that expend vertically. </p>
-
-<p>Definition at line <a class="el" href="../../d2/db1/a00070_source.php#l00030">30</a> of file <a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00027">27</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d2/db1/a00070_source.php">Spacers.hpp</a></li>
+<a class="anchor" id="a2841886a16c27e72b21885025c00b44b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt;T&gt;* <a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt;::left = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00029">29</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7092450d89448320103cde1f72da320"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt;T&gt;* <a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt;::right = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00030">30</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a440411e958356c1d3912dce01ae74edc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt;::values</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00024">24</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa2cb07a6e63a4dc1f1a05d3e634a8fdd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d54/a00094.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> <a class="el" href="../../dc/d3c/a00028.php">Node</a>&lt; T &gt;::weight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d54/a00094_source.php#l00025">25</a> of file <a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../dc/d54/a00094_source.php">tree.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">QVSpacerItem</a></li>
+    <li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">Node</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

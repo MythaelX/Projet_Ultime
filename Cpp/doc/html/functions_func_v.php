@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Functions</title>
+<title>Hot Dog QUIZ: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li class="current"><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -107,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_t.php#index_t"><span>t</span></a></li>
       <li><a href="functions_func_u.php#index_u"><span>u</span></a></li>
       <li class="current"><a href="functions_func_v.php#index_v"><span>v</span></a></li>
+      <li><a href="functions_func_w.php#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -144,7 +147,10 @@ $(document).ready(function(){initNavTree('functions_func_v.php','');});
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>Vegetal()
-: <a class="el" href="db/df3/a00034.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+: <a class="el" href="d5/df9/a00044.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+</li>
+<li>verifyConnection()
+: <a class="el" href="d3/dfe/a00025.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
 </li>
 </ul>
 </div><!-- contents -->

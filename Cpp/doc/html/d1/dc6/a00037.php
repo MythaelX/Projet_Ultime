@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Ant.hpp File Reference</title>
+<title>Hot Dog QUIZ: Reinit Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -49,8 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -71,8 +71,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -106,70 +108,90 @@ $(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../d0/dcd/a00280.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Ant.hpp File Reference</div>  </div>
+<div class="title">Reinit Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d8c/a00036_source.php">Animal.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for Ant.hpp:</div>
+
+<p><a class="el" href="../../d1/dc6/a00037.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
+ <a href="../../d1/dc6/a00037.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Reinit:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/dec/a00080.png" border="0" usemap="#Ant_8hpp" alt=""/></div>
-<map name="Ant_8hpp" id="Ant_8hpp">
-<area shape="rect" id="node2" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="1595,80,1682,107"/>
-<area shape="rect" id="node3" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="1598,229,1679,256"/>
-<area shape="rect" id="node48" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="1636,155,1724,181"/>
-<area shape="rect" id="node4" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="1581,304,1696,331"/>
-<area shape="rect" id="node5" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="1343,379,1433,405"/>
-<area shape="rect" id="node19" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="1262,677,1341,704"/>
-<area shape="rect" id="node46" href="../../d5/db6/a00042.php" title="collides.hpp" alt="" coords="1881,379,1972,405"/>
-<area shape="rect" id="node47" href="../../d7/df7/a00058.php" title="Map.hpp" alt="" coords="536,453,608,480"/>
-<area shape="rect" id="node12" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="966,453,1034,480"/>
-<area shape="rect" id="node24" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="355,677,445,704"/>
-<area shape="rect" id="node29" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="1149,603,1219,629"/>
-<area shape="rect" id="node32" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="1493,603,1565,629"/>
-<area shape="rect" id="node35" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1713,528,1807,555"/>
-<area shape="rect" id="node36" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="125,603,203,629"/>
-<area shape="rect" id="node40" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1081,453,1156,480"/>
-<area shape="rect" id="node42" href="../../dc/ddf/a00067.php" title="RNG.hpp" alt="" coords="1489,453,1567,480"/>
-<area shape="rect" id="node44" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1883,453,1965,480"/>
-<area shape="rect" id="node22" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1143,528,1223,555"/>
-<area shape="rect" id="node39" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="690,677,766,704"/>
-<area shape="rect" id="node23" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="873,603,965,629"/>
-<area shape="rect" id="node38" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="248,677,331,704"/>
+<div class="center"><img src="../../d2/d04/a00281.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
+<map name="Reinit_inherit__map" id="Reinit_inherit__map">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Reinit:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d53/a00081.png" border="0" usemap="#Ant_8hppdep" alt=""/></div>
-<map name="Ant_8hppdep" id="Ant_8hppdep">
-<area shape="rect" id="node2" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="5,80,96,107"/>
-<area shape="rect" id="node3" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="14,229,87,256"/>
-<area shape="rect" id="node4" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="49,155,133,181"/>
+<div class="center"><img src="../../dc/dc9/a00282.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
+<map name="Reinit_coll__map" id="Reinit_coll__map">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
 </map>
-</div>
-</div>
-<p><a href="../../d1/dc6/a00037_source.php">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php">Ant</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An ant.  <a href="../../d1/d7c/a00003.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aae482f034556d2539b85c90cefe9da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#aae482f034556d2539b85c90cefe9da82">Reinit</a> ()</td></tr>
+<tr class="separator:aae482f034556d2539b85c90cefe9da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00010"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00010')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/dec/a00010.php">Color</a></td></tr>
+<tr class="memitem:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a> (std::string color)</td></tr>
+<tr class="memdesc:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="#af13248c98bcd8bf432f3c9dab0a27135">More...</a><br /></td></tr>
+<tr class="separator:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a> (Args...args)</td></tr>
+<tr class="memdesc:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="#a20b97d6cf5e50f86b517f543142ac1e2">More...</a><br /></td></tr>
+<tr class="separator:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a> (int color)</td></tr>
+<tr class="memdesc:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a4f77bc1b8cfcd1382cd55e4ef6856bac">More...</a><br /></td></tr>
+<tr class="separator:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
+<tr class="memdesc:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
+<tr class="separator:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d7/df7/a00058.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
+<tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
+<tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d7/df7/a00058.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
+<tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
+<tr class="separator:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<div class="textblock"><p><a class="el" href="../../d1/dc6/a00037.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
 
-<p>Definition in file <a class="el" href="../../d1/dc6/a00037_source.php">Ant.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00147">147</a> of file <a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="aae482f034556d2539b85c90cefe9da82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Reinit::Reinit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">Ant.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">Reinit</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

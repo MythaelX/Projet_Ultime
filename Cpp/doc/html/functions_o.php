@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -148,16 +150,16 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>Object()
-: <a class="el" href="d3/d52/a00023.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>
+: <a class="el" href="d5/d16/a00029.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>
 </li>
 <li>operator()()
-: <a class="el" href="db/db2/a00020.php#a0e13e5d2b98097934fe860a2245f45c2">Map</a>
-, <a class="el" href="d5/d79/a00030.php#ac81b86f2d95f99cb5e2f778592d6fd3a">RNG&lt; T, U &gt;</a>
+: <a class="el" href="d6/d5b/a00026.php#a0e13e5d2b98097934fe860a2245f45c2">Map</a>
+, <a class="el" href="d8/d41/a00038.php#ac81b86f2d95f99cb5e2f778592d6fd3a">RNG&lt; T, U &gt;</a>
 </li>
 <li>operator&lt;&lt;
-: <a class="el" href="d4/dee/a00008.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
-, <a class="el" href="da/da0/a00009.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
-, <a class="el" href="da/d45/a00011.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
+: <a class="el" href="da/da0/a00009.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
+, <a class="el" href="d7/dec/a00010.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
+, <a class="el" href="df/d86/a00012.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
 </li>
 <li>operator[]()
 : <a class="el" href="d0/d0b/a00004.php#a2758413e36333940451ed0bf8c902706">Arguments</a>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -148,11 +150,29 @@ $(document).ready(function(){initNavTree('functions_w.php','');});
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
 <li>w
-: <a class="el" href="df/d86/a00012.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
-, <a class="el" href="d4/d8c/a00035.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
+: <a class="el" href="d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
+, <a class="el" href="d2/dee/a00049.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
 </li>
 <li>weight
-: <a class="el" href="d7/de0/a00022.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>
+: <a class="el" href="dc/d3c/a00028.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>
+</li>
+<li>Widget()
+: <a class="el" href="d6/d97/a00045.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>
+</li>
+<li>Window()
+: <a class="el" href="d3/dea/a00046.php#a8c86e48ef3180201cc97cb928abd66ca">Window</a>
+</li>
+<li>WindowButton()
+: <a class="el" href="d6/d2d/a00047.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>
+</li>
+<li>WindowResizeChanged()
+: <a class="el" href="d3/dea/a00046.php#a9b8e592bf73f07ec549125eb6367395c">Window</a>
+</li>
+<li>WindowTitleBar()
+: <a class="el" href="d4/dca/a00048.php#acbc4eaf9b9265fe9ac013aeba5e80e76">WindowTitleBar</a>
+</li>
+<li>WindowTitleChanged()
+: <a class="el" href="d3/dea/a00046.php#a56ced9e90dad8415ce9ba9ccdb8f50c7">Window</a>
 </li>
 </ul>
 </div><!-- contents -->

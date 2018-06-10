@@ -1,3 +1,10 @@
-<map id="Object" name="Object">
-<area shape="rect" id="node2" href="$da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="WindowButton.hpp" name="WindowButton.hpp">
+<area shape="rect" id="node4" href="$df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="2566,80,2672,107"/>
+<area shape="rect" id="node5" href="$d1/d84/a00097.php" title="Widget.hpp" alt="" coords="4944,155,5032,181"/>
+<area shape="rect" id="node6" href="$df/d5f/a00064.php" title="DrawScene.hpp" alt="" coords="286,155,400,181"/>
+<area shape="rect" id="node7" href="$d1/d1e/a00087.php" title="Scene.hpp" alt="" coords="201,244,285,271"/>
+<area shape="rect" id="node9" href="$d0/d89/a00071.php" title="GraphScene.hpp" alt="" coords="430,155,549,181"/>
+<area shape="rect" id="node14" href="$db/dab/a00089.php" title="Spacers.hpp" alt="" coords="5057,155,5152,181"/>
+<area shape="rect" id="node15" href="$df/d13/a00085.php" title="QtFunctions.hpp" alt="" coords="58,155,177,181"/>
+<area shape="rect" id="node17" href="$d4/d31/a00069.php" title="Font.hpp" alt="" coords="2582,155,2656,181"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Object.hpp File Reference</title>
+<title>Hot Dog QUIZ: cryptage.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,45 +106,41 @@ $(document).ready(function(){initNavTree('d4/de8/a00061.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Object.hpp File Reference</div>  </div>
+<div class="title">cryptage.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/df9/a00044_source.php">Contraption.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Object.hpp:</div>
+Include dependency graph for cryptage.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d72/a00124.png" border="0" usemap="#Object_8hpp" alt=""/></div>
-<map name="Object_8hpp" id="Object_8hpp">
-<area shape="rect" id="node2" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="1559,80,1673,107"/>
-<area shape="rect" id="node3" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="1343,155,1433,181"/>
-<area shape="rect" id="node17" href="../../db/db6/a00074.php" title="types.hpp" alt="" coords="1262,453,1341,480"/>
-<area shape="rect" id="node44" href="../../d5/db6/a00042.php" title="collides.hpp" alt="" coords="1881,155,1972,181"/>
-<area shape="rect" id="node45" href="../../d7/df7/a00058.php" title="Map.hpp" alt="" coords="536,229,608,256"/>
-<area shape="rect" id="node10" href="../../db/d3a/a00040.php" title="bdd.hpp" alt="" coords="966,229,1034,256"/>
-<area shape="rect" id="node22" href="../../d6/d97/a00045.php" title="convert.hpp" alt="" coords="355,453,445,480"/>
-<area shape="rect" id="node27" href="../../d1/d84/a00052.php" title="files.hpp" alt="" coords="1149,379,1219,405"/>
-<area shape="rect" id="node30" href="../../d6/d2c/a00072.php" title="time.hpp" alt="" coords="1493,379,1565,405"/>
-<area shape="rect" id="node33" href="../../df/d5f/a00064.php" title="pointers.hpp" alt="" coords="1713,304,1807,331"/>
-<area shape="rect" id="node34" href="../../d0/d89/a00071.php" title="string.hpp" alt="" coords="125,379,203,405"/>
-<area shape="rect" id="node38" href="../../d8/d41/a00038.php" title="Args.hpp" alt="" coords="1081,229,1156,256"/>
-<area shape="rect" id="node40" href="../../dc/ddf/a00067.php" title="RNG.hpp" alt="" coords="1489,229,1567,256"/>
-<area shape="rect" id="node42" href="../../d3/d8b/a00059.php" title="maths.hpp" alt="" coords="1883,229,1965,256"/>
-<area shape="rect" id="node20" href="../../d2/d79/a00051.php" title="errors.hpp" alt="" coords="1143,304,1223,331"/>
-<area shape="rect" id="node37" href="../../d3/de7/a00039.php" title="array.hpp" alt="" coords="690,453,766,480"/>
-<area shape="rect" id="node21" href="../../d6/d42/a00043.php" title="console.hpp" alt="" coords="873,379,965,405"/>
-<area shape="rect" id="node36" href="../../d9/d2e/a00056.php" title="macro.hpp" alt="" coords="248,453,331,480"/>
+<div class="center"><img src="../../da/d72/a00124.png" border="0" usemap="#cryptage_8hpp" alt=""/></div>
+<map name="cryptage_8hpp" id="cryptage_8hpp">
+<area shape="rect" id="node2" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="499,80,589,107"/>
+<area shape="rect" id="node9" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="1183,155,1251,181"/>
+<area shape="rect" id="node22" href="../../d9/d73/a00060.php" title="convert.hpp" alt="" coords="996,379,1087,405"/>
+<area shape="rect" id="node27" href="../../da/d24/a00068.php" title="files.hpp" alt="" coords="1454,379,1525,405"/>
+<area shape="rect" id="node30" href="../../d1/dc1/a00092.php" title="time.hpp" alt="" coords="1999,304,2071,331"/>
+<area shape="rect" id="node33" href="../../d8/d53/a00081.php" title="pointers.hpp" alt="" coords="2056,229,2149,256"/>
+<area shape="rect" id="node34" href="../../d9/dec/a00090.php" title="string.hpp" alt="" coords="789,304,867,331"/>
+<area shape="rect" id="node38" href="../../da/d2a/a00086.php" title="RNG.hpp" alt="" coords="1549,379,1627,405"/>
+<area shape="rect" id="node40" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="1641,155,1716,181"/>
+<area shape="rect" id="node42" href="../../db/df8/a00076.php" title="maths.hpp" alt="" coords="2161,155,2244,181"/>
+<area shape="rect" id="node17" href="../../d9/d77/a00095.php" title="types.hpp" alt="" coords="1651,379,1730,405"/>
+<area shape="rect" id="node20" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="1677,229,1757,256"/>
+<area shape="rect" id="node37" href="../../dc/dee/a00053.php" title="array.hpp" alt="" coords="1354,379,1430,405"/>
+<area shape="rect" id="node21" href="../../d7/df7/a00058.php" title="console.hpp" alt="" coords="1587,304,1679,331"/>
+<area shape="rect" id="node36" href="../../d1/d6e/a00073.php" title="macro.hpp" alt="" coords="657,379,740,405"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#Object_8hppdep" alt=""/></div>
-<map name="Object_8hppdep" id="Object_8hppdep">
-<area shape="rect" id="node2" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="5,80,96,107"/>
-<area shape="rect" id="node3" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="14,229,87,256"/>
-<area shape="rect" id="node4" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="49,155,133,181"/>
+<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#cryptage_8hppdep" alt=""/></div>
+<map name="cryptage_8hppdep" id="cryptage_8hppdep">
+<area shape="rect" id="node2" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="17,80,91,107"/>
 </map>
 </div>
 </div>
@@ -152,21 +148,48 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php">Object</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object.  <a href="../../d3/d52/a00023.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to be the parent for every crypt class.  <a href="../../d2/de7/a00014.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php">Cesar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the cesar algorithm for encryption.  <a href="../../de/d21/a00006.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/a00039.php">RSA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to use the <a class="el" href="../../d3/de7/a00039.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption.  <a href="../../d3/de7/a00039.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a1e4758b1e3ca1aefc42b33e55b9d8fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d21/a00006.php">Cesar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a1e4758b1e3ca1aefc42b33e55b9d8fe4">cesar</a></td></tr>
+<tr class="memdesc:a1e4758b1e3ca1aefc42b33e55b9d8fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global cesar variable to crypt and decrypt message.  <a href="#a1e4758b1e3ca1aefc42b33e55b9d8fe4">More...</a><br /></td></tr>
+<tr class="separator:a1e4758b1e3ca1aefc42b33e55b9d8fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">Object.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">cryptage.hpp</a>.</p>
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a1e4758b1e3ca1aefc42b33e55b9d8fe4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d21/a00006.php">Cesar</a> cesar</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A global cesar variable to crypt and decrypt message. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/de8/a00061.php">Object.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/de8/a00061.php">cryptage.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

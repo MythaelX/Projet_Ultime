@@ -1,28 +1,21 @@
-/************************************************************************************/
-/*																					*/
-/*					File : map.js													*/
-/*						Created by Mathias CABIOCH-DELALANDE						*/
-/*							Last modification : 21/04/2018							*/
-/*																					*/
-/*						Authorization : use only									*/
-/*																					*/
-/************************************************************************************/
-
-/********************************************************************************/
-/*																				*/
-/*		At page onload, add a map of France where you can choose a region		*/
-/*		The choosen region is in the url of the path							*/
-/*		Parametters ;															*/
-/*			-id -> map															*/
-/*			-path																*/
-/*			-plain-color														*/
-/*			-line-color															*/
-/*			-hover-plain-color													*/
-/*			-hover-line-color													*/
-/*			-scale																*/
-/*																				*/
-/********************************************************************************/
-
+/*!
+*
+*	\file		map.js
+*	\author		Mathias CABIOCH-DELALANDE
+*	\date		09 juin 2018
+*
+*	\details	At page onload, add a map of France where you can choose a region\n
+*				The choosen region is in the url of the path\n
+*				Attributes ;\n
+*					\b id = map \n
+*					\b path \n
+*					\b plain-color \n
+*					\b line-color \n
+*					\b hover-plain-color \n
+*					\b hover-line-color \n
+*					\b scale \n
+*
+*/
 'use strict';
 
 var mapParent;
@@ -38,7 +31,7 @@ var file;
 
 var scale;
 
-/* Map of the regions */
+/*! \brief	Map of the regions */
 var map = {
 			"style": "stroke-linejoin: round; cursor: pointer;",
 			"strokeWidth": "2",
@@ -126,89 +119,89 @@ var map = {
 			]
 		  };
 
-/* Initialize the map */
+/*! \brief	Initialize the map */
 function initMap(){
 	var parents = document.getElementsByClassName("map");
-	
+
 	if(!parents){
 		return;
 	}
-	
+
 	for(var i = 0; i < parents.length; ++i){
 		mapParent = parents[i];
-		
+
 		lc = mapParent.getAttribute("line-color");
 		pc = mapParent.getAttribute("plain-color");
-	
+
 		hlc = mapParent.getAttribute("hover-line-color");
 		hpc = mapParent.getAttribute("hover-plain-color");
-	
+
 		scale = mapParent.getAttribute("scale");
 		file = mapParent.getAttribute("path") + "?map=" + mapParent.id;
-	
+
 		if(!lc){
 			lc = "#ffffff";
 		}
 		if(!pc){
 			pc = "#ffffff";
 		}
-	
+
 		if(!hlc){
 			hlc = "#ffffff";
 		}
 		if(!hpc){
 			hpc = "#ffffff";
 		}
-	
+
 		if(!scale){
 			scale = "1";
 		}
 		if(!file){
 			file = "./";
 		}
-	
+
 		var scripts = document.getElementsByTagName("script");
-	
+
 		for(var i = 0; i < scripts.length; i++){
 			var script = scripts[i];
 			var pos;
-		
+
 			if((pos = (script.src).search("map/map.js")) != -1){
 				path = (script.src).substring(0, pos);
 			}
 		}
-	
+
 		createMap();
 	}
 }
 
-/* Create the map */
+/*! \brief	Create the map */
 function createMap(){
 	/* Create the svg tag */
 		var svgNS = "http://www.w3.org/2000/svg";
 		var svg = document.createElementNS(svgNS, "svg");
-	
+
 		var width = 587.5;
 		var height = 700;
-	
+
 		width *= scale;
 		height *= scale;
-	
+
 		svg.setAttribute("width", width);
 		svg.setAttribute("height", height);
 		svg.style.overflow = "hidden";
 		svg.style.position = "relative";
 	/**********************/
-	
+
 	for(var i = 0; i < map.datas.length; ++i){
 		/* Create the link and the region for the svg */
 			var a = document.createElementNS(svgNS, "a");
 			var path = document.createElementNS(svgNS, "path");
-		
+
 			a.setAttribute("title", map.datas[i].title);
 			a.setAttribute("href", file + "&region=" + map.datas[i].title);
 			a.setAttribute("transform", "scale(" + scale + ")");
-		
+
 			path.setAttribute("style", map.style);
 			path.setAttribute("fill", pc);
 			path.setAttribute("stroke", lc);
@@ -217,25 +210,25 @@ function createMap(){
 			path.setAttribute("d", map.datas[i].d);
 			path.setAttribute("onmouseover", "changeIn(this);");
 			path.setAttribute("onmouseout", "changeOut(this);");
-		
+
 			a.appendChild(path);
 			svg.appendChild(a);
 		/**********************************************/
 	}
-	
+
 	mapParent.appendChild(svg);
 }
 
-/* Change the color on hover */
-	function changeIn(el){
-		el.setAttribute("fill", hpc);
-		el.setAttribute("stroke", hlc);
-	}
+/*! \brief	Change the color on hover(in) */
+function changeIn(el){
+	el.setAttribute("fill", hpc);
+	el.setAttribute("stroke", hlc);
+}
 
-	function changeOut(el){
-		el.setAttribute("fill", pc);
-		el.setAttribute("stroke", lc);
-	}
-/*****************************/
+/*! \brief	Change the color on hover(out) */
+function changeOut(el){
+	el.setAttribute("fill", pc);
+	el.setAttribute("stroke", lc);
+}
 
 addOnload(initMap);

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Functions</title>
+<title>Hot Dog QUIZ: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li class="current"><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -107,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_t.php#index_t"><span>t</span></a></li>
       <li><a href="functions_func_u.php#index_u"><span>u</span></a></li>
       <li><a href="functions_func_v.php#index_v"><span>v</span></a></li>
+      <li><a href="functions_func_w.php#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -143,36 +146,44 @@ $(document).ready(function(){initNavTree('functions_func_r.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>RedPushButton()
+: <a class="el" href="de/d8c/a00036.php#a7ee2968a62200e85c85da783c41afedc">RedPushButton</a>
+</li>
 <li>reinit()
-: <a class="el" href="d7/d7a/a00016.php#a9ee91facfb6fd4eda61385809e122f43">GraphScene</a>
+: <a class="el" href="dd/da2/a00019.php#a9ee91facfb6fd4eda61385809e122f43">GraphScene</a>
 </li>
 <li>Reinit()
-: <a class="el" href="d5/d16/a00029.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
+: <a class="el" href="d1/dc6/a00037.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
 </li>
 <li>remove()
-: <a class="el" href="dd/dad/a00005.php#afc6583ca28c79b36ac1919eacd60b8b5">BDD</a>
+: <a class="el" href="dd/dad/a00005.php#a8adcb89c3bd40c783880fa6355180655">BDD</a>
 </li>
 <li>reset()
 : <a class="el" href="dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9">BDD</a>
 </li>
+<li>resizeEvent()
+: <a class="el" href="d3/dea/a00046.php#a3d72edbec3fed3709ea3d374973c70b4">Window</a>
+, <a class="el" href="d6/d2d/a00047.php#a2dd52661908250a571804fe967bcd316">WindowButton</a>
+, <a class="el" href="d4/dca/a00048.php#aade75345fb7a4b62c361345c64884a82">WindowTitleBar</a>
+</li>
 <li>restart()
-: <a class="el" href="de/d5e/a00007.php#a775bf97123b58c768571868341d28b08">Clock</a>
-, <a class="el" href="d0/dc0/a00033.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
+: <a class="el" href="d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">Clock</a>
+, <a class="el" href="d5/db6/a00042.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>
+: <a class="el" href="da/d45/a00011.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d3/dfe/a00025.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d3/dfe/a00025.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>RNG()
-: <a class="el" href="d5/d79/a00030.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
+: <a class="el" href="d8/d41/a00038.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="df/d61/a00031.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
+: <a class="el" href="d3/de7/a00039.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
 </li>
 </ul>
 </div><!-- contents -->

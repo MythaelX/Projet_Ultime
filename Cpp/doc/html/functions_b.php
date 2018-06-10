@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -149,6 +151,21 @@ $(document).ready(function(){initNavTree('functions_b.php','');});
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>BDD()
 : <a class="el" href="dd/dad/a00005.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a>
+</li>
+<li>BUTTON_CLOSE
+: <a class="el" href="d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">WindowButton</a>
+</li>
+<li>BUTTON_MAXIMIZE
+: <a class="el" href="d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">WindowButton</a>
+</li>
+<li>BUTTON_MINIMIZE
+: <a class="el" href="d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">WindowButton</a>
+</li>
+<li>ButtonState
+: <a class="el" href="d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
+</li>
+<li>ButtonType
+: <a class="el" href="d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
 </li>
 </ul>
 </div><!-- contents -->

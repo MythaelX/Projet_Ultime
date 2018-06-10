@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Spacers.hpp Source File</title>
+<title>Hot Dog QUIZ: functions.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,19 +106,17 @@ $(document).ready(function(){initNavTree('d2/db1/a00070_source.php','../../');})
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Spacers.hpp</div>  </div>
+<div class="title">functions.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/db1/a00070.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef HEADER_SPACERS</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define HEADER_SPACERS</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QtWidgets&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d33/a00027.php">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d0/d33/a00027.php">QHSpacerItem</a> : <span class="keyword">public</span> QSpacerItem {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">   20</a></span>&#160;        <a class="code" href="../../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">QHSpacerItem</a>(<span class="keywordtype">int</span> w = 20, <span class="keywordtype">int</span> h = 40) : QSpacerItem(w, h, QSizePolicy::Expanding, QSizePolicy::Minimum){}</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;};</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../dc/d3c/a00028.php">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/d3c/a00028.php">QVSpacerItem</a> : <span class="keyword">public</span> QSpacerItem {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">   30</a></span>&#160;        <a class="code" href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem</a>(<span class="keywordtype">int</span> w = 40, <span class="keywordtype">int</span> h = 20) : QSpacerItem(w, h, QSizePolicy::Minimum, QSizePolicy::Expanding){}</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif //HEADER_SPACERS</span></div><div class="ttc" id="a00028_php"><div class="ttname"><a href="../../dc/d3c/a00028.php">QVSpacerItem</a></div><div class="ttdoc">An implementation of QSpacerItem. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/a00070_source.php#l00027">Spacers.hpp:27</a></div></div>
-<div class="ttc" id="a00028_php_a413b13ea08b0343e9f93a0a847e54a31"><div class="ttname"><a href="../../dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem::QVSpacerItem</a></div><div class="ttdeci">QVSpacerItem(int w=40, int h=20)</div><div class="ttdoc">Create a QSpacerItem that expend vertically. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/a00070_source.php#l00030">Spacers.hpp:30</a></div></div>
-<div class="ttc" id="a00027_php"><div class="ttname"><a href="../../d0/d33/a00027.php">QHSpacerItem</a></div><div class="ttdoc">An implementation of QSpacerItem. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/a00070_source.php#l00017">Spacers.hpp:17</a></div></div>
-<div class="ttc" id="a00027_php_aba8192a3f3587a70b418ad3a04d6c324"><div class="ttname"><a href="../../d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">QHSpacerItem::QHSpacerItem</a></div><div class="ttdeci">QHSpacerItem(int w=20, int h=40)</div><div class="ttdoc">Create a QSpacerItem that expend horizontally. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/a00070_source.php#l00020">Spacers.hpp:20</a></div></div>
+<a href="../../d2/db1/a00070.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef HEADER_FUNCTIONS</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define HEADER_FUNCTIONS</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Widgets/C++/C++.hpp&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;std::string <a class="code" href="../../d2/db1/a00070.php#a7b4f7ad736a4c60a7dbb5009193df31d">formatColumn</a>(std::string str, std::string table);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d2/db1/a00070.php#ada892294d2dfe805cc181fbbbf443396">createGame</a>(std::vector&lt;std::string&gt; values);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif //HEADER_FUNCTIONS</span></div><div class="ttc" id="a00070_php_ada892294d2dfe805cc181fbbbf443396"><div class="ttname"><a href="../../d2/db1/a00070.php#ada892294d2dfe805cc181fbbbf443396">createGame</a></div><div class="ttdeci">bool createGame(std::vector&lt; std::string &gt; values)</div><div class="ttdoc">Create a game. </div></div>
+<div class="ttc" id="a00070_php_a7b4f7ad736a4c60a7dbb5009193df31d"><div class="ttname"><a href="../../d2/db1/a00070.php#a7b4f7ad736a4c60a7dbb5009193df31d">formatColumn</a></div><div class="ttdeci">std::string formatColumn(std::string str, std::string table)</div><div class="ttdoc">Format the string to erase the table name. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d2/db1/a00070.php">Spacers.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d2/db1/a00070.php">functions.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

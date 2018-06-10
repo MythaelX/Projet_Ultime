@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: File Members</title>
+<title>Hot Dog QUIZ: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -117,19 +117,19 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 <div class="contents">
 &#160;<ul>
 <li>ALIAS_TEMPLATE_FUNCTION
-: <a class="el" href="d9/d2e/a00056.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
+: <a class="el" href="d1/d6e/a00073.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
 </li>
 <li>LEFT_NODE
-: <a class="el" href="d1/d6e/a00073.php#ab2ab3f795890edd232dacd1bf163ef02">tree.hpp</a>
+: <a class="el" href="dc/d54/a00094.php#ab2ab3f795890edd232dacd1bf163ef02">tree.hpp</a>
 </li>
 <li>line_number
-: <a class="el" href="d2/d79/a00051.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
+: <a class="el" href="dc/ddf/a00067.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 <li>NO_NODE
-: <a class="el" href="d1/d6e/a00073.php#adfa80cc857b10a19d8c8146856d390fe">tree.hpp</a>
+: <a class="el" href="dc/d54/a00094.php#adfa80cc857b10a19d8c8146856d390fe">tree.hpp</a>
 </li>
 <li>RIGHT_NODE
-: <a class="el" href="d1/d6e/a00073.php#ae4fbe8a34f580e60f6ed9f42c245489c">tree.hpp</a>
+: <a class="el" href="dc/d54/a00094.php#ae4fbe8a34f580e60f6ed9f42c245489c">tree.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

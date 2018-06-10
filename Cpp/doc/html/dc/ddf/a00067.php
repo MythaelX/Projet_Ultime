@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: RNG.hpp File Reference</title>
+<title>Hot Dog QUIZ: errors.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -106,87 +106,121 @@ $(document).ready(function(){initNavTree('dc/ddf/a00067.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">RNG.hpp File Reference</div>  </div>
+<div class="title">errors.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;random&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d24/a00068_source.php">files.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc1/a00092_source.php">time.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for RNG.hpp:</div>
+Include dependency graph for errors.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d76/a00134.png" border="0" usemap="#RNG_8hpp" alt=""/></div>
-<map name="RNG_8hpp" id="RNG_8hpp">
+<div class="center"><img src="../../d5/d5b/a00135.png" border="0" usemap="#errors_8hpp" alt=""/></div>
+<map name="errors_8hpp" id="errors_8hpp">
+<area shape="rect" id="node2" href="../../d7/df7/a00058.php" title="console.hpp" alt="" coords="386,80,478,107"/>
+<area shape="rect" id="node12" href="../../da/d24/a00068.php" title="files.hpp" alt="" coords="570,80,641,107"/>
+<area shape="rect" id="node15" href="../../d1/dc1/a00092.php" title="time.hpp" alt="" coords="767,80,839,107"/>
+<area shape="rect" id="node3" href="../../d9/d73/a00060.php" title="convert.hpp" alt="" coords="387,155,477,181"/>
+<area shape="rect" id="node9" href="../../d9/d77/a00095.php" title="types.hpp" alt="" coords="97,155,175,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d5b/a00135.png" border="0" usemap="#RNG_8hppdep" alt=""/></div>
-<map name="RNG_8hppdep" id="RNG_8hppdep">
-<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="defines.hpp" alt="" coords="603,80,693,107"/>
-<area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="Contraption.hpp" alt="" coords="464,155,579,181"/>
-<area shape="rect" id="node8" href="../../dd/d32/a00041.php" title="C++.hpp" alt="" coords="546,677,619,704"/>
-<area shape="rect" id="node15" href="../../d3/dea/a00046.php" title="cryptage.hpp" alt="" coords="686,304,783,331"/>
-<area shape="rect" id="node4" href="../../d5/de0/a00050.php" title="Entity.hpp" alt="" coords="119,229,201,256"/>
-<area shape="rect" id="node7" href="../../d2/dee/a00049.php" title="Entities.hpp" alt="" coords="267,528,357,555"/>
-<area shape="rect" id="node14" href="../../d4/de8/a00061.php" title="Object.hpp" alt="" coords="525,229,611,256"/>
-<area shape="rect" id="node5" href="../../de/d8c/a00036.php" title="Animal.hpp" alt="" coords="15,379,102,405"/>
-<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="Hostile.hpp" alt="" coords="35,304,123,331"/>
-<area shape="rect" id="node11" href="../../d9/da5/a00075.php" title="Vegetal.hpp" alt="" coords="220,379,311,405"/>
-<area shape="rect" id="node6" href="../../d1/dc6/a00037.php" title="Ant.hpp" alt="" coords="5,453,72,480"/>
-<area shape="rect" id="node9" href="../../d1/d6f/a00063.php" title="Player.hpp" alt="" coords="475,603,559,629"/>
-<area shape="rect" id="node12" href="../../df/d03/a00062.php" title="Plant.hpp" alt="" coords="248,453,325,480"/>
-<area shape="rect" id="node13" href="../../d9/d73/a00060.php" title="Mushroom.hpp" alt="" coords="350,453,458,480"/>
+<div class="center"><img src="../../d0/d5e/a00136.png" border="0" usemap="#errors_8hppdep" alt=""/></div>
+<map name="errors_8hppdep" id="errors_8hppdep">
+<area shape="rect" id="node2" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="77,80,145,107"/>
+<area shape="rect" id="node9" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="131,752,205,779"/>
+<area shape="rect" id="node17" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="169,80,244,107"/>
+<area shape="rect" id="node18" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="487,155,559,181"/>
+<area shape="rect" id="node3" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="98,155,187,181"/>
+<area shape="rect" id="node4" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="465,229,580,256"/>
+<area shape="rect" id="node16" href="../../d4/de8/a00061.php" title="cryptage.hpp" alt="" coords="94,379,191,405"/>
+<area shape="rect" id="node5" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="401,304,482,331"/>
+<area shape="rect" id="node8" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="337,603,428,629"/>
+<area shape="rect" id="node15" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="535,304,620,331"/>
+<area shape="rect" id="node6" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="191,453,278,480"/>
+<area shape="rect" id="node11" href="../../d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="304,379,392,405"/>
+<area shape="rect" id="node12" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="396,453,487,480"/>
+<area shape="rect" id="node7" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="195,528,261,555"/>
+<area shape="rect" id="node10" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="303,677,387,704"/>
+<area shape="rect" id="node13" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="285,528,363,555"/>
+<area shape="rect" id="node14" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="387,528,495,555"/>
 </map>
 </div>
 </div>
 <p><a href="../../dc/ddf/a00067_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php">RNG&lt; T, U &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to simplify the use of random.  <a href="../../d5/d79/a00030.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>&#160;&#160;&#160;__LINE__</td></tr>
+<tr class="memdesc:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to do an alias of <b>LINE</b>  <a href="#a08ee21f84a6b44ca59d7f045b55d6bfc">More...</a><br /></td></tr>
+<tr class="separator:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U  = double&gt; </td></tr>
-<tr class="memitem:a9f2903f65500ce246447f08fea1d734a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#a9f2903f65500ce246447f08fea1d734a">rngRange</a> (T a, U b=0.1)</td></tr>
-<tr class="memdesc:a9f2903f65500ce246447f08fea1d734a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute a random number in a computed range.  <a href="#a9f2903f65500ce246447f08fea1d734a">More...</a><br /></td></tr>
-<tr class="separator:a9f2903f65500ce246447f08fea1d734a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memItemLeft" align="right" valign="top">Rng&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">rng</a></td></tr>
-<tr class="memdesc:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global rng variable to compute random integers.  <a href="#a9aee8b16f4c2f21fdebf0ecb0b514b96">More...</a><br /></td></tr>
-<tr class="separator:a9aee8b16f4c2f21fdebf0ecb0b514b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#aae3e42b5bf8dba8bf6431f2dea60c67b">error_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="#aae3e42b5bf8dba8bf6431f2dea60c67b">More...</a><br /></td></tr>
+<tr class="separator:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02b1d548b1c53cda0de554f2e086e43"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:ab02b1d548b1c53cda0de554f2e086e43"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#ab02b1d548b1c53cda0de554f2e086e43">warning_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:ab02b1d548b1c53cda0de554f2e086e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="#ab02b1d548b1c53cda0de554f2e086e43">More...</a><br /></td></tr>
+<tr class="separator:ab02b1d548b1c53cda0de554f2e086e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.php#a44a10c1b63e7f3384683e01f34ccd0e8">info_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="#a44a10c1b63e7f3384683e01f34ccd0e8">More...</a><br /></td></tr>
+<tr class="separator:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a9f2903f65500ce246447f08fea1d734a"></a>
+<p>Definition in file <a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a08ee21f84a6b44ca59d7f045b55d6bfc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define line_number&#160;&#160;&#160;__LINE__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define to do an alias of <b>LINE</b> </p>
+
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00018">18</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aae3e42b5bf8dba8bf6431f2dea60c67b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U  = double&gt; </div>
+template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T rngRange </td>
+          <td class="memname">void error_log </td>
           <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">U&#160;</td>
-          <td class="paramname"><em>b</em> = <code>0.1</code>&#160;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -196,33 +230,112 @@ template&lt;typename T , typename U  = double&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Compute a random number in a computed range. </p>
+<p>Print the given text like an error. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The boundary of the range </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The distance btween the boundaries</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the error </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a random value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00054">54</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">RNG.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00049">49</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a9aee8b16f4c2f21fdebf0ecb0b514b96"></a>
+<a class="anchor" id="a44a10c1b63e7f3384683e01f34ccd0e8"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Rng rng</td>
+          <td class="memname">void info_log </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A global rng variable to compute random integers. </p>
-<p>rng(<b>int</b>, <b>int</b>) </p>
+<p>Print the given text like an information. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the info </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00089">89</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab02b1d548b1c53cda0de554f2e086e43"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void warning_log </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the given text like a warning. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the warning </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/ddf/a00067_source.php#l00069">69</a> of file <a class="el" href="../../dc/ddf/a00067_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
@@ -231,7 +344,7 @@ template&lt;typename T , typename U  = double&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dc/ddf/a00067.php">RNG.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dc/ddf/a00067.php">errors.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: jumble Class Reference</title>
+<title>Hot Dog QUIZ: Font Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -109,37 +109,42 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../de/df3/a00185.php">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d6/de1/a00233.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">jumble Class Reference</div>  </div>
+<div class="title">Font Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A dynamic array to store any type of variable.  
+<p>A class to treat fonts with QFont.  
  <a href="../../d1/d2b/a00018.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/de7/a00039_source.php">array.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/d31/a00069_source.php">Font.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a> ()</td></tr>
-<tr class="memdesc:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a4f82dc848cfaed87d3c8c41d11611cdf">More...</a><br /></td></tr>
-<tr class="separator:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a6a130a7d5490029afb5cf14fb7d37ee3">~jumble</a> ()</td></tr>
-<tr class="separator:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6a119206f505522100221c1fafde45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a4e6a119206f505522100221c1fafde45">Font</a> ()</td></tr>
+<tr class="separator:a4e6a119206f505522100221c1fafde45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134aaa2f78af0c12d3ce504957169768"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a134aaa2f78af0c12d3ce504957169768">~Font</a> ()</td></tr>
+<tr class="separator:a134aaa2f78af0c12d3ce504957169768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1b263a092a8579ac1058af09e39389e0"><td class="memItemLeft" align="right" valign="top">static QFont&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a1b263a092a8579ac1058af09e39389e0">load</a> (QString path)</td></tr>
+<tr class="memdesc:a1b263a092a8579ac1058af09e39389e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a font from a file.  <a href="#a1b263a092a8579ac1058af09e39389e0">More...</a><br /></td></tr>
+<tr class="separator:a1b263a092a8579ac1058af09e39389e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A dynamic array to store any type of variable. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000001">Todo:</a></b></dt><dd></dd></dl>
+<div class="textblock"><p>A class to treat fonts with QFont. </p>
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00124">124</a> of file <a class="el" href="../../d3/de7/a00039_source.php">array.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d31/a00069_source.php#l00017">17</a> of file <a class="el" href="../../d4/d31/a00069_source.php">Font.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4f82dc848cfaed87d3c8c41d11611cdf"></a>
+<a class="anchor" id="a4e6a119206f505522100221c1fafde45"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">jumble::jumble </td>
+          <td class="memname">Font::Font </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -147,34 +152,66 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor of the class. </p>
-
 </div>
 </div>
-<a class="anchor" id="a6a130a7d5490029afb5cf14fb7d37ee3"></a>
+<a class="anchor" id="a134aaa2f78af0c12d3ce504957169768"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">jumble::~jumble </td>
+          <td class="memname">Font::~Font </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a1b263a092a8579ac1058af09e39389e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QFont Font::load </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load a font from a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path of the file </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a QFont of the font </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/de7/a00039_source.php">array.hpp</a></li>
+<li><a class="el" href="../../d4/d31/a00069_source.php">Font.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/d2b/a00018.php">jumble</a></li>
+    <li class="navelem"><a class="el" href="../../d1/d2b/a00018.php">Font</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

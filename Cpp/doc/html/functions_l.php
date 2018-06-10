@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -150,20 +152,24 @@ $(document).ready(function(){initNavTree('functions_l.php','');});
 <li>lastId()
 : <a class="el" href="dd/dad/a00005.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
 </li>
+<li>leaveEvent()
+: <a class="el" href="d6/d2d/a00047.php#a8a89e083618d2f239a60bf5adb7c79a2">WindowButton</a>
+</li>
 <li>left
-: <a class="el" href="d7/de0/a00022.php#a2841886a16c27e72b21885025c00b44b">Node&lt; T &gt;</a>
+: <a class="el" href="dc/d3c/a00028.php#a2841886a16c27e72b21885025c00b44b">Node&lt; T &gt;</a>
 </li>
 <li>list()
 : <a class="el" href="dd/dad/a00005.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
 </li>
 <li>load()
-: <a class="el" href="db/db2/a00020.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#a1b263a092a8579ac1058af09e39389e0">Font</a>
+, <a class="el" href="d6/d5b/a00026.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
 </li>
 <li>lost()
-: <a class="el" href="d3/dfe/a00025.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>losted
-: <a class="el" href="d3/dfe/a00025.php#ac3b3f61fa669c386bb9b2c912363d0b5">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#ac3b3f61fa669c386bb9b2c912363d0b5">Player&lt; PlayerParent &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

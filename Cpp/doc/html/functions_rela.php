@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Related Functions</title>
+<title>Hot Dog QUIZ: Class Members - Related Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li class="current"><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -117,9 +119,9 @@ $(document).ready(function(){initNavTree('functions_rela.php','');});
 <div class="contents">
 &#160;<ul>
 <li>operator&lt;&lt;
-: <a class="el" href="d4/dee/a00008.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
-, <a class="el" href="da/da0/a00009.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
-, <a class="el" href="da/d45/a00011.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
+: <a class="el" href="da/da0/a00009.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
+, <a class="el" href="d7/dec/a00010.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
+, <a class="el" href="df/d86/a00012.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
 </li>
 </ul>
 </div><!-- contents -->

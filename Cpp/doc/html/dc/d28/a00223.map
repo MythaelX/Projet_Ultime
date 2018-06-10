@@ -1,4 +1,4 @@
-<map id="Vegetal" name="Vegetal">
-<area shape="rect" id="node2" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
-<area shape="rect" id="node3" href="$da/d45/a00011.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="Crypto" name="Crypto">
+<area shape="rect" id="node2" href="$de/d21/a00006.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,80,63,107"/>
+<area shape="rect" id="node3" href="$d3/de7/a00039.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Member List</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
+$(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,23 +108,19 @@ $(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">RSA Member List</div>  </div>
+<div class="title">CheckBox Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d61/a00031.php">RSA</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d5e/a00007.php">CheckBox</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#a3d51d182786f83236c013c7cb10c2095">crypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#ab84588271f2e5417d47251be249951b4">crypt</a>()</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd4/a00013.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d7/dd4/a00013.php">Crypto</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a77fb6e6d0ce8b989bfa013c324c310d7">decrypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#aa900df17edf76fe7158630ec63db1fa4">getPrivate</a>()</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a552895f20169b13fd412bc83738b5db5">getPublic</a>()</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#a933f86ffad0a7a2d5d5e6099bdb5f1be">privateK</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a7d293f0a39aacf8eb05abc7355d436e2">publicK</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>()</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#aa502d81bc7559e4db119b81ce898b2ce">setPrivate</a>(std::string key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#ab0019252770d8ace87c447472d5d8b1e">setPublic</a>(std::string key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../df/d61/a00031.php">RSA</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a2d303cb0c794df8e046e6ee38b7b2be0">changeActive</a>(int state)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a087c4b9b8bcc8d631756e53a5c795efb">getIndex</a>() const </td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a8750f3494181edef39fda4e23e13a0cb">getTable</a>() const </td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#af473fc46af7d680963e7aca100aae1f3">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#ad24f0483b08b440dad2d4569be54a1ff">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a2a8d7c87f758badc4fcb643519e7d78a">stateChanged</a>(int state, std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">CheckBox</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

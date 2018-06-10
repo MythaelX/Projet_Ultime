@@ -1,0 +1,4 @@
+<map id="printTree" name="printTree">
+<area shape="rect" id="node2" href="$dc/d54/a00094.php#a3fde380f27243eba602c10dd02d7e377" title="Read the tree from left then root to right. " alt="" coords="140,5,192,32"/>
+<area shape="rect" id="node3" href="$dc/d54/a00094.php#a150358d1355a1feec0dd9c239e528ba5" title="A function to print the node value in cout stream. " alt="" coords="127,56,205,83"/>
+</map>

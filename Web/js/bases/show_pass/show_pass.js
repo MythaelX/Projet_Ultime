@@ -1,9 +1,18 @@
+/*!
+*
+*	\file		show_pass.js
+*	\author		Mathias CABIOCH-DELALANDE
+*	\date		09 juin 2018
+*
+*/
 'use strict';
 
-/* Create a show/hide effect for password inputs */
-	document.addEventListener('DOMContentLoaded', function() {
-		var eyes = document.querySelectorAll('.shower');
-		
-		
-	});
-/*************************************************/
+/*!
+* \brief	Show/Hide passwords
+* \details	Create a show/hide effect for password's inputs
+*/
+function showPass(){
+	var eyes = document.querySelectorAll('.shower');
+}
+
+addOnload(showPass);

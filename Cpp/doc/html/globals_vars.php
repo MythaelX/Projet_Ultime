@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: File Members</title>
+<title>Hot Dog QUIZ: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -117,22 +117,22 @@ $(document).ready(function(){initNavTree('globals_vars.php','');});
 <div class="contents">
 &#160;<ul>
 <li>arguments
-: <a class="el" href="d8/d41/a00038.php#ada59c388a54132792188bb23541d03c1">Args.hpp</a>
+: <a class="el" href="d1/d84/a00052.php#ada59c388a54132792188bb23541d03c1">Args.hpp</a>
 </li>
 <li>bdd
-: <a class="el" href="db/d3a/a00040.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd.hpp</a>
+: <a class="el" href="d1/dea/a00054.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd.hpp</a>
 </li>
 <li>cesar
-: <a class="el" href="d3/dea/a00046.php#a1e4758b1e3ca1aefc42b33e55b9d8fe4">cryptage.hpp</a>
+: <a class="el" href="d4/de8/a00061.php#a1e4758b1e3ca1aefc42b33e55b9d8fe4">cryptage.hpp</a>
 </li>
 <li>reader
-: <a class="el" href="d1/d84/a00052.php#a76c27f6a40c6f54d0c76ce2498fae8d7">files.hpp</a>
+: <a class="el" href="da/d24/a00068.php#a76c27f6a40c6f54d0c76ce2498fae8d7">files.hpp</a>
 </li>
 <li>rng
-: <a class="el" href="dc/ddf/a00067.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">RNG.hpp</a>
+: <a class="el" href="da/d2a/a00086.php#a9aee8b16f4c2f21fdebf0ecb0b514b96">RNG.hpp</a>
 </li>
 <li>writer
-: <a class="el" href="d1/d84/a00052.php#a5c037aab5abffa1d77dad2a0f0295b0e">files.hpp</a>
+: <a class="el" href="da/d24/a00068.php#a5c037aab5abffa1d77dad2a0f0295b0e">files.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

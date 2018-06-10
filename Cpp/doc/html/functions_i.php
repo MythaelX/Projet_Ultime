@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -148,29 +150,32 @@ $(document).ready(function(){initNavTree('functions_i.php','');});
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>init
-: <a class="el" href="d3/dfe/a00025.php#a024d37d9bdf83c1cc6618df8cc574aa2">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a024d37d9bdf83c1cc6618df8cc574aa2">Player&lt; PlayerParent &gt;</a>
+</li>
+<li>initConnectWidgets()
+: <a class="el" href="d3/dfe/a00025.php#a5cfeb89a38b9225a3b3964e6d688ba60">MainWindow</a>
 </li>
 <li>initialized
-: <a class="el" href="d7/de0/a00022.php#a6faa1b5c8a9e19348d0bfef6232c90cb">Node&lt; T &gt;</a>
-, <a class="el" href="dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
+: <a class="el" href="dc/d3c/a00028.php#a6faa1b5c8a9e19348d0bfef6232c90cb">Node&lt; T &gt;</a>
+, <a class="el" href="db/d3a/a00040.php#a5b9c0375ba50d6f3f7e83d983088ac08">Scene</a>
 </li>
 <li>insert()
 : <a class="el" href="dd/dad/a00005.php#a059c72982d8075a1e0fcc175461b1430">BDD</a>
 </li>
 <li>isInit()
-: <a class="el" href="d3/dfe/a00025.php#a6ac0f9addd53f05fb5fce59ede276b68">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a6ac0f9addd53f05fb5fce59ede276b68">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isLost()
-: <a class="el" href="d3/dfe/a00025.php#a1dec883e7f06a8c82a0e07635f200bcf">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a1dec883e7f06a8c82a0e07635f200bcf">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isPaused()
-: <a class="el" href="d3/dfe/a00025.php#ae8d0cb2cfc31c311122543b16226cdb7">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="df/d61/a00031.php#ae8d0cb2cfc31c311122543b16226cdb7">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isXIn()
-: <a class="el" href="db/db2/a00020.php#aeef35654d256ab9218920a9126680495">Map</a>
+: <a class="el" href="d6/d5b/a00026.php#aeef35654d256ab9218920a9126680495">Map</a>
 </li>
 <li>isYIn()
-: <a class="el" href="db/db2/a00020.php#a200536787e3e8686e91202b7a56f4190">Map</a>
+: <a class="el" href="d6/d5b/a00026.php#a200536787e3e8686e91202b7a56f4190">Map</a>
 </li>
 </ul>
 </div><!-- contents -->

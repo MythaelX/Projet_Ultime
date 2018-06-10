@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: GraphScene Class Reference</title>
+<title>Hot Dog QUIZ: DrawScene Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -110,132 +110,86 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../db/dd9/a00179.php">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../d9/d01/a00227.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GraphScene Class Reference</div>  </div>
+<div class="title">DrawScene Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw graphs.  
+<p>A <a class="el" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  
  <a href="../../d7/d7a/a00016.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for GraphScene:</div>
+Inheritance diagram for DrawScene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d81/a00180.png" border="0" usemap="#GraphScene_inherit__map" alt="Inheritance graph"/></div>
-<map name="GraphScene_inherit__map" id="GraphScene_inherit__map">
-<area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../de/dc2/a00228.png" border="0" usemap="#DrawScene_inherit__map" alt="Inheritance graph"/></div>
+<map name="DrawScene_inherit__map" id="DrawScene_inherit__map">
+<area shape="rect" id="node2" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GraphScene:</div>
+Collaboration diagram for DrawScene:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d64/a00181.png" border="0" usemap="#GraphScene_coll__map" alt="Collaboration graph"/></div>
-<map name="GraphScene_coll__map" id="GraphScene_coll__map">
-<area shape="rect" id="node2" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../dd/d2d/a00229.png" border="0" usemap="#DrawScene_coll__map" alt="Collaboration graph"/></div>
+<map name="DrawScene_coll__map" id="DrawScene_coll__map">
+<area shape="rect" id="node2" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:ae19cfdde3c7cb4f1a1bbddc689b6c5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">update</a> ()</td></tr>
-<tr class="memdesc:ae19cfdde3c7cb4f1a1bbddc689b6c5b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the pur virtual parent method <a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a>  <a href="#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">More...</a><br /></td></tr>
-<tr class="separator:ae19cfdde3c7cb4f1a1bbddc689b6c5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_slots_a00032"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00032')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a> ()=0</td></tr>
-<tr class="memdesc:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual method to redefine it in child classes.  <a href="#a7faff47f5c1b1ebc986f768c9b9732ec">More...</a><br /></td></tr>
-<tr class="separator:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">update</a> ()</td></tr>
+<tr class="memdesc:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the pur virtual parent method <a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a>  <a href="#ad0292ea7a4d4c501a7bf5c9fb6282d7e">More...</a><br /></td></tr>
+<tr class="separator:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_slots_a00040"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00040')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
+<tr class="memitem:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a> ()=0</td></tr>
+<tr class="memdesc:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual method to redefine it in child classes.  <a href="#a7faff47f5c1b1ebc986f768c9b9732ec">More...</a><br /></td></tr>
+<tr class="separator:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaeb35fa52c5b126eb5e0c72f1291f1c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aaeb35fa52c5b126eb5e0c72f1291f1c2">GraphScene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:aaeb35fa52c5b126eb5e0c72f1291f1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a>.  <a href="#aaeb35fa52c5b126eb5e0c72f1291f1c2">More...</a><br /></td></tr>
-<tr class="separator:aaeb35fa52c5b126eb5e0c72f1291f1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37cbb072493b457564dda12502c9af7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a37cbb072493b457564dda12502c9af7f">~GraphScene</a> ()</td></tr>
-<tr class="separator:a37cbb072493b457564dda12502c9af7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee91facfb6fd4eda61385809e122f43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a9ee91facfb6fd4eda61385809e122f43">reinit</a> ()</td></tr>
-<tr class="memdesc:a9ee91facfb6fd4eda61385809e122f43"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/d16/a00029.php" title="Reinit the color in the console. ">Reinit</a> the graphs.  <a href="#a9ee91facfb6fd4eda61385809e122f43">More...</a><br /></td></tr>
-<tr class="separator:a9ee91facfb6fd4eda61385809e122f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad24a3692edd1ba8099c9b823ca91705c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ad24a3692edd1ba8099c9b823ca91705c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ad24a3692edd1ba8099c9b823ca91705c">addGraph</a> (std::map&lt; T, T &gt; ins)</td></tr>
-<tr class="memdesc:ad24a3692edd1ba8099c9b823ca91705c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new graph with values.  <a href="#ad24a3692edd1ba8099c9b823ca91705c">More...</a><br /></td></tr>
-<tr class="separator:ad24a3692edd1ba8099c9b823ca91705c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa00a275c68b5ba1fd39998c2e47db34a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa00a275c68b5ba1fd39998c2e47db34a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aa00a275c68b5ba1fd39998c2e47db34a">addGraph</a> (std::pair&lt; T, T &gt; in)</td></tr>
-<tr class="memdesc:aa00a275c68b5ba1fd39998c2e47db34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new graph with a starting value.  <a href="#aa00a275c68b5ba1fd39998c2e47db34a">More...</a><br /></td></tr>
-<tr class="separator:aa00a275c68b5ba1fd39998c2e47db34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae96172f1b8598300c4ac6134444697"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a0ae96172f1b8598300c4ac6134444697"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a0ae96172f1b8598300c4ac6134444697">addGraph</a> (std::vector&lt; T &gt; ins)</td></tr>
-<tr class="memdesc:a0ae96172f1b8598300c4ac6134444697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new graph with values.  <a href="#a0ae96172f1b8598300c4ac6134444697">More...</a><br /></td></tr>
-<tr class="separator:a0ae96172f1b8598300c4ac6134444697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262f69fe1830ded7878cf087236024f0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a262f69fe1830ded7878cf087236024f0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a262f69fe1830ded7878cf087236024f0">addInGraph</a> (size_t index, std::pair&lt; T, T &gt; vals)</td></tr>
-<tr class="memdesc:a262f69fe1830ded7878cf087236024f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add values in.  <a href="#a262f69fe1830ded7878cf087236024f0">More...</a><br /></td></tr>
-<tr class="separator:a262f69fe1830ded7878cf087236024f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a294013125013fbd6218eeb892c53d6b4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a294013125013fbd6218eeb892c53d6b4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a294013125013fbd6218eeb892c53d6b4">setXMax</a> (T in)</td></tr>
-<tr class="memdesc:a294013125013fbd6218eeb892c53d6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum of the X axis.  <a href="#a294013125013fbd6218eeb892c53d6b4">More...</a><br /></td></tr>
-<tr class="separator:a294013125013fbd6218eeb892c53d6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53a17a634417fcde5b9cac44699ed7a6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a53a17a634417fcde5b9cac44699ed7a6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a53a17a634417fcde5b9cac44699ed7a6">setXMin</a> (T in)</td></tr>
-<tr class="memdesc:a53a17a634417fcde5b9cac44699ed7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the minimum of the X axis  <a href="#a53a17a634417fcde5b9cac44699ed7a6">More...</a><br /></td></tr>
-<tr class="separator:a53a17a634417fcde5b9cac44699ed7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bcd5ff38039ca92991a9b72b6f0e8ea"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a7bcd5ff38039ca92991a9b72b6f0e8ea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a7bcd5ff38039ca92991a9b72b6f0e8ea">setXStep</a> (T in)</td></tr>
-<tr class="memdesc:a7bcd5ff38039ca92991a9b72b6f0e8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the step in the X axis.  <a href="#a7bcd5ff38039ca92991a9b72b6f0e8ea">More...</a><br /></td></tr>
-<tr class="separator:a7bcd5ff38039ca92991a9b72b6f0e8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b4d85fc0786904021c33902cec3dbdb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a7b4d85fc0786904021c33902cec3dbdb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a7b4d85fc0786904021c33902cec3dbdb">setXRange</a> (T <a class="el" href="../../d3/d8b/a00059.php#a193486f414e3b93b2284a85977a4a02c">min</a>, T <a class="el" href="../../d3/d8b/a00059.php#ac5673d3f9fc79ba39127c4a339dea626">max</a>)</td></tr>
-<tr class="memdesc:a7b4d85fc0786904021c33902cec3dbdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boudaries for the X axis.  <a href="#a7b4d85fc0786904021c33902cec3dbdb">More...</a><br /></td></tr>
-<tr class="separator:a7b4d85fc0786904021c33902cec3dbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4345f99a23e4cc5fa07c55cf3511537e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a4345f99a23e4cc5fa07c55cf3511537e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4345f99a23e4cc5fa07c55cf3511537e">setYMax</a> (T in)</td></tr>
-<tr class="memdesc:a4345f99a23e4cc5fa07c55cf3511537e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum of the Y axis.  <a href="#a4345f99a23e4cc5fa07c55cf3511537e">More...</a><br /></td></tr>
-<tr class="separator:a4345f99a23e4cc5fa07c55cf3511537e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a87303127505bce46d4dcc30ce1f122"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a4a87303127505bce46d4dcc30ce1f122"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4a87303127505bce46d4dcc30ce1f122">setYMin</a> (T in)</td></tr>
-<tr class="memdesc:a4a87303127505bce46d4dcc30ce1f122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the minimum of the Y axis.  <a href="#a4a87303127505bce46d4dcc30ce1f122">More...</a><br /></td></tr>
-<tr class="separator:a4a87303127505bce46d4dcc30ce1f122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0691b268ad07ea33bf254b0f489df59d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a0691b268ad07ea33bf254b0f489df59d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a0691b268ad07ea33bf254b0f489df59d">setYStep</a> (T in)</td></tr>
-<tr class="memdesc:a0691b268ad07ea33bf254b0f489df59d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the step in the Y axis.  <a href="#a0691b268ad07ea33bf254b0f489df59d">More...</a><br /></td></tr>
-<tr class="separator:a0691b268ad07ea33bf254b0f489df59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f75f2238bcc5df131f3e4198bc1c186"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a4f75f2238bcc5df131f3e4198bc1c186"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4f75f2238bcc5df131f3e4198bc1c186">setYRange</a> (T <a class="el" href="../../d3/d8b/a00059.php#a193486f414e3b93b2284a85977a4a02c">min</a>, T <a class="el" href="../../d3/d8b/a00059.php#ac5673d3f9fc79ba39127c4a339dea626">max</a>)</td></tr>
-<tr class="memdesc:a4f75f2238bcc5df131f3e4198bc1c186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the boundaries in the Y axis.  <a href="#a4f75f2238bcc5df131f3e4198bc1c186">More...</a><br /></td></tr>
-<tr class="separator:a4f75f2238bcc5df131f3e4198bc1c186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8039208138c6c15d89f3460b552f6b37"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a8039208138c6c15d89f3460b552f6b37"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a8039208138c6c15d89f3460b552f6b37">setPointsDist</a> (T <a class="el" href="../../d3/d8b/a00059.php#aa7446c664998ff110eeaf6c2bab19772">dist</a>)</td></tr>
-<tr class="memdesc:a8039208138c6c15d89f3460b552f6b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the distance between two points.  <a href="#a8039208138c6c15d89f3460b552f6b37">More...</a><br /></td></tr>
-<tr class="separator:a8039208138c6c15d89f3460b552f6b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14cdb7c7d2167512a42815286cd75dba"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a14cdb7c7d2167512a42815286cd75dba">getNbGraphs</a> ()</td></tr>
-<tr class="memdesc:a14cdb7c7d2167512a42815286cd75dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of graphs in the scene.  <a href="#a14cdb7c7d2167512a42815286cd75dba">More...</a><br /></td></tr>
-<tr class="separator:a14cdb7c7d2167512a42815286cd75dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00032"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00032')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the QGraphicsScene.  <a href="#a8f0ae2c1c11ac3f3fd382baf33fb934a">More...</a><br /></td></tr>
-<tr class="separator:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00032"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
-<tr class="separator:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f57b8878a4c601e45990ab2f461fcba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a1f57b8878a4c601e45990ab2f461fcba">DrawScene</a> (QObject *parent=NULL)</td></tr>
+<tr class="memdesc:a1f57b8878a4c601e45990ab2f461fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the <a class="el" href="../../d7/d7a/a00016.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>.  <a href="#a1f57b8878a4c601e45990ab2f461fcba">More...</a><br /></td></tr>
+<tr class="separator:a1f57b8878a4c601e45990ab2f461fcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95069018a89de490bb75a7847a7c999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ab95069018a89de490bb75a7847a7c999">~DrawScene</a> ()</td></tr>
+<tr class="separator:ab95069018a89de490bb75a7847a7c999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aa9cd414cc46f3396f58e4a7af88d6b4c">setTilesize</a> (int s)</td></tr>
+<tr class="memdesc:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tiles' size.  <a href="#aa9cd414cc46f3396f58e4a7af88d6b4c">More...</a><br /></td></tr>
+<tr class="separator:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00040"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00040')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
+<tr class="memitem:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a> (QObject *parent=NULL)</td></tr>
+<tr class="memdesc:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the QGraphicsScene.  <a href="#a8f0ae2c1c11ac3f3fd382baf33fb934a">More...</a><br /></td></tr>
+<tr class="separator:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
+<tr class="separator:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_a00032"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00032')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../dc/d87/a00032.php">Scene</a></td></tr>
-<tr class="memitem:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00032"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td></tr>
-<tr class="separator:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a124d4bd03677251c2159bd0dd4254306"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a124d4bd03677251c2159bd0dd4254306">tileSize</a></td></tr>
+<tr class="separator:a124d4bd03677251c2159bd0dd4254306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb82ecbd590818d52d58227101a490d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aecb82ecbd590818d52d58227101a490d">printed_background</a></td></tr>
+<tr class="separator:aecb82ecbd590818d52d58227101a490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">pixmaps</a></td></tr>
+<tr class="separator:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a71ac1ae84ae88e00810307b2f146d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#af1a71ac1ae84ae88e00810307b2f146d">scaled_pixmaps</a></td></tr>
+<tr class="separator:af1a71ac1ae84ae88e00810307b2f146d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00040"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00040')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
+<tr class="memitem:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00040"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td></tr>
+<tr class="separator:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw graphs. </p>
+<div class="textblock"><p>A <a class="el" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00029">29</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00017">17</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaeb35fa52c5b126eb5e0c72f1291f1c2"></a>
+<a class="anchor" id="a1f57b8878a4c601e45990ab2f461fcba"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GraphScene::GraphScene </td>
+          <td class="memname">DrawScene::DrawScene </td>
           <td>(</td>
           <td class="paramtype">QObject *&#160;</td>
           <td class="paramname"><em>parent</em> = <code>NULL</code></td><td>)</td>
@@ -244,16 +198,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct the <a class="el" href="../../dc/d87/a00032.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a>. </p>
+<p>Create the <a class="el" href="../../d7/d7a/a00016.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>. </p>
 
 </div>
 </div>
-<a class="anchor" id="a37cbb072493b457564dda12502c9af7f"></a>
+<a class="anchor" id="ab95069018a89de490bb75a7847a7c999"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GraphScene::~GraphScene </td>
+          <td class="memname">DrawScene::~DrawScene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -264,176 +218,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad24a3692edd1ba8099c9b823ca91705c"></a>
+<a class="anchor" id="aa9cd414cc46f3396f58e4a7af88d6b4c"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GraphScene::addGraph </td>
+          <td class="memname">void DrawScene::setTilesize </td>
           <td>(</td>
-          <td class="paramtype">std::map&lt; T, T &gt;&#160;</td>
-          <td class="paramname"><em>ins</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Create a new graph with values. </p>
+<p>Set the tiles' size. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ins</td><td>Values to add to a new graph</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>The value to set</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00049">49</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="aa00a275c68b5ba1fd39998c2e47db34a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::addGraph </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; T, T &gt;&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a new graph with a starting value. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>Values to add to a new graph</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00066">66</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0ae96172f1b8598300c4ac6134444697"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::addGraph </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>ins</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a new graph with values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ins</td><td>Values to add to a new graph</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00081">81</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a262f69fe1830ded7878cf087236024f0"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool GraphScene::addInGraph </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::pair&lt; T, T &gt;&#160;</td>
-          <td class="paramname"><em>vals</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Add values in. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index of the graph to modify </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">vals</td><td>The value to add in X/Y to the <em>index</em> graph</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00100">100</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d7a/a00016_a262f69fe1830ded7878cf087236024f0_cgraph.png" border="0" usemap="#d7/d7a/a00016_a262f69fe1830ded7878cf087236024f0_cgraph" alt=""/></div>
-<map name="d7/d7a/a00016_a262f69fe1830ded7878cf087236024f0_cgraph" id="d7/d7a/a00016_a262f69fe1830ded7878cf087236024f0_cgraph">
-<area shape="rect" id="node2" href="../../d7/d7a/a00016.php#ad24a3692edd1ba8099c9b823ca91705c" title="Create a new graph with values. " alt="" coords="223,5,381,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a14cdb7c7d2167512a42815286cd75dba"></a>
+<a class="anchor" id="ad0292ea7a4d4c501a7bf5c9fb6282d7e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -441,449 +251,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t GraphScene::getNbGraphs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the number of graphs in the scene. </p>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00220">220</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d7a/a00016_a14cdb7c7d2167512a42815286cd75dba_cgraph.png" border="0" usemap="#d7/d7a/a00016_a14cdb7c7d2167512a42815286cd75dba_cgraph" alt=""/></div>
-<map name="d7/d7a/a00016_a14cdb7c7d2167512a42815286cd75dba_cgraph" id="d7/d7a/a00016_a14cdb7c7d2167512a42815286cd75dba_cgraph">
-<area shape="rect" id="node2" href="../../d7/d7a/a00016.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5" title="Overload of the pur virtual parent method Scene::update() " alt="" coords="232,5,373,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a9ee91facfb6fd4eda61385809e122f43"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::reinit </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d5/d16/a00029.php" title="Reinit the color in the console. ">Reinit</a> the graphs. </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a8039208138c6c15d89f3460b552f6b37"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setPointsDist </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>dist</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the distance between two points. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dist</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00215">215</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d7a/a00016_a8039208138c6c15d89f3460b552f6b37_cgraph.png" border="0" usemap="#d7/d7a/a00016_a8039208138c6c15d89f3460b552f6b37_cgraph" alt=""/></div>
-<map name="d7/d7a/a00016_a8039208138c6c15d89f3460b552f6b37_cgraph" id="d7/d7a/a00016_a8039208138c6c15d89f3460b552f6b37_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. " alt="" coords="235,5,277,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a294013125013fbd6218eeb892c53d6b4"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setXMax </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the maximum of the X axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00123">123</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a53a17a634417fcde5b9cac44699ed7a6"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setXMin </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set the minimum of the X axis </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00134">134</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7b4d85fc0786904021c33902cec3dbdb"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setXRange </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the boudaries for the X axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>The minimum X value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>The maximum X value</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00157">157</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d7a/a00016_a7b4d85fc0786904021c33902cec3dbdb_cgraph.png" border="0" usemap="#d7/d7a/a00016_a7b4d85fc0786904021c33902cec3dbdb_cgraph" alt=""/></div>
-<map name="d7/d7a/a00016_a7b4d85fc0786904021c33902cec3dbdb_cgraph" id="d7/d7a/a00016_a7b4d85fc0786904021c33902cec3dbdb_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#a193486f414e3b93b2284a85977a4a02c" title="Return the minimum of the arguments. " alt="" coords="222,5,265,32"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php#ac5673d3f9fc79ba39127c4a339dea626" title="Return the maximum of the arguments. " alt="" coords="220,56,267,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a7bcd5ff38039ca92991a9b72b6f0e8ea"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setXStep </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the step in the X axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00145">145</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4345f99a23e4cc5fa07c55cf3511537e"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setYMax </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the maximum of the Y axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00169">169</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4a87303127505bce46d4dcc30ce1f122"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setYMin </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the minimum of the Y axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00180">180</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4f75f2238bcc5df131f3e4198bc1c186"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setYRange </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the boundaries in the Y axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>The minimum Y value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>The maximum Y value</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00203">203</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/d7a/a00016_a4f75f2238bcc5df131f3e4198bc1c186_cgraph.png" border="0" usemap="#d7/d7a/a00016_a4f75f2238bcc5df131f3e4198bc1c186_cgraph" alt=""/></div>
-<map name="d7/d7a/a00016_a4f75f2238bcc5df131f3e4198bc1c186_cgraph" id="d7/d7a/a00016_a4f75f2238bcc5df131f3e4198bc1c186_cgraph">
-<area shape="rect" id="node2" href="../../d3/d8b/a00059.php#a193486f414e3b93b2284a85977a4a02c" title="Return the minimum of the arguments. " alt="" coords="222,5,265,32"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php#ac5673d3f9fc79ba39127c4a339dea626" title="Return the maximum of the arguments. " alt="" coords="220,56,267,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a0691b268ad07ea33bf254b0f489df59d"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::setYStep </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>in</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the step in the Y axis. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d1/dea/a00054_source.php#l00191">191</a> of file <a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae19cfdde3c7cb4f1a1bbddc689b6c5b5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GraphScene::update </td>
+          <td class="memname">void DrawScene::update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -896,20 +264,109 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Overload of the pur virtual parent method <a class="el" href="../../dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a> </p>
+<p>Overload of the pur virtual parent method <a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a> </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a99f3c0b81bbecfbf850e920ffc2f6f0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::pixmaps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00046">46</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecb82ecbd590818d52d58227101a490d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DrawScene::printed_background</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00044">44</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1a71ac1ae84ae88e00810307b2f146d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::scaled_pixmaps</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00047">47</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a124d4bd03677251c2159bd0dd4254306"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DrawScene::tileSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00043">43</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/dea/a00054_source.php">GraphScene.hpp</a></li>
+<li><a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">GraphScene</a></li>
+    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">DrawScene</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

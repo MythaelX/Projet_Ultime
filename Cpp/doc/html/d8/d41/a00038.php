@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Member List</title>
+<title>Hot Dog QUIZ: RNG&lt; T, U &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,6 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -87,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
+$(document).ready(function(){initNavTree('d8/d41/a00038.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,25 +107,130 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="../../dd/dfe/a00283.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PushButton Member List</div>  </div>
+<div class="title">RNG&lt; T, U &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d21/a00006.php">PushButton</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a31bbce7532c03921c218f54465afcaef">click</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a138a6609129997496311c00ed4e1acb0">getIndex</a>() const </td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a>() const </td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<p>A class to simplify the use of random.  
+ <a href="../../d8/d41/a00038.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../da/d2a/a00086_source.php">RNG.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d41/a00038.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a> ()</td></tr>
+<tr class="separator:a9981de0f2f28a52ae600df8fbc0404c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d41/a00038.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a> (T a, T b)</td></tr>
+<tr class="memdesc:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definition of the operator ()  <a href="#ac81b86f2d95f99cb5e2f778592d6fd3a">More...</a><br /></td></tr>
+<tr class="separator:ac81b86f2d95f99cb5e2f778592d6fd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, typename U&gt;<br />
+class RNG&lt; T, U &gt;</h3>
+
+<p>A class to simplify the use of random. </p>
+
+<p>Definition at line <a class="el" href="../../da/d2a/a00086_source.php#l00021">21</a> of file <a class="el" href="../../da/d2a/a00086_source.php">RNG.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a9981de0f2f28a52ae600df8fbc0404c6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d41/a00038.php">RNG</a>&lt; T, U &gt;::<a class="el" href="../../d8/d41/a00038.php">RNG</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d2a/a00086_source.php#l00023">23</a> of file <a class="el" href="../../da/d2a/a00086_source.php">RNG.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac81b86f2d95f99cb5e2f778592d6fd3a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="../../d8/d41/a00038.php">RNG</a>&lt; T, U &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The definition of the operator () </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The first boundary </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">b</td><td>The first boundary</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a random number between <em>a</em> and <em>b</em> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/d2a/a00086_source.php#l00032">32</a> of file <a class="el" href="../../da/d2a/a00086_source.php">RNG.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d41/a00038_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph.png" border="0" usemap="#d8/d41/a00038_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" alt=""/></div>
+<map name="d8/d41/a00038_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph" id="d8/d41/a00038_ac81b86f2d95f99cb5e2f778592d6fd3a_cgraph">
+<area shape="rect" id="node2" href="../../db/df8/a00076.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. " alt="" coords="168,5,211,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="../../da/d2a/a00086_source.php">RNG.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../d8/d41/a00038.php">RNG</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -147,21 +149,41 @@ $(document).ready(function(){initNavTree('functions_m.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>m_Cache
+: <a class="el" href="d3/dea/a00046.php#a065e43061d8abb3717302dc1acf139c3">Window</a>
+</li>
 <li>m_start
-: <a class="el" href="de/d5e/a00007.php#ad482076b35f14f806f688e956245483a">Clock</a>
-, <a class="el" href="d0/dc0/a00033.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
+: <a class="el" href="d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">Clock</a>
+, <a class="el" href="d5/db6/a00042.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
 </li>
 <li>MainWindow()
-: <a class="el" href="dd/da2/a00019.php#a08a133d21fea8948f84acc105ab5fc33">MainWindow</a>
+: <a class="el" href="d3/dfe/a00025.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>
 </li>
 <li>Map()
-: <a class="el" href="db/db2/a00020.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="d6/d5b/a00026.php#a5c9015eea1519003e305315fc6933968">Map</a>
+</li>
+<li>Maximized()
+: <a class="el" href="d4/dca/a00048.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
+</li>
+<li>Minimized()
+: <a class="el" href="d4/dca/a00048.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
+</li>
+<li>mouseMoveEvent()
+: <a class="el" href="d4/dca/a00048.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
+</li>
+<li>mousePressEvent()
+: <a class="el" href="d6/d2d/a00047.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
+, <a class="el" href="d4/dca/a00048.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
+</li>
+<li>mouseReleaseEvent()
+: <a class="el" href="d6/d2d/a00047.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
+, <a class="el" href="d4/dca/a00048.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
 </li>
 <li>move()
-: <a class="el" href="d7/d46/a00002.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
+: <a class="el" href="d7/d46/a00002.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="de/d11/a00021.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="d0/d33/a00027.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 </ul>
 </div><!-- contents -->

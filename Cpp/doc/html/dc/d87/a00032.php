@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Member List</title>
+<title>Hot Dog QUIZ: Point Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,6 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
       <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
@@ -87,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
+$(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,20 +107,87 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../d1/dd4/a00267.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">H2TitleLabel Member List</div>  </div>
+<div class="title">Point Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/d0b/a00004.php">H2TitleLabel</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d0b/a00004.php#a63831a9a77053bc8389e5036712218bf">H2TitleLabel</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d0/d0b/a00004.php">H2TitleLabel</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">TitleLabel</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>A struct to define a point in space.  
+ <a href="../../dc/d87/a00032.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#ab99c56589bc8ad5fa5071387110a5bc7">x</a></td></tr>
+<tr class="separator:ab99c56589bc8ad5fa5071387110a5bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#afa38be143ae800e6ad69ce8ed4df62d8">y</a></td></tr>
+<tr class="separator:afa38be143ae800e6ad69ce8ed4df62d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d87/a00032.php#a05ba3b1dfcb19430582ae953cbbfbded">z</a> = 0</td></tr>
+<tr class="separator:a05ba3b1dfcb19430582ae953cbbfbded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A struct to define a point in space. </p>
+
+<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00060">60</a> of file <a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ab99c56589bc8ad5fa5071387110a5bc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Point::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>X position </p>
+
+<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00062">62</a> of file <a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afa38be143ae800e6ad69ce8ed4df62d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Point::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Y position </p>
+
+<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00064">64</a> of file <a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05ba3b1dfcb19430582ae953cbbfbded"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Point::z = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Z position </p>
+
+<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00066">66</a> of file <a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../df/d03/a00062_source.php">defines.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="../../dc/d87/a00032.php">Point</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

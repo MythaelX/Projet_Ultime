@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members</title>
+<title>Hot Dog QUIZ: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.php"><span>All</span></a></li>
       <li><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -148,13 +150,19 @@ $(document).ready(function(){initNavTree('functions_q.php','');});
 
 <h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
 <li>QHSpacerItem()
-: <a class="el" href="d0/d33/a00027.php#aba8192a3f3587a70b418ad3a04d6c324">QHSpacerItem</a>
+: <a class="el" href="db/df3/a00034.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a>
 </li>
 <li>query()
 : <a class="el" href="dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">BDD</a>
 </li>
+<li>quit()
+: <a class="el" href="d3/dfe/a00025.php#a542a7527ced73b2c9bc14f8dc9661a66">MainWindow</a>
+</li>
+<li>Quit()
+: <a class="el" href="d4/dca/a00048.php#a1604ff5ed446b01e08dbb4d05be48f63">WindowTitleBar</a>
+</li>
 <li>QVSpacerItem()
-: <a class="el" href="dc/d3c/a00028.php#a413b13ea08b0343e9f93a0a847e54a31">QVSpacerItem</a>
+: <a class="el" href="d4/d8c/a00035.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a>
 </li>
 </ul>
 </div><!-- contents -->

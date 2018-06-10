@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Class Members - Functions</title>
+<title>Hot Dog QUIZ: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.php"><span>All</span></a></li>
       <li class="current"><a href="functions_func.php"><span>Functions</span></a></li>
       <li><a href="functions_vars.php"><span>Variables</span></a></li>
+      <li><a href="functions_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="functions_eval.php"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.php"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -107,6 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func_t.php#index_t"><span>t</span></a></li>
       <li class="current"><a href="functions_func_u.php#index_u"><span>u</span></a></li>
       <li><a href="functions_func_v.php#index_v"><span>v</span></a></li>
+      <li><a href="functions_func_w.php#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x7e.php#index_0x7e"><span>~</span></a></li>
     </ul>
   </div>
@@ -147,13 +150,29 @@ $(document).ready(function(){initNavTree('functions_func_u.php','');});
 : <a class="el" href="dd/dad/a00005.php#a962782dc60b83f30a7ec387e0747178d">BDD</a>
 </li>
 <li>untarget()
-: <a class="el" href="d4/d51/a00017.php#a4b91ff7920ded02f9662134608f11d6f">Hostile</a>
+: <a class="el" href="d3/d52/a00023.php#a4b91ff7920ded02f9662134608f11d6f">Hostile</a>
 </li>
 <li>update()
-: <a class="el" href="dd/dad/a00005.php#a9635488b6707d5dd16c669c9ca967716">BDD</a>
-, <a class="el" href="d2/de7/a00014.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">DrawScene</a>
-, <a class="el" href="d7/d7a/a00016.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">GraphScene</a>
-, <a class="el" href="dc/d87/a00032.php#a7faff47f5c1b1ebc986f768c9b9732ec">Scene</a>
+: <a class="el" href="dd/dad/a00005.php#a6a54ee2df1609f504fe4a2d189f51be7">BDD</a>
+, <a class="el" href="d7/d7a/a00016.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">DrawScene</a>
+, <a class="el" href="dd/da2/a00019.php#ae19cfdde3c7cb4f1a1bbddc689b6c5b5">GraphScene</a>
+, <a class="el" href="db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec">Scene</a>
+, <a class="el" href="dd/d32/a00041.php#a8ee97e18b4afb72672b36ef2002537ae">TableWidget</a>
+</li>
+<li>updateEntry()
+: <a class="el" href="d3/dfe/a00025.php#a675227b9f43a0a590d2446b074053943">MainWindow</a>
+</li>
+<li>UpdateWindowTitle()
+: <a class="el" href="d4/dca/a00048.php#a5a96b7bd195f625fc4ffb6c7fe180709">WindowTitleBar</a>
+</li>
+<li>updEntry()
+: <a class="el" href="d3/dfe/a00025.php#a9e7ab1ecbd6fbece432bb5cd2c7f35f7">MainWindow</a>
+</li>
+<li>useAdminWidgets()
+: <a class="el" href="d3/dfe/a00025.php#ac5cd67fa4d5e5aace91a9c98cc8feec7">MainWindow</a>
+</li>
+<li>useConnectWidgets()
+: <a class="el" href="d3/dfe/a00025.php#aad6ca3020e583fffe727258905c15629">MainWindow</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Member List</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
+$(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,15 +108,17 @@ $(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">WorldDimensions Member List</div>  </div>
+<div class="title">Dialog Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d8c/a00035.php">WorldDimensions</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/d1b/a00015.php">Dialog</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d8c/a00035.php#aab0b2a75b9747cdc33e2982b2df3c322">h</a></td><td class="entry"><a class="el" href="../../d4/d8c/a00035.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d8c/a00035.php#a56d14d07cb773a1a4bf12f16e7b57d07">w</a></td><td class="entry"><a class="el" href="../../d4/d8c/a00035.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d8c/a00035.php#aa07c34b536e895dc3ab45bb353aa54a6">z</a></td><td class="entry"><a class="el" href="../../d4/d8c/a00035.php">WorldDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1b/a00015.php#aa0b9cd0c1778f065842c9f5d8b1d0ade">Dialog</a>(QWidget *parent=nullptr, Qt::WindowFlags flags=Qt::WindowTitleHint|Qt::WindowSystemMenuHint)</td><td class="entry"><a class="el" href="../../dd/d1b/a00015.php">Dialog</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d1b/a00015.php#a4c10c671f4913a51c225eab2a3934f10">enableCancel</a>(bool enable)</td><td class="entry"><a class="el" href="../../dd/d1b/a00015.php">Dialog</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1b/a00015.php#a6505fd839711734947bfe2040a74f614">exec</a>()</td><td class="entry"><a class="el" href="../../dd/d1b/a00015.php">Dialog</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/d1b/a00015.php#a71fa68c918f499cf0882f10e163653b7">setText</a>(std::string text)</td><td class="entry"><a class="el" href="../../dd/d1b/a00015.php">Dialog</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/d1b/a00015.php#a2a1fe6ef28513eed13bfcd3a4da83ccb">~Dialog</a>()</td><td class="entry"><a class="el" href="../../dd/d1b/a00015.php">Dialog</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
