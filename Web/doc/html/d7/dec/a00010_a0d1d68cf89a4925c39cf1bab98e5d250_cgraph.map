@@ -1,0 +1,15 @@
+<map id="setAll" name="setAll">
+<area shape="rect" id="node2" href="$d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="443,5,494,32"/>
+<area shape="rect" id="node3" href="$d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d" title="Get an element dimension. " alt="" coords="429,132,508,159"/>
+<area shape="rect" id="node4" href="$d7/dec/a00010.php#a71c7344e28d3f0bdf0c5445d4e50b067" title="Place all the elements (header, nav, main, footer) in the HTML body. " alt="" coords="123,107,191,133"/>
+<area shape="rect" id="node7" href="$d7/dec/a00010.php#abc28be0063ceea3a2dbac6e5d8f42bd4" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="115,233,199,260"/>
+<area shape="rect" id="node8" href="$d7/dec/a00010.php#af25c5b56dd6e0a4c8e76e1d6ec197417" title="Add a function to the onresizeFunction array and save the arguments. " alt="" coords="110,284,205,311"/>
+<area shape="rect" id="node9" href="$d7/dec/a00010.php#a09e57842c5e01d9ec59cdcefca4ced17" title="Function to simulate a scroll. " alt="" coords="123,335,191,361"/>
+<area shape="rect" id="node14" href="$d7/dec/a00010.php#ad7a397e90db34413bcaae79d5ccd0ce5" title="Get the offset of an element. " alt="" coords="108,385,207,412"/>
+<area shape="rect" id="node5" href="$d7/dec/a00010.php#ae792a2c3cd89e06e387fdee69730e8cb" title="Get the principal struct dimension. " alt="" coords="255,31,368,57"/>
+<area shape="rect" id="node6" href="$d7/dec/a00010.php#aff876efafdc714da57916e240c4da6f4" title="Get the dimensions of the window. " alt="" coords="259,81,363,108"/>
+<area shape="rect" id="node10" href="$d7/dec/a00010.php#a2e6a206705d91bc67357da5b0f12c315" title="Function to verify the scroll position of an element. " alt="" coords="264,360,359,387"/>
+<area shape="rect" id="node11" href="$d7/dec/a00010.php#ac5d6071e0a5be58c23869e8a6df856af" title="Function to simulate a scroll. " alt="" coords="272,309,351,336"/>
+<area shape="rect" id="node12" href="$d7/dec/a00010.php#a9c830694d7ae43ca4fe8f502fec440ed" title="Function to simulate a scroll. " alt="" coords="430,284,507,311"/>
+<area shape="rect" id="node13" href="$d7/dec/a00010.php#a963713239c6a0dfec7d92b05a3518791" title="An ease out animation. " alt="" coords="416,335,521,361"/>
+</map>

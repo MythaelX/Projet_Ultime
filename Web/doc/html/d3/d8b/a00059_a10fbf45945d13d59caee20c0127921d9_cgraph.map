@@ -1,0 +1,10 @@
+<map id="initScore" name="initScore">
+<area shape="rect" id="node2" href="$d4/d8c/a00035.php#af5fde6a754bc0e9c7872a974abde85a8" title="score" alt="" coords="145,56,200,83"/>
+<area shape="rect" id="node5" href="$d3/d8b/a00059.php#ac9058c9f8dc74f92e18645bb8eae28f4" title="Create the printed score. " alt="" coords="127,107,219,133"/>
+<area shape="rect" id="node9" href="$d3/d8b/a00059.php#abb848f46d7695bd4fca7f7966f065321" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="131,157,215,184"/>
+<area shape="rect" id="node3" href="$d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="303,5,353,32"/>
+<area shape="rect" id="node4" href="$d4/d8c/a00035.php#afcef1294902ca07027096e59292f89c1" title="sendJsonData" alt="" coords="275,56,381,83"/>
+<area shape="rect" id="node6" href="$d3/d8b/a00059.php#ab62d0f7ff871ba950d8acc73ef4fd0f0" title="Create the background of the score. " alt="" coords="267,107,389,133"/>
+<area shape="rect" id="node8" href="$d3/d8b/a00059.php#ae4a161ce9a41036f148f21c028ec8fdb" title="Create the colored round for the score. " alt="" coords="280,157,376,184"/>
+<area shape="rect" id="node7" href="$d3/d8b/a00059.php#a50677de3f9695ebbec57e53cdbc7844a" title="Convert a position from polar to cartesian. " alt="" coords="437,132,559,159"/>
+</map>

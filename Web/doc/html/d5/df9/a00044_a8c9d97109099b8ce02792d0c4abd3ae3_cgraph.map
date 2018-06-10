@@ -1,0 +1,5 @@
+<map id="jeu" name="jeu">
+<area shape="rect" id="node2" href="$d5/df9/a00044.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="99,5,195,32"/>
+<area shape="rect" id="node3" href="$d5/df9/a00044.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="99,56,194,83"/>
+<area shape="rect" id="node4" href="$d5/df9/a00044.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="92,107,201,133"/>
+</map>

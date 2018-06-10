@@ -1,0 +1,7 @@
+<map id="recupererQuestions" name="recupererQuestions">
+<area shape="rect" id="node2" href="$d5/df9/a00044.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="478,5,573,32"/>
+<area shape="rect" id="node3" href="$d5/df9/a00044.php#aeb580a625cac6fdcbd0386c6a35db66f" title="recupererPropositions" alt="" coords="188,56,336,83"/>
+<area shape="rect" id="node4" href="$d5/df9/a00044.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="384,56,423,83"/>
+<area shape="rect" id="node5" href="$d5/df9/a00044.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="477,56,573,83"/>
+<area shape="rect" id="node6" href="$d5/df9/a00044.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="471,107,580,133"/>
+</map>

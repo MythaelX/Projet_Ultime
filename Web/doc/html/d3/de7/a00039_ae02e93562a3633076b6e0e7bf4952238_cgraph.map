@@ -1,0 +1,10 @@
+<map id="moveGallery" name="moveGallery">
+<area shape="rect" id="node2" href="$d7/dec/a00010.php#a1ccc84f988b8a12d9a09d6318d54003d" title="Get the positions of an element from the window. " alt="" coords="148,5,253,32"/>
+<area shape="rect" id="node4" href="$d7/dec/a00010.php#a8274a1437d719d25a8dc1ba7e83d92e9" title="Get an element dimension. " alt="" coords="477,56,552,83"/>
+<area shape="rect" id="node5" href="$d3/de7/a00039.php#ad86766041e2b01584fae8bd1698c35e6" title="Initialize all the galleries. " alt="" coords="155,107,246,133"/>
+<area shape="rect" id="node9" href="$d3/de7/a00039.php#a24ae3c4bcdaa8b98f7a772e3d5beb3d1" title="Add a function to the onloadFunction array and save the arguments. " alt="" coords="159,157,243,184"/>
+<area shape="rect" id="node3" href="$d7/dec/a00010.php#a2c66a459ec96a7cfc110a50890acf5f8" title="Get the positions of an element. " alt="" coords="319,5,382,32"/>
+<area shape="rect" id="node6" href="$d3/de7/a00039.php#a2890e55a673ac016e1d3277b3d9feca7" title="Create a gallery. " alt="" coords="301,107,400,133"/>
+<area shape="rect" id="node7" href="$d7/dec/a00010.php#a0660be3d8008cfc2632b8ebf5c96010d" title="Get an element dimension. " alt="" coords="475,107,554,133"/>
+<area shape="rect" id="node8" href="$d3/de7/a00039.php#a1c29ca2eefb410f596bfa65d7a52004e" title="Create the gallery arrow. " alt="" coords="448,157,581,184"/>
+</map>

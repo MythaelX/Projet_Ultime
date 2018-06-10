@@ -1,7 +1,7 @@
 <?php
 	/*!
 	*
-	*	\file		scrapper.php
+	*	\file		scraper.php
 	*	\author		Mathias CABIOCH-DELALANDE
 	*	\date		07 juin 2018
 	*

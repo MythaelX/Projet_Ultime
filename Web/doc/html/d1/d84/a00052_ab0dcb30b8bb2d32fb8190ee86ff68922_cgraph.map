@@ -1,0 +1,6 @@
+<map id="boutons" name="boutons">
+<area shape="rect" id="node2" href="$d1/d84/a00052.php#af74f80f2d76592fc7d873aeabb9aecf5" title="affichage" alt="" coords="121,31,196,57"/>
+<area shape="rect" id="node3" href="$d1/d84/a00052.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="258,5,353,32"/>
+<area shape="rect" id="node4" href="$d1/d84/a00052.php#aa1ccf3e9b222affe42cc578b6d898694" title="loadTabPalmares" alt="" coords="244,56,367,83"/>
+<area shape="rect" id="node5" href="$d1/d84/a00052.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="415,56,536,83"/>
+</map>
