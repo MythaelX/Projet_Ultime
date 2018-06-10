@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Qt.hpp File Reference</title>
+<title>Hot Dog QUIZ: PushButton.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,52 +105,58 @@ $(document).ready(function(){initNavTree('d2/d1f/a00083.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Qt.hpp File Reference</div>  </div>
+<div class="title">PushButton.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../df/d5d/a00084_source.php">QtDefines.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d44/a00098_source.php">Window.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d82/a00091_source.php">TableWidget.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Qt.hpp:</div>
+Include dependency graph for PushButton.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../db/ddf/a00164.png" border="0" usemap="#Qt_8hpp" alt=""/></div>
-<map name="Qt_8hpp" id="Qt_8hpp">
-<area shape="rect" id="node2" href="../../df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="4168,80,4274,107"/>
-<area shape="rect" id="node48" href="../../d1/d44/a00098.php" title="Window.hpp" alt="" coords="4726,80,4820,107"/>
-<area shape="rect" id="node50" href="../../da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="4845,80,4965,107"/>
-<area shape="rect" id="node4" href="../../d1/d84/a00097.php" title="Widget.hpp" alt="" coords="4177,155,4265,181"/>
-<area shape="rect" id="node5" href="../../df/d5f/a00064.php" title="DrawScene.hpp" alt="" coords="3988,155,4102,181"/>
-<area shape="rect" id="node6" href="../../d1/d1e/a00087.php" title="Scene.hpp" alt="" coords="4108,244,4192,271"/>
-<area shape="rect" id="node8" href="../../d0/d89/a00071.php" title="GraphScene.hpp" alt="" coords="3844,155,3963,181"/>
-<area shape="rect" id="node13" href="../../db/dab/a00089.php" title="Spacers.hpp" alt="" coords="4432,155,4527,181"/>
-<area shape="rect" id="node14" href="../../df/d13/a00085.php" title="QtFunctions.hpp" alt="" coords="4290,155,4408,181"/>
-<area shape="rect" id="node16" href="../../d4/d31/a00069.php" title="Font.hpp" alt="" coords="2092,155,2166,181"/>
-<area shape="rect" id="node49" href="../../d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="4704,155,4842,181"/>
+<div class="center"><img src="../../d9/d38/a00166.png" border="0" usemap="#PushButton_8hpp" alt=""/></div>
+<map name="PushButton_8hpp" id="PushButton_8hpp">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d48/a00165.png" border="0" usemap="#Qt_8hppdep" alt=""/></div>
-<map name="Qt_8hppdep" id="Qt_8hppdep">
-<area shape="rect" id="node2" href="../../da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="5,80,125,107"/>
+<div class="center"><img src="../../dc/de6/a00167.png" border="0" usemap="#PushButton_8hppdep" alt=""/></div>
+<map name="PushButton_8hppdep" id="PushButton_8hppdep">
+<area shape="rect" id="node2" href="../../df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,80,89,107"/>
+<area shape="rect" id="node3" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="33,155,141,181"/>
 </map>
 </div>
 </div>
 <p><a href="../../d2/d1f/a00083_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of QPushButton for the software.  <a href="../../db/df3/a00034.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php">RedPushButton</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  <a href="../../d1/dc6/a00037.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php">GreyPushButton</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  <a href="../../d7/de0/a00022.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php">GreenPushButton</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  <a href="../../de/d11/a00021.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>04 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d2/d1f/a00083_source.php">Qt.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d2/d1f/a00083.php">Qt.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d2/d1f/a00083.php">PushButton.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

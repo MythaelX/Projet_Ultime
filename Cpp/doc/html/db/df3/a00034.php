@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: QHSpacerItem Class Reference</title>
+<title>Hot Dog QUIZ: PushButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,44 +108,94 @@ $(document).ready(function(){initNavTree('db/df3/a00034.php','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-slots">Public Slots</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dd/d86/a00271.php">List of all members</a>  </div>
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="../../d9/dd6/a00272.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">QHSpacerItem Class Reference</div>  </div>
+<div class="title">PushButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of QSpacerItem.  
+<p>An implementation of QPushButton for the software.  
  <a href="../../db/df3/a00034.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for QHSpacerItem:</div>
+Inheritance diagram for PushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/dd6/a00272.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
-<map name="QHSpacerItem_inherit__map" id="QHSpacerItem_inherit__map">
+<div class="center"><img src="../../d0/d19/a00273.png" border="0" usemap="#PushButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="PushButton_inherit__map" id="PushButton_inherit__map">
+<area shape="rect" id="node3" href="../../de/d11/a00021.php" title="An implementation of PushButton for the software. " alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node4" href="../../d7/de0/a00022.php" title="An implementation of PushButton for the software. " alt="" coords="155,155,274,181"/>
+<area shape="rect" id="node5" href="../../d1/dc6/a00037.php" title="An implementation of PushButton for the software. " alt="" coords="299,155,413,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for QHSpacerItem:</div>
+Collaboration diagram for PushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d19/a00273.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
-<map name="QHSpacerItem_coll__map" id="QHSpacerItem_coll__map">
+<div class="center"><img src="../../dd/d56/a00274.png" border="0" usemap="#PushButton_coll__map" alt="Collaboration graph"/></div>
+<map name="PushButton_coll__map" id="PushButton_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a31bbce7532c03921c218f54465afcaef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a31bbce7532c03921c218f54465afcaef">click</a> ()</td></tr>
+<tr class="memdesc:a31bbce7532c03921c218f54465afcaef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a31bbce7532c03921c218f54465afcaef">More...</a><br /></td></tr>
+<tr class="separator:a31bbce7532c03921c218f54465afcaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:aeec905376bc407f74ba879f7dc029dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:aeec905376bc407f74ba879f7dc029dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the clicked signal.  <a href="#aeec905376bc407f74ba879f7dc029dcc">More...</a><br /></td></tr>
+<tr class="separator:aeec905376bc407f74ba879f7dc029dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7fa21864bd309afcca8221e427ecbe62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a> (int w=0, int h=0)</td></tr>
-<tr class="memdesc:a7fa21864bd309afcca8221e427ecbe62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend horizontally.  <a href="#a7fa21864bd309afcca8221e427ecbe62">More...</a><br /></td></tr>
-<tr class="separator:a7fa21864bd309afcca8221e427ecbe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7923c3d3fb0e46a57c06afa0f7f41e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aff7923c3d3fb0e46a57c06afa0f7f41e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QPushButton.  <a href="#aff7923c3d3fb0e46a57c06afa0f7f41e">More...</a><br /></td></tr>
+<tr class="separator:aff7923c3d3fb0e46a57c06afa0f7f41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4855b32fc3e96e6d0ca35a212aba5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:a9b4855b32fc3e96e6d0ca35a212aba5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the button.  <a href="#a9b4855b32fc3e96e6d0ca35a212aba5f">More...</a><br /></td></tr>
+<tr class="separator:a9b4855b32fc3e96e6d0ca35a212aba5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deef0b896e8f06dcf727f52441df445"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:a9deef0b896e8f06dcf727f52441df445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the button.  <a href="#a9deef0b896e8f06dcf727f52441df445">More...</a><br /></td></tr>
+<tr class="separator:a9deef0b896e8f06dcf727f52441df445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ad597238fb9396a94b1caa014c79f8c2e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a> () const </td></tr>
+<tr class="separator:ad597238fb9396a94b1caa014c79f8c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138a6609129997496311c00ed4e1acb0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a138a6609129997496311c00ed4e1acb0">getIndex</a> () const </td></tr>
+<tr class="separator:a138a6609129997496311c00ed4e1acb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of QSpacerItem. </p>
+<div class="textblock"><p>An implementation of QPushButton for the software. </p>
 
-<p>Definition at line <a class="el" href="../../db/dab/a00089_source.php#l00017">17</a> of file <a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00017">17</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7fa21864bd309afcca8221e427ecbe62"></a>
+<a class="anchor" id="aff7923c3d3fb0e46a57c06afa0f7f41e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PushButton::PushButton </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a QPushButton. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a31bbce7532c03921c218f54465afcaef"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -153,16 +203,41 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QHSpacerItem::QHSpacerItem </td>
+          <td class="memname">virtual void PushButton::click </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>w</em> = <code>0</code>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the active state of a value. </p>
+
+</div>
+</div>
+<a class="anchor" id="aeec905376bc407f74ba879f7dc029dcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PushButton::clicked </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>h</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,26 +247,148 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overload of the clicked signal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table linked </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index linked</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a138a6609129997496311c00ed4e1acb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PushButton::getIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00044">44</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad597238fb9396a94b1caa014c79f8c2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string PushButton::getTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00043">43</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9deef0b896e8f06dcf727f52441df445"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PushButton::setIndex </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create a QSpacerItem that expend horizontally. </p>
+<p>Set the index linked to the button. </p>
 
-<p>Definition at line <a class="el" href="../../db/dab/a00089_source.php#l00020">20</a> of file <a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00026">26</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/df3/a00034_a9deef0b896e8f06dcf727f52441df445_cgraph.png" border="0" usemap="#db/df3/a00034_a9deef0b896e8f06dcf727f52441df445_cgraph" alt=""/></div>
+<map name="db/df3/a00034_a9deef0b896e8f06dcf727f52441df445_cgraph" id="db/df3/a00034_a9deef0b896e8f06dcf727f52441df445_cgraph">
+<area shape="rect" id="node2" href="../../db/df3/a00034.php#a31bbce7532c03921c218f54465afcaef" title="Change the active state of a value. " alt="" coords="201,5,327,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b4855b32fc3e96e6d0ca35a212aba5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PushButton::setTable </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the table linked to the button. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00024">24</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a></li>
+<li><a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/df3/a00034.php">QHSpacerItem</a></li>
+    <li class="navelem"><a class="el" href="../../db/df3/a00034.php">PushButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

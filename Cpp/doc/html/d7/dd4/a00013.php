@@ -121,11 +121,11 @@ Include dependency graph for MainWindow.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/de0/a00022.png" border="0" usemap="#MainWindow_8h" alt=""/></div>
 <map name="MainWindow_8h" id="MainWindow_8h">
-<area shape="rect" id="node3" href="../../df/d86/a00012.php" title="functions.hpp" alt="" coords="2665,80,2765,107"/>
-<area shape="rect" id="node47" href="../../d7/dec/a00010.php" title="CheckBox.hpp" alt="" coords="5818,80,5926,107"/>
-<area shape="rect" id="node48" href="../../da/d45/a00011.php" title="Dialog.hpp" alt="" coords="6002,80,6086,107"/>
-<area shape="rect" id="node49" href="../../d2/de7/a00014.php" title="PushButton.hpp" alt="" coords="5889,169,6004,196"/>
-<area shape="rect" id="node50" href="../../dd/d1b/a00015.php" title="TitleLabel.hpp" alt="" coords="6079,169,6182,196"/>
+<area shape="rect" id="node3" href="../../df/d86/a00012.php" title="functions.hpp" alt="" coords="5959,80,6059,107"/>
+<area shape="rect" id="node6" href="../../d7/dec/a00010.php" title="CheckBox.hpp" alt="" coords="655,80,763,107"/>
+<area shape="rect" id="node7" href="../../da/d45/a00011.php" title="Dialog.hpp" alt="" coords="2926,80,3010,107"/>
+<area shape="rect" id="node8" href="../../d2/de7/a00014.php" title="PushButton.hpp" alt="" coords="44,169,159,196"/>
+<area shape="rect" id="node9" href="../../dd/d1b/a00015.php" title="TitleLabel.hpp" alt="" coords="5767,169,5870,196"/>
 </map>
 </div>
 </div>

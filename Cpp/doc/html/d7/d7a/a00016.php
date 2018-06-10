@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: DrawScene Class Reference</title>
+<title>Hot Dog QUIZ: Dialog Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,104 +110,90 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
   <div class="summary">
 <a href="#pub-slots">Public Slots</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d9/d01/a00227.php">List of all members</a>  </div>
+<a href="../../de/dc2/a00228.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">DrawScene Class Reference</div>  </div>
+<div class="title">Dialog Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A <a class="el" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  
+<p>An implementation of QDialog for the software.  
  <a href="../../d7/d7a/a00016.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">Dialog.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for DrawScene:</div>
+Inheritance diagram for Dialog:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/dc2/a00228.png" border="0" usemap="#DrawScene_inherit__map" alt="Inheritance graph"/></div>
-<map name="DrawScene_inherit__map" id="DrawScene_inherit__map">
-<area shape="rect" id="node2" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../dd/d2d/a00229.png" border="0" usemap="#Dialog_inherit__map" alt="Inheritance graph"/></div>
+<map name="Dialog_inherit__map" id="Dialog_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for DrawScene:</div>
+Collaboration diagram for Dialog:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d2d/a00229.png" border="0" usemap="#DrawScene_coll__map" alt="Collaboration graph"/></div>
-<map name="DrawScene_coll__map" id="DrawScene_coll__map">
-<area shape="rect" id="node2" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. " alt="" coords="37,80,95,107"/>
+<div class="center"><img src="../../d1/da8/a00230.png" border="0" usemap="#Dialog_coll__map" alt="Collaboration graph"/></div>
+<map name="Dialog_coll__map" id="Dialog_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">update</a> ()</td></tr>
-<tr class="memdesc:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the pur virtual parent method <a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a>  <a href="#ad0292ea7a4d4c501a7bf5c9fb6282d7e">More...</a><br /></td></tr>
-<tr class="separator:ad0292ea7a4d4c501a7bf5c9fb6282d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_slots_a00040"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00040')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
-<tr class="memitem:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec">update</a> ()=0</td></tr>
-<tr class="memdesc:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pure virtual method to redefine it in child classes.  <a href="#a7faff47f5c1b1ebc986f768c9b9732ec">More...</a><br /></td></tr>
-<tr class="separator:a7faff47f5c1b1ebc986f768c9b9732ec inherit pub_slots_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6505fd839711734947bfe2040a74f614"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a6505fd839711734947bfe2040a74f614">exec</a> ()</td></tr>
+<tr class="memdesc:a6505fd839711734947bfe2040a74f614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the exec slot of QDialog.  <a href="#a6505fd839711734947bfe2040a74f614">More...</a><br /></td></tr>
+<tr class="separator:a6505fd839711734947bfe2040a74f614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f57b8878a4c601e45990ab2f461fcba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a1f57b8878a4c601e45990ab2f461fcba">DrawScene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:a1f57b8878a4c601e45990ab2f461fcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the <a class="el" href="../../d7/d7a/a00016.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>.  <a href="#a1f57b8878a4c601e45990ab2f461fcba">More...</a><br /></td></tr>
-<tr class="separator:a1f57b8878a4c601e45990ab2f461fcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab95069018a89de490bb75a7847a7c999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#ab95069018a89de490bb75a7847a7c999">~DrawScene</a> ()</td></tr>
-<tr class="separator:ab95069018a89de490bb75a7847a7c999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aa9cd414cc46f3396f58e4a7af88d6b4c">setTilesize</a> (int s)</td></tr>
-<tr class="memdesc:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tiles' size.  <a href="#aa9cd414cc46f3396f58e4a7af88d6b4c">More...</a><br /></td></tr>
-<tr class="separator:aa9cd414cc46f3396f58e4a7af88d6b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00040"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00040')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
-<tr class="memitem:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a8f0ae2c1c11ac3f3fd382baf33fb934a">Scene</a> (QObject *parent=NULL)</td></tr>
-<tr class="memdesc:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the QGraphicsScene.  <a href="#a8f0ae2c1c11ac3f3fd382baf33fb934a">More...</a><br /></td></tr>
-<tr class="separator:a8f0ae2c1c11ac3f3fd382baf33fb934a inherit pub_methods_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a> ()</td></tr>
-<tr class="separator:a3b8cec2e32546713915f8c6303c951f1 inherit pub_methods_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a124d4bd03677251c2159bd0dd4254306"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a124d4bd03677251c2159bd0dd4254306">tileSize</a></td></tr>
-<tr class="separator:a124d4bd03677251c2159bd0dd4254306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecb82ecbd590818d52d58227101a490d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aecb82ecbd590818d52d58227101a490d">printed_background</a></td></tr>
-<tr class="separator:aecb82ecbd590818d52d58227101a490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">pixmaps</a></td></tr>
-<tr class="separator:a99f3c0b81bbecfbf850e920ffc2f6f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a71ac1ae84ae88e00810307b2f146d"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, QPixmap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#af1a71ac1ae84ae88e00810307b2f146d">scaled_pixmaps</a></td></tr>
-<tr class="separator:af1a71ac1ae84ae88e00810307b2f146d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00040"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00040')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../db/d3a/a00040.php">Scene</a></td></tr>
-<tr class="memitem:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00040"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d3a/a00040.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td></tr>
-<tr class="separator:a5b9c0375ba50d6f3f7e83d983088ac08 inherit pro_attribs_a00040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#aa0b9cd0c1778f065842c9f5d8b1d0ade">Dialog</a> (QWidget *parent=nullptr, Qt::WindowFlags flags=Qt::WindowTitleHint|Qt::WindowSystemMenuHint)</td></tr>
+<tr class="memdesc:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QDialog.  <a href="#aa0b9cd0c1778f065842c9f5d8b1d0ade">More...</a><br /></td></tr>
+<tr class="separator:aa0b9cd0c1778f065842c9f5d8b1d0ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1fe6ef28513eed13bfcd3a4da83ccb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a2a1fe6ef28513eed13bfcd3a4da83ccb">~Dialog</a> ()</td></tr>
+<tr class="separator:a2a1fe6ef28513eed13bfcd3a4da83ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71fa68c918f499cf0882f10e163653b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a71fa68c918f499cf0882f10e163653b7">setText</a> (std::string text)</td></tr>
+<tr class="memdesc:a71fa68c918f499cf0882f10e163653b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the text of the <a class="el" href="../../d7/d7a/a00016.php" title="An implementation of QDialog for the software. ">Dialog</a>.  <a href="#a71fa68c918f499cf0882f10e163653b7">More...</a><br /></td></tr>
+<tr class="separator:a71fa68c918f499cf0882f10e163653b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c10c671f4913a51c225eab2a3934f10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a4c10c671f4913a51c225eab2a3934f10">enableCancel</a> (bool enable)</td></tr>
+<tr class="memdesc:a4c10c671f4913a51c225eab2a3934f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the cancel button is shown or hidden.  <a href="#a4c10c671f4913a51c225eab2a3934f10">More...</a><br /></td></tr>
+<tr class="separator:a4c10c671f4913a51c225eab2a3934f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system. </p>
+<div class="textblock"><p>An implementation of QDialog for the software. </p>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00017">17</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00020">20</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Dialog.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1f57b8878a4c601e45990ab2f461fcba"></a>
+<a class="anchor" id="aa0b9cd0c1778f065842c9f5d8b1d0ade"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DrawScene::DrawScene </td>
+          <td class="memname">Dialog::Dialog </td>
           <td>(</td>
-          <td class="paramtype">QObject *&#160;</td>
-          <td class="paramname"><em>parent</em> = <code>NULL</code></td><td>)</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Qt::WindowFlags&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>Qt::WindowTitleHint|Qt::WindowSystemMenuHint</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create the <a class="el" href="../../d7/d7a/a00016.php" title="A Scene implementation to draw with tiles system. ">DrawScene</a>. </p>
+<p>Create a QDialog. </p>
 
 </div>
 </div>
-<a class="anchor" id="ab95069018a89de490bb75a7847a7c999"></a>
+<a class="anchor" id="a2a1fe6ef28513eed13bfcd3a4da83ccb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DrawScene::~DrawScene </td>
+          <td class="memname">Dialog::~Dialog </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -218,32 +204,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa9cd414cc46f3396f58e4a7af88d6b4c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DrawScene::setTilesize </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the tiles' size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">s</td><td>The value to set</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad0292ea7a4d4c501a7bf5c9fb6282d7e"></a>
+<a class="anchor" id="a4c10c671f4913a51c225eab2a3934f10"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -251,7 +212,45 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DrawScene::update </td>
+          <td class="memname">void Dialog::enableCancel </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set if the cancel button is shown or hidden. </p>
+
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00034">34</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Dialog.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/d7a/a00016_a4c10c671f4913a51c225eab2a3934f10_cgraph.png" border="0" usemap="#d7/d7a/a00016_a4c10c671f4913a51c225eab2a3934f10_cgraph" alt=""/></div>
+<map name="d7/d7a/a00016_a4c10c671f4913a51c225eab2a3934f10_cgraph" id="d7/d7a/a00016_a4c10c671f4913a51c225eab2a3934f10_cgraph">
+<area shape="rect" id="node2" href="../../d7/d7a/a00016.php#a6505fd839711734947bfe2040a74f614" title="Overload of the exec slot of QDialog. " alt="" coords="200,5,295,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6505fd839711734947bfe2040a74f614"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Dialog::exec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -259,18 +258,16 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Overload of the pur virtual parent method <a class="el" href="../../db/d3a/a00040.php#a7faff47f5c1b1ebc986f768c9b9732ec" title="A pure virtual method to redefine it in child classes. ">Scene::update()</a> </p>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Overload of the exec slot of QDialog. </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a99f3c0b81bbecfbf850e920ffc2f6f0a"></a>
+<a class="anchor" id="a71fa68c918f499cf0882f10e163653b7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -278,95 +275,35 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::pixmaps</td>
+          <td class="memname">void Dialog::setText </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00046">46</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+<p>Set the text of the <a class="el" href="../../d7/d7a/a00016.php" title="An implementation of QDialog for the software. ">Dialog</a>. </p>
 
-</div>
-</div>
-<a class="anchor" id="aecb82ecbd590818d52d58227101a490d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DrawScene::printed_background</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00044">44</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1a71ac1ae84ae88e00810307b2f146d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, QPixmap&gt; DrawScene::scaled_pixmaps</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00047">47</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a124d4bd03677251c2159bd0dd4254306"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DrawScene::tileSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00043">43</a> of file <a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00030">30</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Dialog.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a></li>
+<li><a class="el" href="../../df/d5f/a00064_source.php">Dialog.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">DrawScene</a></li>
+    <li class="navelem"><a class="el" href="../../d7/d7a/a00016.php">Dialog</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

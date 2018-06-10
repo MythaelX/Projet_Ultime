@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: QtDefines.hpp File Reference</title>
+<title>Hot Dog QUIZ: Qt.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,43 +106,66 @@ $(document).ready(function(){initNavTree('df/d5d/a00084.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">QtDefines.hpp File Reference</div>  </div>
+<div class="title">Qt.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d84/a00097_source.php">Widget.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d5f/a00064_source.php">DrawScene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d89/a00071_source.php">GraphScene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d1e/a00087_source.php">Scene.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d13/a00085_source.php">QtFunctions.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d31/a00069_source.php">Font.hpp</a>&quot;</code><br />
-<code>#include &quot;C++/C++.hpp&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../df/d13/a00085_source.php">QtDefines.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d74/a00099_source.php">Window.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc1/a00092_source.php">TableWidget.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for QtDefines.hpp:</div>
+Include dependency graph for Qt.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d38/a00166.png" border="0" usemap="#QtDefines_8hpp" alt=""/></div>
-<map name="QtDefines_8hpp" id="QtDefines_8hpp">
-<area shape="rect" id="node3" href="../../d1/d84/a00097.php" title="Widget.hpp" alt="" coords="267,80,355,107"/>
-<area shape="rect" id="node4" href="../../df/d5f/a00064.php" title="DrawScene.hpp" alt="" coords="481,80,595,107"/>
-<area shape="rect" id="node5" href="../../d1/d1e/a00087.php" title="Scene.hpp" alt="" coords="416,169,500,196"/>
-<area shape="rect" id="node7" href="../../d0/d89/a00071.php" title="GraphScene.hpp" alt="" coords="620,80,739,107"/>
-<area shape="rect" id="node12" href="../../db/dab/a00089.php" title="Spacers.hpp" alt="" coords="5,80,100,107"/>
-<area shape="rect" id="node13" href="../../df/d13/a00085.php" title="QtFunctions.hpp" alt="" coords="124,80,243,107"/>
-<area shape="rect" id="node15" href="../../d4/d31/a00069.php" title="Font.hpp" alt="" coords="2447,80,2520,107"/>
+<div class="center"><img src="../../dd/da7/a00168.png" border="0" usemap="#Qt_8hpp" alt=""/></div>
+<map name="Qt_8hpp" id="Qt_8hpp">
+<area shape="rect" id="node2" href="../../df/d13/a00085.php" title="QtDefines.hpp" alt="" coords="344,304,451,331"/>
+<area shape="rect" id="node47" href="../../da/d74/a00099.php" title="Window.hpp" alt="" coords="353,80,447,107"/>
+<area shape="rect" id="node50" href="../../d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node4" href="../../d1/d44/a00098.php" title="Widget.hpp" alt="" coords="320,453,408,480"/>
+<area shape="rect" id="node5" href="../../de/de1/a00065.php" title="DrawScene.hpp" alt="" coords="400,379,515,405"/>
+<area shape="rect" id="node6" href="../../db/ddf/a00088.php" title="Scene.hpp" alt="" coords="555,453,639,480"/>
+<area shape="rect" id="node8" href="../../d6/d2c/a00072.php" title="GraphScene.hpp" alt="" coords="691,379,810,405"/>
+<area shape="rect" id="node13" href="../../d9/dec/a00090.php" title="Spacers.hpp" alt="" coords="150,453,245,480"/>
+<area shape="rect" id="node14" href="../../da/d2a/a00086.php" title="QtFunctions.hpp" alt="" coords="867,453,986,480"/>
+<area shape="rect" id="node35" href="../../d2/db1/a00070.php" title="Font.hpp" alt="" coords="302,379,375,405"/>
+<area shape="rect" id="node36" href="../../d9/d2e/a00056.php" title="C++/C++.hpp" alt="" coords="1323,379,1426,405"/>
+<area shape="rect" id="node15" href="../../d1/d6f/a00063.php" title="C++/defines.hpp" alt="" coords="1709,752,1827,779"/>
+<area shape="rect" id="node21" href="../../d4/d6d/a00055.php" title="bdd.hpp" alt="" coords="1422,827,1490,853"/>
+<area shape="rect" id="node25" href="../../d4/de8/a00061.php" title="convert.hpp" alt="" coords="2163,1051,2253,1077"/>
+<area shape="rect" id="node26" href="../../d4/d31/a00069.php" title="files.hpp" alt="" coords="1758,976,1829,1003"/>
+<area shape="rect" id="node27" href="../../d4/d7d/a00093.php" title="time.hpp" alt="" coords="2315,976,2387,1003"/>
+<area shape="rect" id="node28" href="../../d4/d63/a00082.php" title="pointers.hpp" alt="" coords="1357,901,1451,928"/>
+<area shape="rect" id="node29" href="../../da/d82/a00091.php" title="string.hpp" alt="" coords="1526,901,1605,928"/>
+<area shape="rect" id="node32" href="../../d1/d1e/a00087.php" title="RNG.hpp" alt="" coords="1653,976,1731,1003"/>
+<area shape="rect" id="node33" href="../../dc/dee/a00053.php" title="Args.hpp" alt="" coords="2115,827,2189,853"/>
+<area shape="rect" id="node34" href="../../d1/d09/a00077.php" title="maths.hpp" alt="" coords="1213,827,1296,853"/>
+<area shape="rect" id="node22" href="../../d9/df8/a00096.php" title="types.hpp" alt="" coords="1115,1051,1194,1077"/>
+<area shape="rect" id="node23" href="../../da/d24/a00068.php" title="errors.hpp" alt="" coords="2132,901,2212,928"/>
+<area shape="rect" id="node31" href="../../d1/dea/a00054.php" title="array.hpp" alt="" coords="1451,976,1527,1003"/>
+<area shape="rect" id="node24" href="../../d3/d8b/a00059.php" title="console.hpp" alt="" coords="2162,976,2254,1003"/>
+<area shape="rect" id="node30" href="../../db/db6/a00074.php" title="macro.hpp" alt="" coords="1293,976,1376,1003"/>
+<area shape="rect" id="node37" href="../../d9/db3/a00066.php" title="Entities.hpp" alt="" coords="1536,528,1627,555"/>
+<area shape="rect" id="node39" href="../../d7/df7/a00058.php" title="collides.hpp" alt="" coords="1349,752,1440,779"/>
+<area shape="rect" id="node40" href="../../db/df8/a00076.php" title="Map.hpp" alt="" coords="2213,827,2285,853"/>
+<area shape="rect" id="node43" href="../../d8/d53/a00081.php" title="Player.hpp" alt="" coords="1539,453,1623,480"/>
+<area shape="rect" id="node44" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="1770,528,1867,555"/>
+<area shape="rect" id="node45" href="../../db/dab/a00089.php" title="sorting.hpp" alt="" coords="715,827,802,853"/>
+<area shape="rect" id="node46" href="../../d9/d77/a00095.php" title="tree.hpp" alt="" coords="1315,677,1384,704"/>
+<area shape="rect" id="node38" href="../../d9/d73/a00060.php" title="Contraption.hpp" alt="" coords="1524,677,1639,704"/>
+<area shape="rect" id="node41" href="../../d1/d51/a00079.php" title="Object.hpp" alt="" coords="1539,603,1624,629"/>
+<area shape="rect" id="node42" href="../../dc/ddf/a00067.php" title="Entity.hpp" alt="" coords="1649,603,1730,629"/>
+<area shape="rect" id="node48" href="../../d4/d3a/a00101.php" title="WindowTitleBar.hpp" alt="" coords="535,155,673,181"/>
+<area shape="rect" id="node49" href="../../d0/d61/a00100.php" title="WindowButton.hpp" alt="" coords="590,229,722,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/de6/a00167.png" border="0" usemap="#QtDefines_8hppdep" alt=""/></div>
-<map name="QtDefines_8hppdep" id="QtDefines_8hppdep">
-<area shape="rect" id="node2" href="../../d4/d31/a00069.php" title="Font.hpp" alt="" coords="5,80,79,107"/>
-<area shape="rect" id="node3" href="../../d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="134,304,195,331"/>
-<area shape="rect" id="node5" href="../../da/d74/a00099.php" title="WindowButton.hpp" alt="" coords="156,80,288,107"/>
-<area shape="rect" id="node4" href="../../da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="105,379,225,405"/>
-<area shape="rect" id="node6" href="../../d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="154,155,293,181"/>
-<area shape="rect" id="node7" href="../../d1/d44/a00098.php" title="Window.hpp" alt="" coords="165,229,260,256"/>
+<div class="center"><img src="../../de/d53/a00169.png" border="0" usemap="#Qt_8hppdep" alt=""/></div>
+<map name="Qt_8hppdep" id="Qt_8hppdep">
+<area shape="rect" id="node2" href="../../dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,80,140,107"/>
+<area shape="rect" id="node4" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,229,181,256"/>
+<area shape="rect" id="node5" href="../../d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="215,80,335,107"/>
+<area shape="rect" id="node3" href="../../df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,155,89,181"/>
 </map>
 </div>
 </div>
@@ -151,13 +174,13 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../df/d5d/a00084_source.php">QtDefines.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../df/d5d/a00084_source.php">Qt.hpp</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../df/d5d/a00084.php">QtDefines.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_9cc7dab42d10c04902c95d2c14820089.php">Widgets</a></li><li class="navelem"><a class="el" href="../../df/d5d/a00084.php">Qt.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

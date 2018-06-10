@@ -1,11 +1,12 @@
-<map id="Scene.hpp" name="Scene.hpp">
-<area shape="rect" id="node2" href="$df/d5f/a00064.php" title="DrawScene.hpp" alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node3" href="$df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="104,155,211,181"/>
-<area shape="rect" id="node10" href="$d0/d89/a00071.php" title="GraphScene.hpp" alt="" coords="195,80,314,107"/>
-<area shape="rect" id="node4" href="$d4/d31/a00069.php" title="Font.hpp" alt="" coords="83,229,157,256"/>
-<area shape="rect" id="node5" href="$d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="212,453,273,480"/>
-<area shape="rect" id="node7" href="$da/d74/a00099.php" title="WindowButton.hpp" alt="" coords="234,229,366,256"/>
-<area shape="rect" id="node6" href="$da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="183,528,303,555"/>
-<area shape="rect" id="node8" href="$d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="232,304,371,331"/>
-<area shape="rect" id="node9" href="$d1/d44/a00098.php" title="Window.hpp" alt="" coords="243,379,338,405"/>
+<map id="QtFunctions.hpp" name="QtFunctions.hpp">
+<area shape="rect" id="node2" href="$df/d13/a00085.php" title="QtDefines.hpp" alt="" coords="189,80,295,107"/>
+<area shape="rect" id="node3" href="$df/d5d/a00084.php" title="Qt.hpp" alt="" coords="195,379,257,405"/>
+<area shape="rect" id="node8" href="$d2/db1/a00070.php" title="Font.hpp" alt="" coords="205,155,279,181"/>
+<area shape="rect" id="node9" href="$d0/d61/a00100.php" title="WindowButton.hpp" alt="" coords="303,155,435,181"/>
+<area shape="rect" id="node4" href="$dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,453,140,480"/>
+<area shape="rect" id="node6" href="$d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,603,181,629"/>
+<area shape="rect" id="node7" href="$d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="215,453,335,480"/>
+<area shape="rect" id="node5" href="$df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,528,89,555"/>
+<area shape="rect" id="node10" href="$d4/d3a/a00101.php" title="WindowTitleBar.hpp" alt="" coords="251,229,390,256"/>
+<area shape="rect" id="node11" href="$da/d74/a00099.php" title="Window.hpp" alt="" coords="239,304,333,331"/>
 </map>

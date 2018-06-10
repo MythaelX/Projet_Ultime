@@ -1,4 +1,3 @@
-<map id="Vegetal" name="Vegetal">
-<area shape="rect" id="node2" href="$d4/d51/a00017.php" title="An entity. " alt="" coords="22,80,78,107"/>
-<area shape="rect" id="node3" href="$df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="TitleLabel" name="TitleLabel">
+<area shape="rect" id="node3" href="$d3/d52/a00023.php" title="An implementation of TitleLabel for the software. " alt="" coords="5,155,100,181"/>
 </map>

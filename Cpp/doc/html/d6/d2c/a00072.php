@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Hostile.hpp File Reference</title>
+<title>Hot Dog QUIZ: GraphScene.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,48 +106,40 @@ $(document).ready(function(){initNavTree('d6/d2c/a00072.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
-<div class="title">Hostile.hpp File Reference</div>  </div>
+<div class="title">GraphScene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/db3/a00066_source.php">Entity.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../db/ddf/a00088_source.php">Scene.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Hostile.hpp:</div>
+Include dependency graph for GraphScene.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#Hostile_8hpp" alt=""/></div>
-<map name="Hostile_8hpp" id="Hostile_8hpp">
-<area shape="rect" id="node2" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="917,80,998,107"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="900,155,1015,181"/>
-<area shape="rect" id="node4" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="1155,229,1245,256"/>
-<area shape="rect" id="node19" href="../../d9/d77/a00095.php" title="types.hpp" alt="" coords="233,528,311,555"/>
-<area shape="rect" id="node46" href="../../d1/d22/a00057.php" title="collides.hpp" alt="" coords="1625,229,1716,256"/>
-<area shape="rect" id="node47" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="160,304,232,331"/>
-<area shape="rect" id="node11" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="1122,304,1190,331"/>
-<area shape="rect" id="node24" href="../../d9/d73/a00060.php" title="convert.hpp" alt="" coords="1451,528,1541,555"/>
-<area shape="rect" id="node29" href="../../da/d24/a00068.php" title="files.hpp" alt="" coords="79,453,150,480"/>
-<area shape="rect" id="node32" href="../../d1/dc1/a00092.php" title="time.hpp" alt="" coords="327,453,399,480"/>
-<area shape="rect" id="node35" href="../../d8/d53/a00081.php" title="pointers.hpp" alt="" coords="1517,379,1611,405"/>
-<area shape="rect" id="node36" href="../../d9/dec/a00090.php" title="string.hpp" alt="" coords="1655,453,1734,480"/>
-<area shape="rect" id="node40" href="../../da/d2a/a00086.php" title="RNG.hpp" alt="" coords="1904,528,1981,555"/>
-<area shape="rect" id="node42" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="417,304,492,331"/>
-<area shape="rect" id="node44" href="../../db/df8/a00076.php" title="maths.hpp" alt="" coords="1943,304,2025,331"/>
-<area shape="rect" id="node22" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="195,379,275,405"/>
-<area shape="rect" id="node39" href="../../dc/dee/a00053.php" title="array.hpp" alt="" coords="1198,528,1274,555"/>
-<area shape="rect" id="node23" href="../../d7/df7/a00058.php" title="console.hpp" alt="" coords="199,453,291,480"/>
-<area shape="rect" id="node38" href="../../d1/d6e/a00073.php" title="macro.hpp" alt="" coords="1747,528,1829,555"/>
+<div class="center"><img src="../../d9/db6/a00146.png" border="0" usemap="#GraphScene_8hpp" alt=""/></div>
+<map name="GraphScene_8hpp" id="GraphScene_8hpp">
+<area shape="rect" id="node6" href="../../db/ddf/a00088.php" title="Scene.hpp" alt="" coords="320,80,404,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#Hostile_8hppdep" alt=""/></div>
-<map name="Hostile_8hppdep" id="Hostile_8hppdep">
-<area shape="rect" id="node2" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="30,80,117,107"/>
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="5,155,72,181"/>
-<area shape="rect" id="node4" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="28,229,119,256"/>
-<area shape="rect" id="node5" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="37,379,110,405"/>
-<area shape="rect" id="node6" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="71,304,155,331"/>
+<div class="center"><img src="../../d0/d4a/a00147.png" border="0" usemap="#GraphScene_8hppdep" alt=""/></div>
+<map name="GraphScene_8hppdep" id="GraphScene_8hppdep">
+<area shape="rect" id="node2" href="../../df/d13/a00085.php" title="QtDefines.hpp" alt="" coords="189,80,295,107"/>
+<area shape="rect" id="node3" href="../../df/d5d/a00084.php" title="Qt.hpp" alt="" coords="195,379,257,405"/>
+<area shape="rect" id="node8" href="../../d2/db1/a00070.php" title="Font.hpp" alt="" coords="205,155,279,181"/>
+<area shape="rect" id="node9" href="../../d0/d61/a00100.php" title="WindowButton.hpp" alt="" coords="303,155,435,181"/>
+<area shape="rect" id="node4" href="../../dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,453,140,480"/>
+<area shape="rect" id="node6" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,603,181,629"/>
+<area shape="rect" id="node7" href="../../d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="215,453,335,480"/>
+<area shape="rect" id="node5" href="../../df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,528,89,555"/>
+<area shape="rect" id="node10" href="../../d4/d3a/a00101.php" title="WindowTitleBar.hpp" alt="" coords="251,229,390,256"/>
+<area shape="rect" id="node11" href="../../da/d74/a00099.php" title="Window.hpp" alt="" coords="239,304,333,331"/>
 </map>
 </div>
 </div>
@@ -155,21 +147,82 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php">Hostile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d3/d52/a00023.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php">GraphScene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../dd/d32/a00041.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw graphs.  <a href="../../db/db2/a00020.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memItemLeft" align="right" valign="top">typedef long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td></tr>
+<tr class="memdesc:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alias to simplify the use of the type for the graph.  <a href="#a8dcc9a1fe4837db39cd87e259f0ed6ed">More...</a><br /></td></tr>
+<tr class="separator:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5373de30ddd6b6c0f911f63ed642739"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/a00072.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td></tr>
+<tr class="memdesc:ad5373de30ddd6b6c0f911f63ed642739"><td class="mdescLeft">&#160;</td><td class="mdescRight">The array where the graphs' points are stored.  <a href="#ad5373de30ddd6b6c0f911f63ed642739">More...</a><br /></td></tr>
+<tr class="separator:ad5373de30ddd6b6c0f911f63ed642739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::pair&lt; <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;, std::pair&lt; <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2c/a00072.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td></tr>
+<tr class="memdesc:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A data type to simplify the draw of the differents graphs.  <a href="#a464fcd96dfa56d6feac32bfcd2e0403f">More...</a><br /></td></tr>
+<tr class="separator:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d6/d2c/a00072_source.php">Hostile.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d6/d2c/a00072_source.php">GraphScene.hpp</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ad5373de30ddd6b6c0f911f63ed642739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; <a class="el" href="../../d6/d2c/a00072.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The array where the graphs' points are stored. </p>
+
+<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00021">21</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">GraphScene.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dcc9a1fe4837db39cd87e259f0ed6ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef long double <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An alias to simplify the use of the type for the graph. </p>
+
+<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00019">19</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">GraphScene.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a464fcd96dfa56d6feac32bfcd2e0403f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::pair&lt;std::pair&lt;<a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt;, std::pair&lt;<a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d6/d2c/a00072.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; &gt; <a class="el" href="../../d6/d2c/a00072.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A data type to simplify the draw of the differents graphs. </p>
+
+<p>Definition at line <a class="el" href="../../d6/d2c/a00072_source.php#l00023">23</a> of file <a class="el" href="../../d6/d2c/a00072_source.php">GraphScene.hpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d2c/a00072.php">Hostile.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_9cc7dab42d10c04902c95d2c14820089.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d6/d2c/a00072.php">GraphScene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

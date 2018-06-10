@@ -111,6 +111,13 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 <div class="contents">
 <div class="textblock"><code>#include &quot;Widgets/C++/C++.hpp&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
+Include dependency graph for functions.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/db2/a00020.png" border="0" usemap="#functions_8hpp" alt=""/></div>
+<map name="functions_8hpp" id="functions_8hpp">
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d11/a00021.png" border="0" usemap="#functions_8hppdep" alt=""/></div>

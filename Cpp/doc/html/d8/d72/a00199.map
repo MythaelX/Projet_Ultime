@@ -1,5 +1,7 @@
-<map id="WindowTitleBar.hpp" name="WindowTitleBar.hpp">
-<area shape="rect" id="node2" href="$d1/d44/a00098.php" title="Window.hpp" alt="" coords="27,80,122,107"/>
-<area shape="rect" id="node3" href="$d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="44,155,105,181"/>
-<area shape="rect" id="node4" href="$da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="15,229,135,256"/>
+<map id="Window.hpp" name="Window.hpp">
+<area shape="rect" id="node2" href="$df/d5d/a00084.php" title="Qt.hpp" alt="" coords="195,80,257,107"/>
+<area shape="rect" id="node3" href="$dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,155,140,181"/>
+<area shape="rect" id="node5" href="$d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,304,181,331"/>
+<area shape="rect" id="node6" href="$d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="215,155,335,181"/>
+<area shape="rect" id="node4" href="$df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,229,89,256"/>
 </map>

@@ -150,13 +150,13 @@ $(document).ready(function(){initNavTree('functions_v.php','');});
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>values
-: <a class="el" href="dc/d3c/a00028.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
+: <a class="el" href="d5/d16/a00029.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="d5/df9/a00044.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+: <a class="el" href="d6/d97/a00045.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
 </li>
 <li>verifyConnection()
-: <a class="el" href="d3/dfe/a00025.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a70aa06cbac136bf2ce8bee98b9bebd27">MainWindow</a>
 </li>
 </ul>
 </div><!-- contents -->

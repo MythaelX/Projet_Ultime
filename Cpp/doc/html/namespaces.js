@@ -1,4 +1,4 @@
 var namespaces =
 [
-    [ "Typer", "d4/d3a/a00101.php", null ]
+    [ "Typer", "d9/dcc/a00102.php", null ]
 ];

@@ -1,2 +1,6 @@
-<map id="Widget" name="Widget">
+<map id="Vegetal" name="Vegetal">
+<area shape="rect" id="node4" href="$dc/d3c/a00028.php" title="A mushroom. " alt="" coords="5,229,88,256"/>
+<area shape="rect" id="node5" href="$df/d61/a00031.php" title="A plant. " alt="" coords="113,229,165,256"/>
+<area shape="rect" id="node2" href="$d1/d2b/a00018.php" title="An entity. " alt="" coords="64,80,120,107"/>
+<area shape="rect" id="node3" href="$d7/dd4/a00013.php" title="A contraption. " alt="" coords="47,5,137,32"/>
 </map>

@@ -147,33 +147,33 @@ $(document).ready(function(){initNavTree('functions_func_m.php','');});
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>MainWindow()
-: <a class="el" href="d3/dfe/a00025.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a996c5a2b6f77944776856f08ec30858d">MainWindow</a>
 </li>
 <li>Map()
-: <a class="el" href="d6/d5b/a00026.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="d0/d33/a00027.php#a5c9015eea1519003e305315fc6933968">Map</a>
 </li>
 <li>Maximized()
-: <a class="el" href="d4/dca/a00048.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
+: <a class="el" href="d2/dee/a00049.php#a7d91818e1ef1189dc5c0524729a62e34">WindowTitleBar</a>
 </li>
 <li>Minimized()
-: <a class="el" href="d4/dca/a00048.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
+: <a class="el" href="d2/dee/a00049.php#aae235853885d03ddd070efb8fef2f4e1">WindowTitleBar</a>
 </li>
 <li>mouseMoveEvent()
-: <a class="el" href="d4/dca/a00048.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
+: <a class="el" href="d2/dee/a00049.php#a5fa1f19401f127094ba42152928892a1">WindowTitleBar</a>
 </li>
 <li>mousePressEvent()
-: <a class="el" href="d6/d2d/a00047.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
-, <a class="el" href="d4/dca/a00048.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
+: <a class="el" href="d4/dca/a00048.php#af7caa976fc5766ddc3d89eef1965a9c6">WindowButton</a>
+, <a class="el" href="d2/dee/a00049.php#a50b62b3569bb0e173904117cb875d157">WindowTitleBar</a>
 </li>
 <li>mouseReleaseEvent()
-: <a class="el" href="d6/d2d/a00047.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
-, <a class="el" href="d4/dca/a00048.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
+: <a class="el" href="d4/dca/a00048.php#afd414539e6cf2fc7072a175032a6f1ff">WindowButton</a>
+, <a class="el" href="d2/dee/a00049.php#a5c3e48aa0d5bc65f2958b3037a0e1587">WindowTitleBar</a>
 </li>
 <li>move()
-: <a class="el" href="d7/d46/a00002.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="d0/d33/a00027.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="dc/d3c/a00028.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 </ul>
 </div><!-- contents -->

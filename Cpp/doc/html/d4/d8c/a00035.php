@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: QVSpacerItem Class Reference</title>
+<title>Hot Dog QUIZ: QHSpacerItem Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,43 +109,43 @@ $(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../dd/d56/a00274.php">List of all members</a>  </div>
+<a href="../../d3/d5e/a00275.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">QVSpacerItem Class Reference</div>  </div>
+<div class="title">QHSpacerItem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>An implementation of QSpacerItem.  
  <a href="../../d4/d8c/a00035.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d9/dec/a00090_source.php">Spacers.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for QVSpacerItem:</div>
+Inheritance diagram for QHSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d5e/a00275.png" border="0" usemap="#QVSpacerItem_inherit__map" alt="Inheritance graph"/></div>
-<map name="QVSpacerItem_inherit__map" id="QVSpacerItem_inherit__map">
+<div class="center"><img src="../../dc/d28/a00276.png" border="0" usemap="#QHSpacerItem_inherit__map" alt="Inheritance graph"/></div>
+<map name="QHSpacerItem_inherit__map" id="QHSpacerItem_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for QVSpacerItem:</div>
+Collaboration diagram for QHSpacerItem:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d28/a00276.png" border="0" usemap="#QVSpacerItem_coll__map" alt="Collaboration graph"/></div>
-<map name="QVSpacerItem_coll__map" id="QVSpacerItem_coll__map">
+<div class="center"><img src="../../d6/d4b/a00277.png" border="0" usemap="#QHSpacerItem_coll__map" alt="Collaboration graph"/></div>
+<map name="QHSpacerItem_coll__map" id="QHSpacerItem_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a833d08c247a52f8eff4109f5f1e26210"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a> (int w=0, int h=0)</td></tr>
-<tr class="memdesc:a833d08c247a52f8eff4109f5f1e26210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend vertically.  <a href="#a833d08c247a52f8eff4109f5f1e26210">More...</a><br /></td></tr>
-<tr class="separator:a833d08c247a52f8eff4109f5f1e26210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa21864bd309afcca8221e427ecbe62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a> (int w=0, int h=0)</td></tr>
+<tr class="memdesc:a7fa21864bd309afcca8221e427ecbe62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QSpacerItem that expend horizontally.  <a href="#a7fa21864bd309afcca8221e427ecbe62">More...</a><br /></td></tr>
+<tr class="separator:a7fa21864bd309afcca8221e427ecbe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An implementation of QSpacerItem. </p>
 
-<p>Definition at line <a class="el" href="../../db/dab/a00089_source.php#l00027">27</a> of file <a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dec/a00090_source.php#l00017">17</a> of file <a class="el" href="../../d9/dec/a00090_source.php">Spacers.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a833d08c247a52f8eff4109f5f1e26210"></a>
+<a class="anchor" id="a7fa21864bd309afcca8221e427ecbe62"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -153,7 +153,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QVSpacerItem::QVSpacerItem </td>
+          <td class="memname">QHSpacerItem::QHSpacerItem </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>w</em> = <code>0</code>, </td>
@@ -177,21 +177,21 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create a QSpacerItem that expend vertically. </p>
+<p>Create a QSpacerItem that expend horizontally. </p>
 
-<p>Definition at line <a class="el" href="../../db/dab/a00089_source.php#l00030">30</a> of file <a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dec/a00090_source.php#l00020">20</a> of file <a class="el" href="../../d9/dec/a00090_source.php">Spacers.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../db/dab/a00089_source.php">Spacers.hpp</a></li>
+<li><a class="el" href="../../d9/dec/a00090_source.php">Spacers.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d8c/a00035.php">QVSpacerItem</a></li>
+    <li class="navelem"><a class="el" href="../../d4/d8c/a00035.php">QHSpacerItem</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('db/db2/a00020.php','../../');});
+$(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,20 +108,15 @@ $(document).ready(function(){initNavTree('db/db2/a00020.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">GreenPushButton Member List</div>  </div>
+<div class="title">Font Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../db/db2/a00020.php">GreenPushButton</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/da2/a00019.php">Font</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a31bbce7532c03921c218f54465afcaef">click</a>()</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a138a6609129997496311c00ed4e1acb0">getIndex</a>() const </td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a>() const </td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../db/db2/a00020.php#a240ce96b934a47803ffa02b23c9e9271">GreenPushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../db/db2/a00020.php">GreenPushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a4e6a119206f505522100221c1fafde45">Font</a>()</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a1b263a092a8579ac1058af09e39389e0">load</a>(QString path)</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Font</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a134aaa2f78af0c12d3ce504957169768">~Font</a>()</td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Font</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

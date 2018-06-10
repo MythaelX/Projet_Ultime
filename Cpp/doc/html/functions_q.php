@@ -150,19 +150,19 @@ $(document).ready(function(){initNavTree('functions_q.php','');});
 
 <h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
 <li>QHSpacerItem()
-: <a class="el" href="db/df3/a00034.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a>
+: <a class="el" href="d4/d8c/a00035.php#a7fa21864bd309afcca8221e427ecbe62">QHSpacerItem</a>
 </li>
 <li>query()
-: <a class="el" href="dd/dad/a00005.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">BDD</a>
 </li>
 <li>quit()
-: <a class="el" href="d3/dfe/a00025.php#a542a7527ced73b2c9bc14f8dc9661a66">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a542a7527ced73b2c9bc14f8dc9661a66">MainWindow</a>
 </li>
 <li>Quit()
-: <a class="el" href="d4/dca/a00048.php#a1604ff5ed446b01e08dbb4d05be48f63">WindowTitleBar</a>
+: <a class="el" href="d2/dee/a00049.php#a1604ff5ed446b01e08dbb4d05be48f63">WindowTitleBar</a>
 </li>
 <li>QVSpacerItem()
-: <a class="el" href="d4/d8c/a00035.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a>
+: <a class="el" href="de/d8c/a00036.php#a833d08c247a52f8eff4109f5f1e26210">QVSpacerItem</a>
 </li>
 </ul>
 </div><!-- contents -->

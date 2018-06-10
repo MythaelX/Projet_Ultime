@@ -1,0 +1,4 @@
+<map id="Animal::collides" name="Animal::collides">
+<area shape="rect" id="node2" href="$d1/d7c/a00003.php#aab6124c1e2241cf9491eb0dcc9c7d482" title="Verify the collisions between two objects like rectangles. " alt="" coords="171,5,313,32"/>
+<area shape="rect" id="node3" href="$d1/d7c/a00003.php#a68a645b96b63d106fafc6ef24f472cdc" title="Verify the collisions between a circle around this Animal and an other animal. " alt="" coords="168,56,316,83"/>
+</map>

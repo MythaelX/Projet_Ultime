@@ -1,6 +1,8 @@
 var a00086 =
 [
-    [ "RNG", "d8/d41/a00038.php", "d8/d41/a00038" ],
-    [ "rngRange", "da/d2a/a00086.php#a9f2903f65500ce246447f08fea1d734a", null ],
-    [ "rng", "da/d2a/a00086.php#a9aee8b16f4c2f21fdebf0ecb0b514b96", null ]
+    [ "QtWindow", "da/d2a/a00086.php#af5c0e4b3ee16e7efaa2220fe898e0138", null ],
+    [ "cssReader", "da/d2a/a00086.php#ac35a8acbe17be1d705ecf8d940eacc95", null ],
+    [ "getDesktopHeight", "da/d2a/a00086.php#a4e89aa67e6219267f0f2965567c447a5", null ],
+    [ "getDesktopSize", "da/d2a/a00086.php#a0272cd6761e50151f46337d1d7f793f2", null ],
+    [ "getDesktopWidth", "da/d2a/a00086.php#a7a5b8564155df959a2ed36b171090ec2", null ]
 ];

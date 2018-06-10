@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Reinit Class Reference</title>
+<title>Hot Dog QUIZ: RedPushButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,89 +109,107 @@ $(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d0/dcd/a00280.php">List of all members</a>  </div>
+<a href="../../d2/d04/a00281.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Reinit Class Reference</div>  </div>
+<div class="title">RedPushButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="../../d1/dc6/a00037.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
+<p>An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  
  <a href="../../d1/dc6/a00037.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Reinit:</div>
+Inheritance diagram for RedPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d04/a00281.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
-<map name="Reinit_inherit__map" id="Reinit_inherit__map">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
+<div class="center"><img src="../../dc/dc9/a00282.png" border="0" usemap="#RedPushButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="RedPushButton_inherit__map" id="RedPushButton_inherit__map">
+<area shape="rect" id="node2" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. " alt="" coords="17,80,108,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Reinit:</div>
+Collaboration diagram for RedPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/dc9/a00282.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
-<map name="Reinit_coll__map" id="Reinit_coll__map">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
+<div class="center"><img src="../../dd/dfe/a00283.png" border="0" usemap="#RedPushButton_coll__map" alt="Collaboration graph"/></div>
+<map name="RedPushButton_coll__map" id="RedPushButton_coll__map">
+<area shape="rect" id="node2" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. " alt="" coords="17,80,108,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae482f034556d2539b85c90cefe9da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#aae482f034556d2539b85c90cefe9da82">Reinit</a> ()</td></tr>
-<tr class="separator:aae482f034556d2539b85c90cefe9da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00010"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00010')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d7/dec/a00010.php">Color</a></td></tr>
-<tr class="memitem:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a> (std::string color)</td></tr>
-<tr class="memdesc:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with a first color.  <a href="#af13248c98bcd8bf432f3c9dab0a27135">More...</a><br /></td></tr>
-<tr class="separator:af13248c98bcd8bf432f3c9dab0a27135 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a> (Args...args)</td></tr>
-<tr class="memdesc:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with colors.  <a href="#a20b97d6cf5e50f86b517f543142ac1e2">More...</a><br /></td></tr>
-<tr class="separator:a20b97d6cf5e50f86b517f543142ac1e2 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a> (int color)</td></tr>
-<tr class="memdesc:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a4f77bc1b8cfcd1382cd55e4ef6856bac">More...</a><br /></td></tr>
-<tr class="separator:a4f77bc1b8cfcd1382cd55e4ef6856bac inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
-<tr class="memdesc:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
-<tr class="separator:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d7/df7/a00058.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
-<tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
-<tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d7/df7/a00058.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
-<tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
-<tr class="separator:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee2968a62200e85c85da783c41afedc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#a7ee2968a62200e85c85da783c41afedc">RedPushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a7ee2968a62200e85c85da783c41afedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a>.  <a href="#a7ee2968a62200e85c85da783c41afedc">More...</a><br /></td></tr>
+<tr class="separator:a7ee2968a62200e85c85da783c41afedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00034"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00034')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QPushButton.  <a href="#aff7923c3d3fb0e46a57c06afa0f7f41e">More...</a><br /></td></tr>
+<tr class="separator:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the button.  <a href="#a9b4855b32fc3e96e6d0ca35a212aba5f">More...</a><br /></td></tr>
+<tr class="separator:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the button.  <a href="#a9deef0b896e8f06dcf727f52441df445">More...</a><br /></td></tr>
+<tr class="separator:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_slots_a00034"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00034')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a31bbce7532c03921c218f54465afcaef">click</a> ()</td></tr>
+<tr class="memdesc:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a31bbce7532c03921c218f54465afcaef">More...</a><br /></td></tr>
+<tr class="separator:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_a00034"><td colspan="2" onclick="javascript:toggleInherit('signals_a00034')"><img src="../../closed.png" alt="-"/>&#160;Signals inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the clicked signal.  <a href="#aeec905376bc407f74ba879f7dc029dcc">More...</a><br /></td></tr>
+<tr class="separator:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00034"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00034')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00034"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a> () const </td></tr>
+<tr class="separator:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00034"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a138a6609129997496311c00ed4e1acb0">getIndex</a> () const </td></tr>
+<tr class="separator:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../d1/dc6/a00037.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
+<div class="textblock"><p>An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software. </p>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00147">147</a> of file <a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00055">55</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aae482f034556d2539b85c90cefe9da82"></a>
+<a class="anchor" id="a7ee2968a62200e85c85da783c41afedc"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Reinit::Reinit </td>
+          <td class="memname">RedPushButton::RedPushButton </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Create a <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00059">59</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/df7/a00058_source.php">console.hpp</a></li>
+<li><a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">Reinit</a></li>
+    <li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">RedPushButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

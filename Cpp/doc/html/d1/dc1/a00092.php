@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: time.hpp File Reference</title>
+<title>Hot Dog QUIZ: TableWidget.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,45 +106,67 @@ $(document).ready(function(){initNavTree('d1/dc1/a00092.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">time.hpp File Reference</div>  </div>
+<div class="title">TableWidget.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ctime&gt;</code><br />
-<code>#include &lt;thread&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d5d/a00084_source.php">Qt.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for time.hpp:</div>
+Include dependency graph for TableWidget.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/d25/a00182.png" border="0" usemap="#time_8hpp" alt=""/></div>
-<map name="time_8hpp" id="time_8hpp">
+<div class="center"><img src="../../d2/d94/a00184.png" border="0" usemap="#TableWidget_8hpp" alt=""/></div>
+<map name="TableWidget_8hpp" id="TableWidget_8hpp">
+<area shape="rect" id="node3" href="../../df/d5d/a00084.php" title="Qt.hpp" alt="" coords="2444,80,2505,107"/>
+<area shape="rect" id="node4" href="../../df/d13/a00085.php" title="QtDefines.hpp" alt="" coords="2056,379,2163,405"/>
+<area shape="rect" id="node48" href="../../da/d74/a00099.php" title="Window.hpp" alt="" coords="2243,155,2338,181"/>
+<area shape="rect" id="node5" href="../../d1/d44/a00098.php" title="Widget.hpp" alt="" coords="2265,528,2353,555"/>
+<area shape="rect" id="node6" href="../../de/de1/a00065.php" title="DrawScene.hpp" alt="" coords="1920,453,2035,480"/>
+<area shape="rect" id="node7" href="../../db/ddf/a00088.php" title="Scene.hpp" alt="" coords="1987,528,2071,555"/>
+<area shape="rect" id="node9" href="../../d6/d2c/a00072.php" title="GraphScene.hpp" alt="" coords="1726,453,1845,480"/>
+<area shape="rect" id="node14" href="../../d9/dec/a00090.php" title="Spacers.hpp" alt="" coords="2095,528,2190,555"/>
+<area shape="rect" id="node15" href="../../da/d2a/a00086.php" title="QtFunctions.hpp" alt="" coords="1590,528,1709,555"/>
+<area shape="rect" id="node36" href="../../d2/db1/a00070.php" title="Font.hpp" alt="" coords="2110,453,2183,480"/>
+<area shape="rect" id="node37" href="../../d9/d2e/a00056.php" title="C++/C++.hpp" alt="" coords="1171,453,1274,480"/>
+<area shape="rect" id="node16" href="../../d1/d6f/a00063.php" title="C++/defines.hpp" alt="" coords="770,827,889,853"/>
+<area shape="rect" id="node22" href="../../d4/d6d/a00055.php" title="bdd.hpp" alt="" coords="246,901,314,928"/>
+<area shape="rect" id="node26" href="../../d4/de8/a00061.php" title="convert.hpp" alt="" coords="1203,1125,1293,1152"/>
+<area shape="rect" id="node27" href="../../d4/d31/a00069.php" title="files.hpp" alt="" coords="985,1051,1055,1077"/>
+<area shape="rect" id="node28" href="../../d4/d7d/a00093.php" title="time.hpp" alt="" coords="1139,1051,1211,1077"/>
+<area shape="rect" id="node29" href="../../d4/d63/a00082.php" title="pointers.hpp" alt="" coords="195,976,288,1003"/>
+<area shape="rect" id="node30" href="../../da/d82/a00091.php" title="string.hpp" alt="" coords="569,976,647,1003"/>
+<area shape="rect" id="node33" href="../../d1/d1e/a00087.php" title="RNG.hpp" alt="" coords="733,1051,811,1077"/>
+<area shape="rect" id="node34" href="../../dc/dee/a00053.php" title="Args.hpp" alt="" coords="1136,901,1211,928"/>
+<area shape="rect" id="node35" href="../../d1/d09/a00077.php" title="maths.hpp" alt="" coords="1728,901,1811,928"/>
+<area shape="rect" id="node23" href="../../d9/df8/a00096.php" title="types.hpp" alt="" coords="286,1125,365,1152"/>
+<area shape="rect" id="node24" href="../../da/d24/a00068.php" title="errors.hpp" alt="" coords="1029,976,1109,1003"/>
+<area shape="rect" id="node32" href="../../d1/dea/a00054.php" title="array.hpp" alt="" coords="531,1051,607,1077"/>
+<area shape="rect" id="node25" href="../../d3/d8b/a00059.php" title="console.hpp" alt="" coords="869,1051,961,1077"/>
+<area shape="rect" id="node31" href="../../db/db6/a00074.php" title="macro.hpp" alt="" coords="411,1051,493,1077"/>
+<area shape="rect" id="node38" href="../../d9/db3/a00066.php" title="Entities.hpp" alt="" coords="971,603,1061,629"/>
+<area shape="rect" id="node40" href="../../d7/df7/a00058.php" title="collides.hpp" alt="" coords="1437,827,1528,853"/>
+<area shape="rect" id="node41" href="../../db/df8/a00076.php" title="Map.hpp" alt="" coords="989,901,1061,928"/>
+<area shape="rect" id="node44" href="../../d8/d53/a00081.php" title="Player.hpp" alt="" coords="974,528,1058,555"/>
+<area shape="rect" id="node45" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="643,603,741,629"/>
+<area shape="rect" id="node46" href="../../db/dab/a00089.php" title="sorting.hpp" alt="" coords="1617,901,1703,928"/>
+<area shape="rect" id="node47" href="../../d9/d77/a00095.php" title="tree.hpp" alt="" coords="1712,752,1781,779"/>
+<area shape="rect" id="node39" href="../../d9/d73/a00060.php" title="Contraption.hpp" alt="" coords="903,752,1017,779"/>
+<area shape="rect" id="node42" href="../../d1/d51/a00079.php" title="Object.hpp" alt="" coords="917,677,1003,704"/>
+<area shape="rect" id="node43" href="../../dc/ddf/a00067.php" title="Entity.hpp" alt="" coords="1027,677,1109,704"/>
+<area shape="rect" id="node49" href="../../d4/d3a/a00101.php" title="WindowTitleBar.hpp" alt="" coords="2105,229,2244,256"/>
+<area shape="rect" id="node50" href="../../d0/d61/a00100.php" title="WindowButton.hpp" alt="" coords="1949,304,2081,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d52/a00183.png" border="0" usemap="#time_8hppdep" alt=""/></div>
-<map name="time_8hppdep" id="time_8hppdep">
-<area shape="rect" id="node2" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="667,80,747,107"/>
-<area shape="rect" id="node4" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="691,229,781,256"/>
-<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="598,827,671,853"/>
-<area shape="rect" id="node18" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="765,155,840,181"/>
-<area shape="rect" id="node3" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="673,155,741,181"/>
-<area shape="rect" id="node19" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="153,229,225,256"/>
-<area shape="rect" id="node5" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="132,304,247,331"/>
-<area shape="rect" id="node17" href="../../d4/de8/a00061.php" title="cryptage.hpp" alt="" coords="723,453,821,480"/>
-<area shape="rect" id="node6" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="203,379,285,405"/>
-<area shape="rect" id="node9" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="279,677,369,704"/>
-<area shape="rect" id="node16" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="93,379,179,405"/>
-<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="226,528,313,555"/>
-<area shape="rect" id="node12" href="../../d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="268,453,356,480"/>
-<area shape="rect" id="node13" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="364,528,455,555"/>
-<area shape="rect" id="node8" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="195,603,261,629"/>
-<area shape="rect" id="node11" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="327,752,411,779"/>
-<area shape="rect" id="node14" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="387,603,464,629"/>
-<area shape="rect" id="node15" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="489,603,597,629"/>
+<div class="center"><img src="../../de/df3/a00185.png" border="0" usemap="#TableWidget_8hppdep" alt=""/></div>
+<map name="TableWidget_8hppdep" id="TableWidget_8hppdep">
+<area shape="rect" id="node2" href="../../df/d5d/a00084.php" title="Qt.hpp" alt="" coords="102,80,163,107"/>
+<area shape="rect" id="node3" href="../../dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,155,140,181"/>
+<area shape="rect" id="node5" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,304,181,331"/>
+<area shape="rect" id="node4" href="../../df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,229,89,256"/>
 </map>
 </div>
 </div>
@@ -152,67 +174,21 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d4/dee/a00008.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a personnalized <a class="el" href="../../d5/db6/a00042.php" title="Create a personnalized TableWidget. ">TableWidget</a>.  <a href="../../d5/db6/a00042.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db6/a00042.php">Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d5/db6/a00042.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5834b1cc3c766f7520e829ca23284546"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc1/a00092.php#a5834b1cc3c766f7520e829ca23284546">getSec</a> ()</td></tr>
-<tr class="memdesc:a5834b1cc3c766f7520e829ca23284546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="#a5834b1cc3c766f7520e829ca23284546">More...</a><br /></td></tr>
-<tr class="separator:a5834b1cc3c766f7520e829ca23284546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61c3fca982e77f1f6899239b22b9ad79"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc1/a00092.php#a61c3fca982e77f1f6899239b22b9ad79">getMilli</a> ()</td></tr>
-<tr class="separator:a61c3fca982e77f1f6899239b22b9ad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/dc1/a00092_source.php">time.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a61c3fca982e77f1f6899239b22b9ad79"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t getMilli </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Return the milliseconds since the Epoch </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a5834b1cc3c766f7520e829ca23284546"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t getSec </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the number of seconds since the Epoch. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of seconds </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d1/dc1/a00092_source.php">TableWidget.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/dc1/a00092.php">time.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_9cc7dab42d10c04902c95d2c14820089.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d1/dc1/a00092.php">TableWidget.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

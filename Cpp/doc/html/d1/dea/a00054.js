@@ -1,7 +1,9 @@
 var a00054 =
 [
-    [ "BDD", "dd/dad/a00005.php", "dd/dad/a00005" ],
-    [ "ColsArray", "d1/dea/a00054.php#acb7362a3fb715f64e5ab3cd50794a52c", null ],
-    [ "ListArray", "d1/dea/a00054.php#a6b6679f15a22e0f89297978d24dec56e", null ],
-    [ "bdd", "d1/dea/a00054.php#a36ce5024f17ad7e4a5b2eff31629cd5c", null ]
+    [ "jumble", "d3/dfe/a00025.php", "d3/dfe/a00025" ],
+    [ "contains", "d1/dea/a00054.php#a54f668e0211381d2d15ca45dcf3c55d0", null ],
+    [ "implode", "d1/dea/a00054.php#a5090547d046a342ba3ac573e8248f628", null ],
+    [ "print_r", "d1/dea/a00054.php#ad2b1019448d0599264d51172242e1be4", null ],
+    [ "print_r", "d1/dea/a00054.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13", null ],
+    [ "rewrite", "d1/dea/a00054.php#addfa691004e6d94461994bb7eccadf19", null ]
 ];

@@ -147,43 +147,43 @@ $(document).ready(function(){initNavTree('functions_func_r.php','');});
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>RedPushButton()
-: <a class="el" href="de/d8c/a00036.php#a7ee2968a62200e85c85da783c41afedc">RedPushButton</a>
+: <a class="el" href="d1/dc6/a00037.php#a7ee2968a62200e85c85da783c41afedc">RedPushButton</a>
 </li>
 <li>reinit()
-: <a class="el" href="dd/da2/a00019.php#a9ee91facfb6fd4eda61385809e122f43">GraphScene</a>
+: <a class="el" href="db/db2/a00020.php#a9ee91facfb6fd4eda61385809e122f43">GraphScene</a>
 </li>
 <li>Reinit()
-: <a class="el" href="d1/dc6/a00037.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
+: <a class="el" href="d8/d41/a00038.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
 </li>
 <li>remove()
-: <a class="el" href="dd/dad/a00005.php#a8adcb89c3bd40c783880fa6355180655">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655">BDD</a>
 </li>
 <li>reset()
-: <a class="el" href="dd/dad/a00005.php#a61fdb222ad3b05fb70a221d78da5a9c9">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a61fdb222ad3b05fb70a221d78da5a9c9">BDD</a>
 </li>
 <li>resizeEvent()
-: <a class="el" href="d3/dea/a00046.php#a3d72edbec3fed3709ea3d374973c70b4">Window</a>
-, <a class="el" href="d6/d2d/a00047.php#a2dd52661908250a571804fe967bcd316">WindowButton</a>
-, <a class="el" href="d4/dca/a00048.php#aade75345fb7a4b62c361345c64884a82">WindowTitleBar</a>
+: <a class="el" href="d6/d2d/a00047.php#a3d72edbec3fed3709ea3d374973c70b4">Window</a>
+, <a class="el" href="d4/dca/a00048.php#a2dd52661908250a571804fe967bcd316">WindowButton</a>
+, <a class="el" href="d2/dee/a00049.php#aade75345fb7a4b62c361345c64884a82">WindowTitleBar</a>
 </li>
 <li>restart()
-: <a class="el" href="d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">Clock</a>
-, <a class="el" href="d5/db6/a00042.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
+: <a class="el" href="da/da0/a00009.php#a775bf97123b58c768571868341d28b08">Clock</a>
+, <a class="el" href="d6/d42/a00043.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
 </li>
 <li>restore()
-: <a class="el" href="da/d45/a00011.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>
+: <a class="el" href="df/d86/a00012.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>
 </li>
 <li>resume()
-: <a class="el" href="df/d61/a00031.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/d87/a00032.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="df/d61/a00031.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/d87/a00032.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>RNG()
-: <a class="el" href="d8/d41/a00038.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
+: <a class="el" href="d3/de7/a00039.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="d3/de7/a00039.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
+: <a class="el" href="db/d3a/a00040.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -1,3 +1,4 @@
-<map id="TableWidget" name="TableWidget">
-<area shape="rect" id="node2" href="$d6/d97/a00045.php" title="Create a personnalized Widget. " alt="" coords="21,80,84,107"/>
+<map id="Scene" name="Scene">
+<area shape="rect" id="node3" href="$d4/d51/a00017.php" title="A Scene implementation to draw with tiles system. " alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="$db/db2/a00020.php" title="A Scene implementation to draw graphs. " alt="" coords="121,155,215,181"/>
 </map>

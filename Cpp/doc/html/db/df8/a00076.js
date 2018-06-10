@@ -1,19 +1,20 @@
 var a00076 =
 [
-    [ "abs", "db/df8/a00076.php#ad44dc8b9cd6eaa619880db19cf171751", null ],
-    [ "decimalPart", "db/df8/a00076.php#a6a8af65111300da455bef67651f83c73", null ],
-    [ "dist", "db/df8/a00076.php#aa7446c664998ff110eeaf6c2bab19772", null ],
-    [ "dsigmoide", "db/df8/a00076.php#aaa55b9d8528b25fa5167908db82dff21", null ],
-    [ "eucl", "db/df8/a00076.php#ab60083feca94427f7b2c4dfaeb249f07", null ],
-    [ "isNumber", "db/df8/a00076.php#a65b1640156c68ea7687a41428022c1d8", null ],
-    [ "isPrime", "db/df8/a00076.php#a94305b67cb0435c3395b548ec8283154", null ],
-    [ "log2p", "db/df8/a00076.php#a75105ac3cb9ee25de080d973f0bfe112", null ],
-    [ "max", "db/df8/a00076.php#ac5673d3f9fc79ba39127c4a339dea626", null ],
-    [ "min", "db/df8/a00076.php#a193486f414e3b93b2284a85977a4a02c", null ],
-    [ "mod", "db/df8/a00076.php#a9f362f22a77587bb719f13bc7fb185a2", null ],
-    [ "pgcd", "db/df8/a00076.php#a6e9b223b45f9c0ef8d93fa65db1a8f98", null ],
-    [ "round", "db/df8/a00076.php#a709c7dabaae9dea50d277980278081e0", null ],
-    [ "sigmoide", "db/df8/a00076.php#af667d8a0d7e420b313a26791c49359fb", null ],
-    [ "sq", "db/df8/a00076.php#a54a702d8a0a5aa317cc65f5b01ed4ee6", null ],
-    [ "wholePart", "db/df8/a00076.php#ab5254a19797bf686467bc0f475bf6fdd", null ]
+    [ "WorldDimensions", "d5/de0/a00050.php", "d5/de0/a00050" ],
+    [ "Map", "d0/d33/a00027.php", "d0/d33/a00027" ],
+    [ "MapArray", "db/df8/a00076.php#a1ee2140d47f9982ff0aa65b71256bc80", null ],
+    [ "MapLine", "db/df8/a00076.php#aac0c2192b0b28c4353d6250244b70287", null ],
+    [ "Tile", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7", [
+      [ "NONE", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "WATER", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7a2add2964642f39099cb51edf4a4f5a70", null ],
+      [ "LAVA", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7aa620a361e9c7602698b91e34b416c08b", null ],
+      [ "GRASS", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7aa3030e42cd8f04255711905a9182399f", null ],
+      [ "DIRT", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7a3ef5656907af69ff36347e8dc2416744", null ],
+      [ "WALL", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7a48d536b2de1195d0c9f6ea8ab884085e", null ],
+      [ "STONE", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7aa63e2adb56a8019132fbe12acda3b7d6", null ],
+      [ "HOLE", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7aadec9358cd14fbdcdb29c5b2f040d712", null ],
+      [ "VOID", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7a6d0c9fc747131795e6e5d0c5119f12cb", null ],
+      [ "ERROR", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7abb1ca97ec761fc37101737ba0aa2e7c5", null ],
+      [ "AIR", "db/df8/a00076.php#acd2017d946fd818c3b8ca377bc4006c7a2582dd863c1c50525a267e1cbe656929", null ]
+    ] ]
 ];

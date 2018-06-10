@@ -150,43 +150,43 @@ $(document).ready(function(){initNavTree('functions_t.php','');});
 
 <h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
 <li>tables()
-: <a class="el" href="dd/dad/a00005.php#ac02190012120478141702fb616c89ab1">BDD</a>
+: <a class="el" href="de/d21/a00006.php#ac02190012120478141702fb616c89ab1">BDD</a>
 </li>
 <li>TableWidget()
-: <a class="el" href="dd/d32/a00041.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>
+: <a class="el" href="d5/db6/a00042.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>
 </li>
 <li>target
-: <a class="el" href="d3/d52/a00023.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
+: <a class="el" href="dc/de2/a00024.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
 </li>
 <li>tileSize
-: <a class="el" href="d7/d7a/a00016.php#a124d4bd03677251c2159bd0dd4254306">DrawScene</a>
+: <a class="el" href="d4/d51/a00017.php#a124d4bd03677251c2159bd0dd4254306">DrawScene</a>
 </li>
 <li>Timer()
-: <a class="el" href="d5/db6/a00042.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
+: <a class="el" href="d6/d42/a00043.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
 </li>
 <li>TitleBarShowState()
-: <a class="el" href="d3/dea/a00046.php#a1f3319d59097b7c9e5bde545e6867c1b">Window</a>
+: <a class="el" href="d6/d2d/a00047.php#a1f3319d59097b7c9e5bde545e6867c1b">Window</a>
 </li>
 <li>TitleLabel()
-: <a class="el" href="d6/d42/a00043.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a>
+: <a class="el" href="d5/df9/a00044.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a>
 </li>
 <li>toAdmin()
-: <a class="el" href="d3/dfe/a00025.php#a4cd7e847432365bae79f88a3acf278c7">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a4cd7e847432365bae79f88a3acf278c7">MainWindow</a>
 </li>
 <li>try_connect()
-: <a class="el" href="dd/dad/a00005.php#a1e496e66cfaf5dc0209f448480bead5e">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a1e496e66cfaf5dc0209f448480bead5e">BDD</a>
 </li>
 <li>try_database()
-: <a class="el" href="dd/dad/a00005.php#afa848f628b17ea10115c828e1f97ba5b">BDD</a>
+: <a class="el" href="de/d21/a00006.php#afa848f628b17ea10115c828e1f97ba5b">BDD</a>
 </li>
 <li>turn()
-: <a class="el" href="d7/d46/a00002.php#a4547306d9b5d2184500f758cc926f133">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a4547306d9b5d2184500f758cc926f133">Animal</a>
 </li>
 <li>turnLeft()
-: <a class="el" href="df/d86/a00012.php#ab69fdcd66f63e0a038a4006d43ecb9b6">Contraption</a>
+: <a class="el" href="d7/dd4/a00013.php#ab69fdcd66f63e0a038a4006d43ecb9b6">Contraption</a>
 </li>
 <li>turnRight()
-: <a class="el" href="df/d86/a00012.php#a20f271c846ea0c8bc96c618616a260ba">Contraption</a>
+: <a class="el" href="d7/dd4/a00013.php#a20f271c846ea0c8bc96c618616a260ba">Contraption</a>
 </li>
 </ul>
 </div><!-- contents -->

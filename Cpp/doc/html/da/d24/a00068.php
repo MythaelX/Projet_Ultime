@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: files.hpp File Reference</title>
+<title>Hot Dog QUIZ: errors.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,170 +106,133 @@ $(document).ready(function(){initNavTree('da/d24/a00068.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">files.hpp File Reference</div>  </div>
+<div class="title">errors.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">console.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d31/a00069_source.php">files.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d7d/a00093_source.php">time.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for files.hpp:</div>
+Include dependency graph for errors.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/df5/a00137.png" border="0" usemap="#files_8hpp" alt=""/></div>
-<map name="files_8hpp" id="files_8hpp">
+<div class="center"><img src="../../d4/ddd/a00138.png" border="0" usemap="#errors_8hpp" alt=""/></div>
+<map name="errors_8hpp" id="errors_8hpp">
+<area shape="rect" id="node2" href="../../d3/d8b/a00059.php" title="console.hpp" alt="" coords="386,80,478,107"/>
+<area shape="rect" id="node12" href="../../d4/d31/a00069.php" title="files.hpp" alt="" coords="570,80,641,107"/>
+<area shape="rect" id="node15" href="../../d4/d7d/a00093.php" title="time.hpp" alt="" coords="767,80,839,107"/>
+<area shape="rect" id="node3" href="../../d4/de8/a00061.php" title="convert.hpp" alt="" coords="387,155,477,181"/>
+<area shape="rect" id="node9" href="../../d9/df8/a00096.php" title="types.hpp" alt="" coords="97,155,175,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/ddd/a00138.png" border="0" usemap="#files_8hppdep" alt=""/></div>
-<map name="files_8hppdep" id="files_8hppdep">
-<area shape="rect" id="node2" href="../../dc/ddf/a00067.php" title="errors.hpp" alt="" coords="117,80,197,107"/>
-<area shape="rect" id="node4" href="../../df/d03/a00062.php" title="defines.hpp" alt="" coords="319,229,409,256"/>
-<area shape="rect" id="node10" href="../../d4/d6d/a00055.php" title="C++.hpp" alt="" coords="257,827,330,853"/>
-<area shape="rect" id="node19" href="../../d9/da5/a00075.php" title="Map.hpp" alt="" coords="48,229,120,256"/>
-<area shape="rect" id="node3" href="../../d1/dea/a00054.php" title="bdd.hpp" alt="" coords="294,155,362,181"/>
-<area shape="rect" id="node18" href="../../d1/d84/a00052.php" title="Args.hpp" alt="" coords="195,155,269,181"/>
-<area shape="rect" id="node5" href="../../d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="244,304,359,331"/>
-<area shape="rect" id="node17" href="../../d4/de8/a00061.php" title="cryptage.hpp" alt="" coords="653,453,750,480"/>
-<area shape="rect" id="node6" href="../../d9/db3/a00066.php" title="Entity.hpp" alt="" coords="339,379,421,405"/>
-<area shape="rect" id="node9" href="../../de/de1/a00065.php" title="Entities.hpp" alt="" coords="328,677,419,704"/>
-<area shape="rect" id="node16" href="../../d9/da4/a00078.php" title="Object.hpp" alt="" coords="179,379,264,405"/>
-<area shape="rect" id="node7" href="../../d5/de0/a00050.php" title="Animal.hpp" alt="" coords="374,528,461,555"/>
-<area shape="rect" id="node12" href="../../d6/d2c/a00072.php" title="Hostile.hpp" alt="" coords="400,453,488,480"/>
-<area shape="rect" id="node13" href="../../d9/df8/a00096.php" title="Vegetal.hpp" alt="" coords="508,528,599,555"/>
-<area shape="rect" id="node8" href="../../d2/d79/a00051.php" title="Ant.hpp" alt="" coords="340,603,407,629"/>
-<area shape="rect" id="node11" href="../../da/dec/a00080.php" title="Player.hpp" alt="" coords="251,752,335,779"/>
-<area shape="rect" id="node14" href="../../d1/d51/a00079.php" title="Plant.hpp" alt="" coords="532,603,609,629"/>
-<area shape="rect" id="node15" href="../../d1/d09/a00077.php" title="Mushroom.hpp" alt="" coords="634,603,742,629"/>
+<div class="center"><img src="../../de/d14/a00139.png" border="0" usemap="#errors_8hppdep" alt=""/></div>
+<map name="errors_8hppdep" id="errors_8hppdep">
+<area shape="rect" id="node2" href="../../d4/d6d/a00055.php" title="bdd.hpp" alt="" coords="193,80,261,107"/>
+<area shape="rect" id="node17" href="../../d9/d2e/a00056.php" title="C++.hpp" alt="" coords="313,752,387,779"/>
+<area shape="rect" id="node29" href="../../dc/dee/a00053.php" title="Args.hpp" alt="" coords="286,80,361,107"/>
+<area shape="rect" id="node30" href="../../db/df8/a00076.php" title="Map.hpp" alt="" coords="362,155,434,181"/>
+<area shape="rect" id="node3" href="../../d1/d6f/a00063.php" title="defines.hpp" alt="" coords="183,155,272,181"/>
+<area shape="rect" id="node4" href="../../da/d2a/a00086.php" title="QtFunctions.hpp" alt="" coords="20,379,139,405"/>
+<area shape="rect" id="node15" href="../../d9/d73/a00060.php" title="Contraption.hpp" alt="" coords="301,229,415,256"/>
+<area shape="rect" id="node28" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="117,603,215,629"/>
+<area shape="rect" id="node5" href="../../df/d13/a00085.php" title="QtDefines.hpp" alt="" coords="45,827,151,853"/>
+<area shape="rect" id="node6" href="../../df/d5d/a00084.php" title="Qt.hpp" alt="" coords="186,1125,247,1152"/>
+<area shape="rect" id="node11" href="../../d2/db1/a00070.php" title="Font.hpp" alt="" coords="5,901,79,928"/>
+<area shape="rect" id="node12" href="../../d0/d61/a00100.php" title="WindowButton.hpp" alt="" coords="155,901,287,928"/>
+<area shape="rect" id="node7" href="../../dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="272,1200,375,1227"/>
+<area shape="rect" id="node9" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="319,1349,427,1376"/>
+<area shape="rect" id="node10" href="../../d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="127,1200,247,1227"/>
+<area shape="rect" id="node8" href="../../df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="291,1275,375,1301"/>
+<area shape="rect" id="node13" href="../../d4/d3a/a00101.php" title="WindowTitleBar.hpp" alt="" coords="177,976,315,1003"/>
+<area shape="rect" id="node14" href="../../da/d74/a00099.php" title="Window.hpp" alt="" coords="199,1051,293,1077"/>
+<area shape="rect" id="node16" href="../../d9/db3/a00066.php" title="Entities.hpp" alt="" coords="385,603,475,629"/>
+<area shape="rect" id="node20" href="../../d1/d51/a00079.php" title="Object.hpp" alt="" coords="315,304,401,331"/>
+<area shape="rect" id="node21" href="../../dc/ddf/a00067.php" title="Entity.hpp" alt="" coords="425,304,507,331"/>
+<area shape="rect" id="node19" href="../../d8/d53/a00081.php" title="Player.hpp" alt="" coords="388,677,472,704"/>
+<area shape="rect" id="node18" href="../../d0/d89/a00071.php" title="functions.hpp" alt="" coords="413,976,513,1003"/>
+<area shape="rect" id="node22" href="../../d2/d79/a00051.php" title="Animal.hpp" alt="" coords="440,453,527,480"/>
+<area shape="rect" id="node24" href="../../d1/d6e/a00073.php" title="Hostile.hpp" alt="" coords="486,379,574,405"/>
+<area shape="rect" id="node25" href="../../d1/d84/a00097.php" title="Vegetal.hpp" alt="" coords="593,453,683,480"/>
+<area shape="rect" id="node23" href="../../d1/d84/a00052.php" title="Ant.hpp" alt="" coords="467,528,534,555"/>
+<area shape="rect" id="node26" href="../../da/dec/a00080.php" title="Plant.hpp" alt="" coords="609,528,686,555"/>
+<area shape="rect" id="node27" href="../../d9/da4/a00078.php" title="Mushroom.hpp" alt="" coords="711,528,819,555"/>
 </map>
 </div>
 </div>
 <p><a href="../../da/d24/a00068_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a08ee21f84a6b44ca59d7f045b55d6bfc">line_number</a>&#160;&#160;&#160;__LINE__</td></tr>
+<tr class="memdesc:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to do an alias of <b>LINE</b>  <a href="#a08ee21f84a6b44ca59d7f045b55d6bfc">More...</a><br /></td></tr>
+<tr class="separator:a08ee21f84a6b44ca59d7f045b55d6bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a42e1aa02e585ad4e35d14ef5c133395a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a42e1aa02e585ad4e35d14ef5c133395a">fileFormat</a> (std::string &amp;line)</td></tr>
-<tr class="memdesc:a42e1aa02e585ad4e35d14ef5c133395a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a given <em>line</em> for files.  <a href="#a42e1aa02e585ad4e35d14ef5c133395a">More...</a><br /></td></tr>
-<tr class="separator:a42e1aa02e585ad4e35d14ef5c133395a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab148021dd478aa69c83029819b268737"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#ab148021dd478aa69c83029819b268737">getFileSize</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:ab148021dd478aa69c83029819b268737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the file size.  <a href="#ab148021dd478aa69c83029819b268737">More...</a><br /></td></tr>
-<tr class="separator:ab148021dd478aa69c83029819b268737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2917d2eb46f63f2c97b1a30de55ec3c5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a2917d2eb46f63f2c97b1a30de55ec3c5">getlines</a> (std::ifstream &amp;input)</td></tr>
-<tr class="memdesc:a2917d2eb46f63f2c97b1a30de55ec3c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the lines in a given file.  <a href="#a2917d2eb46f63f2c97b1a30de55ec3c5">More...</a><br /></td></tr>
-<tr class="separator:a2917d2eb46f63f2c97b1a30de55ec3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9034f20bf3b289424ebda507e52e427"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#aa9034f20bf3b289424ebda507e52e427">setlines</a> (std::ofstream &amp;output, std::vector&lt; std::string &gt; lines)</td></tr>
-<tr class="memdesc:aa9034f20bf3b289424ebda507e52e427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write all the lines in a given file.  <a href="#aa9034f20bf3b289424ebda507e52e427">More...</a><br /></td></tr>
-<tr class="separator:aa9034f20bf3b289424ebda507e52e427"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a76c27f6a40c6f54d0c76ce2498fae8d7"><td class="memItemLeft" align="right" valign="top">std::ifstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a76c27f6a40c6f54d0c76ce2498fae8d7">reader</a></td></tr>
-<tr class="memdesc:a76c27f6a40c6f54d0c76ce2498fae8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file reader.  <a href="#a76c27f6a40c6f54d0c76ce2498fae8d7">More...</a><br /></td></tr>
-<tr class="separator:a76c27f6a40c6f54d0c76ce2498fae8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c037aab5abffa1d77dad2a0f0295b0e"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a5c037aab5abffa1d77dad2a0f0295b0e">writer</a></td></tr>
-<tr class="memdesc:a5c037aab5abffa1d77dad2a0f0295b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a global file writer.  <a href="#a5c037aab5abffa1d77dad2a0f0295b0e">More...</a><br /></td></tr>
-<tr class="separator:a5c037aab5abffa1d77dad2a0f0295b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#aae3e42b5bf8dba8bf6431f2dea60c67b">error_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an error.  <a href="#aae3e42b5bf8dba8bf6431f2dea60c67b">More...</a><br /></td></tr>
+<tr class="separator:aae3e42b5bf8dba8bf6431f2dea60c67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02b1d548b1c53cda0de554f2e086e43"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:ab02b1d548b1c53cda0de554f2e086e43"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#ab02b1d548b1c53cda0de554f2e086e43">warning_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:ab02b1d548b1c53cda0de554f2e086e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like a warning.  <a href="#ab02b1d548b1c53cda0de554f2e086e43">More...</a><br /></td></tr>
+<tr class="separator:ab02b1d548b1c53cda0de554f2e086e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#a44a10c1b63e7f3384683e01f34ccd0e8">info_log</a> (size_t line, T in, Args...args)</td></tr>
+<tr class="memdesc:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the given text like an information.  <a href="#a44a10c1b63e7f3384683e01f34ccd0e8">More...</a><br /></td></tr>
+<tr class="separator:a44a10c1b63e7f3384683e01f34ccd0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>02 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../da/d24/a00068_source.php">files.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a42e1aa02e585ad4e35d14ef5c133395a"></a>
+<p>Definition in file <a class="el" href="../../da/d24/a00068_source.php">errors.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a08ee21f84a6b44ca59d7f045b55d6bfc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void fileFormat </td>
-          <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td></td>
+          <td class="memname">#define line_number&#160;&#160;&#160;__LINE__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Format a given <em>line</em> for files. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">line</td><td>The line to format</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<p>Define to do an alias of <b>LINE</b> </p>
+
+<p>Definition at line <a class="el" href="../../da/d24/a00068_source.php#l00018">18</a> of file <a class="el" href="../../da/d24/a00068_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab148021dd478aa69c83029819b268737"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="aae3e42b5bf8dba8bf6431f2dea60c67b"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t getFileSize </td>
+          <td class="memname">void error_log </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the file size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>The path to the file</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the size of the file </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2917d2eb46f63f2c97b1a30de55ec3c5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; getlines </td>
-          <td>(</td>
-          <td class="paramtype">std::ifstream &amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get all the lines in a given file. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">input</td><td>The opened ifstream</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return a vector which contains the file's lines </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aa9034f20bf3b289424ebda507e52e427"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool setlines </td>
-          <td>(</td>
-          <td class="paramtype">std::ofstream &amp;&#160;</td>
-          <td class="paramname"><em>output</em>, </td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>lines</em>&#160;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -279,44 +242,112 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Write all the lines in a given file. </p>
+<p>Print the given text like an error. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">input</td><td>The opened ofstream </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">lines</td><td>The lines to write</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the error </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/d24/a00068_source.php#l00049">49</a> of file <a class="el" href="../../da/d24/a00068_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a76c27f6a40c6f54d0c76ce2498fae8d7"></a>
+<a class="anchor" id="a44a10c1b63e7f3384683e01f34ccd0e8"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::ifstream reader</td>
+          <td class="memname">void info_log </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Define a global file reader. </p>
+<p>Print the given text like an information. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the info </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/d24/a00068_source.php#l00089">89</a> of file <a class="el" href="../../da/d24/a00068_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5c037aab5abffa1d77dad2a0f0295b0e"></a>
+<a class="anchor" id="ab02b1d548b1c53cda0de554f2e086e43"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::ofstream writer</td>
+          <td class="memname">void warning_log </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Define a global file writer. </p>
+<p>Print the given text like a warning. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>The line number where the function is call (use line_number) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The type of the warning </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The differents things to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/d24/a00068_source.php#l00069">69</a> of file <a class="el" href="../../da/d24/a00068_source.php">errors.hpp</a>.</p>
 
 </div>
 </div>
@@ -325,7 +356,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../da/d24/a00068.php">files.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_9cc7dab42d10c04902c95d2c14820089.php">Widgets</a></li><li class="navelem"><a class="el" href="../../dir_42c90fb9218922ddd8984da73ce0d59c.php">C++</a></li><li class="navelem"><a class="el" href="../../da/d24/a00068.php">errors.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

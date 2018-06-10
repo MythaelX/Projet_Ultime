@@ -1,20 +1,2 @@
-<map id="Object.hpp" name="Object.hpp">
-<area shape="rect" id="node2" href="$d3/d8b/a00059.php" title="Contraption.hpp" alt="" coords="900,80,1015,107"/>
-<area shape="rect" id="node3" href="$df/d03/a00062.php" title="defines.hpp" alt="" coords="1155,155,1245,181"/>
-<area shape="rect" id="node18" href="$d9/d77/a00095.php" title="types.hpp" alt="" coords="233,453,311,480"/>
-<area shape="rect" id="node45" href="$d1/d22/a00057.php" title="collides.hpp" alt="" coords="1625,155,1716,181"/>
-<area shape="rect" id="node46" href="$d9/da5/a00075.php" title="Map.hpp" alt="" coords="160,229,232,256"/>
-<area shape="rect" id="node10" href="$d1/dea/a00054.php" title="bdd.hpp" alt="" coords="1122,229,1190,256"/>
-<area shape="rect" id="node23" href="$d9/d73/a00060.php" title="convert.hpp" alt="" coords="1451,453,1541,480"/>
-<area shape="rect" id="node28" href="$da/d24/a00068.php" title="files.hpp" alt="" coords="79,379,150,405"/>
-<area shape="rect" id="node31" href="$d1/dc1/a00092.php" title="time.hpp" alt="" coords="327,379,399,405"/>
-<area shape="rect" id="node34" href="$d8/d53/a00081.php" title="pointers.hpp" alt="" coords="1517,304,1611,331"/>
-<area shape="rect" id="node35" href="$d9/dec/a00090.php" title="string.hpp" alt="" coords="1655,379,1734,405"/>
-<area shape="rect" id="node39" href="$da/d2a/a00086.php" title="RNG.hpp" alt="" coords="1904,453,1981,480"/>
-<area shape="rect" id="node41" href="$d1/d84/a00052.php" title="Args.hpp" alt="" coords="417,229,492,256"/>
-<area shape="rect" id="node43" href="$db/df8/a00076.php" title="maths.hpp" alt="" coords="1943,229,2025,256"/>
-<area shape="rect" id="node21" href="$dc/ddf/a00067.php" title="errors.hpp" alt="" coords="195,304,275,331"/>
-<area shape="rect" id="node38" href="$dc/dee/a00053.php" title="array.hpp" alt="" coords="1198,453,1274,480"/>
-<area shape="rect" id="node22" href="$d7/df7/a00058.php" title="console.hpp" alt="" coords="199,379,291,405"/>
-<area shape="rect" id="node37" href="$d1/d6e/a00073.php" title="macro.hpp" alt="" coords="1747,453,1829,480"/>
+<map id="maths.hpp" name="maths.hpp">
 </map>

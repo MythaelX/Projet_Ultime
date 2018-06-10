@@ -1,26 +1,22 @@
 var a00047 =
 [
-    [ "ButtonState", "d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e", [
-      [ "STATE_NORMAL", "d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97", null ],
-      [ "STATE_HOVERED", "d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e", null ],
-      [ "STATE_CLICKED", "d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7", null ]
-    ] ],
-    [ "ButtonType", "d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b", [
-      [ "BUTTON_MINIMIZE", "d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d", null ],
-      [ "BUTTON_MAXIMIZE", "d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0", null ],
-      [ "BUTTON_CLOSE", "d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74", null ]
-    ] ],
-    [ "WindowButton", "d6/d2d/a00047.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0", null ],
-    [ "~WindowButton", "d6/d2d/a00047.php#af6a0e6f87bae8c50d9d2e57b371a548a", null ],
-    [ "enterEvent", "d6/d2d/a00047.php#aab556dedddbb1c9832f572b747449055", null ],
-    [ "leaveEvent", "d6/d2d/a00047.php#a8a89e083618d2f239a60bf5adb7c79a2", null ],
-    [ "mousePressEvent", "d6/d2d/a00047.php#af7caa976fc5766ddc3d89eef1965a9c6", null ],
-    [ "mouseReleaseEvent", "d6/d2d/a00047.php#afd414539e6cf2fc7072a175032a6f1ff", null ],
-    [ "paintEvent", "d6/d2d/a00047.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11", null ],
-    [ "resizeEvent", "d6/d2d/a00047.php#a2dd52661908250a571804fe967bcd316", null ],
-    [ "setBackground", "d6/d2d/a00047.php#ac7b9d8d3e328e0285ef4664e20acb8d3", null ],
-    [ "setClickedColor", "d6/d2d/a00047.php#a7a087338372f7592853b050d168df152", null ],
-    [ "setGradient", "d6/d2d/a00047.php#a434a8192bfe4dea8c7b4e1b052a1a943", null ],
-    [ "setHoveredColor", "d6/d2d/a00047.php#a6947ea55943b909c1d492ad2f79ae1f8", null ],
-    [ "setNormalColor", "d6/d2d/a00047.php#a4babac31336534efca737c5f73710c1d", null ]
+    [ "Window", "d6/d2d/a00047.php#a8c86e48ef3180201cc97cb928abd66ca", null ],
+    [ "~Window", "d6/d2d/a00047.php#a245d821e6016fa1f6970ccbbedd635f6", null ],
+    [ "drawBackground", "d6/d2d/a00047.php#a1ce5696d3fac4e90e6c9fbd0477d0f9d", null ],
+    [ "drawDefaultBackground", "d6/d2d/a00047.php#acbed45e30a51c6855e5e6ea88197b161", null ],
+    [ "enableResize", "d6/d2d/a00047.php#a85b13ae29ce6f9aa9ffb7408b0ddd4b7", null ],
+    [ "paintEvent", "d6/d2d/a00047.php#a1b653d42eb4810a8c0be48dc65d98b3a", null ],
+    [ "resizeEvent", "d6/d2d/a00047.php#a3d72edbec3fed3709ea3d374973c70b4", null ],
+    [ "setBackground", "d6/d2d/a00047.php#a3f710c0adafe15f27766f70a1c5b4dee", null ],
+    [ "setCentralWidget", "d6/d2d/a00047.php#a8c65cb42e811de87be8743af6b9d21ed", null ],
+    [ "setMargin", "d6/d2d/a00047.php#a4cec8e761a776437c9886d6982c22a54", null ],
+    [ "setMargin", "d6/d2d/a00047.php#aad09788fdd6171092b43f31a91a384a2", null ],
+    [ "setSize", "d6/d2d/a00047.php#a2983759dc6be4f8da44eff6069b2d3c8", null ],
+    [ "setWindowTitle", "d6/d2d/a00047.php#a008e887882941bcd08b6439dc001ea51", null ],
+    [ "showEvent", "d6/d2d/a00047.php#a677a2c1046a84743e709515f5618b1e8", null ],
+    [ "showTitlebar", "d6/d2d/a00047.php#a8ad2a767e19299b153f9bc0457f13114", null ],
+    [ "TitleBarShowState", "d6/d2d/a00047.php#a1f3319d59097b7c9e5bde545e6867c1b", null ],
+    [ "WindowResizeChanged", "d6/d2d/a00047.php#a9b8e592bf73f07ec549125eb6367395c", null ],
+    [ "WindowTitleChanged", "d6/d2d/a00047.php#a56ced9e90dad8415ce9ba9ccdb8f50c7", null ],
+    [ "m_Cache", "d6/d2d/a00047.php#a065e43061d8abb3717302dc1acf139c3", null ]
 ];

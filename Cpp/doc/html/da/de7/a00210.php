@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>ProjetFinalCPP: Member List</title>
+<title>Hot Dog QUIZ: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,8 +31,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ProjetFinalCPP
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">Hot Dog QUIZ
+   &#160;<span id="projectnumber">2.0</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
+$(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,19 +108,18 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Reinit Member List</div>  </div>
+<div class="title">Arguments Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d16/a00029.php">Reinit</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/dad/a00005.php">Arguments</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Reinit</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3">add</a>(std::string category, T value)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a126d62fd1d3eed743b06cb1b83f9093d">addProg</a>(int argc, char **argv)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#afe56d8477bfae32c239771056c233311">Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a2758413e36333940451ed0bf8c902706">operator[]</a>(std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a06e8b4b5a2f3f46f111e571cd90f6c9c">print</a>(std::string index=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a97b9ddc9cc652310880db4d6f1f175f2">~Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

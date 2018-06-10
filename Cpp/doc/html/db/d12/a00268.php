@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
+$(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,19 +108,37 @@ $(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">PushButton Member List</div>  </div>
+<div class="title">Player&lt; PlayerParent &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/dc0/a00033.php">PushButton</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a31bbce7532c03921c218f54465afcaef">click</a>()</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a>(std::string table, std::string index)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a138a6609129997496311c00ed4e1acb0">getIndex</a>() const </td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a>() const </td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/dc0/a00033.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../d0/dc0/a00033.php">PushButton</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a9f2475a2705e610e8dc7e4f1836d5e6b">getExperience</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a29b4d8d469f4c293926375d1d7060fd0">getExperienceMax</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a256287b18c9b2bbafb22dd31ed51edba">getId</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a1a42c147a927ee5f762e590e18c52352">getMail</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ab0fa81388a807469a2c5e45cb85bf57e">getPassword</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ae840c70699458938568b36a422963a89">getUsername</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a024d37d9bdf83c1cc6618df8cc574aa2">init</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a6ac0f9addd53f05fb5fce59ede276b68">isInit</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a1dec883e7f06a8c82a0e07635f200bcf">isLost</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ae8d0cb2cfc31c311122543b16226cdb7">isPaused</a>() const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a606851799e5a0f58ea249f02751c45c1">lost</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ac3b3f61fa669c386bb9b2c912363d0b5">losted</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a02fef31489f23336518f8ff353a7a0db">pause</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#aefb2fbad6ea8b979f46de232a4ff9eaa">paused</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a93132a47f0166fdbb23f3cd72f54c03a">Player</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ace955ce90f754ff7fdf23724e6c35d38">printInfos</a>(std::ostream &amp;stream) const </td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#adfa756f1570500ee9b9628ad4a990e2e">resume</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a5c1f4f7b9404f7ec686dcb4038892a6c">retreive</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#af93214bdf82686e3c24401d6fb50ee4d">setExperience</a>(const double experience)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a835918495707d8b37e0ebeed0d6cf439">setExperienceMax</a>(const double experienceMax)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#aaf3aba878522716fba266caa573df8f9">setId</a>(size_t id)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab">setMail</a>(const std::string mail)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a809fc643a612879ac35690383dfd31e8">setPassword</a>(std::string password)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a5b02ead36931c416ed8000b9a0a2d8aa">setUsername</a>(std::string username)</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a3ce0168273b6d0be5f66b3b6136397ff">~Player</a>()</td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">Player&lt; PlayerParent &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

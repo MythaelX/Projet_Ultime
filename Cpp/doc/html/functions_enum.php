@@ -119,10 +119,10 @@ $(document).ready(function(){initNavTree('functions_enum.php','');});
 <div class="contents">
 &#160;<ul>
 <li>ButtonState
-: <a class="el" href="d6/d2d/a00047.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
+: <a class="el" href="d4/dca/a00048.php#a52e7cf1fa9d4c97891ac0080c65dd57e">WindowButton</a>
 </li>
 <li>ButtonType
-: <a class="el" href="d6/d2d/a00047.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
+: <a class="el" href="d4/dca/a00048.php#a1a23c44a782fc06df076f22ea249084b">WindowButton</a>
 </li>
 </ul>
 </div><!-- contents -->

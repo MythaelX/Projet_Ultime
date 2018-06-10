@@ -147,82 +147,82 @@ $(document).ready(function(){initNavTree('functions_func_c.php','');});
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>Cesar()
-: <a class="el" href="de/d21/a00006.php#a9a70a4a1e758085855fd550404687388">Cesar</a>
+: <a class="el" href="de/d5e/a00007.php#a9a70a4a1e758085855fd550404687388">Cesar</a>
 </li>
 <li>changeActive()
-: <a class="el" href="de/d5e/a00007.php#a2d303cb0c794df8e046e6ee38b7b2be0">CheckBox</a>
-, <a class="el" href="d3/dfe/a00025.php#acfdbadec2420e7862c53e511332992cc">MainWindow</a>
+: <a class="el" href="d4/dee/a00008.php#a2d303cb0c794df8e046e6ee38b7b2be0">CheckBox</a>
+, <a class="el" href="d6/d5b/a00026.php#acfdbadec2420e7862c53e511332992cc">MainWindow</a>
 </li>
 <li>CheckBox()
-: <a class="el" href="de/d5e/a00007.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>
+: <a class="el" href="d4/dee/a00008.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>
 </li>
 <li>clear()
-: <a class="el" href="d6/d5b/a00026.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
+: <a class="el" href="d0/d33/a00027.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
 </li>
 <li>click()
-: <a class="el" href="d0/dc0/a00033.php#a31bbce7532c03921c218f54465afcaef">PushButton</a>
+: <a class="el" href="db/df3/a00034.php#a31bbce7532c03921c218f54465afcaef">PushButton</a>
 </li>
 <li>clicked()
-: <a class="el" href="d0/dc0/a00033.php#aeec905376bc407f74ba879f7dc029dcc">PushButton</a>
+: <a class="el" href="db/df3/a00034.php#aeec905376bc407f74ba879f7dc029dcc">PushButton</a>
 </li>
 <li>Clock()
-: <a class="el" href="d4/dee/a00008.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>
+: <a class="el" href="da/da0/a00009.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>
 </li>
 <li>Cls()
-: <a class="el" href="da/da0/a00009.php#a441ea70daac8caec56684cf47b187672">Cls</a>
+: <a class="el" href="d7/dec/a00010.php#a441ea70daac8caec56684cf47b187672">Cls</a>
 </li>
 <li>collides()
-: <a class="el" href="d7/d46/a00002.php#ad9fd8916f14ba954f4f98911e34a6d99">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#ad9fd8916f14ba954f4f98911e34a6d99">Animal</a>
 </li>
 <li>collidesCircle()
-: <a class="el" href="d7/d46/a00002.php#a68a645b96b63d106fafc6ef24f472cdc">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#a68a645b96b63d106fafc6ef24f472cdc">Animal</a>
 </li>
 <li>collidesRect()
-: <a class="el" href="d7/d46/a00002.php#aab6124c1e2241cf9491eb0dcc9c7d482">Animal</a>
+: <a class="el" href="d1/d7c/a00003.php#aab6124c1e2241cf9491eb0dcc9c7d482">Animal</a>
 </li>
 <li>Color()
-: <a class="el" href="d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>
+: <a class="el" href="da/d45/a00011.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>
 </li>
 <li>connect()
-: <a class="el" href="dd/dad/a00005.php#a359d41a12c304f95abb33d77698bd5ba">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">BDD</a>
 </li>
 <li>connections()
-: <a class="el" href="d3/dfe/a00025.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a430b81b3bb84b8561b4e63fe76e28c39">MainWindow</a>
 </li>
 <li>consolePrint()
-: <a class="el" href="d6/d5b/a00026.php#aae5f7c464841d017086abe1d553da50d">Map</a>
+: <a class="el" href="d0/d33/a00027.php#aae5f7c464841d017086abe1d553da50d">Map</a>
 </li>
 <li>Contraption()
-: <a class="el" href="df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
+: <a class="el" href="d7/dd4/a00013.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
 </li>
 <li>createAddingWidgets()
-: <a class="el" href="d3/dfe/a00025.php#a74ed49cc57a01562288f4be1e665f450">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a74ed49cc57a01562288f4be1e665f450">MainWindow</a>
 </li>
 <li>createAdminWidgets()
-: <a class="el" href="d3/dfe/a00025.php#a2364ae069aba1f220ac4cd2fecaf4d6c">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a2364ae069aba1f220ac4cd2fecaf4d6c">MainWindow</a>
 </li>
 <li>createConnectWidgets()
-: <a class="el" href="d3/dfe/a00025.php#a78ab18fed76eb54bda4508dc9be4b64b">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a78ab18fed76eb54bda4508dc9be4b64b">MainWindow</a>
 </li>
 <li>createValues()
-: <a class="el" href="d3/dfe/a00025.php#a9eb2d8d3bff2599bef550d68a4d11925">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a9eb2d8d3bff2599bef550d68a4d11925">MainWindow</a>
 </li>
 <li>createWidgetsLabel()
-: <a class="el" href="d3/dfe/a00025.php#abf97603f986be8d9d79252512949fb30">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#abf97603f986be8d9d79252512949fb30">MainWindow</a>
 </li>
 <li>createWidgetsLabels()
-: <a class="el" href="d3/dfe/a00025.php#a400129c80a43e87a9777a06f919060f7">MainWindow</a>
+: <a class="el" href="d6/d5b/a00026.php#a400129c80a43e87a9777a06f919060f7">MainWindow</a>
 </li>
 <li>crypt()
-: <a class="el" href="de/d21/a00006.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>
-, <a class="el" href="d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
-, <a class="el" href="d3/de7/a00039.php#ab84588271f2e5417d47251be249951b4">RSA</a>
+: <a class="el" href="de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>
+, <a class="el" href="dd/d1b/a00015.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
+, <a class="el" href="db/d3a/a00040.php#ab84588271f2e5417d47251be249951b4">RSA</a>
 </li>
 <li>Crypto()
-: <a class="el" href="d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
+: <a class="el" href="dd/d1b/a00015.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="d5/df9/a00044.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
+: <a class="el" href="d6/d97/a00045.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

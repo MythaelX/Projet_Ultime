@@ -1,5 +1,4 @@
-<map id="Mushroom" name="Mushroom">
-<area shape="rect" id="node2" href="$d5/df9/a00044.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
-<area shape="rect" id="node3" href="$d4/d51/a00017.php" title="An entity. " alt="" coords="22,80,78,107"/>
-<area shape="rect" id="node4" href="$df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node2" href="$d6/d2d/a00047.php" title="A custom window. " alt="" coords="19,155,89,181"/>
+<area shape="rect" id="node3" href="$d3/dea/a00046.php" title="Create a personnalized Widget. " alt="" coords="23,80,85,107"/>
 </map>

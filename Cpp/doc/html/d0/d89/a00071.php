@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: GraphScene.hpp File Reference</title>
+<title>Hot Dog QUIZ: functions.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,102 +106,127 @@ $(document).ready(function(){initNavTree('d0/d89/a00071.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">GraphScene.hpp File Reference</div>  </div>
+<div class="title">functions.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;map&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d1e/a00087_source.php">Scene.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d2e/a00056_source.php">Widgets/C++/C++.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for GraphScene.hpp:</div>
+Include dependency graph for functions.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d2/d82/a00142.png" border="0" usemap="#GraphScene_8hpp" alt=""/></div>
-<map name="GraphScene_8hpp" id="GraphScene_8hpp">
-<area shape="rect" id="node6" href="../../d1/d1e/a00087.php" title="Scene.hpp" alt="" coords="320,80,404,107"/>
+<div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#functions_8hpp" alt=""/></div>
+<map name="functions_8hpp" id="functions_8hpp">
+<area shape="rect" id="node2" href="../../d9/d2e/a00056.php" title="Widgets/C++/C++.hpp" alt="" coords="1145,80,1299,107"/>
+<area shape="rect" id="node3" href="../../d9/db3/a00066.php" title="Entities.hpp" alt="" coords="1591,229,1682,256"/>
+<area shape="rect" id="node5" href="../../d1/d6f/a00063.php" title="defines.hpp" alt="" coords="648,603,737,629"/>
+<area shape="rect" id="node15" href="../../d9/df8/a00096.php" title="types.hpp" alt="" coords="1545,901,1624,928"/>
+<area shape="rect" id="node17" href="../../da/d24/a00068.php" title="errors.hpp" alt="" coords="1079,752,1159,779"/>
+<area shape="rect" id="node18" href="../../d3/d8b/a00059.php" title="console.hpp" alt="" coords="1080,827,1172,853"/>
+<area shape="rect" id="node19" href="../../d4/de8/a00061.php" title="convert.hpp" alt="" coords="373,901,463,928"/>
+<area shape="rect" id="node24" href="../../d4/d31/a00069.php" title="files.hpp" alt="" coords="1196,827,1267,853"/>
+<area shape="rect" id="node26" href="../../d4/d7d/a00093.php" title="time.hpp" alt="" coords="37,827,109,853"/>
+<area shape="rect" id="node30" href="../../da/d82/a00091.php" title="string.hpp" alt="" coords="643,752,721,779"/>
+<area shape="rect" id="node32" href="../../db/db6/a00074.php" title="macro.hpp" alt="" coords="770,827,853,853"/>
+<area shape="rect" id="node33" href="../../d1/dea/a00054.php" title="array.hpp" alt="" coords="928,827,1004,853"/>
+<area shape="rect" id="node36" href="../../d1/d09/a00077.php" title="maths.hpp" alt="" coords="2013,677,2095,704"/>
+<area shape="rect" id="node38" href="../../d7/df7/a00058.php" title="collides.hpp" alt="" coords="1983,603,2074,629"/>
+<area shape="rect" id="node39" href="../../db/df8/a00076.php" title="Map.hpp" alt="" coords="1313,677,1385,704"/>
+<area shape="rect" id="node47" href="../../d8/d53/a00081.php" title="Player.hpp" alt="" coords="1505,155,1589,181"/>
+<area shape="rect" id="node48" href="../../df/d03/a00062.php" title="cryptage.hpp" alt="" coords="759,453,856,480"/>
+<area shape="rect" id="node49" href="../../db/dab/a00089.php" title="sorting.hpp" alt="" coords="1308,901,1395,928"/>
+<area shape="rect" id="node50" href="../../d9/d77/a00095.php" title="tree.hpp" alt="" coords="2066,229,2135,256"/>
+<area shape="rect" id="node4" href="../../d9/d73/a00060.php" title="Contraption.hpp" alt="" coords="1611,528,1726,555"/>
+<area shape="rect" id="node40" href="../../d1/d51/a00079.php" title="Object.hpp" alt="" coords="1453,379,1538,405"/>
+<area shape="rect" id="node41" href="../../dc/ddf/a00067.php" title="Entity.hpp" alt="" coords="1687,453,1768,480"/>
+<area shape="rect" id="node42" href="../../d2/d79/a00051.php" title="Animal.hpp" alt="" coords="1773,379,1860,405"/>
+<area shape="rect" id="node43" href="../../d1/d84/a00052.php" title="Ant.hpp" alt="" coords="1773,304,1839,331"/>
+<area shape="rect" id="node44" href="../../d1/d84/a00097.php" title="Vegetal.hpp" alt="" coords="1573,379,1663,405"/>
+<area shape="rect" id="node45" href="../../da/dec/a00080.php" title="Plant.hpp" alt="" coords="1621,304,1698,331"/>
+<area shape="rect" id="node46" href="../../d9/da4/a00078.php" title="Mushroom.hpp" alt="" coords="1437,304,1545,331"/>
+<area shape="rect" id="node12" href="../../d4/d6d/a00055.php" title="bdd.hpp" alt="" coords="1040,677,1108,704"/>
+<area shape="rect" id="node29" href="../../d4/d63/a00082.php" title="pointers.hpp" alt="" coords="1437,752,1530,779"/>
+<area shape="rect" id="node34" href="../../d1/d1e/a00087.php" title="RNG.hpp" alt="" coords="234,827,311,853"/>
+<area shape="rect" id="node35" href="../../dc/dee/a00053.php" title="Args.hpp" alt="" coords="789,677,863,704"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d7/dce/a00143.png" border="0" usemap="#GraphScene_8hppdep" alt=""/></div>
-<map name="GraphScene_8hppdep" id="GraphScene_8hppdep">
-<area shape="rect" id="node2" href="../../df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
-<area shape="rect" id="node3" href="../../d4/d31/a00069.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
-<area shape="rect" id="node4" href="../../d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
-<area shape="rect" id="node6" href="../../da/d74/a00099.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
-<area shape="rect" id="node5" href="../../da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
-<area shape="rect" id="node7" href="../../d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
-<area shape="rect" id="node8" href="../../d1/d44/a00098.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
+<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#functions_8hppdep" alt=""/></div>
+<map name="functions_8hppdep" id="functions_8hppdep">
+<area shape="rect" id="node2" href="../../d9/da5/a00075.php" title="MainWindow.h" alt="" coords="5,80,113,107"/>
 </map>
 </div>
 </div>
 <p><a href="../../d0/d89/a00071_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php">GraphScene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../db/d3a/a00040.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw graphs.  <a href="../../dd/da2/a00019.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memItemLeft" align="right" valign="top">typedef long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td></tr>
-<tr class="separator:a8dcc9a1fe4837db39cd87e259f0ed6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5373de30ddd6b6c0f911f63ed642739"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td></tr>
-<tr class="separator:ad5373de30ddd6b6c0f911f63ed642739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; std::pair&lt; <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt;, std::pair&lt; <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td></tr>
-<tr class="separator:a464fcd96dfa56d6feac32bfcd2e0403f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#a7b4f7ad736a4c60a7dbb5009193df31d">formatColumn</a> (std::string str, std::string table)</td></tr>
+<tr class="memdesc:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format the string to erase the table name.  <a href="#a7b4f7ad736a4c60a7dbb5009193df31d">More...</a><br /></td></tr>
+<tr class="separator:a7b4f7ad736a4c60a7dbb5009193df31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada892294d2dfe805cc181fbbbf443396"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d89/a00071.php#ada892294d2dfe805cc181fbbbf443396">createGame</a> (std::vector&lt; std::string &gt; values)</td></tr>
+<tr class="memdesc:ada892294d2dfe805cc181fbbbf443396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a game.  <a href="#ada892294d2dfe805cc181fbbbf443396">More...</a><br /></td></tr>
+<tr class="separator:ada892294d2dfe805cc181fbbbf443396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>09 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d0/d89/a00071_source.php">GraphScene.hpp</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="ad5373de30ddd6b6c0f911f63ed642739"></a>
+<p>Definition in file <a class="el" href="../../d0/d89/a00071_source.php">functions.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ada892294d2dfe805cc181fbbbf443396"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::map&lt;<a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; <a class="el" href="../../d0/d89/a00071.php#ad5373de30ddd6b6c0f911f63ed642739">GraphMap</a></td>
+          <td class="memname">bool createGame </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d89/a00071_source.php#l00021">21</a> of file <a class="el" href="../../d0/d89/a00071_source.php">GraphScene.hpp</a>.</p>
+<p>Create a game. </p>
 
 </div>
 </div>
-<a class="anchor" id="a8dcc9a1fe4837db39cd87e259f0ed6ed"></a>
+<a class="anchor" id="a7b4f7ad736a4c60a7dbb5009193df31d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef long double <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a></td>
+          <td class="memname">std::string formatColumn </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d89/a00071_source.php#l00019">19</a> of file <a class="el" href="../../d0/d89/a00071_source.php">GraphScene.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a464fcd96dfa56d6feac32bfcd2e0403f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">typedef std::pair&lt;std::pair&lt;<a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt;, std::pair&lt;<a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>, <a class="el" href="../../d0/d89/a00071.php#a8dcc9a1fe4837db39cd87e259f0ed6ed">GraphMapType</a>&gt; &gt; <a class="el" href="../../d0/d89/a00071.php#a464fcd96dfa56d6feac32bfcd2e0403f">utmost</a></td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>table</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d89/a00071_source.php#l00023">23</a> of file <a class="el" href="../../d0/d89/a00071_source.php">GraphScene.hpp</a>.</p>
+<p>Format the string to erase the table name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to treat </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table to format for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the formatted string </dd></dl>
 
 </div>
 </div>
@@ -210,7 +235,7 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d0/d89/a00071.php">GraphScene.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d0/d89/a00071.php">functions.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

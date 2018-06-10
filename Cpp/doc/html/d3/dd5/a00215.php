@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
+$(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,14 +108,19 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Cls Member List</div>  </div>
+<div class="title">CheckBox Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../da/da0/a00009.php">Cls</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/dee/a00008.php">CheckBox</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../da/da0/a00009.php#a441ea70daac8caec56684cf47b187672">Cls</a>()</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Cls</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../da/da0/a00009.php#abfeeaf1c236f7e094382544f1ffb888b">operator&lt;&lt;</a>(std::ostream &amp;stream, Cls const &amp;c)</td><td class="entry"><a class="el" href="../../da/da0/a00009.php">Cls</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a2d303cb0c794df8e046e6ee38b7b2be0">changeActive</a>(int state)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#afe6e081ee7a25541ffcebb2063181b3d">CheckBox</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a087c4b9b8bcc8d631756e53a5c795efb">getIndex</a>() const </td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a8750f3494181edef39fda4e23e13a0cb">getTable</a>() const </td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#af473fc46af7d680963e7aca100aae1f3">setIndex</a>(std::string index)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#ad24f0483b08b440dad2d4569be54a1ff">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a2a8d7c87f758badc4fcb643519e7d78a">stateChanged</a>(int state, std::string table, std::string index)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">CheckBox</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

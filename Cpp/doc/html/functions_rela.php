@@ -119,9 +119,9 @@ $(document).ready(function(){initNavTree('functions_rela.php','');});
 <div class="contents">
 &#160;<ul>
 <li>operator&lt;&lt;
-: <a class="el" href="da/da0/a00009.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
-, <a class="el" href="d7/dec/a00010.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
-, <a class="el" href="df/d86/a00012.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
+: <a class="el" href="d7/dec/a00010.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>
+, <a class="el" href="da/d45/a00011.php#a84513fec989f2f817d2b1c5e6989450e">Color</a>
+, <a class="el" href="d7/dd4/a00013.php#a763a20bdd6cf99e565f2516d1c4bb161">Contraption</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: H2TitleLabel Class Reference</title>
+<title>Hot Dog QUIZ: GreyPushButton Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,49 +109,71 @@ $(document).ready(function(){initNavTree('d7/de0/a00022.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d6/d82/a00243.php">List of all members</a>  </div>
+<a href="../../d6/d08/a00244.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">H2TitleLabel Class Reference</div>  </div>
+<div class="title">GreyPushButton Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>An implementation of <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a> for the software.  
+<p>An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software.  
  <a href="../../d7/de0/a00022.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for H2TitleLabel:</div>
+Inheritance diagram for GreyPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d08/a00244.png" border="0" usemap="#H2TitleLabel_inherit__map" alt="Inheritance graph"/></div>
-<map name="H2TitleLabel_inherit__map" id="H2TitleLabel_inherit__map">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. " alt="" coords="13,80,92,107"/>
+<div class="center"><img src="../../d6/d22/a00245.png" border="0" usemap="#GreyPushButton_inherit__map" alt="Inheritance graph"/></div>
+<map name="GreyPushButton_inherit__map" id="GreyPushButton_inherit__map">
+<area shape="rect" id="node2" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. " alt="" coords="19,80,110,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for H2TitleLabel:</div>
+Collaboration diagram for GreyPushButton:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d22/a00245.png" border="0" usemap="#H2TitleLabel_coll__map" alt="Collaboration graph"/></div>
-<map name="H2TitleLabel_coll__map" id="H2TitleLabel_coll__map">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. " alt="" coords="13,80,92,107"/>
+<div class="center"><img src="../../d4/d9a/a00246.png" border="0" usemap="#GreyPushButton_coll__map" alt="Collaboration graph"/></div>
+<map name="GreyPushButton_coll__map" id="GreyPushButton_coll__map">
+<area shape="rect" id="node2" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. " alt="" coords="19,80,110,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a63831a9a77053bc8389e5036712218bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a63831a9a77053bc8389e5036712218bf">H2TitleLabel</a> (QWidget *parent=nullptr)</td></tr>
-<tr class="memdesc:a63831a9a77053bc8389e5036712218bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a>.  <a href="#a63831a9a77053bc8389e5036712218bf">More...</a><br /></td></tr>
-<tr class="separator:a63831a9a77053bc8389e5036712218bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00043"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00043')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/d42/a00043.php">TitleLabel</a></td></tr>
-<tr class="memitem:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d42/a00043.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a> (QWidget *parent=nullptr)</td></tr>
-<tr class="memdesc:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QLabel.  <a href="#aa3088caa93da248b64c58d77141c5d94">More...</a><br /></td></tr>
-<tr class="separator:aa3088caa93da248b64c58d77141c5d94 inherit pub_methods_a00043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8981df8ffdff12611eba021ac0fa2939"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de0/a00022.php#a8981df8ffdff12611eba021ac0fa2939">GreyPushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a8981df8ffdff12611eba021ac0fa2939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a>.  <a href="#a8981df8ffdff12611eba021ac0fa2939">More...</a><br /></td></tr>
+<tr class="separator:a8981df8ffdff12611eba021ac0fa2939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00034"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00034')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aff7923c3d3fb0e46a57c06afa0f7f41e">PushButton</a> (QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a QPushButton.  <a href="#aff7923c3d3fb0e46a57c06afa0f7f41e">More...</a><br /></td></tr>
+<tr class="separator:aff7923c3d3fb0e46a57c06afa0f7f41e inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9b4855b32fc3e96e6d0ca35a212aba5f">setTable</a> (std::string table)</td></tr>
+<tr class="memdesc:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the table linked to the button.  <a href="#a9b4855b32fc3e96e6d0ca35a212aba5f">More...</a><br /></td></tr>
+<tr class="separator:a9b4855b32fc3e96e6d0ca35a212aba5f inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a9deef0b896e8f06dcf727f52441df445">setIndex</a> (std::string index)</td></tr>
+<tr class="memdesc:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the index linked to the button.  <a href="#a9deef0b896e8f06dcf727f52441df445">More...</a><br /></td></tr>
+<tr class="separator:a9deef0b896e8f06dcf727f52441df445 inherit pub_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_slots_a00034"><td colspan="2" onclick="javascript:toggleInherit('pub_slots_a00034')"><img src="../../closed.png" alt="-"/>&#160;Public Slots inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a31bbce7532c03921c218f54465afcaef">click</a> ()</td></tr>
+<tr class="memdesc:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the active state of a value.  <a href="#a31bbce7532c03921c218f54465afcaef">More...</a><br /></td></tr>
+<tr class="separator:a31bbce7532c03921c218f54465afcaef inherit pub_slots_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header signals_a00034"><td colspan="2" onclick="javascript:toggleInherit('signals_a00034')"><img src="../../closed.png" alt="-"/>&#160;Signals inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#aeec905376bc407f74ba879f7dc029dcc">clicked</a> (std::string table, std::string index)</td></tr>
+<tr class="memdesc:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of the clicked signal.  <a href="#aeec905376bc407f74ba879f7dc029dcc">More...</a><br /></td></tr>
+<tr class="separator:aeec905376bc407f74ba879f7dc029dcc inherit signals_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00034"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00034')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../db/df3/a00034.php">PushButton</a></td></tr>
+<tr class="memitem:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00034"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#ad597238fb9396a94b1caa014c79f8c2e">getTable</a> () const </td></tr>
+<tr class="separator:ad597238fb9396a94b1caa014c79f8c2e inherit pro_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00034"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df3/a00034.php#a138a6609129997496311c00ed4e1acb0">getIndex</a> () const </td></tr>
+<tr class="separator:a138a6609129997496311c00ed4e1acb0 inherit pro_methods_a00034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An implementation of <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a> for the software. </p>
+<div class="textblock"><p>An implementation of <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a> for the software. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d7d/a00093_source.php#l00029">29</a> of file <a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00066">66</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a63831a9a77053bc8389e5036712218bf"></a>
+<a class="anchor" id="a8981df8ffdff12611eba021ac0fa2939"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -159,7 +181,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">H2TitleLabel::H2TitleLabel </td>
+          <td class="memname">GreyPushButton::GreyPushButton </td>
           <td>(</td>
           <td class="paramtype">QWidget *&#160;</td>
           <td class="paramname"><em>parent</em> = <code>nullptr</code></td><td>)</td>
@@ -173,21 +195,21 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create a <a class="el" href="../../d6/d42/a00043.php" title="An implementation of QLabel for the software. ">TitleLabel</a>. </p>
+<p>Create a <a class="el" href="../../db/df3/a00034.php" title="An implementation of QPushButton for the software. ">PushButton</a>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d7d/a00093_source.php#l00033">33</a> of file <a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1f/a00083_source.php#l00070">70</a> of file <a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/d7d/a00093_source.php">TitleLabel.hpp</a></li>
+<li><a class="el" href="../../d2/d1f/a00083_source.php">PushButton.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/de0/a00022.php">H2TitleLabel</a></li>
+    <li class="navelem"><a class="el" href="../../d7/de0/a00022.php">GreyPushButton</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

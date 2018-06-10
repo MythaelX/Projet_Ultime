@@ -1,4 +1,4 @@
-<map id="MainWindow" name="MainWindow">
-<area shape="rect" id="node2" href="$d3/dea/a00046.php" title="A custom window. " alt="" coords="19,155,89,181"/>
-<area shape="rect" id="node3" href="$d6/d97/a00045.php" title="Create a personnalized Widget. " alt="" coords="23,80,85,107"/>
+<map id="Hostile" name="Hostile">
+<area shape="rect" id="node2" href="$d1/d7c/a00003.php" title="An animal. " alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node3" href="$d0/d0b/a00004.php" title="An ant. " alt="" coords="15,155,58,181"/>
 </map>

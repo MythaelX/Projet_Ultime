@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: QtDefines.hpp Source File</title>
+<title>Hot Dog QUIZ: Qt.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,23 +106,18 @@ $(document).ready(function(){initNavTree('df/d5d/a00084_source.php','../../');})
 
 <div class="header">
   <div class="headertitle">
-<div class="title">QtDefines.hpp</div>  </div>
+<div class="title">Qt.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d5d/a00084.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef HEADER_QT_DEFINES</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define HEADER_QT_DEFINES</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QtWidgets&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d84/a00097.php">Widget.hpp</a>&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d5f/a00064.php">DrawScene.hpp</a>&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d89/a00071.php">GraphScene.hpp</a>&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d1e/a00087.php">Scene.hpp</a>&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../db/dab/a00089.php">Spacers.hpp</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d13/a00085.php">QtFunctions.hpp</a>&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d31/a00069.php">Font.hpp</a>&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d6d/a00055.php">C++/C++.hpp</a>&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif //HEADER_QT_DEFINES</span></div><div class="ttc" id="a00071_php"><div class="ttname"><a href="../../d0/d89/a00071.php">GraphScene.hpp</a></div></div>
-<div class="ttc" id="a00055_php"><div class="ttname"><a href="../../d4/d6d/a00055.php">C++.hpp</a></div></div>
-<div class="ttc" id="a00097_php"><div class="ttname"><a href="../../d1/d84/a00097.php">Widget.hpp</a></div></div>
-<div class="ttc" id="a00089_php"><div class="ttname"><a href="../../db/dab/a00089.php">Spacers.hpp</a></div></div>
-<div class="ttc" id="a00087_php"><div class="ttname"><a href="../../d1/d1e/a00087.php">Scene.hpp</a></div></div>
-<div class="ttc" id="a00085_php"><div class="ttname"><a href="../../df/d13/a00085.php">QtFunctions.hpp</a></div></div>
-<div class="ttc" id="a00064_php"><div class="ttname"><a href="../../df/d5f/a00064.php">DrawScene.hpp</a></div></div>
-<div class="ttc" id="a00069_php"><div class="ttname"><a href="../../d4/d31/a00069.php">Font.hpp</a></div></div>
+<a href="../../df/d5d/a00084.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#ifndef HEADER_QT</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#define HEADER_QT</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d13/a00085.php">QtDefines.hpp</a>&quot;</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d74/a00099.php">Window.hpp</a>&quot;</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/dc1/a00092.php">TableWidget.hpp</a>&quot;</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif //HEADER_QT</span></div><div class="ttc" id="a00092_php"><div class="ttname"><a href="../../d1/dc1/a00092.php">TableWidget.hpp</a></div></div>
+<div class="ttc" id="a00085_php"><div class="ttname"><a href="../../df/d13/a00085.php">QtDefines.hpp</a></div></div>
+<div class="ttc" id="a00099_php"><div class="ttname"><a href="../../da/d74/a00099.php">Window.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../df/d5d/a00084.php">QtDefines.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_9cc7dab42d10c04902c95d2c14820089.php">Widgets</a></li><li class="navelem"><a class="el" href="../../df/d5d/a00084.php">Qt.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d6/d42/a00043.php','../../');});
+$(document).ready(function(){initNavTree('d5/db6/a00042.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -108,13 +108,26 @@ $(document).ready(function(){initNavTree('d6/d42/a00043.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">TitleLabel Member List</div>  </div>
+<div class="title">TableWidget Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d42/a00043.php">TitleLabel</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/db6/a00042.php">TableWidget</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d42/a00043.php#aa3088caa93da248b64c58d77141c5d94">TitleLabel</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d6/d42/a00043.php">TitleLabel</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#abe173d2bf4af78a34eea42f6015dfc24">add</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/db6/a00042.php#acce74e5071c06cb79eb9120e7ca321f2">add</a>(QCheckBox *widget)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a89b038bcb974698aa762291d72cb52e3">add</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a9965d8f6b70b52fc8e25906a20d4a771">addHeader</a>(QWidget *widget)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a59d73338e3d97bafc754ed798fd487f6">addHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a6ec3251ece680a9da68c7e4adb1f6531">get</a>(size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dea/a00046.php#a0ce51928b65b53bd72575e7138e3238c">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../d3/dea/a00046.php">Widget</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a38b92f2d6e93627e3034f07a73138b1e">set</a>(QWidget *widget, size_t x, size_t y)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a25bba3124cdbe518985157ff23b0b1d0">setHeader</a>(QWidget *widget, size_t x)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/db6/a00042.php#aa29e2c37c0e310779790537890c529f2">TableWidget</a>(QWidget *parent=nullptr, size_t w=0, size_t h=0)</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a8ee97e18b4afb72672b36ef2002537ae">update</a>()</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/dea/a00046.php#ace1aa23652eb4425355a81760b39fd37">Widget</a>(QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../d3/dea/a00046.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/db6/a00042.php#a5fb6edc429e21280d8f47faf6fe012fa">~TableWidget</a>()</td><td class="entry"><a class="el" href="../../d5/db6/a00042.php">TableWidget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d3/dea/a00046.php#a714cf798aadb4d615f6f60a355382c02">~Widget</a>()</td><td class="entry"><a class="el" href="../../d3/dea/a00046.php">Widget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

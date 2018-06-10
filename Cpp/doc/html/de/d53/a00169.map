@@ -1,9 +1,6 @@
-<map id="QtFunctions.hpp" name="QtFunctions.hpp">
-<area shape="rect" id="node2" href="$df/d5d/a00084.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
-<area shape="rect" id="node3" href="$d4/d31/a00069.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
-<area shape="rect" id="node4" href="$d2/d1f/a00083.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
-<area shape="rect" id="node6" href="$da/d74/a00099.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
-<area shape="rect" id="node5" href="$da/d82/a00091.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
-<area shape="rect" id="node7" href="$d0/d61/a00100.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
-<area shape="rect" id="node8" href="$d1/d44/a00098.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
+<map id="Qt.hpp" name="Qt.hpp">
+<area shape="rect" id="node2" href="$dc/d54/a00094.php" title="TitleLabel.hpp" alt="" coords="37,80,140,107"/>
+<area shape="rect" id="node4" href="$d9/da5/a00075.php" title="MainWindow.h" alt="" coords="73,229,181,256"/>
+<area shape="rect" id="node5" href="$d1/dc1/a00092.php" title="TableWidget.hpp" alt="" coords="215,80,335,107"/>
+<area shape="rect" id="node3" href="$df/d5f/a00064.php" title="Dialog.hpp" alt="" coords="5,155,89,181"/>
 </map>
