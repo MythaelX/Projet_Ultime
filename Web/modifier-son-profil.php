@@ -27,7 +27,8 @@
 	/*******************/
 
 	/* Scripts personnels */
-
+		$head->head_script("js/fonction.js");
+		$head->head_script("js/modification.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête
@@ -36,7 +37,8 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-
+				<?php require_once("php/verificationToken.php");?>
+				<?php require_once("php/formulaireModification.php");?>
 			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>

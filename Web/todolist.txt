@@ -1,7 +1,5 @@
--inscription affficher un message en cas d'erreur ou de success
- -faire l'ago partie : une partie continent des difficulte
- -faire le jeu
--ne pas metre la difficulté en dur 
-rajouter id_partie
-
-afficher le score dans jeu au lieu de palmares
+-inscription affficher un message en cas d'erreur ou de succés
+-verifier en ajax le pseudo et email dans inscription.js
+-faire le css de modifier-son-profil,jeu,creation de partie et accueilPerso
+-changer le message d'erreur connexion
+-bordure cache le truc de mathias

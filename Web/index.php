@@ -37,7 +37,8 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-			<?php require_once("php/presentation.php"); ?>
+			<?php require_once("php/verificationToken.php");?>
+			<?php require_once("php/accueil.php"); ?>
 			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>

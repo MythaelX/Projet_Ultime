@@ -28,6 +28,7 @@
 	/*******************/
 
 	/* Scripts personnels */
+		$head->head_script("js/fonction.js");
 		$head->head_script("js/inscription.js");
 	/***************************/
 
@@ -37,6 +38,7 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
+			<?php require_once("php/verificationToken.php");?>
 			<?php require_once("php/formulaireInscription.php") ?>
 			<div>
 		</main>

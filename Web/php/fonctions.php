@@ -9,7 +9,6 @@ function sendJsonData($message, $h){
 }
 
 function authentification($bdd){
-    error_log(implode(" _ ", $_SERVER));
     $pseudo = $_SERVER['PHP_AUTH_USER'];
     $mdp = $_SERVER['PHP_AUTH_PW'];
     $statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password='$mdp'"); //sha1('$mdp')
@@ -27,15 +26,18 @@ function authentification($bdd){
 }
 
 function verifieToken($bdd){
-    $headers = getallheaders();
-    $token = $headers['Authorization'];
-    if (preg_match('/Bearer (.*)/', $token, $tab))$token = $tab[1];
-    $pseudo = $bdd->query("select pseudo from utilisateurs where token='$token'");
-
-    if(!($pseudo)){
-        Unauthorized();
-    }
-    return $pseudo;
+  if(isset($_COOKIE['token'])) {
+      $pseudo = $bdd->query("select pseudo from utilisateurs where token='$token'")[0]['pseudo'];
+      if(isset($pseudo)){
+          return true;
+      }
+      unset($_COOKIE['token']);
+      setcookie('token', null, -1, '/');
+  }
+  unset($_COOKIE['pseudo']);
+  setcookie('pseudo', null, -1, '/');
+  session_destroy();
+  return false;
 }
 
 function creationPartie($bdd,$tabQuestions){ //insertion d'une partie dans la bdd

@@ -1,11 +1,13 @@
 $("#boutonModifier").addEventListener('click',function(event){
   event.preventDefault();
-  document.location="./modifier.php";
+  document.location="./modifier-son-profil.php";
 });
+
 $("#boutonCréer").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./creer-une-partie.php";
 });
+
 affichageAccueil(pseudo);
 function affichageAccueil(pseudo){
   if(pseudo!=null){
@@ -20,13 +22,12 @@ function affichageParties(ajaxResponse){
 var text,json;
 text="";
 json= JSON.parse(ajaxResponse);
-console.log(json);
 for (var i = 0; i < json.length; i++) {
   text+='<tr><td>'+
   '<input type="radio" id="radioButton'+i+'" name="choix" value="'+json[i]["id_partie"]+'">'+'</td><td>'+
   'Partie'+json[i]["id_partie"]+
   '</td></tr>';
 }
-console.log(text);
 $('#tableaudepartie').innerHTML= text;
+$('#radioButton0').checked=true;
 }

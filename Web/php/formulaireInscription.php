@@ -1,4 +1,4 @@
-<div class="formulaire">
+<div id="formulaireInscription">
 <h1>INSCRIPTION</h1>
 <form  method="post" action="php/register.php" target="_self" enctype="multipart/form-data"  id="formulaireInscription">
   <div>
@@ -7,22 +7,28 @@
   </div>
 <div>
 	<label for="pseudo">Mot de passe :</label>
-	<input type="text" name="mdp" id="mdp" min="2" max="25"/>
+	<input type="password" name="mdp" id="mdp" min="2" max="25"/>
 </div>
 <div >
 	<label for="mdp">Retapez mot de passe :</label>
-	<input type="text" name="mdpVerif" id="mdpVerif" />
+	<input type="password" name="mdpVerif" id="mdpVerif" />
 </div>
 <div >
-	<label for="mdp">email :</label>
+	<label for="mdp">Email :</label>
 	<input type="email" name="email" id="email" />
 </div>
-<div>
-	<img src="design/img/presentation.png" alt="icon avatar" id="imageAvatar">
-	<input type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar"/>
+<div id="blockAvatar">
+	<img src="design/img/avatardefaut.png" alt="Icon avatar" id="imageAvatar">
+  <div>
+	  <input  type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar"/>
+    <button id="boutonAvatar2">Choissez votre avatar</label>
+  </div>
 </div>
 <div>
 	<input type="submit" class="boutonvert" value="Inscription" id="boutonInscription"/>
 </div>
 </form>
+
+
+
 </div>

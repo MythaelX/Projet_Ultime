@@ -6,11 +6,11 @@ function affichageThemes(ajaxResponse){
   var text,json;
   text="";
   json= JSON.parse(ajaxResponse);
+  console.log(json);
   for (var i = 0; i < json.length; i++) {
     text+='<tr><td>'+
     '<input type="checkbox" id="checkbox'+i+'" name="choix" value="'+json[i]["nom_categorie"]+'">'+'</td><td>'+
-    'Partie'+json[i]["nom_categorie"]+
-    '</td></tr>';
+    json[i]["nom_categorie"]+'</td></tr>';
     nbThemes+=1;
   }
   $('#tableauThemes').innerHTML= text;

@@ -1,5 +1,5 @@
 
-<div class="formulaire">
+<div id="formulaireConnexion">
 <h1>CONNEXION</h1>
 <form>
 <div>
