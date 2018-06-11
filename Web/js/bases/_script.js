@@ -671,6 +671,11 @@ function enable(el){
 					console.log("nav height : " + getTotalHeight(nav));
 					console.log("Margin top : " + getStyle(nav).marginTop);
 				}
+				if(isset(main)){
+					//newMainHeight -= getTotalHeight(footer);
+					console.log("new main height : " + newMainHeight);
+					console.log("Margin top : " + getStyle(main).marginTop);
+				}
 				if(isset(footer)){
 					newMainHeight -= getTotalHeight(footer);
 					console.log("new main height : " + newMainHeight);
