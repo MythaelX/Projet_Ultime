@@ -663,24 +663,24 @@ function enable(el){
 					newMainHeight -= getTotalHeight(header);
 					console.log("new main height : " + newMainHeight);
 					console.log("header height : " + getTotalHeight(header));
-					console.log("Margin top : " + getStyle(header).marginTop);
+					console.log("header margin top : " + getStyle(header).marginTop);
 				}
 				if(isset(nav)){
 					newMainHeight -= getTotalHeight(nav);
 					console.log("new main height : " + newMainHeight);
 					console.log("nav height : " + getTotalHeight(nav));
-					console.log("Margin top : " + getStyle(nav).marginTop);
+					console.log("nav margin top : " + getStyle(nav).marginTop);
 				}
 				if(isset(main)){
 					//newMainHeight -= getTotalHeight(footer);
 					console.log("new main height : " + newMainHeight);
-					console.log("Margin top : " + getStyle(main).marginTop);
+					console.log("main margin top : " + getStyle(main).marginTop);
 				}
 				if(isset(footer)){
 					newMainHeight -= getTotalHeight(footer);
 					console.log("new main height : " + newMainHeight);
 					console.log("footer height : " + getTotalHeight(footer));
-					console.log("Margin top : " + getStyle(footer).marginTop);
+					console.log("footer margin top : " + getStyle(footer).marginTop);
 				}
 
 				if(isset(body)){
