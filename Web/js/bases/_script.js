@@ -665,9 +665,7 @@ function enable(el){
 					newMainHeight -= getTotalHeight(nav);
 				}
 				if(isset(main)){
-					console.log(newMainHeight);
 					newMainHeight -= parseFloat(getStyle(main).marginTop);
-					console.log(newMainHeight);
 				}
 				if(isset(footer)){
 					newMainHeight -= getTotalHeight(footer);
