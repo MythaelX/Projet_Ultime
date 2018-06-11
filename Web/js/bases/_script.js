@@ -630,15 +630,18 @@ function enable(el){
 				
 				if(isset(header)){
 					newMainHeight -= getHeight(header);
-				console.log("new main height : " + newMainHeight);
+					console.log("new main height : " + newMainHeight);
+					console.log("header height : " + getHeight(header));
 				}
 				if(isset(nav)){
 					newMainHeight -= getHeight(nav);
-				console.log("new main height : " + newMainHeight);
+					console.log("new main height : " + newMainHeight);
+					console.log("nav height : " + getHeight(nav));
 				}
 				if(isset(footer)){
 					newMainHeight -= getHeight(footer);
-				console.log("new main height : " + newMainHeight);
+					console.log("new main height : " + newMainHeight);
+					console.log("footer height : " + getHeight(footer));
 				}
 
 				if(isset(body)){
