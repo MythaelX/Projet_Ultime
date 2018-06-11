@@ -626,7 +626,7 @@ function enable(el){
 				body.style.paddingBottom = "1px";
 
 				main.style.height = "auto";
-				main.style.marginBottom = height + "px";
+				//main.style.marginBottom = height + "px";
 			}
 		}
 	}
