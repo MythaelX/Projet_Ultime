@@ -107,6 +107,7 @@ html {
 			}
 		}
 		main {
+
 			div#presentation{
 				margin: 5%;
 				margin-top: 2%;
@@ -161,26 +162,33 @@ html {
 
 			div#accueilPerso{
 				display:none;
+				div#tableauCaption{
+				width: 500px;
+				margin-top: 4%;
+				margin-left: 3%;
+				div#text{
+					padding:12px 0 8px 0;
+					border-radius:20px 20px 0 0;
+					border: 2px solid @black1;
+					background-image:@navbar;
+					text-align: center;
+					.font('cheeseburger',0.9em);
+					color:@white1;
+				}
+				div#tableau{
+					width: auto;
+					margin-top:0px;
+					overflow-y:scroll;
+					height:420px;
 				table{
-					margin-left: 3%;
-					margin-top: 4%;
 					float: left;
 					text-align: center;
 					background-color:@white3;
-					border-radius:0 0 5px 5px;
+					border-radius:0 0 0 5px;
 					border: 2px solid @black1;
 					border-spacing:0;
-					overflow:scroll;
-					caption{
-						padding: 5px 10px;
-						font-size: 1.5em;
-						border-radius:20px 20px 0 0;
-						border: 2px solid @black1;
-						color:@white1;
-						background-image:@navbar;
-					}
+
 					th{
-						margin-top: -1px;
 						color:@white1;
 						padding: 10px;
 						padding-left: 30px;
@@ -196,18 +204,23 @@ html {
 						}
 					}
 				}
+			}
+				}
 				div#blockBoutons{
 					position: absolute;
-					margin-top: 10%;
-					margin-left: 70%;
+					top:0px;
+					right: 0;
+
+					margin-right:8%;
+					width: 300px;
 					button,input{
 						float: right;
 						margin-top: 40px;
 						margin-right: 40px;
-						width:230px;
-						padding: 8px 0;
+						width:400px;
+						padding: 20px 0;
 						color: @black3;
-						font-size:1.1em;
+						font-size:1.3em;
 						border-style: solid;
 						border-color: @black1;
 						border-width:1px;
@@ -257,7 +270,9 @@ html {
 				background-color: @white2;
 
 				h1{
+					padding:10px 0 7px 0;
 					.font('cheeseburger',1.3em);
+					font-weight:normal;
 					background: @navbar;
 					border-style: solid;
 					border-color: @black1;
@@ -323,6 +338,8 @@ html {
 				background-color: @white2;
 
 				h1{
+					font-weight:normal;
+					padding:10px 0 7px 0;
 					.font('cheeseburger',1.3em);
 					background: @navbar;
 					border-style: solid;

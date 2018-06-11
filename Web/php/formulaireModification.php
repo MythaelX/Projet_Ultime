@@ -24,15 +24,15 @@ echo "<script> var mdpActuelBDD='".$password."'</script>";
   </div>
 <div>
 	<label for="mot de passe">Votre Mot de passe :</label>
-	<input type="text" name="mdpActuel" id="mdpActuel"/>
+	<input type="password" name="mdpActuel" id="mdpActuel"/>
 </div>
 <div >
 	<label for="mdp">Nouveau :</label>
-	<input type="text" name="mdp" id="mdp"/>
+	<input type="password" name="mdp" id="mdp"/>
 </div>
 <div>
 	<label for="mdpVerif">Confirmer :</label>
-	<input type="text" name="mdpVerif" id="mdpVerif"/>
+	<input type="password" name="mdpVerif" id="mdpVerif"/>
 </div>
 <div>
   <button id="boutonAnnuler">Annuler</button>

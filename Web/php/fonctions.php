@@ -27,7 +27,8 @@ function authentification($bdd){
 
 function verifieToken($bdd){
   if(isset($_COOKIE['token'])) {
-      $pseudo = $bdd->query("select pseudo from utilisateurs where token='$token'")[0]['pseudo'];
+      $token=$_COOKIE['token'];
+      $pseudo = $bdd->query("SELECT pseudo FROM utilisateurs WHERE token='".$token."'")[0]['pseudo'];
       if(isset($pseudo)){
           return true;
       }
