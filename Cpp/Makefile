@@ -542,10 +542,10 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -586,10 +586,10 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -646,10 +646,10 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -705,10 +705,10 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -753,10 +753,10 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -796,10 +796,10 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -840,10 +840,10 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -908,10 +908,10 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -951,10 +951,10 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -987,10 +987,10 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1040,10 +1040,10 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1093,10 +1093,10 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1146,10 +1146,10 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1199,10 +1199,10 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1259,10 +1259,10 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1300,46 +1300,7 @@ DrawScene.o: Widgets/DrawScene.cpp Widgets/DrawScene.hpp \
 		Widgets/Scene.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DrawScene.o Widgets/DrawScene.cpp
 
-Font.o: Widgets/Font.cpp Widgets/Font.hpp \
-		Widgets/QtDefines.hpp \
-		Widgets/Widget.hpp \
-		Widgets/DrawScene.hpp \
-		Widgets/Scene.hpp \
-		Widgets/GraphScene.hpp \
-		Widgets/Spacers.hpp \
-		Widgets/QtFunctions.hpp \
-		Widgets/C++/defines.hpp \
-		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
-		Widgets/C++/errors.hpp \
-		Widgets/C++/console.hpp \
-		Widgets/C++/convert.hpp \
-		Widgets/C++/files.hpp \
-		Widgets/C++/time.hpp \
-		Widgets/C++/pointers.hpp \
-		Widgets/C++/string.hpp \
-		Widgets/C++/macro.hpp \
-		Widgets/C++/array.hpp \
-		Widgets/C++/RNG.hpp \
-		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
-		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
-		Widgets/C++/collides.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
-		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp
+Font.o: Widgets/Font.cpp Widgets/Font.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Font.o Widgets/Font.cpp
 
 GraphScene.o: Widgets/GraphScene.cpp Widgets/GraphScene.hpp \
@@ -1349,10 +1310,10 @@ GraphScene.o: Widgets/GraphScene.cpp Widgets/GraphScene.hpp \
 QtFunctions.o: Widgets/QtFunctions.cpp Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1378,10 +1339,10 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/QtFunctions.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1425,10 +1386,10 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1470,10 +1431,10 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1515,10 +1476,10 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1558,10 +1519,10 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1602,10 +1563,10 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1646,10 +1607,10 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1690,10 +1651,10 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1734,10 +1695,10 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1776,10 +1737,10 @@ Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1800,10 +1761,10 @@ Ant.o: Widgets/C++/Ant.cpp Widgets/C++/Ant.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1832,10 +1793,10 @@ array.o: Widgets/C++/array.cpp Widgets/C++/array.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o array.o Widgets/C++/array.cpp
 
 bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1860,10 +1821,10 @@ console.o: Widgets/C++/console.cpp Widgets/C++/console.hpp \
 Contraption.o: Widgets/C++/Contraption.cpp Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1883,10 +1844,10 @@ convert.o: Widgets/C++/convert.cpp Widgets/C++/convert.hpp
 cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1900,10 +1861,10 @@ cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 
 defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1919,10 +1880,10 @@ Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1952,10 +1913,10 @@ Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -1970,10 +1931,10 @@ Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Hostile.o Widgets/C++/Hostile.cpp
 
 Map.o: Widgets/C++/Map.cpp Widgets/C++/Map.hpp \
+		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
 		Widgets/C++/types.hpp \
-		Widgets/C++/errors.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Map.o Widgets/C++/Map.cpp
@@ -1987,10 +1948,10 @@ Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -2008,10 +1969,10 @@ Object.o: Widgets/C++/Object.cpp Widgets/C++/Object.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -2031,10 +1992,10 @@ Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -2053,10 +2014,10 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
@@ -2099,10 +2060,10 @@ Vegetal.o: Widgets/C++/Vegetal.cpp Widgets/C++/Vegetal.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
-		Widgets/C++/types.hpp \
 		Widgets/C++/errors.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/convert.hpp \
+		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
 		Widgets/C++/pointers.hpp \
