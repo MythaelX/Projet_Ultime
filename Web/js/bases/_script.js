@@ -626,15 +626,19 @@ function enable(el){
 
 			if(getStructHeight() <= windowHeight()){
 				var newMainHeight = windowHeight();
+				console.log("new main height : " + newMainHeight);
 				
 				if(isset(header)){
 					getHeight(header);
+				console.log("new main height : " + newMainHeight);
 				}
 				if(isset(nav)){
 					newMainHeight -= getHeight(nav);
+				console.log("new main height : " + newMainHeight);
 				}
 				if(isset(footer)){
 					newMainHeight -= getHeight(footer);
+				console.log("new main height : " + newMainHeight);
 				}
 
 				if(isset(body)){
