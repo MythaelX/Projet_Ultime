@@ -18,6 +18,7 @@
 		public $db;
 		private $req;
 		private $dbType;
+		private $debug;
 
 		/*!
 		* \brief Class constructor
@@ -65,7 +66,7 @@
 					$command .= ";dbname=" . $name . ";charset=UTF8;";
 					$this->db = new PDO($command, $user, $pass);
 
-					if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+					if($this->debug == true){ error_log($command); }
 				} catch(PDOException $e){
 					error_log($this->dbType . ' connect error: ' . $e->getMessage());
 					die();
@@ -102,7 +103,7 @@
 			try {
 				$command = $this->secureValues($command);
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -127,7 +128,7 @@
 			try {
 				$command = "SHOW TABLES";
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				if(!($this->req = $this->db->query($command))){
 					return false;
@@ -155,7 +156,7 @@
 			try {
 				$command = "SHOW COLUMNS FROM " . $table;
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -195,7 +196,7 @@
 			try {
 				$command = "SELECT $selection FROM $name $opt";
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				if(!($this->req = $this->db->query($command))){
 					return "";
@@ -246,7 +247,7 @@
 				$command = "INSERT INTO `$name` VALUES(" . $this->secureValues($val) . ")";
 				$this->db->exec($command);
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				return true;
 			} catch(PDOException $e){
@@ -297,7 +298,7 @@
 				$command = "UPDATE `$name` SET $val $opts";
 				$this->db->exec($command);
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				return true;
 			} catch(PDOException $e){
@@ -316,13 +317,21 @@
 				$command = "DELETE FROM `$name` WHERE $where";
 				$this->db->exec($command);
 
-				if(isset($GLOBALS["DEBUG"]) && $GLOBALS["DEBUG"] == true){ error_log($command); }
+				if($this->debug == true){ error_log($command); }
 
 				return true;
 			} catch(PDOException $e){
 				error_log($this->dbType . ' delete request error: ' . $e->getMessage());
 				return false;
 			}
+		}
+
+		/*!
+		* \brief	Set the debugging to \b true or \b false
+		*		\param[in]		$state				\b true or \b false
+		*/
+		public function debug($state){
+			$this->debug = $state;
 		}
 	}
 ?>
