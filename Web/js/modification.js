@@ -1,3 +1,4 @@
+'use strict';
 $("#boutonAnnuler").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./index.php";
@@ -20,5 +21,4 @@ function valideModification(event){
     }
     httpErrors(400,text);
   }
-  console.log("ok");
 }

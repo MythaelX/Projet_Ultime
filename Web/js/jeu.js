@@ -1,5 +1,4 @@
-console.log(id_partie);
-
+'use strict';
 var questions=new Array();
 questions['solution_un']=new Array();
 questions['solution_deux']=new Array();
@@ -48,7 +47,6 @@ function affichageJeu(){
   var j,i,temps;
   j=compteurQuestion;
   i=compteurProposition;
-  console.log();
   temps = new Date();
   data['temps'][j][i]=parseInt(temps.getTime());
   $("#question").innerHTML='N°'+(j+1)+'/'+questions['solution_un'].length+' '+questions['solution_un'][j]+', '+questions['solution_deux'][j]+' ou les deux ?';
@@ -62,9 +60,7 @@ function recuperationReponseTemp(reponse){
   i=compteurProposition;
   j=compteurQuestion;
   temps=new Date();
-  console.log("reponse :"+reponse+"solution :"+solutionProposition[j][i])
   if(reponse.toLowerCase()==solutionProposition[j][i].toLowerCase()){
-    console.log("sddoio");
     data['reponses'][j][i]=true;
   }else{
     data['reponses'][j][i]=false;
@@ -74,20 +70,16 @@ function recuperationReponseTemp(reponse){
 
 function recupererQuestions(ajaxResponse){
   var json= JSON.parse(ajaxResponse);
-  console.log(json);
   for (var i = 0; i < json.length; i++) {
     questions['solution_un'][i]=json[i]['solution_un'];
     questions['solution_deux'][i]=json[i]['solution_deux'];
     ajaxRequest('GET','php/request.php/propositions',recupererPropositions,'id_question='+json[i]['id_question']);
-    console.log("okd");
   }
-  console.log(questions);
 }
 
 function recupererPropositions(ajaxResponse){
   var json= JSON.parse(ajaxResponse);
   var j =proposition.length;
-  console.log(json);
   proposition[j]=new Array();
   solutionProposition[j]=new Array();
   data['temps'][j]=new Array();
@@ -96,14 +88,12 @@ function recupererPropositions(ajaxResponse){
     proposition[j][i]=json[i]['texte_proposition'];
     solutionProposition[j][i]=json[i]['solution_proposition'];
   }
-  console.log(proposition);
-  console.log(solutionProposition);
   jeu();
 }
 
 function affichageScore(ajaxResponse){
 var json= JSON.parse(ajaxResponse);
-console.log(json);
+
 $("#score").innerHTML="score"+json['score'];
 
 $("#temps").innerHTML="temps"+json['temps'];

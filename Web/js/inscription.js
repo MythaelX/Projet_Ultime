@@ -4,26 +4,44 @@ $("#pseudo").addEventListener('change',verifPseudo);
 $("#email").addEventListener('change',verifMail);
 $("#boutonAvatar").addEventListener('change',recupérationAvatar);
 
+$("#boutonAvatar2").addEventListener( "click", function( event ) {
+  event.preventDefault();
+   $("#boutonAvatar").click();
+   return false;
+});
+
+$("#pseudo").addEventListener('blur',function(event){
+var pseudo=event.currentTarget.value;
+ajaxRequest("GET",'php/request.php/pseudo',verifPseudoBDD,'pseudo='+pseudo);
+});
+
+$("#email").addEventListener('blur',function(event){
+var email=event.currentTarget.value;
+ajaxRequest("GET",'php/request.php/email',verifEmailBDD,'email='+email);
+});
+
+var verifBDDPseudo=false;
+var verifBDDEmail=false;
+
 function valideInscription(event){
   var text;
-  if(verifPseudo()==true || verifMotDePasse()==true || verifMail()==true){
+  if(verifBDDPseudo==true || verifBDDEmail==true || verifMotDePasse()==true || verifMail()==true || verifPseudo()==true){
     event.preventDefault();
-    if(verifPseudo()){
-      text = 'Veuillez rentrer un pseudo entre 2 et 25 caractères';
+    if(verifBDDPseudo){
+        surligne(pseudo, true);
+        text = 'Votre pseudo est déja pris';
+    }else if(verifBDDEmail){
+        surligne(email, true);
+        text = 'Un compte est déja relié à cette adresse email';
     }else if(verifMotDePasse()){
         text = 'Veuillez mettre 2 fois le même mot de passe';
     }else if(verifMail()){
         text = 'Veuillez mettre un bon email';
+    }else if(verifPseudo()){
+      text = 'Veuillez rentrer un pseudo entre 2 et 25 caractères';
     }
     httpErrors(400,text);
   }else{
-    alert("Votre inscription a été enregistrée,vous allez etre redirigé vers la page accueil s'il n'y a aucun erreur");
+    alert("Votre inscription a été enregistrée,vous allez etre redirigé vers la page d'accueil s'il n'y a aucun erreur pour l'avatar");
   }
 }
-
-$("#boutonAvatar2").addEventListener( "click", function( event ) {
-  event.preventDefault();
-  console.log("ok")
-   $("#boutonAvatar").click();
-   return false;
-});

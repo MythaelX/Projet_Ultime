@@ -55,6 +55,12 @@
 			}else if($requestRessource == 'propositions'){
 				$id_question=$_GET['id_question'];
 				$data=$bdd->query("SELECT texte_proposition,solution_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
+			}else if($requestRessource=='pseudo'){
+				$pseudo=$_GET['pseudo'];
+				$data=$bdd->query("SELECT pseudo FROM utilisateurs WHERE pseudo='".$pseudo."'");
+			}else if($requestRessource=='email'){
+				$mail=$_GET['email'];
+				$data=$bdd->query("SELECT mail FROM utilisateurs WHERE mail='".$mail."'");
 			}
 			sendJsonData($data,'HTTP/1.1 200 OK');
 			break;

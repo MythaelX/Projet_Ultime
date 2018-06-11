@@ -45,7 +45,7 @@ html {
 
 					a {
 						display: block;
-    				text-align: center;
+						text-align: center;
 						text-decoration: none;
 						color: @white1;
 						font-size:1.5em;
@@ -117,9 +117,9 @@ html {
 				border-radius:20px;
 
 				&::after {
-    			content: "";
-    			display: table;
-    			clear: both;
+					content: "";
+					display: table;
+					clear: both;
 				}
 
 				div{
@@ -160,13 +160,91 @@ html {
 			}
 
 			div#accueilPerso{
-				 display:none;
+				display:none;
+				table{
+					margin-left: 3%;
+					margin-top: 4%;
+					float: left;
+					text-align: center;
+					background-color:@white3;
+					border-radius:0 0 5px 5px;
+					border: 2px solid @black1;
+					border-spacing:0;
+					overflow:scroll;
+					caption{
+						padding: 5px 10px;
+						font-size: 1.5em;
+						border-radius:20px 20px 0 0;
+						border: 2px solid @black1;
+						color:@white1;
+						background-image:@navbar;
+					}
+					th{
+						margin-top: -1px;
+						color:@white1;
+						padding: 10px;
+						padding-left: 30px;
+						padding-right:30px;
+						border: 1px solid @black1;
+						background-color:@black4;
+						font-size: 1.3em;
+					}
+					tbody{
+						td{
+							padding: 7px;
+							border: 1px solid @black1;
+						}
+					}
+				}
+				div#blockBoutons{
+					position: absolute;
+					margin-top: 10%;
+					margin-left: 70%;
+					button,input{
+						float: right;
+						margin-top: 40px;
+						margin-right: 40px;
+						width:230px;
+						padding: 8px 0;
+						color: @black3;
+						font-size:1.1em;
+						border-style: solid;
+						border-color: @black1;
+						border-width:1px;
+						border-radius:5px;
+						&:hover {
+							box-shadow: -2.5px 2px 8px 8px @black2;
+						}
+					}
+					#boutonModifier{
+						color: @white1;
+						background-image: @boutonrouge1;
+						&:active{
+							background-image: @boutonrouge2;
+						}
+					}
+					#boutonCreer{
+						color: @white1;
+						background-image: @boutongris1;
+						&:active{
+							background-image: @boutongris2;
+						}
+					}
+					#boutonRejoindre{
+						color: @white1;
+						cursor: pointer;
+						background-image: @boutonvert1;
+						&:active{
+							background-image: @boutonvert2;
+						}
+					}
+				}
 			}
 
 			div#formulaireConnexion{
-				margin-top: 10%;
+				margin-top: 5%;
 				margin-left: auto;
-    		margin-right: auto;
+				margin-right: auto;
 				max-width: 400px;
 				padding-bottom: 1%;
 				border-style: solid;
@@ -215,9 +293,9 @@ html {
 					background-image: @boutonvert1;
 
 					&:hover {
-  					box-shadow: -2.5px 2px 8px 8px @black2;
+						box-shadow: -2.5px 2px 8px 8px @black2;
 
-						}
+					}
 					&:active{
 						background-image: @boutonvert2;
 					}
@@ -288,33 +366,33 @@ html {
 					&:hover {
 						box-shadow: -2.5px 2px 8px 8px @black2;
 
-						}
+					}
 					&:active{
 						background-image: @boutonvert2;
 					}
 				}
 				div#blockAvatar{
-				padding: 0;
-				margin:0;
-				img{
-					margin-left:25%;
+					padding: 0;
+					margin:0;
+					img{
+						margin-left:25%;
 						width:5em;
 						height:5em;
 						float: left;
-				}
+					}
 
-				div{
-					margin-top:20px;
-					margin-left:50px;
-					#boutonAvatar{
-						display:none;
+					div{
+						margin-top:20px;
+						margin-left:50px;
+						#boutonAvatar{
+							display:none;
+						}
+						#boutonAvatar2{
+							padding:10px;
+							margin-top: 1%;
+							margin-right: 1%;
+						}
 					}
-					#boutonAvatar2{
-						padding:10px;
-						margin-top: 1%;
-						margin-right: 1%;
-					}
-				}
 				}
 			}
 
@@ -336,11 +414,11 @@ html {
 					border-radius:0 5px 5px;
 					border: 2px solid @black1;
 					border-spacing:0;
-    			width: 100%;
+					width: 100%;
 					th{
-					    padding: 10px;
-							border: 1px solid @black1;
-							font-size: 1.3em;
+						padding: 10px;
+						border: 1px solid @black1;
+						font-size: 1.3em;
 					}
 					tbody{
 						td{
@@ -350,25 +428,25 @@ html {
 					}
 				}
 				div{
-				margin-top:20px;
-				margin-left: 5px;
-				button{
-					font-size: 1.2em;
-					color: @white1;
-					margin-left: -5px;
-					border: 4px solid @black1;
-					border-width:2px;
-					border-radius: 0 10px 0 0;
-					padding: 5px 40px 5px 40px;
-					background-color:@gray;
-					&:hover {
-  					box-shadow: -2.5px 2px 8px 8px @black3;
+					margin-top:20px;
+					margin-left: 5px;
+					button{
+						font-size: 1.2em;
+						color: @white1;
+						margin-left: -5px;
+						border: 4px solid @black1;
+						border-width:2px;
+						border-radius: 0 10px 0 0;
+						padding: 5px 40px 5px 40px;
+						background-color:@gray1;
+						&:hover {
+							box-shadow: -2.5px 2px 8px 8px @black3;
 						}
-					&:active{
-						background-color:@black2;
+						&:active{
+							background-color:@black2;
+						}
 					}
 				}
-			}
 			}
 		}
 

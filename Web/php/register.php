@@ -11,9 +11,11 @@ $pseudo = $_POST['pseudo'];
 $mdp = $_POST['mdp'];
 
 $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
-if($avatar !== false){
-  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."','".$mdp."','".$avatar."',' '");
+if($avatar != false){
+  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."','".$mdp."','files/img/".$avatar."',' '");
   header('Location: ../inscription.php');
+}else{
+  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."','".$mdp."','design/img/avatardefaut.png',' '");
 }
 header('Location: ../index.php');
 

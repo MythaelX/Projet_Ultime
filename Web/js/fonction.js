@@ -1,13 +1,11 @@
+'use strict';
 function recupérationAvatar() {
-  console.log("ok");
   var f = $("#boutonAvatar");
   if (f.files && f.files[0]) {
-    console.log("ok2");
     var f = $("#boutonAvatar");
     var reader= new FileReader();
     reader.onload = function(e) {
       $('#imageAvatar').setAttribute('src', e.target.result);
-      console.log("ok3");
     }
     reader.readAsDataURL(f.files[0]);
   }
@@ -97,6 +95,28 @@ function mdpActuelVerif(){
   }else{
     surligne(mdpActuel, true);
     return true;
+  }
+}
+
+function verifPseudoBDD(ajaxResponse){
+var json=JSON.parse(ajaxResponse);
+if(json[0]!=null){
+  surligne(pseudo, true);
+  verifBDDPseudo=true;
+}else{
+  surligne(pseudo, false);
+  verifBDDPseudo=false;
+  }
+}
+
+function verifEmailBDD(ajaxResponse){
+var json=JSON.parse(ajaxResponse);
+if(json[0]!=null){
+  surligne(email, true);
+  verifBDDEmail=true;
+}else{
+  surligne(email, false);
+  verifBDDEmail=false;
   }
 }
 

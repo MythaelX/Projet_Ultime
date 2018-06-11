@@ -8,7 +8,7 @@
 </div>
 <div >
 	<label for="mdp">Mot de passe :</label>
-	<input type="text" name="mdp" id="mdp" />
+	<input type="password" name="mdp" id="mdp" />
 </div>
 <div>
 	<input type="submit" class="boutonvert" value="SE CONNECTER" id="boutonConnexion"/>

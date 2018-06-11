@@ -16,10 +16,12 @@
 <div id="accueilPerso">
   <form method="post" action=" jeu.php" target="_self">
   <table >
+    <caption>Selectionner une partie exitante</caption>
 		<thead>
 			<tr>
-        <th scope="col">selectionner</th>
+        <th scope="col">Selectionner</th>
 				<th scope="col">Nom de la partie</th>
+        <th scope="col">Jouées</th>
 			</tr>
 		</thead>
 		<tbody id="tableaudepartie">
@@ -27,7 +29,7 @@
 	</table>
 <div id="blockBoutons">
   <button id="boutonModifier">Modifier son profil</button>
-  <button id="boutonCréer">Créer une partie</button>
+  <button id="boutonCreer">Créer une partie</button>
   <input type="submit"  id="boutonRejoindre" value="Rejoindre une partie"/>
 </div>
 </form>

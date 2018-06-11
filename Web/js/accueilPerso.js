@@ -1,9 +1,10 @@
+'use strict';
 $("#boutonModifier").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./modifier-son-profil.php";
 });
 
-$("#boutonCréer").addEventListener('click',function(event){
+$("#boutonCreer").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./creer-une-partie.php";
 });
@@ -30,4 +31,5 @@ for (var i = 0; i < json.length; i++) {
 }
 $('#tableaudepartie').innerHTML= text;
 $('#radioButton0').checked=true;
+resizeOnloadFunctions();
 }

@@ -1,5 +1,4 @@
--inscription affficher un message en cas d'erreur ou de succés
--verifier en ajax le pseudo et email dans inscription.js
 -faire le css de modifier-son-profil,jeu,creation de partie et accueilPerso
 -changer le message d'erreur connexion
 -bordure cache le truc de mathias
+-faire affichage des parties par rapport a la difficulte

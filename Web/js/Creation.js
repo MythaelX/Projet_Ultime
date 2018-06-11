@@ -1,3 +1,4 @@
+'use strict';
 ajaxRequest('GET','php/request.php/tableauThemes',affichageThemes);
 ajaxRequest('GET','php/request.php/tableauDifficulte',affichageDifficulte);
 $("#boutonCreer").addEventListener('click',creerPartie);
@@ -6,7 +7,6 @@ function affichageThemes(ajaxResponse){
   var text,json;
   text="";
   json= JSON.parse(ajaxResponse);
-  console.log(json);
   for (var i = 0; i < json.length; i++) {
     text+='<tr><td>'+
     '<input type="checkbox" id="checkbox'+i+'" name="choix" value="'+json[i]["nom_categorie"]+'">'+'</td><td>'+
@@ -38,7 +38,6 @@ function creerPartie(){
   if(j==0){
     httpErrors(400,'Veuillez cocher au moins une case dans le tableau');
   }else{
-    console.log(themes);
     difficulte=$('#difficulte').value;
     ajaxRequest('POST','php/request.php/creerPartie',function(){
       alert("Partie Crée");
