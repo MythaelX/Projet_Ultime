@@ -1,8 +1,8 @@
-<div>
-<h1> Creation de partie </h1>
+<div id="creation">
+<h1> CRÉATION D'UNE PARTIE </h1>
 <label>Choissez un theme :</label>
+<div id="text">Themes</div>
 <table>
-  <caption>Themes</caption>
   <tbody id="tableauThemes">
   </tbody>
 </table>

@@ -40,9 +40,7 @@
 		<main>
 				<?php require_once("php/verificationToken.php");?>
 				<?php require_once("php/formulaireModification.php");?>
-			<div>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>
-	</div>
 	</body>
 </html>

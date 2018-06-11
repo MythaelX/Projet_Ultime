@@ -1,4 +1,4 @@
--faire le css de modifier-son-profil,jeu,creation de partie et accueilPerso
+-faire le css de modifier-son-profil,jeu,creation de partie
 -changer le message d'erreur connexion
--bordure cache le truc de mathias
 -faire affichage des parties par rapport a la difficulte
+-creation message d'erreur si rien n'est coché
