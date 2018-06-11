@@ -88,8 +88,8 @@
 	*	\brief Function to create a complecated uniqid
 	*		\return			Return a unique id with md5(), uniqid() and rand()
 	*/
-	function createId(){
-		return md5(uniqid(rand(), true));
+	function createId($size = 0){
+		return ($size > 0)?substr(md5(uniqid(rand(), true)), 0, $size):md5(uniqid(rand(), true));
 	}
 
 	require_once("arrays.php");
