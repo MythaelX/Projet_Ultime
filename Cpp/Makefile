@@ -2124,3 +2124,5 @@ uninstall:  FORCE
 
 FORCE:
 
+
+CXXFLAGS +=  -std=c++14

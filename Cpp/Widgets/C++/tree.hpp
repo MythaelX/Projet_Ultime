@@ -7,8 +7,8 @@
 *	\todo		Transform all to do a Tree class
 *
 */
-#ifndef HEADER_TREE
-#define HEADER_TREE
+#ifndef HEADER_tree
+#define HEADER_tree
 
 #include "maths.hpp"
 
@@ -560,4 +560,4 @@ void freeTree(Node<T>* root){
 	}
 }
 
-#endif //HEADER_TREE
+#endif //HEADER_tree
