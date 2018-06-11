@@ -411,6 +411,18 @@ function getStyle(el){
 }
 
 /*!
+* \brief	Function to know if is the asked page
+*		\param[in]		page				The page to search
+*
+*		\return			\b true or \b false
+*/
+function isIn(page){
+	page = "/" + page;
+	if(window.location.pathname.indexOf(page) != -1){ return true; }
+	return false;
+}
+
+/*!
 * \brief	Function that create a struct object with as fields, the ones that were pass in argument
 *		\param[in]		fields				The fields to add to the struct
 *
