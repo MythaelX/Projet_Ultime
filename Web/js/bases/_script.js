@@ -629,7 +629,7 @@ function enable(el){
 				console.log("new main height : " + newMainHeight);
 				
 				if(isset(header)){
-					getHeight(header);
+					newMainHeight -= getHeight(header);
 				console.log("new main height : " + newMainHeight);
 				}
 				if(isset(nav)){
