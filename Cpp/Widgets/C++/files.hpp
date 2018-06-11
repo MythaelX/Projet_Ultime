@@ -38,7 +38,7 @@ std::vector<std::string> getlines(std::ifstream& input);
 
 /*!
 * \brief	Write all the lines in a given file
-*		\param[in]		input		The opened ofstream
+*		\param[in]		output		The opened ofstream
 *		\param[in]		lines		The lines to write
 *
 *		\return			\b true or \b false

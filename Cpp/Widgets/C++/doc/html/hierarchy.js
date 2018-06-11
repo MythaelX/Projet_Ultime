@@ -13,7 +13,7 @@ var hierarchy =
         [ "Animal", "d1/d7c/a00003.php", [
           [ "Ant", "d0/d0b/a00004.php", null ]
         ] ],
-        [ "Vegetal", "d5/d16/a00029.php", [
+        [ "Vegetal", "d5/d79/a00030.php", [
           [ "Mushroom", "dd/da2/a00019.php", null ],
           [ "Plant", "d7/de0/a00022.php", null ]
         ] ]
@@ -37,5 +37,6 @@ var hierarchy =
     [ "Point", "dc/de2/a00024.php", null ],
     [ "RNG< T, U >", "d6/d5b/a00026.php", null ],
     [ "Timer", "dc/d3c/a00028.php", null ],
-    [ "WorldDimensions", "d5/d79/a00030.php", null ]
+    [ "Tree< T >", "d5/d16/a00029.php", null ],
+    [ "WorldDimensions", "df/d61/a00031.php", null ]
 ];

@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
+$(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,41 +109,18 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">BDD Member List</div>  </div>
+<div class="title">Arguments Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d21/a00006.php">BDD</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/dad/a00005.php">Arguments</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a57fd2669fe6febe24cde0db73b5a438f">applyForEach</a>(Func &amp;&amp;f, C obj, std::string table, Args &amp;&amp;...args)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ab15af0cd596105ba8f678fa38af6697a">applyForEach</a>(Func &amp;&amp;f, std::string table, Args &amp;&amp;...args)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#aed1a6117c471a7575a224321eaf0dba2">BDD</a>(bool fatal_error=true)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">connect</a>(std::string url, std::string user, std::string pass)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a280bf2b854a6a0e3a573fbd7c96c84c2">debug</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">exists</a>(std::string task, std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07">formatBdd</a>(std::vector&lt; std::string &gt; &amp;args)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a3a309489e289988579ec94eae459f8df">formatColumn</a>(std::string name)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#af8d633320c008fade8c3ee5ff08cc821">formatConditions</a>(std::string &amp;conditions, std::string table)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ac99c0f8c86fab4de2efe6b91b22fb942">formatValues</a>(std::string &amp;values, std::string table)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986">getColumns</a>(std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#ae9ad54a4e2ca989e1f22dc497db4b43e">getCount</a>(std::string table=&quot;&quot;, std::string conditions=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">hasAutoincrement</a>(std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a059c72982d8075a1e0fcc175461b1430">insert</a>(std::string values, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">lastId</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">list</a>(std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">query</a>(std::string task)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655">remove</a>(std::string condition, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a61fdb222ad3b05fb70a221d78da5a9c9">reset</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a14ed61f03ce957690801dcc27e59930a">setDatabase</a>(std::string database)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a1c3535db0b4aa44778421c5f35c379ff">setFatal</a>(bool state)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#aa6720203c42f48b71f4d9a97f64b687f">setTable</a>(std::string table)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#ac02190012120478141702fb616c89ab1">tables</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a1e496e66cfaf5dc0209f448480bead5e">try_connect</a>(std::string url, std::string user, std::string pass)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#afa848f628b17ea10115c828e1f97ba5b">try_database</a>(std::string database)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a962782dc60b83f30a7ec387e0747178d">undebug</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#ad18c3bdb5afcce76344b9bb201362b95">update</a>(std::string values, std::string conditions, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d21/a00006.php#a6a54ee2df1609f504fe4a2d189f51be7">update</a>(std::vector&lt; std::string &gt; values, std::string conditions, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d21/a00006.php#a865c7d7590e1c3f227346b1045713099">~BDD</a>()</td><td class="entry"><a class="el" href="../../de/d21/a00006.php">BDD</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3">add</a>(std::string category, T value)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a126d62fd1d3eed743b06cb1b83f9093d">addProg</a>(int argc, char **argv)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#afe56d8477bfae32c239771056c233311">Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a2758413e36333940451ed0bf8c902706">operator[]</a>(std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a06e8b4b5a2f3f46f111e571cd90f6c9c">print</a>(std::string index=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a97b9ddc9cc652310880db4d6f1f175f2">~Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

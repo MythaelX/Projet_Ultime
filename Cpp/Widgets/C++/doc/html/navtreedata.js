@@ -29,6 +29,7 @@ var NAVTREE =
         [ "Variables", "globals_vars.php", null ],
         [ "Typedefs", "globals_type.php", null ],
         [ "Enumerations", "globals_enum.php", null ],
+        [ "Enumerator", "globals_eval.php", null ],
         [ "Macros", "globals_defs.php", null ]
       ] ]
     ] ]
@@ -38,8 +39,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.php",
-"d7/de0/a00022.php",
-"df/d86/a00012.php#a96a40d8c6b09bc86be65042fad49592f"
+"d5/d79/a00030.php#ac3ac9ca3d977facf17953da4c853f37f",
+"df/d86/a00012.php#a9993ab6cac0ce33ea91485965572cba9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

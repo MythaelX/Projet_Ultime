@@ -146,9 +146,10 @@ $(document).ready(function(){initNavTree('functions_func.php','');});
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>add()
 : <a class="el" href="dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3">Arguments</a>
+, <a class="el" href="d5/d16/a00029.php#af6a08705433ab45144b88b81f57c1e0f">Tree&lt; T &gt;</a>
 </li>
 <li>addColors()
-: <a class="el" href="d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">Color</a>
+: <a class="el" href="d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">Color</a>
 </li>
 <li>addPosition()
 : <a class="el" href="df/d86/a00012.php#a3af679109317a6740c661fe5164158ff">Contraption</a>
@@ -166,10 +167,14 @@ $(document).ready(function(){initNavTree('functions_func.php','');});
 : <a class="el" href="d1/d7c/a00003.php#a3106b384960dd889ce599eed9d2b61d9">Animal</a>
 </li>
 <li>applyForEach()
-: <a class="el" href="de/d21/a00006.php#a57fd2669fe6febe24cde0db73b5a438f">BDD</a>
+: <a class="el" href="de/d21/a00006.php#ab15af0cd596105ba8f678fa38af6697a">BDD</a>
+, <a class="el" href="d5/d16/a00029.php#aa801df9f48ce2feda42ea73f1cc6be1e">Tree&lt; T &gt;</a>
 </li>
 <li>Arguments()
 : <a class="el" href="dd/dad/a00005.php#afe56d8477bfae32c239771056c233311">Arguments</a>
+</li>
+<li>asc()
+: <a class="el" href="d5/d16/a00029.php#ab5a552132fdd3e2b03f03a5c279bad3e">Tree&lt; T &gt;</a>
 </li>
 <li>attack()
 : <a class="el" href="d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">Animal</a>

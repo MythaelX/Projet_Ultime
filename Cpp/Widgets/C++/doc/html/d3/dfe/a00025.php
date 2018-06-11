@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../de/d14/a00139.php">List of all members</a>  </div>
+<a href="../../d5/db1/a00140.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Reinit Class Reference</div>  </div>
 </div><!--header-->
@@ -119,11 +119,11 @@ $(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
 <p><a class="el" href="../../d3/dfe/a00025.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  
  <a href="../../d3/dfe/a00025.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Reinit:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/db1/a00140.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#Reinit_inherit__map" alt="Inheritance graph"/></div>
 <map name="Reinit_inherit__map" id="Reinit_inherit__map">
 <area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
 </map>
@@ -131,7 +131,7 @@ Inheritance diagram for Reinit:</div>
 <div class="dynheader">
 Collaboration diagram for Reinit:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d4e/a00141.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d2/d82/a00142.png" border="0" usemap="#Reinit_coll__map" alt="Collaboration graph"/></div>
 <map name="Reinit_coll__map" id="Reinit_coll__map">
 <area shape="rect" id="node2" href="../../d7/dec/a00010.php" title="Change the text color in the console. " alt="" coords="7,5,60,32"/>
 </map>
@@ -156,18 +156,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
 <tr class="memdesc:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
 <tr class="separator:ad810a3eea73cc7b62c80885692488738 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d8/d41/a00038.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
+<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d3/de7/a00039.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
 <tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
 <tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d8/d41/a00038.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d3/de7/a00039.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
 <tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
 <tr class="separator:a1d83143ba7476b3f1d60c85b61713790 inherit pub_methods_a00010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d3/dfe/a00025.php" title="Reinit the color in the console. ">Reinit</a> the color in the console. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d41/a00038_source.php#l00145">145</a> of file <a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00145">145</a> of file <a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aae482f034556d2539b85c90cefe9da82"></a>
 <div class="memitem">
@@ -185,7 +185,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a></li>
+<li><a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </li>
 <li>h
 : <a class="el" href="d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
-, <a class="el" href="d5/d79/a00030.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
+, <a class="el" href="df/d61/a00031.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
 </li>
 <li>init
 : <a class="el" href="d3/d52/a00023.php#a024d37d9bdf83c1cc6618df8cc574aa2">Player&lt; PlayerParent &gt;</a>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </li>
 <li>w
 : <a class="el" href="d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
-, <a class="el" href="d5/d79/a00030.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
+, <a class="el" href="df/d61/a00031.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
 </li>
 <li>weight
 : <a class="el" href="db/db2/a00020.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>
@@ -180,7 +180,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </li>
 <li>z
 : <a class="el" href="dc/de2/a00024.php#a05ba3b1dfcb19430582ae953cbbfbded">Point</a>
-, <a class="el" href="d5/d79/a00030.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
+, <a class="el" href="df/d61/a00031.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
 </li>
 </ul>
 </div><!-- contents -->

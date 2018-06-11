@@ -150,6 +150,9 @@ $(document).ready(function(){initNavTree('functions_func_t.php','');});
 <li>Timer()
 : <a class="el" href="dc/d3c/a00028.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
 </li>
+<li>Tree()
+: <a class="el" href="d5/d16/a00029.php#a38efd4e0201ba5596f5159f308851772">Tree&lt; T &gt;</a>
+</li>
 <li>try_connect()
 : <a class="el" href="de/d21/a00006.php#a1e496e66cfaf5dc0209f448480bead5e">BDD</a>
 </li>

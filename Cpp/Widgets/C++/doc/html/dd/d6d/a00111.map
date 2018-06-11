@@ -1,9 +1,3 @@
-<map id="Contraption" name="Contraption">
-<area shape="rect" id="node2" href="$d2/de7/a00014.php" title="An entity. " alt="" coords="53,80,109,107"/>
-<area shape="rect" id="node8" href="$dd/da2/a00019.php" title="An object. " alt="" coords="133,80,193,107"/>
-<area shape="rect" id="node3" href="$d7/d46/a00002.php" title="An animal. " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node5" href="$d0/d33/a00027.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
-<area shape="rect" id="node4" href="$d1/d7c/a00003.php" title="An ant. " alt="" coords="15,229,58,256"/>
-<area shape="rect" id="node6" href="$d4/d51/a00017.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
-<area shape="rect" id="node7" href="$db/db2/a00020.php" title="A plant. " alt="" coords="191,229,243,256"/>
+<map id="Color" name="Color">
+<area shape="rect" id="node2" href="$d3/dfe/a00025.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
 </map>

@@ -14,6 +14,7 @@
 *					- Arguments
 *					- BDD
 *					- jumble
+*					- Tree
 *
 *					- Color
 *					- Reinit
@@ -45,11 +46,10 @@
 *					- Tile
 *					- WorldDimensions
 *					- Node
+*					- TREE_DIRECTION
+*					- TREE_SORT
 *
 *					- line_number = __LINE__
-*					- RIGHT_NODE = 1
-*					- LEFT_NODE = -1
-*					- NO_NODE = 0
 *		\par	Functions
 *					- ALIAS_TEMPLATE_FUNCTION
 *
@@ -143,15 +143,16 @@
 *					- VS
 *					- MapLine
 *					- MapArray
+*					- NodeWeight
 *
-*	\date		10 juin 2018
+*	\date		11 juin 2018
 *	\author		Mathias CABIOCH-DELALANDE
 */
 /*!
 *
 *	\file		C++.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		07 juin 2018
+*	\date		11 juin 2018
 *
 */
 #ifndef HEADER_CPP
@@ -173,7 +174,7 @@
 #include "maths.hpp"
 #include "files.hpp"
 #include "sorting.hpp"
-//#include "tree.hpp"
+#include "Tree.hpp"
 #include "Map.hpp"
 
 #include "macro.hpp"

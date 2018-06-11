@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: bdd.hpp File Reference</title>
+<title>C++: array.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,112 +108,242 @@ $(document).ready(function(){initNavTree('d4/d8c/a00035.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">bdd.hpp File Reference</div>  </div>
+<div class="title">array.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cppconn/driver.h&gt;</code><br />
-<code>#include &lt;cppconn/exception.h&gt;</code><br />
-<code>#include &lt;cppconn/resultset.h&gt;</code><br />
-<code>#include &lt;cppconn/statement.h&gt;</code><br />
-<code>#include &lt;functional&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d6d/a00055_source.php">pointers.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df7/a00058_source.php">string.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for bdd.hpp:</div>
+Include dependency graph for array.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d31/a00069.png" border="0" usemap="#bdd_8hpp" alt=""/></div>
-<map name="bdd_8hpp" id="bdd_8hpp">
-<area shape="rect" id="node7" href="../../d6/d97/a00045.php" title="errors.hpp" alt="" coords="746,80,826,107"/>
-<area shape="rect" id="node25" href="../../d4/d6d/a00055.php" title="pointers.hpp" alt="" coords="823,155,917,181"/>
-<area shape="rect" id="node26" href="../../d7/df7/a00058.php" title="string.hpp" alt="" coords="1064,155,1143,181"/>
-<area shape="rect" id="node8" href="../../d8/d41/a00038.php" title="console.hpp" alt="" coords="656,155,748,181"/>
-<area shape="rect" id="node18" href="../../d3/dea/a00046.php" title="files.hpp" alt="" coords="756,229,827,256"/>
-<area shape="rect" id="node21" href="../../d3/d8b/a00059.php" title="time.hpp" alt="" coords="519,155,591,181"/>
-<area shape="rect" id="node9" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="1003,229,1094,256"/>
-<area shape="rect" id="node15" href="../../d4/de8/a00061.php" title="types.hpp" alt="" coords="653,229,732,256"/>
-<area shape="rect" id="node28" href="../../d4/dca/a00048.php" title="macro.hpp" alt="" coords="1118,229,1201,256"/>
-<area shape="rect" id="node29" href="../../db/df3/a00034.php" title="array.hpp" alt="" coords="903,229,979,256"/>
-<area shape="rect" id="node30" href="../../d9/d2e/a00056.php" title="RNG.hpp" alt="" coords="1225,229,1302,256"/>
-</map>
+<div class="center"><img src="../../d4/d31/a00069.png" border="0" usemap="#array_8hpp" alt=""/></div>
 </div>
 </div>
 <p><a href="../../d4/d8c/a00035_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php">BDD</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>.  <a href="../../de/d21/a00006.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php">jumble</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A dynamic array to store any type of variable.  <a href="../../d4/d51/a00017.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:acb7362a3fb715f64e5ab3cd50794a52c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> = std::vector&lt; std::map&lt; std::string, std::string &gt;&gt;</td></tr>
-<tr class="memdesc:acb7362a3fb715f64e5ab3cd50794a52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the array that contains the columns.  <a href="#acb7362a3fb715f64e5ab3cd50794a52c">More...</a><br /></td></tr>
-<tr class="separator:acb7362a3fb715f64e5ab3cd50794a52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b6679f15a22e0f89297978d24dec56e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> = std::vector&lt; std::vector&lt; std::string &gt;&gt;</td></tr>
-<tr class="memdesc:a6b6679f15a22e0f89297978d24dec56e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the array that contains the list of something.  <a href="#a6b6679f15a22e0f89297978d24dec56e">More...</a><br /></td></tr>
-<tr class="separator:a6b6679f15a22e0f89297978d24dec56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d21/a00006.php">BDD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a></td></tr>
-<tr class="memdesc:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global bdd variable to connect to a database.  <a href="#a36ce5024f17ad7e4a5b2eff31629cd5c">More...</a><br /></td></tr>
-<tr class="separator:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5090547d046a342ba3ac573e8248f628"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a5090547d046a342ba3ac573e8248f628">implode</a> (std::vector&lt; T &gt; a, std::string glue=&quot;&quot;)</td></tr>
+<tr class="memdesc:a5090547d046a342ba3ac573e8248f628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stick the <em>a</em> vector with the <em>glue</em> given.  <a href="#a5090547d046a342ba3ac573e8248f628">More...</a><br /></td></tr>
+<tr class="separator:a5090547d046a342ba3ac573e8248f628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad2b1019448d0599264d51172242e1be4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#ad2b1019448d0599264d51172242e1be4">print_r</a> (std::vector&lt; T &gt; a)</td></tr>
+<tr class="memdesc:ad2b1019448d0599264d51172242e1be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of a vector.  <a href="#ad2b1019448d0599264d51172242e1be4">More...</a><br /></td></tr>
+<tr class="separator:ad2b1019448d0599264d51172242e1be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_array&lt; T &gt;::value &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">print_r</a> (T a)</td></tr>
+<tr class="memdesc:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the content of an array.  <a href="#aeda2dbc3a1ec9d5f58f2991fb7d0ad13">More...</a><br /></td></tr>
+<tr class="separator:aeda2dbc3a1ec9d5f58f2991fb7d0ad13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
+<tr class="memitem:addfa691004e6d94461994bb7eccadf19"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#addfa691004e6d94461994bb7eccadf19">rewrite</a> (std::vector&lt; V &gt; table, unsigned index)</td></tr>
+<tr class="memdesc:addfa691004e6d94461994bb7eccadf19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrite a vector array without the value at the given index.  <a href="#addfa691004e6d94461994bb7eccadf19">More...</a><br /></td></tr>
+<tr class="separator:addfa691004e6d94461994bb7eccadf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php#a54f668e0211381d2d15ca45dcf3c55d0">contains</a> (std::vector&lt; T &gt; table, T value)</td></tr>
+<tr class="memdesc:a54f668e0211381d2d15ca45dcf3c55d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if a vector contains or not something.  <a href="#a54f668e0211381d2d15ca45dcf3c55d0">More...</a><br /></td></tr>
+<tr class="separator:a54f668e0211381d2d15ca45dcf3c55d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>10 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="acb7362a3fb715f64e5ab3cd50794a52c"></a>
+<p>Definition in file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a54f668e0211381d2d15ca45dcf3c55d0"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d4/d8c/a00035.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> =  std::vector&lt;std::map&lt;std::string, std::string&gt;&gt;</td>
+          <td class="memname">bool contains </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The type of the array that contains the columns. </p>
+<p>Verify if a vector contains or not something. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array in which to verify </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The value to search</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00023">23</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00103">103</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6b6679f15a22e0f89297978d24dec56e"></a>
+<a class="anchor" id="a5090547d046a342ba3ac573e8248f628"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d4/d8c/a00035.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> =  std::vector&lt;std::vector&lt;std::string&gt;&gt;</td>
+          <td class="memname">std::string implode </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>glue</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The type of the array that contains the list of something. </p>
+<p>Stick the <em>a</em> vector with the <em>glue</em> given. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The arrau to stick </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">glue</td><td>The string to stick the array's elements</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return a string of the array </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00025">25</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00023">23</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d8c/a00035_a5090547d046a342ba3ac573e8248f628_cgraph.png" border="0" usemap="#d4/d8c/a00035_a5090547d046a342ba3ac573e8248f628_cgraph" alt=""/></div>
+<map name="d4/d8c/a00035_a5090547d046a342ba3ac573e8248f628_cgraph" id="d4/d8c/a00035_a5090547d046a342ba3ac573e8248f628_cgraph">
+<area shape="rect" id="node2" href="../../dd/d32/a00041.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="120,5,160,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a36ce5024f17ad7e4a5b2eff31629cd5c"></a>
+<a class="anchor" id="ad2b1019448d0599264d51172242e1be4"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d21/a00006.php">BDD</a> bdd</td>
+          <td class="memname">void print_r </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A global bdd variable to connect to a database. </p>
+<p>Print the content of a vector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The vector to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00048">48</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeda2dbc3a1ec9d5f58f2991fb7d0ad13"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;std::is_array&lt;T&gt;::value&gt;::type print_r </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the content of an array. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">a</td><td>The array to print</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00065">65</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="addfa691004e6d94461994bb7eccadf19"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;V&gt; rewrite </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; V &gt;&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rewrite a vector array without the value at the given index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The array to rewrite </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">index</td><td>The index not to let in the array</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return an array without the <em>index</em> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00082">82</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>.</p>
 
 </div>
 </div>
@@ -222,7 +352,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d8c/a00035.php">bdd.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/d8c/a00035.php">array.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

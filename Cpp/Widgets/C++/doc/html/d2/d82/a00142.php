@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
+$(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,14 +109,19 @@ $(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">RNG&lt; T, U &gt; Member List</div>  </div>
+<div class="title">Reinit Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d3/dfe/a00025.php">Reinit</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d6/d5b/a00026.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d6/d5b/a00026.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a>()</td><td class="entry"><a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/dfe/a00025.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>()</td><td class="entry"><a class="el" href="../../d3/dfe/a00025.php">Reinit</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

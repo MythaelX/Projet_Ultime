@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('db/db2/a00020.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d1/d88/a00128.php">List of all members</a>  </div>
+<a href="../../d9/d47/a00129.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Node&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
@@ -119,13 +119,13 @@ $(document).ready(function(){initNavTree('db/db2/a00020.php','../../');});
 <p>A struct to define a node for the tree.  
  <a href="../../db/db2/a00020.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a440411e958356c1d3912dce01ae74edc"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php#a440411e958356c1d3912dce01ae74edc">values</a></td></tr>
 <tr class="separator:a440411e958356c1d3912dce01ae74edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td></tr>
+<tr class="memitem:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td></tr>
 <tr class="separator:aa2cb07a6e63a4dc1f1a05d3e634a8fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php#a6faa1b5c8a9e19348d0bfef6232c90cb">initialized</a> = false</td></tr>
 <tr class="separator:a6faa1b5c8a9e19348d0bfef6232c90cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +140,7 @@ struct Node&lt; T &gt;</h3>
 
 <p>A struct to define a node for the tree. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00025">25</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00033">33</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a6faa1b5c8a9e19348d0bfef6232c90cb"></a>
 <div class="memitem">
@@ -154,7 +154,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00029">29</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00037">37</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -170,7 +170,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00031">31</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00039">39</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -186,7 +186,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00032">32</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00040">40</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -202,7 +202,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00026">26</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00034">34</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -213,17 +213,17 @@ template&lt;class T&gt; </div>
 template&lt;class T&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d73/a00060.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt;::weight</td>
+          <td class="memname"><a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> <a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt;::weight</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00027">27</a> of file <a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00035">35</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d9/d73/a00060_source.php">tree.hpp</a></li>
+<li><a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('da/d45/a00011.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../dd/d6d/a00111.php">List of all members</a>  </div>
+<a href="../../db/d57/a00112.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ConsoleCursor Class Reference</div>  </div>
 </div><!--header-->
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('da/d45/a00011.php','../../');});
 <p>A class to play with the cursor in the console.  
  <a href="../../da/d45/a00011.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -141,7 +141,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class to play with the cursor in the console. </p>
 <p>This class allow you to move, save and restore the cursor position </p>
 
-<p>Definition at line <a class="el" href="../../d8/d41/a00038_source.php#l00176">176</a> of file <a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00176">176</a> of file <a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a007a2a8bda4e52a48930875f4ee8616e"></a>
 <div class="memitem">
@@ -187,7 +187,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d41/a00038_source.php#l00186">186</a> of file <a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00186">186</a> of file <a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>.</p>
 
 </div>
 </div>
@@ -215,7 +215,7 @@ template&lt;typename T &gt; </div>
 <p>Alias for the restore member. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d41/a00038_source.php#l00209">209</a> of file <a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00209">209</a> of file <a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>.</p>
 
 </div>
 </div>
@@ -272,7 +272,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a></li>
+<li><a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

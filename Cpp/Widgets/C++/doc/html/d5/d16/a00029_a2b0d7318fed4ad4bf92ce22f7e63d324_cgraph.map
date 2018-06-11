@@ -1,0 +1,9 @@
+<map id="Tree::equilibrate" name="Tree::equilibrate">
+<area shape="rect" id="node2" href="$d4/de8/a00061.php#a382275a07cf1f2a46cbaabc75fa93215" title="Balance right the tree. " alt="" coords="168,81,263,108"/>
+<area shape="rect" id="node3" href="$d4/de8/a00061.php#ac291426463c8625f13688e606a05e4b8" title="createRightVine" alt="" coords="322,31,437,57"/>
+<area shape="rect" id="node6" href="$d4/de8/a00061.php#a3e3bec3cf3101c5fd44f21ff9c4349f7" title="rightBalanceVine" alt="" coords="319,81,439,108"/>
+<area shape="rect" id="node8" href="$d4/de8/a00061.php#a62d38298b4f4a9c44baa90aa8e9f29b0" title="Get the depth on right. " alt="" coords="311,132,448,159"/>
+<area shape="rect" id="node4" href="$d4/de8/a00061.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="496,5,583,32"/>
+<area shape="rect" id="node5" href="$d4/de8/a00061.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="500,56,579,83"/>
+<area shape="rect" id="node7" href="$d4/de8/a00061.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="500,107,579,133"/>
+</map>

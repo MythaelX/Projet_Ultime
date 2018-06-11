@@ -151,6 +151,9 @@ $(document).ready(function(){initNavTree('functions_func_d.php','');});
 : <a class="el" href="de/d5e/a00007.php#aa7c94ff5f6e8bc01697271877e05e367">Cesar</a>
 , <a class="el" href="d0/d33/a00027.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
 </li>
+<li>desc()
+: <a class="el" href="d5/d16/a00029.php#a84671d5c8a9131bd94a33734b315e5a3">Tree&lt; T &gt;</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

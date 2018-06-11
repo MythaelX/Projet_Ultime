@@ -155,6 +155,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php','');});
 </li>
 <li>print()
 : <a class="el" href="dd/dad/a00005.php#a06e8b4b5a2f3f46f111e571cd90f6c9c">Arguments</a>
+, <a class="el" href="d5/d16/a00029.php#a5389c9acc029d22f38e44dbe66d0d556">Tree&lt; T &gt;</a>
 </li>
 <li>printInfos()
 : <a class="el" href="d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>
@@ -166,7 +167,7 @@ $(document).ready(function(){initNavTree('functions_func_p.php','');});
 , <a class="el" href="de/d11/a00021.php#a4afb4bd99645b9bfd1c95fcb93f3077b">Object</a>
 , <a class="el" href="d7/de0/a00022.php#a2ee3b0d4379f9969d620b7f0bc3a277f">Plant</a>
 , <a class="el" href="d3/d52/a00023.php#ace955ce90f754ff7fdf23724e6c35d38">Player&lt; PlayerParent &gt;</a>
-, <a class="el" href="d5/d16/a00029.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>
+, <a class="el" href="d5/d79/a00030.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

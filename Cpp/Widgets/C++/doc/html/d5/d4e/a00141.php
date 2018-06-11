@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
+$(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,14 +109,15 @@ $(document).ready(function(){initNavTree('d3/dfe/a00025.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">RNG&lt; T, U &gt; Member List</div>  </div>
+<div class="title">Point Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/dfe/a00025.php">RNG&lt; T, U &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/de2/a00024.php">Point</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/dfe/a00025.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d3/dfe/a00025.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d3/dfe/a00025.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a>()</td><td class="entry"><a class="el" href="../../d3/dfe/a00025.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de2/a00024.php#ab99c56589bc8ad5fa5071387110a5bc7">x</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/de2/a00024.php#afa38be143ae800e6ad69ce8ed4df62d8">y</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/de2/a00024.php#a05ba3b1dfcb19430582ae953cbbfbded">z</a></td><td class="entry"><a class="el" href="../../dc/de2/a00024.php">Point</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -83,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_vars.php"><span>Variables</span></a></li>
       <li><a href="globals_type.php"><span>Typedefs</span></a></li>
       <li><a href="globals_enum.php"><span>Enumerations</span></a></li>
+      <li><a href="globals_eval.php"><span>Enumerator</span></a></li>
       <li class="current"><a href="globals_defs.php"><span>Macros</span></a></li>
     </ul>
   </div>
@@ -118,19 +119,10 @@ $(document).ready(function(){initNavTree('globals_defs.php','');});
 <div class="contents">
 &#160;<ul>
 <li>ALIAS_TEMPLATE_FUNCTION
-: <a class="el" href="d4/dca/a00048.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
-</li>
-<li>LEFT_NODE
-: <a class="el" href="d9/d73/a00060.php#ab2ab3f795890edd232dacd1bf163ef02">tree.hpp</a>
+: <a class="el" href="d2/dee/a00049.php#a4a9a280c3a601b98a7d1694f622a269c">macro.hpp</a>
 </li>
 <li>line_number
-: <a class="el" href="d6/d97/a00045.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
-</li>
-<li>NO_NODE
-: <a class="el" href="d9/d73/a00060.php#adfa80cc857b10a19d8c8146856d390fe">tree.hpp</a>
-</li>
-<li>RIGHT_NODE
-: <a class="el" href="d9/d73/a00060.php#ae4fbe8a34f580e60f6ed9f42c245489c">tree.hpp</a>
+: <a class="el" href="d3/dea/a00046.php#a08ee21f84a6b44ca59d7f045b55d6bfc">errors.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

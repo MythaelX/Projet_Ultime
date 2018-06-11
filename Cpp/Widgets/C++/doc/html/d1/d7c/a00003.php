@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d1/d7c/a00003.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d9/df8/a00096.php">List of all members</a>  </div>
+<a href="../../d1/d84/a00097.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Animal Class Reference</div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('d1/d7c/a00003.php','../../');});
 <p>An animal.  
  <a href="../../d1/d7c/a00003.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Animal:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/d84/a00097.png" border="0" usemap="#Animal_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d1/d44/a00098.png" border="0" usemap="#Animal_inherit__map" alt="Inheritance graph"/></div>
 <map name="Animal_inherit__map" id="Animal_inherit__map">
 <area shape="rect" id="node5" href="../../d0/d0b/a00004.php" title="An ant. " alt="" coords="70,229,113,256"/>
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
@@ -135,7 +135,7 @@ Inheritance diagram for Animal:</div>
 <div class="dynheader">
 Collaboration diagram for Animal:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/d44/a00098.png" border="0" usemap="#Animal_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#Animal_coll__map" alt="Collaboration graph"/></div>
 <map name="Animal_coll__map" id="Animal_coll__map">
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
 <area shape="rect" id="node4" href="../../d7/d7a/a00016.php" title="A class to derivate from when the thing can attack. " alt="" coords="67,171,129,197"/>
@@ -221,7 +221,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07c40f873879cc72d0fc94a0831b955a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">move</a> ()</td></tr>
 <tr class="memdesc:a07c40f873879cc72d0fc94a0831b955a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the actual direction.  <a href="#a07c40f873879cc72d0fc94a0831b955a">More...</a><br /></td></tr>
 <tr class="separator:a07c40f873879cc72d0fc94a0831b955a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d5/db6/a00042.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
+<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d6/d42/a00043.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
 <tr class="memdesc:a6e209ff2a9d0bf3a73d10baabadcb3b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the direction.  <a href="#a6e209ff2a9d0bf3a73d10baabadcb3b9">More...</a><br /></td></tr>
 <tr class="separator:a6e209ff2a9d0bf3a73d10baabadcb3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea47bc43468e85f59c2a9ff1a3e64887"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">attack</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>=nullptr)</td></tr>
@@ -392,7 +392,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db6/a00042.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
+<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d42/a00043.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
 <tr class="separator:a3f306d4e967d165b8ef55f6cdf9bde23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_a00016"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00016')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td></tr>
 <tr class="memitem:a54cd84496707554686bc5fc43b57a4f8 inherit pro_attribs_a00016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td></tr>
@@ -401,7 +401,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An animal. </p>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00018">18</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00018">18</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a46fa459910827becd0cc0463f260d4e0"></a>
 <div class="memitem">
@@ -495,7 +495,7 @@ Protected Attributes</h2></td></tr>
 <p>Take of the obstacle. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00142">142</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00142">142</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -549,7 +549,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="../../d7/d7a/a00016.php#aa3fec9f067507361ca93e6f4edf4b731">Hostile</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00209">209</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00209">209</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -597,7 +597,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00112">112</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00112">112</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -643,7 +643,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00136">136</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00136">136</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -801,7 +801,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the food </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00076">76</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00076">76</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -827,7 +827,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the maximum food </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00078">78</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00078">78</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -888,7 +888,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the special attack </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00084">84</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00084">84</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -925,7 +925,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the species </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00081">81</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00081">81</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -951,7 +951,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the speed </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00073">73</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00073">73</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1063,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">virtual void Animal::move </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/db6/a00042.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d42/a00043.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td>
           <td class="paramname"><em>dir</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1154,7 +1154,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00046">46</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00046">46</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1189,7 +1189,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00053">53</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00053">53</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1224,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00069">69</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00069">69</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1259,7 +1259,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00061">61</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00061">61</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1294,7 +1294,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00038">38</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00038">38</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1332,7 +1332,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/db6/a00042.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> Animal::direction</td>
+          <td class="memname"><a class="el" href="../../d6/d42/a00043.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> Animal::direction</td>
         </tr>
       </table>
   </td>
@@ -1342,12 +1342,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d61/a00031_source.php#l00221">221</a> of file <a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d87/a00032_source.php#l00221">221</a> of file <a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d61/a00031_source.php">Animal.hpp</a></li>
+<li><a class="el" href="../../dc/d87/a00032_source.php">Animal.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

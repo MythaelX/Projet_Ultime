@@ -198,8 +198,6 @@ class BDD {
 
 			/*!
 			* \brief	Get all the tables of the database
-			*		\param[in]		table		The table where to search
-			*
 			*		\return			Return all the tables
 			*/
 			ListArray tables();
@@ -244,7 +242,6 @@ class BDD {
 			/*!
 			* \brief Run a function for each column of the \a table
 			*		\param[in]		f			The function to use
-			*		\param[in]		obj			The object on which to use the method
 			*		\param[in]		table		The table name
 			*		\param[in]		args		The other arguments
 			*		\return			void

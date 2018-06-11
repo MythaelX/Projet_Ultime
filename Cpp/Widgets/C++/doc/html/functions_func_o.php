@@ -147,8 +147,14 @@ $(document).ready(function(){initNavTree('functions_func_o.php','');});
 <li>Object()
 : <a class="el" href="de/d11/a00021.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>
 </li>
+<li>onCompare()
+: <a class="el" href="d5/d16/a00029.php#ae88268743eaded28868cc13a0c1ec894">Tree&lt; T &gt;</a>
+</li>
+<li>onDelete()
+: <a class="el" href="d5/d16/a00029.php#a3b0dc5b377436abca97e8abc76ab7067">Tree&lt; T &gt;</a>
+</li>
 <li>operator()()
-: <a class="el" href="d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">Map</a>
+: <a class="el" href="d1/d2b/a00018.php#a787fa114db8b1925f2c00619088be05d">Map</a>
 , <a class="el" href="d6/d5b/a00026.php#ac81b86f2d95f99cb5e2f778592d6fd3a">RNG&lt; T, U &gt;</a>
 </li>
 <li>operator[]()

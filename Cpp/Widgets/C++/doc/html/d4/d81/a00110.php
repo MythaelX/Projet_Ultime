@@ -109,16 +109,19 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">ConsoleCursor Member List</div>  </div>
+<div class="title">Color Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/dec/a00010.php">Color</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a007a2a8bda4e52a48930875f4ee8616e">goTo</a>(T x, T y)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a129aafa021f4f29239b8e014f426f15f">home</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#aceee1a7bd3a4ff19cd06170c15048142">restore</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a3b03a811157d84449f3cf467c1f4758e">save</a>()</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">ConsoleCursor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a>(std::ostream &amp;stream, Color const &amp;c)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

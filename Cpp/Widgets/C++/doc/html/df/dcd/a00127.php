@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
+$(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,17 +109,28 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Node&lt; T &gt; Member List</div>  </div>
+<div class="title">Map Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/d2b/a00018.php">Map</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a6faa1b5c8a9e19348d0bfef6232c90cb">initialized</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a2841886a16c27e72b21885025c00b44b">left</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#ad7092450d89448320103cde1f72da320">right</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dd/da2/a00019.php#a440411e958356c1d3912dce01ae74edc">values</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dd/da2/a00019.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">weight</a></td><td class="entry"><a class="el" href="../../dd/da2/a00019.php">Node&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aa5b2b05098fb3c9e750f95fb76b72e32">clear</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aae5f7c464841d017086abe1d553da50d">consolePrint</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aa083b12c5bc9d4ad54301a31603e9fa0">get</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a4b2f272b33eae99d8f64a7b13c687ab6">getH</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#ae362b35f435bf1dcb6274821470ae0c9">getSize</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aadfd9c2b4c9555d97e47532ff0248f87">getW</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aeef35654d256ab9218920a9126680495">isXIn</a>(double pt, double dim)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a200536787e3e8686e91202b7a56f4190">isYIn</a>(double pt, double dim)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#ab16ea0fe3b1c2add481afac808b39ea4">load</a>(std::string file)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a5c9015eea1519003e305315fc6933968">Map</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">operator()</a>(const size_t &amp;i, const size_t &amp;j)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a787fa114db8b1925f2c00619088be05d">operator()</a>(const size_t &amp;i, const size_t &amp;j) const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a28dc3cce3cd6eb596209d10174d0b37b">save</a>(std::string file)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a713ccdad293fb792e0a8cf29d9b048e0">setH</a>(size_t h)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a9813f83a659948693862d888b259a322">setSize</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a60a9e42b7c5a623a9ff3b5754519c0df">setW</a>(size_t w)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

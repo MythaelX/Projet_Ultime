@@ -151,6 +151,9 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 <li>Entity()
 : <a class="el" href="dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
 </li>
+<li>equilibrate()
+: <a class="el" href="d5/d16/a00029.php#a2b0d7318fed4ad4bf92ce22f7e63d324">Tree&lt; T &gt;</a>
+</li>
 <li>exists()
 : <a class="el" href="de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">BDD</a>
 </li>

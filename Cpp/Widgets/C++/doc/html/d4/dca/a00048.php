@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: macro.hpp File Reference</title>
+<title>C++: Hostile.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,69 +107,58 @@ $(document).ready(function(){initNavTree('d4/dca/a00048.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">macro.hpp File Reference</div>  </div>
+<div class="title">Hostile.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">Entity.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for Hostile.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d63/a00082.png" border="0" usemap="#Hostile_8hpp" alt=""/></div>
+<map name="Hostile_8hpp" id="Hostile_8hpp">
+<area shape="rect" id="node2" href="../../d6/d97/a00045.php" title="Entity.hpp" alt="" coords="1425,80,1506,107"/>
+<area shape="rect" id="node3" href="../../db/d3a/a00040.php" title="Contraption.hpp" alt="" coords="1408,155,1523,181"/>
+<area shape="rect" id="node4" href="../../d6/d42/a00043.php" title="defines.hpp" alt="" coords="958,229,1047,256"/>
+<area shape="rect" id="node25" href="../../df/d03/a00062.php" title="types.hpp" alt="" coords="1587,528,1666,555"/>
+<area shape="rect" id="node46" href="../../d8/d41/a00038.php" title="collides.hpp" alt="" coords="1481,229,1572,256"/>
+<area shape="rect" id="node47" href="../../d5/de0/a00050.php" title="Map.hpp" alt="" coords="1367,229,1439,256"/>
+<area shape="rect" id="node11" href="../../de/d8c/a00036.php" title="bdd.hpp" alt="" coords="654,304,722,331"/>
+<area shape="rect" id="node19" href="../../dd/d32/a00041.php" title="convert.hpp" alt="" coords="648,528,739,555"/>
+<area shape="rect" id="node28" href="../../d6/d2d/a00047.php" title="files.hpp" alt="" coords="1102,453,1173,480"/>
+<area shape="rect" id="node31" href="../../d9/d73/a00060.php" title="time.hpp" alt="" coords="1313,453,1385,480"/>
+<area shape="rect" id="node35" href="../../d9/d2e/a00056.php" title="pointers.hpp" alt="" coords="1419,379,1512,405"/>
+<area shape="rect" id="node36" href="../../d3/d8b/a00059.php" title="string.hpp" alt="" coords="798,379,877,405"/>
+<area shape="rect" id="node40" href="../../d1/d22/a00057.php" title="RNG.hpp" alt="" coords="900,453,977,480"/>
+<area shape="rect" id="node42" href="../../db/df3/a00034.php" title="Args.hpp" alt="" coords="1003,304,1077,331"/>
+<area shape="rect" id="node44" href="../../d2/d79/a00051.php" title="maths.hpp" alt="" coords="1505,304,1588,331"/>
+<area shape="rect" id="node17" href="../../d3/dea/a00046.php" title="errors.hpp" alt="" coords="1097,379,1177,405"/>
+<area shape="rect" id="node18" href="../../d3/de7/a00039.php" title="console.hpp" alt="" coords="1197,453,1289,480"/>
+<area shape="rect" id="node38" href="../../d2/dee/a00049.php" title="macro.hpp" alt="" coords="793,453,876,480"/>
+<area shape="rect" id="node39" href="../../d4/d8c/a00035.php" title="array.hpp" alt="" coords="1002,453,1078,480"/>
+</map>
+</div>
+</div>
 <p><a href="../../d4/dca/a00048_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4a9a280c3a601b98a7d1694f622a269c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/a00048.php#a4a9a280c3a601b98a7d1694f622a269c">ALIAS_TEMPLATE_FUNCTION</a>(highLevelF,  lowLevelF)</td></tr>
-<tr class="memdesc:a4a9a280c3a601b98a7d1694f622a269c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A macro to <b>create</b> aliases.  <a href="#a4a9a280c3a601b98a7d1694f622a269c">More...</a><br /></td></tr>
-<tr class="separator:a4a9a280c3a601b98a7d1694f622a269c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to derivate from when the thing can attack.  <a href="../../d7/d7a/a00016.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/dca/a00048_source.php">macro.hpp</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a4a9a280c3a601b98a7d1694f622a269c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALIAS_TEMPLATE_FUNCTION</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">highLevelF, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">lowLevelF&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt; \</div><div class="line">    inline <span class="keyword">auto</span> highLevelF(Args&amp;&amp;... args) -&gt; decltype(lowLevelF(std::forward&lt;Args&gt;(args)...)) \</div><div class="line">    { \</div><div class="line">        return lowLevelF(std::forward&lt;Args&gt;(args)...); \</div><div class="line">    }</div></div><!-- fragment -->
-<p>A macro to <b>create</b> aliases. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">highLevelF</td><td>The alias </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">lowLevelF</td><td>The function </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00016">16</a> of file <a class="el" href="../../d4/dca/a00048_source.php">macro.hpp</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/dca/a00048.php">macro.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/dca/a00048.php">Hostile.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,0 +1,18 @@
+<map id="Tree::convert" name="Tree::convert">
+<area shape="rect" id="node2" href="$d4/de8/a00061.php#afcf4abb2890328ad05c09398704e641a" title="Free the differents nodes of the tree with a function for the node. " alt="" coords="164,5,235,32"/>
+<area shape="rect" id="node3" href="$d4/de8/a00061.php#a10b614bb30047d2274d091e553426e85" title="Find a value in the tree and return the right node. " alt="" coords="172,56,227,83"/>
+<area shape="rect" id="node4" href="$d4/de8/a00061.php#a3e3bec3cf3101c5fd44f21ff9c4349f7" title="rightBalanceVine" alt="" coords="303,157,423,184"/>
+<area shape="rect" id="node5" href="$d4/de8/a00061.php#ab89459cf62f1cb8716e7e369ec281555" title="Rotate the branch to the left. " alt="" coords="484,157,563,184"/>
+<area shape="rect" id="node6" href="$d4/de8/a00061.php#abf57df4057638a264b98edf669612682" title="Copy datas from a node to another. " alt="" coords="484,309,563,336"/>
+<area shape="rect" id="node7" href="$d4/de8/a00061.php#a6f6cae1bd0191f7106f1ad3375c3855e" title="leftBalanceVine" alt="" coords="307,461,420,488"/>
+<area shape="rect" id="node8" href="$d4/de8/a00061.php#ac0c95fabf27f049acdedcbc8dac1df25" title="Rotate the branch to the right. " alt="" coords="480,461,567,488"/>
+<area shape="rect" id="node9" href="$d4/de8/a00061.php#ac291426463c8625f13688e606a05e4b8" title="createRightVine" alt="" coords="306,360,421,387"/>
+<area shape="rect" id="node10" href="$d4/de8/a00061.php#a574c0b660263cb94d9a1e8afd486d25a" title="createLeftVine" alt="" coords="310,259,417,285"/>
+<area shape="rect" id="node11" href="$d4/de8/a00061.php#a382275a07cf1f2a46cbaabc75fa93215" title="Balance right the tree. " alt="" coords="152,208,247,235"/>
+<area shape="rect" id="node13" href="$d4/de8/a00061.php#a92a22cef67a94326ca5c854c6426dfa4" title="Balance left the tree. " alt="" coords="156,411,243,437"/>
+<area shape="rect" id="node15" href="$d4/de8/a00061.php#a3fde380f27243eba602c10dd02d7e377" title="Read the tree from left then root to right. " alt="" coords="173,563,225,589"/>
+<area shape="rect" id="node16" href="$d4/de8/a00061.php#a8bcdc1113d4578db82209cd9c38d8cb1" title="Create a child for the tree. " alt="" coords="155,613,243,640"/>
+<area shape="rect" id="node17" href="$d4/de8/a00061.php#a150358d1355a1feec0dd9c239e528ba5" title="A function to print the node value in cout stream. " alt="" coords="160,664,239,691"/>
+<area shape="rect" id="node12" href="$d4/de8/a00061.php#a62d38298b4f4a9c44baa90aa8e9f29b0" title="Get the depth on right. " alt="" coords="295,208,432,235"/>
+<area shape="rect" id="node14" href="$d4/de8/a00061.php#ac5c778ab71fa0fc25e9fc3d1d32e2c6a" title="Get the depth on left. " alt="" coords="299,411,427,437"/>
+</map>
