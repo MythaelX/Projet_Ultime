@@ -1,3 +1,8 @@
-<map id="GraphScene.hpp" name="GraphScene.hpp">
-<area shape="rect" id="node6" href="$db/db2/a00020.php" title="Scene.hpp" alt="" coords="320,80,404,107"/>
+<map id="Font.hpp" name="Font.hpp">
+<area shape="rect" id="node2" href="$d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="16,80,123,107"/>
+<area shape="rect" id="node3" href="$d4/d51/a00017.php" title="Qt.hpp" alt="" coords="35,379,96,405"/>
+<area shape="rect" id="node5" href="$d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="57,155,189,181"/>
+<area shape="rect" id="node4" href="$d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="5,453,125,480"/>
+<area shape="rect" id="node6" href="$d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="55,229,193,256"/>
+<area shape="rect" id="node7" href="$dc/de2/a00024.php" title="Window.hpp" alt="" coords="66,304,161,331"/>
 </map>

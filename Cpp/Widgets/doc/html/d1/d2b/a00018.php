@@ -123,13 +123,13 @@ Include dependency graph for QtDefines.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d8c/a00035.png" border="0" usemap="#QtDefines_8hpp" alt=""/></div>
 <map name="QtDefines_8hpp" id="QtDefines_8hpp">
-<area shape="rect" id="node3" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="267,80,355,107"/>
-<area shape="rect" id="node4" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="481,80,595,107"/>
-<area shape="rect" id="node5" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="416,169,500,196"/>
-<area shape="rect" id="node7" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="620,80,739,107"/>
-<area shape="rect" id="node12" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="5,80,100,107"/>
-<area shape="rect" id="node13" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="124,80,243,107"/>
-<area shape="rect" id="node15" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2447,80,2520,107"/>
+<area shape="rect" id="node3" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="725,155,813,181"/>
+<area shape="rect" id="node4" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="6,80,121,107"/>
+<area shape="rect" id="node5" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="5,155,89,181"/>
+<area shape="rect" id="node7" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="236,80,355,107"/>
+<area shape="rect" id="node12" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="776,80,871,107"/>
+<area shape="rect" id="node13" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="433,80,552,107"/>
+<area shape="rect" id="node15" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="576,80,649,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -137,12 +137,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d8c/a00036.png" border="0" usemap="#QtDefines_8hppdep" alt=""/></div>
 <map name="QtDefines_8hppdep" id="QtDefines_8hppdep">
-<area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="5,80,79,107"/>
-<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="134,304,195,331"/>
-<area shape="rect" id="node5" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="156,80,288,107"/>
-<area shape="rect" id="node4" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="105,379,225,405"/>
-<area shape="rect" id="node6" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="154,155,293,181"/>
-<area shape="rect" id="node7" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="165,229,260,256"/>
+<area shape="rect" id="node2" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="35,304,96,331"/>
+<area shape="rect" id="node4" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="57,80,189,107"/>
+<area shape="rect" id="node3" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="5,379,125,405"/>
+<area shape="rect" id="node5" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="55,155,193,181"/>
+<area shape="rect" id="node6" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="66,229,161,256"/>
 </map>
 </div>
 </div>

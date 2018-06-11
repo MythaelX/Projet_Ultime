@@ -112,12 +112,7 @@ $(document).ready(function(){initNavTree('d7/df7/a00058.php','../../');});
 <div class="title">string.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;numeric&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;locale&gt;</code><br />
+<div class="textblock"><code>#include &lt;locale&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">macro.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d3a/a00040_source.php">convert.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/df3/a00034_source.php">array.hpp</a>&quot;</code><br />
@@ -127,10 +122,10 @@ Include dependency graph for string.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d82/a00091.png" border="0" usemap="#string_8hpp" alt=""/></div>
 <map name="string_8hpp" id="string_8hpp">
-<area shape="rect" id="node8" href="../../d4/dca/a00048.php" title="macro.hpp" alt="" coords="632,80,715,107"/>
-<area shape="rect" id="node9" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="336,80,427,107"/>
-<area shape="rect" id="node11" href="../../db/df3/a00034.php" title="array.hpp" alt="" coords="101,80,177,107"/>
-<area shape="rect" id="node13" href="../../d9/d2e/a00056.php" title="RNG.hpp" alt="" coords="739,80,816,107"/>
+<area shape="rect" id="node3" href="../../d4/dca/a00048.php" title="macro.hpp" alt="" coords="180,80,263,107"/>
+<area shape="rect" id="node4" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="287,80,377,107"/>
+<area shape="rect" id="node10" href="../../db/df3/a00034.php" title="array.hpp" alt="" coords="438,80,514,107"/>
+<area shape="rect" id="node13" href="../../d9/d2e/a00056.php" title="RNG.hpp" alt="" coords="612,80,689,107"/>
 </map>
 </div>
 </div>
@@ -196,7 +191,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>Alias for <b>split</b>. </p>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00042">42</a> of file <a class="el" href="../../d7/df7/a00058_source.php">string.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00036">36</a> of file <a class="el" href="../../d7/df7/a00058_source.php">string.hpp</a>.</p>
 
 </div>
 </div>

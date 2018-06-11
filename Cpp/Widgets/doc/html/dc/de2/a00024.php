@@ -119,16 +119,16 @@ Include dependency graph for Window.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d2d/a00047.png" border="0" usemap="#Window_8hpp" alt=""/></div>
 <map name="Window_8hpp" id="Window_8hpp">
-<area shape="rect" id="node3" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="540,80,679,107"/>
-<area shape="rect" id="node4" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="543,155,675,181"/>
-<area shape="rect" id="node6" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="556,229,663,256"/>
-<area shape="rect" id="node7" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="195,304,283,331"/>
-<area shape="rect" id="node8" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="357,304,472,331"/>
-<area shape="rect" id="node9" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="246,393,330,420"/>
-<area shape="rect" id="node11" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="615,304,734,331"/>
-<area shape="rect" id="node16" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="497,304,591,331"/>
-<area shape="rect" id="node17" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="758,304,877,331"/>
-<area shape="rect" id="node19" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2109,304,2182,331"/>
+<area shape="rect" id="node3" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="496,80,635,107"/>
+<area shape="rect" id="node4" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="499,155,631,181"/>
+<area shape="rect" id="node6" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="512,229,619,256"/>
+<area shape="rect" id="node7" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="440,379,528,405"/>
+<area shape="rect" id="node8" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="780,304,895,331"/>
+<area shape="rect" id="node9" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="918,379,1002,405"/>
+<area shape="rect" id="node11" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="637,304,755,331"/>
+<area shape="rect" id="node16" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="518,304,613,331"/>
+<area shape="rect" id="node17" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="246,304,365,331"/>
+<area shape="rect" id="node19" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="147,304,221,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

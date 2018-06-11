@@ -8,9 +8,9 @@
 #ifndef HEADER_MAP
 #define HEADER_MAP
 
-#include "console.hpp"
+//#include "console.hpp"
 #include "errors.hpp"
-#include "files.hpp"
+//#include "files.hpp"
 
 /*!
 * \brief	Tiles of the map

@@ -1,5 +1,5 @@
 /home/mathias/Bureau/Algo/C++Tests/C++/files.hpp:40: warning: argument 'input' of command @param is not found in the argument list of setlines(std::ofstream &output, std::vector< std::string > lines)
 /home/mathias/Bureau/Algo/C++Tests/C++/files.hpp:46: warning: The following parameters of setlines(std::ofstream &output, std::vector< std::string > lines) are not documented:
   parameter 'output'
-/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:249: warning: argument 'obj' of command @param is not found in the argument list of BDD::applyForEach(Func &&f, std::string table, Args &&...args)
-/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:204: warning: argument 'table' of command @param is not found in the argument list of BDD::tables()
+/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:245: warning: argument 'obj' of command @param is not found in the argument list of BDD::applyForEach(Func &&f, std::string table, Args &&...args)
+/home/mathias/Bureau/Algo/C++Tests/C++/bdd.hpp:200: warning: argument 'table' of command @param is not found in the argument list of BDD::tables()

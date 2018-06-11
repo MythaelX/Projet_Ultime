@@ -13,15 +13,11 @@
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>
 
-#include <string>
-#include <mutex>
 #include <functional>
 
-#include "types.hpp"
 #include "errors.hpp"
 #include "pointers.hpp"
 #include "string.hpp"
-#include "array.hpp"
 
 /*! \brief	The type of the array that contains the columns */
 using ColsArray = std::vector<std::map<std::string, std::string>>;

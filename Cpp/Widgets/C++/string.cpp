@@ -105,7 +105,7 @@ std::string randStr(size_t nb){
 									 " ", "?", "!", ".", "_", "-", ",", ":", ";", "/", "*"};
 
 	for(size_t i{0}; i < nb; ++i){
-		out += cars[rng(0, cars.size()-1)];
+		out += cars[rng(0, static_cast<int>(cars.size())-1)];
 	}
 
 	return out;

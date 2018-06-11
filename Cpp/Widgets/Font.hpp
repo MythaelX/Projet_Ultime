@@ -8,7 +8,7 @@
 #ifndef HEADER_FONT
 #define HEADER_FONT
 
-#include "QtDefines.hpp"
+#include <QtWidgets>
 
 /*!
 * \class Font

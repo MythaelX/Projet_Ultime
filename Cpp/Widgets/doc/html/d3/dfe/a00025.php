@@ -119,14 +119,14 @@ Include dependency graph for WindowButton.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/dee/a00049.png" border="0" usemap="#WindowButton_8hpp" alt=""/></div>
 <map name="WindowButton_8hpp" id="WindowButton_8hpp">
-<area shape="rect" id="node4" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="2566,80,2672,107"/>
-<area shape="rect" id="node5" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="4944,155,5032,181"/>
-<area shape="rect" id="node6" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="286,155,400,181"/>
-<area shape="rect" id="node7" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="201,244,285,271"/>
-<area shape="rect" id="node9" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="430,155,549,181"/>
-<area shape="rect" id="node14" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="5057,155,5152,181"/>
-<area shape="rect" id="node15" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="58,155,177,181"/>
-<area shape="rect" id="node17" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2582,155,2656,181"/>
+<area shape="rect" id="node4" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="451,80,558,107"/>
+<area shape="rect" id="node5" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="513,229,601,256"/>
+<area shape="rect" id="node6" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="822,155,937,181"/>
+<area shape="rect" id="node7" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="939,229,1023,256"/>
+<area shape="rect" id="node9" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="677,155,796,181"/>
+<area shape="rect" id="node14" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="132,155,227,181"/>
+<area shape="rect" id="node15" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="251,155,369,181"/>
+<area shape="rect" id="node17" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="393,155,467,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

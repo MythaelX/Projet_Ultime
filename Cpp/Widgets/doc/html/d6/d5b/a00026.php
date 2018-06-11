@@ -119,15 +119,15 @@ Include dependency graph for WindowTitleBar.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d79/a00051.png" border="0" usemap="#WindowTitleBar_8hpp" alt=""/></div>
 <map name="WindowTitleBar_8hpp" id="WindowTitleBar_8hpp">
-<area shape="rect" id="node3" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="513,80,645,107"/>
-<area shape="rect" id="node5" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="525,155,632,181"/>
-<area shape="rect" id="node6" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="93,229,181,256"/>
-<area shape="rect" id="node7" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="569,229,684,256"/>
-<area shape="rect" id="node8" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="505,319,589,345"/>
-<area shape="rect" id="node10" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="709,229,827,256"/>
-<area shape="rect" id="node15" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="206,229,301,256"/>
-<area shape="rect" id="node16" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="325,229,443,256"/>
-<area shape="rect" id="node18" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2427,229,2501,256"/>
+<area shape="rect" id="node3" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="473,80,605,107"/>
+<area shape="rect" id="node5" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="485,155,592,181"/>
+<area shape="rect" id="node6" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="93,304,181,331"/>
+<area shape="rect" id="node7" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="576,229,691,256"/>
+<area shape="rect" id="node8" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="598,304,682,331"/>
+<area shape="rect" id="node10" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="766,229,885,256"/>
+<area shape="rect" id="node15" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="309,229,403,256"/>
+<area shape="rect" id="node16" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="166,229,285,256"/>
+<area shape="rect" id="node18" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="427,229,501,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

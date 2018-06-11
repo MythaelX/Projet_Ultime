@@ -114,20 +114,18 @@ $(document).ready(function(){initNavTree('d2/dee/a00049.php','../../');});
 <div class="title">Map.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d41/a00038_source.php">console.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dea/a00046_source.php">files.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">errors.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Map.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d63/a00082.png" border="0" usemap="#Map_8hpp" alt=""/></div>
 <map name="Map_8hpp" id="Map_8hpp">
-<area shape="rect" id="node2" href="../../d8/d41/a00038.php" title="console.hpp" alt="" coords="327,155,419,181"/>
-<area shape="rect" id="node12" href="../../d6/d97/a00045.php" title="errors.hpp" alt="" coords="476,80,556,107"/>
-<area shape="rect" id="node13" href="../../d3/dea/a00046.php" title="files.hpp" alt="" coords="645,155,715,181"/>
-<area shape="rect" id="node3" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="291,229,381,256"/>
-<area shape="rect" id="node9" href="../../d4/de8/a00061.php" title="types.hpp" alt="" coords="97,229,175,256"/>
-<area shape="rect" id="node16" href="../../d3/d8b/a00059.php" title="time.hpp" alt="" coords="480,155,552,181"/>
+<area shape="rect" id="node2" href="../../d6/d97/a00045.php" title="errors.hpp" alt="" coords="565,80,645,107"/>
+<area shape="rect" id="node3" href="../../d8/d41/a00038.php" title="console.hpp" alt="" coords="386,155,478,181"/>
+<area shape="rect" id="node13" href="../../d3/dea/a00046.php" title="files.hpp" alt="" coords="570,155,641,181"/>
+<area shape="rect" id="node16" href="../../d3/d8b/a00059.php" title="time.hpp" alt="" coords="767,155,839,181"/>
+<area shape="rect" id="node4" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="387,229,477,256"/>
+<area shape="rect" id="node10" href="../../d4/de8/a00061.php" title="types.hpp" alt="" coords="97,229,175,256"/>
 </map>
 </div>
 </div>

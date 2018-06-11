@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A class to manage the arguments. </p>
 <p>This class is usefull to simplify and keep the given arguments </p>
 
-<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00023">23</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00021">21</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="afe56d8477bfae32c239771056c233311"></a>
 <div class="memitem">
@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Constructor of the class. </p>
 
-<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00027">27</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00025">25</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +196,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00028">28</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00026">26</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -255,7 +255,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00047">47</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc0/a00033_source.php#l00045">45</a> of file <a class="el" href="../../d0/dc0/a00033_source.php">Args.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

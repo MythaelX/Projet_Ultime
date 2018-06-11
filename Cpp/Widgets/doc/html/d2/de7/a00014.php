@@ -125,13 +125,12 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d16/a00029.png" border="0" usemap="#DrawScene_8hppdep" alt=""/></div>
 <map name="DrawScene_8hppdep" id="DrawScene_8hppdep">
-<area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
-<area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
-<area shape="rect" id="node4" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
-<area shape="rect" id="node6" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
-<area shape="rect" id="node5" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
-<area shape="rect" id="node7" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
-<area shape="rect" id="node8" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
+<area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="16,80,123,107"/>
+<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="35,379,96,405"/>
+<area shape="rect" id="node5" href="../../d3/dfe/a00025.php" title="WindowButton.hpp" alt="" coords="57,155,189,181"/>
+<area shape="rect" id="node4" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="5,453,125,480"/>
+<area shape="rect" id="node6" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="55,229,193,256"/>
+<area shape="rect" id="node7" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="66,304,161,331"/>
 </map>
 </div>
 </div>

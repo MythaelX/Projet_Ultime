@@ -7,7 +7,7 @@ GCFLAGS = -g $(CFLAGS)
 
 SFMLLIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio
 BDDLIBS = -lmysqlcppconn
-CXXLIBS = -lm -lGL -lGLU -lOpenCL -pthread -lpthread -Wl,--no-as-needed
+CXXLIBS = -lm -lGL -lGLU -pthread -lpthread -Wl,--no-as-needed
 LDFLAGS = $(SFMLLIBS) $(BDDLIBS) $(CXXLIBS)
 
 MAINFILE = main.cpp

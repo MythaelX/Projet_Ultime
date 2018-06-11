@@ -115,20 +115,18 @@ $(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d97/a00045_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d3a/a00040_source.php">convert.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/df3/a00034_source.php">array.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">time.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Args.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/ddf/a00067.png" border="0" usemap="#Args_8hpp" alt=""/></div>
 <map name="Args_8hpp" id="Args_8hpp">
-<area shape="rect" id="node3" href="../../d6/d97/a00045.php" title="errors.hpp" alt="" coords="473,80,553,107"/>
-<area shape="rect" id="node5" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="293,229,384,256"/>
-<area shape="rect" id="node17" href="../../d3/d8b/a00059.php" title="time.hpp" alt="" coords="749,155,821,181"/>
+<area shape="rect" id="node3" href="../../d6/d97/a00045.php" title="errors.hpp" alt="" coords="409,80,489,107"/>
 <area shape="rect" id="node21" href="../../db/df3/a00034.php" title="array.hpp" alt="" coords="553,229,629,256"/>
-<area shape="rect" id="node4" href="../../d8/d41/a00038.php" title="console.hpp" alt="" coords="397,155,489,181"/>
+<area shape="rect" id="node4" href="../../d8/d41/a00038.php" title="console.hpp" alt="" coords="363,155,455,181"/>
 <area shape="rect" id="node14" href="../../d3/dea/a00046.php" title="files.hpp" alt="" coords="458,229,529,256"/>
+<area shape="rect" id="node17" href="../../d3/d8b/a00059.php" title="time.hpp" alt="" coords="163,155,235,181"/>
+<area shape="rect" id="node5" href="../../db/d3a/a00040.php" title="convert.hpp" alt="" coords="293,229,384,256"/>
 <area shape="rect" id="node11" href="../../d4/de8/a00061.php" title="types.hpp" alt="" coords="653,229,731,256"/>
 </map>
 </div>

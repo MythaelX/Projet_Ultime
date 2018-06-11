@@ -111,11 +111,16 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <div class="title">Font.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d2b/a00018_source.php">QtDefines.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for Font.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d79/a00030.png" border="0" usemap="#Font_8hpp" alt=""/></div>
+</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/d79/a00030.png" border="0" usemap="#Font_8hppdep" alt=""/></div>
+<div class="center"><img src="../../df/d61/a00031.png" border="0" usemap="#Font_8hppdep" alt=""/></div>
 <map name="Font_8hppdep" id="Font_8hppdep">
 <area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="16,80,123,107"/>
 <area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="35,379,96,405"/>

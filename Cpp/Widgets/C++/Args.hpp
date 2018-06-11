@@ -11,9 +11,7 @@
 #include <map>
 
 #include "errors.hpp"
-#include "convert.hpp"
 #include "array.hpp"
-#include "time.hpp"
 
 /*!
 * \class		Arguments

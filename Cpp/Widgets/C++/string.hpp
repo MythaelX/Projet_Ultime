@@ -8,12 +8,6 @@
 #ifndef HEADER_STRING
 #define HEADER_STRING
 
-#include <sstream>
-
-#include <string>
-#include <algorithm>
-#include <numeric>
-#include <vector>
 #include <locale>
 
 #include "macro.hpp"

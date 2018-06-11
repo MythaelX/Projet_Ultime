@@ -113,24 +113,6 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 <code>#include &quot;<a class="el" href="../../dc/de2/a00024_source.php">Window.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/de0/a00022_source.php">TableWidget.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Qt.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d0/dc0/a00033.png" border="0" usemap="#Qt_8hpp" alt=""/></div>
-<map name="Qt_8hpp" id="Qt_8hpp">
-<area shape="rect" id="node2" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="4168,80,4274,107"/>
-<area shape="rect" id="node48" href="../../dc/de2/a00024.php" title="Window.hpp" alt="" coords="4726,80,4820,107"/>
-<area shape="rect" id="node50" href="../../d7/de0/a00022.php" title="TableWidget.hpp" alt="" coords="4845,80,4965,107"/>
-<area shape="rect" id="node4" href="../../d3/d52/a00023.php" title="Widget.hpp" alt="" coords="4177,155,4265,181"/>
-<area shape="rect" id="node5" href="../../d2/de7/a00014.php" title="DrawScene.hpp" alt="" coords="3988,155,4102,181"/>
-<area shape="rect" id="node6" href="../../db/db2/a00020.php" title="Scene.hpp" alt="" coords="4108,244,4192,271"/>
-<area shape="rect" id="node8" href="../../d7/d7a/a00016.php" title="GraphScene.hpp" alt="" coords="3844,155,3963,181"/>
-<area shape="rect" id="node13" href="../../de/d11/a00021.php" title="Spacers.hpp" alt="" coords="4432,155,4527,181"/>
-<area shape="rect" id="node14" href="../../dd/da2/a00019.php" title="QtFunctions.hpp" alt="" coords="4290,155,4408,181"/>
-<area shape="rect" id="node16" href="../../dd/d1b/a00015.php" title="Font.hpp" alt="" coords="2092,155,2166,181"/>
-<area shape="rect" id="node49" href="../../d6/d5b/a00026.php" title="WindowTitleBar.hpp" alt="" coords="4704,155,4842,181"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/df3/a00034.png" border="0" usemap="#Qt_8hppdep" alt=""/></div>
