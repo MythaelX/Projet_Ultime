@@ -148,6 +148,27 @@ function randStr(nb){
 	}
 
 	/*!
+	* \brief	Get an element dimension
+	*		\param[in]		e				The element to treat
+	*
+	*		\return			Return the element height + margins
+	*/
+	function getTotalHeight(e){
+		var out = getHeight(e) + parseInt(getStyle(e).marginTop);
+		return (isNaN(out))?0:out;
+	}
+	/*!
+	* \brief	Get an element dimension
+	*		\param[in]		e				The element to treat
+	*
+	*		\return			Return the element width + margins
+	*/
+	function getTotalWidth(e){
+		var out = getWidth(e) + parseInt(getStyle(e));
+		return (isNaN(out))?0:out;
+	}
+
+	/*!
 	* \brief	Get the principal struct dimension
 	*		\return			Return the total struct height
 	*/
@@ -159,16 +180,16 @@ function randStr(nb){
 		var height = 0;
 
 		if(isset(header)){
-			height += getHeight(header);
+			height += getTotalHeight(header);
 		}
 		if(isset(nav)){
-			height += getHeight(nav);
+			height += getTotalHeight(nav);
 		}
 		if(isset(main)){
-			height += getHeight(main);
+			height += getTotalHeight(main);
 		}
 		if(isset(footer)){
-			height += getHeight(footer);
+			height += getTotalHeight(footer);
 		}
 
 		return height;
@@ -378,6 +399,16 @@ function randStr(nb){
 		el.scrollTop = el.scrollHeight;
 	}
 /*********************************/
+
+/*!
+* \brief	Function to get the computed style of an element
+*		\param[in]		el					The element to get the style of
+*
+*		\return			Return a variable that contains the computed style of the element
+*/
+function getStyle(el){
+	return el.currentStyle || window.getComputedStyle(el);
+}
 
 /*!
 * \brief	Function that create a struct object with as fields, the ones that were pass in argument
@@ -629,19 +660,19 @@ function enable(el){
 				console.log("new main height : " + newMainHeight);
 				
 				if(isset(header)){
-					newMainHeight -= getHeight(header);
+					newMainHeight -= getTotalHeight(header);
 					console.log("new main height : " + newMainHeight);
-					console.log("header height : " + getHeight(header));
+					console.log("header height : " + getTotalHeight(header));
 				}
 				if(isset(nav)){
-					newMainHeight -= getHeight(nav);
+					newMainHeight -= getTotalHeight(nav);
 					console.log("new main height : " + newMainHeight);
-					console.log("nav height : " + getHeight(nav));
+					console.log("nav height : " + getTotalHeight(nav));
 				}
 				if(isset(footer)){
-					newMainHeight -= getHeight(footer);
+					newMainHeight -= getTotalHeight(footer);
 					console.log("new main height : " + newMainHeight);
-					console.log("footer height : " + getHeight(footer));
+					console.log("footer height : " + getTotalHeight(footer));
 				}
 
 				if(isset(body)){
