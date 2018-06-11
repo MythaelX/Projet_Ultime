@@ -23,12 +23,12 @@
 	/***************************/
 
 	/* Scripts du site */
-
+		$head->head_script("js/script.js");
 	/*******************/
 
 	/* Scripts personnels */
-	$head->head_script("js/navBar.js");
-	$head->head_script("js/Creation.js");
+		$head->head_script("js/navBar.js");
+		$head->head_script("js/Creation.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête

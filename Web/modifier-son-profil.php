@@ -23,10 +23,11 @@
 	/***************************/
 
 	/* Scripts du site */
-		$head->head_script("js/navBar.js");
+		$head->head_script("js/script.js");
 	/*******************/
 
 	/* Scripts personnels */
+		$head->head_script("js/navBar.js");
 		$head->head_script("js/fonction.js");
 		$head->head_script("js/modification.js");
 	/***************************/

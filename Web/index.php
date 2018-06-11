@@ -23,7 +23,7 @@
 	/***************************/
 
 	/* Scripts du site */
-
+		$head->head_script("js/script.js");
 	/*******************/
 
 	/* Scripts personnels */
