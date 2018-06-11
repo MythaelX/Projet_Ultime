@@ -3,7 +3,7 @@
 function posMain(){
 	var main = $("main");
 	if(isIn("index.php")){
-		if(main.style.display == "none"){
+		if($("#accueilPerso").style.display == "none"){
 			main.style.marginTop = "5%";
 		} else {
 			main.style.marginTop = "8%";
