@@ -663,7 +663,7 @@ function enable(el){
 					newMainHeight -= getTotalHeight(header);
 					console.log("new main height : " + newMainHeight);
 					console.log("header height : " + getTotalHeight(header));
-					console.log(getStyle(e).marginTop);
+					console.log("Margin top : " + getStyle(e).marginTop);
 				}
 				if(isset(nav)){
 					newMainHeight -= getTotalHeight(nav);
