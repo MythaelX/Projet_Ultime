@@ -657,39 +657,24 @@ function enable(el){
 
 			if(getStructHeight() <= windowHeight()){
 				var newMainHeight = windowHeight();
-				console.log("new main height : " + newMainHeight);
 				
 				if(isset(header)){
 					newMainHeight -= getTotalHeight(header);
-					console.log("new main height : " + newMainHeight);
-					console.log("header height : " + getTotalHeight(header));
-					console.log("header margin top : " + getStyle(header).marginTop);
 				}
 				if(isset(nav)){
 					newMainHeight -= getTotalHeight(nav);
-					console.log("new main height : " + newMainHeight);
-					console.log("nav height : " + getTotalHeight(nav));
-					console.log("nav margin top : " + getStyle(nav).marginTop);
 				}
 				if(isset(main)){
-					//newMainHeight -= getTotalHeight(footer);
-					console.log("new main height : " + newMainHeight);
-					console.log("main margin top : " + getStyle(main).marginTop);
-					console.log("main margin top : " + parseFloat(getStyle(main).marginTop));
+					newMainHeight -= parseFloat(getStyle(main).marginTop);
+					newMainHeight -= parseFloat(getStyle(main).merginBottom);
 				}
 				if(isset(footer)){
 					newMainHeight -= getTotalHeight(footer);
-					console.log("new main height : " + newMainHeight);
-					console.log("footer height : " + getTotalHeight(footer));
-					console.log("footer margin top : " + getStyle(footer).marginTop);
 				}
 
 				if(isset(body)){
 					body.style.height = windowHeight() + "px";
 				}
-
-				console.log("Window height : " + windowHeight());
-				console.log("new main height : " + newMainHeight);
 
 				if(isset(main)){
 					main.style.height = newMainHeight + "px";
