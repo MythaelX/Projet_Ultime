@@ -102,7 +102,7 @@ function randStr(nb){
 			d = document,
 			e = d.documentElement,
 			g = d.getElementsByTagName('body')[0],
-			y = parseInt(w.innerHeight || e.clientHeight || g.clientHeight);
+			y = parseFloat(w.innerHeight || e.clientHeight || g.clientHeight);
 
 		if(isNaN(y))
 			return 0;
@@ -118,7 +118,7 @@ function randStr(nb){
 			d = document,
 			e = d.documentElement,
 			g = d.getElementsByTagName('body')[0],
-			x = parseInt(w.innerWidth || e.clientWidth || g.clientWidth);
+			x = parseFloat(w.innerWidth || e.clientWidth || g.clientWidth);
 
 		if(isNaN(x))
 			return 0;
@@ -133,7 +133,7 @@ function randStr(nb){
 	*		\return			Return the element height
 	*/
 	function getHeight(e){
-		var out = parseInt(e.clientHeight || e.offsetHeight);
+		var out = parseFloat(e.clientHeight || e.offsetHeight);
 		return (isNaN(out))?0:out;
 	}
 	/*!
@@ -143,7 +143,7 @@ function randStr(nb){
 	*		\return			Return the element width
 	*/
 	function getWidth(e){
-		var out = parseInt(e.clientWidth || e.offsetWidth);
+		var out = parseFloat(e.clientWidth || e.offsetWidth);
 		return (isNaN(out))?0:out;
 	}
 
@@ -154,7 +154,7 @@ function randStr(nb){
 	*		\return			Return the element height + margins
 	*/
 	function getTotalHeight(e){
-		var out = getHeight(e) + parseInt(getStyle(e).marginTop);
+		var out = getHeight(e) + parseFloat(getStyle(e).marginTop) + parseFloat(getStyle(e).marginBottom);
 		return (isNaN(out))?0:out;
 	}
 	/*!
@@ -164,7 +164,7 @@ function randStr(nb){
 	*		\return			Return the element width + margins
 	*/
 	function getTotalWidth(e){
-		var out = getWidth(e) + parseInt(getStyle(e));
+		var out = getWidth(e) + parseFloat(getStyle(e).marginLeft) + parseFloat(getStyle(e).marginRight);
 		return (isNaN(out))?0:out;
 	}
 
@@ -204,7 +204,7 @@ function randStr(nb){
 	*		\return			Return the top position of an element
 	*/
 	function getTop(e){
-		var out = parseInt(e.clientTop || e.offsetTop);
+		var out = parseFloat(e.clientTop || e.offsetTop);
 		return (isNaN(out))?0:out;
 	}
 	/*!
@@ -214,7 +214,7 @@ function randStr(nb){
 	*		\return			Return the bottom position of an element
 	*/
 	function getBottom(e){
-		var out = parseInt(e.clientBottom || e.offsetBottom);
+		var out = parseFloat(e.clientBottom || e.offsetBottom);
 		return (isNaN(out))?0:out;
 	}
 
@@ -225,7 +225,7 @@ function randStr(nb){
 	*		\return			Return the left position of an element
 	*/
 	function getLeft(e){
-		var out = parseInt(e.clientLeft || e.offsetLeft);
+		var out = parseFloat(e.clientLeft || e.offsetLeft);
 		return (isNaN(out))?0:out;
 	}
 	/*!
@@ -235,7 +235,7 @@ function randStr(nb){
 	*		\return			Return the right position of an element
 	*/
 	function getRight(e){
-		var out = parseInt(e.clientRight || e.offsetRight);
+		var out = parseFloat(e.clientRight || e.offsetRight);
 		return (isNaN(out))?0:out;
 	}
 /***********************************/
@@ -298,14 +298,14 @@ function randStr(nb){
 	*		\return			Return the scroll top position
 	*/
 	function getScrollTop(){
-		return parseInt(document.documentElement.scrollTop || document.body.scrollTop);
+		return parseFloat(document.documentElement.scrollTop || document.body.scrollTop);
 	}
 	/*!
 	* \brief	Function to verify the scroll position of an element
 	*		\return			Return the scroll left position
 	*/
 	function getScrollLeft(){
-		return parseInt(document.documentElement.scrollLeft || document.body.scrollLeft)
+		return parseFloat(document.documentElement.scrollLeft || document.body.scrollLeft)
 	}
 /********************************************************/
 
@@ -675,7 +675,7 @@ function enable(el){
 					//newMainHeight -= getTotalHeight(footer);
 					console.log("new main height : " + newMainHeight);
 					console.log("main margin top : " + getStyle(main).marginTop);
-					console.log("main margin top : " + parseInt(getStyle(main).marginTop));
+					console.log("main margin top : " + parseFloat(getStyle(main).marginTop));
 				}
 				if(isset(footer)){
 					newMainHeight -= getTotalHeight(footer);
