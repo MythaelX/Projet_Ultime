@@ -49,7 +49,6 @@ void MainWindow::initConnectWidgets(){
 	lines["connect username"]->setText(user.c_str());
 
 	labels["connect password"]->setText("Mot de passe");
-	lines["connect password"]->setText("hotdogquiz");info_log(line_number, __FILE__, "Don't forget to delete me !");
 	lines["connect password"]->setEchoMode(QLineEdit::Password);
 
 	labels["connect database"]->setText("Base de données");

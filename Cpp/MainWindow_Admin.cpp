@@ -267,7 +267,8 @@ std::string MainWindow::createWidgetsLabel(std::map<std::string, std::string> co
 	if(col["autoincrement"] == "1"
 		|| col["name"].find("actif") != std::string::npos
 		|| col["name"].find("avatar") != std::string::npos
-		|| col["name"].find("token") != std::string::npos){
+		|| col["name"].find("token") != std::string::npos
+		|| col["name"].find("nb_jouees") != std::string::npos){
 		return "";
 	} else if(col["name"].find("date") != std::string::npos){
 		return "line " + index;
@@ -303,7 +304,8 @@ void MainWindow::createAddingWidgets(std::string table,
 	if(col["autoincrement"] == "1"
 		|| col["name"].find("actif") != std::string::npos
 		|| col["name"].find("avatar") != std::string::npos
-		|| col["name"].find("token") != std::string::npos){
+		|| col["name"].find("token") != std::string::npos
+		|| col["name"].find("nb_jouees") != std::string::npos){
 		return;
 	} else if(col["name"].find("date") != std::string::npos){
 		lines[usefull] = new QLineEdit;
