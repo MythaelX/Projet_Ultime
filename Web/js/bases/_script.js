@@ -634,7 +634,7 @@ function enable(el){
 					newMainHeight -= getHeight(nav);
 				}
 				if(isset(footer)){
-					newMainWindow -= getHeight(footer);
+					newMainHeight -= getHeight(footer);
 				}
 
 				if(isset(body)){
