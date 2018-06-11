@@ -86,6 +86,8 @@
 
 	/*!
 	*	\brief Function to create a complecated uniqid
+	*		\param[in]		size			The size of the string, 0 is all
+	*
 	*		\return			Return a unique id with md5(), uniqid() and rand()
 	*/
 	function createId($size = 0){
