@@ -11,7 +11,7 @@ if(!verifieToken($bdd)){
     header('Location: ./index.php');
   }
 }else{
-  if(strpos($_SERVER['PHP_SELF'], "inscription.php") || strpos($_SERVER['PHP_SELF'], "connexion.php"){
+  if(strpos($_SERVER['PHP_SELF'], "inscription.php") || strpos($_SERVER['PHP_SELF'], "connexion.php")){
     header('Location: ./index.php');
   }
 }
