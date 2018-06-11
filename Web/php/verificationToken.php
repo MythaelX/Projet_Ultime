@@ -1,5 +1,5 @@
 <?php
-require_once("bases/_functions.php");
+/*require_once("bases/_functions.php");
 require_once("bases/errors.php");
 require_once("bases/bdd.php");
 require_once("bddConnect.inc");
@@ -14,5 +14,5 @@ if(!verifieToken($bdd)){
   if($_SERVER['PHP_SELF']=="/Web/inscription.php" || $_SERVER['PHP_SELF']=="/Web/connexion.php"){
     header('Location: ./index.php');
   }
-}
+}*/
 ?>
