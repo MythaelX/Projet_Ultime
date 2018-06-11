@@ -608,25 +608,56 @@ function enable(el){
 			var main = $("main");
 			var footer = footerElement;
 
-			body.style.height = "auto";
+			if(isset(body)){
+				body.style.height = "auto";
+			}
+			if(isset(header)){
 				header.style.height = "auto";
+			}
+			if(isset(nav)){
 				nav.style.height = "auto";
+			}
+			if(isset(main)){
 				main.style.height = "auto";
+			}
+			if(isset(footer)){
 				footer.style.height = "auto";
+			}
 
 			if(getStructHeight() <= windowHeight()){
-				var newMainHeight = windowHeight() - getHeight(header) - getHeight(nav) - getHeight(footer);
+				var newMainHeight = windowHeight();
+				
+				if(isset(header)){
+					getHeight(header);
+				}
+				if(isset(nav)){
+					newMainHeight -= getHeight(nav);
+				}
+				if(isset(footer)){
+					newMainWindow -= getHeight(footer);
+				}
 
-				body.style.height = windowHeight() + "px";
+				if(isset(body)){
+					body.style.height = windowHeight() + "px";
+				}
 
-				main.style.height = newMainHeight + "px";
-				main.style.marginBottom = "0";
+				console.log("Window height : " + windowHeight());
+				console.log("new main height : " + newMainHeight);
+
+				if(isset(main)){
+					main.style.height = newMainHeight + "px";
+					main.style.marginBottom = "0";
+				}
 			} else {
-				body.style.height = "auto";
-				body.style.paddingBottom = "1px";
+				if(isset(body)){
+					body.style.height = "auto";
+					body.style.paddingBottom = "1px";
+				}
 
-				main.style.height = "auto";
-				//main.style.marginBottom = height + "px";
+				if(isset(main)){
+					main.style.height = "auto";
+					main.style.marginBottom = height + "px";
+				}
 			}
 		}
 	}
