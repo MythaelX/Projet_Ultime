@@ -86,16 +86,18 @@ function score($bdd){
   $pseudo=$_POST['pseudo'];
   $mail=$bdd->query("SELECT mail from utilisateurs WHERE pseudo='".$pseudo."'")[0]['mail']; //recuperer le token
   $id_partie=$_POST['id_partie'];
-  $data=$bdd->select("joue_a","valeur_score","WHERE id_partie=".$id_partie."");
+  $data=$bdd->select("joue_a","valeur_score","WHERE id_partie=".$id_partie." AND mail='".$mail."'");
   $ancienScore=$data[0]['valeur_score'];
-  if(isset($ancienScore)){ //verification si a deja joué a la partie
+  if(isset($ancienScore)){ //verification s'il a deja joué a la partie
     if($ancienScore<$scoreTotal){ //comparaisson du nouveau et ancien score pour garder le meilleurs
-      $bdd->delete("joue_a","id_partie=".$id_partie."");
+      $bdd->delete("joue_a","id_partie=".$id_partie."","pseudo=".$pseudo."");
       $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
     }
   }else{
     $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
   }
+  $bdd->DEBUG(true);
+  $bdd->update("partie","nb_jouees=nb_jouees+1", "WHERE id_partie=".$id_partie."");
   $data=["score" => $scoreTotal,"temps" => $tempsTotal,];
   sendJsonData($data,'HTTP/1.1 200 OK');
 }

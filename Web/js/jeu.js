@@ -21,7 +21,9 @@ $("#bouton3").addEventListener('click',compteur);
 function compteur(event){
   var reponse=this.textContent;
   recuperationReponseTemp(reponse);
-  if(compteurProposition>=2){
+  console.log(proposition[0].length-1);
+  console.log(compteurProposition);
+  if(compteurProposition>=proposition[compteurQuestion].length-1){
     compteurProposition=0;
     compteurQuestion+=1;
   }else{
@@ -36,7 +38,7 @@ function affichageDifficulte(ajaxResponse){
 }
 
 function jeu(){
-  if(compteurQuestion<=questions.length){
+  if(compteurQuestion<=questions['solution_un'].length-1){
     affichageJeu();
   }else{
     $('#blocChrono').style.display= "none";
@@ -47,6 +49,10 @@ function jeu(){
 }
 
 function affichageJeu(){
+  console.log(questions);
+  console.log(proposition);
+  console.log(data);
+  console.log(proposition);
   var j,i,temps;
   j=compteurQuestion;
   i=compteurProposition;
@@ -76,7 +82,7 @@ function recupererQuestions(ajaxResponse){
   for (var i = 0; i < json.length; i++) {
     questions['solution_un'][i]=json[i]['solution_un'];
     questions['solution_deux'][i]=json[i]['solution_deux'];
-    ajaxRequest('GET','php/request.php/propositions',recupererPropositions,'id_question='+json[i]['id_question']);
+    ajaxRequest('GET','php/request.php/propositions',recupererPropositions,'id_question='+json[i]['id_question'], function(){}, false);
   }
 }
 

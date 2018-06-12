@@ -40,8 +40,8 @@ function valideInscription(event){
     }else if(verifPseudo()){
       text = 'Veuillez rentrer un pseudo entre 2 et 25 caractères';
     }
-    httpErrors(400,text);
+    httpErrors(403,text);
   }else{
-    alert("Votre inscription a été enregistrée,vous allez être redirigé vers la page d'accueil s'il n'y a aucun erreur pour l'avatar");
+    alert("Votre inscription a été enregistrée, vous allez être redirigé vers la page d'accueil s'il n'y a aucune erreur pour l'avatar.");
   }
 }

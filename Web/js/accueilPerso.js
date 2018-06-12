@@ -34,7 +34,8 @@ function affichageParties(ajaxResponse){
     for (var i = 0; i < json.length; i++) {
       text+='<tr><td>'+
       '<input type="radio" id="radioButton'+i+'" name="choix" value="'+json[i]["id_partie"]+'">'+'</td><td>'+
-      'Partie'+json[i]["id_partie"]+
+      'Partie'+json[i]["id_partie"]+'</td><td>'+
+      json[i]["nb_jouees"]+
       '</td></tr>';
     }
 

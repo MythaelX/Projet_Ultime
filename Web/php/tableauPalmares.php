@@ -14,6 +14,7 @@
 				<th scope="col">Poids</th>
 				<th scope="col">Pseudos</th>
 				<th scope="col">Scores / Temps</th>
+				<th scope="col">Partie</th>
 				<th scope="col">Dates</th>
 			</tr>
 		</thead>

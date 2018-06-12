@@ -35,7 +35,7 @@ function valideModification(event){
     }else if(mdpActuelVerif()){
         text='Votre mot de passe Actuel est incorrect';
     }
-    httpErrors(400,text);
+    httpErrors(403,text);
   }else{
     alert("Votre modification a été enregistrée, vous allez être redirigé vers la page d'accueil");
   }

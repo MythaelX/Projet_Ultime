@@ -33,7 +33,7 @@
 		case "GET":
 			if($requestRessource == 'tableauPalmares'){
 				$difficulte=$_GET['difficulte'];
-				$data=$bdd->query("SELECT j.valeur_score AS score, j.temps_score AS temps, j.date_score, u.pseudo FROM joue_a AS j, utilisateurs AS u, partie AS p WHERE j.mail = u.mail AND j.id_partie=p.id_partie AND p.id_difficulte=".$difficulte." ORDER BY j.valeur_score DESC LIMIT 15");
+				$data=$bdd->query("SELECT j.valeur_score AS score, j.temps_score AS temps, j.date_score, u.pseudo,j.id_partie FROM joue_a AS j, utilisateurs AS u, partie AS p WHERE j.mail = u.mail AND j.id_partie=p.id_partie AND p.id_difficulte=".$difficulte." ORDER BY j.valeur_score DESC LIMIT 15");
 			}else if($requestRessource == 'authentification'){
 				authentification($bdd);
 			}else if($requestRessource == 'navInfo'){
@@ -41,7 +41,7 @@
 				$data=$bdd->query("SELECT pseudo,avatar FROM utilisateurs WHERE pseudo='$pseudo'");
 			}else if($requestRessource == 'tableauParties'){
 				$difficulte=$_GET['difficulte'];
-				$data=$bdd->query("SELECT id_partie FROM partie WHERE id_difficulte=".$difficulte." AND partie_actif=1");
+				$data=$bdd->query("SELECT id_partie,nb_jouees FROM partie WHERE id_difficulte=".$difficulte." AND partie_actif=1");
 			}else if($requestRessource == 'tableauThemes'){
 				$data=$bdd->query("SELECT nom_categorie FROM categorie WHERE categorie_actif=1");
 			}else if($requestRessource == 'tableauDifficulte'){
@@ -55,6 +55,8 @@
 			}else if($requestRessource == 'propositions'){
 				$id_question=$_GET['id_question'];
 				$data=$bdd->query("SELECT texte_proposition,solution_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
+				error_log($id_question);
+				error_log_array($data);
 			}else if($requestRessource=='pseudo'){
 				$pseudo=$_GET['pseudo'];
 				$data=$bdd->query("SELECT pseudo FROM utilisateurs WHERE pseudo='".$pseudo."'");
@@ -62,6 +64,7 @@
 				$mail=$_GET['email'];
 				$data=$bdd->query("SELECT mail FROM utilisateurs WHERE mail='".$mail."'");
 			}
+
 			sendJsonData($data,'HTTP/1.1 200 OK');
 			break;
 		case "PUT":
@@ -73,6 +76,5 @@
 			break;
 		default:
 	}
-	//$pseudo=verifieToken($bdd);
 	exit;
 ?>

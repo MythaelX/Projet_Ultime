@@ -35,7 +35,8 @@ for (var i = 0; i < json.length; i++) {
   text+='<tr><td>'+
   (i+1)+' Kg</td><td>'+
   json[i]["pseudo"]+'</td><td>'+
-  json[i]["score"]+' / '+json[i]["temps"]+'</td><td>'+
+  json[i]["score"]+' Dog / '+json[i]["temps"]+'</td><td>'+
+  json[i]["id_partie"]+'</td><td>'+
   json[i]["date_score"]+
   '</td></tr>';
 }

@@ -1,4 +1,7 @@
--affiché le nombre de partie jouée
+-js margin top
 -probleme message d'erreur
--pied de page jeu
-css select accueil perso
+-css select accueil perso
+
+-verification creation partie
+-trouver question proposition 6 question min et 3 proposition min par theme
+-commenter code
