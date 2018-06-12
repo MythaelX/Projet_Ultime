@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="../../dd/d42/a00109.php">List of all members</a>  </div>
+<a href="../../db/d57/a00112.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Cls Class Reference</div>  </div>
 </div><!--header-->
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('da/da0/a00009.php','../../');});
 <p>Clear the console.  
  <a href="../../da/da0/a00009.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../db/d3a/a00040_source.php">console.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -136,7 +136,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Clear the console. </p>
 
-<p>Definition at line <a class="el" href="../../d3/de7/a00039_source.php#l00156">156</a> of file <a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d3a/a00040_source.php#l00156">156</a> of file <a class="el" href="../../db/d3a/a00040_source.php">console.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a441ea70daac8caec56684cf47b187672"></a>
 <div class="memitem">
@@ -191,7 +191,7 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a></li>
+<li><a class="el" href="../../db/d3a/a00040_source.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

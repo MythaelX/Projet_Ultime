@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: C++.hpp File Reference</title>
+<title>C++: bdd.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,78 +106,124 @@ $(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">C++.hpp File Reference</div>  </div>
+<div class="title">bdd.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/df9/a00044_source.php">Entities.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d6d/a00055_source.php">Player.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db6/a00042_source.php">cryptage.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/de7/a00039_source.php">console.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d42/a00043_source.php">defines.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dea/a00046_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d32/a00041_source.php">convert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d41/a00038_source.php">collides.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">string.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d8c/a00035_source.php">array.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">maths.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2d/a00047_source.php">files.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/df7/a00058_source.php">sorting.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/de0/a00050_source.php">Map.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dee/a00049_source.php">macro.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d03/a00062_source.php">types.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;cppconn/driver.h&gt;</code><br />
+<code>#include &lt;cppconn/exception.h&gt;</code><br />
+<code>#include &lt;cppconn/resultset.h&gt;</code><br />
+<code>#include &lt;cppconn/statement.h&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d2d/a00047_source.php">errors.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">pointers.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">string.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for C++.hpp:</div>
+Include dependency graph for bdd.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/d89/a00071.png" border="0" usemap="#C_09_09_8hpp" alt=""/></div>
-<map name="C_09_09_8hpp" id="C_09_09_8hpp">
-<area shape="rect" id="node2" href="../../d5/df9/a00044.php" title="Entities.hpp" alt="" coords="1529,155,1620,181"/>
-<area shape="rect" id="node4" href="../../d6/d42/a00043.php" title="defines.hpp" alt="" coords="714,528,803,555"/>
-<area shape="rect" id="node12" href="../../d3/dea/a00046.php" title="errors.hpp" alt="" coords="1236,677,1316,704"/>
-<area shape="rect" id="node13" href="../../d3/de7/a00039.php" title="console.hpp" alt="" coords="1143,752,1235,779"/>
-<area shape="rect" id="node14" href="../../dd/d32/a00041.php" title="convert.hpp" alt="" coords="132,827,223,853"/>
-<area shape="rect" id="node20" href="../../df/d03/a00062.php" title="types.hpp" alt="" coords="1749,827,1827,853"/>
-<area shape="rect" id="node22" href="../../d6/d2d/a00047.php" title="files.hpp" alt="" coords="1259,752,1330,779"/>
-<area shape="rect" id="node25" href="../../d9/d73/a00060.php" title="time.hpp" alt="" coords="1492,752,1564,779"/>
-<area shape="rect" id="node30" href="../../d3/d8b/a00059.php" title="string.hpp" alt="" coords="630,677,709,704"/>
-<area shape="rect" id="node32" href="../../d2/dee/a00049.php" title="macro.hpp" alt="" coords="821,752,904,779"/>
-<area shape="rect" id="node33" href="../../d4/d8c/a00035.php" title="array.hpp" alt="" coords="1023,752,1099,779"/>
-<area shape="rect" id="node36" href="../../d2/d79/a00051.php" title="maths.hpp" alt="" coords="1964,603,2047,629"/>
-<area shape="rect" id="node38" href="../../d8/d41/a00038.php" title="collides.hpp" alt="" coords="1960,528,2051,555"/>
-<area shape="rect" id="node39" href="../../d5/de0/a00050.php" title="Map.hpp" alt="" coords="1192,528,1264,555"/>
-<area shape="rect" id="node47" href="../../d4/d6d/a00055.php" title="Player.hpp" alt="" coords="1518,80,1602,107"/>
-<area shape="rect" id="node48" href="../../d5/db6/a00042.php" title="cryptage.hpp" alt="" coords="725,155,822,181"/>
-<area shape="rect" id="node49" href="../../d7/df7/a00058.php" title="sorting.hpp" alt="" coords="293,827,379,853"/>
-<area shape="rect" id="node50" href="../../d4/de8/a00061.php" title="Tree.hpp" alt="" coords="1418,528,1491,555"/>
-<area shape="rect" id="node3" href="../../db/d3a/a00040.php" title="Contraption.hpp" alt="" coords="1619,453,1733,480"/>
-<area shape="rect" id="node40" href="../../dc/dee/a00053.php" title="Object.hpp" alt="" coords="1460,379,1545,405"/>
-<area shape="rect" id="node41" href="../../d6/d97/a00045.php" title="Entity.hpp" alt="" coords="1635,379,1717,405"/>
-<area shape="rect" id="node42" href="../../dc/d87/a00032.php" title="Animal.hpp" alt="" coords="1506,304,1593,331"/>
-<area shape="rect" id="node43" href="../../d0/dc0/a00033.php" title="Ant.hpp" alt="" coords="1445,229,1512,256"/>
-<area shape="rect" id="node44" href="../../d1/d6f/a00063.php" title="Vegetal.hpp" alt="" coords="1631,304,1721,331"/>
-<area shape="rect" id="node45" href="../../d1/dea/a00054.php" title="Plant.hpp" alt="" coords="1637,229,1715,256"/>
-<area shape="rect" id="node46" href="../../d1/d84/a00052.php" title="Mushroom.hpp" alt="" coords="1739,229,1847,256"/>
-<area shape="rect" id="node11" href="../../de/d8c/a00036.php" title="bdd.hpp" alt="" coords="791,603,859,629"/>
-<area shape="rect" id="node29" href="../../d9/d2e/a00056.php" title="pointers.hpp" alt="" coords="817,677,911,704"/>
-<area shape="rect" id="node34" href="../../d1/d22/a00057.php" title="RNG.hpp" alt="" coords="715,752,792,779"/>
-<area shape="rect" id="node35" href="../../db/df3/a00034.php" title="Args.hpp" alt="" coords="985,603,1060,629"/>
+<div class="center"><img src="../../d6/d2c/a00072.png" border="0" usemap="#bdd_8hpp" alt=""/></div>
+<map name="bdd_8hpp" id="bdd_8hpp">
+<area shape="rect" id="node7" href="../../d6/d2d/a00047.php" title="errors.hpp" alt="" coords="1055,80,1135,107"/>
+<area shape="rect" id="node27" href="../../d1/d22/a00057.php" title="pointers.hpp" alt="" coords="719,304,813,331"/>
+<area shape="rect" id="node28" href="../../d9/d73/a00060.php" title="string.hpp" alt="" coords="1653,155,1732,181"/>
+<area shape="rect" id="node8" href="../../db/d3a/a00040.php" title="console.hpp" alt="" coords="1139,155,1231,181"/>
+<area shape="rect" id="node18" href="../../d4/dca/a00048.php" title="files.hpp" alt="" coords="1524,229,1595,256"/>
+<area shape="rect" id="node21" href="../../df/d03/a00062.php" title="time.hpp" alt="" coords="969,155,1041,181"/>
+<area shape="rect" id="node9" href="../../d5/db6/a00042.php" title="convert.hpp" alt="" coords="1334,229,1425,256"/>
+<area shape="rect" id="node15" href="../../df/d5f/a00064.php" title="types.hpp" alt="" coords="1145,229,1224,256"/>
+<area shape="rect" id="node26" href="../../d4/de8/a00061.php" title="Threadable.hpp" alt="" coords="744,229,855,256"/>
+<area shape="rect" id="node30" href="../../d5/de0/a00050.php" title="macro.hpp" alt="" coords="1801,229,1883,256"/>
+<area shape="rect" id="node31" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="1700,229,1776,256"/>
+<area shape="rect" id="node32" href="../../d7/df7/a00058.php" title="RNG.hpp" alt="" coords="1907,229,1985,256"/>
 </map>
 </div>
 </div>
 <p><a href="../../d1/dc6/a00037_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php">BDD</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>.  <a href="../../de/d21/a00006.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:acb7362a3fb715f64e5ab3cd50794a52c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> = std::vector&lt; std::map&lt; std::string, std::string &gt;&gt;</td></tr>
+<tr class="memdesc:acb7362a3fb715f64e5ab3cd50794a52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the array that contains the columns.  <a href="#acb7362a3fb715f64e5ab3cd50794a52c">More...</a><br /></td></tr>
+<tr class="separator:acb7362a3fb715f64e5ab3cd50794a52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b6679f15a22e0f89297978d24dec56e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> = std::vector&lt; std::vector&lt; std::string &gt;&gt;</td></tr>
+<tr class="memdesc:a6b6679f15a22e0f89297978d24dec56e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the array that contains the list of something.  <a href="#a6b6679f15a22e0f89297978d24dec56e">More...</a><br /></td></tr>
+<tr class="separator:a6b6679f15a22e0f89297978d24dec56e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d21/a00006.php">BDD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/a00037.php#a36ce5024f17ad7e4a5b2eff31629cd5c">bdd</a></td></tr>
+<tr class="memdesc:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global bdd variable to connect to a database.  <a href="#a36ce5024f17ad7e4a5b2eff31629cd5c">More...</a><br /></td></tr>
+<tr class="separator:a36ce5024f17ad7e4a5b2eff31629cd5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>11 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/dc6/a00037_source.php">C++.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="acb7362a3fb715f64e5ab3cd50794a52c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d1/dc6/a00037.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> =  std::vector&lt;std::map&lt;std::string, std::string&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The type of the array that contains the columns. </p>
+
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00023">23</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b6679f15a22e0f89297978d24dec56e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> =  std::vector&lt;std::vector&lt;std::string&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The type of the array that contains the list of something. </p>
+
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00025">25</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a36ce5024f17ad7e4a5b2eff31629cd5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d21/a00006.php">BDD</a> bdd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A global bdd variable to connect to a database. </p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">C++.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/dc6/a00037.php">bdd.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('namespaces.php','');});
 <div class="contents">
 <div class="textblock">Here is a list of all namespaces with brief descriptions:</div><div class="directory">
 <table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="df/d5f/a00064.php" target="_self">Typer</a></td><td class="desc"></td></tr>
+<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><span class="icona"><span class="icon">N</span></span><a class="el" href="d9/db3/a00066.php" target="_self">Typer</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->

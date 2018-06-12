@@ -436,6 +436,18 @@ bool BDD::remove(std::string condition, std::string args, std::string table){
 	}
 }
 
+/* Verify if something exist in the bdd */
+bool BDD::exists(std::string task){
+	this->setFatal(false);
+	auto res = this->query(task);
+	this->setFatal(true);
+
+	if(res == nullptr){
+		return false;
+	}
+	return true;
+}
+
 /* Format the values */
 void BDD::formatValues(std::string& values, std::string table){
 	/* Get all the arguments */

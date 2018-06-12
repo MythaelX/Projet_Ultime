@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d8/dfa/a00121.php">List of all members</a>  </div>
+<a href="../../da/d72/a00124.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Hostile Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 <p>A class to derivate from when the thing can attack.  
  <a href="../../d7/d7a/a00016.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dc8/a00122.png" border="0" usemap="#Hostile_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#Hostile_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hostile_inherit__map" id="Hostile_inherit__map">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="5,80,68,107"/>
 <area shape="rect" id="node3" href="../../d0/d0b/a00004.php" title="An ant. " alt="" coords="15,155,58,181"/>
@@ -133,7 +133,7 @@ Inheritance diagram for Hostile:</div>
 <div class="dynheader">
 Collaboration diagram for Hostile:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d36/a00123.png" border="0" usemap="#Hostile_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d7/d12/a00126.png" border="0" usemap="#Hostile_coll__map" alt="Collaboration graph"/></div>
 <map name="Hostile_coll__map" id="Hostile_coll__map">
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
 <area shape="rect" id="node3" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
@@ -181,7 +181,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to derivate from when the thing can attack. </p>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00017">17</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00017">17</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab5ee3eebdea8943c1cb6ebd1b875bbf1"></a>
 <div class="memitem">
@@ -285,7 +285,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the Hotsile's strength. </p>
 <dl class="section return"><dt>Returns</dt><dd>Return the strength </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00046">46</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00046">46</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the Hotsile's target. </p>
 <dl class="section return"><dt>Returns</dt><dd>Return the target </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00051">51</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00051">51</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -420,7 +420,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00032">32</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00032">32</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,7 +455,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00039">39</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00039">39</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +483,7 @@ Here is the call graph for this function:</div>
 <p>Set the target to null. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00084">84</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00084">84</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
@@ -506,12 +506,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00087">87</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dee/a00049_source.php#l00087">87</a> of file <a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/dca/a00048_source.php">Hostile.hpp</a></li>
+<li><a class="el" href="../../d2/dee/a00049_source.php">Hostile.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

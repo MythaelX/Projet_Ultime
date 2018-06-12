@@ -154,11 +154,14 @@ $(document).ready(function(){initNavTree('functions_t.php','');});
 <li>target
 : <a class="el" href="d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
 </li>
+<li>Threadable()
+: <a class="el" href="dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable&lt; C &gt;</a>
+</li>
 <li>Timer()
-: <a class="el" href="dc/d3c/a00028.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
+: <a class="el" href="d5/d16/a00029.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>
 </li>
 <li>Tree()
-: <a class="el" href="d5/d16/a00029.php#a38efd4e0201ba5596f5159f308851772">Tree&lt; T &gt;</a>
+: <a class="el" href="d5/d79/a00030.php#a38efd4e0201ba5596f5159f308851772">Tree&lt; T &gt;</a>
 </li>
 <li>try_connect()
 : <a class="el" href="de/d21/a00006.php#a1e496e66cfaf5dc0209f448480bead5e">BDD</a>

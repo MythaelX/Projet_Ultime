@@ -180,11 +180,14 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.php','');});
 <li>~Player()
 : <a class="el" href="d3/d52/a00023.php#a3ce0168273b6d0be5f66b3b6136397ff">Player&lt; PlayerParent &gt;</a>
 </li>
+<li>~Threadable()
+: <a class="el" href="dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">Threadable&lt; C &gt;</a>
+</li>
 <li>~Tree()
-: <a class="el" href="d5/d16/a00029.php#a04affc46d89a0ef5d517ab685c9c346e">Tree&lt; T &gt;</a>
+: <a class="el" href="d5/d79/a00030.php#a04affc46d89a0ef5d517ab685c9c346e">Tree&lt; T &gt;</a>
 </li>
 <li>~Vegetal()
-: <a class="el" href="d5/d79/a00030.php#ae273444c873c7f3be7f38b6f60156a4c">Vegetal</a>
+: <a class="el" href="df/d61/a00031.php#ae273444c873c7f3be7f38b6f60156a4c">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

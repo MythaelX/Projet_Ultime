@@ -2,7 +2,7 @@
 *
 *	\file		bdd.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		10 juin 2018
+*	\date		11 juin 2018
 *
 */
 #ifndef HEADER_BDD
@@ -125,14 +125,12 @@ class BDD {
 			bool remove(std::string condition, std::string args = "", std::string table = "");
 
 			/*!
-			* \todo
 			* \brief	Verify if something exist in the bdd
 			*		\param[in]		task		The task to verify
-			*		\param[in]		table		The table in which to do the action
 			*
 			*		\return			\b true or \b false
 			*/
-			bool exists(std::string task, std::string table = "");
+			bool exists(std::string task);
 
 			/*!
 			* \brief	Connection to a bdd

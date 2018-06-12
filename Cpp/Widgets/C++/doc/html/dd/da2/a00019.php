@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d7/d12/a00126.php">List of all members</a>  </div>
+<a href="../../d9/d47/a00129.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Mushroom Class Reference</div>  </div>
 </div><!--header-->
@@ -119,13 +119,13 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 <p>A mushroom.  
  <a href="../../dd/da2/a00019.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/d84/a00052_source.php">Mushroom.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/dee/a00053_source.php">Mushroom.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Mushroom:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dcd/a00127.png" border="0" usemap="#Mushroom_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d6/db3/a00130.png" border="0" usemap="#Mushroom_inherit__map" alt="Inheritance graph"/></div>
 <map name="Mushroom_inherit__map" id="Mushroom_inherit__map">
-<area shape="rect" id="node2" href="../../d5/d79/a00030.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
+<area shape="rect" id="node2" href="../../df/d61/a00031.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
 <area shape="rect" id="node4" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>
@@ -133,9 +133,9 @@ Inheritance diagram for Mushroom:</div>
 <div class="dynheader">
 Collaboration diagram for Mushroom:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/d88/a00128.png" border="0" usemap="#Mushroom_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d7/d06/a00131.png" border="0" usemap="#Mushroom_coll__map" alt="Collaboration graph"/></div>
 <map name="Mushroom_coll__map" id="Mushroom_coll__map">
-<area shape="rect" id="node2" href="../../d5/d79/a00030.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
+<area shape="rect" id="node2" href="../../df/d61/a00031.php" title="A vegetal. " alt="" coords="17,155,83,181"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
 <area shape="rect" id="node4" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>
@@ -152,16 +152,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1467b6e6e2b41e3e3790f7e2b8e28b6d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a1467b6e6e2b41e3e3790f7e2b8e28b6d">printInfos</a> (std::ostream &amp;stream) const </td></tr>
 <tr class="memdesc:a1467b6e6e2b41e3e3790f7e2b8e28b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the infos in the instance of the class in <em>stream</em>.  <a href="#a1467b6e6e2b41e3e3790f7e2b8e28b6d">More...</a><br /></td></tr>
 <tr class="separator:a1467b6e6e2b41e3e3790f7e2b8e28b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00030"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00030')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d79/a00030.php">Vegetal</a></td></tr>
-<tr class="memitem:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00030"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
-<tr class="memdesc:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac9d1bee0742cb45180637db1bed06294">More...</a><br /></td></tr>
-<tr class="separator:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00030"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#ae273444c873c7f3be7f38b6f60156a4c">~Vegetal</a> ()</td></tr>
-<tr class="memdesc:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#ae273444c873c7f3be7f38b6f60156a4c">More...</a><br /></td></tr>
-<tr class="separator:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00030"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d79/a00030.php">Vegetal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a4ea0ad75fb2add027996b1653a4751f4">cut</a> (double percent=100)</td></tr>
-<tr class="memdesc:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut the plant to have twice.  <a href="#a4ea0ad75fb2add027996b1653a4751f4">More...</a><br /></td></tr>
-<tr class="separator:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00031"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00031')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d61/a00031.php">Vegetal</a></td></tr>
+<tr class="memitem:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00031"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/a00031.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memdesc:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac9d1bee0742cb45180637db1bed06294">More...</a><br /></td></tr>
+<tr class="separator:ac9d1bee0742cb45180637db1bed06294 inherit pub_methods_a00031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00031"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/a00031.php#ae273444c873c7f3be7f38b6f60156a4c">~Vegetal</a> ()</td></tr>
+<tr class="memdesc:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#ae273444c873c7f3be7f38b6f60156a4c">More...</a><br /></td></tr>
+<tr class="separator:ae273444c873c7f3be7f38b6f60156a4c inherit pub_methods_a00031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00031"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d61/a00031.php">Vegetal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/a00031.php#a4ea0ad75fb2add027996b1653a4751f4">cut</a> (double percent=100)</td></tr>
+<tr class="memdesc:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut the plant to have twice.  <a href="#a4ea0ad75fb2add027996b1653a4751f4">More...</a><br /></td></tr>
+<tr class="separator:a4ea0ad75fb2add027996b1653a4751f4 inherit pub_methods_a00031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_a00015"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00015')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d1b/a00015.php">Entity</a></td></tr>
 <tr class="memitem:a8eb01833b85eafedca05d504d7be006b inherit pub_methods_a00015"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
 <tr class="memdesc:a8eb01833b85eafedca05d504d7be006b inherit pub_methods_a00015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a8eb01833b85eafedca05d504d7be006b">More...</a><br /></td></tr>
@@ -306,7 +306,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A mushroom. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00017">17</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Mushroom.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00017">17</a> of file <a class="el" href="../../dc/dee/a00053_source.php">Mushroom.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af342d4cc5549b53b43735e68f7d7ceed"></a>
 <div class="memitem">
@@ -407,12 +407,12 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Reimplemented from <a class="el" href="../../d5/d79/a00030.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
+<p>Reimplemented from <a class="el" href="../../df/d61/a00031.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d84/a00052_source.php">Mushroom.hpp</a></li>
+<li><a class="el" href="../../dc/dee/a00053_source.php">Mushroom.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,4 +1,4 @@
-<map id="Vegetal" name="Vegetal">
-<area shape="rect" id="node2" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
-<area shape="rect" id="node3" href="$df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="Threadable&lt; C &gt;" name="Threadable&lt; C &gt;">
+<area shape="rect" id="node2" href="$dc/d3c/a00028.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
+<area shape="rect" id="node3" href="$d5/d16/a00029.php" title="A timer to do something at the end. " alt="" coords="49,171,104,197"/>
 </map>

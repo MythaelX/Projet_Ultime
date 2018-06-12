@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Tree.hpp File Reference</title>
+<title>C++: Threadable.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,21 +108,21 @@ $(document).ready(function(){initNavTree('d4/de8/a00061.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">Tree.hpp File Reference</div>  </div>
+<div class="title">Threadable.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">maths.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">pointers.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Tree.hpp:</div>
+Include dependency graph for Threadable.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/d54/a00094.png" border="0" usemap="#Tree_8hpp" alt=""/></div>
-<map name="Tree_8hpp" id="Tree_8hpp">
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="maths.hpp" alt="" coords="88,80,171,107"/>
+<div class="center"><img src="../../d9/d77/a00095.png" border="0" usemap="#Threadable_8hpp" alt=""/></div>
+<map name="Threadable_8hpp" id="Threadable_8hpp">
+<area shape="rect" id="node5" href="../../d1/d22/a00057.php" title="pointers.hpp" alt="" coords="275,80,368,107"/>
 </map>
 </div>
 </div>
@@ -130,185 +130,33 @@ Include dependency graph for Tree.hpp:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db2/a00020.php">Node&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a node for the tree.  <a href="../../db/db2/a00020.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to manage a binary tree.  <a href="../../d5/d16/a00029.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../dc/d3c/a00028.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a0a1e73288e0ceb794c65bd86a4b7f231"><td class="memItemLeft" align="right" valign="top">typedef long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a></td></tr>
-<tr class="separator:a0a1e73288e0ceb794c65bd86a4b7f231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:afaf56d0935db4c37008c7c186bdde7c0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a> { <a class="el" href="../../d4/de8/a00061.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a>, 
-<a class="el" href="../../d4/de8/a00061.php#afaf56d0935db4c37008c7c186bdde7c0ac09f77dd64a2d5dedf24b5835d9eaa5a">DESC</a>
- }<tr class="memdesc:afaf56d0935db4c37008c7c186bdde7c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sorting order of the tree.  <a href="../../d4/de8/a00061.php#afaf56d0935db4c37008c7c186bdde7c0">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:afaf56d0935db4c37008c7c186bdde7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65cb214851db32b3bf2b7072e229e06"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a> { <a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06aec8379af7490bb9eaaf579cf17876f38">RIGHT</a>, 
-<a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06adb45120aafd37a973140edee24708065">LEFT</a>, 
-<a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>
- }</td></tr>
-<tr class="separator:ac65cb214851db32b3bf2b7072e229e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a05b65486fa381f9881b8ea58c13382ad"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a05b65486fa381f9881b8ea58c13382ad"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a05b65486fa381f9881b8ea58c13382ad">treeAscSorter</a> (std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas, std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; nodeDatas)</td></tr>
-<tr class="memdesc:a05b65486fa381f9881b8ea58c13382ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to sort a tree ascendently depending on weights.  <a href="#a05b65486fa381f9881b8ea58c13382ad">More...</a><br /></td></tr>
-<tr class="separator:a05b65486fa381f9881b8ea58c13382ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcf4acfe617e3974a5ba668de737b80c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:adcf4acfe617e3974a5ba668de737b80c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#adcf4acfe617e3974a5ba668de737b80c">treeDescSorter</a> (std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas, std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; nodeDatas)</td></tr>
-<tr class="memdesc:adcf4acfe617e3974a5ba668de737b80c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to sort a tree descendently depending on weights.  <a href="#adcf4acfe617e3974a5ba668de737b80c">More...</a><br /></td></tr>
-<tr class="separator:adcf4acfe617e3974a5ba668de737b80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a09979566ade438911265d3e17ecc3abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a></td></tr>
+<tr class="separator:a09979566ade438911265d3e17ecc3abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>11 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a0a1e73288e0ceb794c65bd86a4b7f231"></a>
+<p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a09979566ade438911265d3e17ecc3abc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef long double <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a></td>
+          <td class="memname">#define THREADABLE</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00015">15</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="ac65cb214851db32b3bf2b7072e229e06"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ac65cb214851db32b3bf2b7072e229e06aec8379af7490bb9eaaf579cf17876f38"></a>RIGHT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ac65cb214851db32b3bf2b7072e229e06adb45120aafd37a973140edee24708065"></a>LEFT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ac65cb214851db32b3bf2b7072e229e06ac157bdf0b85a40d2619cbc8bc1ae5fe2"></a>NONE&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00023">23</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afaf56d0935db4c37008c7c186bdde7c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d4/de8/a00061.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The sorting order of the tree. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc"></a>ASC&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="afaf56d0935db4c37008c7c186bdde7c0ac09f77dd64a2d5dedf24b5835d9eaa5a"></a>DESC&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00018">18</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a05b65486fa381f9881b8ea58c13382ad"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a> treeAscSorter </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>datas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodeDatas</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function to sort a tree ascendently depending on weights. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas to compare to </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nodeDatas</td><td>The datas of the node to compare to <em>datas</em> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return -1/0/1 to say which node to go </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00051">51</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adcf4acfe617e3974a5ba668de737b80c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/de8/a00061.php#ac65cb214851db32b3bf2b7072e229e06">TREE_DIRECTION</a> treeDescSorter </td>
-          <td>(</td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>datas</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d4/de8/a00061.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
-          <td class="paramname"><em>nodeDatas</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function to sort a tree descendently depending on weights. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">datas</td><td>The datas to compare to </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nodeDatas</td><td>The datas of the node to compare to <em>datas</em> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return -1/0/1 to say which node to go </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00072">72</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Tree.hpp</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>:\\</div><div class="line">        void launch(){<a class="code" href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">\</a></div><div class="line"><a class="code" href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">			Threadable::launch</a>(<span class="keyword">this</span>);\</div><div class="line">        }\\</div><div class="line">        void updater(){\</div><div class="line">            while(!this-&gt;hasToStop()){\</div><div class="line">                mutex.lock();\</div><div class="line">                this-&gt;update();\</div><div class="line">                mutex.unlock();\</div><div class="line">            }\</div><div class="line">        }</div><div class="ttc" id="a00028_php_a0b5b43b02f693cdde338ef942675234a"><div class="ttname"><a href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">Threadable::launch</a></div><div class="ttdeci">virtual void launch()=0</div><div class="ttdoc">Start the thread. </div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00017">17</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +165,7 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/de8/a00061.php">Tree.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d4/de8/a00061.php">Threadable.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

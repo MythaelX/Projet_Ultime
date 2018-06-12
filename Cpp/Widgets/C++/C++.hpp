@@ -15,6 +15,7 @@
 *					- BDD
 *					- jumble
 *					- Tree
+*					- Threadable
 *
 *					- Color
 *					- Reinit
@@ -123,19 +124,6 @@
 *					- print_r(T)
 *					- rewrite(std::vector<V>, unsigned)
 *					- contains(std::vector<T>, T)
-*
-*					- printNode(Node<T>*, long int)
-*					- sorter(std::pair<T, NodeWeight>, std::pair<T, NodeWeight>)
-*					- createBinaryTree(std::vector<std::pair<T, NodeWeight>>)
-*					- convertInTreeValues(std::vector<std::pair<T, U>>)
-*					- createChild(T, NodeWeight)
-*					- treeHeight(Node<T>*)
-*					- printTree(Node<T>*)
-*					- getRightNodeCount(Node<T>*)
-*					- getLeftNodeCount(Node<T>*)
-*					- finder(T, Node<T>*, std::string&)
-*					- find(T, Node<T>*)
-*					- freeTree(Node<T>*)
 *		\par	Other things
 *					- ColsArray
 *					- ListArray
@@ -145,7 +133,7 @@
 *					- MapArray
 *					- NodeWeight
 *
-*	\date		11 juin 2018
+*	\date		12 juin 2018
 *	\author		Mathias CABIOCH-DELALANDE
 */
 /*!
@@ -176,6 +164,7 @@
 #include "sorting.hpp"
 #include "Tree.hpp"
 #include "Map.hpp"
+#include "Threadable.hpp"
 
 #include "macro.hpp"
 #include "types.hpp"

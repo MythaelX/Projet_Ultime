@@ -1,11 +1,11 @@
 #include "time.hpp"
 
-/* Return the seconds since the Epoch */
+/*! \brief	Return the seconds since the Epoch */
 std::time_t getSec(){
 	return std::time(nullptr);
 }
 
-/* Return the milliseconds since the Epoch TODO */
-std::time_t getMilli(){
-	return 0;
+/*! \brief	Return the milliseconds since the Epoch */
+std::chrono::milliseconds getMilli(){
+	return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch());
 }

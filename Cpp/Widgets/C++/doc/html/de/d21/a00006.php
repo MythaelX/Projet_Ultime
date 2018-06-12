@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="../../d0/dc2/a00104.php">List of all members</a>  </div>
+<a href="../../df/d98/a00107.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">BDD Class Reference</div>  </div>
 </div><!--header-->
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 <p>A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>.  
  <a href="../../de/d21/a00006.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -142,7 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memItemLeft" align="right" valign="top">sql::ResultSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9d8f1885fa2114dd0fa34c13e4e99a5c">query</a> (std::string task)</td></tr>
 <tr class="memdesc:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query the task to the database.  <a href="#a9d8f1885fa2114dd0fa34c13e4e99a5c">More...</a><br /></td></tr>
 <tr class="separator:a9d8f1885fa2114dd0fa34c13e4e99a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a624539007ee74764ba5d8f6bb0e7a354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d8c/a00036.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">list</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memitem:a624539007ee74764ba5d8f6bb0e7a354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">list</a> (std::string table=&quot;&quot;)</td></tr>
 <tr class="memdesc:a624539007ee74764ba5d8f6bb0e7a354"><td class="mdescLeft">&#160;</td><td class="mdescRight">List the content of the given table.  <a href="#a624539007ee74764ba5d8f6bb0e7a354">More...</a><br /></td></tr>
 <tr class="separator:a624539007ee74764ba5d8f6bb0e7a354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a059c72982d8075a1e0fcc175461b1430"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a059c72982d8075a1e0fcc175461b1430">insert</a> (std::string values, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
@@ -157,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8adcb89c3bd40c783880fa6355180655"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655">remove</a> (std::string condition, std::string args=&quot;&quot;, std::string table=&quot;&quot;)</td></tr>
 <tr class="memdesc:a8adcb89c3bd40c783880fa6355180655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use of the DELETE in SQL.  <a href="#a8adcb89c3bd40c783880fa6355180655">More...</a><br /></td></tr>
 <tr class="separator:a8adcb89c3bd40c783880fa6355180655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006fc2acc34962ebafb9ce19640ad18b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">exists</a> (std::string task, std::string table=&quot;&quot;)</td></tr>
-<tr class="memdesc:a006fc2acc34962ebafb9ce19640ad18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if something exist in the bdd.  <a href="#a006fc2acc34962ebafb9ce19640ad18b">More...</a><br /></td></tr>
-<tr class="separator:a006fc2acc34962ebafb9ce19640ad18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9049f7be55f2790eb9f6a899e41d1fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac9049f7be55f2790eb9f6a899e41d1fe">exists</a> (std::string task)</td></tr>
+<tr class="memdesc:ac9049f7be55f2790eb9f6a899e41d1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify if something exist in the bdd.  <a href="#ac9049f7be55f2790eb9f6a899e41d1fe">More...</a><br /></td></tr>
+<tr class="separator:ac9049f7be55f2790eb9f6a899e41d1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359d41a12c304f95abb33d77698bd5ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">connect</a> (std::string url, std::string user, std::string pass)</td></tr>
 <tr class="memdesc:a359d41a12c304f95abb33d77698bd5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection to a bdd.  <a href="#a359d41a12c304f95abb33d77698bd5ba">More...</a><br /></td></tr>
 <tr class="separator:a359d41a12c304f95abb33d77698bd5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,7 +175,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a962782dc60b83f30a7ec387e0747178d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a962782dc60b83f30a7ec387e0747178d">undebug</a> ()</td></tr>
 <tr class="memdesc:a962782dc60b83f30a7ec387e0747178d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the debug for the class.  <a href="#a962782dc60b83f30a7ec387e0747178d">More...</a><br /></td></tr>
 <tr class="separator:a962782dc60b83f30a7ec387e0747178d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a498e375deb333279886dd91cf389c986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d8c/a00036.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986">getColumns</a> (std::string table=&quot;&quot;)</td></tr>
+<tr class="memitem:a498e375deb333279886dd91cf389c986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dc6/a00037.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a498e375deb333279886dd91cf389c986">getColumns</a> (std::string table=&quot;&quot;)</td></tr>
 <tr class="memdesc:a498e375deb333279886dd91cf389c986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the columns of a table with their attributes.  <a href="#a498e375deb333279886dd91cf389c986">More...</a><br /></td></tr>
 <tr class="separator:a498e375deb333279886dd91cf389c986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84c0df9de34d028bfa4a6711f3ff38ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">hasAutoincrement</a> (std::string table=&quot;&quot;)</td></tr>
@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae9ad54a4e2ca989e1f22dc497db4b43e">getCount</a> (std::string table=&quot;&quot;, std::string conditions=&quot;&quot;)</td></tr>
 <tr class="memdesc:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of lines with the conditions.  <a href="#ae9ad54a4e2ca989e1f22dc497db4b43e">More...</a><br /></td></tr>
 <tr class="separator:ae9ad54a4e2ca989e1f22dc497db4b43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02190012120478141702fb616c89ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d8c/a00036.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac02190012120478141702fb616c89ab1">tables</a> ()</td></tr>
+<tr class="memitem:ac02190012120478141702fb616c89ab1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ac02190012120478141702fb616c89ab1">tables</a> ()</td></tr>
 <tr class="memdesc:ac02190012120478141702fb616c89ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the tables of the database.  <a href="#ac02190012120478141702fb616c89ab1">More...</a><br /></td></tr>
 <tr class="separator:ac02190012120478141702fb616c89ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a035bbfa977617239704b3d33c4c5ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">lastId</a> ()</td></tr>
@@ -253,7 +253,7 @@ Protected Member Functions</h2></td></tr>
 </li>
 </ul>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00042">42</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00042">42</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aed1a6117c471a7575a224321eaf0dba2"></a>
 <div class="memitem">
@@ -347,7 +347,7 @@ template&lt;typename Func , class C , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00231">231</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00229">229</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -412,7 +412,7 @@ template&lt;typename Func , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00250">250</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00248">248</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -495,11 +495,11 @@ Here is the call graph for this function:</div>
 
 <p>Start the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00161">161</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00159">159</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a006fc2acc34962ebafb9ce19640ad18b"></a>
+<a class="anchor" id="ac9049f7be55f2790eb9f6a899e41d1fe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -507,28 +507,16 @@ Here is the call graph for this function:</div>
           <td class="memname">bool BDD::exists </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>task</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>task</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>table</em> = <code>&quot;&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Verify if something exist in the bdd. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">task</td><td>The task to verify </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>The table in which to do the action</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">task</td><td>The task to verify</td></tr>
   </table>
   </dd>
 </dl>
@@ -695,7 +683,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d8c/a00036.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> BDD::getColumns </td>
+          <td class="memname"><a class="el" href="../../d1/dc6/a00037.php#acb7362a3fb715f64e5ab3cd50794a52c">ColsArray</a> BDD::getColumns </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
@@ -861,7 +849,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d8c/a00036.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::list </td>
+          <td class="memname"><a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::list </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
           <td class="paramname"><em>table</em> = <code>&quot;&quot;</code></td><td>)</td>
@@ -1022,7 +1010,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00220">220</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00218">218</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -1056,7 +1044,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d8c/a00036.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::tables </td>
+          <td class="memname"><a class="el" href="../../d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">ListArray</a> BDD::tables </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1160,7 +1148,7 @@ Here is the call graph for this function:</div>
 
 <p>Stop the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00163">163</a> of file <a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00161">161</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1280,7 +1268,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../de/d8c/a00036_source.php">bdd.hpp</a></li>
+<li><a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

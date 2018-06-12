@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('functions_v.php','');});
 : <a class="el" href="db/db2/a00020.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="d5/d79/a00030.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+: <a class="el" href="df/d61/a00031.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

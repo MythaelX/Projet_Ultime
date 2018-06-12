@@ -1,7 +1,7 @@
 var a00062 =
 [
-    [ "firstLetter", "df/d03/a00062.php#ad2c2baf0c63c7c94b50ef7407851cc8e", null ],
-    [ "getType", "df/d03/a00062.php#a6d01957e99131ce0c8d0902a9a8cdf38", null ],
-    [ "getType", "df/d03/a00062.php#ae549f98d8a0469bd0533f807c2b51b84", null ],
-    [ "printType", "df/d03/a00062.php#aecf59a2b719b8c7121eee69d1bb737e8", null ]
+    [ "Clock", "d4/dee/a00008.php", "d4/dee/a00008" ],
+    [ "Timer", "d5/d16/a00029.php", "d5/d16/a00029" ],
+    [ "getMilli", "df/d03/a00062.php#ae4c6c825f2c7a717a5c24349d50fef7c", null ],
+    [ "getSec", "df/d03/a00062.php#a5834b1cc3c766f7520e829ca23284546", null ]
 ];

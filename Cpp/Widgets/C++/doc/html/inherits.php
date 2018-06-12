@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node2" href="dd/d1b/a00015.php" title="An entity. " alt="" coords="146,56,202,83"/>
 <area shape="rect" id="node8" href="de/d11/a00021.php" title="An object. " alt="" coords="144,5,204,32"/>
 <area shape="rect" id="node3" href="d1/d7c/a00003.php" title="An animal. " alt="" coords="255,107,318,133"/>
-<area shape="rect" id="node5" href="d5/d79/a00030.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
+<area shape="rect" id="node5" href="df/d61/a00031.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
 <area shape="rect" id="node4" href="d0/d0b/a00004.php" title="An ant. " alt="" coords="388,107,431,133"/>
 <area shape="rect" id="node6" href="dd/da2/a00019.php" title="A mushroom. " alt="" coords="368,56,451,83"/>
 <area shape="rect" id="node7" href="d7/de0/a00022.php" title="A plant. " alt="" coords="383,5,435,32"/>
@@ -201,19 +201,25 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node1" href="d6/d5b/a00026.php" title="A class to simplify the use of random. " alt="" coords="5,5,108,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#Timer"/>
-<map name="Timer" id="Timer">
-<area shape="rect" id="node1" href="dc/d3c/a00028.php" title="A timer to do something at the end. " alt="" coords="5,5,60,32"/>
+<tr><td><img src="inherit_graph_15.png" border="0" alt="" usemap="#Threadable_3_01C_01_4"/>
+<map name="Threadable_3_01C_01_4" id="Threadable_3_01C_01_4">
+<area shape="rect" id="node1" href="dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="5,5,125,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#Tree_3_01T_01_4"/>
+<tr><td><img src="inherit_graph_16.png" border="0" alt="" usemap="#Threadable_3_01Timer_01_4"/>
+<map name="Threadable_3_01Timer_01_4" id="Threadable_3_01Timer_01_4">
+<area shape="rect" id="node1" href="dc/d3c/a00028.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="d5/d16/a00029.php" title="A timer to do something at the end. " alt="" coords="196,5,251,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#Tree_3_01T_01_4"/>
 <map name="Tree_3_01T_01_4" id="Tree_3_01T_01_4">
-<area shape="rect" id="node1" href="d5/d16/a00029.php" title="A class to manage a binary tree. " alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node1" href="d5/d79/a00030.php" title="A class to manage a binary tree. " alt="" coords="5,5,85,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" alt="" usemap="#WorldDimensions"/>
+<tr><td><img src="inherit_graph_18.png" border="0" alt="" usemap="#WorldDimensions"/>
 <map name="WorldDimensions" id="WorldDimensions">
-<area shape="rect" id="node1" href="df/d61/a00031.php" title="An object to group the dimensions of the world. " alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node1" href="dc/d87/a00032.php" title="An object to group the dimensions of the world. " alt="" coords="5,5,131,32"/>
 </map>
 </td></tr>
 </table>

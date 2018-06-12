@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Timer Class Reference</title>
+<title>C++: Threadable&lt; C &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,69 +111,76 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d0/d4a/a00147.php">List of all members</a>  </div>
+<a href="../../d9/d7d/a00150.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Timer Class Reference</div>  </div>
+<div class="title">Threadable&lt; C &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A timer to do something at the end.  
+<p>A class to let another one to be threadable with update() member in a thread.  
  <a href="../../dc/d3c/a00028.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Threadable&lt; C &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/db2/a00151.png" border="0" usemap="#Threadable_3_01C_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="Threadable_3_01C_01_4_inherit__map" id="Threadable_3_01C_01_4_inherit__map">
+<area shape="rect" id="node2" href="../../dc/d3c/a00028.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
+<area shape="rect" id="node3" href="../../d5/d16/a00029.php" title="A timer to do something at the end. " alt="" coords="49,171,104,197"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f16e8da27d2a5a5242dead46de05d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a> ()</td></tr>
-<tr class="separator:a5f16e8da27d2a5a5242dead46de05d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56cf495a8c9da8907efe755a550c734c"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a56cf495a8c9da8907efe755a550c734c">getStart</a> () const </td></tr>
-<tr class="separator:a56cf495a8c9da8907efe755a550c734c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a29af58bc18e1644230c747afb35ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a18a29af58bc18e1644230c747afb35ec">start</a> (int sec)</td></tr>
-<tr class="separator:a18a29af58bc18e1644230c747afb35ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8422d61fac8765b8789c8056bd38f2f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a8422d61fac8765b8789c8056bd38f2f3">restart</a> (int sec)</td></tr>
-<tr class="separator:a8422d61fac8765b8789c8056bd38f2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5a3de51a890d7899182f4ff75e9751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a> ()</td></tr>
+<tr class="memdesc:a7b5a3de51a890d7899182f4ff75e9751"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the <a class="el" href="../../dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a7b5a3de51a890d7899182f4ff75e9751">More...</a><br /></td></tr>
+<tr class="separator:a7b5a3de51a890d7899182f4ff75e9751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdfbed6f6de89660962f760e78812bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a> ()</td></tr>
+<tr class="separator:afbdfbed6f6de89660962f760e78812bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b5b43b02f693cdde338ef942675234a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">launch</a> ()=0</td></tr>
+<tr class="memdesc:a0b5b43b02f693cdde338ef942675234a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="#a0b5b43b02f693cdde338ef942675234a">More...</a><br /></td></tr>
+<tr class="separator:a0b5b43b02f693cdde338ef942675234a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59161fb24a2a485aecb0ea1bbed67099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">stop</a> ()</td></tr>
+<tr class="memdesc:a59161fb24a2a485aecb0ea1bbed67099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the thread and delete the pointer correctly.  <a href="#a59161fb24a2a485aecb0ea1bbed67099">More...</a><br /></td></tr>
+<tr class="separator:a59161fb24a2a485aecb0ea1bbed67099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e164fd54cb5746f981e1ace8cd3fef0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a0e164fd54cb5746f981e1ace8cd3fef0">hasToStop</a> ()</td></tr>
+<tr class="memdesc:a0e164fd54cb5746f981e1ace8cd3fef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if the thread has to stop or not.  <a href="#a0e164fd54cb5746f981e1ace8cd3fef0">More...</a><br /></td></tr>
+<tr class="separator:a0e164fd54cb5746f981e1ace8cd3fef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">m_start</a></td></tr>
-<tr class="separator:a8fb741bf0ac74d067fcfcfafb2c8ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ab3cd20a0909df03a384a09b1b8151d3e">started</a></td></tr>
-<tr class="separator:ab3cd20a0909df03a384a09b1b8151d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb118abc832fb483fb82f8d9d87521f"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a1fb118abc832fb483fb82f8d9d87521f">mutex</a></td></tr>
+<tr class="memdesc:a1fb118abc832fb483fb82f8d9d87521f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mutex variable to use in the thread.  <a href="#a1fb118abc832fb483fb82f8d9d87521f">More...</a><br /></td></tr>
+<tr class="separator:a1fb118abc832fb483fb82f8d9d87521f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A timer to do something at the end. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd>Create the class </dd></dl>
+<div class="textblock"><h3>template&lt;class C&gt;<br />
+class Threadable&lt; C &gt;</h3>
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00066">66</a> of file <a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>.</p>
+<p>A class to let another one to be threadable with update() member in a thread. </p>
+<p>On heritage,<br />
+</p><ul>
+<li>: public <a class="el" href="../../dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a>&lt;<b>Your</b> <b>class</b> &gt;</li>
+<li>Add <b>THREADABLE</b> before <b>public</b> </li>
+</ul>
+
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00042">42</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5f16e8da27d2a5a5242dead46de05d97"></a>
+<a class="anchor" id="a7b5a3de51a890d7899182f4ff75e9751"></a>
 <div class="memitem">
 <div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Timer::Timer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a56cf495a8c9da8907efe755a550c734c"></a>
-<div class="memitem">
-<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::time_t Timer::getStart </td>
+          <td class="memname"><a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::<a class="el" href="../../dc/d3c/a00028.php">Threadable</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -183,63 +190,140 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00072">72</a> of file <a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>.</p>
+<p>The constructor of the <a class="el" href="../../dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
 
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a56cf495a8c9da8907efe755a550c734c_cgraph.png" border="0" usemap="#dc/d3c/a00028_a56cf495a8c9da8907efe755a550c734c_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a56cf495a8c9da8907efe755a550c734c_cgraph" id="dc/d3c/a00028_a56cf495a8c9da8907efe755a550c734c_cgraph">
-<area shape="rect" id="node2" href="../../d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c" title="Clock::start" alt="" coords="168,5,259,32"/>
-<area shape="rect" id="node3" href="../../d4/dee/a00008.php#a775bf97123b58c768571868341d28b08" title="Clock::restart" alt="" coords="163,56,264,83"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00045">45</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8422d61fac8765b8789c8056bd38f2f3"></a>
+<a class="anchor" id="afbdfbed6f6de89660962f760e78812bf"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Timer::restart </td>
+          <td class="memname"><a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::~<a class="el" href="../../dc/d3c/a00028.php">Threadable</a> </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00049">49</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a18a29af58bc18e1644230c747afb35ec"></a>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0e164fd54cb5746f981e1ace8cd3fef0"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Timer::start </td>
+          <td class="memname">bool <a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::hasToStop </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>sec</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Return if the thread has to stop or not. </p>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00074">74</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b5b43b02f693cdde338ef942675234a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::launch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start the thread. </p>
+
+<p>Implemented in <a class="el" href="../../d5/d16/a00029.php#aa78ce396b7f7e652bbe363637d6ff05c">Timer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59161fb24a2a485aecb0ea1bbed67099"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stop the thread and delete the pointer correctly. </p>
+
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00065">65</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a8fb741bf0ac74d067fcfcfafb2c8ab61"></a>
+<a class="anchor" id="a1fb118abc832fb483fb82f8d9d87521f"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::time_t Timer::m_start</td>
+          <td class="memname">std::mutex <a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::mutex</td>
         </tr>
       </table>
   </td>
@@ -249,41 +333,21 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00079">79</a> of file <a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>.</p>
+<p>The mutex variable to use in the thread. </p>
 
-</div>
-</div>
-<a class="anchor" id="ab3cd20a0909df03a384a09b1b8151d3e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Timer::started</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/d73/a00060_source.php#l00080">80</a> of file <a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00085">85</a> of file <a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d9/d73/a00060_source.php">time.hpp</a></li>
+<li><a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">Timer</a></li>
+    <li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">Threadable</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

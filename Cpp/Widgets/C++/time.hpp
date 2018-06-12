@@ -2,7 +2,7 @@
 *
 *	\file		time.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		10 juin 2018
+*	\date		11 juin 2018
 *
 */
 #ifndef HEADER_TIME
@@ -11,6 +11,8 @@
 #include <ctime>
 #include <thread>
 #include <mutex>
+#include <chrono>
+#include "Threadable.hpp"
 
 /*!
 * \brief	Get the number of seconds since the Epoch
@@ -19,8 +21,8 @@
 */
 std::time_t getSec();
 
-/*! \todo Return the milliseconds since the Epoch */
-std::time_t getMilli();
+/*! \brief	Return the milliseconds since the Epoch */
+std::chrono::milliseconds getMilli();
 
 /*!
 * \class	Clock
@@ -63,7 +65,8 @@ class Clock {
 * \brief	A timer to do something at the end
 * \todo		Create the class
 */
-class Timer {
+class Timer : public Threadable<Timer> {
+	THREADABLE
 	public:
 		/* Constructor */
 		Timer();

@@ -151,6 +151,10 @@ $(document).ready(function(){initNavTree('functions_l.php','');});
 <li>lastId()
 : <a class="el" href="de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
 </li>
+<li>launch()
+: <a class="el" href="dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">Threadable&lt; C &gt;</a>
+, <a class="el" href="d5/d16/a00029.php#aa78ce396b7f7e652bbe363637d6ff05c">Timer</a>
+</li>
 <li>left
 : <a class="el" href="db/db2/a00020.php#a2841886a16c27e72b21885025c00b44b">Node&lt; T &gt;</a>
 </li>

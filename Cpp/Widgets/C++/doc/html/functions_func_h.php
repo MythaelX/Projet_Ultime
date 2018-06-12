@@ -147,8 +147,11 @@ $(document).ready(function(){initNavTree('functions_func_h.php','');});
 <li>hasAutoincrement()
 : <a class="el" href="de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">BDD</a>
 </li>
+<li>hasToStop()
+: <a class="el" href="dc/d3c/a00028.php#a0e164fd54cb5746f981e1ace8cd3fef0">Threadable&lt; C &gt;</a>
+</li>
 <li>height()
-: <a class="el" href="d5/d16/a00029.php#a3ff0552b5501fcbee3dfafbe289966d2">Tree&lt; T &gt;</a>
+: <a class="el" href="d5/d79/a00030.php#a3ff0552b5501fcbee3dfafbe289966d2">Tree&lt; T &gt;</a>
 </li>
 <li>hit()
 : <a class="el" href="dd/d1b/a00015.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>

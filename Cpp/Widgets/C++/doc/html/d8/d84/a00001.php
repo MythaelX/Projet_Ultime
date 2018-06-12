@@ -105,15 +105,11 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="../../de/d21/a00006.php#a006fc2acc34962ebafb9ce19640ad18b">BDD::exists</a>  (std::string task, std::string table="")</dt>
-<dd></dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="../../d9/d73/a00060.php#a61c3fca982e77f1f6899239b22b9ad79">getMilli</a>  ()</dt>
-<dd>Return the milliseconds since the Epoch  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d4/d51/a00017.php">jumble</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d0/d33/a00027.php">RSA</a>  </dt>
+<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d0/d33/a00027.php">RSA</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../dc/d3c/a00028.php">Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d5/d16/a00029.php">Timer</a>  </dt>
 <dd>Create the class </dd>
 </dl>
 </div></div><!-- contents -->

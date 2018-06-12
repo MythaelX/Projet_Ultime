@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: types.hpp File Reference</title>
+<title>C++: time.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,155 +107,85 @@ $(document).ready(function(){initNavTree('df/d03/a00062.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">types.hpp File Reference</div>  </div>
+<div class="title">time.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;typeinfo&gt;</code><br />
+<div class="textblock"><code>#include &lt;ctime&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/de8/a00061_source.php">Threadable.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for types.hpp:</div>
+Include dependency graph for time.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d77/a00095.png" border="0" usemap="#types_8hpp" alt=""/></div>
+<div class="center"><img src="../../d9/df8/a00096.png" border="0" usemap="#time_8hpp" alt=""/></div>
+<map name="time_8hpp" id="time_8hpp">
+<area shape="rect" id="node6" href="../../d4/de8/a00061.php" title="Threadable.hpp" alt="" coords="187,80,297,107"/>
+<area shape="rect" id="node8" href="../../d1/d22/a00057.php" title="pointers.hpp" alt="" coords="322,155,415,181"/>
+</map>
 </div>
 </div>
 <p><a href="../../df/d03/a00062_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:df/d5f/a00064"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/a00064.php">Typer</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d4/dee/a00008.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d5/d16/a00029.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#aecf59a2b719b8c7121eee69d1bb737e8">printType</a> (C &amp;obj)</td></tr>
-<tr class="memdesc:aecf59a2b719b8c7121eee69d1bb737e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the type of \â obj.  <a href="#aecf59a2b719b8c7121eee69d1bb737e8">More...</a><br /></td></tr>
-<tr class="separator:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/a00064.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer::firstLetter</a> (std::string in)</td></tr>
-<tr class="memdesc:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the first letter in the in string.  <a href="../../df/d5f/a00064.php#ad2c2baf0c63c7c94b50ef7407851cc8e">More...</a><br /></td></tr>
-<tr class="separator:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#a6d01957e99131ce0c8d0902a9a8cdf38">getType</a> (C &amp;obj)</td></tr>
-<tr class="memdesc:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of <em>obj</em> in a string.  <a href="#a6d01957e99131ce0c8d0902a9a8cdf38">More...</a><br /></td></tr>
-<tr class="separator:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#ae549f98d8a0469bd0533f807c2b51b84">getType</a> (C obj)</td></tr>
-<tr class="memdesc:ae549f98d8a0469bd0533f807c2b51b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a pointer <em>obj</em> in a string.  <a href="#ae549f98d8a0469bd0533f807c2b51b84">More...</a><br /></td></tr>
-<tr class="separator:ae549f98d8a0469bd0533f807c2b51b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5834b1cc3c766f7520e829ca23284546"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#a5834b1cc3c766f7520e829ca23284546">getSec</a> ()</td></tr>
+<tr class="memdesc:a5834b1cc3c766f7520e829ca23284546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="#a5834b1cc3c766f7520e829ca23284546">More...</a><br /></td></tr>
+<tr class="separator:a5834b1cc3c766f7520e829ca23284546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="memItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/a00062.php#ae4c6c825f2c7a717a5c24349d50fef7c">getMilli</a> ()</td></tr>
+<tr class="memdesc:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the milliseconds since the Epoch.  <a href="#ae4c6c825f2c7a717a5c24349d50fef7c">More...</a><br /></td></tr>
+<tr class="separator:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>11 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../df/d03/a00062_source.php">types.hpp</a>.</p>
+<p>Definition in file <a class="el" href="../../df/d03/a00062_source.php">time.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a6d01957e99131ce0c8d0902a9a8cdf38"></a>
+<a class="anchor" id="ae4c6c825f2c7a717a5c24349d50fef7c"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;!std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td class="memname">std::chrono::milliseconds getMilli </td>
           <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the type of <em>obj</em> in a string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00043">43</a> of file <a class="el" href="../../df/d03/a00062_source.php">types.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d03/a00062_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph.png" border="0" usemap="#df/d03/a00062_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" alt=""/></div>
-<map name="df/d03/a00062_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" id="df/d03/a00062_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph">
-<area shape="rect" id="node2" href="../../df/d5f/a00064.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
-</map>
-</div>
-</p>
+<p>Return the milliseconds since the Epoch. </p>
 
 </div>
 </div>
-<a class="anchor" id="ae549f98d8a0469bd0533f807c2b51b84"></a>
+<a class="anchor" id="a5834b1cc3c766f7520e829ca23284546"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::enable_if&lt;std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td class="memname">std::time_t getSec </td>
           <td>(</td>
-          <td class="paramtype">C&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the type of a pointer <em>obj</em> in a string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00056">56</a> of file <a class="el" href="../../df/d03/a00062_source.php">types.hpp</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../df/d03/a00062_ae549f98d8a0469bd0533f807c2b51b84_cgraph.png" border="0" usemap="#df/d03/a00062_ae549f98d8a0469bd0533f807c2b51b84_cgraph" alt=""/></div>
-<map name="df/d03/a00062_ae549f98d8a0469bd0533f807c2b51b84_cgraph" id="df/d03/a00062_ae549f98d8a0469bd0533f807c2b51b84_cgraph">
-<area shape="rect" id="node2" href="../../df/d5f/a00064.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aecf59a2b719b8c7121eee69d1bb737e8"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void printType </td>
-          <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print the type of \â obj. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to print the type of</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-
-<p>Definition at line <a class="el" href="../../df/d03/a00062_source.php#l00021">21</a> of file <a class="el" href="../../df/d03/a00062_source.php">types.hpp</a>.</p>
+<p>Get the number of seconds since the Epoch. </p>
+<dl class="section return"><dt>Returns</dt><dd>Return the number of seconds </dd></dl>
 
 </div>
 </div>
@@ -264,7 +194,7 @@ template&lt;class C &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../df/d03/a00062.php">types.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../df/d03/a00062.php">time.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

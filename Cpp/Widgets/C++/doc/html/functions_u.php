@@ -155,7 +155,10 @@ $(document).ready(function(){initNavTree('functions_u.php','');});
 : <a class="el" href="d7/d7a/a00016.php#a4b91ff7920ded02f9662134608f11d6f">Hostile</a>
 </li>
 <li>update()
-: <a class="el" href="de/d21/a00006.php#ad18c3bdb5afcce76344b9bb201362b95">BDD</a>
+: <a class="el" href="de/d21/a00006.php#a6a54ee2df1609f504fe4a2d189f51be7">BDD</a>
+</li>
+<li>updater()
+: <a class="el" href="d5/d16/a00029.php#a2aeae96f6681e81e4800b8ec5aa8fbcd">Timer</a>
 </li>
 </ul>
 </div><!-- contents -->

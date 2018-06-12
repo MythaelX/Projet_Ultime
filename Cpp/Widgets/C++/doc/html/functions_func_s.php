@@ -278,7 +278,10 @@ $(document).ready(function(){initNavTree('functions_func_s.php','');});
 </li>
 <li>start()
 : <a class="el" href="d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c">Clock</a>
-, <a class="el" href="dc/d3c/a00028.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
+, <a class="el" href="d5/d16/a00029.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
+</li>
+<li>stop()
+: <a class="el" href="dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">Threadable&lt; C &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

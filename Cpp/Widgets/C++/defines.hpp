@@ -40,13 +40,13 @@
 
 #include "bdd.hpp"
 #include "Args.hpp"
-#include "RNG.hpp"
-#include "convert.hpp"
+//#include "RNG.hpp"
+/*#include "convert.hpp"
 #include "string.hpp"
 #include "time.hpp"
 #include "maths.hpp"
 #include "files.hpp"
-#include "pointers.hpp"
+#include "pointers.hpp"*/
 
 /* Some defines */
 /*! \brief	Alias for \b std::vector<int> */

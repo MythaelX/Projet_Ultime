@@ -195,7 +195,7 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="d3/d52/a00023.php#a256287b18c9b2bbafb22dd31ed51edba">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getLeftCount()
-: <a class="el" href="d5/d16/a00029.php#a6f70313aed640245e4ebba746e973ef9">Tree&lt; T &gt;</a>
+: <a class="el" href="d5/d79/a00030.php#a6f70313aed640245e4ebba746e973ef9">Tree&lt; T &gt;</a>
 </li>
 <li>getLevel()
 : <a class="el" href="df/d86/a00012.php#a3b6d4a5f2d520dfa5e58afe5b421a126">Contraption</a>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="dd/d1b/a00015.php#abbd4dc44c41c2f29d45666e73184a5c7">Entity</a>
 </li>
 <li>getRightCount()
-: <a class="el" href="d5/d16/a00029.php#af0c07b62a0dfbac020a70d29e3572644">Tree&lt; T &gt;</a>
+: <a class="el" href="d5/d79/a00030.php#af0c07b62a0dfbac020a70d29e3572644">Tree&lt; T &gt;</a>
 </li>
 <li>getSize()
 : <a class="el" href="d1/d2b/a00018.php#ae362b35f435bf1dcb6274821470ae0c9">Map</a>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 </li>
 <li>getStart()
 : <a class="el" href="d4/dee/a00008.php#ac195ced602d8b707b0fd7e5b15d103a7">Clock</a>
-, <a class="el" href="dc/d3c/a00028.php#a56cf495a8c9da8907efe755a550c734c">Timer</a>
+, <a class="el" href="d5/d16/a00029.php#a56cf495a8c9da8907efe755a550c734c">Timer</a>
 </li>
 <li>getStone()
 : <a class="el" href="d0/d0b/a00004.php#a0d29f6509a768a83e38f43180e6f4523">Ant</a>

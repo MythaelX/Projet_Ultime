@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('functions_r.php','');});
 </li>
 <li>restart()
 : <a class="el" href="d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">Clock</a>
-, <a class="el" href="dc/d3c/a00028.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
+, <a class="el" href="d5/d16/a00029.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
 </li>
 <li>restore()
 : <a class="el" href="da/d45/a00011.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>

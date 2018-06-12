@@ -25,8 +25,9 @@ var annotated_dup =
     [ "Reinit", "d3/dfe/a00025.php", "d3/dfe/a00025" ],
     [ "RNG", "d6/d5b/a00026.php", "d6/d5b/a00026" ],
     [ "RSA", "d0/d33/a00027.php", "d0/d33/a00027" ],
-    [ "Timer", "dc/d3c/a00028.php", "dc/d3c/a00028" ],
-    [ "Tree", "d5/d16/a00029.php", "d5/d16/a00029" ],
-    [ "Vegetal", "d5/d79/a00030.php", "d5/d79/a00030" ],
-    [ "WorldDimensions", "df/d61/a00031.php", "df/d61/a00031" ]
+    [ "Threadable", "dc/d3c/a00028.php", "dc/d3c/a00028" ],
+    [ "Timer", "d5/d16/a00029.php", "d5/d16/a00029" ],
+    [ "Tree", "d5/d79/a00030.php", "d5/d79/a00030" ],
+    [ "Vegetal", "df/d61/a00031.php", "df/d61/a00031" ],
+    [ "WorldDimensions", "dc/d87/a00032.php", "dc/d87/a00032" ]
 ];
