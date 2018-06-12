@@ -288,8 +288,8 @@
 						}
 
 						/* Verify in the content */
-							if(strpos() !== false){
-								
+							if(strpos($valss[1], $valss[0]) !== false){
+								$valss[1] = replace_all($valss[0], "`".$valss[0]."`", $valss[1]);
 							} else {
 								$valss[1] = "'" . $valss[1] . "'";
 							}
