@@ -1,20 +1,3 @@
-<map id="Contraption.hpp" name="Contraption.hpp">
-<area shape="rect" id="node2" href="$d5/df9/a00044.php" title="defines.hpp" alt="" coords="734,80,823,107"/>
-<area shape="rect" id="node23" href="$df/d5f/a00064.php" title="types.hpp" alt="" coords="861,379,939,405"/>
-<area shape="rect" id="node44" href="$d3/de7/a00039.php" title="collides.hpp" alt="" coords="1357,80,1448,107"/>
-<area shape="rect" id="node47" href="$d2/d79/a00051.php" title="Map.hpp" alt="" coords="1148,80,1220,107"/>
-<area shape="rect" id="node9" href="$d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="822,155,890,181"/>
-<area shape="rect" id="node42" href="$d4/d8c/a00035.php" title="Args.hpp" alt="" coords="1035,155,1109,181"/>
-<area shape="rect" id="node15" href="$d6/d2d/a00047.php" title="errors.hpp" alt="" coords="1141,229,1221,256"/>
-<area shape="rect" id="node35" href="$d1/d22/a00057.php" title="pointers.hpp" alt="" coords="1017,453,1111,480"/>
-<area shape="rect" id="node36" href="$d9/d73/a00060.php" title="string.hpp" alt="" coords="202,304,281,331"/>
-<area shape="rect" id="node16" href="$db/d3a/a00040.php" title="console.hpp" alt="" coords="851,304,943,331"/>
-<area shape="rect" id="node26" href="$d4/dca/a00048.php" title="files.hpp" alt="" coords="394,379,465,405"/>
-<area shape="rect" id="node29" href="$df/d03/a00062.php" title="time.hpp" alt="" coords="1296,304,1368,331"/>
-<area shape="rect" id="node17" href="$d5/db6/a00042.php" title="convert.hpp" alt="" coords="569,379,660,405"/>
-<area shape="rect" id="node34" href="$d4/de8/a00061.php" title="Threadable.hpp" alt="" coords="1115,379,1226,405"/>
-<area shape="rect" id="node38" href="$d5/de0/a00050.php" title="macro.hpp" alt="" coords="107,379,189,405"/>
-<area shape="rect" id="node39" href="$de/d8c/a00036.php" title="array.hpp" alt="" coords="294,379,370,405"/>
-<area shape="rect" id="node40" href="$d7/df7/a00058.php" title="RNG.hpp" alt="" coords="5,379,83,405"/>
-<area shape="rect" id="node45" href="$d1/d84/a00052.php" title="maths.hpp" alt="" coords="1392,155,1475,181"/>
+<map id="collides.hpp" name="collides.hpp">
+<area shape="rect" id="node2" href="$dc/dee/a00053.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
 </map>

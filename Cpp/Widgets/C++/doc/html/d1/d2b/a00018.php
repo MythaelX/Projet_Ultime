@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d1/d88/a00128.php">List of all members</a>  </div>
+<a href="../../d6/db3/a00130.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Map Class Reference</div>  </div>
 </div><!--header-->
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 <p>A map class to have something common.  
  <a href="../../d1/d2b/a00018.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -141,12 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aadfd9c2b4c9555d97e47532ff0248f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b2f272b33eae99d8f64a7b13c687ab6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a4b2f272b33eae99d8f64a7b13c687ab6">getH</a> () const </td></tr>
 <tr class="separator:a4b2f272b33eae99d8f64a7b13c687ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa083b12c5bc9d4ad54301a31603e9fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d79/a00051.php#a1ee2140d47f9982ff0aa65b71256bc80">MapArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#aa083b12c5bc9d4ad54301a31603e9fa0">get</a> () const </td></tr>
+<tr class="memitem:aa083b12c5bc9d4ad54301a31603e9fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d84/a00052.php#a1ee2140d47f9982ff0aa65b71256bc80">MapArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#aa083b12c5bc9d4ad54301a31603e9fa0">get</a> () const </td></tr>
 <tr class="separator:aa083b12c5bc9d4ad54301a31603e9fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e13e5d2b98097934fe860a2245f45c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d79/a00051.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">operator()</a> (const size_t &amp;i, const size_t &amp;j)</td></tr>
+<tr class="memitem:a0e13e5d2b98097934fe860a2245f45c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d84/a00052.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">operator()</a> (const size_t &amp;i, const size_t &amp;j)</td></tr>
 <tr class="memdesc:a0e13e5d2b98097934fe860a2245f45c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a0e13e5d2b98097934fe860a2245f45c2">More...</a><br /></td></tr>
 <tr class="separator:a0e13e5d2b98097934fe860a2245f45c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a787fa114db8b1925f2c00619088be05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d79/a00051.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a787fa114db8b1925f2c00619088be05d">operator()</a> (const size_t &amp;i, const size_t &amp;j) const </td></tr>
+<tr class="memitem:a787fa114db8b1925f2c00619088be05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d84/a00052.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#a787fa114db8b1925f2c00619088be05d">operator()</a> (const size_t &amp;i, const size_t &amp;j) const </td></tr>
 <tr class="memdesc:a787fa114db8b1925f2c00619088be05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloading of the () operator.  <a href="#a787fa114db8b1925f2c00619088be05d">More...</a><br /></td></tr>
 <tr class="separator:a787fa114db8b1925f2c00619088be05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5b2b05098fb3c9e750f95fb76b72e32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2b/a00018.php#aa5b2b05098fb3c9e750f95fb76b72e32">clear</a> ()</td></tr>
@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A map class to have something common. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00048">48</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00048">48</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5c9015eea1519003e305315fc6933968"></a>
 <div class="memitem">
@@ -242,7 +242,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d79/a00051.php#a1ee2140d47f9982ff0aa65b71256bc80">MapArray</a> Map::get </td>
+          <td class="memname"><a class="el" href="../../d1/d84/a00052.php#a1ee2140d47f9982ff0aa65b71256bc80">MapArray</a> Map::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -256,7 +256,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the maparray </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00089">89</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00089">89</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -282,7 +282,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00086">86</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00086">86</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the size </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00082">82</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00082">82</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +334,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00084">84</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00084">84</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -440,7 +440,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d79/a00051.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a>&amp; Map::operator() </td>
+          <td class="memname"><a class="el" href="../../d1/d84/a00052.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a>&amp; Map::operator() </td>
           <td>(</td>
           <td class="paramtype">const size_t &amp;&#160;</td>
           <td class="paramname"><em>i</em>, </td>
@@ -476,7 +476,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d79/a00051.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a> Map::operator() </td>
+          <td class="memname"><a class="el" href="../../d1/d84/a00052.php#acd2017d946fd818c3b8ca377bc4006c7">Tile</a> Map::operator() </td>
           <td>(</td>
           <td class="paramtype">const size_t &amp;&#160;</td>
           <td class="paramname"><em>i</em>, </td>
@@ -608,7 +608,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a></li>
+<li><a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

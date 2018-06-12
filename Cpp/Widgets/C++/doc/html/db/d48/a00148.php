@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
+$(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,29 +109,14 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Tree&lt; T &gt; Member List</div>  </div>
+<div class="title">RNG&lt; T, U &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#af6a08705433ab45144b88b81f57c1e0f">add</a>(T data, NodeWeight weight)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#aa801df9f48ce2feda42ea73f1cc6be1e">applyForEach</a>(void(*func)(Node&lt; T &gt; *, long int))</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#ab5a552132fdd3e2b03f03a5c279bad3e">asc</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#af12b139007643a568e1a3f752ae2e00e">convert</a>(std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#aca4c083d24c0153f1cabd528bc174f7b">create</a>(std::vector&lt; std::pair&lt; T, NodeWeight &gt;&gt; datas)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a84671d5c8a9131bd94a33734b315e5a3">desc</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a2b0d7318fed4ad4bf92ce22f7e63d324">equilibrate</a>(TREE_SORT sort=ASC)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a193fd2684c987f8e85ea9c1ed12badf7">find</a>(T value)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a6f70313aed640245e4ebba746e973ef9">getLeftCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#af0c07b62a0dfbac020a70d29e3572644">getRightCount</a>(Node&lt; T &gt; *node)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a3ff0552b5501fcbee3dfafbe289966d2">height</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#ad6a4bc5d0dc000f77acfbeafaddc1672">insert</a>(std::pair&lt; T, NodeWeight &gt; datas)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#ae88268743eaded28868cc13a0c1ec894">onCompare</a>(void(*func)(Node&lt; T &gt; *, Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a3b0dc5b377436abca97e8abc76ab7067">onDelete</a>(void(*func)(Node&lt; T &gt; *))</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a5389c9acc029d22f38e44dbe66d0d556">print</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a38efd4e0201ba5596f5159f308851772">Tree</a>(TREE_SORT sorting=ASC)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a04affc46d89a0ef5d517ab685c9c346e">~Tree</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Tree&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d5b/a00026.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d6/d5b/a00026.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a>()</td><td class="entry"><a class="el" href="../../d6/d5b/a00026.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

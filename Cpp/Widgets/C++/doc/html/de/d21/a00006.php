@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="../../df/d98/a00107.php">List of all members</a>  </div>
+<a href="../../dd/d42/a00109.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">BDD Class Reference</div>  </div>
 </div><!--header-->
@@ -253,7 +253,7 @@ Protected Member Functions</h2></td></tr>
 </li>
 </ul>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00042">42</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00039">39</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aed1a6117c471a7575a224321eaf0dba2"></a>
 <div class="memitem">
@@ -347,7 +347,7 @@ template&lt;typename Func , class C , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00229">229</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00226">226</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -412,7 +412,7 @@ template&lt;typename Func , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00248">248</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00245">245</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -495,7 +495,7 @@ Here is the call graph for this function:</div>
 
 <p>Start the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00159">159</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00156">156</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1010,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00218">218</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00215">215</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -1148,7 +1148,7 @@ Here is the call graph for this function:</div>
 
 <p>Stop the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00161">161</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00158">158</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

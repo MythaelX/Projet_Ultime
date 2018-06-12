@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
+$(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,19 +109,19 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Color Member List</div>  </div>
+<div class="title">Clock Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d7/dec/a00010.php">Color</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/dee/a00008.php">Clock</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a84513fec989f2f817d2b1c5e6989450e">operator&lt;&lt;</a>(std::ostream &amp;stream, Color const &amp;c)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a38ca26b1111d2ecf1751f0d0d5e943e1">getElapsed</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#ac195ced602d8b707b0fd7e5b15d103a7">getStart</a>() const </td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">m_start</a></td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">restart</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c">start</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#aed945651f59f21f56df523af2719597e">started</a></td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('namespacemembers_func.php','');});
 <div class="contents">
 &#160;<ul>
 <li>firstLetter()
-: <a class="el" href="d9/db3/a00066.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer</a>
+: <a class="el" href="dc/ddf/a00067.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer</a>
 </li>
 </ul>
 </div><!-- contents -->

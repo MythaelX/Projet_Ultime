@@ -1,4 +1,6 @@
-<map id="time.hpp" name="time.hpp">
-<area shape="rect" id="node6" href="$d4/de8/a00061.php" title="Threadable.hpp" alt="" coords="187,80,297,107"/>
-<area shape="rect" id="node8" href="$d1/d22/a00057.php" title="pointers.hpp" alt="" coords="322,155,415,181"/>
+<map id="string.hpp" name="string.hpp">
+<area shape="rect" id="node3" href="$d2/d79/a00051.php" title="macro.hpp" alt="" coords="180,80,263,107"/>
+<area shape="rect" id="node4" href="$d6/d42/a00043.php" title="convert.hpp" alt="" coords="287,80,377,107"/>
+<area shape="rect" id="node10" href="$de/d8c/a00036.php" title="array.hpp" alt="" coords="438,80,514,107"/>
+<area shape="rect" id="node13" href="$d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="612,80,689,107"/>
 </map>

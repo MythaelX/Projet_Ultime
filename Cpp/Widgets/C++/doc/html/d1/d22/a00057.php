@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: pointers.hpp File Reference</title>
+<title>C++: Player.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,71 +107,65 @@ $(document).ready(function(){initNavTree('d1/d22/a00057.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">pointers.hpp File Reference</div>  </div>
+<div class="title">Player.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/dea/a00046_source.php">Entities.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for pointers.hpp:</div>
+Include dependency graph for Player.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d82/a00091.png" border="0" usemap="#pointers_8hpp" alt=""/></div>
+<div class="center"><img src="../../d1/dc1/a00092.png" border="0" usemap="#Player_8hpp" alt=""/></div>
+<map name="Player_8hpp" id="Player_8hpp">
+<area shape="rect" id="node2" href="../../d3/dea/a00046.php" title="Entities.hpp" alt="" coords="1190,80,1280,107"/>
+<area shape="rect" id="node3" href="../../db/df3/a00034.php" title="Ant.hpp" alt="" coords="1090,155,1156,181"/>
+<area shape="rect" id="node48" href="../../d9/d2e/a00056.php" title="Plant.hpp" alt="" coords="1314,155,1391,181"/>
+<area shape="rect" id="node50" href="../../d1/dea/a00054.php" title="Mushroom.hpp" alt="" coords="1181,155,1289,181"/>
+<area shape="rect" id="node4" href="../../d0/dc0/a00033.php" title="Animal.hpp" alt="" coords="1080,229,1166,256"/>
+<area shape="rect" id="node5" href="../../d6/d2d/a00047.php" title="Entity.hpp" alt="" coords="1154,379,1236,405"/>
+<area shape="rect" id="node47" href="../../d5/de0/a00050.php" title="Hostile.hpp" alt="" coords="1070,304,1158,331"/>
+<area shape="rect" id="node6" href="../../d5/db6/a00042.php" title="Contraption.hpp" alt="" coords="1138,453,1252,480"/>
+<area shape="rect" id="node7" href="../../d6/d97/a00045.php" title="defines.hpp" alt="" coords="878,528,968,555"/>
+<area shape="rect" id="node43" href="../../db/d3a/a00040.php" title="collides.hpp" alt="" coords="1255,528,1346,555"/>
+<area shape="rect" id="node46" href="../../d1/d84/a00052.php" title="Map.hpp" alt="" coords="1159,528,1231,555"/>
+<area shape="rect" id="node14" href="../../d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="366,603,434,629"/>
+<area shape="rect" id="node41" href="../../d4/d8c/a00035.php" title="Args.hpp" alt="" coords="635,603,710,629"/>
+<area shape="rect" id="node19" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="794,677,874,704"/>
+<area shape="rect" id="node36" href="../../d4/de8/a00061.php" title="string.hpp" alt="" coords="308,752,386,779"/>
+<area shape="rect" id="node20" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="790,752,882,779"/>
+<area shape="rect" id="node29" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="717,827,788,853"/>
+<area shape="rect" id="node32" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="987,752,1059,779"/>
+<area shape="rect" id="node21" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="459,827,550,853"/>
+<area shape="rect" id="node27" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="812,827,890,853"/>
+<area shape="rect" id="node35" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="914,827,1025,853"/>
+<area shape="rect" id="node38" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="352,827,435,853"/>
+<area shape="rect" id="node39" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="617,827,693,853"/>
+<area shape="rect" id="node40" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="171,827,248,853"/>
+<area shape="rect" id="node44" href="../../dc/dee/a00053.php" title="maths.hpp" alt="" coords="1259,603,1342,629"/>
+<area shape="rect" id="node49" href="../../d9/db3/a00066.php" title="Vegetal.hpp" alt="" coords="1200,229,1291,256"/>
+</map>
 </div>
 </div>
 <p><a href="../../d1/d22/a00057_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a55f9782a77b1459ff662dd21a69edab3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a55f9782a77b1459ff662dd21a69edab3"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_pointer&lt; T &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d1/d22/a00057.php#a55f9782a77b1459ff662dd21a69edab3">deletePtr</a> (T &amp;pointer)</td></tr>
-<tr class="memdesc:a55f9782a77b1459ff662dd21a69edab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a pointer.  <a href="#a55f9782a77b1459ff662dd21a69edab3">More...</a><br /></td></tr>
-<tr class="separator:a55f9782a77b1459ff662dd21a69edab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php">Player&lt; PlayerParent &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A player that can be a child from any class.  <a href="../../d3/d52/a00023.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/d22/a00057_source.php">pointers.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a55f9782a77b1459ff662dd21a69edab3"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::enable_if&lt;std::is_pointer&lt;T&gt;::value, void&gt;::type deletePtr </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>pointer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Delete a pointer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">pointer</td><td>The pointer to delete</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>void</dd></dl>
-<p>Delete <em>pointer</em> if is <b>not</b> <b>equal</b> to nullptr and <b>not</b> a joinable thread pointer.<br />
- For a joinable thread pointer, it wait for the end of the function.<br />
- After delete, it put the pointer to <b>nullptr</b>. </p>
-
-<p>Definition at line <a class="el" href="../../d1/d22/a00057_source.php#l00039">39</a> of file <a class="el" href="../../d1/d22/a00057_source.php">pointers.hpp</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d1/d22/a00057_source.php">Player.hpp</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/d22/a00057.php">pointers.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/d22/a00057.php">Player.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

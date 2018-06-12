@@ -118,27 +118,25 @@ $(document).ready(function(){initNavTree('d1/dc6/a00037.php','../../');});
 <code>#include &lt;cppconn/exception.h&gt;</code><br />
 <code>#include &lt;cppconn/resultset.h&gt;</code><br />
 <code>#include &lt;cppconn/statement.h&gt;</code><br />
-<code>#include &lt;functional&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d2d/a00047_source.php">errors.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d22/a00057_source.php">pointers.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">string.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">errors.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bdd.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/d2c/a00072.png" border="0" usemap="#bdd_8hpp" alt=""/></div>
+<div class="center"><img src="../../d1/d6e/a00073.png" border="0" usemap="#bdd_8hpp" alt=""/></div>
 <map name="bdd_8hpp" id="bdd_8hpp">
-<area shape="rect" id="node7" href="../../d6/d2d/a00047.php" title="errors.hpp" alt="" coords="1055,80,1135,107"/>
-<area shape="rect" id="node27" href="../../d1/d22/a00057.php" title="pointers.hpp" alt="" coords="719,304,813,331"/>
-<area shape="rect" id="node28" href="../../d9/d73/a00060.php" title="string.hpp" alt="" coords="1653,155,1732,181"/>
-<area shape="rect" id="node8" href="../../db/d3a/a00040.php" title="console.hpp" alt="" coords="1139,155,1231,181"/>
-<area shape="rect" id="node18" href="../../d4/dca/a00048.php" title="files.hpp" alt="" coords="1524,229,1595,256"/>
-<area shape="rect" id="node21" href="../../df/d03/a00062.php" title="time.hpp" alt="" coords="969,155,1041,181"/>
-<area shape="rect" id="node9" href="../../d5/db6/a00042.php" title="convert.hpp" alt="" coords="1334,229,1425,256"/>
-<area shape="rect" id="node15" href="../../df/d5f/a00064.php" title="types.hpp" alt="" coords="1145,229,1224,256"/>
-<area shape="rect" id="node26" href="../../d4/de8/a00061.php" title="Threadable.hpp" alt="" coords="744,229,855,256"/>
-<area shape="rect" id="node30" href="../../d5/de0/a00050.php" title="macro.hpp" alt="" coords="1801,229,1883,256"/>
-<area shape="rect" id="node31" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="1700,229,1776,256"/>
-<area shape="rect" id="node32" href="../../d7/df7/a00058.php" title="RNG.hpp" alt="" coords="1907,229,1985,256"/>
+<area shape="rect" id="node6" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="831,80,911,107"/>
+<area shape="rect" id="node28" href="../../d4/de8/a00061.php" title="string.hpp" alt="" coords="1053,155,1132,181"/>
+<area shape="rect" id="node7" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="748,155,840,181"/>
+<area shape="rect" id="node17" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="904,229,975,256"/>
+<area shape="rect" id="node20" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="347,155,419,181"/>
+<area shape="rect" id="node8" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="749,229,839,256"/>
+<area shape="rect" id="node14" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="480,229,559,256"/>
+<area shape="rect" id="node23" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="180,229,291,256"/>
+<area shape="rect" id="node27" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="109,304,202,331"/>
+<area shape="rect" id="node30" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="999,229,1082,256"/>
+<area shape="rect" id="node31" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="1107,229,1183,256"/>
+<area shape="rect" id="node32" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="1207,229,1285,256"/>
 </map>
 </div>
 </div>
@@ -167,7 +165,7 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>11 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
@@ -183,7 +181,7 @@ Variables</h2></td></tr>
 
 <p>The type of the array that contains the columns. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00023">23</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00020">20</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -199,7 +197,7 @@ Variables</h2></td></tr>
 
 <p>The type of the array that contains the list of something. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00025">25</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00022">22</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>

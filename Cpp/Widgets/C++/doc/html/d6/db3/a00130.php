@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d11/a00021.php','../../');});
+$(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,43 +109,28 @@ $(document).ready(function(){initNavTree('de/d11/a00021.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Object Member List</div>  </div>
+<div class="title">Map Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d11/a00021.php">Object</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/d2b/a00018.php">Map</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a3af679109317a6740c661fe5164158ff">addPosition</a>(double x, double y, double z=0)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a08d8bb97ba4e9b6238f5a80af9800579">getA</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a9993ab6cac0ce33ea91485965572cba9">getAttributes</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#aa468a3b0582bb0e073f2f642611c10f1">getH</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a3b6d4a5f2d520dfa5e58afe5b421a126">getLevel</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">getMap</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">getPosition</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#afd10a73d032a10e48c57e7b3252c58c2">getRelativeZ</a>(Contraption &amp;obj)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#acf50efec2040353189fe1b46152ba8d0">getW</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a8eddeb512a0133271555e8f1ef888dc3">getX</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a1cf1642c874236857eff096f32f3285c">getY</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a3365e9eda5d1c8426910522dcbb14d52">getZ</a>() const </td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d11/a00021.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>(Map *map=nullptr, Point pt={0, 0, 0}, ContraptionAttr attr={0, 0, 0})</td><td class="entry"><a class="el" href="../../de/d11/a00021.php">Object</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d11/a00021.php#a4afb4bd99645b9bfd1c95fcb93f3077b">printInfos</a>(std::ostream &amp;stream) const </td><td class="entry"><a class="el" href="../../de/d11/a00021.php">Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">setA</a>(double angle)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a3e221cb1cdd414d2d06492b575ec7120">setAttributes</a>(ContraptionAttr attr)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a96a40d8c6b09bc86be65042fad49592f">setAttributes</a>(double w, double h, double angle=0)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#afb8030a7a7df2bef59356c293f845487">setH</a>(double h)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ae9131d3133c67c22f8692d4bd806187e">setLevel</a>(size_t level)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">setMap</a>(Map *map)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">setPosition</a>(Point pt)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a144577a5b80062834989f99a96b6c89c">setPosition</a>(double x, double y, double z=0)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a83d954f1cb764a7410de01d33cb9e396">setW</a>(double w)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#ab14db8239bfc09ba3c5c6e07a23033b7">setX</a>(double x)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a9a260fe681d3f4be9cb08546dff4d3d4">setY</a>(double y)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a61b34301ffd55f3f9b6bc319020e691d">setZ</a>(double z)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ab69fdcd66f63e0a038a4006d43ecb9b6">turnLeft</a>()</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a20f271c846ea0c8bc96c618616a260ba">turnRight</a>()</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#acfdea93e7835722a3b211ba2b8dd1463">~Contraption</a>()</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">Contraption</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d11/a00021.php#aa3e791419d84c4c346ef9499513b8e00">~Object</a>()</td><td class="entry"><a class="el" href="../../de/d11/a00021.php">Object</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aa5b2b05098fb3c9e750f95fb76b72e32">clear</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aae5f7c464841d017086abe1d553da50d">consolePrint</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aa083b12c5bc9d4ad54301a31603e9fa0">get</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a4b2f272b33eae99d8f64a7b13c687ab6">getH</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#ae362b35f435bf1dcb6274821470ae0c9">getSize</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aadfd9c2b4c9555d97e47532ff0248f87">getW</a>() const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#aeef35654d256ab9218920a9126680495">isXIn</a>(double pt, double dim)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a200536787e3e8686e91202b7a56f4190">isYIn</a>(double pt, double dim)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#ab16ea0fe3b1c2add481afac808b39ea4">load</a>(std::string file)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a5c9015eea1519003e305315fc6933968">Map</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">operator()</a>(const size_t &amp;i, const size_t &amp;j)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a787fa114db8b1925f2c00619088be05d">operator()</a>(const size_t &amp;i, const size_t &amp;j) const </td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a28dc3cce3cd6eb596209d10174d0b37b">save</a>(std::string file)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a713ccdad293fb792e0a8cf29d9b048e0">setH</a>(size_t h)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a9813f83a659948693862d888b259a322">setSize</a>(WorldDimensions dimensions)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a60a9e42b7c5a623a9ff3b5754519c0df">setW</a>(size_t w)</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">Map</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

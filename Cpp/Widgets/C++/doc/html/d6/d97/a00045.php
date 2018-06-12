@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Entities.hpp File Reference</title>
+<title>C++: defines.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,64 +106,230 @@ $(document).ready(function(){initNavTree('d6/d97/a00045.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
-<div class="title">Entities.hpp File Reference</div>  </div>
+<div class="title">defines.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/dea/a00054_source.php">Object.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc0/a00033_source.php">Animal.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/df3/a00034_source.php">Ant.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/de1/a00065_source.php">Vegetal.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d6d/a00055_source.php">Plant.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dee/a00053_source.php">Mushroom.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;ios&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d8c/a00035_source.php">Args.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Entities.hpp:</div>
+Include dependency graph for defines.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/dec/a00080.png" border="0" usemap="#Entities_8hpp" alt=""/></div>
-<map name="Entities_8hpp" id="Entities_8hpp">
-<area shape="rect" id="node2" href="../../dd/d32/a00041.php" title="Contraption.hpp" alt="" coords="891,379,1006,405"/>
-<area shape="rect" id="node43" href="../../d1/dea/a00054.php" title="Object.hpp" alt="" coords="906,229,991,256"/>
-<area shape="rect" id="node44" href="../../d3/dea/a00046.php" title="Entity.hpp" alt="" coords="1153,304,1235,331"/>
-<area shape="rect" id="node45" href="../../d0/dc0/a00033.php" title="Animal.hpp" alt="" coords="1232,155,1319,181"/>
-<area shape="rect" id="node47" href="../../db/df3/a00034.php" title="Ant.hpp" alt="" coords="1242,80,1309,107"/>
-<area shape="rect" id="node48" href="../../de/de1/a00065.php" title="Vegetal.hpp" alt="" coords="1061,155,1151,181"/>
-<area shape="rect" id="node49" href="../../d4/d6d/a00055.php" title="Plant.hpp" alt="" coords="1141,80,1218,107"/>
-<area shape="rect" id="node50" href="../../dc/dee/a00053.php" title="Mushroom.hpp" alt="" coords="957,80,1065,107"/>
-<area shape="rect" id="node3" href="../../d5/df9/a00044.php" title="defines.hpp" alt="" coords="380,453,469,480"/>
-<area shape="rect" id="node20" href="../../df/d5f/a00064.php" title="types.hpp" alt="" coords="1153,752,1232,779"/>
-<area shape="rect" id="node39" href="../../d3/de7/a00039.php" title="collides.hpp" alt="" coords="973,453,1063,480"/>
-<area shape="rect" id="node42" href="../../d2/d79/a00051.php" title="Map.hpp" alt="" coords="845,453,917,480"/>
-<area shape="rect" id="node10" href="../../d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="468,528,536,555"/>
-<area shape="rect" id="node37" href="../../d4/d8c/a00035.php" title="Args.hpp" alt="" coords="867,528,942,555"/>
-<area shape="rect" id="node16" href="../../d6/d2d/a00047.php" title="errors.hpp" alt="" coords="783,603,863,629"/>
-<area shape="rect" id="node31" href="../../d1/d22/a00057.php" title="pointers.hpp" alt="" coords="454,677,547,704"/>
-<area shape="rect" id="node32" href="../../d9/d73/a00060.php" title="string.hpp" alt="" coords="273,677,352,704"/>
-<area shape="rect" id="node17" href="../../db/d3a/a00040.php" title="console.hpp" alt="" coords="693,677,785,704"/>
-<area shape="rect" id="node23" href="../../d4/dca/a00048.php" title="files.hpp" alt="" coords="525,752,596,779"/>
-<area shape="rect" id="node26" href="../../df/d03/a00062.php" title="time.hpp" alt="" coords="969,677,1041,704"/>
-<area shape="rect" id="node18" href="../../d5/db6/a00042.php" title="convert.hpp" alt="" coords="410,752,501,779"/>
-<area shape="rect" id="node34" href="../../d5/de0/a00050.php" title="macro.hpp" alt="" coords="122,752,205,779"/>
-<area shape="rect" id="node35" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="620,752,696,779"/>
-<area shape="rect" id="node36" href="../../d7/df7/a00058.php" title="RNG.hpp" alt="" coords="229,752,306,779"/>
-<area shape="rect" id="node40" href="../../d1/d84/a00052.php" title="maths.hpp" alt="" coords="1005,528,1087,555"/>
-<area shape="rect" id="node46" href="../../d2/dee/a00049.php" title="Hostile.hpp" alt="" coords="1150,229,1238,256"/>
+<div class="center"><img src="../../d8/d53/a00081.png" border="0" usemap="#defines_8hpp" alt=""/></div>
+<map name="defines_8hpp" id="defines_8hpp">
+<area shape="rect" id="node8" href="../../d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="525,80,593,107"/>
+<area shape="rect" id="node41" href="../../d4/d8c/a00035.php" title="Args.hpp" alt="" coords="709,80,783,107"/>
+<area shape="rect" id="node13" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="745,155,825,181"/>
+<area shape="rect" id="node35" href="../../d4/de8/a00061.php" title="string.hpp" alt="" coords="536,229,615,256"/>
+<area shape="rect" id="node14" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="837,229,929,256"/>
+<area shape="rect" id="node24" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="575,304,645,331"/>
+<area shape="rect" id="node27" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="1259,229,1331,256"/>
+<area shape="rect" id="node15" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="838,304,929,331"/>
+<area shape="rect" id="node21" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="1124,304,1203,331"/>
+<area shape="rect" id="node30" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="1392,304,1503,331"/>
+<area shape="rect" id="node34" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="1497,379,1590,405"/>
+<area shape="rect" id="node37" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="286,304,369,331"/>
+<area shape="rect" id="node38" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="669,304,745,331"/>
+<area shape="rect" id="node39" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="393,304,470,331"/>
 </map>
 </div>
 </div>
 <p><a href="../../d6/d97/a00045_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php">Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define a point in space.  <a href="../../dc/de2/a00024.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to define <b><a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a></b> attributes.  <a href="../../d7/dd4/a00013.php#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a44dfccd15fd47aa8db19125945f8af08"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d97/a00045.php#a44dfccd15fd47aa8db19125945f8af08">VI</a> = std::vector&lt; int &gt;</td></tr>
+<tr class="memdesc:a44dfccd15fd47aa8db19125945f8af08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>std::vector&lt;int&gt;</b>  <a href="#a44dfccd15fd47aa8db19125945f8af08">More...</a><br /></td></tr>
+<tr class="separator:a44dfccd15fd47aa8db19125945f8af08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44aff682fd9726ed5ca19159f23b2e6b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d97/a00045.php#a44aff682fd9726ed5ca19159f23b2e6b">VS</a> = std::vector&lt; std::string &gt;</td></tr>
+<tr class="memdesc:a44aff682fd9726ed5ca19159f23b2e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>std::vector&lt;std::string&gt;</b>  <a href="#a44aff682fd9726ed5ca19159f23b2e6b">More...</a><br /></td></tr>
+<tr class="separator:a44aff682fd9726ed5ca19159f23b2e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <br />
+&#160;&#160;<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aaafbaedde498cdead4f2780217646e9ba1">Direction::UP</a>, 
+<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f">Direction::DOWN</a>, 
+<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aaa21507b40c80068eda19865706fdc2403">Direction::RIGHT</a>, 
+<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aaa684d325a7303f52e64011467ff5c5758">Direction::LEFT</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aaab50339a10e1de285ac99d4c3990b8693">Direction::NONE</a>
+<br />
+ }<tr class="memdesc:a224b9163917ac32fc95a60d8c1eec3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directions to move.  <a href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aa">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12 juin 2018</dd></dl>
+<ul>
+<li>Include ;<ul>
+<li>iostream<br />
+</li>
+<li>fstream<br />
+</li>
+<li>sstream<br />
+<br />
+</li>
+<li>vector<br />
+</li>
+<li>map<br />
+</li>
+<li>tuple<br />
+</li>
+<li>iterator<br />
+<br />
+</li>
+<li>string<br />
+</li>
+<li>numeric<br />
+<br />
+</li>
+<li>type_traits<br />
+</li>
+<li>typeinfo<br />
+<br />
+</li>
+<li>thread<br />
+</li>
+<li>mutex<br />
+<br />
+</li>
+<li>limits<br />
+</li>
+<li>utility<br />
+</li>
+<li>memory<br />
+</li>
+<li>locale<br />
+</li>
+<li>functional<br />
+</li>
+<li>random<br />
+</li>
+<li>algorithm<br />
+</li>
+<li>ios<br />
+<br />
+</li>
+<li>cmath<br />
+</li>
+<li>ctime<br />
+</li>
+<li>chrono<br />
+</li>
+</ul>
+</li>
+</ul>
+<p>Enable the use of ;</p><ul>
+<li><a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a> with bdd<br />
+</li>
+<li><a class="el" href="../../d6/d5b/a00026.php" title="A class to simplify the use of random. ">RNG</a> with rng<br />
+</li>
+<li><a class="el" href="../../dd/dad/a00005.php" title="A class to manage the arguments. ">Arguments</a> with arguments<br />
+</li>
+<li>std::ifstream with reader<br />
+</li>
+<li>std::ofstream with writer<br />
+</li>
+</ul>
 
-<p>Definition in file <a class="el" href="../../d6/d97/a00045_source.php">Entities.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a44dfccd15fd47aa8db19125945f8af08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/d97/a00045.php#a44dfccd15fd47aa8db19125945f8af08">VI</a> =  std::vector&lt;int&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alias for <b>std::vector&lt;int&gt;</b> </p>
+
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00055">55</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44aff682fd9726ed5ca19159f23b2e6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/d97/a00045.php#a44aff682fd9726ed5ca19159f23b2e6b">VS</a> =  std::vector&lt;std::string&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Alias for <b>std::vector&lt;std::string&gt;</b> </p>
+
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00057">57</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Directions to move. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaafbaedde498cdead4f2780217646e9ba1"></a>UP&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaac4e0e4e3118472beeb2ae75827450f1f"></a>DOWN&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaa21507b40c80068eda19865706fdc2403"></a>RIGHT&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaa684d325a7303f52e64011467ff5c5758"></a>LEFT&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a224b9163917ac32fc95a60d8c1eec3aaab50339a10e1de285ac99d4c3990b8693"></a>NONE&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00080">80</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d97/a00045.php">Entities.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d6/d97/a00045.php">defines.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

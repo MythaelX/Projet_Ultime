@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: DrawScene.hpp File Reference</title>
+<title>Qt: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,8 +71,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -88,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d1/dea/a00054.php','../../');});
+$(document).ready(function(){initNavTree('d1/d7c/a00003.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,55 +107,29 @@ $(document).ready(function(){initNavTree('d1/dea/a00054.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">DrawScene.hpp File Reference</div>  </div>
+<div class="title">DrawScene Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/db6/a00074_source.php">Scene.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for DrawScene.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../db/d57/a00112.png" border="0" usemap="#DrawScene_8hpp" alt=""/></div>
-<map name="DrawScene_8hpp" id="DrawScene_8hpp">
-<area shape="rect" id="node2" href="../../db/db6/a00074.php" title="Scene.hpp" alt="" coords="56,80,140,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d3/d00/a00113.png" border="0" usemap="#DrawScene_8hppdep" alt=""/></div>
-<map name="DrawScene_8hppdep" id="DrawScene_8hppdep">
-<area shape="rect" id="node2" href="../../d0/d89/a00071.php" title="QtDefines.hpp" alt="" coords="26,80,133,107"/>
-<area shape="rect" id="node3" href="../../d3/d8b/a00059.php" title="Font.hpp" alt="" coords="5,155,79,181"/>
-<area shape="rect" id="node4" href="../../d2/db1/a00070.php" title="Qt.hpp" alt="" coords="134,379,195,405"/>
-<area shape="rect" id="node6" href="../../df/d13/a00085.php" title="WindowButton.hpp" alt="" coords="156,155,288,181"/>
-<area shape="rect" id="node5" href="../../d9/da4/a00078.php" title="TableWidget.hpp" alt="" coords="105,453,225,480"/>
-<area shape="rect" id="node7" href="../../da/d2a/a00086.php" title="WindowTitleBar.hpp" alt="" coords="154,229,293,256"/>
-<area shape="rect" id="node8" href="../../df/d5d/a00084.php" title="Window.hpp" alt="" coords="165,304,260,331"/>
-</map>
-</div>
-</div>
-<p><a href="../../d1/dea/a00054_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php">DrawScene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="../../d0/dc0/a00033.php" title="An implementation of QGraphcsScene with an updator. ">Scene</a> implementation to draw with tiles system.  <a href="../../dd/d1b/a00015.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>30 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/dea/a00054_source.php">DrawScene.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../d1/d7c/a00003.php">DrawScene</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#a8264ece5e7fb59ec874720b710d8f353">DrawScene</a>(QObject *parent=nullptr)</td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a5b9c0375ba50d6f3f7e83d983088ac08">initialized</a></td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Scene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#a99f3c0b81bbecfbf850e920ffc2f6f0a">pixmaps</a></td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#aecb82ecbd590818d52d58227101a490d">printed_background</a></td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#af1a71ac1ae84ae88e00810307b2f146d">scaled_pixmaps</a></td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#abaaf58cde185094df3ab47c5eedef55e">Scene</a>(QObject *parent=nullptr)</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Scene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#aa9cd414cc46f3396f58e4a7af88d6b4c">setTilesize</a>(int s)</td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#a124d4bd03677251c2159bd0dd4254306">tileSize</a></td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#ad0292ea7a4d4c501a7bf5c9fb6282d7e">update</a>()</td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d1/d7c/a00003.php#ab95069018a89de490bb75a7847a7c999">~DrawScene</a>()</td><td class="entry"><a class="el" href="../../d1/d7c/a00003.php">DrawScene</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a3b8cec2e32546713915f8c6303c951f1">~Scene</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Scene</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_a02ca41573efbfa5a2fd3c2b5453f5e3.php">QTTests</a></li><li class="navelem"><a class="el" href="../../dir_241af41b803d499a248aecae0c64f982.php">Widgets</a></li><li class="navelem"><a class="el" href="../../d1/dea/a00054.php">DrawScene.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

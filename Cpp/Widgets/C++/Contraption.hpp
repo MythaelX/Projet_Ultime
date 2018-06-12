@@ -2,7 +2,7 @@
 *
 *	\file		Contraption.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		30 mai 2018
+*	\date		12 juin 2018
 *
 */
 #ifndef HEADER_CONTRAPTION
@@ -10,7 +10,6 @@
 
 #include "defines.hpp"
 #include "collides.hpp"
-#include "types.hpp"
 
 #include "Map.hpp"
 

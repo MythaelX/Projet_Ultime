@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d8/dfa/a00121.php">List of all members</a>  </div>
+<a href="../../de/d36/a00123.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Entity Class Reference</div>  </div>
 </div><!--header-->
@@ -119,11 +119,11 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <p>An entity.  
  <a href="../../dd/d1b/a00015.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dc8/a00122.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../da/d72/a00124.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
 <map name="Entity_inherit__map" id="Entity_inherit__map">
 <area shape="rect" id="node3" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="5,155,68,181"/>
 <area shape="rect" id="node5" href="../../df/d61/a00031.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
@@ -136,7 +136,7 @@ Inheritance diagram for Entity:</div>
 <div class="dynheader">
 Collaboration diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../de/d36/a00123.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
 <map name="Entity_coll__map" id="Entity_coll__map">
 <area shape="rect" id="node2" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>
@@ -290,7 +290,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An entity. </p>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00017">17</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00017">17</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8eb01833b85eafedca05d504d7be006b"></a>
 <div class="memitem">
@@ -382,7 +382,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the age </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00112">112</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00112">112</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +408,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the damages </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00108">108</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00108">108</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -434,7 +434,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual life </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00146">146</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00146">146</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -470,7 +470,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the max life </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00106">106</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00106">106</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the reborn duration </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00115">115</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00115">115</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -522,7 +522,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the regen duration </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00122">122</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00122">122</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -548,7 +548,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the resistance </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00110">110</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00110">110</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -574,7 +574,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual time since reborn </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00117">117</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00117">117</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -600,7 +600,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual time since regen </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00124">124</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00124">124</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -626,7 +626,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the precedent time since reborn </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00119">119</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00119">119</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the precedet time since regen </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00126">126</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00126">126</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -786,7 +786,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00058">58</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00058">58</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00044">44</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00044">44</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00037">37</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00037">37</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -891,7 +891,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00066">66</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00066">66</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -926,7 +926,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00088">88</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00088">88</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00051">51</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00051">51</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00073">73</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00073">73</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1031,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00095">95</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00095">95</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1066,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00080">80</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00080">80</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1101,12 +1101,12 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d3/dea/a00046_source.php#l00102">102</a> of file <a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00102">102</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d3/dea/a00046_source.php">Entity.hpp</a></li>
+<li><a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

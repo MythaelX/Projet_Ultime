@@ -280,8 +280,9 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/string.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/time.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/Vegetal.hpp CheckBox.cpp \
 		Dialog.cpp \
@@ -500,7 +501,7 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents CheckBox.hpp Dialog.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/Font.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/TableWidget.hpp Widgets/Widget.hpp Widgets/Window.hpp Widgets/WindowButton.hpp Widgets/WindowTitleBar.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/time.hpp Widgets/C++/tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
+	$(COPY_FILE) --parents CheckBox.hpp Dialog.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/Font.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/TableWidget.hpp Widgets/Widget.hpp Widgets/Window.hpp Widgets/WindowButton.hpp Widgets/WindowTitleBar.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/Threadable.hpp Widgets/C++/time.hpp Widgets/C++/Tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
 	$(COPY_FILE) --parents CheckBox.cpp Dialog.cpp functions.cpp main.cpp MainWindow.cpp MainWindow_Admin.cpp MainWindow_Changes.cpp MainWindow_Connect.cpp PushButton.cpp TitleLabel.cpp Widgets/DrawScene.cpp Widgets/Font.cpp Widgets/GraphScene.cpp Widgets/QtFunctions.cpp Widgets/Scene.cpp Widgets/TableWidget.cpp Widgets/Widget.cpp Widgets/Window.cpp Widgets/Window_Draw.cpp Widgets/Window_Event.cpp Widgets/WindowButton.cpp Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar_Event.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/array.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
 
 
@@ -548,18 +549,19 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -572,7 +574,7 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -592,14 +594,15 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -612,7 +615,7 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -652,18 +655,19 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -676,7 +680,7 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -711,18 +715,19 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -735,7 +740,7 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -759,14 +764,15 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -779,7 +785,7 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -802,14 +808,15 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -822,7 +829,7 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -846,14 +853,15 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -866,7 +874,7 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -914,18 +922,19 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -938,7 +947,7 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -957,14 +966,15 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -977,7 +987,7 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp
+		Widgets/C++/Tree.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o functions.o functions.cpp
 
 main.o: main.cpp MainWindow.h \
@@ -993,14 +1003,15 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1013,7 +1024,7 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1046,14 +1057,15 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1066,7 +1078,7 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1099,14 +1111,15 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1119,7 +1132,7 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1152,14 +1165,15 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1172,7 +1186,7 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1205,14 +1219,15 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1225,7 +1240,7 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1265,18 +1280,19 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1289,7 +1305,7 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -1316,13 +1332,13 @@ QtFunctions.o: Widgets/QtFunctions.cpp Widgets/QtFunctions.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
-		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp
+		Widgets/C++/Args.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o QtFunctions.o Widgets/QtFunctions.cpp
 
 Scene.o: Widgets/Scene.cpp Widgets/Scene.hpp
@@ -1345,18 +1361,19 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/Entities.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1369,7 +1386,7 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp
@@ -1392,14 +1409,15 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1412,7 +1430,7 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1437,14 +1455,15 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1457,7 +1476,7 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1482,14 +1501,15 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1502,7 +1522,7 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1525,14 +1545,15 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1545,7 +1566,7 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1569,14 +1590,15 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1589,7 +1611,7 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1613,14 +1635,15 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1633,7 +1656,7 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1657,14 +1680,15 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1677,7 +1701,7 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1701,14 +1725,15 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -1721,7 +1746,7 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/Player.hpp \
 		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/tree.hpp \
+		Widgets/C++/Tree.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1743,14 +1768,15 @@ Animal.o: Widgets/C++/Animal.cpp Widgets/C++/Animal.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Hostile.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Animal.o Widgets/C++/Animal.cpp
@@ -1767,14 +1793,15 @@ Ant.o: Widgets/C++/Ant.cpp Widgets/C++/Ant.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Hostile.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Ant.o Widgets/C++/Ant.cpp
@@ -1786,6 +1813,8 @@ Args.o: Widgets/C++/Args.cpp Widgets/C++/Args.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp \
 		Widgets/C++/array.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Args.o Widgets/C++/Args.cpp
 
@@ -1799,6 +1828,7 @@ bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
@@ -1806,7 +1836,9 @@ bdd.o: Widgets/C++/bdd.cpp Widgets/C++/bdd.hpp \
 		Widgets/C++/RNG.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o bdd.o Widgets/C++/bdd.cpp
 
-Clock.o: Widgets/C++/Clock.cpp Widgets/C++/time.hpp
+Clock.o: Widgets/C++/Clock.cpp Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Clock.o Widgets/C++/Clock.cpp
 
 collides.o: Widgets/C++/collides.cpp Widgets/C++/collides.hpp \
@@ -1827,14 +1859,15 @@ Contraption.o: Widgets/C++/Contraption.cpp Widgets/C++/Contraption.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Contraption.o Widgets/C++/Contraption.cpp
 
@@ -1850,13 +1883,13 @@ cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
-		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp
+		Widgets/C++/Args.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cryptage.o Widgets/C++/cryptage.cpp
 
 defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
@@ -1867,13 +1900,13 @@ defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
-		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp
+		Widgets/C++/Args.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o defines.o Widgets/C++/defines.cpp
 
 Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
@@ -1886,14 +1919,15 @@ Entity.o: Widgets/C++/Entity.cpp Widgets/C++/Entity.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Entity.o Widgets/C++/Entity.cpp
 
@@ -1902,7 +1936,9 @@ errors.o: Widgets/C++/errors.cpp Widgets/C++/errors.hpp \
 		Widgets/C++/convert.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
-		Widgets/C++/time.hpp
+		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o errors.o Widgets/C++/errors.cpp
 
 files.o: Widgets/C++/files.cpp Widgets/C++/files.hpp
@@ -1919,14 +1955,15 @@ Hostile.o: Widgets/C++/Hostile.cpp Widgets/C++/Hostile.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Hostile.o Widgets/C++/Hostile.cpp
 
@@ -1936,7 +1973,9 @@ Map.o: Widgets/C++/Map.cpp Widgets/C++/Map.hpp \
 		Widgets/C++/convert.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
-		Widgets/C++/time.hpp
+		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Map.o Widgets/C++/Map.cpp
 
 maths.o: Widgets/C++/maths.cpp Widgets/C++/maths.hpp
@@ -1954,14 +1993,15 @@ Mushroom.o: Widgets/C++/Mushroom.cpp Widgets/C++/Mushroom.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Mushroom.o Widgets/C++/Mushroom.cpp
 
@@ -1975,14 +2015,15 @@ Object.o: Widgets/C++/Object.cpp Widgets/C++/Object.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Object.o Widgets/C++/Object.cpp
 
@@ -1998,14 +2039,15 @@ Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Plant.o Widgets/C++/Plant.cpp
 
@@ -2020,14 +2062,15 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
 		Widgets/C++/Object.hpp \
 		Widgets/C++/Entity.hpp \
@@ -2046,10 +2089,14 @@ string.o: Widgets/C++/string.cpp Widgets/C++/string.hpp \
 		Widgets/C++/RNG.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o string.o Widgets/C++/string.cpp
 
-time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp
+time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o time.o Widgets/C++/time.cpp
 
-Timer.o: Widgets/C++/Timer.cpp Widgets/C++/time.hpp
+Timer.o: Widgets/C++/Timer.cpp Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Timer.o Widgets/C++/Timer.cpp
 
 types.o: Widgets/C++/types.cpp Widgets/C++/types.hpp
@@ -2066,14 +2113,15 @@ Vegetal.o: Widgets/C++/Vegetal.cpp Widgets/C++/Vegetal.hpp \
 		Widgets/C++/types.hpp \
 		Widgets/C++/files.hpp \
 		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
 		Widgets/C++/pointers.hpp \
 		Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/maths.hpp \
 		Widgets/C++/collides.hpp \
+		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Vegetal.o Widgets/C++/Vegetal.cpp
 

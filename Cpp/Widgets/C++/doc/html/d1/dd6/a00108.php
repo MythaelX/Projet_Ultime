@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
+$(document).ready(function(){initNavTree('dd/dad/a00005.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,17 +109,18 @@ $(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Cesar Member List</div>  </div>
+<div class="title">Arguments Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../de/d5e/a00007.php">Cesar</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dd/dad/a00005.php">Arguments</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a9a70a4a1e758085855fd550404687388">Cesar</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aace459faf00e2f62e573674489d10568">crypt</a>(std::string message, int decal=0)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">crypt</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aa7c94ff5f6e8bc01697271877e05e367">decrypt</a>(std::string message, int decal=0)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3">add</a>(std::string category, T value)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a126d62fd1d3eed743b06cb1b83f9093d">addProg</a>(int argc, char **argv)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#afe56d8477bfae32c239771056c233311">Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a2758413e36333940451ed0bf8c902706">operator[]</a>(std::string index)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a06e8b4b5a2f3f46f111e571cd90f6c9c">print</a>(std::string index=&quot;&quot;)</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dd/dad/a00005.php#a97b9ddc9cc652310880db4d6f1f175f2">~Arguments</a>()</td><td class="entry"><a class="el" href="../../dd/dad/a00005.php">Arguments</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

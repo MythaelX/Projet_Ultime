@@ -118,7 +118,7 @@ Include dependency graph for TableWidget.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d42/a00043.png" border="0" usemap="#TableWidget_8hpp" alt=""/></div>
 <map name="TableWidget_8hpp" id="TableWidget_8hpp">
-<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="2823,80,2885,107"/>
+<area shape="rect" id="node3" href="../../d4/d51/a00017.php" title="Qt.hpp" alt="" coords="2837,80,2898,107"/>
 <area shape="rect" id="node4" href="../../d1/d2b/a00018.php" title="QtDefines.hpp" alt="" coords="39,169,146,196"/>
 </map>
 </div>

@@ -9,8 +9,6 @@
 #define HEADER_TIME
 
 #include <ctime>
-#include <thread>
-#include <mutex>
 #include <chrono>
 #include "Threadable.hpp"
 

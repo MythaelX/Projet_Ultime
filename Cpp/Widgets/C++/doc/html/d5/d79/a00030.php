@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="../../d3/df8/a00155.php">List of all members</a>  </div>
+<a href="../../d1/db7/a00157.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Tree&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 <p>A class to manage a binary tree.  
  <a href="../../d5/d79/a00030.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a38efd4e0201ba5596f5159f308851772"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a38efd4e0201ba5596f5159f308851772">Tree</a> (<a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a> sorting=<a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a>)</td></tr>
+<tr class="memitem:a38efd4e0201ba5596f5159f308851772"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a38efd4e0201ba5596f5159f308851772">Tree</a> (<a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a> sorting=<a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a>)</td></tr>
 <tr class="separator:a38efd4e0201ba5596f5159f308851772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04affc46d89a0ef5d517ab685c9c346e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a04affc46d89a0ef5d517ab685c9c346e">~Tree</a> ()</td></tr>
 <tr class="separator:a04affc46d89a0ef5d517ab685c9c346e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,16 +146,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ff0552b5501fcbee3dfafbe289966d2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a3ff0552b5501fcbee3dfafbe289966d2">height</a> ()</td></tr>
 <tr class="memdesc:a3ff0552b5501fcbee3dfafbe289966d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the height of the tree.  <a href="#a3ff0552b5501fcbee3dfafbe289966d2">More...</a><br /></td></tr>
 <tr class="separator:a3ff0552b5501fcbee3dfafbe289966d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6a4bc5d0dc000f77acfbeafaddc1672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#ad6a4bc5d0dc000f77acfbeafaddc1672">insert</a> (std::pair&lt; T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas)</td></tr>
+<tr class="memitem:ad6a4bc5d0dc000f77acfbeafaddc1672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#ad6a4bc5d0dc000f77acfbeafaddc1672">insert</a> (std::pair&lt; T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; datas)</td></tr>
 <tr class="memdesc:ad6a4bc5d0dc000f77acfbeafaddc1672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert datas in the tree.  <a href="#ad6a4bc5d0dc000f77acfbeafaddc1672">More...</a><br /></td></tr>
 <tr class="separator:ad6a4bc5d0dc000f77acfbeafaddc1672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca4c083d24c0153f1cabd528bc174f7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#aca4c083d24c0153f1cabd528bc174f7b">create</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt; datas)</td></tr>
+<tr class="memitem:aca4c083d24c0153f1cabd528bc174f7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#aca4c083d24c0153f1cabd528bc174f7b">create</a> (std::vector&lt; std::pair&lt; T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt; datas)</td></tr>
 <tr class="memdesc:aca4c083d24c0153f1cabd528bc174f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a binary tree with a custom sort function.  <a href="#aca4c083d24c0153f1cabd528bc174f7b">More...</a><br /></td></tr>
 <tr class="separator:aca4c083d24c0153f1cabd528bc174f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6a08705433ab45144b88b81f57c1e0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#af6a08705433ab45144b88b81f57c1e0f">add</a> (T data, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> weight)</td></tr>
+<tr class="memitem:af6a08705433ab45144b88b81f57c1e0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#af6a08705433ab45144b88b81f57c1e0f">add</a> (T data, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> weight)</td></tr>
 <tr class="memdesc:af6a08705433ab45144b88b81f57c1e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add datas in the tree.  <a href="#af6a08705433ab45144b88b81f57c1e0f">More...</a><br /></td></tr>
 <tr class="separator:af6a08705433ab45144b88b81f57c1e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b0d7318fed4ad4bf92ce22f7e63d324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a2b0d7318fed4ad4bf92ce22f7e63d324">equilibrate</a> (<a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a> sort=<a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a>)</td></tr>
+<tr class="memitem:a2b0d7318fed4ad4bf92ce22f7e63d324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a2b0d7318fed4ad4bf92ce22f7e63d324">equilibrate</a> (<a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a> sort=<a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a>)</td></tr>
 <tr class="memdesc:a2b0d7318fed4ad4bf92ce22f7e63d324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equilibrate the tree.  <a href="#a2b0d7318fed4ad4bf92ce22f7e63d324">More...</a><br /></td></tr>
 <tr class="separator:a2b0d7318fed4ad4bf92ce22f7e63d324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b0dc5b377436abca97e8abc76ab7067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a3b0dc5b377436abca97e8abc76ab7067">onDelete</a> (void(*func)(<a class="el" href="../../db/db2/a00020.php">Node</a>&lt; T &gt; *))</td></tr>
@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af12b139007643a568e1a3f752ae2e00e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:af12b139007643a568e1a3f752ae2e00e"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; std::pair&lt; T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#af12b139007643a568e1a3f752ae2e00e">convert</a> (std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td></tr>
+<tr class="memitem:af12b139007643a568e1a3f752ae2e00e"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; std::pair&lt; T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#af12b139007643a568e1a3f752ae2e00e">convert</a> (std::vector&lt; std::pair&lt; T, U &gt;&gt; in)</td></tr>
 <tr class="memdesc:af12b139007643a568e1a3f752ae2e00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an array format for the tree.  <a href="#af12b139007643a568e1a3f752ae2e00e">More...</a><br /></td></tr>
 <tr class="separator:af12b139007643a568e1a3f752ae2e00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -184,7 +184,7 @@ class Tree&lt; T &gt;</h3>
 
 <p>A class to manage a binary tree. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00090">90</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00090">90</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a38efd4e0201ba5596f5159f308851772"></a>
 <div class="memitem">
@@ -198,8 +198,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::<a class="el" href="../../d5/d79/a00030.php">Tree</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sorting</em> = <code><a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a></code></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a>&#160;</td>
+          <td class="paramname"><em>sorting</em> = <code><a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -210,15 +210,15 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00092">92</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00092">92</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d79/a00030_a38efd4e0201ba5596f5159f308851772_cgraph.png" border="0" usemap="#d5/d79/a00030_a38efd4e0201ba5596f5159f308851772_cgraph" alt=""/></div>
 <map name="d5/d79/a00030_a38efd4e0201ba5596f5159f308851772_cgraph" id="d5/d79/a00030_a38efd4e0201ba5596f5159f308851772_cgraph">
-<area shape="rect" id="node2" href="../../d1/d6f/a00063.php#a05b65486fa381f9881b8ea58c13382ad" title="Function to sort a tree ascendently depending on weights. " alt="" coords="140,5,243,32"/>
-<area shape="rect" id="node3" href="../../d1/d6f/a00063.php#adcf4acfe617e3974a5ba668de737b80c" title="Function to sort a tree descendently depending on weights. " alt="" coords="136,56,247,83"/>
+<area shape="rect" id="node2" href="../../df/d5f/a00064.php#a05b65486fa381f9881b8ea58c13382ad" title="Function to sort a tree ascendently depending on weights. " alt="" coords="140,5,243,32"/>
+<area shape="rect" id="node3" href="../../df/d5f/a00064.php#adcf4acfe617e3974a5ba668de737b80c" title="Function to sort a tree descendently depending on weights. " alt="" coords="136,56,247,83"/>
 </map>
 </div>
 </p>
@@ -248,7 +248,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00101">101</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00101">101</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&#160;</td>
           <td class="paramname"><em>weight</em>&#160;</td>
         </tr>
         <tr>
@@ -297,7 +297,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return a pointer to the node after treatment </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00255">255</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00255">255</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +334,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00177">177</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00177">177</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -363,14 +363,14 @@ template&lt;typename T &gt; </div>
 
 <p>Set the sorter ascending. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00299">299</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00299">299</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d79/a00030_ab5a552132fdd3e2b03f03a5c279bad3e_cgraph.png" border="0" usemap="#d5/d79/a00030_ab5a552132fdd3e2b03f03a5c279bad3e_cgraph" alt=""/></div>
 <map name="d5/d79/a00030_ab5a552132fdd3e2b03f03a5c279bad3e_cgraph" id="d5/d79/a00030_ab5a552132fdd3e2b03f03a5c279bad3e_cgraph">
-<area shape="rect" id="node2" href="../../d1/d6f/a00063.php#a05b65486fa381f9881b8ea58c13382ad" title="Function to sort a tree ascendently depending on weights. " alt="" coords="131,5,233,32"/>
+<area shape="rect" id="node2" href="../../df/d5f/a00064.php#a05b65486fa381f9881b8ea58c13382ad" title="Function to sort a tree ascendently depending on weights. " alt="" coords="131,5,233,32"/>
 </map>
 </div>
 </p>
@@ -389,7 +389,7 @@ template&lt;typename U &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::vector&lt;std::pair&lt;T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&gt; &gt; <a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::convert </td>
+          <td class="memname">static std::vector&lt;std::pair&lt;T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a>&gt; &gt; <a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::convert </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; std::pair&lt; T, U &gt;&gt;&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
@@ -412,7 +412,7 @@ template&lt;typename U &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return <em>in</em> converted for the tree </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00318">318</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00318">318</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -428,7 +428,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::create </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt;&#160;</td>
+          <td class="paramtype">std::vector&lt; std::pair&lt; T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&gt;&#160;</td>
           <td class="paramname"><em>datas</em></td><td>)</td>
           <td></td>
         </tr>
@@ -449,7 +449,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00240">240</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00240">240</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -478,14 +478,14 @@ template&lt;typename T &gt; </div>
 
 <p>Set the sorter descending. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00305">305</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00305">305</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d79/a00030_a84671d5c8a9131bd94a33734b315e5a3_cgraph.png" border="0" usemap="#d5/d79/a00030_a84671d5c8a9131bd94a33734b315e5a3_cgraph" alt=""/></div>
 <map name="d5/d79/a00030_a84671d5c8a9131bd94a33734b315e5a3_cgraph" id="d5/d79/a00030_a84671d5c8a9131bd94a33734b315e5a3_cgraph">
-<area shape="rect" id="node2" href="../../d1/d6f/a00063.php#adcf4acfe617e3974a5ba668de737b80c" title="Function to sort a tree descendently depending on weights. " alt="" coords="137,5,248,32"/>
+<area shape="rect" id="node2" href="../../df/d5f/a00064.php#adcf4acfe617e3974a5ba668de737b80c" title="Function to sort a tree descendently depending on weights. " alt="" coords="137,5,248,32"/>
 </map>
 </div>
 </p>
@@ -504,8 +504,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::equilibrate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a>&#160;</td>
-          <td class="paramname"><em>sort</em> = <code><a class="el" href="../../d1/d6f/a00063.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a></code></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0">TREE_SORT</a>&#160;</td>
+          <td class="paramname"><em>sort</em> = <code><a class="el" href="../../df/d5f/a00064.php#afaf56d0935db4c37008c7c186bdde7c0a6ec9ae46a1e5c631ae04fc9c4c2d63bc">ASC</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -525,7 +525,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00265">265</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00265">265</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -562,7 +562,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the node and the path to this node from the root </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00111">111</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00111">111</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -599,7 +599,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the left </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00150">150</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00150">150</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -636,7 +636,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Return the number of nodes on the right </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00129">129</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00129">129</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -666,7 +666,7 @@ template&lt;typename T &gt; </div>
 <p>Return the height of the tree. </p>
 <dl class="section return"><dt>Returns</dt><dd>Return the height of the tree </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00185">185</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00185">185</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -682,7 +682,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="../../d5/d79/a00030.php">Tree</a>&lt; T &gt;::insert </td>
           <td>(</td>
-          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
+          <td class="paramtype">std::pair&lt; T, <a class="el" href="../../df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">NodeWeight</a> &gt;&#160;</td>
           <td class="paramname"><em>datas</em></td><td>)</td>
           <td></td>
         </tr>
@@ -703,7 +703,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00195">195</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00195">195</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00293">293</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00293">293</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -777,7 +777,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00282">282</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00282">282</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -806,12 +806,12 @@ template&lt;typename T &gt; </div>
 
 <p>Print the tree. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00166">166</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00166">166</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d6f/a00063_source.php">Tree.hpp</a></li>
+<li><a class="el" href="../../df/d5f/a00064_source.php">Tree.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

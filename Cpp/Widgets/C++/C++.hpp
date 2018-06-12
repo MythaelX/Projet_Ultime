@@ -140,33 +140,17 @@
 *
 *	\file		C++.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		11 juin 2018
+*	\date		12 juin 2018
 *
 */
 #ifndef HEADER_CPP
 #define HEADER_CPP
 
-#include "Entities.hpp"
-#include "Player.hpp"
-
 #include "cryptage.hpp"
-#include "console.hpp"
-#include "defines.hpp"
-#include "errors.hpp"
 
-#include "convert.hpp"
 #include "collides.hpp"
-#include "string.hpp"
-#include "array.hpp"
-#include "time.hpp"
-#include "maths.hpp"
-#include "files.hpp"
 #include "sorting.hpp"
 #include "Tree.hpp"
 #include "Map.hpp"
-#include "Threadable.hpp"
-
-#include "macro.hpp"
-#include "types.hpp"
 
 #endif //HEADER_CPP

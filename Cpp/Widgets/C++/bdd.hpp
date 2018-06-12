@@ -2,7 +2,7 @@
 *
 *	\file		bdd.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		11 juin 2018
+*	\date		12 juin 2018
 *
 */
 #ifndef HEADER_BDD
@@ -13,10 +13,7 @@
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>
 
-#include <functional>
-
 #include "errors.hpp"
-#include "pointers.hpp"
 #include "string.hpp"
 
 /*! \brief	The type of the array that contains the columns */

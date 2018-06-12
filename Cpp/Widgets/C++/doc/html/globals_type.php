@@ -125,19 +125,19 @@ $(document).ready(function(){initNavTree('globals_type.php','');});
 : <a class="el" href="d1/dc6/a00037.php#a6b6679f15a22e0f89297978d24dec56e">bdd.hpp</a>
 </li>
 <li>MapArray
-: <a class="el" href="d2/d79/a00051.php#a1ee2140d47f9982ff0aa65b71256bc80">Map.hpp</a>
+: <a class="el" href="d1/d84/a00052.php#a1ee2140d47f9982ff0aa65b71256bc80">Map.hpp</a>
 </li>
 <li>MapLine
-: <a class="el" href="d2/d79/a00051.php#aac0c2192b0b28c4353d6250244b70287">Map.hpp</a>
+: <a class="el" href="d1/d84/a00052.php#aac0c2192b0b28c4353d6250244b70287">Map.hpp</a>
 </li>
 <li>NodeWeight
-: <a class="el" href="d1/d6f/a00063.php#a0a1e73288e0ceb794c65bd86a4b7f231">Tree.hpp</a>
+: <a class="el" href="df/d5f/a00064.php#a0a1e73288e0ceb794c65bd86a4b7f231">Tree.hpp</a>
 </li>
 <li>VI
-: <a class="el" href="d5/df9/a00044.php#a44dfccd15fd47aa8db19125945f8af08">defines.hpp</a>
+: <a class="el" href="d6/d97/a00045.php#a44dfccd15fd47aa8db19125945f8af08">defines.hpp</a>
 </li>
 <li>VS
-: <a class="el" href="d5/df9/a00044.php#a44aff682fd9726ed5ca19159f23b2e6b">defines.hpp</a>
+: <a class="el" href="d6/d97/a00045.php#a44aff682fd9726ed5ca19159f23b2e6b">defines.hpp</a>
 </li>
 </ul>
 </div><!-- contents -->

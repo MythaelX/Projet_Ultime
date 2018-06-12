@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
+$(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,15 +109,25 @@ $(document).ready(function(){initNavTree('df/d61/a00031.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">WorldDimensions Member List</div>  </div>
+<div class="title">Timer Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../df/d61/a00031.php">WorldDimensions</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d5/d16/a00029.php">Timer</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#aab0b2a75b9747cdc33e2982b2df3c322">h</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../df/d61/a00031.php#a56d14d07cb773a1a4bf12f16e7b57d07">w</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../df/d61/a00031.php#aa07c34b536e895dc3ab45bb353aa54a6">z</a></td><td class="entry"><a class="el" href="../../df/d61/a00031.php">WorldDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a56cf495a8c9da8907efe755a550c734c">getStart</a>() const </td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a0e164fd54cb5746f981e1ace8cd3fef0">hasToStop</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#aa78ce396b7f7e652bbe363637d6ff05c">launch</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">m_start</a></td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a1fb118abc832fb483fb82f8d9d87521f">mutex</a></td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a8422d61fac8765b8789c8056bd38f2f3">restart</a>(int sec)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a18a29af58bc18e1644230c747afb35ec">start</a>(int sec)</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#ab3cd20a0909df03a384a09b1b8151d3e">started</a></td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">stop</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a2aeae96f6681e81e4800b8ec5aa8fbcd">updater</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

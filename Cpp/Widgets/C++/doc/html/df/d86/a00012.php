@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="../../d4/d3e/a00116.php">List of all members</a>  </div>
+<a href="../../d8/d87/a00118.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Contraption Class Reference</div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 <p>A contraption.  
  <a href="../../df/d86/a00012.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Contraption:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d9/d4b/a00117.png" border="0" usemap="#Contraption_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../df/d6a/a00119.png" border="0" usemap="#Contraption_inherit__map" alt="Inheritance graph"/></div>
 <map name="Contraption_inherit__map" id="Contraption_inherit__map">
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="53,80,109,107"/>
 <area shape="rect" id="node8" href="../../de/d11/a00021.php" title="An object. " alt="" coords="133,80,193,107"/>
@@ -225,7 +225,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A contraption. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00021">21</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00020">20</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac80a221d48732cc349d5ccef1e4ad319"></a>
 <div class="memitem">
@@ -360,7 +360,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the angle </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00148">148</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00147">147</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -386,7 +386,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the attributes </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00141">141</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00140">140</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -412,7 +412,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00146">146</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00145">145</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the level </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00154">154</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00153">153</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -476,7 +476,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the map </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00151">151</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00150">150</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +502,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00131">131</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00130">130</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -563,7 +563,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00144">144</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00143">143</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -589,7 +589,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the X position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00134">134</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00133">133</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the Y position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00136">136</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00135">135</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -641,7 +641,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the Z position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00138">138</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00137">137</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -711,7 +711,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00111">111</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00110">110</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00080">80</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00079">79</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -831,7 +831,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00104">104</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00103">103</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00127">127</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00126">126</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -901,7 +901,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00119">119</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00118">118</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -936,7 +936,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00041">41</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00040">40</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1025,7 +1025,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00097">97</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00096">96</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1110,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00072">72</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00071">71</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -1138,7 +1138,7 @@ Here is the call graph for this function:</div>
 <p>Turn the <a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a> to the left. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00192">192</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00191">191</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1177,7 +1177,7 @@ Here is the call graph for this function:</div>
 <p>Turn the <a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a> to the right. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00197">197</a> of file <a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00196">196</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1231,7 +1231,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d32/a00041_source.php">Contraption.hpp</a></li>
+<li><a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

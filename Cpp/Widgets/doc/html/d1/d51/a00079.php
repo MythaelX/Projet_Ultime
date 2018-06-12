@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Qt: time.hpp File Reference</title>
+<title>Qt: Member List</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -49,9 +49,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,8 +71,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -88,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d1/d51/a00079.php','../../');});
+$(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,114 +107,39 @@ $(document).ready(function(){initNavTree('d1/d51/a00079.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">time.hpp File Reference</div>  </div>
+<div class="title">WindowButton Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ctime&gt;</code><br />
-<code>#include &lt;thread&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for time.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d38/a00160.png" border="0" usemap="#time_8hpp" alt=""/></div>
-<map name="time_8hpp" id="time_8hpp">
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d6/d7d/a00161.png" border="0" usemap="#time_8hppdep" alt=""/></div>
-<map name="time_8hppdep" id="time_8hppdep">
-<area shape="rect" id="node2" href="../../d1/d22/a00057.php" title="errors.hpp" alt="" coords="667,80,747,107"/>
-<area shape="rect" id="node4" href="../../dc/dee/a00053.php" title="defines.hpp" alt="" coords="691,229,781,256"/>
-<area shape="rect" id="node10" href="../../d6/d2d/a00047.php" title="C++.hpp" alt="" coords="598,827,671,853"/>
-<area shape="rect" id="node18" href="../../d5/df9/a00044.php" title="Args.hpp" alt="" coords="765,155,840,181"/>
-<area shape="rect" id="node3" href="../../d3/dea/a00046.php" title="bdd.hpp" alt="" coords="673,155,741,181"/>
-<area shape="rect" id="node19" href="../../d1/d6f/a00063.php" title="Map.hpp" alt="" coords="153,229,225,256"/>
-<area shape="rect" id="node5" href="../../d5/de0/a00050.php" title="Contraption.hpp" alt="" coords="132,304,247,331"/>
-<area shape="rect" id="node17" href="../../d1/d84/a00052.php" title="cryptage.hpp" alt="" coords="723,453,821,480"/>
-<area shape="rect" id="node6" href="../../d9/d2e/a00056.php" title="Entity.hpp" alt="" coords="203,379,285,405"/>
-<area shape="rect" id="node9" href="../../d4/d6d/a00055.php" title="Entities.hpp" alt="" coords="279,677,369,704"/>
-<area shape="rect" id="node16" href="../../d9/db3/a00066.php" title="Object.hpp" alt="" coords="93,379,179,405"/>
-<area shape="rect" id="node7" href="../../d5/db6/a00042.php" title="Animal.hpp" alt="" coords="226,528,313,555"/>
-<area shape="rect" id="node12" href="../../d4/de8/a00061.php" title="Hostile.hpp" alt="" coords="268,453,356,480"/>
-<area shape="rect" id="node13" href="../../d4/d63/a00082.php" title="Vegetal.hpp" alt="" coords="364,528,455,555"/>
-<area shape="rect" id="node8" href="../../d6/d42/a00043.php" title="Ant.hpp" alt="" coords="195,603,261,629"/>
-<area shape="rect" id="node11" href="../../da/d24/a00068.php" title="Player.hpp" alt="" coords="327,752,411,779"/>
-<area shape="rect" id="node14" href="../../dc/ddf/a00067.php" title="Plant.hpp" alt="" coords="387,603,464,629"/>
-<area shape="rect" id="node15" href="../../de/de1/a00065.php" title="Mushroom.hpp" alt="" coords="489,603,597,629"/>
-</map>
-</div>
-</div>
-<p><a href="../../d1/d51/a00079_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d4/dee/a00008.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8c/a00035.php">Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d4/d8c/a00035.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5834b1cc3c766f7520e829ca23284546"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a00079.php#a5834b1cc3c766f7520e829ca23284546">getSec</a> ()</td></tr>
-<tr class="memdesc:a5834b1cc3c766f7520e829ca23284546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="#a5834b1cc3c766f7520e829ca23284546">More...</a><br /></td></tr>
-<tr class="separator:a5834b1cc3c766f7520e829ca23284546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61c3fca982e77f1f6899239b22b9ad79"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d51/a00079.php#a61c3fca982e77f1f6899239b22b9ad79">getMilli</a> ()</td></tr>
-<tr class="separator:a61c3fca982e77f1f6899239b22b9ad79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d1/d51/a00079_source.php">time.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a61c3fca982e77f1f6899239b22b9ad79"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t getMilli </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Return the milliseconds since the Epoch </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a5834b1cc3c766f7520e829ca23284546"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t getSec </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the number of seconds since the Epoch. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of seconds </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="../../df/d86/a00012.php">WindowButton</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084baed872b32ab60b3aae044fdf829766e74">BUTTON_CLOSE</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba1acf7aace7390523e419dcce457ca1f0">BUTTON_MAXIMIZE</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084ba6f1f4ad27fa2618744b86d9b8bd2ab1d">BUTTON_MINIMIZE</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57e">ButtonState</a> enum name</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a1a23c44a782fc06df076f22ea249084b">ButtonType</a> enum name</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#aab556dedddbb1c9832f572b747449055">enterEvent</a>(QEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a8a89e083618d2f239a60bf5adb7c79a2">leaveEvent</a>(QEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#af7caa976fc5766ddc3d89eef1965a9c6">mousePressEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#afd414539e6cf2fc7072a175032a6f1ff">mouseReleaseEvent</a>(QMouseEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a9d63cf19bcf3f8ba8a7f03fe4f222f11">paintEvent</a>(QPaintEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a2dd52661908250a571804fe967bcd316">resizeEvent</a>(QResizeEvent *event)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ac7b9d8d3e328e0285ef4664e20acb8d3">setBackground</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a7a087338372f7592853b050d168df152">setClickedColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a434a8192bfe4dea8c7b4e1b052a1a943">setGradient</a>(int r1, int g1, int b1, int a1, int r2, int g2, int b2, int a2)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a6947ea55943b909c1d492ad2f79ae1f8">setHoveredColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a4babac31336534efca737c5f73710c1d">setNormalColor</a>(int r, int g, int b, int a=255)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea22e18925772fb70a02ef5f93fd3f8be7">STATE_CLICKED</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57eaed6a113e687faedcd480bb6c24742b0e">STATE_HOVERED</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#a52e7cf1fa9d4c97891ac0080c65dd57ea802952130e11d0d17a6d8cb3b202ba97">STATE_NORMAL</a> enum value</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../df/d86/a00012.php#ac4f0b135bb2c7d7a301c8ccd8ed14ef0">WindowButton</a>(ButtonType type, QWidget *parent=nullptr)</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d86/a00012.php#af6a0e6f87bae8c50d9d2e57b371a548a">~WindowButton</a>()</td><td class="entry"><a class="el" href="../../df/d86/a00012.php">WindowButton</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d1/d51/a00079.php">time.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

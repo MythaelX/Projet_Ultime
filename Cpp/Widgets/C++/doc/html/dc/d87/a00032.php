@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../de/db9/a00159.php">List of all members</a>  </div>
+<a href="../../d6/d7d/a00161.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">WorldDimensions Struct Reference</div>  </div>
 </div><!--header-->
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 <p>An object to group the dimensions of the world.  
  <a href="../../dc/d87/a00032.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -133,7 +133,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An object to group the dimensions of the world. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00035">35</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00035">35</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="aab0b2a75b9747cdc33e2982b2df3c322"></a>
 <div class="memitem">
@@ -145,7 +145,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00037">37</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00037">37</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -159,7 +159,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00036">36</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00036">36</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
@@ -173,12 +173,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d79/a00051_source.php#l00038">38</a> of file <a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d84/a00052_source.php#l00038">38</a> of file <a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d2/d79/a00051_source.php">Map.hpp</a></li>
+<li><a class="el" href="../../d1/d84/a00052_source.php">Map.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -164,60 +164,60 @@ $(document).ready(function(){initNavTree('index.php','');});
 </dd></dl>
 <dl class="section user"><dt>Functions</dt><dd><ul>
 <li>ALIAS_TEMPLATE_FUNCTION</li>
-<li><a class="el" href="d1/d22/a00057.php#a55f9782a77b1459ff662dd21a69edab3" title="Delete a pointer. ">deletePtr(T&amp;)</a></li>
-<li><a class="el" href="d7/df7/a00058.php#a9f2903f65500ce246447f08fea1d734a" title="Compute a random number in a computed range. ">rngRange(T, U)</a></li>
-<li><a class="el" href="df/d03/a00062.php#a5834b1cc3c766f7520e829ca23284546" title="Get the number of seconds since the Epoch. ">getSec()</a></li>
-<li><a class="el" href="df/d03/a00062.php#ae4c6c825f2c7a717a5c24349d50fef7c" title="Return the milliseconds since the Epoch. ">getMilli()</a></li>
-<li><a class="el" href="d9/d73/a00060.php#ad0f62921e752f26b9ebd77ec32e8824e" title="Explode a string in an array with the given caracter. ">split(std::string, char)</a></li>
-<li><a class="el" href="d9/d73/a00060.php#a3f9b8ef62eba953dd328969e206b3f11" title="Explode a string in an array with the given string. ">split(std::string, std::string)</a></li>
+<li><a class="el" href="d7/df7/a00058.php#a55f9782a77b1459ff662dd21a69edab3" title="Delete a pointer. ">deletePtr(T&amp;)</a></li>
+<li><a class="el" href="d3/d8b/a00059.php#a9f2903f65500ce246447f08fea1d734a" title="Compute a random number in a computed range. ">rngRange(T, U)</a></li>
+<li><a class="el" href="d1/d6f/a00063.php#a5834b1cc3c766f7520e829ca23284546" title="Get the number of seconds since the Epoch. ">getSec()</a></li>
+<li><a class="el" href="d1/d6f/a00063.php#ae4c6c825f2c7a717a5c24349d50fef7c" title="Return the milliseconds since the Epoch. ">getMilli()</a></li>
+<li><a class="el" href="d4/de8/a00061.php#ad0f62921e752f26b9ebd77ec32e8824e" title="Explode a string in an array with the given caracter. ">split(std::string, char)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11" title="Explode a string in an array with the given string. ">split(std::string, std::string)</a></li>
 <li>explode(std::string, char)</li>
 <li>explode(std::string, std::string)</li>
-<li><a class="el" href="d9/d73/a00060.php#aabfbfab3c3f6562da02d78a54d1ca0e0" title="Delete all the too-much spaces in the given string. ">trim(std::string&amp;)</a></li>
-<li><a class="el" href="d9/d73/a00060.php#aad282b8ce93b90e54cbd1e337446f15a" title="Set the given interval to uppercase. ">uppercase(std::string, std::string::iterator, std::string::iterator)</a></li>
-<li><a class="el" href="d9/d73/a00060.php#ab6e8937516645f1cb8f4f9c6981feed5" title="Set the given interval to lowercase. ">lowercase(std::string, std::string::iterator, std::string::iterator)</a></li>
-<li><a class="el" href="d9/d73/a00060.php#a925387acbdabec822115ff7e71e440a4" title="Replace something by something else in a string. ">replace(std::string, std::string, std::string)</a></li>
-<li><a class="el" href="d9/d73/a00060.php#abfbfe8f3754081903836460cd2f72cb8" title="Create a random string. ">randStr(size_t)</a></li>
-<li><a class="el" href="d3/d8b/a00059.php#a26ed92f1897ceffb429cd8f436460a3e" title="sort a map ascendently ">sortAsc(std::map&lt;Key, Value&gt;)</a></li>
-<li><a class="el" href="d3/d8b/a00059.php#a3d14862e28ea7d3bb92662b4068f5763" title="Sort a map descendently. ">sortDesc(std::map&lt;Key, Value&gt;)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#ab5254a19797bf686467bc0f475bf6fdd" title="Return the whole part of the given number. ">wholePart(V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a6a8af65111300da455bef67651f83c73" title="Return the decimal part of the given number. ">decimalPart(V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a9f362f22a77587bb719f13bc7fb185a2" title="Return the modulo of two numbers. ">mod(V, U)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a6e9b223b45f9c0ef8d93fa65db1a8f98" title="Return the result of the pgcd. ">pgcd(V, V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#ab60083feca94427f7b2c4dfaeb249f07" title="Return the result of the euclidian function. ">eucl(V, V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. ">dist(T, T, T, T, T, T)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a54a702d8a0a5aa317cc65f5b01ed4ee6" title="Return the square of the given number. ">sq(T)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#ad44dc8b9cd6eaa619880db19cf171751" title="Return the absolute value of the given number. ">abs(T)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a193486f414e3b93b2284a85977a4a02c" title="Return the minimum of the arguments. ">min(T, V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#ac5673d3f9fc79ba39127c4a339dea626" title="Return the maximum of the arguments. ">max(T, V)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a709c7dabaae9dea50d277980278081e0" title="Return the round of the given number. ">round(T, int)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a94305b67cb0435c3395b548ec8283154" title="Return true if the given number is prime, false either. ">isPrime(float)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a65b1640156c68ea7687a41428022c1d8" title="Return true if the caracter is a number. ">isNumber(char)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#af667d8a0d7e420b313a26791c49359fb" title="Return the result of the sigmoide function. ">sigmoide(double)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#aaa55b9d8528b25fa5167908db82dff21" title="Compute with the derivated sigmoide. ">dsigmoide(double)</a></li>
-<li><a class="el" href="d1/d84/a00052.php#a75105ac3cb9ee25de080d973f0bfe112" title="Do the log of x in base 2. ">log2p(int)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a9e71f7b4b2dc9351d81534c753d02b2f" title="Compute if there is a collision between two circles. ">collidesC(double, double, double, double, double, double)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a2c41f8567fc8effdd8ee6a163fbe9440" title="Compute if there is a collision between two rectangles. ">collidesR(double, double, double, double, double, double, double, double)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a8e7babfd2bd0dd7b2f392372848edc80" title="Compute if there is a collision between a rectangle and a circle. ">collidesRC(double, double, double, double, double, double, double)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a3ce463b4b6c6477444bad3dcb1499f85" title="Compute if there is a collision between a point and a circle. ">collidesPC(double, double, double, double, double)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a2d9df4f37d280cec5c3e91ba7b83ed11" title="Compute if there is a collision between a point and a rectangle. ">collidesPR(double, double, double, double, double, double)</a></li>
-<li><a class="el" href="d3/de7/a00039.php#a1213c000f201a2e1991e60a0e2973d91" title="Compute if there is a collision on a segment. ">ProjectionSurSegment(double, double, double, double, double, double)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a78b4ad7bc552ad244dec369856aa8d91" title="Convert in variable in string. ">tos(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a0de9d90c31d0a16f1d173f84be9e091a" title="Convert in variable in int. ">toi(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a2432d9eaa9d57e487a6813a01993e8ef" title="Convert in variable in double. ">tod(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a28ef26e9e217e572497d67676081f08e" title="Convert in variable in float. ">tof(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a046732bd284eb239dc2eda5a92a17681" title="Convert in variable in unsigned int. ">tou(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#aa70ef73b7fa30f68e3f14a6b60de10eb" title="Convert in variable in unsigned long long int. ">tov(V)</a></li>
-<li><a class="el" href="d5/db6/a00042.php#a013b8a84340b1ab68401095a566cc0ea" title="Convert in variable in size_t. ">tost(V)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#aabfbfab3c3f6562da02d78a54d1ca0e0" title="Delete all the too-much spaces in the given string. ">trim(std::string&amp;)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#aad282b8ce93b90e54cbd1e337446f15a" title="Set the given interval to uppercase. ">uppercase(std::string, std::string::iterator, std::string::iterator)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#ab6e8937516645f1cb8f4f9c6981feed5" title="Set the given interval to lowercase. ">lowercase(std::string, std::string::iterator, std::string::iterator)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#a925387acbdabec822115ff7e71e440a4" title="Replace something by something else in a string. ">replace(std::string, std::string, std::string)</a></li>
+<li><a class="el" href="d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8" title="Create a random string. ">randStr(size_t)</a></li>
+<li><a class="el" href="d9/d73/a00060.php#a26ed92f1897ceffb429cd8f436460a3e" title="sort a map ascendently ">sortAsc(std::map&lt;Key, Value&gt;)</a></li>
+<li><a class="el" href="d9/d73/a00060.php#a3d14862e28ea7d3bb92662b4068f5763" title="Sort a map descendently. ">sortDesc(std::map&lt;Key, Value&gt;)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#ab5254a19797bf686467bc0f475bf6fdd" title="Return the whole part of the given number. ">wholePart(V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a6a8af65111300da455bef67651f83c73" title="Return the decimal part of the given number. ">decimalPart(V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a9f362f22a77587bb719f13bc7fb185a2" title="Return the modulo of two numbers. ">mod(V, U)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a6e9b223b45f9c0ef8d93fa65db1a8f98" title="Return the result of the pgcd. ">pgcd(V, V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#ab60083feca94427f7b2c4dfaeb249f07" title="Return the result of the euclidian function. ">eucl(V, V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#aa7446c664998ff110eeaf6c2bab19772" title="Return the distance of the given coordinates. ">dist(T, T, T, T, T, T)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a54a702d8a0a5aa317cc65f5b01ed4ee6" title="Return the square of the given number. ">sq(T)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#ad44dc8b9cd6eaa619880db19cf171751" title="Return the absolute value of the given number. ">abs(T)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a193486f414e3b93b2284a85977a4a02c" title="Return the minimum of the arguments. ">min(T, V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#ac5673d3f9fc79ba39127c4a339dea626" title="Return the maximum of the arguments. ">max(T, V)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a709c7dabaae9dea50d277980278081e0" title="Return the round of the given number. ">round(T, int)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a94305b67cb0435c3395b548ec8283154" title="Return true if the given number is prime, false either. ">isPrime(float)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a65b1640156c68ea7687a41428022c1d8" title="Return true if the caracter is a number. ">isNumber(char)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#af667d8a0d7e420b313a26791c49359fb" title="Return the result of the sigmoide function. ">sigmoide(double)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#aaa55b9d8528b25fa5167908db82dff21" title="Compute with the derivated sigmoide. ">dsigmoide(double)</a></li>
+<li><a class="el" href="dc/dee/a00053.php#a75105ac3cb9ee25de080d973f0bfe112" title="Do the log of x in base 2. ">log2p(int)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a9e71f7b4b2dc9351d81534c753d02b2f" title="Compute if there is a collision between two circles. ">collidesC(double, double, double, double, double, double)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a2c41f8567fc8effdd8ee6a163fbe9440" title="Compute if there is a collision between two rectangles. ">collidesR(double, double, double, double, double, double, double, double)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a8e7babfd2bd0dd7b2f392372848edc80" title="Compute if there is a collision between a rectangle and a circle. ">collidesRC(double, double, double, double, double, double, double)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a3ce463b4b6c6477444bad3dcb1499f85" title="Compute if there is a collision between a point and a circle. ">collidesPC(double, double, double, double, double)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a2d9df4f37d280cec5c3e91ba7b83ed11" title="Compute if there is a collision between a point and a rectangle. ">collidesPR(double, double, double, double, double, double)</a></li>
+<li><a class="el" href="db/d3a/a00040.php#a1213c000f201a2e1991e60a0e2973d91" title="Compute if there is a collision on a segment. ">ProjectionSurSegment(double, double, double, double, double, double)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a78b4ad7bc552ad244dec369856aa8d91" title="Convert in variable in string. ">tos(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a0de9d90c31d0a16f1d173f84be9e091a" title="Convert in variable in int. ">toi(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a2432d9eaa9d57e487a6813a01993e8ef" title="Convert in variable in double. ">tod(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a28ef26e9e217e572497d67676081f08e" title="Convert in variable in float. ">tof(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a046732bd284eb239dc2eda5a92a17681" title="Convert in variable in unsigned int. ">tou(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#aa70ef73b7fa30f68e3f14a6b60de10eb" title="Convert in variable in unsigned long long int. ">tov(V)</a></li>
+<li><a class="el" href="d6/d42/a00043.php#a013b8a84340b1ab68401095a566cc0ea" title="Convert in variable in size_t. ">tost(V)</a></li>
 <li>error_log(size_t, T, Args...)</li>
 <li>warning_log(size_t, T, Args...)</li>
 <li>info_log(size_t, T, Args...)</li>
-<li><a class="el" href="d4/dca/a00048.php#a42e1aa02e585ad4e35d14ef5c133395a" title="Format a given line for files. ">fileFormat(std::string&amp;)</a></li>
-<li><a class="el" href="d4/dca/a00048.php#ab148021dd478aa69c83029819b268737" title="Get the file size. ">getFileSize(const std::string&amp;)</a></li>
-<li><a class="el" href="d4/dca/a00048.php#a2917d2eb46f63f2c97b1a30de55ec3c5" title="Get all the lines in a given file. ">getlines(std::ifstream&amp;)</a></li>
-<li><a class="el" href="d4/dca/a00048.php#aa9034f20bf3b289424ebda507e52e427" title="Write all the lines in a given file. ">setlines(std::ofstream&amp;, std::vector&lt;std::string&gt;)</a></li>
-<li><a class="el" href="df/d5f/a00064.php#aecf59a2b719b8c7121eee69d1bb737e8" title="Print the type of \â obj. ">printType(C&amp;)</a></li>
-<li><a class="el" href="df/d5f/a00064.php#a6d01957e99131ce0c8d0902a9a8cdf38" title="Get the type of obj in a string. ">getType(C&amp;)</a></li>
-<li><a class="el" href="df/d5f/a00064.php#ae549f98d8a0469bd0533f807c2b51b84" title="Get the type of a pointer obj in a string. ">getType(C)</a></li>
+<li><a class="el" href="d2/dee/a00049.php#a42e1aa02e585ad4e35d14ef5c133395a" title="Format a given line for files. ">fileFormat(std::string&amp;)</a></li>
+<li><a class="el" href="d2/dee/a00049.php#ab148021dd478aa69c83029819b268737" title="Get the file size. ">getFileSize(const std::string&amp;)</a></li>
+<li><a class="el" href="d2/dee/a00049.php#a2917d2eb46f63f2c97b1a30de55ec3c5" title="Get all the lines in a given file. ">getlines(std::ifstream&amp;)</a></li>
+<li><a class="el" href="d2/dee/a00049.php#aa9034f20bf3b289424ebda507e52e427" title="Write all the lines in a given file. ">setlines(std::ofstream&amp;, std::vector&lt;std::string&gt;)</a></li>
+<li><a class="el" href="de/de1/a00065.php#aecf59a2b719b8c7121eee69d1bb737e8" title="Print the type of \â obj. ">printType(C&amp;)</a></li>
+<li><a class="el" href="de/de1/a00065.php#a6d01957e99131ce0c8d0902a9a8cdf38" title="Get the type of obj in a string. ">getType(C&amp;)</a></li>
+<li><a class="el" href="de/de1/a00065.php#ae549f98d8a0469bd0533f807c2b51b84" title="Get the type of a pointer obj in a string. ">getType(C)</a></li>
 <li><a class="el" href="de/d8c/a00036.php#a5090547d046a342ba3ac573e8248f628" title="Stick the a vector with the glue given. ">implode(std::vector&lt;T&gt;, std::string)</a></li>
 <li><a class="el" href="de/d8c/a00036.php#ad2b1019448d0599264d51172242e1be4" title="Print the content of a vector. ">print_r(std::vector&lt;T&gt;)</a></li>
 <li><a class="el" href="de/d8c/a00036.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13" title="Print the content of an array. ">print_r(T)</a></li>

@@ -1,9 +1,3 @@
-<map id="Contraption" name="Contraption">
-<area shape="rect" id="node2" href="$d2/de7/a00014.php" title="An entity. " alt="" coords="53,80,109,107"/>
-<area shape="rect" id="node8" href="$db/db2/a00020.php" title="An object. " alt="" coords="133,80,193,107"/>
-<area shape="rect" id="node3" href="$d7/d46/a00002.php" title="An animal. " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node5" href="$dc/d3c/a00028.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
-<area shape="rect" id="node4" href="$d1/d7c/a00003.php" title="An ant. " alt="" coords="15,229,58,256"/>
-<area shape="rect" id="node6" href="$d1/d2b/a00018.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
-<area shape="rect" id="node7" href="$de/d11/a00021.php" title="A plant. " alt="" coords="191,229,243,256"/>
+<map id="Cesar" name="Cesar">
+<area shape="rect" id="node2" href="$d2/de7/a00014.php" title="A class to be the parent for every crypt class. " alt="" coords="5,5,67,32"/>
 </map>

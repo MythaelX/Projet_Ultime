@@ -2,7 +2,7 @@
 *
 *	\file		defines.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		10 juin 2018
+*	\date		12 juin 2018
 *
 *	\details	- Include ;
 *					- iostream\n
@@ -21,11 +21,20 @@
 *					- limits\n
 *					- utility\n
 *					- memory\n
+*					- locale\n
+*					- functional\n
 *					- random\n
 *					- algorithm\n
 *					- ios\n\n
 *					- cmath\n
 *					- ctime\n
+*					- chrono\n
+*				- Enable the use of ;
+*					- BDD with bdd\n
+*					- RNG with rng\n
+*					- Arguments with arguments\n
+*					- std::ifstream with reader\n
+*					- std::ofstream with writer\n
 *
 */
 #ifndef HEADER_DEFINES
@@ -40,13 +49,6 @@
 
 #include "bdd.hpp"
 #include "Args.hpp"
-//#include "RNG.hpp"
-/*#include "convert.hpp"
-#include "string.hpp"
-#include "time.hpp"
-#include "maths.hpp"
-#include "files.hpp"
-#include "pointers.hpp"*/
 
 /* Some defines */
 /*! \brief	Alias for \b std::vector<int> */

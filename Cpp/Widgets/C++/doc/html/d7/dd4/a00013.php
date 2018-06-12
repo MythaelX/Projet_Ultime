@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d7/dd4/a00013.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="../../d8/d87/a00118.php">List of all members</a>  </div>
+<a href="../../d4/d98/a00120.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ContraptionAttr Struct Reference</div>  </div>
 </div><!--header-->
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d7/dd4/a00013.php','../../');});
 <p>A struct to define <b><a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a></b> attributes.  
  <a href="../../d7/dd4/a00013.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -133,7 +133,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A struct to define <b><a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a></b> attributes. </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00068">68</a> of file <a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00070">70</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a062e1a4fe2f7d6f8d771f13f10844a19"></a>
 <div class="memitem">
@@ -146,7 +146,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Angle </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00074">74</a> of file <a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00076">76</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -161,7 +161,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Height </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00072">72</a> of file <a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00074">74</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
@@ -176,12 +176,12 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Width </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00070">70</a> of file <a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00072">72</a> of file <a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="../../d5/df9/a00044_source.php">defines.hpp</a></li>
+<li><a class="el" href="../../d6/d97/a00045_source.php">defines.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

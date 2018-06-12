@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d5/d1e/a00103.php">List of all members</a>  </div>
+<a href="../../d3/d32/a00105.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ant Class Reference</div>  </div>
 </div><!--header-->
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 <div class="dynheader">
 Inheritance diagram for Ant:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/dc2/a00104.png" border="0" usemap="#Ant_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d7/d70/a00106.png" border="0" usemap="#Ant_inherit__map" alt="Inheritance graph"/></div>
 <map name="Ant_inherit__map" id="Ant_inherit__map">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="60,155,123,181"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
@@ -134,7 +134,7 @@ Inheritance diagram for Ant:</div>
 <div class="dynheader">
 Collaboration diagram for Ant:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/d32/a00105.png" border="0" usemap="#Ant_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../df/d98/a00107.png" border="0" usemap="#Ant_coll__map" alt="Collaboration graph"/></div>
 <map name="Ant_coll__map" id="Ant_coll__map">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="23,247,85,273"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
@@ -243,7 +243,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">move</a> ()</td></tr>
 <tr class="memdesc:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the actual direction.  <a href="#a07c40f873879cc72d0fc94a0831b955a">More...</a><br /></td></tr>
 <tr class="separator:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d5/df9/a00044.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
+<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
 <tr class="memdesc:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the direction.  <a href="#a6e209ff2a9d0bf3a73d10baabadcb3b9">More...</a><br /></td></tr>
 <tr class="separator:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea47bc43468e85f59c2a9ff1a3e64887 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">attack</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>=nullptr)</td></tr>
@@ -415,7 +415,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_a00003"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00003')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d1/d7c/a00003.php">Animal</a></td></tr>
-<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/df9/a00044.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
+<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d97/a00045.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
 <tr class="separator:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_a00016"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00016')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td></tr>
 <tr class="memitem:a54cd84496707554686bc5fc43b57a4f8 inherit pro_attribs_a00016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td></tr>
