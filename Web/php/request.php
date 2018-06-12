@@ -55,8 +55,6 @@
 			}else if($requestRessource == 'propositions'){
 				$id_question=$_GET['id_question'];
 				$data=$bdd->query("SELECT texte_proposition,solution_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
-				error_log($id_question);
-				error_log_array($data);
 			}else if($requestRessource=='pseudo'){
 				$pseudo=$_GET['pseudo'];
 				$data=$bdd->query("SELECT pseudo FROM utilisateurs WHERE pseudo='".$pseudo."'");

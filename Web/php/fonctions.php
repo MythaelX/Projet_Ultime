@@ -96,7 +96,6 @@ function score($bdd){
   }else{
     $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
   }
-  $bdd->DEBUG(true);
   $bdd->update("partie","nb_jouees=nb_jouees+1", "WHERE id_partie=".$id_partie."");
   $data=["score" => $scoreTotal,"temps" => $tempsTotal,];
   sendJsonData($data,'HTTP/1.1 200 OK');
