@@ -8,7 +8,19 @@
 	border-radius: @radius;
 }
 
+.appearance(@appearance) {
+	-webkit-appearance: @appearance;
+	-moz-appearance: @appearance;
+	appearance: @appearance;
+}
+
 .transform(@property) {
+	-webkit-transform: @property;
+	-moz-transform: @property;
 	transform: @property;
-    -webkit-transform: @property;
+}
+
+.size(@size) {
+	width: @size;
+	height: @size;
 }
