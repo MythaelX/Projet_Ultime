@@ -1,0 +1,87 @@
+main {
+	div#accueilPerso{
+		display: none;
+		form{
+			width: 100%;
+			div#tableauText{
+				max-width: 630px;
+				margin-top: 8%;
+				margin-left: 3%;
+				margin-right: 50%;
+				div#text{
+					padding: 12px 0 8px 0;
+					.border-radius(20px 20px 0 0);
+					.default-border(2px);
+					background-image: @navbar;
+					text-align: center;
+					.font('cheeseburger',0.9em);
+					color: @white1;
+				}
+				div#tableau{
+					max-width: 630px;
+					margin-top: 0px;
+					overflow-y: scroll;
+					max-height: 360px;
+					border-bottom: 2px solid @black1;
+					.border-radius(0 0 0 5px);
+					table{
+						text-align: center;
+						background-color: @white3;
+						.border-radius(0 0 0 5px);
+						.default-border(2px);
+						border-spacing: 0;
+						th{
+							color: @white1;
+							padding: 10px;
+							.padding-sides(43px);
+							.default-border();
+							background-color: @black4;
+							font-size: 1.3em;
+							&:nth-child(2){
+								.padding-sides(70px);
+							}
+							&:nth-child(1){
+								.padding-sides(20px);
+							}
+						}
+
+						tbody{
+							td{
+								padding: 7px;
+								.default-border();
+							}
+						}
+					}
+				}
+			}
+			div#blockBoutons{
+				margin-top: 5%;
+				position: relative;
+				float: right;
+				margin-right: 6%;
+				max-width: 30%;
+				button,input{
+					float: right;
+					margin-top: 40px;
+					margin-right: 40px;
+					width: 100%;
+					padding: 20px 0;
+					font-size: 1.3em;
+					.border-radius(5px);
+					&:hover {
+						box-shadow: -2.5px 2px 8px 8px @black2;
+					}
+				}
+				#boutonModifier{
+					.redButton();
+				}
+				#boutonCreer{
+					.greyButton();
+				}
+				#boutonRejoindre{
+					.greenButton();
+				}
+			}
+		}
+	}
+}

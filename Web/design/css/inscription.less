@@ -1,0 +1,79 @@
+main {
+	div#formulaireInscription{
+		.margin-boundaries(3%);
+		.margin-sides(auto);
+		max-width: 500px;
+		padding-bottom: 1%;
+		.default-border();
+		.border-radius(10px);
+		font-size: 1.4em;
+		color: @white1;
+		text-align: center;
+		background-color: @white2;
+
+		h1{
+			font-weight: normal;
+			padding: 10px 0 7px 0;
+			.font('cheeseburger',1.3em);
+			background: @navbar;
+			.default-border(0);
+			border-bottom-width: 1px;
+			.border-radius(9px 9px 0 0);
+		}
+		div:first-child{
+			margin-top: 2%;
+		}
+		div{
+			display: block;
+			margin-right: 15%;
+			margin-left: 5%;
+			text-align: right;
+			padding: 15px;
+			font-size: 0.7em;
+		}
+
+		input{
+			padding: 6px 10px;
+			color: @black3;
+			font-size: 0.8em;
+			.default-border(1px, @black2);
+			.border-radius(5px);
+		}
+
+		input.boutonvert{
+			margin-top: 10px;
+			display: block;
+			margin-left: 40%;
+			text-align: center;
+			margin-bottom: 0.1%;
+			cursor: pointer;
+
+			&:hover {
+				box-shadow: -2.5px 2px 8px 8px @black2;
+			}
+			.greenButton();
+		}
+		div#blockAvatar{
+			padding: 0;
+			margin: 0;
+			img{
+				margin-left: 25%;
+				.size(5em);
+				float: left;
+			}
+
+			div{
+				margin-top: 20px;
+				margin-left: 50px;
+				#boutonAvatar{
+					display: none;
+				}
+				#boutonAvatar2{
+					padding: 10px;
+					margin-top: 1%;
+					margin-right: 1%;
+				}
+			}
+		}
+	}
+}

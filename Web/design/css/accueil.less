@@ -1,0 +1,50 @@
+main {
+	div#presentation{
+		margin: 5%;
+		margin-top: 2%;
+		box-shadow: 2.5px 2px 0px @black2;
+		background-color: @white2;
+		.default-border(2px);
+		.border-radius(20px);
+
+		&::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		div{
+			box-sizing: border-box;
+			color: @white1;
+			width: 60%;
+			float: left;
+
+			&:first-child{
+				width: 40%;
+				float: left;
+				padding: 1em;
+				box-sizing: border-box;
+			}
+			img{
+				border: 3px solid @black3;
+				width: 100%;
+				height: auto;
+				.border-radius(3%);
+
+			}
+
+			h1{
+				width: 88%;
+				padding: 1em;
+				padding-top: 2em;
+				padding-bottom: 0.5em;
+				text-align: center;
+				.font('cheeseburger',1.5em);
+			}
+			p{
+				.font('Arial',1.5em);
+				padding: 1em;
+			}
+		}
+	}
+}

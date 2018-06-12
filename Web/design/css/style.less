@@ -1,21 +1,29 @@
+@import 'home_made/class';
+
 @import 'variables';
 @import 'fonts';
+@import 'functions';
+
+@import 'accueil';
+@import 'accueilPerso';
+@import 'connexion';
+@import 'inscription';
+@import 'palmares';
+@import 'creation';
+@import 'jeu';
 
 html {
-
-
 	body {
 		background-image: url("../img/ardoise.jpg");
-		*{
-			outline:none;
+		* {
+			outline: none;
 		}
 
-		header {
-		}
+		header {}
 		nav {
 			background: @navbar;
-			border-style: solid;
-			border-width: 0px 0px 2px 0px;
+			.default-border(0);
+			border-bottom-width: 2px;
 
 			ul.navbar{
 				display: inline-flex;
@@ -24,20 +32,19 @@ html {
 				li{
 					float: left;
 					&:first-child{
-						border-style: solid;
-						border-width: 0px 4px 0px 0px;
-						border-color: @blue3;
+						.default-border(0, @blue3);
+						border-right-width: 4px;
 						.font('cheeseburger',0.9em);
 
 						a{
-							padding:0.35em;
+							padding: 0.35em;
 							padding-left: 3em;
 							cursor: pointer;
 							img{
-								border-radius:100%;
+								.border-radius(100%);
 								position: absolute;
-								top:4px;
-								left:10px;
+								top: 4px;
+								left: 10px;
 								height: 2em;
 								width: auto;
 							}
@@ -49,25 +56,25 @@ html {
 						text-align: center;
 						text-decoration: none;
 						color: @white1;
-						font-size:1.5em;
-						padding:0.5em;
+						font-size: 1.5em;
+						padding: 0.5em;
 						cursor: pointer;
 						&:hover{
-							background-color:@black2;
+							background-color: @black2;
 						}
 					}
 				}
 				div{
 					position: absolute;
-					right:0;
-					display:inline-block;
+					right: 0;
+					display: inline-block;
 					span{
 						display: block;
 						text-align: center;
 						text-decoration: none;
 						color: @white1;
-						font-size:1.5em;
-						padding:0.5em;
+						font-size: 1.5em;
+						padding: 0.5em;
 					}
 					li:first-child{
 						font-size: 1em;
@@ -76,10 +83,10 @@ html {
 							padding: 0.5em;
 						}
 						img{
-							border-radius:100%;
+							.border-radius(100%);
 							position: absolute;
-							top:4px;
-							left:-40px;
+							top: 4px;
+							left: -40px;
 							height: 1.8em;
 							width: 1.8em;
 						}
@@ -87,21 +94,21 @@ html {
 					li.deconnexion{
 						cursor: pointer;
 						&:hover{
-							background-color:@black2;
+							background-color: @black2;
 						}
 						img{
-							top:5px;
-							border-radius:100%;
+							top: 5px;
+							.border-radius(100%);
 							position: absolute;
-							left:50%;
+							left: 50%;
 							transform: translateX(-50%);
 							width: 1.8em;
 							height: 1.8em;
 						}
 						span{
-							padding:0.5em;
-							font-size:0.4em;
-							margin-top:5.5em;
+							padding: 0.5em;
+							font-size: 0.4em;
+							margin-top: 5.5em;
 						}
 					}
 				}
@@ -111,720 +118,25 @@ html {
 			button,select{
 				outline: 0;
 			}
-			div#presentation{
-				margin: 5%;
-				margin-top: 2%;
-				box-shadow: 2.5px 2px 0px @black2;
-				background-color: @white2;
-				border-style: solid;
-				border-width:2px;
-				border-radius:20px;
-
-				&::after {
-					content: "";
-					display: table;
-					clear: both;
-				}
-
-				div{
-					box-sizing: border-box;
-					color: @white1;
-					width: 60%;
-					float: left;
-
-					&:first-child{
-						width: 40%;
-						float: left;
-						padding: 1em;
-						box-sizing: border-box;
-					}
-					img{
-						border-width:3px;
-						border-style: solid;
-						border-color: @black3;
-						width: 100%;
-						height: auto;
-						border-radius:3%;
-
-					}
-
-					h1{
-						width: 88%;
-						padding: 1em;
-						padding-top:2em;
-						padding-bottom: 0.5em;
-						text-align: center;
-						.font('cheeseburger',1.5em);
-					}
-					p{
-						.font('Arial',1.5em);
-						padding: 1em;
-					}
-				}
-			}
-
-			div#accueilPerso{
-				display:none;
-				form{
-					width:100%;
-					div#tableauText{
-						max-width: 630px;
-						margin-top: 8%;
-						margin-left: 3%;
-						margin-right: 50%;
-						div#text{
-							padding:12px 0 8px 0;
-							border-radius:20px 20px 0 0;
-							border: 2px solid @black1;
-							background-image:@navbar;
-							text-align: center;
-							.font('cheeseburger',0.9em);
-							color:@white1;
-						}
-						div#tableau{
-							max-width: 630px;
-							margin-top:0px;
-							overflow-y:scroll;
-							max-height:360px;
-							border-bottom:2px solid @black1;
-							border-radius: 0 0 0 5px;
-							table{
-								text-align: center;
-								background-color:@white3;
-								border-radius:0 0 0 5px;
-								border: 2px solid @black1;
-								border-spacing:0;
-								th{
-									color:@white1;
-									padding: 10px;
-									padding-left: 43px;
-									padding-right:43px;
-									border: 1px solid @black1;
-									background-color:@black4;
-									font-size: 1.3em;
-									&:nth-child(2){
-										padding-left: 70px;
-										padding-right:70px;
-									}
-									&:nth-child(1){
-										padding-left:20px;
-										padding-right:20px;
-									}
-								}
-
-								tbody{
-									td{
-										padding: 7px;
-										border: 1px solid @black1;
-									}
-								}
-							}
-						}
-					}
-					div#blockBoutons{
-						margin-top:5%;
-						position: relative;
-						float:right;
-						margin-right:6%;
-						max-width: 30%;
-						button,input{
-							float: right;
-							margin-top: 40px;
-							margin-right: 40px;
-							width:100%;
-							padding: 20px 0;
-							color: @black3;
-							font-size:1.3em;
-							border-style: solid;
-							border-color: @black1;
-							border-width:1px;
-							border-radius:5px;
-							&:hover {
-								box-shadow: -2.5px 2px 8px 8px @black2;
-							}
-						}
-						#boutonModifier{
-							color: @white1;
-							background-image: @boutonrouge1;
-							&:active{
-								background-image: @boutonrouge2;
-							}
-						}
-						#boutonCreer{
-							color: @white1;
-							background-image: @boutongris1;
-							&:active{
-								background-image: @boutongris2;
-							}
-						}
-						#boutonRejoindre{
-							color: @white1;
-							background-image: @boutonvert1;
-							&:active{
-								background-image: @boutonvert2;
-							}
-						}
-					}
-				}
-			}
-			div#formulaireConnexion{
-				margin-top: 5%;
-				margin-left: auto;
-				margin-right: auto;
-				max-width: 400px;
-				padding-bottom: 1%;
-				border-style: solid;
-				border-width:1px;
-				border-radius: 10px;
-				border-color: @black1;
-				font-size: 1.3em;
-				color:@white1;
-				text-align: center;
-				background-color: @white2;
-
-				h1{
-					padding:10px 0 7px 0;
-					.font('cheeseburger',1.3em);
-					font-weight:normal;
-					background: @navbar;
-					border-style: solid;
-					border-color: @black1;
-					border-width: 0 0 1px 0;
-					border-radius: 9px 9px 0 0;
-				}
-
-				div{
-					margin: auto;
-					width: 50%;
-					text-align: left;
-					padding: 15px;
-				}
-
-				input{
-					padding: 6px 10px;
-					color: @black3;
-					font-size:0.7em;
-					border-style: solid;
-					border-color: @black2;
-					border-width:1px;
-					border-radius:5px;
-				}
-
-				input.boutonvert{
-					display:block;
-					margin-left:19%;
-					text-align: center;
-					color: @white1;
-					margin-bottom: 0.5%;
-					border-color: @black1;
-					cursor: pointer;
-					background-image: @boutonvert1;
-
-					&:hover {
-						box-shadow: -2.5px 2px 8px 8px @black2;
-
-					}
-					&:active{
-						background-image: @boutonvert2;
-					}
-				}
-				a{
-					color: @white1;
-					font-size: 0.5em;
-				}
-			}
-
-			div#formulaireInscription{
-				margin-top: 3%;
-				margin-left: auto;
-				margin-right: auto;
-				margin-bottom: 3%;
-				max-width: 500px;
-				padding-bottom: 1%;
-				border-style: solid;
-				border-width:1px;
-				border-radius: 10px;
-				border-color: @black1;
-				font-size: 1.4em;
-				color:@white1;
-				text-align: center;
-				background-color: @white2;
-
-				h1{
-					font-weight:normal;
-					padding:10px 0 7px 0;
-					.font('cheeseburger',1.3em);
-					background: @navbar;
-					border-style: solid;
-					border-color: @black1;
-					border-width: 0 0 1px 0;
-					border-radius: 9px 9px 0 0;
-				}
-				div:first-child{
-					margin-top: 2%;
-				}
-				div{
-					display: block;
-					margin-right:15%;
-					margin-left:5%;
-					text-align: right;
-					padding: 15px;
-					font-size: 0.7em;
-				}
-
-				input{
-					padding: 6px 10px;
-					color: @black3;
-					font-size:0.8em;
-					border-style: solid;
-					border-color: @black2;
-					border-width:1px;
-					border-radius:5px;
-				}
-
-				input.boutonvert{
-					margin-top: 10px;
-					display:block;
-					margin-left:40%;
-					text-align: center;
-					color: @white1;
-					margin-bottom: 0.1%;
-					border-color: @black1;
-					cursor: pointer;
-					background-image: @boutonvert1;
-
-					&:hover {
-						box-shadow: -2.5px 2px 8px 8px @black2;
-
-					}
-					&:active{
-						background-image: @boutonvert2;
-					}
-				}
-				div#blockAvatar{
-					padding: 0;
-					margin:0;
-					img{
-						margin-left:25%;
-						width:5em;
-						height:5em;
-						float: left;
-					}
-
-					div{
-						margin-top:20px;
-						margin-left:50px;
-						#boutonAvatar{
-							display:none;
-						}
-						#boutonAvatar2{
-							padding:10px;
-							margin-top: 1%;
-							margin-right: 1%;
-						}
-					}
-				}
-			}
-
-			div#palmares{
-				width: 88%;
-				margin-top: 2%;
-				margin-left: auto;
-				margin-right: auto;
-				color:@white1;
-
-				h1{
-					text-align: center;
-					.font('cheeseburger',3em);
-				}
-				table {
-					margin-top: -1px;
-					text-align: center;
-					background-color:@white3;
-					border-radius:0 5px 5px;
-					border: 2px solid @black1;
-					border-spacing:0;
-					width: 100%;
-					th{
-						padding: 10px;
-						border: 1px solid @black1;
-						font-size: 1.3em;
-					}
-					tbody{
-						td{
-							padding: 7px;
-							border: 1px solid @black1;
-						}
-					}
-				}
-				div{
-					margin-top:20px;
-					margin-left: 5px;
-					button{
-						font-size: 1.2em;
-						color: @white1;
-						margin-left: -5px;
-						border: 4px solid @black1;
-						border-width:2px;
-						border-radius: 0 10px 0 0;
-						padding: 5px 40px 5px 40px;
-						background-color:@gray1;
-						&:hover {
-							box-shadow: -2.5px 2px 8px 8px @black3;
-						}
-						&:active{
-							background-color:@black2;
-						}
-					}
-				}
-			}
-
-			div#creation{
-				margin-top: 3%;
-				margin-left: auto;
-				margin-right: auto;
-				max-width: 800px;
-				padding-bottom: 1%;
-				border-style: solid;
-				border-width:1px;
-				border-radius: 10px;
-				border-color: @black1;
-				font-size: 1.3em;
-				color:@white1;
-				text-align: center;
-				background-color: @white2;
-
-				h1{
-					padding:10px 0 7px 0;
-					.font('cheeseburger',1.3em);
-					font-weight:normal;
-					background: @navbar;
-					border-style: solid;
-					border-color: @black1;
-					border-width: 0 0 1px 0;
-					border-radius: 9px 9px 0 0;
-					margin-bottom: 2%;
-				}
-				label{
-
-					text-align: left;
-					font-size:1.4em;
-				}
-				label#labelDifficulte{
-					font-size:1em;
-				}
-				label.custom-select {
-					margin-right:28%;;
-					position: relative;
-					display: inline-block;
-					border-radius:5px;
-					max-width: 300px;
-					min-width: 300px;
-					background-image: @boutongris1;
-
-					z-index: 10;
-				}
-
-				label.custom-select select {
-					border: none;
-					border-radius:5px;
-
-					background: transparent;
-					-webkit-appearance: none;
-					-moz-appearance: none;
-					appearance: none;
-					border-radius: 0;
-					margin: 0;
-					display: block;
-					width: 100%;
-					padding: 12px 55px 15px 15px;
-					font-size: 14px;
-					color:@white1;
-				}
-				label.custom-select:after {
-					position: absolute;
-					right: 0;
-					top: 0;
-					width: 50px;
-					height: 100%;
-					line-height: 38px;
-
-					content: "∨";
-					text-align: center;
-					font-size: 24px;
-					border-left: 1px solid @white3;
-					z-index: -1;
-				}
-
-				button{
-					margin-top: 20px;
-					min-width:28%;
-					padding: 7px 0;
-					color: @white1;
-					font-size:1.3em;
-					border-style: solid;
-					border-color: @black1;
-					border-width:1px;
-					border-radius:5px;
-					&:hover {
-						box-shadow: -2.5px 2px 8px 8px @black2;
-					}
-
-				}
-				button#boutonCreer{
-					background-image: @boutonvert1;
-					&:active{
-						background-image: @boutonvert2;
-					}
-				}
-				button#boutonAnnuler{
-					margin-right:30px;
-					background-image: @boutonrouge1;
-					&:active{
-						background-image: @boutonrouge2;
-					}
-				}
-				div#tableauText{
-					margin-top: 2%;
-					max-width: 400px;
-					margin-left: auto;
-					margin-right: auto;
-					margin-bottom: 2%;
-
-					div#text{
-						padding:12px 0 8px 0;
-						border-radius:20px 20px 0 0;
-						border: 2px solid @black1;
-						background-color:@black3;
-						text-align: center;
-						font-style:1em;
-						font-weight: bold;
-						color:@white1;
-					}
-					div#tableau{
-						width: auto;
-						margin-top:0px;
-						overflow-y:scroll;
-						max-height:300px;
-						border-bottom:2px solid @black1;
-						border-radius: 0 0 0 5px;
-						table{
-							float: left;
-							text-align: center;
-							background-color:@white3;
-							border-radius:0 0 0 5px;
-							border: 2px solid @black1;
-							border-spacing:0;
-							td{
-								padding: 7px 14px;
-								border: 1px solid @black1;
-								&:nth-child(2){
-									width:100%;
-								}
-							}
-						}
-					}
-				}
-			}
-
-			div#styleJeu{
-
-				color:@white1;
-				text-align: center;
-				div#blocScore{
-					display:none;
-				}
-				h1{
-					font-weight: normal;
-					margin-top: 3%;
-					.font('cheeseburger',3em);
-				}
-				h2,h3{
-					margin-top: 2%;
-					font-size:3em;
-				}
-				h2{
-					margin-top: 4%;
-				}
-				img{
-					position: absolute;
-					top:0;
-					right:20px;
-					width:8em;
-					height: auto;
-				}
-				div#chrono{
-					top:2.65em;
-					right:5.1em;
-					position:absolute;
-					width:3px;
-					height:30px;
-					padding-bottom:30px;
-					animation: chrono linear 20s infinite;
-					div{
-						border-radius:100% 100% 0 0;
-						width: 3px;
-						height: 40px;
-						background-color: @chrono;
-					}
-				}
-				div#rondChrono{
-					position: absolute;
-					top:4.3em;
-					right:5em;
-					width:7px;
-					height:7px;
-					border-radius:100%;
-					background-color: @gray3;
-				}
-				@keyframes chrono {
-					from { transform: rotate(0deg); }
-					to { transform: rotate(360deg); }
-				}
-
-				button{
-					margin-top: 40px;
-					margin-right: 40px;
-					width:28%;
-					padding: 20px 0;
-					color: @black3;
-					font-size:1.3em;
-					border-style: solid;
-					border-color: @black1;
-					border-width:1px;
-					border-radius:5px;
-					&:hover {
-						box-shadow: -2.5px 2px 8px 8px @black2;
-					}
-					color: @white1;
-					background-image: @boutongris1;
-					&:active{
-						background-image: @boutongris2;
-					}
-					div#blockBoutons{
-						margin-left:8%;
-						margin-top:2%;
-						position: relative;
-						max-width: 90%;
-					}
-				}
-			}
-
-			div#modifier{
-				width:800px;
-				margin-left: auto;
-				margin-right: auto;
-				color:@white1;
-				text-align: center;
-				h1{
-					font-weight: normal;
-					margin-top: 3%;
-					.font('cheeseburger',2em);
-				}
-				div#blockAvatar{
-					padding: 0;
-					margin:0;
-					width: 100%;
-					height:13em;
-					img{
-						border-radius:100%;
-						border:solid 1px @black1;
-						margin-left:auto;
-						margin-right:auto;
-						width:12em;
-						height:12em;
-					}
-
-
-					div{
-						#boutonAvatar{
-							display:none;
-						}
-						#boutonAvatar2{
-							cursor: pointer;
-							background-image:@imagemodifier1;
-							position: absolute;
-							border-radius:100%;
-							left: 50%;
-							top: 50%;
-							width:12em;
-							height:12em;
-							margin-top: -12.2em;
-							margin-left: -6em;
-							&:hover{
-							background-image:@imagemodifier2;
-							}
-							label{
-								cursor: pointer;
-								margin-left: -6em;
-								margin-top:9em;
-								width:100%;
-								position: absolute;
-							}
-						}
-					}
-				}
-
-				div.textinput{
-					margin-top: 2%;
-					margin-right:39%;
-					text-align: right;
-					input{
-						padding: 5px 0;
-						border-radius:5px;
-					}
-				}
-				div#blocBoutons{
-					button,input{
-						margin-top: 40px;
-						margin-right: 40px;
-						width:28%;
-						padding: 5px 0;
-						color: @black3;
-						font-size:1.3em;
-						border-style: solid;
-						border-color: @black1;
-						border-width:1px;
-						border-radius:5px;
-						&:hover {
-							box-shadow: -2.5px 2px 8px 8px @black2;
-						}
-					}
-					button{
-						color: @white1;
-						background-image: @boutonrouge1;
-						&:active{
-							background-image: @boutonrouge2;
-						}
-					}
-					input{
-						color: @white1;
-						background-image: @boutonvert1;
-						&:active{
-							background-image: @boutonvert2;
-						}
-					}
-				}
-			}
 		}
 
 		footer {
-			border-style: solid;
-			border-width: 2px 0px 0px 0px;
+			.default-border(0);
+			border-top-width: 2px;
 			text-align: right;
 			background-color: @white1;
 			a{
-				color:@black1;
-				padding-right:2%;
-				font-size:1.2em;
+				color: @black1;
+				padding-right: 2%;
+				font-size: 1.2em;
 				text-decoration: none;
 			}
 			.copyright{
 				display: inline-block;
 				width: auto;
 				background-color: @white1;
-				color:@black1;
-				font-size:1.2em;
+				color: @black1;
+				font-size: 1.2em;
 				padding-right: 2%;
 			}
 		}

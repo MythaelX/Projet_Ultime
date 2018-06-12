@@ -732,7 +732,7 @@ ListArray BDD::tables(){
 	return out;
 }
 
-/* Return the last created id */
+/*! \brief	Return the last created id with "SELECT LAST_INSERT_ID() AS id" */
 size_t BDD::lastId(){
 	std::string task = "SELECT LAST_INSERT_ID() AS id";
 	auto rep = query(task);

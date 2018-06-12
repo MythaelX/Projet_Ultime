@@ -1,0 +1,160 @@
+main {
+	div#styleJeu{
+		color: @white1;
+		text-align: center;
+		div#blocScore{
+			display: none;
+		}
+		h1{
+			font-weight: normal;
+			margin-top: 3%;
+			.font('cheeseburger',3em);
+		}
+		h2,h3{
+			margin-top: 2%;
+			font-size: 3em;
+		}
+		h2{
+			margin-top: 4%;
+		}
+		img{
+			position: absolute;
+			top: 0;
+			right: 20px;
+			width: 8em;
+			height: auto;
+		}
+		div#chrono{
+			top: 2.65em;
+			right: 5.1em;
+			position: absolute;
+			width: 3px;
+			height: 30px;
+			padding-bottom: 30px;
+			animation: chrono linear 20s infinite;
+			div{
+				.border-radius(100% 100% 0 0);
+				width: 3px;
+				height: 40px;
+				background-color: @chrono;
+			}
+		}
+		div#rondChrono{
+			position: absolute;
+			top: 4.3em;
+			right: 5em;
+			width: 7px;
+			height: 7px;
+			.border-radius(100%);
+			background-color: @gray3;
+		}
+		@keyframes chrono {
+			from { transform: rotate(0deg); }
+			to { transform: rotate(360deg); }
+		}
+
+		button{
+			margin-top: 40px;
+			margin-right: 40px;
+			width: 28%;
+			padding: 20px 0;
+			font-size: 1.3em;
+			.default-border();
+			.border-radius(5px);
+			&:hover {
+				box-shadow: -2.5px 2px 8px 8px @black2;
+			}
+			.greyButton();
+			div#blockBoutons{
+				margin-left: 8%;
+				margin-top: 2%;
+				position: relative;
+				max-width: 90%;
+			}
+		}
+	}
+
+	div#modifier{
+		width: 800px;
+		.margin-sides(auto);
+		color: @white1;
+		text-align: center;
+		h1{
+			font-weight: normal;
+			margin-top: 3%;
+			.font('cheeseburger',2em);
+		}
+		div#blockAvatar{
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 13em;
+			img{
+				.border-radius(100%);
+				.default-border();
+				.margin-sides(auto);
+				.size(12em);
+			}
+
+
+			div{
+				#boutonAvatar{
+					display: none;
+				}
+				#boutonAvatar2{
+					cursor: pointer;
+					background-image: @imagemodifier1;
+					position: absolute;
+					.border-radius(100%);
+					left: 50%;
+					top: 50%;
+					width: 12em;
+					height: 12em;
+					margin-top: -12.2em;
+					margin-left: -6em;
+					&:hover{
+					background-image: @imagemodifier2;
+					}
+					label{
+						cursor: pointer;
+						margin-left: -6em;
+						margin-top: 9em;
+						width: 100%;
+						position: absolute;
+					}
+				}
+			}
+		}
+
+		div.textinput{
+			margin-top: 2%;
+			margin-right: 39%;
+			text-align: right;
+			input{
+				padding: 5px 0;
+				.border-radius(5px);
+			}
+		}
+		div#blocBoutons{
+			button,input{
+				margin-top: 40px;
+				margin-right: 40px;
+				width: 28%;
+				padding: 5px 0;
+				color: @black3;
+				font-size: 1.3em;
+				.default-border();
+				.border-radius(5px);
+				&:hover {
+					box-shadow: -2.5px 2px 8px 8px @black2;
+				}
+			}
+			button{
+				.redButton();
+			}
+			input{
+				.greenButton();
+			}
+		}
+	}
+}

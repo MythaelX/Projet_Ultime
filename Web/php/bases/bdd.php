@@ -263,7 +263,7 @@
 		*		\param[in]		$opts			Other options for the command
 		*/
 		public function update($name, $val, $opts=""){
-			/*! \brief Put the datas in $val in the right shape */
+			/* Put the datas in $val in the right shape */
 				$columns = $this->getTableColumns($name);
 				$cols = array();
 
@@ -286,7 +286,15 @@
 						if($cols[$valss[0]] === "date"){
 							$valss[1] = dateSql($valss[1]);
 						}
-						$valss[1] = "'" . $valss[1] . "'";
+
+						/* Verify in the content */
+							if(strpos() !== false){
+								
+							} else {
+								$valss[1] = "'" . $valss[1] . "'";
+							}
+						/*************************/
+
 						$valss[0] = "`" . $valss[0] . "`";
 
 						$vals[$i] = implode(" = ", $valss);

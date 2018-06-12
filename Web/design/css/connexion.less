@@ -1,0 +1,56 @@
+main {
+	div#formulaireConnexion{
+		margin-top: 5%;
+		.margin-sides(auto);
+		max-width: 400px;
+		padding-bottom: 1%;
+		.default-border();
+		.border-radius(10px);
+		font-size: 1.3em;
+		color: @white1;
+		text-align: center;
+		background-color: @white2;
+
+		h1{
+			padding: 10px 0 7px 0;
+			.font('cheeseburger',1.3em);
+			font-weight: normal;
+			background: @navbar;
+			.default-border(0);
+			border-bottom-width: 1px;
+			.border-radius(9px 9px 0 0);
+		}
+
+		div{
+			margin: auto;
+			width: 50%;
+			text-align: left;
+			padding: 15px;
+		}
+
+		input{
+			padding: 6px 10px;
+			color: @black3;
+			font-size: 0.7em;
+			.default-border(1px, @black2);
+			.border-radius(5px);
+		}
+
+		input.boutonvert{
+			display: block;
+			margin-left: 19%;
+			text-align: center;
+			margin-bottom: 0.5%;
+			cursor: pointer;
+
+			&:hover {
+				box-shadow: -2.5px 2px 8px 8px @black2;
+			}
+			.greenButton();
+		}
+		a{
+			color: @white1;
+			font-size: 0.5em;
+		}
+	}
+}

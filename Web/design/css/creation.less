@@ -1,0 +1,137 @@
+main {
+	div#creation{
+		margin-top: 3%;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 800px;
+		padding-bottom: 1%;
+		border-style: solid;
+		border-width: 1px;
+		.border-radius(10px);
+		border-color: @black1;
+		font-size: 1.3em;
+		color: @white1;
+		text-align: center;
+		background-color: @white2;
+
+		h1{
+			padding: 10px 0 7px 0;
+			.font('cheeseburger',1.3em);
+			font-weight: normal;
+			background: @navbar;
+			border-style: solid;
+			border-color: @black1;
+			border-width: 0 0 1px 0;
+			.border-radius(9px 9px 0 0);
+			margin-bottom: 2%;
+		}
+		label{
+
+			text-align: left;
+			font-size: 1.4em;
+		}
+		label#labelDifficulte{
+			font-size: 1em;
+		}
+		label.custom-select {
+			margin-right: 28%;
+			position: relative;
+			display: inline-block;
+			.border-radius(5px);
+			max-width: 300px;
+			min-width: 300px;
+			background-image: @boutongris1;
+
+			z-index: 10;
+		}
+
+		label.custom-select select {
+			border: none;
+			.border-radius(5px);
+
+			background: transparent;
+			.appearance(none);
+			margin: 0;
+			display: block;
+			width: 100%;
+			padding: 12px 55px 15px 15px;
+			font-size: 14px;
+			color: @white1;
+		}
+		label.custom-select:after {
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 50px;
+			height: 100%;
+			line-height: 38px;
+
+			content: "∨";
+			text-align: center;
+			font-size: 24px;
+			border-left: 1px solid @white3;
+			z-index: -1;
+		}
+
+		button{
+			margin-top: 20px;
+			min-width: 28%;
+			padding: 7px 0;
+			color: @white1;
+			font-size: 1.3em;
+			.default-border();
+			.border-radius(5px);
+			&:hover {
+				box-shadow: -2.5px 2px 8px 8px @black2;
+			}
+
+		}
+		button#boutonCreer{
+			.greenButton();
+		}
+		button#boutonAnnuler{
+			margin-right: 30px;
+			.redButton();
+		}
+		div#tableauText{
+			margin-top: 2%;
+			max-width: 400px;
+			.margin-sides(auto);
+			margin-bottom: 2%;
+
+			div#text{
+				padding: 12px 0 8px 0;
+				.border-radius(20px 20px 0 0);
+				.default-border(2px);
+				background-color: @black3;
+				text-align: center;
+				font-style: 1em;
+				font-weight: bold;
+				color: @white1;
+			}
+			div#tableau{
+				width: auto;
+				margin-top: 0px;
+				overflow-y: scroll;
+				max-height: 300px;
+				.default-border(2px);
+				.border-radius(0 0 0 5px);
+				table{
+					float: left;
+					text-align: center;
+					background-color: @white3;
+					.border-radius(0 0 0 5px);
+					.default-border(2px);
+					border-spacing: 0;
+					td{
+						padding: 7px 14px;
+						.default-border();
+						&:nth-child(2){
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

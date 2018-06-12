@@ -1,0 +1,52 @@
+main {
+	div#palmares{
+		width: 88%;
+		margin-top: 2%;
+		.margin-sides(auto);
+		color: @white1;
+
+		h1{
+			text-align: center;
+			.font('cheeseburger',3em);
+		}
+		table {
+			margin-top: -1px;
+			text-align: center;
+			background-color: @white3;
+			.border-radius(0 5px 5px);
+			.default-border(2px);
+			border-spacing: 0;
+			width: 100%;
+			th{
+				padding: 10px;
+				.default-border();
+				font-size: 1.3em;
+			}
+			tbody{
+				td{
+					padding: 7px;
+					.default-border();
+				}
+			}
+		}
+		div{
+			margin-top: 20px;
+			margin-left: 5px;
+			button{
+				font-size: 1.2em;
+				margin-left: -5px;
+				.default-border(2px);
+				color: @white1;
+				.border-radius(0 10px 0 0);
+				padding: 5px 40px;
+				background-color: @gray1;
+				&:hover {
+					box-shadow: -2.5px 2px 8px 8px @black3;
+				}
+				&:active{
+					background-color: @black2;
+				}
+			}
+		}
+	}
+}

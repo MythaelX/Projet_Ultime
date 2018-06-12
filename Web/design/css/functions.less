@@ -1,0 +1,39 @@
+.greenButton(){
+	.button(@boutonvert1, @boutonvert2);
+}
+
+.greyButton(){
+	.button(@boutongris1, @boutongris2);
+}
+
+.redButton(){
+	.button(@boutonrouge1, @boutonrouge2);
+}
+
+.button(@first, @last){
+	color: @white1;
+	.default-border(0);
+	background-image: @first;
+	&:active{
+		background-image: @last;
+	}
+}
+
+.margin-sides(@value){
+	margin-left: @value;
+	margin-right: @value;
+}
+
+.margin-boundaries(@value){
+	margin-top: @value;
+	margin-left: @value;
+}
+
+.padding-sides(@value){
+	padding-left: @value;
+	padding-right: @value;
+}
+
+.default-border(@size: 1px, @color: @black1, @texture: solid){
+	border: @size @texture @color;
+}
