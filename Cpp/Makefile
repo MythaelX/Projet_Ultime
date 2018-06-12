@@ -258,6 +258,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		Widgets/C++/array.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/C++.hpp \
+		Widgets/C++/C++Entities.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/console.hpp \
 		Widgets/C++/Contraption.hpp \
@@ -501,7 +502,7 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents CheckBox.hpp Dialog.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/Font.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/TableWidget.hpp Widgets/Widget.hpp Widgets/Window.hpp Widgets/WindowButton.hpp Widgets/WindowTitleBar.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/Threadable.hpp Widgets/C++/time.hpp Widgets/C++/Tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
+	$(COPY_FILE) --parents CheckBox.hpp Dialog.hpp functions.hpp MainWindow.h PushButton.hpp TitleLabel.hpp Widgets/DrawScene.hpp Widgets/Font.hpp Widgets/GraphScene.hpp Widgets/Qt.hpp Widgets/QtDefines.hpp Widgets/QtFunctions.hpp Widgets/Scene.hpp Widgets/Spacers.hpp Widgets/TableWidget.hpp Widgets/Widget.hpp Widgets/Window.hpp Widgets/WindowButton.hpp Widgets/WindowTitleBar.hpp Widgets/C++/Animal.hpp Widgets/C++/Ant.hpp Widgets/C++/Args.hpp Widgets/C++/array.hpp Widgets/C++/bdd.hpp Widgets/C++/C++.hpp Widgets/C++/C++Entities.hpp Widgets/C++/collides.hpp Widgets/C++/console.hpp Widgets/C++/Contraption.hpp Widgets/C++/convert.hpp Widgets/C++/cryptage.hpp Widgets/C++/defines.hpp Widgets/C++/Entities.hpp Widgets/C++/Entity.hpp Widgets/C++/errors.hpp Widgets/C++/files.hpp Widgets/C++/Hostile.hpp Widgets/C++/macro.hpp Widgets/C++/Map.hpp Widgets/C++/maths.hpp Widgets/C++/Mushroom.hpp Widgets/C++/Object.hpp Widgets/C++/Plant.hpp Widgets/C++/Player.hpp Widgets/C++/pointers.hpp Widgets/C++/RNG.hpp Widgets/C++/sorting.hpp Widgets/C++/string.hpp Widgets/C++/Threadable.hpp Widgets/C++/time.hpp Widgets/C++/Tree.hpp Widgets/C++/types.hpp Widgets/C++/Vegetal.hpp $(DISTDIR)/
 	$(COPY_FILE) --parents CheckBox.cpp Dialog.cpp functions.cpp main.cpp MainWindow.cpp MainWindow_Admin.cpp MainWindow_Changes.cpp MainWindow_Connect.cpp PushButton.cpp TitleLabel.cpp Widgets/DrawScene.cpp Widgets/Font.cpp Widgets/GraphScene.cpp Widgets/QtFunctions.cpp Widgets/Scene.cpp Widgets/TableWidget.cpp Widgets/Widget.cpp Widgets/Window.cpp Widgets/Window_Draw.cpp Widgets/Window_Event.cpp Widgets/WindowButton.cpp Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar_Event.cpp Widgets/C++/Animal.cpp Widgets/C++/Ant.cpp Widgets/C++/Args.cpp Widgets/C++/array.cpp Widgets/C++/bdd.cpp Widgets/C++/Clock.cpp Widgets/C++/collides.cpp Widgets/C++/console.cpp Widgets/C++/Contraption.cpp Widgets/C++/convert.cpp Widgets/C++/cryptage.cpp Widgets/C++/defines.cpp Widgets/C++/Entity.cpp Widgets/C++/errors.cpp Widgets/C++/files.cpp Widgets/C++/Hostile.cpp Widgets/C++/Map.cpp Widgets/C++/maths.cpp Widgets/C++/Mushroom.cpp Widgets/C++/Object.cpp Widgets/C++/Plant.cpp Widgets/C++/Player.cpp Widgets/C++/string.cpp Widgets/C++/time.cpp Widgets/C++/Timer.cpp Widgets/C++/types.cpp Widgets/C++/Vegetal.cpp $(DISTDIR)/
 
 
@@ -558,23 +559,12 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -584,8 +574,7 @@ moc_Dialog.cpp: PushButton.hpp \
 
 moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -603,19 +592,9 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -664,23 +643,12 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -724,23 +692,12 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -754,8 +711,7 @@ moc_Widget.cpp: Widgets/Widget.hpp
 moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -773,19 +729,9 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -798,8 +744,7 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 	/usr/lib/x86_64-linux-gnu/qt5/bin/moc $(DEFINES) -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/home/mathias/Bureau/ISEN/Projet_CIR2/Cpp -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include Widgets/Window.hpp -o moc_Window.cpp
 
 moc_WindowButton.cpp: Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -817,19 +762,9 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -843,8 +778,7 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 
 moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -862,19 +796,9 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -931,23 +855,12 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -956,8 +869,7 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 
 functions.o: functions.cpp functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -975,26 +887,15 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
-		Widgets/C++/Tree.hpp
+		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o functions.o functions.cpp
 
 main.o: main.cpp MainWindow.h \
 		functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1012,19 +913,9 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1047,8 +938,7 @@ main.o: main.cpp MainWindow.h \
 MainWindow.o: MainWindow.cpp MainWindow.h \
 		functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1066,19 +956,9 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1101,8 +981,7 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1120,19 +999,9 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1155,8 +1024,7 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1174,19 +1042,9 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1209,8 +1067,7 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		functions.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1228,19 +1085,9 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Qt.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
@@ -1289,23 +1136,12 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
@@ -1370,23 +1206,12 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp
@@ -1399,8 +1224,7 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1418,19 +1242,9 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1445,8 +1259,7 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1464,19 +1277,9 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1491,8 +1294,7 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1510,19 +1312,9 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1535,8 +1327,7 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 
 WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1554,19 +1345,9 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1580,8 +1361,7 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1599,19 +1379,9 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1625,8 +1395,7 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1644,19 +1413,9 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1670,8 +1429,7 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1689,19 +1447,9 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -1715,8 +1463,7 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/WindowButton.hpp \
 		Widgets/C++/C++.hpp \
-		Widgets/C++/Entities.hpp \
-		Widgets/C++/Contraption.hpp \
+		Widgets/C++/cryptage.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
 		Widgets/C++/errors.hpp \
@@ -1734,19 +1481,9 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/Args.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
-		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
-		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
-		Widgets/C++/Plant.hpp \
-		Widgets/C++/Mushroom.hpp \
-		Widgets/C++/Player.hpp \
-		Widgets/C++/cryptage.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
+		Widgets/C++/Map.hpp \
 		Widgets/QtDefines.hpp \
 		Widgets/Widget.hpp \
 		Widgets/DrawScene.hpp \
@@ -2053,6 +1790,9 @@ Plant.o: Widgets/C++/Plant.cpp Widgets/C++/Plant.hpp \
 
 Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/Entities.hpp \
+		Widgets/C++/Ant.hpp \
+		Widgets/C++/Animal.hpp \
+		Widgets/C++/Entity.hpp \
 		Widgets/C++/Contraption.hpp \
 		Widgets/C++/defines.hpp \
 		Widgets/C++/bdd.hpp \
@@ -2072,13 +1812,9 @@ Player.o: Widgets/C++/Player.cpp Widgets/C++/Player.hpp \
 		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
 		Widgets/C++/Map.hpp \
-		Widgets/C++/Object.hpp \
-		Widgets/C++/Entity.hpp \
-		Widgets/C++/Animal.hpp \
 		Widgets/C++/Hostile.hpp \
-		Widgets/C++/Ant.hpp \
-		Widgets/C++/Vegetal.hpp \
 		Widgets/C++/Plant.hpp \
+		Widgets/C++/Vegetal.hpp \
 		Widgets/C++/Mushroom.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Player.o Widgets/C++/Player.cpp
 
