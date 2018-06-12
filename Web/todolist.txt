@@ -1,4 +1,4 @@
--faire le css de modifier-son-profil,jeu,creation de partie
--changer le message d'erreur connexion
--faire affichage des parties par rapport a la difficulte
--creation message d'erreur si rien n'est coché
+-affiché le nombre de partie jouée
+-probleme message d'erreur
+-pied de page jeu
+css select accueil perso

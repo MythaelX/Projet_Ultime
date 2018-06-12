@@ -42,6 +42,6 @@ function valideInscription(event){
     }
     httpErrors(400,text);
   }else{
-    alert("Votre inscription a été enregistrée,vous allez etre redirigé vers la page d'accueil s'il n'y a aucun erreur pour l'avatar");
+    alert("Votre inscription a été enregistrée,vous allez être redirigé vers la page d'accueil s'il n'y a aucun erreur pour l'avatar");
   }
 }

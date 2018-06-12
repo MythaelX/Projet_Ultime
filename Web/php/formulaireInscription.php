@@ -21,7 +21,7 @@
 	<img src="design/img/avatardefaut.png" alt="Icon avatar" id="imageAvatar">
   <div>
 	  <input  type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar"/>
-    <button id="boutonAvatar2">Choissez votre avatar</label>
+    <button id="boutonAvatar2">Choissez votre avatar</button>
   </div>
 </div>
 <div>

@@ -15,18 +15,10 @@ function affichageThemes(ajaxResponse){
   }
   $('#tableauThemes').innerHTML= text;
 }
-function affichageDifficulte(ajaxResponse){
-  var text,json;
-  text="";
-  json= JSON.parse(ajaxResponse);
-  for (var i = 0; i < json.length; i++) {
-    text+='<option value="1">'+json[i]['nom_difficulte']+'</option>';
-  }
-  $('#difficulte').innerHTML= text;
-}
+
 //Creation de la partie
 function creerPartie(){
-  var difficulte,theme,nbQuestions,j;
+  var difficulte,themes,nbQuestions,j;
   themes= new Array();
   j=0;
   for (var i = 0; i < nbThemes; i++) {

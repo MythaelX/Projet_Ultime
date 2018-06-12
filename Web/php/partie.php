@@ -1,21 +1,31 @@
 <script>
  var id_partie= <?php echo $_POST['choix']?>;
 </script>
-
-<h1 id="difficulte"></h1>
+<div id="styleJeu">
+<div id="blocChrono">
+  <img src="design/img/chronovide.png" alt="chronometre">
+  <div id="chrono"><div></div></div>
+  <div id="rondChrono"></div>
+</div>
 
 <div id="jeu">
-<div>chrono</div>
+<h1 id="difficulte"></h1>
 <h2 id="question">"la question en php"</h2>
 <h3 id="proposition">"la proposition js"</h3>
+<div id="blockBoutons">
 <button id="bouton1"></button>
 <button id="bouton2"></button>
 <button id="bouton3">Les deux</button>
 </div>
+</div>
 
-<div id="blockscore">
-  <span id="score"></span>
-  <span id="temps"></span>
+<div id="blocScore">
+  <h1>PARTIE TERMINÉE</h1>
+  <h2 id="score"></h2>
+  <h2 id="temps"></h2>
   <a href="./index.php" target="_self"><button>Accueil</button></a>
   <a href="./palmares.php" target="_self"><button>Palmares</button></a>
+</div>
+
+
 </div>

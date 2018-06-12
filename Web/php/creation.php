@@ -1,14 +1,22 @@
 <div id="creation">
 <h1> CRÉATION D'UNE PARTIE </h1>
-<label>Choissez un theme :</label>
-<div id="text">Themes</div>
+<label>Choisissez un thème :</label>
+<div id="tableauText">
+<div id="text">Thèmes</div>
+<div id="tableau">
 <table>
   <tbody id="tableauThemes">
   </tbody>
 </table>
-<label>Choissez une difficulte :</label>
-<select name="difficulte" id="difficulte">
-</select>
+</div>
+</div>
+<div>
+  <label id="labelDifficulte">Choisissez une difficulte :</label>
+  <label class="custom-select" for="styledSelect1">
+  <select name="difficulte" id="difficulte">
+  </select>
+  </label>
+</div>
 
+<a href="./index.php" target="_self"> <button  id="boutonAnnuler">Annuler</button></a>
 <button  id="boutonCreer">Créer</button>
-<a href="./index.php" target="_self"> <button  id="buttonAnnuler">Annuler</button></a>

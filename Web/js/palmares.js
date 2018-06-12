@@ -40,4 +40,5 @@ for (var i = 0; i < json.length; i++) {
   '</td></tr>';
 }
 $('#tableauPalmares').innerHTML= text;
+resizeOnloadFunctions();
 }

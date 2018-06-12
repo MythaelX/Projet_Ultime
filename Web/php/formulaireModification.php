@@ -11,30 +11,34 @@ $avatar=$data['avatar'];
 $password=$data['password'];
 echo "<script> var mdpActuelBDD='".$password."'</script>";
 ?>
-<div>
+<div id="modifier">
 <h1>Modifier le profil</h1>
 <form  method="post" action="php/modifier.php" target="_self" enctype="multipart/form-data"  id="formulaireModification">
-  <div>
+  <div id="blockAvatar">
     <img src="<?php echo $avatar;?>" alt="icon avatar" id="imageAvatar">
+    <div>
   	<input type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar" accept="image/*"/>
+    <div id="boutonAvatar2">
+      <label>Modifier</label>
+    </div>
   </div>
-  <div>
+  <div class="textinput">
   	<label for="pseudo">Pseudo :</label>
   	<input type="text" name="pseudo" id="pseudo" value="<?php echo $pseudo;?>" />
   </div>
-<div>
+<div class="textinput">
 	<label for="mot de passe">Votre Mot de passe :</label>
 	<input type="password" name="mdpActuel" id="mdpActuel"/>
 </div>
-<div >
+<div class="textinput">
 	<label for="mdp">Nouveau :</label>
 	<input type="password" name="mdp" id="mdp"/>
 </div>
-<div>
+<div class="textinput">
 	<label for="mdpVerif">Confirmer :</label>
 	<input type="password" name="mdpVerif" id="mdpVerif"/>
 </div>
-<div>
+<div id="blocBoutons">
   <button id="boutonAnnuler">Annuler</button>
 	<input type="submit" class="boutonvert" value="Confirmer" id="boutonValider"/>
 </div>

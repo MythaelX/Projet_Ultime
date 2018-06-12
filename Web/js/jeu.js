@@ -32,13 +32,16 @@ function compteur(event){
 
 function affichageDifficulte(ajaxResponse){
   var json= JSON.parse(ajaxResponse);
-  $("#difficulte").innerHTML=json[0]['nom_difficulte'];
+  $("#difficulte").innerHTML="Menu "+json[0]['nom_difficulte'];
 }
 
 function jeu(){
   if(compteurQuestion<=questions.length){
     affichageJeu();
   }else{
+    $('#blocChrono').style.display= "none";
+    $('#jeu').style.display= "none";
+    $('#blocScore').style.display= "block";
     ajaxRequest('POST','php/request.php/jeu',affichageScore,'temps='+JSON.stringify(data['temps'])+'&reponses='+JSON.stringify(data['reponses'])+'&pseudo='+Cookies.get('pseudo')+'&id_partie='+id_partie);
   }
 }
@@ -94,7 +97,7 @@ function recupererPropositions(ajaxResponse){
 function affichageScore(ajaxResponse){
 var json= JSON.parse(ajaxResponse);
 
-$("#score").innerHTML="score"+json['score'];
+$("#score").innerHTML="Votre score : "+json['score']+" Dog";
 
-$("#temps").innerHTML="temps"+json['temps'];
+$("#temps").innerHTML="Votre temps :   "+json['temps'];
 }

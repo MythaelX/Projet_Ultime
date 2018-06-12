@@ -20,9 +20,11 @@
       <button id="boutonCreer">Créer une partie</button>
       <input type="submit"  id="boutonRejoindre" value="Rejoindre une partie"/>
     </div>
-  <div id="tableauCaption">
+  <div id="tableauText">
   <div id="text">
     Selectionner une partie exitante
+  <select name="difficulte" id="difficulte">
+  </select>
   </div>
   <div id="tableau">
   <table >

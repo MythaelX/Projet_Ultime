@@ -100,6 +100,7 @@ function mdpActuelVerif(){
 
 function verifPseudoBDD(ajaxResponse){
 var json=JSON.parse(ajaxResponse);
+pseudo=$('#pseudo');
 if(json[0]!=null){
   surligne(pseudo, true);
   verifBDDPseudo=true;
@@ -125,4 +126,14 @@ function surligne(champ, erreur){
       champ.style.backgroundColor = "#fba";
    else
       champ.style.backgroundColor = "";
+}
+
+function affichageDifficulte(ajaxResponse){
+  var text,json;
+  text="";
+  json= JSON.parse(ajaxResponse);
+  for (var i = 0; i < json.length; i++) {
+    text+='<option value="'+(i+1)+'">'+json[i]['nom_difficulte']+'</option>';
+  }
+  $('#difficulte').innerHTML= text;
 }

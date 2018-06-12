@@ -6,9 +6,11 @@ html {
 
 	body {
 		background-image: url("../img/ardoise.jpg");
+		*{
+			outline:none;
+		}
 
 		header {
-			//background-color: @color1;
 		}
 		nav {
 			background: @navbar;
@@ -21,7 +23,6 @@ html {
 				list-style-type: none;
 				li{
 					float: left;
-
 					&:first-child{
 						border-style: solid;
 						border-width: 0px 4px 0px 0px;
@@ -107,7 +108,9 @@ html {
 			}
 		}
 		main {
-
+			button,select{
+				outline: 0;
+			}
 			div#presentation{
 				margin: 5%;
 				margin-top: 2%;
@@ -162,98 +165,108 @@ html {
 
 			div#accueilPerso{
 				display:none;
-				div#tableauCaption{
-				width: 500px;
-				margin-top: 4%;
-				margin-left: 3%;
-				div#text{
-					padding:12px 0 8px 0;
-					border-radius:20px 20px 0 0;
-					border: 2px solid @black1;
-					background-image:@navbar;
-					text-align: center;
-					.font('cheeseburger',0.9em);
-					color:@white1;
-				}
-				div#tableau{
-					width: auto;
-					margin-top:0px;
-					overflow-y:scroll;
-					height:420px;
-				table{
-					float: left;
-					text-align: center;
-					background-color:@white3;
-					border-radius:0 0 0 5px;
-					border: 2px solid @black1;
-					border-spacing:0;
+				form{
+					width:100%;
+					div#tableauText{
+						max-width: 630px;
+						margin-top: 8%;
+						margin-left: 3%;
+						margin-right: 50%;
+						div#text{
+							padding:12px 0 8px 0;
+							border-radius:20px 20px 0 0;
+							border: 2px solid @black1;
+							background-image:@navbar;
+							text-align: center;
+							.font('cheeseburger',0.9em);
+							color:@white1;
+						}
+						div#tableau{
+							max-width: 630px;
+							margin-top:0px;
+							overflow-y:scroll;
+							max-height:360px;
+							border-bottom:2px solid @black1;
+							border-radius: 0 0 0 5px;
+							table{
+								text-align: center;
+								background-color:@white3;
+								border-radius:0 0 0 5px;
+								border: 2px solid @black1;
+								border-spacing:0;
+								th{
+									color:@white1;
+									padding: 10px;
+									padding-left: 43px;
+									padding-right:43px;
+									border: 1px solid @black1;
+									background-color:@black4;
+									font-size: 1.3em;
+									&:nth-child(2){
+										padding-left: 70px;
+										padding-right:70px;
+									}
+									&:nth-child(1){
+										padding-left:20px;
+										padding-right:20px;
+									}
+								}
 
-					th{
-						color:@white1;
-						padding: 10px;
-						padding-left: 30px;
-						padding-right:30px;
-						border: 1px solid @black1;
-						background-color:@black4;
-						font-size: 1.3em;
+								tbody{
+									td{
+										padding: 7px;
+										border: 1px solid @black1;
+									}
+								}
+							}
+						}
 					}
-					tbody{
-						td{
-							padding: 7px;
-							border: 1px solid @black1;
+					div#blockBoutons{
+						margin-top:5%;
+						position: relative;
+						float:right;
+						margin-right:6%;
+						max-width: 30%;
+						button,input{
+							float: right;
+							margin-top: 40px;
+							margin-right: 40px;
+							width:100%;
+							padding: 20px 0;
+							color: @black3;
+							font-size:1.3em;
+							border-style: solid;
+							border-color: @black1;
+							border-width:1px;
+							border-radius:5px;
+							&:hover {
+								box-shadow: -2.5px 2px 8px 8px @black2;
+							}
+						}
+						#boutonModifier{
+							color: @white1;
+							background-image: @boutonrouge1;
+							&:active{
+								background-image: @boutonrouge2;
+							}
+						}
+						#boutonCreer{
+							color: @white1;
+							background-image: @boutongris1;
+							&:active{
+								background-image: @boutongris2;
+							}
+						}
+						#boutonRejoindre{
+							color: @white1;
+							background-image: @boutonvert1;
+							&:active{
+								background-image: @boutonvert2;
+							}
 						}
 					}
 				}
 			}
-				}
-				div#blockBoutons{
-					position: absolute;
-					top:0px;
-					right: 0;
-
-					margin-right:8%;
-					width: 300px;
-					button,input{
-						float: right;
-						margin-top: 40px;
-						margin-right: 40px;
-						width:400px;
-						padding: 20px 0;
-						color: @black3;
-						font-size:1.3em;
-						border-style: solid;
-						border-color: @black1;
-						border-width:1px;
-						border-radius:5px;
-						&:hover {
-							box-shadow: -2.5px 2px 8px 8px @black2;
-						}
-					}
-					#boutonModifier{
-						color: @white1;
-						background-image: @boutonrouge1;
-						&:active{
-							background-image: @boutonrouge2;
-						}
-					}
-					#boutonCreer{
-						color: @white1;
-						background-image: @boutongris1;
-						&:active{
-							background-image: @boutongris2;
-						}
-					}
-					#boutonRejoindre{
-						color: @white1;
-						cursor: pointer;
-						background-image: @boutonvert1;
-						&:active{
-							background-image: @boutonvert2;
-						}
-					}
-				}
-			}
-
 			div#formulaireConnexion{
 				margin-top: 5%;
 				margin-left: auto;
@@ -461,6 +474,334 @@ html {
 						}
 						&:active{
 							background-color:@black2;
+						}
+					}
+				}
+			}
+
+			div#creation{
+				margin-top: 3%;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 800px;
+				padding-bottom: 1%;
+				border-style: solid;
+				border-width:1px;
+				border-radius: 10px;
+				border-color: @black1;
+				font-size: 1.3em;
+				color:@white1;
+				text-align: center;
+				background-color: @white2;
+
+				h1{
+					padding:10px 0 7px 0;
+					.font('cheeseburger',1.3em);
+					font-weight:normal;
+					background: @navbar;
+					border-style: solid;
+					border-color: @black1;
+					border-width: 0 0 1px 0;
+					border-radius: 9px 9px 0 0;
+					margin-bottom: 2%;
+				}
+				label{
+
+					text-align: left;
+					font-size:1.4em;
+				}
+				label#labelDifficulte{
+					font-size:1em;
+				}
+				label.custom-select {
+					margin-right:28%;;
+					position: relative;
+					display: inline-block;
+					border-radius:5px;
+					max-width: 300px;
+					min-width: 300px;
+					background-image: @boutongris1;
+
+					z-index: 10;
+				}
+
+				label.custom-select select {
+					border: none;
+					border-radius:5px;
+
+					background: transparent;
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					appearance: none;
+					border-radius: 0;
+					margin: 0;
+					display: block;
+					width: 100%;
+					padding: 12px 55px 15px 15px;
+					font-size: 14px;
+					color:@white1;
+				}
+				label.custom-select:after {
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 50px;
+					height: 100%;
+					line-height: 38px;
+
+					content: "∨";
+					text-align: center;
+					font-size: 24px;
+					border-left: 1px solid @white3;
+					z-index: -1;
+				}
+
+				button{
+					margin-top: 20px;
+					min-width:28%;
+					padding: 7px 0;
+					color: @white1;
+					font-size:1.3em;
+					border-style: solid;
+					border-color: @black1;
+					border-width:1px;
+					border-radius:5px;
+					&:hover {
+						box-shadow: -2.5px 2px 8px 8px @black2;
+					}
+
+				}
+				button#boutonCreer{
+					background-image: @boutonvert1;
+					&:active{
+						background-image: @boutonvert2;
+					}
+				}
+				button#boutonAnnuler{
+					margin-right:30px;
+					background-image: @boutonrouge1;
+					&:active{
+						background-image: @boutonrouge2;
+					}
+				}
+				div#tableauText{
+					margin-top: 2%;
+					max-width: 400px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-bottom: 2%;
+
+					div#text{
+						padding:12px 0 8px 0;
+						border-radius:20px 20px 0 0;
+						border: 2px solid @black1;
+						background-color:@black3;
+						text-align: center;
+						font-style:1em;
+						font-weight: bold;
+						color:@white1;
+					}
+					div#tableau{
+						width: auto;
+						margin-top:0px;
+						overflow-y:scroll;
+						max-height:300px;
+						border-bottom:2px solid @black1;
+						border-radius: 0 0 0 5px;
+						table{
+							float: left;
+							text-align: center;
+							background-color:@white3;
+							border-radius:0 0 0 5px;
+							border: 2px solid @black1;
+							border-spacing:0;
+							td{
+								padding: 7px 14px;
+								border: 1px solid @black1;
+								&:nth-child(2){
+									width:100%;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			div#styleJeu{
+
+				color:@white1;
+				text-align: center;
+				div#blocScore{
+					display:none;
+				}
+				h1{
+					font-weight: normal;
+					margin-top: 3%;
+					.font('cheeseburger',3em);
+				}
+				h2,h3{
+					margin-top: 2%;
+					font-size:3em;
+				}
+				h2{
+					margin-top: 4%;
+				}
+				img{
+					position: absolute;
+					top:0;
+					right:20px;
+					width:8em;
+					height: auto;
+				}
+				div#chrono{
+					top:2.65em;
+					right:5.1em;
+					position:absolute;
+					width:3px;
+					height:30px;
+					padding-bottom:30px;
+					animation: chrono linear 20s infinite;
+					div{
+						border-radius:100% 100% 0 0;
+						width: 3px;
+						height: 40px;
+						background-color: @chrono;
+					}
+				}
+				div#rondChrono{
+					position: absolute;
+					top:4.3em;
+					right:5em;
+					width:7px;
+					height:7px;
+					border-radius:100%;
+					background-color: @gray3;
+				}
+				@keyframes chrono {
+					from { transform: rotate(0deg); }
+					to { transform: rotate(360deg); }
+				}
+
+				button{
+					margin-top: 40px;
+					margin-right: 40px;
+					width:28%;
+					padding: 20px 0;
+					color: @black3;
+					font-size:1.3em;
+					border-style: solid;
+					border-color: @black1;
+					border-width:1px;
+					border-radius:5px;
+					&:hover {
+						box-shadow: -2.5px 2px 8px 8px @black2;
+					}
+					color: @white1;
+					background-image: @boutongris1;
+					&:active{
+						background-image: @boutongris2;
+					}
+					div#blockBoutons{
+						margin-left:8%;
+						margin-top:2%;
+						position: relative;
+						max-width: 90%;
+					}
+				}
+			}
+
+			div#modifier{
+				width:800px;
+				margin-left: auto;
+				margin-right: auto;
+				color:@white1;
+				text-align: center;
+				h1{
+					font-weight: normal;
+					margin-top: 3%;
+					.font('cheeseburger',2em);
+				}
+				div#blockAvatar{
+					padding: 0;
+					margin:0;
+					width: 100%;
+					height:13em;
+					img{
+						border-radius:100%;
+						border:solid 1px @black1;
+						margin-left:auto;
+						margin-right:auto;
+						width:12em;
+						height:12em;
+					}
+
+
+					div{
+						#boutonAvatar{
+							display:none;
+						}
+						#boutonAvatar2{
+							cursor: pointer;
+							background-image:@imagemodifier1;
+							position: absolute;
+							border-radius:100%;
+							left: 50%;
+							top: 50%;
+							width:12em;
+							height:12em;
+							margin-top: -12.2em;
+							margin-left: -6em;
+							&:hover{
+							background-image:@imagemodifier2;
+							}
+							label{
+								cursor: pointer;
+								margin-left: -6em;
+								margin-top:9em;
+								width:100%;
+								position: absolute;
+							}
+						}
+					}
+				}
+
+				div.textinput{
+					margin-top: 2%;
+					margin-right:39%;
+					text-align: right;
+					input{
+						padding: 5px 0;
+						border-radius:5px;
+					}
+				}
+				div#blocBoutons{
+					button,input{
+						margin-top: 40px;
+						margin-right: 40px;
+						width:28%;
+						padding: 5px 0;
+						color: @black3;
+						font-size:1.3em;
+						border-style: solid;
+						border-color: @black1;
+						border-width:1px;
+						border-radius:5px;
+						&:hover {
+							box-shadow: -2.5px 2px 8px 8px @black2;
+						}
+					}
+					button{
+						color: @white1;
+						background-image: @boutonrouge1;
+						&:active{
+							background-image: @boutonrouge2;
+						}
+					}
+					input{
+						color: @white1;
+						background-image: @boutonvert1;
+						&:active{
+							background-image: @boutonvert2;
 						}
 					}
 				}

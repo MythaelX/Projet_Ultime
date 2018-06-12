@@ -27,6 +27,7 @@
 	/*******************/
 
 	/* Scripts personnels */
+		$head->head_script("js/fonction.js");
 		$head->head_script("js/navBar.js");
 		$head->head_script("js/accueilPerso.js");
 	/***************************/
