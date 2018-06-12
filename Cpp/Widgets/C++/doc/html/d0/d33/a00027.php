@@ -175,7 +175,7 @@ Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to use the <a class="el" href="../../d0/d33/a00027.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd>Create the class </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Create the class </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00085">85</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>

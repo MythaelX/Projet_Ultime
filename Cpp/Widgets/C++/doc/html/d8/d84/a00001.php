@@ -105,11 +105,13 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../de/d21/a00006.php">BDD</a>  </dt>
+<dd>Be carefull on additions in an update  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d4/d51/a00017.php">jumble</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d0/d33/a00027.php">RSA</a>  </dt>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d0/d33/a00027.php">RSA</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d5/d16/a00029.php">Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../d5/d16/a00029.php">Timer</a>  </dt>
 <dd>Create the class </dd>
 </dl>
 </div></div><!-- contents -->

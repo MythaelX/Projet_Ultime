@@ -222,6 +222,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to connect to a <a class="el" href="../../de/d21/a00006.php" title="A class to connect to a BDD. ">BDD</a>. </p>
+<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd>Be carefull on additions in an update </dd></dl>
 <ul>
 <li>Usefull commands with a query answer<br />
 <ul>
@@ -253,7 +254,7 @@ Protected Member Functions</h2></td></tr>
 </li>
 </ul>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00039">39</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00040">40</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aed1a6117c471a7575a224321eaf0dba2"></a>
 <div class="memitem">
@@ -347,7 +348,7 @@ template&lt;typename Func , class C , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00226">226</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00227">227</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -412,7 +413,7 @@ template&lt;typename Func , typename... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00246">246</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00247">247</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -495,7 +496,7 @@ Here is the call graph for this function:</div>
 
 <p>Start the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00156">156</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00157">157</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1011,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00215">215</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00216">216</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 </div>
 </div>
@@ -1148,7 +1149,7 @@ Here is the call graph for this function:</div>
 
 <p>Stop the debug for the class. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00158">158</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00159">159</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">bdd.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

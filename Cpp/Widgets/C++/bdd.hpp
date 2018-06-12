@@ -24,6 +24,7 @@ using ListArray = std::vector<std::vector<std::string>>;
 /*!
 * \class	BDD
 * \brief	A class to connect to a BDD
+* \todo		Be carefull on additions in an update
 * \details	- Usefull commands with a query answer\n
 *			- sql::ResultSet* rep = stmt->executeQuery(...);\n
 *			- auto meta = rep->getMetaData() : return the answer's meta-datas\n
