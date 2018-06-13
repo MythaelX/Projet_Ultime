@@ -201,7 +201,8 @@
 					error_log("Arg = " . $opts[$i]);
 					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $opts[$i])));
 
-					$args[1] = replace_all("'", "\\'", $args[1]);
+					$args[1] = replace_all("'", "&-*/_", $args[1]);
+					$args[1] = replace_all("&-*/_", "\'", $args[1]);
 					$args[1] = "'" . $args[1] . "'";
 
 					$opts[$i] = implode(" = ", $args);
