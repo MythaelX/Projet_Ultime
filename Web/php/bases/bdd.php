@@ -204,7 +204,7 @@
 					error_log("Arg = " . $args[1]);
 					$args[1] = replace_all("'", "&-*/_", $args[1]);
 					error_log("Arg = " . $args[1]);
-					$args[1] = replace_all("&-*/_", "\'", $args[1]);
+					$args[1] = replace_all("&-*/_", "&# 92;'", $args[1]);
 					error_log("Arg = " . $args[1]);
 					$args[1] = "'" . $args[1] . "'";
 
