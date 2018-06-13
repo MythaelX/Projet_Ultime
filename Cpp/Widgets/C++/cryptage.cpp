@@ -40,6 +40,26 @@ std::string Cesar::decrypt(std::string message, int decal){
 	return out;
 }
 
+std::string Cesar::decrypt(std::string message){
+	std::string out{""};
+
+	auto lowerStr = lowercase(message, message.begin(), message.end());
+	lowerStr = replace(lowerStr, " ", "");
+
+	size_t maxi = 0;
+	char c = 'a';
+
+	for(auto car : lowerStr){
+		auto temp = maxi;
+		maxi = max(maxi, count(lowerStr, car));
+		if(maxi != temp){
+			c = car;
+		}
+	}
+
+	return this->decrypt(message, c-'e');
+}
+
 RSA::RSA(){
 	#if BIG_ENABLED
 		/* Déclaration des variables */

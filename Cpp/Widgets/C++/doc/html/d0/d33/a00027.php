@@ -177,7 +177,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>A class to use the <a class="el" href="../../d0/d33/a00027.php" title="A class to use the RSA algorithm for encryption. ">RSA</a> algorithm for encryption. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000003">Todo:</a></b></dt><dd>Create the class </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00085">85</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00093">93</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8b8df3c7a74905f3e35a8e01bfd7da59"></a>
 <div class="memitem">
@@ -245,7 +245,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00139">139</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00147">147</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00142">142</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00150">150</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 
 </div>
 </div>
@@ -401,7 +401,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00141">141</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00149">149</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 
 </div>
 </div>

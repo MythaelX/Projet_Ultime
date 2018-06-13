@@ -158,6 +158,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abfbfe8f3754081903836460cd2f72cb8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8">randStr</a> (size_t nb)</td></tr>
 <tr class="memdesc:abfbfe8f3754081903836460cd2f72cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a random string.  <a href="#abfbfe8f3754081903836460cd2f72cb8">More...</a><br /></td></tr>
 <tr class="separator:abfbfe8f3754081903836460cd2f72cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2025e6c626d84af37996f3adc4d313"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#acd2025e6c626d84af37996f3adc4d313">count</a> (std::string text, char c)</td></tr>
+<tr class="memdesc:acd2025e6c626d84af37996f3adc4d313"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of appearances.  <a href="#acd2025e6c626d84af37996f3adc4d313">More...</a><br /></td></tr>
+<tr class="separator:acd2025e6c626d84af37996f3adc4d313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
@@ -165,6 +168,42 @@ Functions</h2></td></tr>
 
 <p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="acd2025e6c626d84af37996f3adc4d313"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t count </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Count the number of appearances. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">text</td><td>The text to read </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>The caracter to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return number of appearances </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="ad81b7e411acc02d29749ab23e6e615ee"></a>
 <div class="memitem">
 <div class="memproto">

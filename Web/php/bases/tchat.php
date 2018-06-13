@@ -38,7 +38,7 @@
 			}
 			$percent = $i / sizeOf($keywords);
 
-			if($precent >= 1){
+			if($percent >= 1){
 				if($answer == ""){
 					$answer .= $rep["answers"];
 				} else {

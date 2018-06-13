@@ -46,7 +46,7 @@ class Threadable {
 			m_loopThread(nullptr),
 			m_threadStopper(false)
 		{}
-		~Threadable(){
+		virtual ~Threadable(){
 			deletePtr(m_loopThread);
 		}
 

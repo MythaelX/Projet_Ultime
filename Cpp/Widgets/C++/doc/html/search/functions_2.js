@@ -18,6 +18,7 @@ var searchData=
   ['contains',['contains',['../de/d8c/a00036.php#a54f668e0211381d2d15ca45dcf3c55d0',1,'array.hpp']]],
   ['contraption',['Contraption',['../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319',1,'Contraption']]],
   ['convert',['convert',['../d5/d79/a00030.php#af12b139007643a568e1a3f752ae2e00e',1,'Tree']]],
+  ['count',['count',['../d4/de8/a00061.php#acd2025e6c626d84af37996f3adc4d313',1,'string.hpp']]],
   ['create',['create',['../d5/d79/a00030.php#aca4c083d24c0153f1cabd528bc174f7b',1,'Tree']]],
   ['crypt',['crypt',['../d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132',1,'Crypto::crypt()'],['../de/d5e/a00007.php#aace459faf00e2f62e573674489d10568',1,'Cesar::crypt(std::string message, int decal=0)'],['../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e',1,'Cesar::crypt()'],['../d0/d33/a00027.php#a3d51d182786f83236c013c7cb10c2095',1,'RSA::crypt(std::string message)'],['../d0/d33/a00027.php#ab84588271f2e5417d47251be249951b4',1,'RSA::crypt()']]],
   ['crypto',['Crypto',['../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079',1,'Crypto']]],

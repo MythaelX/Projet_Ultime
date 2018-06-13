@@ -119,7 +119,8 @@ $(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
   <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aace459faf00e2f62e573674489d10568">crypt</a>(std::string message, int decal=0)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">crypt</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aa7c94ff5f6e8bc01697271877e05e367">decrypt</a>(std::string message, int decal=0)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a98108cc658d2f03401acb44a468f78c7">decrypt</a>(std::string message, int decal)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a1c2d19e365d26b499a7fa32f781140a0">decrypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

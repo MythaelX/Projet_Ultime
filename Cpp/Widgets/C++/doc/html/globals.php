@@ -192,6 +192,9 @@ $(document).ready(function(){initNavTree('globals.php','');});
 <li>contains()
 : <a class="el" href="de/d8c/a00036.php#a54f668e0211381d2d15ca45dcf3c55d0">array.hpp</a>
 </li>
+<li>count()
+: <a class="el" href="d4/de8/a00061.php#acd2025e6c626d84af37996f3adc4d313">string.hpp</a>
+</li>
 </ul>
 
 

@@ -1,4 +1,30 @@
-type :
+Sur votre machine
 	sudo nano /etc/hosts
-after the ip list put on a new line :
+Après la liste des ips, ajouter
 	172.31.3.59	hotdogquiz.fr
+
+Sur le serveur
+	cd /etc/apache2/sites-available
+	sudo cp 000-default.conf hotdogquiz.conf
+	sudo nano hotdogquiz.conf
+
+	Remplacer
+		ServerAdmin webmaster@localhost
+	par
+		ServerName hotdogquiz.fr
+
+	Remplacer 
+		DocumentRoot /var/www/html
+	par
+		DocumentRoot /var/www/html/hotdogquiz
+
+	Quitter nano en enregistrant
+	sudo a2ensite hotdogquiz.conf
+	sudo service apache2 restart
+
+	cd /var/www/html/
+	sudo ln -s "le/chemin/vers/le/dossier/du/site/" hotdogquiz
+
+	cd "le/chemin/vers/le/dossier/du/site/"
+	chmod 777 files/
+	chmod 777 files/img/

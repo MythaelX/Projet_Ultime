@@ -233,7 +233,6 @@ class BDD {
 					func(obj, table, col, index, args...);
 					index++;
 				}
-				f(obj, table, col, index, args...);
 			}
 
 			/*!

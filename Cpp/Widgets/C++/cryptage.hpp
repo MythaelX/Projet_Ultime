@@ -2,13 +2,14 @@
 *
 *	\file		cryptage.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		10 juin 2018
+*	\date		12 juin 2018
 *
 */
 #ifndef HEADER_CRYPTAGE
 #define HEADER_CRYPTAGE
 
 #include "defines.hpp"
+#include "maths.hpp"
 
 /*!
 * \class	Crypto
@@ -64,7 +65,14 @@ class Cesar : public Crypto {
 		*
 		*		\return			Return the decrypted message
 		*/
-		std::string decrypt(std::string message, int decal = 0);
+		std::string decrypt(std::string message, int decal);
+		/*!
+		* \brief	Overload of the decrypt Crypto's method in brut force
+		*		\param[in]		message		The message to decrypt
+		*
+		*		\return			Return the decrypted message
+		*/
+		std::string decrypt(std::string message);
 
 		/*!
 		* \details	Rewrite the pur virtual method crypt of the parent Crypto

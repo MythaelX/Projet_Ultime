@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to be the parent for every crypt class. </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00017">17</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00018">18</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abc5714d83e17c9961258646a94e75079"></a>
 <div class="memitem">

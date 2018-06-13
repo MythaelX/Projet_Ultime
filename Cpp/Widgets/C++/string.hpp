@@ -81,4 +81,12 @@ std::string replace(std::string str, std::string from, std::string to);
 */
 std::string randStr(size_t nb);
 
+/*!
+* \brief	Count the number of appearances
+*		\param[in]			text			The text to read
+*		\param[in]			c				The caracter to find
+*		\return				Return number of appearances
+*/
+size_t count(std::string text, char c);
+
 #endif //HEADER_STRING

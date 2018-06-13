@@ -140,6 +140,11 @@ void MainWindow::addEntry(std::string table, std::string){
 		for(auto value : values){
 			if(command != ""){ command += ", "; }
 			command += replace(value, ", ", "\\, ");
+			if(value == ""){
+				messageBox->setText("VEUILLEZ REMPLIR TOUS LES CHAMPS");
+				messageBox->exec();
+				return;
+			}
 		}
 
 		auto back = bdd.insert(command, "", table);

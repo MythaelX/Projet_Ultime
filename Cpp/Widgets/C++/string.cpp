@@ -110,3 +110,15 @@ std::string randStr(size_t nb){
 
 	return out;
 }
+
+size_t count(std::string text, char c){
+	size_t nb{0};
+
+	for(auto car : text){
+		if(car == c){
+			nb++;
+		}
+	}
+
+	return nb;
+}

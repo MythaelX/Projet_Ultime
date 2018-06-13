@@ -1,5 +1,6 @@
 var a00061 =
 [
+    [ "count", "d4/de8/a00061.php#acd2025e6c626d84af37996f3adc4d313", null ],
     [ "explode", "d4/de8/a00061.php#ad81b7e411acc02d29749ab23e6e615ee", null ],
     [ "lowercase", "d4/de8/a00061.php#ab6e8937516645f1cb8f4f9c6981feed5", null ],
     [ "randStr", "d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8", null ],

@@ -560,8 +560,8 @@ moc_Dialog.cpp: PushButton.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -590,8 +590,8 @@ moc_MainWindow.cpp: functions.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -644,8 +644,8 @@ moc_TitleLabel.cpp: Widgets/Qt.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -693,8 +693,8 @@ moc_TableWidget.cpp: Widgets/Qt.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -727,8 +727,8 @@ moc_Window.cpp: Widgets/WindowTitleBar.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -760,8 +760,8 @@ moc_WindowButton.cpp: Widgets/C++/C++.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -794,8 +794,8 @@ moc_WindowTitleBar.cpp: Widgets/WindowButton.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -856,8 +856,8 @@ Dialog.o: Dialog.cpp Dialog.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -885,8 +885,8 @@ functions.o: functions.cpp functions.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp
@@ -911,8 +911,8 @@ main.o: main.cpp MainWindow.h \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -954,8 +954,8 @@ MainWindow.o: MainWindow.cpp MainWindow.h \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -997,8 +997,8 @@ MainWindow_Admin.o: MainWindow_Admin.cpp MainWindow.h \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1040,8 +1040,8 @@ MainWindow_Changes.o: MainWindow_Changes.cpp MainWindow.h \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1083,8 +1083,8 @@ MainWindow_Connect.o: MainWindow_Connect.cpp MainWindow.h \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1137,8 +1137,8 @@ TitleLabel.o: TitleLabel.cpp TitleLabel.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1207,8 +1207,8 @@ TableWidget.o: Widgets/TableWidget.cpp Widgets/TableWidget.hpp \
 		Widgets/Font.hpp \
 		Widgets/C++/C++.hpp \
 		Widgets/C++/cryptage.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1240,8 +1240,8 @@ Window.o: Widgets/Window.cpp Widgets/Window.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1275,8 +1275,8 @@ Window_Draw.o: Widgets/Window_Draw.cpp Widgets/Window.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1310,8 +1310,8 @@ Window_Event.o: Widgets/Window_Event.cpp Widgets/Window.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1343,8 +1343,8 @@ WindowButton.o: Widgets/WindowButton.cpp Widgets/WindowButton.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1377,8 +1377,8 @@ WindowTitleBar.o: Widgets/WindowTitleBar.cpp Widgets/WindowTitleBar.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1411,8 +1411,8 @@ WindowTitleBar_Buttons.o: Widgets/WindowTitleBar_Buttons.cpp Widgets/WindowTitle
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1445,8 +1445,8 @@ WindowTitleBar_Draw.o: Widgets/WindowTitleBar_Draw.cpp Widgets/WindowTitleBar.hp
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1479,8 +1479,8 @@ WindowTitleBar_Event.o: Widgets/WindowTitleBar_Event.cpp Widgets/WindowTitleBar.
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
 		Widgets/C++/Args.hpp \
-		Widgets/C++/collides.hpp \
 		Widgets/C++/maths.hpp \
+		Widgets/C++/collides.hpp \
 		Widgets/C++/sorting.hpp \
 		Widgets/C++/Tree.hpp \
 		Widgets/C++/Map.hpp \
@@ -1626,7 +1626,8 @@ cryptage.o: Widgets/C++/cryptage.cpp Widgets/C++/cryptage.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/array.hpp \
 		Widgets/C++/RNG.hpp \
-		Widgets/C++/Args.hpp
+		Widgets/C++/Args.hpp \
+		Widgets/C++/maths.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cryptage.o Widgets/C++/cryptage.cpp
 
 defines.o: Widgets/C++/defines.cpp Widgets/C++/defines.hpp \
