@@ -92,11 +92,11 @@ function creationPartie($bdd){ //insertion d'une partie dans la bdd
     $themesSQL=$themesSQL."c.nom_categorie='".$themes[$i]."' OR ";
   }
   $themesSQL=$themesSQL."c.nom_categorie='".$themes[$i]."') AND ";
-  $tabQuestions=$bdd->query("SELECT q.id_question FROM question AS q,categorie AS c WHERE ".$themesSQL." c.id_categorie=q.id_categorie ORDER BY RAND()");
 
+  $tabQuestions=$bdd->query("SELECT q.id_question FROM question AS q,categorie AS c WHERE ".$themesSQL." c.id_categorie=q.id_categorie ORDER BY RAND()");
   $difficulte=$_POST['difficulte'];
   $date=date("Y-m-d");
-  $bdd->insert("partie", "NULL,'".$date."' , '1', ".$difficulte."");
+  $bdd->insert("partie", "NULL,'".$date."' , '0', '1', '".$difficulte."'");
   $id_partie=$bdd->getId();
   $nbQuestions=$bdd->query("SELECT nb_questions FROM difficulte WHERE id_difficulte=1")[0]['nb_questions'];
   for ($i=0; $i <$nbQuestions; $i++) {
@@ -175,7 +175,8 @@ function verifReponse($bdd){
   $texte_proposition=$_GET['texte_proposition'];
   $reponse=$_GET['reponse'];
   $id_question=$_GET['id_question'];
-  $solution=$bdd->query("SELECT solution_proposition FROM proposition WHERE texte_proposition='".$texte_proposition."' AND id_question='".$id_question."'")[0]['solution_proposition'];
+  $bdd->DEBUG(true);
+  $solution=$bdd->select("proposition","solution_proposition","WHERE texte_proposition='".$texte_proposition."' AND id_question=".$id_question."")[0]['solution_proposition'];
   if(strtolower($reponse)!=strtolower($solution)){
     $data=["verification" => false];
   }else{
