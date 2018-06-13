@@ -1,3 +1,4 @@
+WEB
 Sur votre machine
 	sudo nano /etc/hosts
 Après la liste des ips, ajouter
@@ -28,3 +29,5 @@ Sur le serveur
 	cd "le/chemin/vers/le/dossier/du/site/"
 	chmod 777 files/
 	chmod 777 files/img/
+
+
