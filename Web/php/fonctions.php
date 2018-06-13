@@ -176,7 +176,7 @@ function verifReponse($bdd){
   $reponse=$_GET['reponse'];
   $id_question=$_GET['id_question'];
   $bdd->DEBUG(true);
-  $solution=$bdd->select("proposition","solution_proposition","WHERE texte_proposition='".$texte_proposition."' AND id_question=".$id_question."")[0]['solution_proposition'];
+  $solution=$bdd->select("proposition","solution_proposition","WHERE texte_proposition=".$texte_proposition." AND id_question=".$id_question."")[0]['solution_proposition'];
   if(strtolower($reponse)!=strtolower($solution)){
     $data=["verification" => false];
   }else{
