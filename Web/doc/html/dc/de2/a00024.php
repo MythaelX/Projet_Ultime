@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: palmares.php File Reference</title>
+<title>Hot Dog QUIZ: request.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
   <div class="summary">
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">palmares.php File Reference</div>  </div>
+<div class="title">request.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,8 +115,12 @@ $(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
 Variables</h2></td></tr>
 <tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
 <tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687ea7fcd78263867b5bd34ed56b6379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php#a687ea7fcd78263867b5bd34ed56b6379">$head</a> = new Head_Creator(&quot;./&quot;)</td></tr>
-<tr class="separator:a687ea7fcd78263867b5bd34ed56b6379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php#a7fd0384e6fc79c4dac5e25ab16d186ba">$requestRessource</a> = nextRes()</td></tr>
+<tr class="separator:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php#a6efc15b5a2314dd4b5aaa556a375c6d6">$data</a> = NULL</td></tr>
+<tr class="separator:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb00944b44575a6b06d388e807358cd5"><td class="memItemLeft" align="right" valign="top">switch($type)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/a00024.php#afb00944b44575a6b06d388e807358cd5">exit</a></td></tr>
+<tr class="separator:afb00944b44575a6b06d388e807358cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
@@ -129,21 +133,50 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00012">12</a> of file <a class="el" href="../../dc/de2/a00024_source.php">palmares.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00010">10</a> of file <a class="el" href="../../dc/de2/a00024_source.php">request.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a687ea7fcd78263867b5bd34ed56b6379"></a>
+<a class="anchor" id="a6efc15b5a2314dd4b5aaa556a375c6d6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$head = new Head_Creator(&quot;./&quot;)</td>
+          <td class="memname">$<a class="el" href="../../dd/d1b/a00015.php#a20b6cd228a69593c03af5dc445393936">data</a> = NULL</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00013">13</a> of file <a class="el" href="../../dc/de2/a00024_source.php">palmares.php</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00014">14</a> of file <a class="el" href="../../dc/de2/a00024_source.php">request.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7fd0384e6fc79c4dac5e25ab16d186ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$requestRessource = nextRes()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00013">13</a> of file <a class="el" href="../../dc/de2/a00024_source.php">request.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afb00944b44575a6b06d388e807358cd5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">switch ($type) exit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>traitement des données pour envoyer la requête sql </p>
+
+<p>Definition at line <a class="el" href="../../dc/de2/a00024_source.php#l00016">16</a> of file <a class="el" href="../../dc/de2/a00024_source.php">request.php</a>.</p>
 
 </div>
 </div>
@@ -152,7 +185,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/de2/a00024.php">palmares.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dc/de2/a00024.php">request.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

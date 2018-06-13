@@ -114,54 +114,42 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a20e111c0bc912042bdcb1790699311de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a20e111c0bc912042bdcb1790699311de">affichageAccueil</a> ()</td></tr>
-<tr class="memdesc:a20e111c0bc912042bdcb1790699311de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the block "accueilPerso" if he is connected.  <a href="#a20e111c0bc912042bdcb1790699311de">More...</a><br /></td></tr>
-<tr class="separator:a20e111c0bc912042bdcb1790699311de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e3f7b2aca271c0d87c61a33b0030941"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a2e3f7b2aca271c0d87c61a33b0030941">ajaxRequest</a> ('GET','php/request.php/tableauDifficulte', <a class="el" href="../../de/d21/a00006.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>)</td></tr>
-<tr class="separator:a2e3f7b2aca271c0d87c61a33b0030941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
 <tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72e65efac2b35e0b0c277d2239b2cfaa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a72e65efac2b35e0b0c277d2239b2cfaa">ajaxRequest</a> ('GET','php/request.php/tableauParties', <a class="el" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d">affichageParties</a>,'<a class="el" href="../../d8/d84/a00001.php#ad71ab45724394ceb19d97c8180ab0e89">difficulte</a>='+<a class="el" href="../../d8/d84/a00001.php#ad71ab45724394ceb19d97c8180ab0e89">difficulte</a>)</td></tr>
-<tr class="separator:a72e65efac2b35e0b0c277d2239b2cfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7bb1a471a64bb1b432a6429de39da82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#ad7bb1a471a64bb1b432a6429de39da82">affichageAccueil</a> (<a class="el" href="../../d1/d2b/a00018.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
+<tr class="separator:ad7bb1a471a64bb1b432a6429de39da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbff0145fcc69a075dff45ab975c2b2d"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d">affichageParties</a> (ajaxResponse)</td></tr>
-<tr class="memdesc:adbff0145fcc69a075dff45ab975c2b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the array of the games in relation of the difficulty.  <a href="#adbff0145fcc69a075dff45ab975c2b2d">More...</a><br /></td></tr>
 <tr class="separator:adbff0145fcc69a075dff45ab975c2b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9e7735e216b2770753e10ca177623f0f"><td class="memItemLeft" align="right" valign="top">document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a9e7735e216b2770753e10ca177623f0f">location</a> =&quot;./modifier-son-profil.php&quot;</td></tr>
+<tr class="memitem:a9e7735e216b2770753e10ca177623f0f"><td class="memItemLeft" align="right" valign="top">document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#a9e7735e216b2770753e10ca177623f0f">location</a> =&quot;./modifier.php&quot;</td></tr>
 <tr class="separator:a9e7735e216b2770753e10ca177623f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad71ab45724394ceb19d97c8180ab0e89"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.php#ad71ab45724394ceb19d97c8180ab0e89">difficulte</a> =$('#difficulte').value</td></tr>
-<tr class="separator:ad71ab45724394ceb19d97c8180ab0e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a20e111c0bc912042bdcb1790699311de"></a>
+<a class="anchor" id="ad7bb1a471a64bb1b432a6429de39da82"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">function affichageAccueil </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>pseudo</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Displays the block "accueilPerso" if he is connected. </p>
-<ul>
-<li></li>
-</ul>
-
-<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00027">27</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00010">10</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d8/d84/a00001_a20e111c0bc912042bdcb1790699311de_cgraph.png" border="0" usemap="#d8/d84/a00001_a20e111c0bc912042bdcb1790699311de_cgraph" alt=""/></div>
-<map name="d8/d84/a00001_a20e111c0bc912042bdcb1790699311de_cgraph" id="d8/d84/a00001_a20e111c0bc912042bdcb1790699311de_cgraph">
-<area shape="rect" id="node2" href="../../d8/d84/a00001.php#a2e3f7b2aca271c0d87c61a33b0030941" title="ajaxRequest" alt="" coords="183,5,277,32"/>
-<area shape="rect" id="node3" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d" title="Displays the array of the games in relation of the difficulty. " alt="" coords="172,56,288,83"/>
+<div class="center"><img src="../../d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph.png" border="0" usemap="#d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph" alt=""/></div>
+<map name="d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph" id="d8/d84/a00001_ad7bb1a471a64bb1b432a6429de39da82_cgraph">
+<area shape="rect" id="node2" href="../../d0/d0b/a00004.php#a806ccfa4bdd83d47638b934f63aa597f" title="ajaxRequest" alt="" coords="183,5,277,32"/>
+<area shape="rect" id="node3" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d" title="affichageParties" alt="" coords="172,56,288,83"/>
 </map>
 </div>
 </p>
@@ -182,85 +170,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Displays the array of the games in relation of the difficulty. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ajaxResponse</td><td>The array of the games </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00040">40</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2e3f7b2aca271c0d87c61a33b0030941"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ajaxRequest </td>
-          <td>(</td>
-          <td class="paramtype">'GET'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'php/request.php/tableauDifficulte'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d21/a00006.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a72e65efac2b35e0b0c277d2239b2cfaa"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ajaxRequest </td>
-          <td>(</td>
-          <td class="paramtype">'GET'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'php/request.php/tableauParties'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d84/a00001.php#adbff0145fcc69a075dff45ab975c2b2d">affichageParties</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'&#160;</td>
-          <td class="paramname"><em>difficulte</em> = <code>'+<a class="el" href="../../d8/d84/a00001.php#ad71ab45724394ceb19d97c8180ab0e89">difficulte</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00019">19</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
 
 </div>
 </div>
@@ -280,31 +190,17 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ad71ab45724394ceb19d97c8180ab0e89"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var difficulte =$('#difficulte').value</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00021">21</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a9e7735e216b2770753e10ca177623f0f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">document location =&quot;./modifier-son-profil.php&quot;</td>
+          <td class="memname">document location =&quot;./modifier.php&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00012">12</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d84/a00001_source.php#l00003">3</a> of file <a class="el" href="../../d8/d84/a00001_source.php">accueilPerso.js</a>.</p>
 
 </div>
 </div>

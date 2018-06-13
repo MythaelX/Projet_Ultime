@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: fonctions.php File Reference</title>
+<title>Hot Dog QUIZ: formulaireConnexion.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,240 +102,18 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">fonctions.php File Reference</div>  </div>
+<div class="title">formulaireConnexion.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d7/dec/a00010_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afcef1294902ca07027096e59292f89c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#afcef1294902ca07027096e59292f89c1">sendJsonData</a> ($message, $h)</td></tr>
-<tr class="memdesc:afcef1294902ca07027096e59292f89c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send datas in JSON format.  <a href="#afcef1294902ca07027096e59292f89c1">More...</a><br /></td></tr>
-<tr class="separator:afcef1294902ca07027096e59292f89c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">authentification</a> ($bdd)</td></tr>
-<tr class="memdesc:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authenticates the user.  <a href="#a4c00ed23cbac293dc1b0c38b4ca6e3b6">More...</a><br /></td></tr>
-<tr class="separator:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392292a494893cd5382dd1c9273ee9c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a392292a494893cd5382dd1c9273ee9c8">verifieToken</a> ($bdd)</td></tr>
-<tr class="memdesc:a392292a494893cd5382dd1c9273ee9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the user's token  <a href="#a392292a494893cd5382dd1c9273ee9c8">More...</a><br /></td></tr>
-<tr class="separator:a392292a494893cd5382dd1c9273ee9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd7bd7ced184a62771c0a16217068cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9fd7bd7ced184a62771c0a16217068cc">creationPartie</a> ($bdd)</td></tr>
-<tr class="memdesc:a9fd7bd7ced184a62771c0a16217068cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Game.  <a href="#a9fd7bd7ced184a62771c0a16217068cc">More...</a><br /></td></tr>
-<tr class="separator:a9fd7bd7ced184a62771c0a16217068cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5fde6a754bc0e9c7872a974abde85a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#af5fde6a754bc0e9c7872a974abde85a8">score</a> ($bdd)</td></tr>
-<tr class="memdesc:af5fde6a754bc0e9c7872a974abde85a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">score calculation  <a href="#af5fde6a754bc0e9c7872a974abde85a8">More...</a><br /></td></tr>
-<tr class="separator:af5fde6a754bc0e9c7872a974abde85a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a082db1f75a28750b9c46d1060cd14d2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a082db1f75a28750b9c46d1060cd14d2f">verifReponse</a> ($bdd)</td></tr>
-<tr class="memdesc:a082db1f75a28750b9c46d1060cd14d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if he has answered correctly  <a href="#a082db1f75a28750b9c46d1060cd14d2f">More...</a><br /></td></tr>
-<tr class="separator:a082db1f75a28750b9c46d1060cd14d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a4c00ed23cbac293dc1b0c38b4ca6e3b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">authentification </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Authenticates the user. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The database</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>token</dd></dl>
-<p>Authenticates the user if he enters the correct password and username. Moreover,he create and send token or send HTTP error if he enters the bad password and username. </p>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00033">33</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9fd7bd7ced184a62771c0a16217068cc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">creationPartie </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a Game. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The database </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">tabQuestions</td><td>The questions table</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>he gets back in a table "tabquestion", via the database the questions randomly with the themes he chose before on the site. Secondly, he recover the date and create a game in the database. Thirdly, he recover from the difficulty chose before on the site, the number of questions in the array "tabquestion" then he send id of the questions and id of the game in the table "contient". </p>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00088">88</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af5fde6a754bc0e9c7872a974abde85a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">score </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>score calculation </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The database</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>data The array that contains the time and the score of the game</dd></dl>
-<p>Thanks to the information of the time and the answers, it put 0 point by bad answer or 10 points if it answered well before 5 sec then he lose 0,5 point every second until 1 point.if he made a better score or plays for the first time the score is save with the time of the game. then the time of the game and the score are send </p>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00119">119</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/dec/a00010_af5fde6a754bc0e9c7872a974abde85a8_cgraph.png" border="0" usemap="#d7/dec/a00010_af5fde6a754bc0e9c7872a974abde85a8_cgraph" alt=""/></div>
-<map name="d7/dec/a00010_af5fde6a754bc0e9c7872a974abde85a8_cgraph" id="d7/dec/a00010_af5fde6a754bc0e9c7872a974abde85a8_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#afcef1294902ca07027096e59292f89c1" title="Send datas in JSON format. " alt="" coords="108,5,215,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="afcef1294902ca07027096e59292f89c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sendJsonData </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Send datas in JSON format. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">message</td><td>The data to send </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>The header to add <pre class="fragment">\return  Return the data encoded to send.</pre> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00016">16</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a392292a494893cd5382dd1c9273ee9c8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">verifieToken </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>check the user's token </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The database</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>false or true if the token is good</dd></dl>
-<p>Check if the user's token is good thanks to the database with the cookie "pseudo". He remove cookie "token" and "pseudo" if the cookie "token" and the database "token" does not match and send false otherwise he send true. </p>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00061">61</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a082db1f75a28750b9c46d1060cd14d2f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">verifReponse </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>check if he has answered correctly </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">bdd</td><td>The database</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>array data (true or false)</dd></dl>
-<p>He recover the value that the user has chosen and check if had answered correctly or not. </p>
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00174">174</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d7/dec/a00010_a082db1f75a28750b9c46d1060cd14d2f_cgraph.png" border="0" usemap="#d7/dec/a00010_a082db1f75a28750b9c46d1060cd14d2f_cgraph" alt=""/></div>
-<map name="d7/dec/a00010_a082db1f75a28750b9c46d1060cd14d2f_cgraph" id="d7/dec/a00010_a082db1f75a28750b9c46d1060cd14d2f_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#afcef1294902ca07027096e59292f89c1" title="Send datas in JSON format. " alt="" coords="152,5,259,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.php">fonctions.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.php">formulaireConnexion.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

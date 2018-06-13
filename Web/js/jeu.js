@@ -89,6 +89,7 @@ function recuperationReponseTemp(reponse){
   i=compteurProposition;
   j=compteurQuestion;
   temps=new Date();
+  console.log(proposition[j][i]);
   ajaxRequest('GET','php/request.php/solutionspropositions',function(ajaxResponse){
     var json= JSON.parse(ajaxResponse);
     data['reponses'][j][i]=json['verification'];

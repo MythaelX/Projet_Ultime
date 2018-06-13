@@ -12,12 +12,13 @@ $("#boutonAvatar").addEventListener('change',recupérationAvatar);
 
 $("#boutonAvatar2").addEventListener( "click", function( event ) {
   event.preventDefault();
-   $("#boutonAvatar").click();
-   return false;
+  $("#boutonAvatar").click();
+  return false;
 });
 
 $("#pseudo").addEventListener('blur',function(event){
 var pseudo=event.currentTarget.value;
+console.log($('#boutonAvatar').files[0].type);
 ajaxRequest("GET",'php/request.php/pseudo',verifPseudoBDD,'pseudo='+pseudo);
 });
 
@@ -35,7 +36,7 @@ var verifBDDEmail=false;
 */
 function valideInscription(event){
   var text;
-  if(verifBDDPseudo==true || verifBDDEmail==true || verifMotDePasse()==true || verifMail()==true || verifPseudo()==true){
+  if(verifBDDPseudo==true || verifBDDEmail==true || verifMotDePasse()==true || verifMail()==true || verifPseudo()==true || verifImage()==true){
     event.preventDefault();
     if(verifBDDPseudo){
         surligne(pseudo, true);
@@ -49,6 +50,8 @@ function valideInscription(event){
         text = 'Veuillez mettre un bon email';
     }else if(verifPseudo()){
       text = 'Veuillez rentrer un pseudo entre 2 et 25 caractères';
+    }else if(verifImage()){
+      text = 'Veuillez mettre une image png,jpg,jpeg,ou gif';
     }
     httpErrors(403,text);
   }else{

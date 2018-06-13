@@ -32,7 +32,7 @@ var verifBDDPseudo=false;
 */
 function valideModification(event){
   var text;
-  if( verifBDDPseudo==true || verifPseudo()==true || verifMotDePasse2()==true || mdpActuelVerif()==true){
+  if( verifBDDPseudo==true || verifPseudo()==true || verifMotDePasse2()==true || mdpActuelVerif()==true || verifImage()==true){
     event.preventDefault();
     if(verifBDDPseudo){
         surligne(pseudo, true);
@@ -43,9 +43,11 @@ function valideModification(event){
         text = 'Veuillez mettre 2 fois le même mot de passe';
     }else if(mdpActuelVerif()){
         text='Votre mot de passe Actuel est incorrect';
+    }else if(verifImage()){
+      text = 'Veuillez mettre une image png,jpg,jpeg,ou gif';
     }
     httpErrors(403,text);
   }else{
-    alert("Votre modification a été enregistrée, vous allez être redirigé vers la page d'accueil");
+    alert("Votre modification a été enregistrée, vous allez être redirigé vers la page d'accueil s'il n'y a aucune erreur pour l'avatar.");
   }
 }

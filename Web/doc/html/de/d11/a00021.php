@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: modifier.php File Reference</title>
+<title>Hot Dog QUIZ: partie.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,90 +102,18 @@ $(document).ready(function(){initNavTree('de/d11/a00021.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">modifier.php File Reference</div>  </div>
+<div class="title">partie.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../de/d11/a00021_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a55a8c6234ecd06b58ce8666a55bfd872">$pseudoModifier</a> = $_POST['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
-<tr class="separator:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> =$_COOKIE['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
-<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e16803cf523dd8986777dda489766ae"><td class="memItemLeft" align="right" valign="top">if($_POST['mdp']!=&quot;&quot;)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a2e16803cf523dd8986777dda489766ae">else</a></td></tr>
-<tr class="separator:a2e16803cf523dd8986777dda489766ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00013">13</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> =$_COOKIE['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00015">15</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a55a8c6234ecd06b58ce8666a55bfd872"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$pseudoModifier = $_POST['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00014">14</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2e16803cf523dd8986777dda489766ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if ($_FILES['boutonAvatar']['name']!=&quot;&quot;) else</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">  <a class="code" href="../../d6/d5b/a00026.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a>=$_POST[<span class="stringliteral">&#39;mdpActuel&#39;</span>]</div><div class="ttc" id="a00026_php_a8a65334de2f0d486a42b02ecf82fe8fb"><div class="ttname"><a href="../../d6/d5b/a00026.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a></div><div class="ttdeci">$mdp</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d5b/a00026_source.php#l00016">register.php:16</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00020">20</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">modifier.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">partie.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

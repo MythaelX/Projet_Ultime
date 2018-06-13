@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hot_20dog_20quiz',['HOT DOG QUIZ',['../index.php',1,'']]]
+  ['my_20own_20js_20features',['My own JS Features',['../index.php',1,'']]]
 ];

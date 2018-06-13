@@ -1,5 +1,5 @@
 <script>
- var id_partie= <?php echo $_POST['choix']?>;
+ var id_partie= <?php if(isset($_POST['choix'])){echo $_POST['choix'];}?>;
 </script>
 <div id="styleJeu">
 <div id="blocChrono">

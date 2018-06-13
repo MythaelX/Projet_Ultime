@@ -44,7 +44,6 @@ function authentification($bdd){
     header('Cache-control: no-store, no-cache, must-revalidate');
     header('Pragma: no-cache');
 
-
     echo $token;
     exit;
 }
@@ -175,7 +174,6 @@ function verifReponse($bdd){
   $texte_proposition=$_GET['texte_proposition'];
   $reponse=$_GET['reponse'];
   $id_question=$_GET['id_question'];
-  $bdd->DEBUG(true);
   $solution=$bdd->select("proposition","solution_proposition","WHERE texte_proposition=".$texte_proposition." AND id_question=".$id_question."")[0]['solution_proposition'];
   if(strtolower($reponse)!=strtolower($solution)){
     $data=["verification" => false];

@@ -15,13 +15,19 @@ $email=$_POST['email'];
 $pseudo = $_POST['pseudo'];
 $mdp = $_POST['mdp'];
 $pseudo = htmlentities($pseudo);
+
 $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
-if($avatar != false){
+if($avatar!=false){
   $bdd->insert('utilisateurs', "'".$email."','".$pseudo."',SHA1('".$mdp."'),'files/img/".$avatar."',' '");
+}else{
+  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."',SHA1('".$mdp."'),'design/img/avatardefaut.gif',' '");
+  $avatar=true;
+}
+
+if($avatar==false){
   header('Location: ../inscription.php');
 }else{
-  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."',SHA1('".$mdp."'),'design/img/avatardefaut.png',' '");
+  header('Location: ../index.php');
 }
-header('Location: ../index.php');
 
 ?>

@@ -1,10 +1,11 @@
 var a00019 =
 [
-    [ "ajaxRequest", "dd/da2/a00019.php#af2952b3a0807f32876447a30f44b4a4c", null ],
-    [ "preventDefault", "dd/da2/a00019.php#abf5219628a269a37395ec5371980db8d", null ],
-    [ "valideModification", "dd/da2/a00019.php#aa232ac3b0f1f501d720577dcf52fde2a", null ],
-    [ "false", "dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01", null ],
-    [ "location", "dd/da2/a00019.php#a9e7735e216b2770753e10ca177623f0f", null ],
-    [ "pseudo", "dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280", null ],
-    [ "verifBDDPseudo", "dd/da2/a00019.php#a558403c3a40c010539026c0e7e8a7b49", null ]
+    [ "affichage", "dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5", null ],
+    [ "affichageBouton", "dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c", null ],
+    [ "affichageTableau", "dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc", null ],
+    [ "ajaxRequest", "dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524", null ],
+    [ "ajaxRequest", "dd/da2/a00019.php#a20cd18a74fb2bbedbfacdb71b9aeadb7", null ],
+    [ "boutons", "dd/da2/a00019.php#ab0dcb30b8bb2d32fb8190ee86ff68922", null ],
+    [ "loadTabPalmares", "dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694", null ],
+    [ "strict", "dd/da2/a00019.php#ae2475e10618961c050dcba04e8c42331", null ]
 ];

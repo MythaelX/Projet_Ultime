@@ -7,7 +7,7 @@
 /*!	\brief    Displays the avatar chosen by the user on his computer.*/
 function recupérationAvatar() {
   var f = $("#boutonAvatar");
-  if (f.files && f.files[0]) {
+  if (f.files && f.files[0] && verifImage()==false) {
     var f = $("#boutonAvatar");
     var reader= new FileReader();
     reader.onload = function(e) {
@@ -167,4 +167,17 @@ function affichageDifficulte(ajaxResponse){
     text+='<option value="'+(i+1)+'">'+json[i]['nom_difficulte']+'</option>';
   }
   $('#difficulte').innerHTML= text;
+}
+
+/*!*	\brief  Check if the type of the avatar is a jpeg or jpg or gif or png  .*/
+function verifImage(){
+  var file,fileTypes;
+  file=$('#boutonAvatar');
+  fileTypes = ['image/jpeg','image/jpg','image/png','image/gif'];
+  for (var i = 0; i < fileTypes.length; i++) {
+    if(file.files[0].type == fileTypes[i]) {
+      return false;
+    }
+  }
+  return true;
 }

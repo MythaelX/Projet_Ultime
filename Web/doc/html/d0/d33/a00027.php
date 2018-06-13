@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: request.php File Reference</title>
+<title>Hot Dog QUIZ: dates.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,6 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
+      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -103,79 +105,80 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">request.php File Reference</div>  </div>
+<div class="title">dates.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d0/d33/a00027_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a00e0ef2ec723c55ed4a69fd7a026ef33"><td class="memItemLeft" align="right" valign="top">if(!isset($_SESSION))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a00e0ef2ec723c55ed4a69fd7a026ef33">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a00e0ef2ec723c55ed4a69fd7a026ef33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a7fd0384e6fc79c4dac5e25ab16d186ba">$requestRessource</a> = nextRes()</td></tr>
-<tr class="separator:a7fd0384e6fc79c4dac5e25ab16d186ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a6efc15b5a2314dd4b5aaa556a375c6d6">$data</a> = NULL</td></tr>
-<tr class="separator:a6efc15b5a2314dd4b5aaa556a375c6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00944b44575a6b06d388e807358cd5"><td class="memItemLeft" align="right" valign="top">switch($type)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#afb00944b44575a6b06d388e807358cd5">exit</a></td></tr>
-<tr class="separator:afb00944b44575a6b06d388e807358cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485">dateSql</a> ($date)</td></tr>
+<tr class="memdesc:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a date DD/MM/YYYY to YYYY-MM-DD.  <a href="#a064414d8c8aa8cc8f2d5d023c7c9b485">More...</a><br /></td></tr>
+<tr class="separator:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9163d2fe688993dee3abd2ca8f183067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a9163d2fe688993dee3abd2ca8f183067">sqlDate</a> ($date)</td></tr>
+<tr class="memdesc:a9163d2fe688993dee3abd2ca8f183067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a date YYYY-MM-DD to DD/MM/YYYY.  <a href="#a9163d2fe688993dee3abd2ca8f183067">More...</a><br /></td></tr>
+<tr class="separator:a9163d2fe688993dee3abd2ca8f183067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a00e0ef2ec723c55ed4a69fd7a026ef33"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
+
+<p>Definition in file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a064414d8c8aa8cc8f2d5d023c7c9b485"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">if (!isset($_SESSION)) $bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">dateSql </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$date</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00018">18</a> of file <a class="el" href="../../d0/d33/a00027_source.php">request.php</a>.</p>
+<p>Convert a date DD/MM/YYYY to YYYY-MM-DD. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">$date</td><td>The date to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the SQL shape of the date </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00014">14</a> of file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6efc15b5a2314dd4b5aaa556a375c6d6"></a>
+<a class="anchor" id="a9163d2fe688993dee3abd2ca8f183067"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$<a class="el" href="../../d4/d51/a00017.php#a20b6cd228a69593c03af5dc445393936">data</a> = NULL</td>
+          <td class="memname">sqlDate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$date</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00021">21</a> of file <a class="el" href="../../d0/d33/a00027_source.php">request.php</a>.</p>
+<p>Convert a date YYYY-MM-DD to DD/MM/YYYY. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">$date</td><td>The date to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the FR shape of the date </dd></dl>
 
-</div>
-</div>
-<a class="anchor" id="a7fd0384e6fc79c4dac5e25ab16d186ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$requestRessource = nextRes()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00020">20</a> of file <a class="el" href="../../d0/d33/a00027_source.php">request.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afb00944b44575a6b06d388e807358cd5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">switch ($type) exit</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00024">24</a> of file <a class="el" href="../../d0/d33/a00027_source.php">request.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00029">29</a> of file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
 
 </div>
 </div>
@@ -184,7 +187,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d0/d33/a00027.php">request.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d0/d33/a00027.php">dates.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

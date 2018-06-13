@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: modification.js File Reference</title>
+<title>Hot Dog QUIZ: palmares.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">modification.js File Reference</div>  </div>
+<div class="title">palmares.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -114,53 +114,120 @@ $(document).ready(function(){initNavTree('dd/da2/a00019.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
-<tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2952b3a0807f32876447a30f44b4a4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#af2952b3a0807f32876447a30f44b4a4c">ajaxRequest</a> (&quot;GET&quot;,'php/request.php/<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>', <a class="el" href="../../da/da0/a00009.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a>,'<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>='+<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
-<tr class="separator:af2952b3a0807f32876447a30f44b4a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa232ac3b0f1f501d720577dcf52fde2a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aa232ac3b0f1f501d720577dcf52fde2a">valideModification</a> (event)</td></tr>
-<tr class="memdesc:aa232ac3b0f1f501d720577dcf52fde2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the information before the POST in the file modifier  <a href="#aa232ac3b0f1f501d720577dcf52fde2a">More...</a><br /></td></tr>
-<tr class="separator:aa232ac3b0f1f501d720577dcf52fde2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0dcb30b8bb2d32fb8190ee86ff68922"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#ab0dcb30b8bb2d32fb8190ee86ff68922">boutons</a> ()</td></tr>
+<tr class="separator:ab0dcb30b8bb2d32fb8190ee86ff68922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524">ajaxRequest</a> ('GET', 'php/request.php/tableauPalmares', <a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>,'difficulte=&quot;1&quot;')</td></tr>
+<tr class="separator:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">ajaxRequest</a> ('GET', 'php/request.php/tableauDifficulte', <a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>)</td></tr>
+<tr class="separator:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ee08540b9075228e330d9f9db693c"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a> (ajaxResponse)</td></tr>
+<tr class="separator:aae5ee08540b9075228e330d9f9db693c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5">affichage</a> (event)</td></tr>
+<tr class="separator:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8998e94bb89c9a2293f342374e97bc"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc">affichageTableau</a> (array)</td></tr>
+<tr class="separator:abb8998e94bb89c9a2293f342374e97bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ccf3e9b222affe42cc578b6d898694"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a> (ajaxResponse)</td></tr>
+<tr class="separator:aa1ccf3e9b222affe42cc578b6d898694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9e7735e216b2770753e10ca177623f0f"><td class="memItemLeft" align="right" valign="top">document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a9e7735e216b2770753e10ca177623f0f">location</a> =&quot;./index.php&quot;</td></tr>
-<tr class="separator:a9e7735e216b2770753e10ca177623f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
-<tr class="separator:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f0d86ab32405786812d806542ca3280"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> =event.currentTarget.value</td></tr>
-<tr class="separator:a1f0d86ab32405786812d806542ca3280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a558403c3a40c010539026c0e7e8a7b49"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#a558403c3a40c010539026c0e7e8a7b49">verifBDDPseudo</a> =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
-<tr class="separator:a558403c3a40c010539026c0e7e8a7b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da2/a00019.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
+<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="af2952b3a0807f32876447a30f44b4a4c"></a>
+<a class="anchor" id="af74f80f2d76592fc7d873aeabb9aecf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00018">18</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph.png" border="0" usemap="#dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" id="dd/da2/a00019_af74f80f2d76592fc7d873aeabb9aecf5_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="142,5,237,32"/>
+<area shape="rect" id="node3" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694" title="loadTabPalmares" alt="" coords="128,56,251,83"/>
+<area shape="rect" id="node4" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="299,56,420,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aae5ee08540b9075228e330d9f9db693c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageBouton </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00011">11</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb8998e94bb89c9a2293f342374e97bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageTableau </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00038">38</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aefe809d5ec4fc79376f1ca1c67b71524"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ajaxRequest </td>
           <td>(</td>
-          <td class="paramtype">&quot;GET&quot;&#160;</td>
+          <td class="paramtype">'GET'&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">'php/request.php/<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>'&#160;</td>
+          <td class="paramtype">'php/request.php/tableauPalmares'&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da0/a00009.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">'&#160;</td>
-          <td class="paramname"><em>pseudo</em> = <code>'+<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a></code>&#160;</td>
+          <td class="paramname"><em>difficulte</em> = <code>&quot;1&quot;'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,12 +239,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abf5219628a269a37395ec5371980db8d"></a>
+<a class="anchor" id="a20cd18a74fb2bbedbfacdb71b9aeadb7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">event preventDefault </td>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauDifficulte'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab0dcb30b8bb2d32fb8190ee86ff68922"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function boutons </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -185,42 +284,45 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00005">5</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph.png" border="0" usemap="#dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph" id="dd/da2/a00019_ab0dcb30b8bb2d32fb8190ee86ff68922_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5" title="affichage" alt="" coords="121,31,196,57"/>
+<area shape="rect" id="node3" href="../../dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="258,5,353,32"/>
+<area shape="rect" id="node4" href="../../dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694" title="loadTabPalmares" alt="" coords="244,56,367,83"/>
+<area shape="rect" id="node5" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="415,56,536,83"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
-<a class="anchor" id="aa232ac3b0f1f501d720577dcf52fde2a"></a>
+<a class="anchor" id="aa1ccf3e9b222affe42cc578b6d898694"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function valideModification </td>
+          <td class="memname">function loadTabPalmares </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>check the information before the POST in the file modifier </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event on the form </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00033">33</a> of file <a class="el" href="../../dd/da2/a00019_source.php">modification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00051">51</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/da2/a00019_aa232ac3b0f1f501d720577dcf52fde2a_cgraph.png" border="0" usemap="#dd/da2/a00019_aa232ac3b0f1f501d720577dcf52fde2a_cgraph" alt=""/></div>
-<map name="dd/da2/a00019_aa232ac3b0f1f501d720577dcf52fde2a_cgraph" id="dd/da2/a00019_aa232ac3b0f1f501d720577dcf52fde2a_cgraph">
-<area shape="rect" id="node2" href="../../da/da0/a00009.php#a0db9c30b86d2f4aa120daa6247990007" title="Check if the value of the nickname is correct. " alt="" coords="200,5,291,32"/>
-<area shape="rect" id="node3" href="../../da/da0/a00009.php#a76081b25499ce0257c512f37f1ad9988" title="Change backgound color of the html element if there is an error or not. " alt="" coords="373,81,439,108"/>
-<area shape="rect" id="node4" href="../../da/da0/a00009.php#ad853bfd925b71db5ce9624d60548b1b7" title="Check if the value of the nickname is correct. " alt="" coords="180,107,311,133"/>
-<area shape="rect" id="node5" href="../../da/da0/a00009.php#a47d34320afdb9ab37a4214a0c33d4791" title="Check if the value of the password is correct compared to the database password. " alt="" coords="190,157,301,184"/>
-<area shape="rect" id="node6" href="../../d1/d7c/a00003.php#a2e3f7b2aca271c0d87c61a33b0030941" title="ajaxRequest" alt="" coords="359,157,453,184"/>
+<div class="center"><img src="../../dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph.png" border="0" usemap="#dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph" alt=""/></div>
+<map name="dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph" id="dd/da2/a00019_aa1ccf3e9b222affe42cc578b6d898694_cgraph">
+<area shape="rect" id="node2" href="../../dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc" title="affichageTableau" alt="" coords="176,5,297,32"/>
 </map>
 </div>
 </p>
@@ -228,59 +330,17 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a5df37b7f02e5cdc7d9412b7f872b8e01"></a>
+<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">return false</td>
+          <td class="memname">use strict</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00019">19</a> of file <a class="el" href="../../dd/da2/a00019_source.php">modification.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9e7735e216b2770753e10ca177623f0f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">document location =&quot;./index.php&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00010">10</a> of file <a class="el" href="../../dd/da2/a00019_source.php">modification.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1f0d86ab32405786812d806542ca3280"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var pseudo =event.currentTarget.value</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00023">23</a> of file <a class="el" href="../../dd/da2/a00019_source.php">modification.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a558403c3a40c010539026c0e7e8a7b49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var verifBDDPseudo =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00027">27</a> of file <a class="el" href="../../dd/da2/a00019_source.php">modification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/da2/a00019_source.php#l00001">1</a> of file <a class="el" href="../../dd/da2/a00019_source.php">palmares.js</a>.</p>
 
 </div>
 </div>
@@ -289,7 +349,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dd/da2/a00019.php">modification.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dd/da2/a00019.php">palmares.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

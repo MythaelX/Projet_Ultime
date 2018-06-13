@@ -18,9 +18,9 @@
 	<input type="email" name="email" id="email" />
 </div>
 <div id="blockAvatar">
-	<img src="design/img/avatardefaut.png" alt="Icon avatar" id="imageAvatar">
+	<img src="design/img/avatardefaut.gif" alt="Icon avatar" id="imageAvatar">
   <div>
-	  <input  type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar"/>
+	  <input  type="file" name="boutonAvatar" value="Avatar" id="boutonAvatar" accept="image/*"/>
     <button id="boutonAvatar2">Choissez votre avatar</button>
   </div>
 </div>

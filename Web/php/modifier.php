@@ -21,12 +21,21 @@ if($_POST['mdp']!=""){
   $mdp=$_POST['mdpActuel'];
 }
 
-if($_FILES['boutonAvatar']['name']!=""){
+if(isset($_FILES['boutonAvatar'])){
   $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
+  $bdd->DEBUG(true);
+  $chemin=$bdd->select("utilisateurs","avatar","WHERE utilisateurs.pseudo=".$pseudo."")[0]['avatar'];
+  if($chemin!="design/img/avatardefaut.gif"){
+    deleteFile("../".$chemin);
+  }
   $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password=SHA1('".$mdp."'),avatar='files/img/".$avatar."' WHERE utilisateurs.pseudo='".$pseudo."'");
 }else{
   $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password=SHA1('".$mdp."') WHERE utilisateurs.pseudo='".$pseudo."'");
+  $avatar=true;
 }
-
-header('Location: ../index.php');
+if($avatar==false){
+  header('Location: ../modifier.php');
+}else{
+  header('Location: ../index.php');
+}
 ?>

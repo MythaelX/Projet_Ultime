@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: creation.js File Reference</title>
+<title>Hot Dog QUIZ: cree-une-partie.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -103,134 +103,47 @@ $(document).ready(function(){initNavTree('de/d21/a00006.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">creation.js File Reference</div>  </div>
+<div class="title">cree-une-partie.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../de/d21/a00006_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a806ccfa4bdd83d47638b934f63aa597f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a806ccfa4bdd83d47638b934f63aa597f">ajaxRequest</a> ('GET','php/request.php/tableauThemes', <a class="el" href="../../de/d21/a00006.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a>)</td></tr>
-<tr class="separator:a806ccfa4bdd83d47638b934f63aa597f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee6c29e01ed8d036be6656155f1080fe"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a> (ajaxResponse)</td></tr>
-<tr class="memdesc:aee6c29e01ed8d036be6656155f1080fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">display themes  <a href="#aee6c29e01ed8d036be6656155f1080fe">More...</a><br /></td></tr>
-<tr class="separator:aee6c29e01ed8d036be6656155f1080fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2409b5e868763f39bddaca9e2c23035"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae2409b5e868763f39bddaca9e2c23035">creerPartie</a> ()</td></tr>
-<tr class="memdesc:ae2409b5e868763f39bddaca9e2c23035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send Data in ajax to create a game and if at least one box is checked.  <a href="#ae2409b5e868763f39bddaca9e2c23035">More...</a><br /></td></tr>
-<tr class="separator:ae2409b5e868763f39bddaca9e2c23035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#abaac36f85ddb9ededb3d06ba67dca72e">nbThemes</a> =0</td></tr>
-<tr class="separator:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687ea7fcd78263867b5bd34ed56b6379"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#a687ea7fcd78263867b5bd34ed56b6379">$head</a> = new Head_Creator(&quot;./&quot;)</td></tr>
+<tr class="separator:a687ea7fcd78263867b5bd34ed56b6379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="aee6c29e01ed8d036be6656155f1080fe"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function affichageThemes </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>display themes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ajaxResponse</td><td>The array of the themes </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00016">16</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a806ccfa4bdd83d47638b934f63aa597f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ajaxRequest </td>
-          <td>(</td>
-          <td class="paramtype">'GET'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'php/request.php/tableauThemes'&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d21/a00006.php#aee6c29e01ed8d036be6656155f1080fe">affichageThemes</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae2409b5e868763f39bddaca9e2c23035"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function creerPartie </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Send Data in ajax to create a game and if at least one box is checked. </p>
-<ul>
-<li></li>
-</ul>
-
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00030">30</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d21/a00006_ae2409b5e868763f39bddaca9e2c23035_cgraph.png" border="0" usemap="#de/d21/a00006_ae2409b5e868763f39bddaca9e2c23035_cgraph" alt=""/></div>
-<map name="de/d21/a00006_ae2409b5e868763f39bddaca9e2c23035_cgraph" id="de/d21/a00006_ae2409b5e868763f39bddaca9e2c23035_cgraph">
-<area shape="rect" id="node2" href="../../de/d21/a00006.php#a806ccfa4bdd83d47638b934f63aa597f" title="ajaxRequest" alt="" coords="139,5,233,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="abaac36f85ddb9ededb3d06ba67dca72e"></a>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var nbThemes =0</td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00010">10</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00007">7</a> of file <a class="el" href="../../de/d21/a00006_source.php">cree-une-partie.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a687ea7fcd78263867b5bd34ed56b6379"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">$head = new Head_Creator(&quot;./&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00008">8</a> of file <a class="el" href="../../de/d21/a00006_source.php">cree-une-partie.php</a>.</p>
 
 </div>
 </div>
@@ -239,7 +152,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../de/d21/a00006.php">creation.js</a></li>
+    <li class="navelem"><a class="el" href="../../de/d21/a00006.php">cree-une-partie.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
