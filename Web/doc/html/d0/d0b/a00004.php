@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">authentification.js File Reference</div>  </div>
 </div><!--header-->
@@ -117,11 +116,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e3a84965da657b293ee3d8b023ad1fb"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#a1e3a84965da657b293ee3d8b023ad1fb">valideLogin</a> (event)</td></tr>
 <tr class="memdesc:a1e3a84965da657b293ee3d8b023ad1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">verifies the authentication  <a href="#a1e3a84965da657b293ee3d8b023ad1fb">More...</a><br /></td></tr>
 <tr class="separator:a1e3a84965da657b293ee3d8b023ad1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d0b/a00004.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a1e3a84965da657b293ee3d8b023ad1fb"></a>
@@ -147,7 +141,7 @@ Variables</h2></td></tr>
 </dl>
 <p>check if the fields are not empty and send an ajax request. Then he creates a cookie "pseudo" and a cookie "token" thanks to the informations receive with the ajax request. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00018">18</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">authentification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00015">15</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">authentification.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -158,21 +152,6 @@ Here is the call graph for this function:</div>
 </map>
 </div>
 </p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">use strict</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d0b/a00004_source.php#l00007">7</a> of file <a class="el" href="../../d0/d0b/a00004_source.php">authentification.js</a>.</p>
 
 </div>
 </div>

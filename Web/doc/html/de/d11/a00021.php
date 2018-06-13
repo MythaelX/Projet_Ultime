@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: modification.js File Reference</title>
+<title>Hot Dog QUIZ: modifier.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -103,193 +103,80 @@ $(document).ready(function(){initNavTree('de/d11/a00021.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">modification.js File Reference</div>  </div>
+<div class="title">modifier.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../de/d11/a00021_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
-<tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab94d04abae94757fae8c2249e644ef53"><td class="memItemLeft" align="right" valign="top">console&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#ab94d04abae94757fae8c2249e644ef53">log</a> (<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>) <a class="el" href="../../d3/dfe/a00025.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">ajaxRequest</a>(&quot;GET&quot;</td></tr>
-<tr class="separator:ab94d04abae94757fae8c2249e644ef53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa232ac3b0f1f501d720577dcf52fde2a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#aa232ac3b0f1f501d720577dcf52fde2a">valideModification</a> (event)</td></tr>
-<tr class="memdesc:aa232ac3b0f1f501d720577dcf52fde2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the information before the POST in the file modifier  <a href="#aa232ac3b0f1f501d720577dcf52fde2a">More...</a><br /></td></tr>
-<tr class="separator:aa232ac3b0f1f501d720577dcf52fde2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e7735e216b2770753e10ca177623f0f"><td class="memItemLeft" align="right" valign="top">document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a9e7735e216b2770753e10ca177623f0f">location</a> =&quot;./index.php&quot;</td></tr>
-<tr class="separator:a9e7735e216b2770753e10ca177623f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
-<tr class="separator:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb5170f884c0d14b57425cb802a1ad64"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a> =event.currentTarget.value</td></tr>
-<tr class="separator:acb5170f884c0d14b57425cb802a1ad64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1e8dea7446f51652f0690650e2ccadf"><td class="memItemLeft" align="right" valign="top">console php request php&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#ac1e8dea7446f51652f0690650e2ccadf">verifPseudoBDD</a></td></tr>
-<tr class="separator:ac1e8dea7446f51652f0690650e2ccadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a558403c3a40c010539026c0e7e8a7b49"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a558403c3a40c010539026c0e7e8a7b49">verifBDDPseudo</a> =<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
-<tr class="separator:a558403c3a40c010539026c0e7e8a7b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a55a8c6234ecd06b58ce8666a55bfd872">$pseudoModifier</a> = $_POST['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
+<tr class="separator:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> =$_COOKIE['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td></tr>
+<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e16803cf523dd8986777dda489766ae"><td class="memItemLeft" align="right" valign="top">if($_POST['mdp']!=&quot;&quot;)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d11/a00021.php#a2e16803cf523dd8986777dda489766ae">else</a></td></tr>
+<tr class="separator:a2e16803cf523dd8986777dda489766ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ab94d04abae94757fae8c2249e644ef53"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">console log </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>pseudo</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abf5219628a269a37395ec5371980db8d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">event preventDefault </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa232ac3b0f1f501d720577dcf52fde2a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function valideModification </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>check the information before the POST in the file modifier </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event on the form </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00036">36</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../de/d11/a00021_aa232ac3b0f1f501d720577dcf52fde2a_cgraph.png" border="0" usemap="#de/d11/a00021_aa232ac3b0f1f501d720577dcf52fde2a_cgraph" alt=""/></div>
-<map name="de/d11/a00021_aa232ac3b0f1f501d720577dcf52fde2a_cgraph" id="de/d11/a00021_aa232ac3b0f1f501d720577dcf52fde2a_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a0db9c30b86d2f4aa120daa6247990007" title="verifPseudo" alt="" coords="200,5,291,32"/>
-<area shape="rect" id="node3" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="359,81,425,108"/>
-<area shape="rect" id="node4" href="../../d7/dec/a00010.php#ad853bfd925b71db5ce9624d60548b1b7" title="verifMotDePasse2" alt="" coords="180,107,311,133"/>
-<area shape="rect" id="node5" href="../../d7/dec/a00010.php#a47d34320afdb9ab37a4214a0c33d4791" title="mdpActuelVerif" alt="" coords="190,157,301,184"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a5df37b7f02e5cdc7d9412b7f872b8e01"></a>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">return false</td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00020">20</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00013">13</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9e7735e216b2770753e10ca177623f0f"></a>
+<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">document location =&quot;./index.php&quot;</td>
+          <td class="memname">$<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> =$_COOKIE['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00011">11</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00015">15</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acb5170f884c0d14b57425cb802a1ad64"></a>
+<a class="anchor" id="a55a8c6234ecd06b58ce8666a55bfd872"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">console php request php pseudo =event.currentTarget.value</td>
+          <td class="memname">$pseudoModifier = $_POST['<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00024">24</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00014">14</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
+<a class="anchor" id="a2e16803cf523dd8986777dda489766ae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">use strict</td>
+          <td class="memname">if ($_FILES['boutonAvatar']['name']!=&quot;&quot;) else</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00007">7</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a558403c3a40c010539026c0e7e8a7b49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var verifBDDPseudo =<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00030">30</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac1e8dea7446f51652f0690650e2ccadf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">console php request php verifPseudoBDD</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00026">26</a> of file <a class="el" href="../../de/d11/a00021_source.php">modification.js</a>.</p>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">  <a class="code" href="../../d6/d5b/a00026.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a>=$_POST[<span class="stringliteral">&#39;mdpActuel&#39;</span>]</div><div class="ttc" id="a00026_php_a8a65334de2f0d486a42b02ecf82fe8fb"><div class="ttname"><a href="../../d6/d5b/a00026.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a></div><div class="ttdeci">$mdp</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d5b/a00026_source.php#l00016">register.php:16</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../de/d11/a00021_source.php#l00020">20</a> of file <a class="el" href="../../de/d11/a00021_source.php">modifier.php</a>.</p>
 
 </div>
 </div>
@@ -298,7 +185,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">modification.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../de/d11/a00021.php">modifier.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

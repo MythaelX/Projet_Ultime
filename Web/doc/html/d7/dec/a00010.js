@@ -1,14 +1,9 @@
 var a00010 =
 [
-    [ "affichageDifficulte", "d7/dec/a00010.php#a34b3788c0664245d1de030f262f040ef", null ],
-    [ "mdpActuelVerif", "d7/dec/a00010.php#a47d34320afdb9ab37a4214a0c33d4791", null ],
-    [ "recupérationAvatar", "d7/dec/a00010.php#a1426a760631d33602005a8bb59e49c7a", null ],
-    [ "surligne", "d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988", null ],
-    [ "verifEmailBDD", "d7/dec/a00010.php#a24e23b6a325155daad0f098a989d6d41", null ],
-    [ "verifMail", "d7/dec/a00010.php#a4a822815e57b31479eb6d364e3003fa2", null ],
-    [ "verifMotDePasse", "d7/dec/a00010.php#a5e7778e2c5dd64ac673d79add217c6cf", null ],
-    [ "verifMotDePasse2", "d7/dec/a00010.php#ad853bfd925b71db5ce9624d60548b1b7", null ],
-    [ "verifPseudo", "d7/dec/a00010.php#a0db9c30b86d2f4aa120daa6247990007", null ],
-    [ "verifPseudoBDD", "d7/dec/a00010.php#ac5538f7db327e4d05dd85cbfb8db94d7", null ],
-    [ "strict", "d7/dec/a00010.php#ae2475e10618961c050dcba04e8c42331", null ]
+    [ "authentification", "d7/dec/a00010.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6", null ],
+    [ "creationPartie", "d7/dec/a00010.php#a9fd7bd7ced184a62771c0a16217068cc", null ],
+    [ "score", "d7/dec/a00010.php#af5fde6a754bc0e9c7872a974abde85a8", null ],
+    [ "sendJsonData", "d7/dec/a00010.php#afcef1294902ca07027096e59292f89c1", null ],
+    [ "verifieToken", "d7/dec/a00010.php#a392292a494893cd5382dd1c9273ee9c8", null ],
+    [ "verifReponse", "d7/dec/a00010.php#a082db1f75a28750b9c46d1060cd14d2f", null ]
 ];

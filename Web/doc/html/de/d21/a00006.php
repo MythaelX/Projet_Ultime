@@ -125,8 +125,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
-<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d21/a00006.php#abaac36f85ddb9ededb3d06ba67dca72e">nbThemes</a> =0</td></tr>
 <tr class="separator:abaac36f85ddb9ededb3d06ba67dca72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -153,7 +151,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00017">17</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00016">16</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
 
 </div>
 </div>
@@ -203,8 +201,11 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Send Data in ajax to create a game and if at least one box is checked. </p>
+<ul>
+<li></li>
+</ul>
 
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00034">34</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00030">30</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -229,21 +230,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00011">11</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">use strict</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00007">7</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d21/a00006_source.php#l00010">10</a> of file <a class="el" href="../../de/d21/a00006_source.php">creation.js</a>.</p>
 
 </div>
 </div>

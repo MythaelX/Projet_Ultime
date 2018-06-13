@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: modifier.php File Reference</title>
+<title>Hot Dog QUIZ: palmares.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -103,80 +103,187 @@ $(document).ready(function(){initNavTree('d3/d52/a00023.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">modifier.php File Reference</div>  </div>
+<div class="title">palmares.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d3/d52/a00023_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#a55a8c6234ecd06b58ce8666a55bfd872">$pseudoModifier</a> = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td></tr>
-<tr class="separator:a55a8c6234ecd06b58ce8666a55bfd872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> =$_COOKIE['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td></tr>
-<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e16803cf523dd8986777dda489766ae"><td class="memItemLeft" align="right" valign="top">if($_POST['mdp']!=&quot;&quot;)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#a2e16803cf523dd8986777dda489766ae">else</a></td></tr>
-<tr class="separator:a2e16803cf523dd8986777dda489766ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#aefe809d5ec4fc79376f1ca1c67b71524">ajaxRequest</a> ('GET', 'php/request.php/tableauPalmares', <a class="el" href="../../d3/d52/a00023.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>,'<a class="el" href="../../d1/d7c/a00003.php#ad71ab45724394ceb19d97c8180ab0e89">difficulte</a>=&quot;1&quot;')</td></tr>
+<tr class="separator:aefe809d5ec4fc79376f1ca1c67b71524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">ajaxRequest</a> ('GET', 'php/request.php/tableauDifficulte', <a class="el" href="../../d3/d52/a00023.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>)</td></tr>
+<tr class="separator:a20cd18a74fb2bbedbfacdb71b9aeadb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ee08540b9075228e330d9f9db693c"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a> (ajaxResponse)</td></tr>
+<tr class="memdesc:aae5ee08540b9075228e330d9f9db693c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays button with the name difficulty of the database.  <a href="#aae5ee08540b9075228e330d9f9db693c">More...</a><br /></td></tr>
+<tr class="separator:aae5ee08540b9075228e330d9f9db693c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#af74f80f2d76592fc7d873aeabb9aecf5">affichage</a> (event)</td></tr>
+<tr class="memdesc:af74f80f2d76592fc7d873aeabb9aecf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the array in relation to the chosen difficulty by the user.  <a href="#af74f80f2d76592fc7d873aeabb9aecf5">More...</a><br /></td></tr>
+<tr class="separator:af74f80f2d76592fc7d873aeabb9aecf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ccf3e9b222affe42cc578b6d898694"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d52/a00023.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a> (ajaxResponse)</td></tr>
+<tr class="memdesc:aa1ccf3e9b222affe42cc578b6d898694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the scoreboards recover in ajax response.  <a href="#aa1ccf3e9b222affe42cc578b6d898694">More...</a><br /></td></tr>
+<tr class="separator:aa1ccf3e9b222affe42cc578b6d898694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="af74f80f2d76592fc7d873aeabb9aecf5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">function affichage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00013">13</a> of file <a class="el" href="../../d3/d52/a00023_source.php">modifier.php</a>.</p>
+<p>Displays the array in relation to the chosen difficulty by the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ajaxResponse</td><td>The Array of the "nom_difficulte" </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00031">31</a> of file <a class="el" href="../../d3/d52/a00023_source.php">palmares.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d52/a00023_af74f80f2d76592fc7d873aeabb9aecf5_cgraph.png" border="0" usemap="#d3/d52/a00023_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" alt=""/></div>
+<map name="d3/d52/a00023_af74f80f2d76592fc7d873aeabb9aecf5_cgraph" id="d3/d52/a00023_af74f80f2d76592fc7d873aeabb9aecf5_cgraph">
+<area shape="rect" id="node2" href="../../d3/d52/a00023.php#aefe809d5ec4fc79376f1ca1c67b71524" title="ajaxRequest" alt="" coords="142,5,237,32"/>
+<area shape="rect" id="node3" href="../../d3/d52/a00023.php#aa1ccf3e9b222affe42cc578b6d898694" title="Displays the scoreboards recover in ajax response. " alt="" coords="128,56,251,83"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
+<a class="anchor" id="aae5ee08540b9075228e330d9f9db693c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a> =$_COOKIE['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td>
+          <td class="memname">function affichageBouton </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00015">15</a> of file <a class="el" href="../../d3/d52/a00023_source.php">modifier.php</a>.</p>
+<p>Displays button with the name difficulty of the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ajaxResponse</td><td>The Array of the "nom_difficulte" </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00019">19</a> of file <a class="el" href="../../d3/d52/a00023_source.php">palmares.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a55a8c6234ecd06b58ce8666a55bfd872"></a>
+<a class="anchor" id="aefe809d5ec4fc79376f1ca1c67b71524"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$pseudoModifier = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauPalmares'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d52/a00023.php#aa1ccf3e9b222affe42cc578b6d898694">loadTabPalmares</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'&#160;</td>
+          <td class="paramname"><em>difficulte</em> = <code>&quot;1&quot;'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00014">14</a> of file <a class="el" href="../../d3/d52/a00023_source.php">modifier.php</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a2e16803cf523dd8986777dda489766ae"></a>
+<a class="anchor" id="a20cd18a74fb2bbedbfacdb71b9aeadb7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">if ($_FILES['boutonAvatar']['name']!=&quot;&quot;) else</td>
+          <td class="memname">ajaxRequest </td>
+          <td>(</td>
+          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'php/request.php/tableauDifficulte'&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d52/a00023.php#aae5ee08540b9075228e330d9f9db693c">affichageBouton</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">  <a class="code" href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a>=$_POST[<span class="stringliteral">&#39;mdpActuel&#39;</span>]</div><div class="ttc" id="a00028_php_a8a65334de2f0d486a42b02ecf82fe8fb"><div class="ttname"><a href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a></div><div class="ttdeci">$mdp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00016">register.php:16</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00020">20</a> of file <a class="el" href="../../d3/d52/a00023_source.php">modifier.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1ccf3e9b222affe42cc578b6d898694"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function loadTabPalmares </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Displays the scoreboards recover in ajax response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">ajaxResponse</td><td>The Array of the "pseudo","score","temps","id_partie" and "date_score" </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d3/d52/a00023_source.php#l00045">45</a> of file <a class="el" href="../../d3/d52/a00023_source.php">palmares.js</a>.</p>
 
 </div>
 </div>
@@ -185,7 +292,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d3/d52/a00023.php">modifier.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d3/d52/a00023.php">palmares.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

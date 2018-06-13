@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: register.php File Reference</title>
+<title>Hot Dog QUIZ: script.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -103,115 +103,68 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">register.php File Reference</div>  </div>
+<div class="title">script.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../dc/d3c/a00028_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
-<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad634f418b20382e2802f80532d76d3cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a> =$_POST['<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a>']</td></tr>
-<tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td></tr>
-<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a> = $_POST['mdp']</td></tr>
-<tr class="separator:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac62167326fcdc762297fe76407218b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ac62167326fcdc762297fe76407218b55">$avatar</a> =saveFileTo($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td></tr>
-<tr class="separator:ac62167326fcdc762297fe76407218b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a4107a18478ba654b01dd816130d8ba"><td class="memItemLeft" align="right" valign="top">if($avatar!=<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a7a4107a18478ba654b01dd816130d8ba">else</a></td></tr>
-<tr class="separator:a7a4107a18478ba654b01dd816130d8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2e6e5ecd2bc858e1a18619005717e38a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a> ()</td></tr>
+<tr class="memdesc:a2e6e5ecd2bc858e1a18619005717e38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set marginTop for the style for all pages  <a href="#a2e6e5ecd2bc858e1a18619005717e38a">More...</a><br /></td></tr>
+<tr class="separator:a2e6e5ecd2bc858e1a18619005717e38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054da9ae2f991b58ed93861cfd36ad26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26">addOnresize</a> (<a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a>)</td></tr>
+<tr class="separator:a054da9ae2f991b58ed93861cfd36ad26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ac62167326fcdc762297fe76407218b55"></a>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a054da9ae2f991b58ed93861cfd36ad26"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$avatar =saveFileTo($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td>
+          <td class="memname">addOnresize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00018">18</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
+<a class="anchor" id="a2e6e5ecd2bc858e1a18619005717e38a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
+          <td class="memname">function posMain </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00013">13</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
+<p>set marginTop for the style for all pages </p>
+<ul>
+<li></li>
+</ul>
 
-</div>
-</div>
-<a class="anchor" id="ad634f418b20382e2802f80532d76d3cd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a> =$_POST['<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a>']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00008">8</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">script.js</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00014">14</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
-
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph.png" border="0" usemap="#dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph" alt=""/></div>
+<map name="dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph" id="dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph">
+<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26" title="addOnresize" alt="" coords="124,5,219,32"/>
+</map>
 </div>
-</div>
-<a class="anchor" id="a8a65334de2f0d486a42b02ecf82fe8fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$mdp = $_POST['mdp']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00016">16</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">$<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a> = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00015">15</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7a4107a18478ba654b01dd816130d8ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if ($avatar!=<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a>) else</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">  <a class="code" href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a>-&gt;insert(<span class="stringliteral">&#39;utilisateurs&#39;</span>, <span class="stringliteral">&quot;&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a>.<span class="stringliteral">&quot;&#39;,&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a>.<span class="stringliteral">&quot;&#39;,&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a>.<span class="stringliteral">&quot;&#39;,&#39;design/img/avatardefaut.png&#39;,&#39; &#39;&quot;</span>)</div><div class="ttc" id="a00028_php_a8a65334de2f0d486a42b02ecf82fe8fb"><div class="ttname"><a href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a></div><div class="ttdeci">$mdp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00016">register.php:16</a></div></div>
-<div class="ttc" id="a00028_php_a94f91e878bce0991e2cd595c5dd79b3f"><div class="ttname"><a href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a></div><div class="ttdeci">$bdd</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00013">register.php:13</a></div></div>
-<div class="ttc" id="a00028_php_a5aaec5de32a8e7a31b5104f80d58dec0"><div class="ttname"><a href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a></div><div class="ttdeci">$pseudo</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00015">register.php:15</a></div></div>
-<div class="ttc" id="a00028_php_ad634f418b20382e2802f80532d76d3cd"><div class="ttname"><a href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a></div><div class="ttdeci">$email</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00014">register.php:14</a></div></div>
-</div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00022">22</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
+</p>
 
 </div>
 </div>
@@ -220,7 +173,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">register.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">script.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
