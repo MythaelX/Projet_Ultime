@@ -33,7 +33,7 @@ function sendJsonData($message, $h){
 function authentification($bdd){
     $pseudo = $_SERVER['PHP_AUTH_USER'];
     $mdp = $_SERVER['PHP_AUTH_PW'];
-    $statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password=SHA1('".$mdp."')"); 
+    $statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password=SHA1('".$mdp."')");
     if(!$statue){
         header('HTTP/1.1 401 Identifiants incorrects');
         exit;
@@ -122,8 +122,8 @@ function score($bdd){
   $tempsTotal=0;
   $temps=json_decode($_POST['temps']);
   $reponses=json_decode($_POST['reponses']);
-  for ($j=0; $j < sizeof($reponses) ; $j++) { //number of questions
-    for ($i=0; $i < sizeof($temps[0]); $i++) { //number of propositions
+  for ($j=0; $j < sizeof($reponses); $j++) { //number of questions
+    for ($i=0; $i < sizeof($reponses[$j]); $i++) { //number of propositions
       if($reponses[$j][$i]==true){
         $score=10;
         $tempsTotal+=$temps[$j][$i];
@@ -148,8 +148,8 @@ function score($bdd){
   $mail=$bdd->query("SELECT mail from utilisateurs WHERE pseudo='".$pseudo."'")[0]['mail'];
   $id_partie=$_POST['id_partie'];
   $data=$bdd->select("joue_a","valeur_score","WHERE id_partie=".$id_partie." AND mail='".$mail."'");
-  $ancienScore=$data[0]['valeur_score'];
-  if(isset($ancienScore)){ //verification s'il a deja joué a la partie
+  $ancienScore=$data;
+  if(isset($ancienScore[0]['valeur_score'])){ //verification s'il a deja joué a la partie
     if($ancienScore<$scoreTotal){ //comparaisson du nouveau et ancien score pour garder le meilleurs
       $bdd->delete("joue_a","id_partie=".$id_partie."","pseudo=".$pseudo."");
       $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
