@@ -202,7 +202,7 @@
 					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $opts[$i])));
 
 					error_log("Arg = " . $args[1]);
-					$args[1] = replace_all("'", "\'", $args[1]);
+					$args[1] = addslashes($args[1]);
 					error_log("Arg = " . $args[1]);
 					$args[1] = "'" . $args[1] . "'";
 					error_log("Arg = " . $args[1]);
