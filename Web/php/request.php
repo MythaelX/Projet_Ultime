@@ -11,6 +11,9 @@
 	require_once("bddConnect.inc");
 	require_once("fonctions.php");
 
+	if (!isset($_SESSION)){
+		session_start();
+	}
 	// Database connexion.
 	$bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
 
@@ -66,7 +69,13 @@
 			break;
 		case "DELETE":
 			if($requestRessource == 'sessionDestroy'){
-				session_destroy();
+				if(isset($_SESSION)){
+					session_destroy();
+				}
+				unset($_COOKIE['token']);
+				setcookie('token', null, -1, '/');
+				unset($_COOKIE['pseudo']);
+				setcookie('pseudo', null, -1, '/');
 			}
 			break;
 		default:

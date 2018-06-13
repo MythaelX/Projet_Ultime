@@ -3,9 +3,6 @@
 *	\author	EVEN CLEMENT
 *	\date	12/06/2018
 */
-
-'use strict';
-
 $("#boutonConnexion").addEventListener('click',valideLogin);
 
 /*!

@@ -4,12 +4,7 @@
 *	\date	12/06/2018
 */
 
-'use strict';
-
-/*!
-*	\brief    Displays the avatar chosen by the user on his computer.
-*
-*/
+/*!	\brief    Displays the avatar chosen by the user on his computer.*/
 function recupérationAvatar() {
   var f = $("#boutonAvatar");
   if (f.files && f.files[0]) {
@@ -22,12 +17,8 @@ function recupérationAvatar() {
   }
 }
 
-/*!
-*	\brief    Check if the value of the nickname is correct.
-*
-*/
+/*!*	\brief    Check if the value of the nickname is correct. */
 function verifPseudo(){
-  //http://www.astuces-webmaster.ch/page/check-user-ajax
   var pseudo=$('#pseudo');
   var regex = new RegExp("[-_.,*$?!@=+]");
   if(pseudo.value.length < 2 || pseudo.value.length >= 25 || regex.test(pseudo.value)){
@@ -39,27 +30,24 @@ function verifPseudo(){
    }
 }
 
-/*!
-*	\brief    Check if the value of the password is correct.
-*
-*/
+/*!*	\brief    Check if the value of the password is correct.*/
 function verifMotDePasse(){
   var mdp=$('#mdp');
   var mdpVerif=$('#mdpVerif');
   if(mdp.value!=mdpVerif.value){
-    if(mdp.value==""){ //si mdp est nul
+    if(mdp.value==""){
       surligne(mdp, true);
       surligne(mdpVerif, false);
-    }else if(mdpVerif.value==""){ //si mdpVerif est nul
+    }else if(mdpVerif.value==""){
       surligne(mdp, false);
       surligne(mdpVerif, true);
-    }else{ //si les deux sont différentes et non nul
+    }else{
       surligne(mdp, true);
       surligne(mdpVerif, true);
     }
     return true;
   }else{
-    if(mdp.value==""){ //si les valeurs de mdp et mdpVerif sont nuls
+    if(mdp.value==""){
       surligne(mdp, true);
       surligne(mdpVerif, true);
       return true;
@@ -71,21 +59,18 @@ function verifMotDePasse(){
   }
 }
 
-/*!
-*	\brief    Check if the value of the nickname is correct.
-*
-*/
+/*!*	\brief    Check if the value of the nickname is correct.*/
 function verifMotDePasse2(){
   var mdp=$('#mdp');
   var mdpVerif=$('#mdpVerif');
   if(mdp.value!=mdpVerif.value){
-    if(mdp.value==""){ //si mdp est nul
+    if(mdp.value==""){
       surligne(mdp, true);
       surligne(mdpVerif, false);
-    }else if(mdpVerif.value==""){ //si mdpVerif est nul
+    }else if(mdpVerif.value==""){
       surligne(mdp, false);
       surligne(mdpVerif, true);
-    }else{ //si les deux sont différentes et non nul
+    }else{
       surligne(mdp, true);
       surligne(mdpVerif, true);
     }
@@ -97,12 +82,8 @@ function verifMotDePasse2(){
   }
 }
 
-/*!
-*	\brief    Check if the value of the email is correct.
-*
-*/
+/*!*	\brief    Check if the value of the email is correct.*/
 function verifMail(){
-  //http://www.astuces-webmaster.ch/page/check-user-ajax
   email=$("#email");
    var regex = /^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
    if(regex.test(email.value)){
@@ -114,10 +95,7 @@ function verifMail(){
    }
 }
 
-/*!
-*	\brief    Check if the value of the password is correct compared to the database password.
-*
-*/
+/*!*	\brief    Check if the value of the password is correct compared to the database password.*/
 function mdpActuelVerif(){
   mdpActuel=$("#mdpActuel");
   if(mdpActuel.value==mdpActuelBDD){
@@ -129,7 +107,7 @@ function mdpActuelVerif(){
   }
 }
 
-/*!
+/*!*
 *	\brief    check if the nickname is not taken.
 *		\param[in]		ajaxResponse   The array of "pseudo"
 */

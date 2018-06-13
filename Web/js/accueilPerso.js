@@ -3,8 +3,6 @@
 *	\author	EVEN CLEMENT
 *	\date	12/06/2018
 */
-
-'use strict';
 affichageAccueil();
 ajaxRequest('GET','php/request.php/tableauDifficulte',affichageDifficulte);
 
@@ -21,15 +19,11 @@ $("#boutonCreer").addEventListener('click',function(event){
 
 $('#difficulte').addEventListener('change',function(event){
   var difficulte=$('#difficulte').value;
-  console.log(difficulte);
   ajaxRequest('GET','php/request.php/tableauParties',affichageParties,'difficulte='+difficulte);
 });
 /***************************/
 
-/*!
-*	\brief    Displays the block "accueilPerso" if he is connected.
-*
-*/
+/*!*	\brief    Displays the block "accueilPerso" if he is connected.*/
 function affichageAccueil(){
   if(Cookies.get('pseudo')){
     var difficulte=1;

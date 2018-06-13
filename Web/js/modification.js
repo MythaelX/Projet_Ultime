@@ -4,7 +4,6 @@
 *	\date	12/06/2018
 */
 
-'use strict';
 /* addEventListener */
 $("#boutonAnnuler").addEventListener('click',function(event){
   event.preventDefault();
@@ -22,11 +21,9 @@ $("#boutonAvatar2").addEventListener( "click", function( event ) {
 
 $("#pseudo").addEventListener('change',function(event){
   var pseudo=event.currentTarget.value;
-  console.log(pseudo)
   ajaxRequest("GET",'php/request.php/pseudo',verifPseudoBDD,'pseudo='+pseudo);
 });
 /***************************/
-
 var verifBDDPseudo=false;
 
 /*!
@@ -35,7 +32,6 @@ var verifBDDPseudo=false;
 */
 function valideModification(event){
   var text;
-  console.log(verifPseudoBDD);
   if( verifBDDPseudo==true || verifPseudo()==true || verifMotDePasse2()==true || mdpActuelVerif()==true){
     event.preventDefault();
     if(verifBDDPseudo){

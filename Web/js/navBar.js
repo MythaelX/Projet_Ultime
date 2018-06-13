@@ -4,14 +4,9 @@
 *	\date	12/06/2018
 */
 
-'use strict';
-
 affichageNav();
 
-/*!
-*	\brief  Manage the display of the navBar if a pseudo cookie exists or not.
-*
-*/
+/*!*	\brief  Manage the display of the navBar if a pseudo cookie exists or not.*/
 function affichageNav(){
   var pseudo;
   if(Cookies.get('pseudo')){
@@ -22,10 +17,7 @@ function affichageNav(){
   }
 }
 
-/*!
-*	\brief  Displays the navbar when you are disconnected
-*
-*/
+/*!*	\brief  Displays the navbar when you are disconnected*/
 function affichageDeconnecter(){
   var text ="";
   text+='<li><a href="./connexion.php" target="_self">CONNEXION</a></li>';
@@ -33,10 +25,7 @@ function affichageDeconnecter(){
   $('#connexion').innerHTML= text;
 }
 
-/*!
-*	\brief  Displays the navbar when you are connected
-*
-*/
+/*!*	\brief  Displays the navbar when you are connected*/
 function affichageConnecter(ajaxResponse){
   var json= JSON.parse(ajaxResponse);
   var text ="";
@@ -46,15 +35,9 @@ function affichageConnecter(ajaxResponse){
   $('#boutonDeconnexion').addEventListener('click',deconnexion);
 }
 
-/*!
-*	\brief  Delete cookies and the current session and reload the page
-*
-*/
+/*!*	\brief  Delete cookies and the current session with an ajaxRequest and reload the page*/
 function deconnexion(){
-  ajaxRequest('DELETE','php/request.php/sessionDestroy')
-  Cookies.remove('pseudo');
-  Cookies.remove('token');
-  Cookies.remove('PHPSESSID');
+  ajaxRequest('DELETE','php/request.php/sessionDestroy',function(){},null,function(){},false);
   $('#boutonDeconnexion').removeEventListener('click',deconnexion);
   document.location.reload(true);
 }

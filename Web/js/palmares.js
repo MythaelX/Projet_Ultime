@@ -1,10 +1,8 @@
 /*!
-*	\file Palmares
+*	\file palmares
 *	\author	EVEN CLEMENT
 *	\date	12/06/2018
 */
-
-'use strict';
 
 $('#bouton1').addEventListener('click',affichage);
 $('#bouton2').addEventListener('click',affichage);

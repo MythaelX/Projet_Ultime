@@ -21,11 +21,10 @@ if($_POST['mdp']!=""){
   $mdp=$_POST['mdpActuel'];
 }
 
-if($_FILES['boutonAvatar']['name']!=""){ //si l'utilisateurs a modifier son avatar
+if($_FILES['boutonAvatar']['name']!=""){
   $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
   $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password='".$mdp."',avatar='files/img/".$avatar."' WHERE utilisateurs.pseudo='".$pseudo."'");
 }else{
-
   $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password='".$mdp."' WHERE utilisateurs.pseudo='".$pseudo."'");
 }
 

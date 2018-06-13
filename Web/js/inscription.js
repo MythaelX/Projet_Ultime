@@ -4,7 +4,6 @@
 *	\date	12/06/2018
 */
 
-'use strict';
 /* addEventListener */
 $("#formulaireInscription").addEventListener('submit',valideInscription);
 $("#pseudo").addEventListener('change',verifPseudo);

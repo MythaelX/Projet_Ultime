@@ -4,15 +4,14 @@
 *	\date	12/06/2018
 */
 
-'use strict';
 ajaxRequest('GET','php/request.php/tableauThemes',affichageThemes);
 ajaxRequest('GET','php/request.php/tableauDifficulte',affichageDifficulte);
 $("#boutonCreer").addEventListener('click',creerPartie);
 var nbThemes=0;
+
 /*!
 *	\brief    display themes
 *		\param[in]		ajaxResponse   The array of the themes
-*
 */
 function affichageThemes(ajaxResponse){
   var text,json;
@@ -27,10 +26,7 @@ function affichageThemes(ajaxResponse){
   $('#tableauThemes').innerHTML= text;
 }
 
-/*!
-*	\brief    Send Data in ajax to create a game and if at least one box is checked
-*
-*/
+/*!*	\brief    Send Data in ajax to create a game and if at least one box is checked */
 function creerPartie(){
   var difficulte,themes,nbQuestions,j;
   themes= new Array();

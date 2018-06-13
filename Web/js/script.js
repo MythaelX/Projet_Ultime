@@ -3,12 +3,8 @@
 *	\author	EVEN CLEMENT
 *	\date	12/06/2018
 */
-'use strict';
 
-/*!
-*	\brief    set marginTop for the style for all pages
-*
-*/
+/*!*	\brief    set marginTop for the style for all pages*/
 function posMain(){
 	var main = $("main");
 	if(isIn("index.php")){

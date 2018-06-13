@@ -43,6 +43,8 @@ function authentification($bdd){
     header('Content-Type: text/plain; charset=utf-8');
     header('Cache-control: no-store, no-cache, must-revalidate');
     header('Pragma: no-cache');
+
+
     echo $token;
     exit;
 }

@@ -4,7 +4,6 @@
 *	\date	12/06/2018
 */
 
-'use strict';
 /* Array for display Question propositions and take the time */
 var questions=new Array();
 questions['solution_un']=new Array();
@@ -68,10 +67,7 @@ function jeu(){
   }
 }
 
-/*!
-*	\brief    display the questions and propositions with the value of counter question and proposition.
-*
-*/
+/*!*	\brief    display the questions and propositions with the value of counter question and proposition.*/
 function affichageJeu(){
   var j,i,temps;
   j=compteurQuestion;
