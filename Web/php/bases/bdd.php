@@ -201,13 +201,13 @@
 					error_log("Arg = " . $opts[$i]);
 					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $opts[$i])));
 
-					error_log("Arg = " . $args[1]);
+					error_log("Args = " . $args[1]);
 					$args[1] = addslashes($args[1]);
-					error_log("Arg = " . $args[1]);
+					error_log("Args = " . $args[1]);
 					$args[1] = replace_all("\\\\", "\\", $args[$i]);
-					error_log("Arg = " . $args[1]);
+					error_log("Args = " . $args[1]);
 					$args[1] = "'" . $args[1] . "'";
-					error_log("Arg = " . $args[1]);
+					error_log("Args = " . $args[1]);
 
 					$opts[$i] = implode(" = ", $args);
 					error_log("Arg = " . $opts[$i]);
