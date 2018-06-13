@@ -204,7 +204,7 @@
 					error_log("Args = " . $args[1]);
 					$args[1] = addslashes($args[1]);
 					error_log("Args = " . $args[1]);
-					$args[1] = replace_all("\\\\", "\\", $args[$i]);
+					$args[1] = replace_all("\\\\", "\\", $args[1]);
 					error_log("Args = " . $args[1]);
 					$args[1] = "'" . $args[1] . "'";
 					error_log("Args = " . $args[1]);
