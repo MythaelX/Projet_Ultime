@@ -195,12 +195,16 @@
 		public function select($name, $selection, $opt=""){
 			$opts = explode(" AND ", $opt);
 
+			error_log("Opt = " . $opt);
 			foreach($opts as $arg){
+				error_log("Arg = " . $arg);
 				$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $arg)));
 				$args[1] = "'" . replace_all("'", "\'", $args[1]) . "'";
+				error_log("Arg = " . $arg);
 			}
 
 			$opt = implode(" AND ", $opts);
+			error_log("Opt = " . $opt);
 
 			try {
 				$command = "SELECT $selection FROM $name $opt";
