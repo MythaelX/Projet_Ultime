@@ -1,4 +1,11 @@
+/*!
+*	\file inscription
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
+
 'use strict';
+/* addEventListener */
 $("#formulaireInscription").addEventListener('submit',valideInscription);
 $("#pseudo").addEventListener('change',verifPseudo);
 $("#email").addEventListener('change',verifMail);
@@ -19,10 +26,14 @@ $("#email").addEventListener('blur',function(event){
 var email=event.currentTarget.value;
 ajaxRequest("GET",'php/request.php/email',verifEmailBDD,'email='+email);
 });
-
+/***************************/
 var verifBDDPseudo=false;
 var verifBDDEmail=false;
 
+/*!
+*	\brief    check the information before the POST in the file register
+*		\param[in]		event   The event on the form
+*/
 function valideInscription(event){
   var text;
   if(verifBDDPseudo==true || verifBDDEmail==true || verifMotDePasse()==true || verifMail()==true || verifPseudo()==true){

@@ -1,13 +1,11 @@
 <div id="palmares">
 	<h1>Meilleurs scores</h1>
-	<!-- Bouton des 4 différentes difficultés pour afficher les 15 premiers scores de la base de donnée par rapport a la difficultés choisi -->
 	<div>
 	<button id="bouton1" value="1"></button>
 	<button id="bouton2" value="2"></button>
 	<button id="bouton3" value="3"></button>
 	<button id="bouton4" value="4"></button>
 	</div>
-	<!-- Tableau des 15 meilleurs scores -->
 	<table >
 		<thead>
 			<tr>

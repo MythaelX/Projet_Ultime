@@ -11,6 +11,7 @@
 @import 'palmares';
 @import 'creation';
 @import 'jeu';
+@import 'modifier';
 
 html {
 	body {
@@ -115,8 +116,42 @@ html {
 			}
 		}
 		main {
-			button,select{
-				outline: 0;
+			.custom-select {
+				margin-right: 28%;
+				position: relative;
+				display: inline-block;
+				.border-radius(5px);
+				width: 300px;
+				background-image: @boutongris1;
+				z-index: 10;
+			}
+
+			.custom-select select {
+				border: none;
+				.border-radius(5px);
+
+				background: transparent;
+				.appearance(none);
+				margin: 0;
+				display: block;
+				width: 100%;
+				padding: 12px 55px 15px 15px;
+				font-size: 14px;
+				color: @white1;
+			}
+			.custom-select:after {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 50px;
+				height: 100%;
+				line-height: 38px;
+
+				content: "∨";
+				text-align: center;
+				font-size: 24px;
+				border-left: 1px solid @white3;
+				z-index: -1;
 			}
 		}
 
@@ -128,15 +163,14 @@ html {
 			a{
 				color: @black1;
 				padding-right: 2%;
-				font-size: 1.2em;
-				text-decoration: none;
+				font-size: 1em;
 			}
 			.copyright{
 				display: inline-block;
 				width: auto;
 				background-color: @white1;
 				color: @black1;
-				font-size: 1.2em;
+				font-size: 1em;
 				padding-right: 2%;
 			}
 		}

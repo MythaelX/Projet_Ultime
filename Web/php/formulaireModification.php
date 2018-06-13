@@ -1,4 +1,9 @@
 <?php
+/*!
+*	\file	formulaireModification
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
 require_once("bases/_functions.php");
 require_once("bases/errors.php");
 require_once("bases/bdd.php");
@@ -9,7 +14,7 @@ $bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
 $data=$bdd->query("SELECT mail,password,avatar FROM utilisateurs WHERE pseudo='".$pseudo."'")[0];
 $avatar=$data['avatar'];
 $password=$data['password'];
-echo "<script> var mdpActuelBDD='".$password."'</script>";
+echo "<script> var mdpActuelBDD='".$password."'</script>"; 
 ?>
 <div id="modifier">
 <h1>Modifier le profil</h1>

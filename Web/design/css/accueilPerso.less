@@ -16,6 +16,23 @@ main {
 					text-align: center;
 					.font('cheeseburger',0.9em);
 					color: @white1;
+					.custom-select {
+						margin-right:0;
+						margin-left:2%;
+						background-image: @navbar;
+						width: 150px;
+						border:1px solid @black3;
+					}
+					.custom-select select {
+						padding: 8px 15px 8px 15px;
+						font-size: 14px;
+					}
+					.custom-select:after {
+						width: 50px;
+						line-height: 35px;
+						font-size: 20px;
+						border-left: 1px solid @black3;
+					}
 				}
 				div#tableau{
 					max-width: 630px;

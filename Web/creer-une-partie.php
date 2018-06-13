@@ -1,4 +1,9 @@
 <?php
+/*!
+*	\file	creer-une-partie
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
 	require_once("php/bases/class-Head_Creator.php");
 	require_once("php/bases/_functions.php");
 	require_once("php/bases/bdd.php");
@@ -27,9 +32,9 @@
 	/*******************/
 
 	/* Scripts personnels */
-		$head->head_script("js/fonction.js");
+		$head->head_script("js/fonctions.js");
 		$head->head_script("js/navBar.js");
-		$head->head_script("js/Creation.js");
+		$head->head_script("js/creation.js");
 	/***************************/
 
 	$head->show();	//Affichage du code de l'en-tête
@@ -38,8 +43,8 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-			<?php require_once("php/verificationToken.php");?>
-			<?php require_once("php/creation.php");?>
+			<?php require_once("php/verificationToken.php"); ?>
+			<?php require_once("php/creation.php"); ?>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>
 	</body>

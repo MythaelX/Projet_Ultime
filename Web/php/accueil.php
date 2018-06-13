@@ -23,8 +23,10 @@
   <div id="tableauText">
   <div id="text">
     Selectionner une partie exitante
+  <label class="custom-select" for="styledSelect1">
   <select name="difficulte" id="difficulte">
   </select>
+  </label>
   </div>
   <div id="tableau">
   <table >

@@ -1,4 +1,11 @@
+/*!
+*	\file modification
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
+
 'use strict';
+/* addEventListener */
 $("#boutonAnnuler").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./index.php";
@@ -18,8 +25,14 @@ $("#pseudo").addEventListener('change',function(event){
   console.log(pseudo)
   ajaxRequest("GET",'php/request.php/pseudo',verifPseudoBDD,'pseudo='+pseudo);
 });
+/***************************/
 
 var verifBDDPseudo=false;
+
+/*!
+*	\brief    check the information before the POST in the file modifier
+*		\param[in]		event   The event on the form
+*/
 function valideModification(event){
   var text;
   console.log(verifPseudoBDD);

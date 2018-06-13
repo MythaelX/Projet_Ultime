@@ -1,4 +1,9 @@
 <?php
+/*!
+*	\file	request
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
 	require_once("bases/_functions.php");
 	require_once("bases/getter.php");
 	require_once("bases/errors.php");
@@ -9,23 +14,14 @@
 	// Database connexion.
 	$bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
 
-	/* Récupération de la prochaine ressource */
 	$requestRessource = nextRes();
 	$data = NULL;
-	/* Action selon le type d'envoie */
+
+	/* Action according to the type of send */
 	switch($type){
 		case "POST":
 		if($requestRessource == 'creerPartie'){
-			/** traitement des données pour envoyer la requête sql **/
-			$themes=explode(",",$_POST['themes']);
-			$themesSQL="(";
-			for ($i=0; $i <sizeof($themes)-1 ; $i++) {
-				$themesSQL=$themesSQL."c.nom_categorie='".$themes[$i]."' OR ";
-			}
-			$themesSQL=$themesSQL."c.nom_categorie='".$themes[$i]."') AND ";
-			/*******************/
-			$tabQuestions=$bdd->query("SELECT q.id_question FROM question AS q,categorie AS c WHERE ".$themesSQL." c.id_categorie=q.id_categorie ORDER BY RAND()");
-			creationPartie($bdd,$tabQuestions);
+			creationPartie($bdd);
 		}else if($requestRessource == 'jeu'){
 			score($bdd);
 		}
@@ -54,15 +50,16 @@
 				$data=$bdd->query("SELECT q.id_question,q.solution_un,q.solution_deux FROM question As q,contient AS c WHERE c.id_question=q.id_question AND q.question_actif=1 AND c.id_partie=".$id_partie."");
 			}else if($requestRessource == 'propositions'){
 				$id_question=$_GET['id_question'];
-				$data=$bdd->query("SELECT texte_proposition,solution_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
+				$data=$bdd->query("SELECT texte_proposition FROM proposition Where id_question=".$id_question." AND proposition_actif=1 ORDER BY RAND() LIMIT 3");
 			}else if($requestRessource=='pseudo'){
 				$pseudo=$_GET['pseudo'];
 				$data=$bdd->query("SELECT pseudo FROM utilisateurs WHERE pseudo='".$pseudo."'");
 			}else if($requestRessource=='email'){
 				$mail=$_GET['email'];
 				$data=$bdd->query("SELECT mail FROM utilisateurs WHERE mail='".$mail."'");
+			}else if($requestRessource=='solutionspropositions'){
+				verifReponse($bdd);
 			}
-
 			sendJsonData($data,'HTTP/1.1 200 OK');
 			break;
 		case "PUT":

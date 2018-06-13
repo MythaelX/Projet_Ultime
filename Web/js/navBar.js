@@ -1,20 +1,31 @@
+/*!
+*	\file navBar
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
+
 'use strict';
 
-var pseudo =null;
-if(Cookies.get('pseudo')){
-  pseudo = Cookies.get('pseudo');
-}
+affichageNav();
 
-affichageNav(pseudo);
-
-function affichageNav(pseudo){
-  if(pseudo==null){
-    affichageDeconnecter();
-  }else{
+/*!
+*	\brief  Manage the display of the navBar if a pseudo cookie exists or not.
+*
+*/
+function affichageNav(){
+  var pseudo;
+  if(Cookies.get('pseudo')){
+    pseudo = Cookies.get('pseudo');
     ajaxRequest('GET', 'php/request.php/navInfo', affichageConnecter,'pseudo='+pseudo);
+  }else{
+    affichageDeconnecter();
   }
 }
 
+/*!
+*	\brief  Displays the navbar when you are disconnected
+*
+*/
 function affichageDeconnecter(){
   var text ="";
   text+='<li><a href="./connexion.php" target="_self">CONNEXION</a></li>';
@@ -22,6 +33,10 @@ function affichageDeconnecter(){
   $('#connexion').innerHTML= text;
 }
 
+/*!
+*	\brief  Displays the navbar when you are connected
+*
+*/
 function affichageConnecter(ajaxResponse){
   var json= JSON.parse(ajaxResponse);
   var text ="";
@@ -31,6 +46,10 @@ function affichageConnecter(ajaxResponse){
   $('#boutonDeconnexion').addEventListener('click',deconnexion);
 }
 
+/*!
+*	\brief  Delete cookies and the current session and reload the page
+*
+*/
 function deconnexion(){
   ajaxRequest('DELETE','php/request.php/sessionDestroy')
   Cookies.remove('pseudo');

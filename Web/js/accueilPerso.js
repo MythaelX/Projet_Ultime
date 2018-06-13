@@ -1,5 +1,14 @@
+/*!
+*	\file	accueilPerso
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
+
 'use strict';
+affichageAccueil();
 ajaxRequest('GET','php/request.php/tableauDifficulte',affichageDifficulte);
+
+/* addEventListener */
 $("#boutonModifier").addEventListener('click',function(event){
   event.preventDefault();
   document.location="./modifier-son-profil.php";
@@ -15,10 +24,14 @@ $('#difficulte').addEventListener('change',function(event){
   console.log(difficulte);
   ajaxRequest('GET','php/request.php/tableauParties',affichageParties,'difficulte='+difficulte);
 });
+/***************************/
 
-affichageAccueil(pseudo);
-function affichageAccueil(pseudo){
-  if(pseudo!=null){
+/*!
+*	\brief    Displays the block "accueilPerso" if he is connected.
+*
+*/
+function affichageAccueil(){
+  if(Cookies.get('pseudo')){
     var difficulte=1;
     $('#presentation').style.display= "none";
     $('#accueilPerso').style.display= "block";
@@ -26,6 +39,10 @@ function affichageAccueil(pseudo){
   }
 }
 
+/*!
+*	\brief    Displays the array of the games in relation of the difficulty.
+*		\param[in]		ajaxResponse   The array of the games
+*/
 function affichageParties(ajaxResponse){
   var text,json;
   json= JSON.parse(ajaxResponse);

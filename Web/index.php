@@ -1,4 +1,16 @@
 <?php
+/*!
+*	\mainpage	HOT DOG QUIZ
+*		\par
+*
+*	\date		12/06/2018
+*	\author		EVEN CLEMENT
+*/
+/*!
+*	\file	index
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
 	require_once("php/bases/class-Head_Creator.php");
 	require_once("php/bases/_functions.php");
 	require_once("php/bases/bdd.php");
@@ -27,7 +39,7 @@
 	/*******************/
 
 	/* Scripts personnels */
-		$head->head_script("js/fonction.js");
+		$head->head_script("js/fonctions.js");
 		$head->head_script("js/navBar.js");
 		$head->head_script("js/accueilPerso.js");
 	/***************************/
@@ -38,7 +50,7 @@
 		<header><?php require_once("php/header.temp.inc"); ?></header>
 		<nav><?php require_once("php/nav.temp.inc"); ?></nav>
 		<main>
-			<?php require_once("php/verificationToken.php");?>
+			<?php require_once("php/verificationToken.php"); ?>
 			<?php require_once("php/accueil.php"); ?>
 		</main>
 		<footer><?php require_once("php/footer.temp.inc"); ?></footer>

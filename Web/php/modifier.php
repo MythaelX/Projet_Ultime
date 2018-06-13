@@ -1,4 +1,9 @@
 <?php
+/*!
+*	\file	modifier
+*	\author	EVEN CLEMENT
+*	\date	12/06/2018
+*/
 require_once("bases/_functions.php");
 require_once("bases/getter.php");
 require_once("bases/errors.php");

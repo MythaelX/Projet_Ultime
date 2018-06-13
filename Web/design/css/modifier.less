@@ -1,0 +1,85 @@
+main {
+  div#modifier{
+    width: 800px;
+    .margin-sides(auto);
+    color: @white1;
+    text-align: center;
+    h1{
+      font-weight: normal;
+      margin-top: 3%;
+      .font('cheeseburger',2em);
+    }
+    div#blockAvatar{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 13em;
+      img{
+        .border-radius(100%);
+        .default-border();
+        .margin-sides(auto);
+        .size(12em);
+      }
+
+
+      div{
+        #boutonAvatar{
+          display: none;
+        }
+        #boutonAvatar2{
+          cursor: pointer;
+          background-image: @imagemodifier1;
+          position: absolute;
+          .border-radius(100%);
+          left: 50%;
+          top: 50%;
+          width: 12em;
+          height: 12em;
+          margin-top: -12.2em;
+          margin-left: -6em;
+          &:hover{
+          background-image: @imagemodifier2;
+          }
+          label{
+            cursor: pointer;
+            margin-left: -6em;
+            margin-top: 9em;
+            width: 100%;
+            position: absolute;
+          }
+        }
+      }
+    }
+
+    div.textinput{
+      margin-top: 2%;
+      margin-right: 39%;
+      text-align: right;
+      input{
+        padding: 5px 0;
+        .border-radius(5px);
+      }
+    }
+    div#blocBoutons{
+      button,input{
+        margin-top: 40px;
+        margin-right: 40px;
+        width: 28%;
+        padding: 5px 0;
+        color: @black3;
+        font-size: 1.3em;
+        .default-border();
+        .border-radius(5px);
+        &:hover {
+          box-shadow: -2.5px 2px 8px 8px @black2;
+        }
+      }
+      button{
+        .redButton();
+      }
+      input{
+        .greenButton();
+      }
+    }
+  }
+}

@@ -10,8 +10,8 @@
 
 <div id="jeu">
 <h1 id="difficulte"></h1>
-<h2 id="question">"la question en php"</h2>
-<h3 id="proposition">"la proposition js"</h3>
+<h2 id="question"></h2>
+<h3 id="proposition"></h3>
 <div id="blockBoutons">
 <button id="bouton1"></button>
 <button id="bouton2"></button>

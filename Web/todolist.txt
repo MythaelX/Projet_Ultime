@@ -1,7 +1,3 @@
--js margin top
--probleme message d'erreur
--css select accueil perso
-
--verification creation partie
+-encrypter les mdps
 -trouver question proposition 6 question min et 3 proposition min par theme
--commenter code
+-verification creation partie
