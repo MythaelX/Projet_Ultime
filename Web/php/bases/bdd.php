@@ -196,25 +196,15 @@
 			if($opt !== ""){
 				$opts = explode(" AND ", $opt);
 
-				error_log("Opt = " . $opt);
 				for($i = 0; $i < sizeof($opts); ++$i){
-					error_log("Arg = " . $opts[$i]);
 					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $opts[$i])));
 
-					error_log("Args = " . $args[1]);
-					$args[1] = addslashes($args[1]);
-					error_log("Args = " . $args[1]);
-					$args[1] = replace_all("\\\\", "\\", $args[1]);
-					error_log("Args = " . $args[1]);
-					$args[1] = "'" . $args[1] . "'";
-					error_log("Args = " . $args[1]);
+					$args[1] = "'" . addslashes($args[1]) . "'";
 
 					$opts[$i] = implode(" = ", $args);
-					error_log("Arg = " . $opts[$i]);
 				}
 
 				$opt = implode(" AND ", $opts);
-				error_log("Opt = " . $opt);
 			}
 
 			try {
