@@ -208,7 +208,7 @@ void MainWindow::createAdminWidgets(){
 						hLayouts["admin buttons"]->addWidget(tableButtons[indexDelButton]);
 					}
 
-					if(1){
+					if(table.find("utilisateurs") == std::string::npos){
 						std::string indexModButton = "modify " + table;
 						tableButtons[indexModButton] = new GreyPushButton;
 						tableButtons[indexModButton]->setTable(table);
@@ -222,7 +222,7 @@ void MainWindow::createAdminWidgets(){
 						hLayouts["admin buttons"]->addWidget(tableButtons[indexModButton]);
 					}
 
-					if(table.find("difficulte") == std::string::npos){
+					if(table.find("difficulte") == std::string::npos && table.find("utilisateurs") == std::string::npos){
 						std::string indexAddButton = "add " + table;
 						tableButtons[indexAddButton] = new GreenPushButton;
 						tableButtons[indexAddButton]->setTable(table);

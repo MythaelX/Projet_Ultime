@@ -136,8 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b5a3de51a890d7899182f4ff75e9751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a> ()</td></tr>
 <tr class="memdesc:a7b5a3de51a890d7899182f4ff75e9751"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constructor of the <a class="el" href="../../dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class.  <a href="#a7b5a3de51a890d7899182f4ff75e9751">More...</a><br /></td></tr>
 <tr class="separator:a7b5a3de51a890d7899182f4ff75e9751"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbdfbed6f6de89660962f760e78812bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a> ()</td></tr>
-<tr class="separator:afbdfbed6f6de89660962f760e78812bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa389c613d710919ea274fc2c33f48129"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#aa389c613d710919ea274fc2c33f48129">~Threadable</a> ()</td></tr>
+<tr class="separator:aa389c613d710919ea274fc2c33f48129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b5b43b02f693cdde338ef942675234a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">launch</a> ()=0</td></tr>
 <tr class="memdesc:a0b5b43b02f693cdde338ef942675234a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the thread.  <a href="#a0b5b43b02f693cdde338ef942675234a">More...</a><br /></td></tr>
 <tr class="separator:a0b5b43b02f693cdde338ef942675234a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +196,7 @@ template&lt;class C&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="afbdfbed6f6de89660962f760e78812bf"></a>
+<a class="anchor" id="aa389c613d710919ea274fc2c33f48129"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -206,7 +206,7 @@ template&lt;class C&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::~<a class="el" href="../../dc/d3c/a00028.php">Threadable</a> </td>
+          <td class="memname">virtual <a class="el" href="../../dc/d3c/a00028.php">Threadable</a>&lt; C &gt;::~<a class="el" href="../../dc/d3c/a00028.php">Threadable</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -214,7 +214,7 @@ template&lt;class C&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

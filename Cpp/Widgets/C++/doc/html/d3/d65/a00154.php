@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
   <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a5f16e8da27d2a5a5242dead46de05d97">Timer</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="../../d5/d16/a00029.php#a2aeae96f6681e81e4800b8ec5aa8fbcd">updater</a>()</td><td class="entry"><a class="el" href="../../d5/d16/a00029.php">Timer</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#aa389c613d710919ea274fc2c33f48129">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; Timer &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

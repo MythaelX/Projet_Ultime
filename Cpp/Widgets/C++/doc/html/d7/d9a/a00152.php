@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a1fb118abc832fb483fb82f8d9d87521f">mutex</a></td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">stop</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#aa389c613d710919ea274fc2c33f48129">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

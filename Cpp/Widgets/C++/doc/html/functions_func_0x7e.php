@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('functions_func_0x7e.php','');});
 : <a class="el" href="d3/d52/a00023.php#a3ce0168273b6d0be5f66b3b6136397ff">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>~Threadable()
-: <a class="el" href="dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">Threadable&lt; C &gt;</a>
+: <a class="el" href="dc/d3c/a00028.php#aa389c613d710919ea274fc2c33f48129">Threadable&lt; C &gt;</a>
 </li>
 <li>~Tree()
 : <a class="el" href="d5/d79/a00030.php#a04affc46d89a0ef5d517ab685c9c346e">Tree&lt; T &gt;</a>
