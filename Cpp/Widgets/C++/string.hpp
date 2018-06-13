@@ -2,7 +2,7 @@
 *
 *	\file		string.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		08 juin 2018
+*	\date		13 juin 2018
 *
 */
 #ifndef HEADER_STRING
@@ -31,6 +31,15 @@ std::vector<std::string> split(std::string in, char separator = ' ');
 *		\return			void
 */
 std::vector<std::string> split(std::string in, std::string c);
+/*!
+* \brief	Explode a string in an array with the given separators
+*		\param[in]		in		The string to cut
+*		\param[in]		cars	The separators string to cut \a in
+*
+*		\return			void
+*/
+std::vector<std::string> split(std::string in, std::vector<std::string> cars);
+
 
 /*! \brief Alias for \b split */
 	ALIAS_TEMPLATE_FUNCTION(explode, split);

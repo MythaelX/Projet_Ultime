@@ -39,6 +39,18 @@ std::vector<std::string> split(std::string in, std::string c){
 	return out;
 }
 
+std::vector<std::string> split(std::string in, std::vector<std::string> cars){
+	std::vector<std::string> out;
+	std::string mask = "&*-/_=";
+
+	for(auto car : cars){
+		in = replace(in, car, mask);
+	}
+	out = explode(in, mask);
+
+	return out;
+}
+
 void trim(std::string& in){
 	std::string out = in;
 	in = "";

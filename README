@@ -2,7 +2,7 @@ WEB
 Sur votre machine
 	sudo nano /etc/hosts
 Après la liste des ips, ajouter
-	172.31.3.59	hotdogquiz.fr
+	la bonne ip	hotdogquiz.fr
 
 Sur le serveur
 	cd /etc/apache2/sites-available
@@ -34,3 +34,15 @@ CPP
 Dans le dossier Cpp, taper uniquement
 	make qt
 	make qtInstall && ./Cpp
+
+BDD
+Dans le dossier BDD
+	Créer un utilisateur
+		hotdogquiz
+	avec comme mot de passe
+		hotdogquiz
+	et ayant une base
+		hotdogquiz
+	et tous les droits sur la table
+
+	bdd.sql
