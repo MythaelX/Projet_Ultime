@@ -1,3 +1,2 @@
--encrypter les mdps
 -trouver question proposition 6 question min et 3 proposition min par theme
 -verification creation partie

@@ -97,14 +97,19 @@ function verifMail(){
 
 /*!*	\brief    Check if the value of the password is correct compared to the database password.*/
 function mdpActuelVerif(){
-  mdpActuel=$("#mdpActuel");
-  if(mdpActuel.value==mdpActuelBDD){
-    surligne(mdpActuel, false);
-    return false;
-  }else{
-    surligne(mdpActuel, true);
-    return true;
-  }
+  var verification;
+  var mdp=$('#mdpActuel');
+  ajaxRequest('GET','php/request.php/verifMotDePasse',function(ajaxResponse){
+    json= JSON.parse(ajaxResponse);
+    if(!json['verification']){
+      surligne(mdpActuel, false);
+      verification=false;
+    }else{
+      surligne(mdpActuel, true);
+      verification=true;
+    }
+  },"mdp="+mdp.value+"&pseudo="+Cookies.get('pseudo'),function(){},false);
+  return verification;
 }
 
 /*!*

@@ -33,7 +33,7 @@ function sendJsonData($message, $h){
 function authentification($bdd){
     $pseudo = $_SERVER['PHP_AUTH_USER'];
     $mdp = $_SERVER['PHP_AUTH_PW'];
-    $statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password='$mdp'"); //sha1('$mdp')
+    $statue = $bdd->query("select * from utilisateurs where pseudo='$pseudo' and password=SHA1('".$mdp."')"); 
     if(!$statue){
         header('HTTP/1.1 401 Identifiants incorrects');
         exit;

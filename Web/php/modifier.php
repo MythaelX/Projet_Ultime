@@ -23,9 +23,9 @@ if($_POST['mdp']!=""){
 
 if($_FILES['boutonAvatar']['name']!=""){
   $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
-  $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password='".$mdp."',avatar='files/img/".$avatar."' WHERE utilisateurs.pseudo='".$pseudo."'");
+  $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password=SHA1('".$mdp."'),avatar='files/img/".$avatar."' WHERE utilisateurs.pseudo='".$pseudo."'");
 }else{
-  $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password='".$mdp."' WHERE utilisateurs.pseudo='".$pseudo."'");
+  $bdd->query("UPDATE utilisateurs SET pseudo='".$pseudoModifier."',password=SHA1('".$mdp."') WHERE utilisateurs.pseudo='".$pseudo."'");
 }
 
 header('Location: ../index.php');

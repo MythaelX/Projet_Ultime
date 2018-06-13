@@ -14,13 +14,12 @@ $bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
 $email=$_POST['email'];
 $pseudo = $_POST['pseudo'];
 $mdp = $_POST['mdp'];
-
 $avatar=saveFileTo($_FILES['boutonAvatar'],"../files/img");
 if($avatar != false){
-  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."','".$mdp."','files/img/".$avatar."',' '");
+  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."',SHA1('".$mdp."'),'files/img/".$avatar."',' '");
   header('Location: ../inscription.php');
 }else{
-  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."','".$mdp."','design/img/avatardefaut.png',' '");
+  $bdd->insert('utilisateurs', "'".$email."','".$pseudo."',SHA1('".$mdp."'),'design/img/avatardefaut.png',' '");
 }
 header('Location: ../index.php');
 

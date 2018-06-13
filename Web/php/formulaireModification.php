@@ -11,10 +11,8 @@ require_once("bddConnect.inc");
 
 $pseudo=$_COOKIE['pseudo'];
 $bdd = new Bdd("mysql", $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS);
-$data=$bdd->query("SELECT mail,password,avatar FROM utilisateurs WHERE pseudo='".$pseudo."'")[0];
+$data=$bdd->query("SELECT mail,avatar FROM utilisateurs WHERE pseudo='".$pseudo."'")[0];
 $avatar=$data['avatar'];
-$password=$data['password'];
-echo "<script> var mdpActuelBDD='".$password."'</script>"; 
 ?>
 <div id="modifier">
 <h1>Modifier le profil</h1>

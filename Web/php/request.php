@@ -62,6 +62,15 @@
 				$data=$bdd->query("SELECT mail FROM utilisateurs WHERE mail='".$mail."'");
 			}else if($requestRessource=='solutionspropositions'){
 				verifReponse($bdd);
+			}else if($requestRessource=='verifMotDePasse'){
+				$pseudo=$_GET['pseudo'];
+				$mdp=$_GET['mdp'];
+				$password=$bdd->query("SELECT password FROM utilisateurs WHERE pseudo='".$pseudo."' AND password=SHA1('".$mdp."')");
+				if(isset($password[0]['password'])){
+					$data=["verification" => false];
+				}else{
+					$data=["verification" => true];
+				}
 			}
 			sendJsonData($data,'HTTP/1.1 200 OK');
 			break;
