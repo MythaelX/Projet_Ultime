@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['recuperationreponsetemp',['recuperationReponseTemp',['../dd/d1b/a00015.php#a386cd203962abda96c636c5e90a9ba36',1,'jeu.js']]],
-  ['recupererpropositions',['recupererPropositions',['../dd/d1b/a00015.php#aeb580a625cac6fdcbd0386c6a35db66f',1,'jeu.js']]],
-  ['recupererquestions',['recupererQuestions',['../dd/d1b/a00015.php#a9fe0edff04aec322abcdf9789acffee7',1,'jeu.js']]],
-  ['recupérationavatar',['recupérationAvatar',['../d7/dd4/a00013.php#a1426a760631d33602005a8bb59e49c7a',1,'inscription.js']]]
+  ['score',['score',['../df/d86/a00012.php#af5fde6a754bc0e9c7872a974abde85a8',1,'fonctions.php']]],
+  ['sendjsondata',['sendJsonData',['../df/d86/a00012.php#afcef1294902ca07027096e59292f89c1',1,'fonctions.php']]],
+  ['surligne',['surligne',['../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988',1,'surligne(champ, erreur):&#160;fonction.js'],['../da/d45/a00011.php#a76081b25499ce0257c512f37f1ad9988',1,'surligne(champ, erreur):&#160;fonctions.js']]]
 ];

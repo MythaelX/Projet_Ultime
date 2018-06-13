@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: formulaireConnexion.php File Reference</title>
+<title>Hot Dog QUIZ: fonction.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,18 +102,320 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">formulaireConnexion.php File Reference</div>  </div>
+<div class="title">fonction.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d7/dec/a00010_source.php">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1426a760631d33602005a8bb59e49c7a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1426a760631d33602005a8bb59e49c7a">recupérationAvatar</a> ()</td></tr>
+<tr class="separator:a1426a760631d33602005a8bb59e49c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db9c30b86d2f4aa120daa6247990007"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a0db9c30b86d2f4aa120daa6247990007">verifPseudo</a> ()</td></tr>
+<tr class="separator:a0db9c30b86d2f4aa120daa6247990007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7778e2c5dd64ac673d79add217c6cf"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a5e7778e2c5dd64ac673d79add217c6cf">verifMotDePasse</a> ()</td></tr>
+<tr class="separator:a5e7778e2c5dd64ac673d79add217c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad853bfd925b71db5ce9624d60548b1b7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad853bfd925b71db5ce9624d60548b1b7">verifMotDePasse2</a> ()</td></tr>
+<tr class="separator:ad853bfd925b71db5ce9624d60548b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a822815e57b31479eb6d364e3003fa2"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a4a822815e57b31479eb6d364e3003fa2">verifMail</a> ()</td></tr>
+<tr class="separator:a4a822815e57b31479eb6d364e3003fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d34320afdb9ab37a4214a0c33d4791"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a47d34320afdb9ab37a4214a0c33d4791">mdpActuelVerif</a> ()</td></tr>
+<tr class="separator:a47d34320afdb9ab37a4214a0c33d4791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5538f7db327e4d05dd85cbfb8db94d7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a> (ajaxResponse)</td></tr>
+<tr class="separator:ac5538f7db327e4d05dd85cbfb8db94d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e23b6a325155daad0f098a989d6d41"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a24e23b6a325155daad0f098a989d6d41">verifEmailBDD</a> (ajaxResponse)</td></tr>
+<tr class="separator:a24e23b6a325155daad0f098a989d6d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76081b25499ce0257c512f37f1ad9988"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988">surligne</a> (champ, erreur)</td></tr>
+<tr class="separator:a76081b25499ce0257c512f37f1ad9988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34b3788c0664245d1de030f262f040ef"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a> (ajaxResponse)</td></tr>
+<tr class="separator:a34b3788c0664245d1de030f262f040ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae2475e10618961c050dcba04e8c42331"><td class="memItemLeft" align="right" valign="top">use&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ae2475e10618961c050dcba04e8c42331">strict</a></td></tr>
+<tr class="separator:ae2475e10618961c050dcba04e8c42331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a34b3788c0664245d1de030f262f040ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function affichageDifficulte </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00131">131</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a47d34320afdb9ab37a4214a0c33d4791"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function mdpActuelVerif </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00090">90</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a47d34320afdb9ab37a4214a0c33d4791_cgraph.png" border="0" usemap="#d7/dec/a00010_a47d34320afdb9ab37a4214a0c33d4791_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a47d34320afdb9ab37a4214a0c33d4791_cgraph" id="d7/dec/a00010_a47d34320afdb9ab37a4214a0c33d4791_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="164,5,231,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1426a760631d33602005a8bb59e49c7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function recupérationAvatar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00002">2</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76081b25499ce0257c512f37f1ad9988"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function surligne </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>champ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>erreur</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00124">124</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a24e23b6a325155daad0f098a989d6d41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifEmailBDD </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00113">113</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a24e23b6a325155daad0f098a989d6d41_cgraph.png" border="0" usemap="#d7/dec/a00010_a24e23b6a325155daad0f098a989d6d41_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a24e23b6a325155daad0f098a989d6d41_cgraph" id="d7/dec/a00010_a24e23b6a325155daad0f098a989d6d41_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="163,5,229,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a822815e57b31479eb6d364e3003fa2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifMail </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00077">77</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a4a822815e57b31479eb6d364e3003fa2_cgraph.png" border="0" usemap="#d7/dec/a00010_a4a822815e57b31479eb6d364e3003fa2_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a4a822815e57b31479eb6d364e3003fa2_cgraph" id="d7/dec/a00010_a4a822815e57b31479eb6d364e3003fa2_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="124,5,191,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e7778e2c5dd64ac673d79add217c6cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifMotDePasse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00027">27</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a5e7778e2c5dd64ac673d79add217c6cf_cgraph.png" border="0" usemap="#d7/dec/a00010_a5e7778e2c5dd64ac673d79add217c6cf_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a5e7778e2c5dd64ac673d79add217c6cf_cgraph" id="d7/dec/a00010_a5e7778e2c5dd64ac673d79add217c6cf_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="176,5,243,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad853bfd925b71db5ce9624d60548b1b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifMotDePasse2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00055">55</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_ad853bfd925b71db5ce9624d60548b1b7_cgraph.png" border="0" usemap="#d7/dec/a00010_ad853bfd925b71db5ce9624d60548b1b7_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_ad853bfd925b71db5ce9624d60548b1b7_cgraph" id="d7/dec/a00010_ad853bfd925b71db5ce9624d60548b1b7_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="184,5,251,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0db9c30b86d2f4aa120daa6247990007"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifPseudo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00014">14</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_a0db9c30b86d2f4aa120daa6247990007_cgraph.png" border="0" usemap="#d7/dec/a00010_a0db9c30b86d2f4aa120daa6247990007_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_a0db9c30b86d2f4aa120daa6247990007_cgraph" id="d7/dec/a00010_a0db9c30b86d2f4aa120daa6247990007_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="144,5,211,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5538f7db327e4d05dd85cbfb8db94d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function verifPseudoBDD </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00101">101</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dec/a00010_ac5538f7db327e4d05dd85cbfb8db94d7_cgraph.png" border="0" usemap="#d7/dec/a00010_ac5538f7db327e4d05dd85cbfb8db94d7_cgraph" alt=""/></div>
+<map name="d7/dec/a00010_ac5538f7db327e4d05dd85cbfb8db94d7_cgraph" id="d7/dec/a00010_ac5538f7db327e4d05dd85cbfb8db94d7_cgraph">
+<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a76081b25499ce0257c512f37f1ad9988" title="surligne" alt="" coords="173,5,240,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ae2475e10618961c050dcba04e8c42331"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">use strict</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00001">1</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonction.js</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.php">formulaireConnexion.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.php">fonction.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

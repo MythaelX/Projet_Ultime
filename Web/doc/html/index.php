@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: Main Page</title>
+<title>Hot Dog QUIZ: HOT DOG QUIZ</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -97,10 +97,13 @@ $(document).ready(function(){initNavTree('index.php','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Hot Dog QUIZ Documentation</div>  </div>
+<div class="title">HOT DOG QUIZ </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><dl class="section user"><dt></dt><dd></dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12/06/2018 </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>EVEN CLEMENT </dd></dl>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

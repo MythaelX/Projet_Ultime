@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: errors.php File Reference</title>
+<title>Hot Dog QUIZ: register.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,390 +103,115 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">errors.php File Reference</div>  </div>
+<div class="title">register.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../dc/d3c/a00028_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4c6673203933d2acfbb6719aead6a500"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500">setError</a> ($<a class="el" href="../../dc/d3c/a00028.php#ac78ddc67fc721a1acddd93679e9c51ab">error</a>, $<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>)</td></tr>
-<tr class="memdesc:a4c6673203933d2acfbb6719aead6a500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an error and exit the script if <em>$exit</em> = true.  <a href="#a4c6673203933d2acfbb6719aead6a500">More...</a><br /></td></tr>
-<tr class="separator:a4c6673203933d2acfbb6719aead6a500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49566ba58b1bc3e0fe9c6e031bcba7a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a49566ba58b1bc3e0fe9c6e031bcba7a7">badRequest</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a49566ba58b1bc3e0fe9c6e031bcba7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bad request error.  <a href="#a49566ba58b1bc3e0fe9c6e031bcba7a7">More...</a><br /></td></tr>
-<tr class="separator:a49566ba58b1bc3e0fe9c6e031bcba7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b3252462672dfe02aed986c9ad420c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a69b3252462672dfe02aed986c9ad420c">unauthorized</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a69b3252462672dfe02aed986c9ad420c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unauthorized error.  <a href="#a69b3252462672dfe02aed986c9ad420c">More...</a><br /></td></tr>
-<tr class="separator:a69b3252462672dfe02aed986c9ad420c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac64b33d00115e0de4cc70856413f5a29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ac64b33d00115e0de4cc70856413f5a29">forbidden</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:ac64b33d00115e0de4cc70856413f5a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forbidden access error.  <a href="#ac64b33d00115e0de4cc70856413f5a29">More...</a><br /></td></tr>
-<tr class="separator:ac64b33d00115e0de4cc70856413f5a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ae92c22c1e5668410ba32acb032ac0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a97ae92c22c1e5668410ba32acb032ac0">notFound</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a97ae92c22c1e5668410ba32acb032ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not found error.  <a href="#a97ae92c22c1e5668410ba32acb032ac0">More...</a><br /></td></tr>
-<tr class="separator:a97ae92c22c1e5668410ba32acb032ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35117e28b8ed5b266466f2f509a39e28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a35117e28b8ed5b266466f2f509a39e28">laugth</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a35117e28b8ed5b266466f2f509a39e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">I am a teapot.  <a href="#a35117e28b8ed5b266466f2f509a39e28">More...</a><br /></td></tr>
-<tr class="separator:a35117e28b8ed5b266466f2f509a39e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbd041cd9910f5f824af42ec0d252b5c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#acbd041cd9910f5f824af42ec0d252b5c">serverError</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:acbd041cd9910f5f824af42ec0d252b5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal server error.  <a href="#acbd041cd9910f5f824af42ec0d252b5c">More...</a><br /></td></tr>
-<tr class="separator:acbd041cd9910f5f824af42ec0d252b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a856ce32f72a512d154b16e4bea83b469"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a856ce32f72a512d154b16e4bea83b469">notImplemented</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a856ce32f72a512d154b16e4bea83b469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not implemented error.  <a href="#a856ce32f72a512d154b16e4bea83b469">More...</a><br /></td></tr>
-<tr class="separator:a856ce32f72a512d154b16e4bea83b469"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a97be188d3b0d8fe3c9ad0794b83173"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a8a97be188d3b0d8fe3c9ad0794b83173">badGateway</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:a8a97be188d3b0d8fe3c9ad0794b83173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bad gateway error.  <a href="#a8a97be188d3b0d8fe3c9ad0794b83173">More...</a><br /></td></tr>
-<tr class="separator:a8a97be188d3b0d8fe3c9ad0794b83173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac653444828c80c7f9242e306b5d591fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ac653444828c80c7f9242e306b5d591fd">unavailable</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:ac653444828c80c7f9242e306b5d591fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unavailable error.  <a href="#ac653444828c80c7f9242e306b5d591fd">More...</a><br /></td></tr>
-<tr class="separator:ac653444828c80c7f9242e306b5d591fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac78ddc67fc721a1acddd93679e9c51ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ac78ddc67fc721a1acddd93679e9c51ab">error</a> ($<a class="el" href="../../d2/dee/a00049.php#afb00944b44575a6b06d388e807358cd5">exit</a>=true)</td></tr>
-<tr class="memdesc:ac78ddc67fc721a1acddd93679e9c51ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">General error.  <a href="#ac78ddc67fc721a1acddd93679e9c51ab">More...</a><br /></td></tr>
-<tr class="separator:ac78ddc67fc721a1acddd93679e9c51ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad634f418b20382e2802f80532d76d3cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a> =$_POST['<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a>']</td></tr>
+<tr class="separator:ad634f418b20382e2802f80532d76d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a> = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td></tr>
+<tr class="separator:a5aaec5de32a8e7a31b5104f80d58dec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a> = $_POST['mdp']</td></tr>
+<tr class="separator:a8a65334de2f0d486a42b02ecf82fe8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62167326fcdc762297fe76407218b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#ac62167326fcdc762297fe76407218b55">$avatar</a> =saveFileTo($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td></tr>
+<tr class="separator:ac62167326fcdc762297fe76407218b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4107a18478ba654b01dd816130d8ba"><td class="memItemLeft" align="right" valign="top">if($avatar!=<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a7a4107a18478ba654b01dd816130d8ba">else</a></td></tr>
+<tr class="separator:a7a4107a18478ba654b01dd816130d8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
-
-<p>Definition in file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a8a97be188d3b0d8fe3c9ad0794b83173"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac62167326fcdc762297fe76407218b55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">badGateway </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$avatar =saveFileTo($_FILES['boutonAvatar'],&quot;../files/img&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bad gateway error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00058">58</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a8a97be188d3b0d8fe3c9ad0794b83173_cgraph.png" border="0" usemap="#dc/d3c/a00028_a8a97be188d3b0d8fe3c9ad0794b83173_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a8a97be188d3b0d8fe3c9ad0794b83173_cgraph" id="dc/d3c/a00028_a8a97be188d3b0d8fe3c9ad0794b83173_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="148,5,216,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00018">18</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a49566ba58b1bc3e0fe9c6e031bcba7a7"></a>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">badRequest </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bad request error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00023">23</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a49566ba58b1bc3e0fe9c6e031bcba7a7_cgraph.png" border="0" usemap="#dc/d3c/a00028_a49566ba58b1bc3e0fe9c6e031bcba7a7_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a49566ba58b1bc3e0fe9c6e031bcba7a7_cgraph" id="dc/d3c/a00028_a49566ba58b1bc3e0fe9c6e031bcba7a7_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="145,5,213,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00013">13</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac78ddc67fc721a1acddd93679e9c51ab"></a>
+<a class="anchor" id="ad634f418b20382e2802f80532d76d3cd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">error </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a> =$_POST['<a class="el" href="../../d4/d51/a00017.php#afabde1db53e2a42b1568728e0fc155f7">email</a>']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>General error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00068">68</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_ac78ddc67fc721a1acddd93679e9c51ab_cgraph.png" border="0" usemap="#dc/d3c/a00028_ac78ddc67fc721a1acddd93679e9c51ab_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_ac78ddc67fc721a1acddd93679e9c51ab_cgraph" id="dc/d3c/a00028_ac78ddc67fc721a1acddd93679e9c51ab_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="101,5,169,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00014">14</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac64b33d00115e0de4cc70856413f5a29"></a>
+<a class="anchor" id="a8a65334de2f0d486a42b02ecf82fe8fb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">forbidden </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$mdp = $_POST['mdp']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Forbidden access error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00033">33</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_ac64b33d00115e0de4cc70856413f5a29_cgraph.png" border="0" usemap="#dc/d3c/a00028_ac64b33d00115e0de4cc70856413f5a29_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_ac64b33d00115e0de4cc70856413f5a29_cgraph" id="dc/d3c/a00028_ac64b33d00115e0de4cc70856413f5a29_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="128,5,196,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00016">16</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a35117e28b8ed5b266466f2f509a39e28"></a>
+<a class="anchor" id="a5aaec5de32a8e7a31b5104f80d58dec0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">laugth </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">$<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a> = $_POST['<a class="el" href="../../de/d11/a00021.php#acb5170f884c0d14b57425cb802a1ad64">pseudo</a>']</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>I am a teapot. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00043">43</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a35117e28b8ed5b266466f2f509a39e28_cgraph.png" border="0" usemap="#dc/d3c/a00028_a35117e28b8ed5b266466f2f509a39e28_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a35117e28b8ed5b266466f2f509a39e28_cgraph" id="dc/d3c/a00028_a35117e28b8ed5b266466f2f509a39e28_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="111,5,179,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00015">15</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a97ae92c22c1e5668410ba32acb032ac0"></a>
+<a class="anchor" id="a7a4107a18478ba654b01dd816130d8ba"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">notFound </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
+          <td class="memname">if ($avatar!=<a class="el" href="../../de/d11/a00021.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a>) else</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Not found error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00038">38</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a97ae92c22c1e5668410ba32acb032ac0_cgraph.png" border="0" usemap="#dc/d3c/a00028_a97ae92c22c1e5668410ba32acb032ac0_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a97ae92c22c1e5668410ba32acb032ac0_cgraph" id="dc/d3c/a00028_a97ae92c22c1e5668410ba32acb032ac0_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="129,5,197,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a856ce32f72a512d154b16e4bea83b469"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">notImplemented </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Not implemented error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00053">53</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a856ce32f72a512d154b16e4bea83b469_cgraph.png" border="0" usemap="#dc/d3c/a00028_a856ce32f72a512d154b16e4bea83b469_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a856ce32f72a512d154b16e4bea83b469_cgraph" id="dc/d3c/a00028_a856ce32f72a512d154b16e4bea83b469_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="168,5,236,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="acbd041cd9910f5f824af42ec0d252b5c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">serverError </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Internal server error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00048">48</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_acbd041cd9910f5f824af42ec0d252b5c_cgraph.png" border="0" usemap="#dc/d3c/a00028_acbd041cd9910f5f824af42ec0d252b5c_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_acbd041cd9910f5f824af42ec0d252b5c_cgraph" id="dc/d3c/a00028_acbd041cd9910f5f824af42ec0d252b5c_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="140,5,208,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a4c6673203933d2acfbb6719aead6a500"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">setError </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$error</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return an error and exit the script if <em>$exit</em> = true. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">$error</td><td>The error type </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">$exit</td><td><b>true</b> or <em>false</em> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00014">14</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a69b3252462672dfe02aed986c9ad420c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unauthorized </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Unauthorized error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00028">28</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a69b3252462672dfe02aed986c9ad420c_cgraph.png" border="0" usemap="#dc/d3c/a00028_a69b3252462672dfe02aed986c9ad420c_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a69b3252462672dfe02aed986c9ad420c_cgraph" id="dc/d3c/a00028_a69b3252462672dfe02aed986c9ad420c_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="149,5,217,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ac653444828c80c7f9242e306b5d591fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unavailable </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$exit</em> = <code>true</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Unavailable error. </p>
-
-<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00063">63</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">errors.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_ac653444828c80c7f9242e306b5d591fd_cgraph.png" border="0" usemap="#dc/d3c/a00028_ac653444828c80c7f9242e306b5d591fd_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_ac653444828c80c7f9242e306b5d591fd_cgraph" id="dc/d3c/a00028_ac653444828c80c7f9242e306b5d591fd_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a4c6673203933d2acfbb6719aead6a500" title="Return an error and exit the script if $exit = true. " alt="" coords="140,5,208,32"/>
-</map>
-</div>
-</p>
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">  <a class="code" href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a>-&gt;insert(<span class="stringliteral">&#39;utilisateurs&#39;</span>, <span class="stringliteral">&quot;&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a>.<span class="stringliteral">&quot;&#39;,&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a>.<span class="stringliteral">&quot;&#39;,&#39;&quot;</span>.<a class="code" href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a>.<span class="stringliteral">&quot;&#39;,&#39;design/img/avatardefaut.png&#39;,&#39; &#39;&quot;</span>)</div><div class="ttc" id="a00028_php_a8a65334de2f0d486a42b02ecf82fe8fb"><div class="ttname"><a href="../../dc/d3c/a00028.php#a8a65334de2f0d486a42b02ecf82fe8fb">$mdp</a></div><div class="ttdeci">$mdp</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00016">register.php:16</a></div></div>
+<div class="ttc" id="a00028_php_a94f91e878bce0991e2cd595c5dd79b3f"><div class="ttname"><a href="../../dc/d3c/a00028.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a></div><div class="ttdeci">$bdd</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00013">register.php:13</a></div></div>
+<div class="ttc" id="a00028_php_a5aaec5de32a8e7a31b5104f80d58dec0"><div class="ttname"><a href="../../dc/d3c/a00028.php#a5aaec5de32a8e7a31b5104f80d58dec0">$pseudo</a></div><div class="ttdeci">$pseudo</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00015">register.php:15</a></div></div>
+<div class="ttc" id="a00028_php_ad634f418b20382e2802f80532d76d3cd"><div class="ttname"><a href="../../dc/d3c/a00028.php#ad634f418b20382e2802f80532d76d3cd">$email</a></div><div class="ttdeci">$email</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/a00028_source.php#l00014">register.php:14</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00022">22</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">register.php</a>.</p>
 
 </div>
 </div>
@@ -497,7 +220,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">errors.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dc/d3c/a00028.php">register.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

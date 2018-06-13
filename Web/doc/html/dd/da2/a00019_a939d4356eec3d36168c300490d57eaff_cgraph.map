@@ -1,0 +1,7 @@
+<map id="compteur" name="compteur">
+<area shape="rect" id="node2" href="$dd/da2/a00019.php#a386cd203962abda96c636c5e90a9ba36" title="Get the time and value of the answer with an ajax request for the value. " alt="" coords="129,5,308,32"/>
+<area shape="rect" id="node4" href="$dd/da2/a00019.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="check if the game is over. " alt="" coords="199,56,238,83"/>
+<area shape="rect" id="node3" href="$dd/da2/a00019.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="363,5,458,32"/>
+<area shape="rect" id="node5" href="$dd/da2/a00019.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="display the questions and propositions with the value of counter question and proposition. " alt="" coords="363,56,459,83"/>
+<area shape="rect" id="node6" href="$dd/da2/a00019.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="Display the time and the score of the game. " alt="" coords="356,107,465,133"/>
+</map>

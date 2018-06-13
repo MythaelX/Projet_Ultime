@@ -1,5 +1,8 @@
 var a00007 =
 [
-    [ "$bdd", "de/d5e/a00007.php#a94f91e878bce0991e2cd595c5dd79b3f", null ],
-    [ "$head", "de/d5e/a00007.php#a687ea7fcd78263867b5bd34ed56b6379", null ]
+    [ "affichageThemes", "de/d5e/a00007.php#aee6c29e01ed8d036be6656155f1080fe", null ],
+    [ "ajaxRequest", "de/d5e/a00007.php#a806ccfa4bdd83d47638b934f63aa597f", null ],
+    [ "creerPartie", "de/d5e/a00007.php#ae2409b5e868763f39bddaca9e2c23035", null ],
+    [ "nbThemes", "de/d5e/a00007.php#abaac36f85ddb9ededb3d06ba67dca72e", null ],
+    [ "strict", "de/d5e/a00007.php#ae2475e10618961c050dcba04e8c42331", null ]
 ];

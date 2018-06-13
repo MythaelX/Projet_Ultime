@@ -1,11 +1,18 @@
 var a00019 =
 [
-    [ "affichage", "dd/da2/a00019.php#af74f80f2d76592fc7d873aeabb9aecf5", null ],
-    [ "affichageBouton", "dd/da2/a00019.php#aae5ee08540b9075228e330d9f9db693c", null ],
-    [ "affichageTableau", "dd/da2/a00019.php#abb8998e94bb89c9a2293f342374e97bc", null ],
-    [ "ajaxRequest", "dd/da2/a00019.php#aefe809d5ec4fc79376f1ca1c67b71524", null ],
-    [ "ajaxRequest", "dd/da2/a00019.php#a20cd18a74fb2bbedbfacdb71b9aeadb7", null ],
-    [ "boutons", "dd/da2/a00019.php#ab0dcb30b8bb2d32fb8190ee86ff68922", null ],
-    [ "loadTabPalmares", "dd/da2/a00019.php#aa1ccf3e9b222affe42cc578b6d898694", null ],
+    [ "affichageDifficulte", "dd/da2/a00019.php#a34b3788c0664245d1de030f262f040ef", null ],
+    [ "affichageJeu", "dd/da2/a00019.php#a5cab69f44f6222a1ebdef86c7812ab6f", null ],
+    [ "affichageScore", "dd/da2/a00019.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2", null ],
+    [ "ajaxRequest", "dd/da2/a00019.php#a0228b8c787f8da646bec8fdca3eb908b", null ],
+    [ "compteur", "dd/da2/a00019.php#a939d4356eec3d36168c300490d57eaff", null ],
+    [ "jeu", "dd/da2/a00019.php#a8c9d97109099b8ce02792d0c4abd3ae3", null ],
+    [ "recuperationReponseTemp", "dd/da2/a00019.php#a386cd203962abda96c636c5e90a9ba36", null ],
+    [ "recupererPropositions", "dd/da2/a00019.php#aeb580a625cac6fdcbd0386c6a35db66f", null ],
+    [ "recupererQuestions", "dd/da2/a00019.php#a9fe0edff04aec322abcdf9789acffee7", null ],
+    [ "compteurProposition", "dd/da2/a00019.php#a8acc3305bb0c57accb21b6c3dfb9a6fd", null ],
+    [ "compteurQuestion", "dd/da2/a00019.php#a991c67d3335f20552b86efe85cc5d875", null ],
+    [ "data", "dd/da2/a00019.php#a20b6cd228a69593c03af5dc445393936", null ],
+    [ "proposition", "dd/da2/a00019.php#ab516b26a4218f0f59b789a0d446bf79f", null ],
+    [ "questions", "dd/da2/a00019.php#a22a3db21d6be0a4210b9693e40966afa", null ],
     [ "strict", "dd/da2/a00019.php#ae2475e10618961c050dcba04e8c42331", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: dates.php File Reference</title>
+<title>Hot Dog QUIZ: partie.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -104,90 +102,18 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">dates.php File Reference</div>  </div>
+<div class="title">partie.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d0/d33/a00027_source.php">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a064414d8c8aa8cc8f2d5d023c7c9b485">dateSql</a> ($date)</td></tr>
-<tr class="memdesc:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a date DD/MM/YYYY to YYYY-MM-DD.  <a href="#a064414d8c8aa8cc8f2d5d023c7c9b485">More...</a><br /></td></tr>
-<tr class="separator:a064414d8c8aa8cc8f2d5d023c7c9b485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9163d2fe688993dee3abd2ca8f183067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d33/a00027.php#a9163d2fe688993dee3abd2ca8f183067">sqlDate</a> ($date)</td></tr>
-<tr class="memdesc:a9163d2fe688993dee3abd2ca8f183067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a date YYYY-MM-DD to DD/MM/YYYY.  <a href="#a9163d2fe688993dee3abd2ca8f183067">More...</a><br /></td></tr>
-<tr class="separator:a9163d2fe688993dee3abd2ca8f183067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
-
-<p>Definition in file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a064414d8c8aa8cc8f2d5d023c7c9b485"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">dateSql </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$date</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert a date DD/MM/YYYY to YYYY-MM-DD. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">$date</td><td>The date to convert </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the SQL shape of the date </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00014">14</a> of file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9163d2fe688993dee3abd2ca8f183067"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sqlDate </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$date</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert a date YYYY-MM-DD to DD/MM/YYYY. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">$date</td><td>The date to convert </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Return the FR shape of the date </dd></dl>
-
-<p>Definition at line <a class="el" href="../../d0/d33/a00027_source.php#l00029">29</a> of file <a class="el" href="../../d0/d33/a00027_source.php">dates.php</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../dir_272b8c85f84b9c47a49e8b7a9d6744ed.php">bases</a></li><li class="navelem"><a class="el" href="../../d0/d33/a00027.php">dates.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d0/d33/a00027.php">partie.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
