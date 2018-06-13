@@ -24,10 +24,13 @@ Sur le serveur
 	sudo service apache2 restart
 
 	cd /var/www/html/
-	sudo ln -s "le/chemin/vers/le/dossier/du/site/" hotdogquiz
+	sudo ln -s "le/chemin/vers/le/dossier/du/projet/Web" hotdogquiz
 
-	cd "le/chemin/vers/le/dossier/du/site/"
-	chmod 777 files/
-	chmod 777 files/img/
+	cd "le/chemin/vers/le/dossier/du/projet/Web"
+	chmod 755 files/
+	chmod 755 files/img/
 
-
+CPP
+Dans le dossier Cpp, taper uniquement
+	make qt
+	make qtInstall && ./Cpp
