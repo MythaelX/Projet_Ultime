@@ -197,12 +197,14 @@
 				$opts = explode(" AND ", $opt);
 
 				error_log("Opt = " . $opt);
-				foreach($opts as $arg){
-					error_log("Arg = " . $arg);
-					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $arg)));
+				for($i = 0; $i < sizeof($opts); ++$i){
+					error_log("Arg = " . $opts[$i]);
+					$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $opts[$i])));
+
 					$args[1] = "'" . replace_all("'", "\'", $args[1]) . "'";
-					$arg = implode(" = ", $args);
-					error_log("Arg = " . $arg);
+
+					$opts[$i] = implode(" = ", $args);
+					error_log("Arg = " . $opts[$i]);
 				}
 
 				$opt = implode(" AND ", $opts);
