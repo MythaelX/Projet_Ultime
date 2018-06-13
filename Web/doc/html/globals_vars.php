@@ -85,11 +85,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_c"><span>c</span></a></li>
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_n"><span>n</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_q"><span>q</span></a></li>
-      <li class="current"><a href="#index_s"><span>s</span></a></li>
+      <li class="current"><a href="#index_v"><span>v</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -126,113 +127,139 @@ $(document).ready(function(){initNavTree('globals_vars.php','');});
 
 <h3><a class="anchor" id="index_0x24"></a>- $ -</h3><ul>
 <li>$avatar
-: <a class="el" href="d3/d52/a00023.php#ac62167326fcdc762297fe76407218b55">register.php</a>
+: <a class="el" href="d7/dd4/a00013.php#ac62167326fcdc762297fe76407218b55">formulaireModification.php</a>
+, <a class="el" href="de/d11/a00021.php#ac62167326fcdc762297fe76407218b55">modifier.php</a>
+, <a class="el" href="d6/d5b/a00026.php#ac62167326fcdc762297fe76407218b55">register.php</a>
 </li>
 <li>$bdd
-: <a class="el" href="d1/d7c/a00003.php#a94f91e878bce0991e2cd595c5dd79b3f">connexion.php</a>
-, <a class="el" href="de/d21/a00006.php#a94f91e878bce0991e2cd595c5dd79b3f">cree-une-partie.php</a>
-, <a class="el" href="de/d5e/a00007.php#a94f91e878bce0991e2cd595c5dd79b3f">creer-une-partie.php</a>
-, <a class="el" href="df/d86/a00012.php#a94f91e878bce0991e2cd595c5dd79b3f">index.php</a>
-, <a class="el" href="d2/de7/a00014.php#a94f91e878bce0991e2cd595c5dd79b3f">inscription.php</a>
-, <a class="el" href="d7/d7a/a00016.php#a94f91e878bce0991e2cd595c5dd79b3f">jeu.php</a>
-, <a class="el" href="d4/d51/a00017.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier.php</a>
-, <a class="el" href="db/db2/a00020.php#a94f91e878bce0991e2cd595c5dd79b3f">palmares.php</a>
-, <a class="el" href="d3/d52/a00023.php#a94f91e878bce0991e2cd595c5dd79b3f">register.php</a>
-, <a class="el" href="dc/de2/a00024.php#a94f91e878bce0991e2cd595c5dd79b3f">request.php</a>
+: <a class="el" href="dd/dad/a00005.php#a94f91e878bce0991e2cd595c5dd79b3f">connexion.php</a>
+, <a class="el" href="d1/d2b/a00018.php#a94f91e878bce0991e2cd595c5dd79b3f">jeu.php</a>
+, <a class="el" href="db/db2/a00020.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier-son-profil.php</a>
+, <a class="el" href="d4/dee/a00008.php#a94f91e878bce0991e2cd595c5dd79b3f">creer-une-partie.php</a>
+, <a class="el" href="dc/de2/a00024.php#a94f91e878bce0991e2cd595c5dd79b3f">palmares.php</a>
+, <a class="el" href="d7/dd4/a00013.php#a94f91e878bce0991e2cd595c5dd79b3f">formulaireModification.php</a>
+, <a class="el" href="d2/de7/a00014.php#a94f91e878bce0991e2cd595c5dd79b3f">index.php</a>
+, <a class="el" href="de/d11/a00021.php#a94f91e878bce0991e2cd595c5dd79b3f">modifier.php</a>
+, <a class="el" href="d6/d5b/a00026.php#a94f91e878bce0991e2cd595c5dd79b3f">register.php</a>
+, <a class="el" href="d7/d7a/a00016.php#a94f91e878bce0991e2cd595c5dd79b3f">inscription.php</a>
+, <a class="el" href="d0/d33/a00027.php#a00e0ef2ec723c55ed4a69fd7a026ef33">request.php</a>
+, <a class="el" href="d5/d79/a00030.php#a94f91e878bce0991e2cd595c5dd79b3f">verificationToken.php</a>
 </li>
 <li>$data
-: <a class="el" href="dc/de2/a00024.php#a6efc15b5a2314dd4b5aaa556a375c6d6">request.php</a>
+: <a class="el" href="d7/dd4/a00013.php#a6efc15b5a2314dd4b5aaa556a375c6d6">formulaireModification.php</a>
+, <a class="el" href="d0/d33/a00027.php#a6efc15b5a2314dd4b5aaa556a375c6d6">request.php</a>
 </li>
 <li>$email
-: <a class="el" href="d3/d52/a00023.php#ad634f418b20382e2802f80532d76d3cd">register.php</a>
+: <a class="el" href="d6/d5b/a00026.php#ad634f418b20382e2802f80532d76d3cd">register.php</a>
 </li>
 <li>$head
-: <a class="el" href="de/d21/a00006.php#a687ea7fcd78263867b5bd34ed56b6379">cree-une-partie.php</a>
-, <a class="el" href="d1/d7c/a00003.php#a687ea7fcd78263867b5bd34ed56b6379">connexion.php</a>
-, <a class="el" href="d4/d51/a00017.php#a687ea7fcd78263867b5bd34ed56b6379">modifier.php</a>
-, <a class="el" href="df/d86/a00012.php#a687ea7fcd78263867b5bd34ed56b6379">index.php</a>
-, <a class="el" href="d2/de7/a00014.php#a687ea7fcd78263867b5bd34ed56b6379">inscription.php</a>
-, <a class="el" href="db/db2/a00020.php#a687ea7fcd78263867b5bd34ed56b6379">palmares.php</a>
-, <a class="el" href="de/d5e/a00007.php#a687ea7fcd78263867b5bd34ed56b6379">creer-une-partie.php</a>
-, <a class="el" href="d7/d7a/a00016.php#a687ea7fcd78263867b5bd34ed56b6379">jeu.php</a>
+: <a class="el" href="d4/dee/a00008.php#a687ea7fcd78263867b5bd34ed56b6379">creer-une-partie.php</a>
+, <a class="el" href="dd/dad/a00005.php#a687ea7fcd78263867b5bd34ed56b6379">connexion.php</a>
+, <a class="el" href="dc/de2/a00024.php#a687ea7fcd78263867b5bd34ed56b6379">palmares.php</a>
+, <a class="el" href="d7/d7a/a00016.php#a687ea7fcd78263867b5bd34ed56b6379">inscription.php</a>
+, <a class="el" href="d1/d2b/a00018.php#a687ea7fcd78263867b5bd34ed56b6379">jeu.php</a>
+, <a class="el" href="db/db2/a00020.php#a687ea7fcd78263867b5bd34ed56b6379">modifier-son-profil.php</a>
+, <a class="el" href="d2/de7/a00014.php#a687ea7fcd78263867b5bd34ed56b6379">index.php</a>
 </li>
 <li>$mdp
-: <a class="el" href="d3/d52/a00023.php#a8a65334de2f0d486a42b02ecf82fe8fb">register.php</a>
+: <a class="el" href="d6/d5b/a00026.php#a8a65334de2f0d486a42b02ecf82fe8fb">register.php</a>
 </li>
 <li>$pseudo
-: <a class="el" href="d3/d52/a00023.php#a5aaec5de32a8e7a31b5104f80d58dec0">register.php</a>
+: <a class="el" href="de/d11/a00021.php#a5aaec5de32a8e7a31b5104f80d58dec0">modifier.php</a>
+, <a class="el" href="d6/d5b/a00026.php#a5aaec5de32a8e7a31b5104f80d58dec0">register.php</a>
+, <a class="el" href="d7/dd4/a00013.php#a5aaec5de32a8e7a31b5104f80d58dec0">formulaireModification.php</a>
+</li>
+<li>$pseudoModifier
+: <a class="el" href="de/d11/a00021.php#a55a8c6234ecd06b58ce8666a55bfd872">modifier.php</a>
 </li>
 <li>$requestRessource
-: <a class="el" href="dc/de2/a00024.php#a7fd0384e6fc79c4dac5e25ab16d186ba">request.php</a>
+: <a class="el" href="d0/d33/a00027.php#a7fd0384e6fc79c4dac5e25ab16d186ba">request.php</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>compteurProposition
-: <a class="el" href="dd/d1b/a00015.php#a8acc3305bb0c57accb21b6c3dfb9a6fd">jeu.js</a>
+: <a class="el" href="d4/d51/a00017.php#a8acc3305bb0c57accb21b6c3dfb9a6fd">jeu.js</a>
 </li>
 <li>compteurQuestion
-: <a class="el" href="dd/d1b/a00015.php#a991c67d3335f20552b86efe85cc5d875">jeu.js</a>
+: <a class="el" href="d4/d51/a00017.php#a991c67d3335f20552b86efe85cc5d875">jeu.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
 <li>data
-: <a class="el" href="dd/d1b/a00015.php#a20b6cd228a69593c03af5dc445393936">jeu.js</a>
+: <a class="el" href="d4/d51/a00017.php#a20b6cd228a69593c03af5dc445393936">jeu.js</a>
+</li>
+<li>difficulte
+: <a class="el" href="d1/d7c/a00003.php#ad71ab45724394ceb19d97c8180ab0e89">accueilPerso.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>else
+: <a class="el" href="de/d11/a00021.php#aa30a2c3cab7b8c96e66879eef63b543c">modifier.php</a>
+, <a class="el" href="d6/d5b/a00026.php#aa30a2c3cab7b8c96e66879eef63b543c">register.php</a>
+</li>
+<li>email
+: <a class="el" href="dd/d1b/a00015.php#afabde1db53e2a42b1568728e0fc155f7">inscription.js</a>
+</li>
 <li>exit
-: <a class="el" href="dc/de2/a00024.php#afb00944b44575a6b06d388e807358cd5">request.php</a>
+: <a class="el" href="d0/d33/a00027.php#afb00944b44575a6b06d388e807358cd5">request.php</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>false
+: <a class="el" href="dd/d1b/a00015.php#a5df37b7f02e5cdc7d9412b7f872b8e01">inscription.js</a>
+, <a class="el" href="dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">modification.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
 <li>location
-: <a class="el" href="d8/d84/a00001.php#a9e7735e216b2770753e10ca177623f0f">accueilPerso.js</a>
+: <a class="el" href="d1/d7c/a00003.php#a9e7735e216b2770753e10ca177623f0f">accueilPerso.js</a>
+, <a class="el" href="dd/da2/a00019.php#a9e7735e216b2770753e10ca177623f0f">modification.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
 <li>nbThemes
-: <a class="el" href="d0/d0b/a00004.php#abaac36f85ddb9ededb3d06ba67dca72e">Creation.js</a>
+: <a class="el" href="de/d21/a00006.php#abaac36f85ddb9ededb3d06ba67dca72e">creation.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>proposition
-: <a class="el" href="dd/d1b/a00015.php#ab516b26a4218f0f59b789a0d446bf79f">jeu.js</a>
+: <a class="el" href="d4/d51/a00017.php#ab516b26a4218f0f59b789a0d446bf79f">jeu.js</a>
 </li>
 <li>pseudo
-: <a class="el" href="d1/d2b/a00018.php#a1f0d86ab32405786812d806542ca3280">navBar.js</a>
+: <a class="el" href="dd/d1b/a00015.php#a1f0d86ab32405786812d806542ca3280">inscription.js</a>
+, <a class="el" href="dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">modification.js</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
 <li>questions
-: <a class="el" href="dd/d1b/a00015.php#ac11b64f88548d479a2d12c6d6cdf9c6b">jeu.js</a>
+: <a class="el" href="d4/d51/a00017.php#a22a3db21d6be0a4210b9693e40966afa">jeu.js</a>
 </li>
 </ul>
 
 
-<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>solutionProposition
-: <a class="el" href="dd/d1b/a00015.php#a160fd6ecbda71c65cdea78feb687bec1">jeu.js</a>
+<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
+<li>verifBDDEmail
+: <a class="el" href="dd/d1b/a00015.php#adda857c7fc0ffa8117463c95f5ba277e">inscription.js</a>
 </li>
-<li>strict
-: <a class="el" href="d3/dfe/a00025.php#ae2475e10618961c050dcba04e8c42331">script.js</a>
-, <a class="el" href="dd/da2/a00019.php#ae2475e10618961c050dcba04e8c42331">palmares.js</a>
-, <a class="el" href="d1/d2b/a00018.php#ae2475e10618961c050dcba04e8c42331">navBar.js</a>
-, <a class="el" href="d7/dd4/a00013.php#ae2475e10618961c050dcba04e8c42331">inscription.js</a>
-, <a class="el" href="d7/d46/a00002.php#ae2475e10618961c050dcba04e8c42331">authentification.js</a>
+<li>verifBDDPseudo
+: <a class="el" href="dd/d1b/a00015.php#a558403c3a40c010539026c0e7e8a7b49">inscription.js</a>
+, <a class="el" href="dd/da2/a00019.php#a558403c3a40c010539026c0e7e8a7b49">modification.js</a>
 </li>
 </ul>
 </div><!-- contents -->

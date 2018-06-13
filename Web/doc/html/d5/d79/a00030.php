@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: fonctions.php File Reference</title>
+<title>Hot Dog QUIZ: verificationToken.php File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,8 +47,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
-      <li><a href="../../annotated.php"><span>Data&#160;Structures</span></a></li>
       <li class="current"><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -105,146 +103,31 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">fonctions.php File Reference</div>  </div>
+<div class="title">verificationToken.php File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d5/d79/a00030_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afcef1294902ca07027096e59292f89c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#afcef1294902ca07027096e59292f89c1">sendJsonData</a> ($message, $h)</td></tr>
-<tr class="separator:afcef1294902ca07027096e59292f89c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">authentification</a> ($bdd)</td></tr>
-<tr class="separator:a4c00ed23cbac293dc1b0c38b4ca6e3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a392292a494893cd5382dd1c9273ee9c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a392292a494893cd5382dd1c9273ee9c8">verifieToken</a> ($bdd)</td></tr>
-<tr class="separator:a392292a494893cd5382dd1c9273ee9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a724c1f237bf9d61e65f9190f327a36ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a724c1f237bf9d61e65f9190f327a36ca">creationPartie</a> ($bdd, $tabQuestions)</td></tr>
-<tr class="separator:a724c1f237bf9d61e65f9190f327a36ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5fde6a754bc0e9c7872a974abde85a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#af5fde6a754bc0e9c7872a974abde85a8">score</a> ($bdd)</td></tr>
-<tr class="separator:af5fde6a754bc0e9c7872a974abde85a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php#a94f91e878bce0991e2cd595c5dd79b3f">$bdd</a> = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td></tr>
+<tr class="separator:a94f91e878bce0991e2cd595c5dd79b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a4c00ed23cbac293dc1b0c38b4ca6e3b6"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a94f91e878bce0991e2cd595c5dd79b3f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">authentification </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
+          <td class="memname">$bdd = new Bdd(&quot;mysql&quot;, $BDD_HOST, $BDD_NAME, $BDD_USER, $BDD_PASS)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00011">11</a> of file <a class="el" href="../../d5/d79/a00030_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a724c1f237bf9d61e65f9190f327a36ca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">creationPartie </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$tabQuestions</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00041">41</a> of file <a class="el" href="../../d5/d79/a00030_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af5fde6a754bc0e9c7872a974abde85a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">score </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00053">53</a> of file <a class="el" href="../../d5/d79/a00030_source.php">fonctions.php</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d5/d79/a00030_af5fde6a754bc0e9c7872a974abde85a8_cgraph.png" border="0" usemap="#d5/d79/a00030_af5fde6a754bc0e9c7872a974abde85a8_cgraph" alt=""/></div>
-<map name="d5/d79/a00030_af5fde6a754bc0e9c7872a974abde85a8_cgraph" id="d5/d79/a00030_af5fde6a754bc0e9c7872a974abde85a8_cgraph">
-<area shape="rect" id="node2" href="../../d7/dec/a00010.php#a9e0d51979af70f1e0d06bb7bb7047898" title="Function to know if a variable exist. " alt="" coords="136,5,187,32"/>
-<area shape="rect" id="node3" href="../../d5/d79/a00030.php#afcef1294902ca07027096e59292f89c1" title="sendJsonData" alt="" coords="108,56,215,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="afcef1294902ca07027096e59292f89c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sendJsonData </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$h</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00003">3</a> of file <a class="el" href="../../d5/d79/a00030_source.php">fonctions.php</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a392292a494893cd5382dd1c9273ee9c8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">verifieToken </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$bdd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00029">29</a> of file <a class="el" href="../../d5/d79/a00030_source.php">fonctions.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d79/a00030_source.php#l00013">13</a> of file <a class="el" href="../../d5/d79/a00030_source.php">verificationToken.php</a>.</p>
 
 </div>
 </div>
@@ -253,7 +136,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d5/d79/a00030.php">fonctions.php</a></li>
+    <li class="navelem"><a class="el" href="../../dir_05194b7bb14e4bdbd759acf3e4294839.php">php</a></li><li class="navelem"><a class="el" href="../../d5/d79/a00030.php">verificationToken.php</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

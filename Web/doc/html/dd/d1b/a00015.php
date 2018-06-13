@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Hot Dog QUIZ: jeu.js File Reference</title>
+<title>Hot Dog QUIZ: inscription.js File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">jeu.js File Reference</div>  </div>
+<div class="title">inscription.js File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -114,123 +114,57 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab71c22630f509647a916f70887b8c2ad"><td class="memItemLeft" align="right" valign="top">console&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ab71c22630f509647a916f70887b8c2ad">log</a> (id_partie)</td></tr>
-<tr class="separator:ab71c22630f509647a916f70887b8c2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0228b8c787f8da646bec8fdca3eb908b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b">ajaxRequest</a> ('GET','php/request.php/nomDifficulte', <a class="el" href="../../dd/d1b/a00015.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>,'id_partie='+id_partie)</td></tr>
-<tr class="separator:a0228b8c787f8da646bec8fdca3eb908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939d4356eec3d36168c300490d57eaff"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a939d4356eec3d36168c300490d57eaff">compteur</a> (event)</td></tr>
-<tr class="separator:a939d4356eec3d36168c300490d57eaff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34b3788c0664245d1de030f262f040ef"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a> (ajaxResponse)</td></tr>
-<tr class="separator:a34b3788c0664245d1de030f262f040ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9d97109099b8ce02792d0c4abd3ae3"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a8c9d97109099b8ce02792d0c4abd3ae3">jeu</a> ()</td></tr>
-<tr class="separator:a8c9d97109099b8ce02792d0c4abd3ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cab69f44f6222a1ebdef86c7812ab6f"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f">affichageJeu</a> ()</td></tr>
-<tr class="separator:a5cab69f44f6222a1ebdef86c7812ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a386cd203962abda96c636c5e90a9ba36"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a386cd203962abda96c636c5e90a9ba36">recuperationReponseTemp</a> (reponse)</td></tr>
-<tr class="separator:a386cd203962abda96c636c5e90a9ba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe0edff04aec322abcdf9789acffee7"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a9fe0edff04aec322abcdf9789acffee7">recupererQuestions</a> (ajaxResponse)</td></tr>
-<tr class="separator:a9fe0edff04aec322abcdf9789acffee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb580a625cac6fdcbd0386c6a35db66f"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#aeb580a625cac6fdcbd0386c6a35db66f">recupererPropositions</a> (ajaxResponse)</td></tr>
-<tr class="separator:aeb580a625cac6fdcbd0386c6a35db66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6f570fb5c26a4deb0c8f0fe5d0187b2"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2">affichageScore</a> (ajaxResponse)</td></tr>
-<tr class="separator:ab6f570fb5c26a4deb0c8f0fe5d0187b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
+<tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89b74d4c44cac1dd15ddd2ae9a0f948"><td class="memItemLeft" align="right" valign="top">console&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#aa89b74d4c44cac1dd15ddd2ae9a0f948">log</a> ($('#boutonAvatar').files[0].type)</td></tr>
+<tr class="separator:aa89b74d4c44cac1dd15ddd2ae9a0f948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2952b3a0807f32876447a30f44b4a4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#af2952b3a0807f32876447a30f44b4a4c">ajaxRequest</a> (&quot;GET&quot;,'php/request.php/<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>', <a class="el" href="../../da/da0/a00009.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a>,'<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>='+<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
+<tr class="separator:af2952b3a0807f32876447a30f44b4a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14c93c8599895dff3c04db5d1d8504c"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ae14c93c8599895dff3c04db5d1d8504c">valideInscription</a> (event)</td></tr>
+<tr class="memdesc:ae14c93c8599895dff3c04db5d1d8504c"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the information before the POST in the file register  <a href="#ae14c93c8599895dff3c04db5d1d8504c">More...</a><br /></td></tr>
+<tr class="separator:ae14c93c8599895dff3c04db5d1d8504c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac11b64f88548d479a2d12c6d6cdf9c6b"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ac11b64f88548d479a2d12c6d6cdf9c6b">questions</a> =new Array()</td></tr>
-<tr class="separator:ac11b64f88548d479a2d12c6d6cdf9c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab516b26a4218f0f59b789a0d446bf79f"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ab516b26a4218f0f59b789a0d446bf79f">proposition</a> =new Array()</td></tr>
-<tr class="separator:ab516b26a4218f0f59b789a0d446bf79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a160fd6ecbda71c65cdea78feb687bec1"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a160fd6ecbda71c65cdea78feb687bec1">solutionProposition</a> =new Array()</td></tr>
-<tr class="separator:a160fd6ecbda71c65cdea78feb687bec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b6cd228a69593c03af5dc445393936"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a20b6cd228a69593c03af5dc445393936">data</a> =new Array()</td></tr>
-<tr class="separator:a20b6cd228a69593c03af5dc445393936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8acc3305bb0c57accb21b6c3dfb9a6fd"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a8acc3305bb0c57accb21b6c3dfb9a6fd">compteurProposition</a> =0</td></tr>
-<tr class="separator:a8acc3305bb0c57accb21b6c3dfb9a6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a991c67d3335f20552b86efe85cc5d875"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a991c67d3335f20552b86efe85cc5d875">compteurQuestion</a> =0</td></tr>
-<tr class="separator:a991c67d3335f20552b86efe85cc5d875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
+<tr class="separator:a5df37b7f02e5cdc7d9412b7f872b8e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0d86ab32405786812d806542ca3280"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a1f0d86ab32405786812d806542ca3280">pseudo</a> =event.currentTarget.value</td></tr>
+<tr class="separator:a1f0d86ab32405786812d806542ca3280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabde1db53e2a42b1568728e0fc155f7"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#afabde1db53e2a42b1568728e0fc155f7">email</a> =event.currentTarget.value</td></tr>
+<tr class="separator:afabde1db53e2a42b1568728e0fc155f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558403c3a40c010539026c0e7e8a7b49"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a558403c3a40c010539026c0e7e8a7b49">verifBDDPseudo</a> =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
+<tr class="separator:a558403c3a40c010539026c0e7e8a7b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda857c7fc0ffa8117463c95f5ba277e"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#adda857c7fc0ffa8117463c95f5ba277e">verifBDDEmail</a> =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td></tr>
+<tr class="separator:adda857c7fc0ffa8117463c95f5ba277e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a34b3788c0664245d1de030f262f040ef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function affichageDifficulte </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00034">34</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5cab69f44f6222a1ebdef86c7812ab6f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function affichageJeu </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00047">47</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab6f570fb5c26a4deb0c8f0fe5d0187b2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function affichageScore </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00104">104</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0228b8c787f8da646bec8fdca3eb908b"></a>
+<a class="anchor" id="af2952b3a0807f32876447a30f44b4a4c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ajaxRequest </td>
           <td>(</td>
-          <td class="paramtype">'GET'&#160;</td>
+          <td class="paramtype">&quot;GET&quot;&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">'php/request.php/nomDifficulte'&#160;</td>
+          <td class="paramtype">'php/request.php/<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>'&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d1b/a00015.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/da0/a00009.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">'&#160;</td>
-          <td class="paramname"><em>id_partie</em> = <code>'+id_partie</code>&#160;</td>
+          <td class="paramname"><em>pseudo</em> = <code>'+<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -242,12 +176,43 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a939d4356eec3d36168c300490d57eaff"></a>
+<a class="anchor" id="aa89b74d4c44cac1dd15ddd2ae9a0f948"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">function compteur </td>
+          <td class="memname">console log </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$('#boutonAvatar').files.</em>[0]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abf5219628a269a37395ec5371980db8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">event preventDefault </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae14c93c8599895dff3c04db5d1d8504c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function valideInscription </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
@@ -256,144 +221,26 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00022">22</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>check the information before the POST in the file register </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">event</td><td>The event on the form </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00037">37</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dd/d1b/a00015_a939d4356eec3d36168c300490d57eaff_cgraph.png" border="0" usemap="#dd/d1b/a00015_a939d4356eec3d36168c300490d57eaff_cgraph" alt=""/></div>
-<map name="dd/d1b/a00015_a939d4356eec3d36168c300490d57eaff_cgraph" id="dd/d1b/a00015_a939d4356eec3d36168c300490d57eaff_cgraph">
-<area shape="rect" id="node2" href="../../dd/d1b/a00015.php#a386cd203962abda96c636c5e90a9ba36" title="recuperationReponseTemp" alt="" coords="129,5,308,32"/>
-<area shape="rect" id="node3" href="../../dd/d1b/a00015.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="199,56,238,83"/>
-<area shape="rect" id="node4" href="../../dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="363,5,459,32"/>
-<area shape="rect" id="node5" href="../../dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="363,56,458,83"/>
-<area shape="rect" id="node6" href="../../dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="356,107,465,133"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8c9d97109099b8ce02792d0c4abd3ae3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function jeu </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00039">39</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d1b/a00015_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph.png" border="0" usemap="#dd/d1b/a00015_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph" alt=""/></div>
-<map name="dd/d1b/a00015_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph" id="dd/d1b/a00015_a8c9d97109099b8ce02792d0c4abd3ae3_cgraph">
-<area shape="rect" id="node2" href="../../dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="99,5,195,32"/>
-<area shape="rect" id="node3" href="../../dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="99,56,194,83"/>
-<area shape="rect" id="node4" href="../../dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="92,107,201,133"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ab71c22630f509647a916f70887b8c2ad"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">console log </td>
-          <td>(</td>
-          <td class="paramtype">id_partie&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a386cd203962abda96c636c5e90a9ba36"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function recuperationReponseTemp </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>reponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00060">60</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aeb580a625cac6fdcbd0386c6a35db66f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function recupererPropositions </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00087">87</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d1b/a00015_aeb580a625cac6fdcbd0386c6a35db66f_cgraph.png" border="0" usemap="#dd/d1b/a00015_aeb580a625cac6fdcbd0386c6a35db66f_cgraph" alt=""/></div>
-<map name="dd/d1b/a00015_aeb580a625cac6fdcbd0386c6a35db66f_cgraph" id="dd/d1b/a00015_aeb580a625cac6fdcbd0386c6a35db66f_cgraph">
-<area shape="rect" id="node2" href="../../dd/d1b/a00015.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="201,56,240,83"/>
-<area shape="rect" id="node3" href="../../dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="295,5,391,32"/>
-<area shape="rect" id="node4" href="../../dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="295,56,390,83"/>
-<area shape="rect" id="node5" href="../../dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="288,107,397,133"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a9fe0edff04aec322abcdf9789acffee7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">function recupererQuestions </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ajaxResponse</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00075">75</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dd/d1b/a00015_a9fe0edff04aec322abcdf9789acffee7_cgraph.png" border="0" usemap="#dd/d1b/a00015_a9fe0edff04aec322abcdf9789acffee7_cgraph" alt=""/></div>
-<map name="dd/d1b/a00015_a9fe0edff04aec322abcdf9789acffee7_cgraph" id="dd/d1b/a00015_a9fe0edff04aec322abcdf9789acffee7_cgraph">
-<area shape="rect" id="node2" href="../../dd/d1b/a00015.php#a0228b8c787f8da646bec8fdca3eb908b" title="ajaxRequest" alt="" coords="478,5,573,32"/>
-<area shape="rect" id="node3" href="../../dd/d1b/a00015.php#aeb580a625cac6fdcbd0386c6a35db66f" title="recupererPropositions" alt="" coords="188,56,336,83"/>
-<area shape="rect" id="node4" href="../../dd/d1b/a00015.php#a8c9d97109099b8ce02792d0c4abd3ae3" title="jeu" alt="" coords="384,56,423,83"/>
-<area shape="rect" id="node5" href="../../dd/d1b/a00015.php#a5cab69f44f6222a1ebdef86c7812ab6f" title="affichageJeu" alt="" coords="477,56,573,83"/>
-<area shape="rect" id="node6" href="../../dd/d1b/a00015.php#ab6f570fb5c26a4deb0c8f0fe5d0187b2" title="affichageScore" alt="" coords="471,107,580,133"/>
+<div class="center"><img src="../../dd/d1b/a00015_ae14c93c8599895dff3c04db5d1d8504c_cgraph.png" border="0" usemap="#dd/d1b/a00015_ae14c93c8599895dff3c04db5d1d8504c_cgraph" alt=""/></div>
+<map name="dd/d1b/a00015_ae14c93c8599895dff3c04db5d1d8504c_cgraph" id="dd/d1b/a00015_ae14c93c8599895dff3c04db5d1d8504c_cgraph">
+<area shape="rect" id="node2" href="../../da/da0/a00009.php#a5e7778e2c5dd64ac673d79add217c6cf" title="Check if the value of the password is correct. " alt="" coords="169,5,292,32"/>
+<area shape="rect" id="node3" href="../../da/da0/a00009.php#a76081b25499ce0257c512f37f1ad9988" title="Change backgound color of the html element if there is an error or not. " alt="" coords="340,81,407,108"/>
+<area shape="rect" id="node4" href="../../da/da0/a00009.php#a4a822815e57b31479eb6d364e3003fa2" title="Check if the value of the email is correct. " alt="" coords="195,107,266,133"/>
+<area shape="rect" id="node5" href="../../da/da0/a00009.php#a0db9c30b86d2f4aa120daa6247990007" title="Check if the value of the nickname is correct. " alt="" coords="185,157,276,184"/>
+<area shape="rect" id="node6" href="../../da/da0/a00009.php#a9d0e9578c0fb0424b8b09301ecffffd5" title="Check if the type of the avatar is a jpeg or jpg or gif or png . " alt="" coords="189,208,272,235"/>
 </map>
 </div>
 </p>
@@ -401,87 +248,73 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a8acc3305bb0c57accb21b6c3dfb9a6fd"></a>
+<a class="anchor" id="afabde1db53e2a42b1568728e0fc155f7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var compteurProposition =0</td>
+          <td class="memname">var email =event.currentTarget.value</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00011">11</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00026">26</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a991c67d3335f20552b86efe85cc5d875"></a>
+<a class="anchor" id="a5df37b7f02e5cdc7d9412b7f872b8e01"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var compteurQuestion =0</td>
+          <td class="memname">return false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00012">12</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00016">16</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a20b6cd228a69593c03af5dc445393936"></a>
+<a class="anchor" id="a1f0d86ab32405786812d806542ca3280"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">data['reponses'] =new Array()</td>
+          <td class="memname">var pseudo =event.currentTarget.value</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00008">8</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00020">20</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab516b26a4218f0f59b789a0d446bf79f"></a>
+<a class="anchor" id="adda857c7fc0ffa8117463c95f5ba277e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var proposition =new Array()</td>
+          <td class="memname">var verifBDDEmail =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00006">6</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00031">31</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac11b64f88548d479a2d12c6d6cdf9c6b"></a>
+<a class="anchor" id="a558403c3a40c010539026c0e7e8a7b49"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">questions['solution_deux'] =new Array()</td>
+          <td class="memname">var verifBDDPseudo =<a class="el" href="../../dd/da2/a00019.php#a5df37b7f02e5cdc7d9412b7f872b8e01">false</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00003">3</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a160fd6ecbda71c65cdea78feb687bec1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">var solutionProposition =new Array()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00007">7</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00030">30</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
@@ -490,7 +323,7 @@ Here is the call graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dd/d1b/a00015.php">jeu.js</a></li>
+    <li class="navelem"><a class="el" href="../../dir_2867b8401105090ba43035c8b1fd9c0c.php">js</a></li><li class="navelem"><a class="el" href="../../dd/d1b/a00015.php">inscription.js</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

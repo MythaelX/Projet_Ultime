@@ -1,0 +1,8 @@
+<map id="valideModification" name="valideModification">
+<area shape="rect" id="node2" href="$da/da0/a00009.php#a0db9c30b86d2f4aa120daa6247990007" title="Check if the value of the nickname is correct. " alt="" coords="200,5,291,32"/>
+<area shape="rect" id="node3" href="$da/da0/a00009.php#a76081b25499ce0257c512f37f1ad9988" title="Change backgound color of the html element if there is an error or not. " alt="" coords="373,81,439,108"/>
+<area shape="rect" id="node4" href="$da/da0/a00009.php#ad853bfd925b71db5ce9624d60548b1b7" title="Check if the value of the nickname is correct. " alt="" coords="180,107,311,133"/>
+<area shape="rect" id="node5" href="$da/da0/a00009.php#a47d34320afdb9ab37a4214a0c33d4791" title="Check if the value of the password is correct compared to the database password. " alt="" coords="190,157,301,184"/>
+<area shape="rect" id="node7" href="$da/da0/a00009.php#a9d0e9578c0fb0424b8b09301ecffffd5" title="Check if the type of the avatar is a jpeg or jpg or gif or png . " alt="" coords="204,208,287,235"/>
+<area shape="rect" id="node6" href="$d1/d7c/a00003.php#a2e3f7b2aca271c0d87c61a33b0030941" title="ajaxRequest" alt="" coords="359,157,453,184"/>
+</map>

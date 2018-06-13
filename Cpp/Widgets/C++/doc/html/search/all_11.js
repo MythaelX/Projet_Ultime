@@ -49,7 +49,7 @@ var searchData=
   ['sortasc',['sortAsc',['../d9/d73/a00060.php#a26ed92f1897ceffb429cd8f436460a3e',1,'sorting.hpp']]],
   ['sortdesc',['sortDesc',['../d9/d73/a00060.php#a3d14862e28ea7d3bb92662b4068f5763',1,'sorting.hpp']]],
   ['sorting_2ehpp',['sorting.hpp',['../d9/d73/a00060.php',1,'']]],
-  ['split',['split',['../d4/de8/a00061.php#ad0f62921e752f26b9ebd77ec32e8824e',1,'split(std::string in, char separator= &apos; &apos;):&#160;string.hpp'],['../d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11',1,'split(std::string in, std::string c):&#160;string.hpp']]],
+  ['split',['split',['../d4/de8/a00061.php#ad0f62921e752f26b9ebd77ec32e8824e',1,'split(std::string in, char separator= &apos; &apos;):&#160;string.hpp'],['../d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11',1,'split(std::string in, std::string c):&#160;string.hpp'],['../d4/de8/a00061.php#a147a636a70e5b5afedf65472e75bc002',1,'split(std::string in, std::vector&lt; std::string &gt; cars):&#160;string.hpp']]],
   ['sq',['sq',['../dc/dee/a00053.php#a54a702d8a0a5aa317cc65f5b01ed4ee6',1,'maths.hpp']]],
   ['start',['start',['../d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c',1,'Clock::start()'],['../d5/d16/a00029.php#a18a29af58bc18e1644230c747afb35ec',1,'Timer::start()']]],
   ['started',['started',['../d4/dee/a00008.php#aed945651f59f21f56df523af2719597e',1,'Clock::started()'],['../d5/d16/a00029.php#ab3cd20a0909df03a384a09b1b8151d3e',1,'Timer::started()']]],

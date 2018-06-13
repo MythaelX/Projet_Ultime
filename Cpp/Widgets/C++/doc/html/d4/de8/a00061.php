@@ -139,8 +139,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a3f9b8ef62eba953dd328969e206b3f11"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11">split</a> (std::string in, std::string c)</td></tr>
 <tr class="memdesc:a3f9b8ef62eba953dd328969e206b3f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given string.  <a href="#a3f9b8ef62eba953dd328969e206b3f11">More...</a><br /></td></tr>
 <tr class="separator:a3f9b8ef62eba953dd328969e206b3f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147a636a70e5b5afedf65472e75bc002"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a147a636a70e5b5afedf65472e75bc002">split</a> (std::string in, std::vector&lt; std::string &gt; cars)</td></tr>
+<tr class="memdesc:a147a636a70e5b5afedf65472e75bc002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Explode a string in an array with the given separators.  <a href="#a147a636a70e5b5afedf65472e75bc002">More...</a><br /></td></tr>
+<tr class="separator:a147a636a70e5b5afedf65472e75bc002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81b7e411acc02d29749ab23e6e615ee"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:ad81b7e411acc02d29749ab23e6e615ee"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#ad81b7e411acc02d29749ab23e6e615ee">explode</a> (Args &amp;&amp;...args) -&gt; decltype(<a class="el" href="../../d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11">split</a>(std::forward&lt; Args &gt;(args)...))</td></tr>
+<tr class="memitem:ad81b7e411acc02d29749ab23e6e615ee"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#ad81b7e411acc02d29749ab23e6e615ee">explode</a> (Args &amp;&amp;...args) -&gt; decltype(<a class="el" href="../../d4/de8/a00061.php#a147a636a70e5b5afedf65472e75bc002">split</a>(std::forward&lt; Args &gt;(args)...))</td></tr>
 <tr class="memdesc:ad81b7e411acc02d29749ab23e6e615ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias for <b>split</b>.  <a href="#ad81b7e411acc02d29749ab23e6e615ee">More...</a><br /></td></tr>
 <tr class="separator:ad81b7e411acc02d29749ab23e6e615ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabfbfab3c3f6562da02d78a54d1ca0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#aabfbfab3c3f6562da02d78a54d1ca0e0">trim</a> (std::string &amp;in)</td></tr>
@@ -164,7 +167,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>08 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>13 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -218,7 +221,7 @@ template&lt;typename... Args&gt; </div>
           <td>(</td>
           <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
-          <td> -&gt; decltype( <a class="el" href="../../d4/de8/a00061.php#a3f9b8ef62eba953dd328969e206b3f11">split</a> (std::forward&lt;Args&gt;(args)...))   </td>
+          <td> -&gt; decltype( <a class="el" href="../../d4/de8/a00061.php#a147a636a70e5b5afedf65472e75bc002">split</a> (std::forward&lt;Args&gt;(args)...))   </td>
         </tr>
       </table>
   </td>
@@ -230,7 +233,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>Alias for <b>split</b>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00036">36</a> of file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00045">45</a> of file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
 
 </div>
 </div>
@@ -410,6 +413,42 @@ template&lt;typename... Args&gt; </div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The string to cut </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>The separator string to cut <em>in</em> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a147a636a70e5b5afedf65472e75bc002"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; split </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>cars</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Explode a string in an array with the given separators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>The string to cut </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cars</td><td>The separators string to cut <em>in</em> </td></tr>
   </table>
   </dd>
 </dl>
