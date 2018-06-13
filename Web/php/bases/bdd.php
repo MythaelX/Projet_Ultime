@@ -193,6 +193,15 @@
 		*		\param[in]		$opt			Other options for the command
 		*/
 		public function select($name, $selection, $opt=""){
+			$opts = explode(" AND ", $opt);
+
+			foreach($opts as $arg){
+				$args = explode(" = ", replace_all("=", " = ", replace_all(" = ", "=", $arg)));
+				$args[1] = "'" . replace_all("'", "\'", $args[1]) . "'";
+			}
+
+			$opt = implode(" AND ", $opts);
+
 			try {
 				$command = "SELECT $selection FROM $name $opt";
 
