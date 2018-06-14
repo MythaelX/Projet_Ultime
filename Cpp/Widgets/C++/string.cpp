@@ -146,3 +146,25 @@ size_t count(std::string text, char c){
 
 	return nb;
 }
+
+std::vector<std::string> getall(std::string str_regex, std::string str){
+	regex.assign(regexs["field"]);
+	std::sregex_iterator regex_it_next(fields.begin(), fields.end(), regex);
+	std::sregex_iterator regex_it_end;
+
+	while(regex_it_next != regex_it_end){
+		std::smatch it_match = *regex_it_next;
+		std::vector<std::string> col;
+
+		if(it_match.size() > 0){
+			for(size_t i{1}; i < it_match.size(); ++i){
+				col.push_back(it_match.str(i));
+			}
+			cols.push_back(col);
+		} else {
+			throw MiSQLException(NO_FIELDS, "There is no fields to add to the table");
+		}
+
+		regex_it_next++;
+	}
+}

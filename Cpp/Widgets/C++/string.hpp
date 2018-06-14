@@ -101,4 +101,12 @@ std::string randStr(size_t nb);
 */
 size_t count(std::string text, char c);
 
+/*!
+* \brief	Return all occurences of a regex in a string
+*		\param[in]			str_regex		The shape of the regex
+*		\param[in]			str				The string in which to search
+*		\return				Return a vector of string with the occurences
+*/
+std::vector<std::string> getall(std::string str_regex, std::string str);
+
 #endif //HEADER_STRING
