@@ -154,9 +154,9 @@ function loadSound(){
   "<audio id='audioPlayerButton6'><source src='design/sound/click6.mp3'></audio>";
   player=$("#audioPlayer");
 
-  player.volume = 0.8;
+  player.volume = 0.6;
   if(randomNumber==1){
-    player.volume = 0.4;
+    player.volume = 0.2;
   }
 
   player.play();
