@@ -487,7 +487,7 @@ void BDD::formatValues(std::string& values, std::string table){
 void BDD::formatConditions(std::string& conditions, std::string){
 	/* Get all the arguments */
 		if(m_debug){ std::cout << "Start 1 : \"" << conditions << "\"" << std::endl; }
-		conditions = replace(conditions, "\\\\,", "|*-_");
+		conditions = replace(conditions, "\\\\,", "-_-_-_-_-");
 		if(m_debug){ std::cout << "Start 2 : \"" << conditions << "\"" << std::endl; }
 		auto args = explode(conditions, ", ");
 	/*************************/
@@ -497,7 +497,7 @@ void BDD::formatConditions(std::string& conditions, std::string){
 	/* Put the arguments in a string */
 		conditions = implode(args, ", ");
 		if(m_debug){ std::cout << "End 1 : \"" << conditions << "\"" << std::endl; }
-		conditions = replace(conditions, "|*-_", ",");
+		conditions = replace(conditions, "-_-_-_-_-", ",");
 		if(m_debug){ std::cout << "End 2 : \"" << conditions << "\"" << std::endl; }
 	/*********************************/
 }
