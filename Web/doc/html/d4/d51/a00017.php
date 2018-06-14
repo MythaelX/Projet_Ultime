@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab12830ae5b8c655bc33277666547d988"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#ab12830ae5b8c655bc33277666547d988">loadSound</a> ()</td></tr>
+<tr class="memdesc:ab12830ae5b8c655bc33277666547d988"><td class="mdescLeft">&#160;</td><td class="mdescRight">loadSound of the game  <a href="#ab12830ae5b8c655bc33277666547d988">More...</a><br /></td></tr>
+<tr class="separator:ab12830ae5b8c655bc33277666547d988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0228b8c787f8da646bec8fdca3eb908b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a0228b8c787f8da646bec8fdca3eb908b">ajaxRequest</a> ('GET','php/request.php/nomDifficulte', <a class="el" href="../../d4/d51/a00017.php#a34b3788c0664245d1de030f262f040ef">affichageDifficulte</a>,'id_partie='+id_partie)</td></tr>
 <tr class="separator:a0228b8c787f8da646bec8fdca3eb908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a939d4356eec3d36168c300490d57eaff"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a939d4356eec3d36168c300490d57eaff">compteur</a> (event)</td></tr>
@@ -177,7 +180,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00048">48</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00053">53</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
@@ -199,7 +202,7 @@ Variables</h2></td></tr>
 <li></li>
 </ul>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00071">71</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00076">76</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
@@ -225,7 +228,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00134">134</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00138">138</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
@@ -289,7 +292,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00032">32</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00033">33</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -323,7 +326,7 @@ Here is the call graph for this function:</div>
 <p>check if the game is over. </p>
 <p>If the game is not finished he call the function "affichageJeu".Otherwise he send data to calculate score with an ajax request </p>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00059">59</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00064">64</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -336,6 +339,28 @@ Here is the call graph for this function:</div>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="ab12830ae5b8c655bc33277666547d988"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">function loadSound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>loadSound of the game </p>
+<ul>
+<li></li>
+</ul>
+
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00145">145</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 </div>
 </div>
@@ -361,7 +386,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00087">87</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00092">92</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -397,7 +422,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00118">118</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00122">122</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -436,7 +461,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00104">104</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d51/a00017_source.php#l00108">108</a> of file <a class="el" href="../../d4/d51/a00017_source.php">jeu.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

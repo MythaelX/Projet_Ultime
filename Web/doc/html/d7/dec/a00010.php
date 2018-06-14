@@ -316,7 +316,7 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>array data (true or false)</dd></dl>
 <p>He recover the value that the user has chosen and check if had answered correctly or not. </p>
 
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00173">173</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00174">174</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

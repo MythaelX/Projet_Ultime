@@ -116,8 +116,6 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 Functions</h2></td></tr>
 <tr class="memitem:abf5219628a269a37395ec5371980db8d"><td class="memItemLeft" align="right" valign="top">event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#abf5219628a269a37395ec5371980db8d">preventDefault</a> ()</td></tr>
 <tr class="separator:abf5219628a269a37395ec5371980db8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa89b74d4c44cac1dd15ddd2ae9a0f948"><td class="memItemLeft" align="right" valign="top">console&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#aa89b74d4c44cac1dd15ddd2ae9a0f948">log</a> ($('#boutonAvatar').files[0].type)</td></tr>
-<tr class="separator:aa89b74d4c44cac1dd15ddd2ae9a0f948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2952b3a0807f32876447a30f44b4a4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#af2952b3a0807f32876447a30f44b4a4c">ajaxRequest</a> (&quot;GET&quot;,'php/request.php/<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>', <a class="el" href="../../da/da0/a00009.php#ac5538f7db327e4d05dd85cbfb8db94d7">verifPseudoBDD</a>,'<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>='+<a class="el" href="../../dd/da2/a00019.php#a1f0d86ab32405786812d806542ca3280">pseudo</a>)</td></tr>
 <tr class="separator:af2952b3a0807f32876447a30f44b4a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14c93c8599895dff3c04db5d1d8504c"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#ae14c93c8599895dff3c04db5d1d8504c">valideInscription</a> (event)</td></tr>
@@ -176,22 +174,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa89b74d4c44cac1dd15ddd2ae9a0f948"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">console log </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$('#boutonAvatar').files.</em>[0]</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="abf5219628a269a37395ec5371980db8d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +211,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00037">37</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00036">36</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -258,7 +240,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00026">26</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00025">25</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
@@ -300,7 +282,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00031">31</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00030">30</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>
@@ -314,7 +296,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00030">30</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d1b/a00015_source.php#l00029">29</a> of file <a class="el" href="../../dd/d1b/a00015_source.php">inscription.js</a>.</p>
 
 </div>
 </div>

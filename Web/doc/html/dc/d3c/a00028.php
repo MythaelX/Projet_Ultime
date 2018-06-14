@@ -116,26 +116,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a2e6e5ecd2bc858e1a18619005717e38a"><td class="memItemLeft" align="right" valign="top">function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a> ()</td></tr>
 <tr class="memdesc:a2e6e5ecd2bc858e1a18619005717e38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">set marginTop for the style for all pages  <a href="#a2e6e5ecd2bc858e1a18619005717e38a">More...</a><br /></td></tr>
 <tr class="separator:a2e6e5ecd2bc858e1a18619005717e38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a054da9ae2f991b58ed93861cfd36ad26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26">addOnresize</a> (<a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a>)</td></tr>
-<tr class="separator:a054da9ae2f991b58ed93861cfd36ad26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a054da9ae2f991b58ed93861cfd36ad26"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">addOnresize </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d3c/a00028.php#a2e6e5ecd2bc858e1a18619005717e38a">posMain</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a2e6e5ecd2bc858e1a18619005717e38a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -155,16 +137,6 @@ Functions</h2></td></tr>
 </ul>
 
 <p>Definition at line <a class="el" href="../../dc/d3c/a00028_source.php#l00008">8</a> of file <a class="el" href="../../dc/d3c/a00028_source.php">script.js</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph.png" border="0" usemap="#dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph" alt=""/></div>
-<map name="dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph" id="dc/d3c/a00028_a2e6e5ecd2bc858e1a18619005717e38a_cgraph">
-<area shape="rect" id="node2" href="../../dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26" title="addOnresize" alt="" coords="124,5,219,32"/>
-</map>
-</div>
-</p>
 
 </div>
 </div>

@@ -6,6 +6,7 @@ var a00017 =
     [ "ajaxRequest", "d4/d51/a00017.php#a0228b8c787f8da646bec8fdca3eb908b", null ],
     [ "compteur", "d4/d51/a00017.php#a939d4356eec3d36168c300490d57eaff", null ],
     [ "jeu", "d4/d51/a00017.php#a8c9d97109099b8ce02792d0c4abd3ae3", null ],
+    [ "loadSound", "d4/d51/a00017.php#ab12830ae5b8c655bc33277666547d988", null ],
     [ "recuperationReponseTemp", "d4/d51/a00017.php#a386cd203962abda96c636c5e90a9ba36", null ],
     [ "recupererPropositions", "d4/d51/a00017.php#aeb580a625cac6fdcbd0386c6a35db66f", null ],
     [ "recupererQuestions", "d4/d51/a00017.php#a9fe0edff04aec322abcdf9789acffee7", null ],

@@ -125,9 +125,6 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 &#160;
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>addOnresize()
-: <a class="el" href="dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26">script.js</a>
-</li>
 <li>affichage()
 : <a class="el" href="d3/d52/a00023.php#af74f80f2d76592fc7d873aeabb9aecf5">palmares.js</a>
 </li>
@@ -144,8 +141,8 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 : <a class="el" href="d7/de0/a00022.php#a57c667ec3d857e12e4d334e3f2453313">navBar.js</a>
 </li>
 <li>affichageDifficulte()
-: <a class="el" href="d4/d51/a00017.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
-, <a class="el" href="da/da0/a00009.php#a34b3788c0664245d1de030f262f040ef">fonctions.js</a>
+: <a class="el" href="da/da0/a00009.php#a34b3788c0664245d1de030f262f040ef">fonctions.js</a>
+, <a class="el" href="d4/d51/a00017.php#a34b3788c0664245d1de030f262f040ef">jeu.js</a>
 </li>
 <li>affichageJeu()
 : <a class="el" href="d4/d51/a00017.php#a5cab69f44f6222a1ebdef86c7812ab6f">jeu.js</a>
@@ -163,14 +160,14 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 : <a class="el" href="de/d21/a00006.php#aee6c29e01ed8d036be6656155f1080fe">creation.js</a>
 </li>
 <li>ajaxRequest()
-: <a class="el" href="d3/d52/a00023.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
-, <a class="el" href="dd/da2/a00019.php#af2952b3a0807f32876447a30f44b4a4c">modification.js</a>
-, <a class="el" href="dd/d1b/a00015.php#af2952b3a0807f32876447a30f44b4a4c">inscription.js</a>
-, <a class="el" href="d4/d51/a00017.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
-, <a class="el" href="d3/d52/a00023.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">palmares.js</a>
+: <a class="el" href="dd/d1b/a00015.php#af2952b3a0807f32876447a30f44b4a4c">inscription.js</a>
 , <a class="el" href="d1/d7c/a00003.php#a2e3f7b2aca271c0d87c61a33b0030941">accueilPerso.js</a>
 , <a class="el" href="de/d21/a00006.php#a806ccfa4bdd83d47638b934f63aa597f">creation.js</a>
+, <a class="el" href="d3/d52/a00023.php#a20cd18a74fb2bbedbfacdb71b9aeadb7">palmares.js</a>
 , <a class="el" href="d1/d7c/a00003.php#a72e65efac2b35e0b0c277d2239b2cfaa">accueilPerso.js</a>
+, <a class="el" href="d3/d52/a00023.php#aefe809d5ec4fc79376f1ca1c67b71524">palmares.js</a>
+, <a class="el" href="d4/d51/a00017.php#a0228b8c787f8da646bec8fdca3eb908b">jeu.js</a>
+, <a class="el" href="dd/da2/a00019.php#af2952b3a0807f32876447a30f44b4a4c">modification.js</a>
 </li>
 <li>authentification()
 : <a class="el" href="d7/dec/a00010.php#a4c00ed23cbac293dc1b0c38b4ca6e3b6">fonctions.php</a>
@@ -199,11 +196,11 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>loadSound()
+: <a class="el" href="d4/d51/a00017.php#ab12830ae5b8c655bc33277666547d988">jeu.js</a>
+</li>
 <li>loadTabPalmares()
 : <a class="el" href="d3/d52/a00023.php#aa1ccf3e9b222affe42cc578b6d898694">palmares.js</a>
-</li>
-<li>log()
-: <a class="el" href="dd/d1b/a00015.php#aa89b74d4c44cac1dd15ddd2ae9a0f948">inscription.js</a>
 </li>
 </ul>
 

@@ -21,8 +21,8 @@
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/register.php:3: warning: the name `register' supplied as the second argument in the \file statement is not an input file
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/request.php:3: warning: the name `request' supplied as the second argument in the \file statement is not an input file
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/verificationToken.php:3: warning: the name `verificationToken' supplied as the second argument in the \file statement is not an input file
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/modifier.php:32: warning: documented symbol `if' was not declared or defined.
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/modifier.php:38: warning: documented symbol `if' was not declared or defined.
+/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/modifier.php:33: warning: documented symbol `if' was not declared or defined.
+/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/modifier.php:39: warning: documented symbol `if' was not declared or defined.
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/register.php:29: warning: documented symbol `if' was not declared or defined.
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:25: warning: argument 'bdd' of command @param is not found in the argument list of authentification($bdd)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:33: warning: The following parameters of authentification($bdd) are not documented:
@@ -43,8 +43,8 @@
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:52: warning: argument 'bdd' of command @param is not found in the argument list of verifieToken($bdd)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:60: warning: The following parameters of verifieToken($bdd) are not documented:
   parameter '$bdd'
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:166: warning: argument 'bdd' of command @param is not found in the argument list of verifReponse($bdd)
-/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:173: warning: The following parameters of verifReponse($bdd) are not documented:
+/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:167: warning: argument 'bdd' of command @param is not found in the argument list of verifReponse($bdd)
+/home/mathias/Bureau/ISEN/Projet_CIR2/Web/php/fonctions.php:174: warning: The following parameters of verifReponse($bdd) are not documented:
   parameter '$bdd'
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/palmares.js:28: warning: argument 'ajaxResponse' of command @param is not found in the argument list of affichage(event)
 /home/mathias/Bureau/ISEN/Projet_CIR2/Web/js/palmares.js:31: warning: The following parameters of affichage(event) are not documented:

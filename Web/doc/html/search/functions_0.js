@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['addonresize',['addOnresize',['../dc/d3c/a00028.php#a054da9ae2f991b58ed93861cfd36ad26',1,'script.js']]],
   ['affichage',['affichage',['../d3/d52/a00023.php#af74f80f2d76592fc7d873aeabb9aecf5',1,'palmares.js']]],
   ['affichageaccueil',['affichageAccueil',['../d1/d7c/a00003.php#a20e111c0bc912042bdcb1790699311de',1,'accueilPerso.js']]],
   ['affichagebouton',['affichageBouton',['../d3/d52/a00023.php#aae5ee08540b9075228e330d9f9db693c',1,'palmares.js']]],
