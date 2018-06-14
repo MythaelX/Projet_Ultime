@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node2" href="dd/d1b/a00015.php" title="An entity. " alt="" coords="146,56,202,83"/>
 <area shape="rect" id="node8" href="d7/de0/a00022.php" title="An object. " alt="" coords="144,5,204,32"/>
 <area shape="rect" id="node3" href="d1/d7c/a00003.php" title="An animal. " alt="" coords="255,107,318,133"/>
-<area shape="rect" id="node5" href="dc/d87/a00032.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
+<area shape="rect" id="node5" href="d0/dc0/a00033.php" title="A vegetal. " alt="" coords="253,56,320,83"/>
 <area shape="rect" id="node4" href="d0/d0b/a00004.php" title="An ant. " alt="" coords="388,107,431,133"/>
 <area shape="rect" id="node6" href="db/db2/a00020.php" title="A mushroom. " alt="" coords="368,56,451,83"/>
 <area shape="rect" id="node7" href="d3/d52/a00023.php" title="A plant. " alt="" coords="383,5,435,32"/>
@@ -222,9 +222,14 @@ $(document).ready(function(){initNavTree('hierarchy.php','');});
 <area shape="rect" id="node1" href="df/d61/a00031.php" title="A class to manage a binary tree. " alt="" coords="5,5,85,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#WorldDimensions"/>
+<tr><td><img src="inherit_graph_19.png" border="0" alt="" usemap="#trio_3_01T_00_01U_00_01V_01_4"/>
+<map name="trio_3_01T_00_01U_00_01V_01_4" id="trio_3_01T_00_01U_00_01V_01_4">
+<area shape="rect" id="node1" href="dc/d87/a00032.php" title="A container for three values. " alt="" coords="5,5,112,32"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_20.png" border="0" alt="" usemap="#WorldDimensions"/>
 <map name="WorldDimensions" id="WorldDimensions">
-<area shape="rect" id="node1" href="d0/dc0/a00033.php" title="An object to group the dimensions of the world. " alt="" coords="5,5,131,32"/>
+<area shape="rect" id="node1" href="db/df3/a00034.php" title="An object to group the dimensions of the world. " alt="" coords="5,5,131,32"/>
 </map>
 </td></tr>
 </table>

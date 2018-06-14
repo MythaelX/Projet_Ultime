@@ -29,6 +29,7 @@ var annotated_dup =
     [ "Threadable", "d5/d16/a00029.php", "d5/d16/a00029" ],
     [ "Timer", "d5/d79/a00030.php", "d5/d79/a00030" ],
     [ "Tree", "df/d61/a00031.php", "df/d61/a00031" ],
-    [ "Vegetal", "dc/d87/a00032.php", "dc/d87/a00032" ],
-    [ "WorldDimensions", "d0/dc0/a00033.php", "d0/dc0/a00033" ]
+    [ "trio", "dc/d87/a00032.php", "dc/d87/a00032" ],
+    [ "Vegetal", "d0/dc0/a00033.php", "d0/dc0/a00033" ],
+    [ "WorldDimensions", "db/df3/a00034.php", "db/df3/a00034" ]
 ];

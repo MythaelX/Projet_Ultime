@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d7/d70/a00106.php">List of all members</a>  </div>
+<a href="../../df/d98/a00107.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Ant Class Reference</div>  </div>
 </div><!--header-->
@@ -119,11 +119,11 @@ $(document).ready(function(){initNavTree('d0/d0b/a00004.php','../../');});
 <p>An ant.  
  <a href="../../d0/d0b/a00004.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Ant:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d98/a00107.png" border="0" usemap="#Ant_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d1/dd6/a00108.png" border="0" usemap="#Ant_inherit__map" alt="Inheritance graph"/></div>
 <map name="Ant_inherit__map" id="Ant_inherit__map">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="60,155,123,181"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
@@ -134,7 +134,7 @@ Inheritance diagram for Ant:</div>
 <div class="dynheader">
 Collaboration diagram for Ant:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/dd6/a00108.png" border="0" usemap="#Ant_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../dd/d42/a00109.png" border="0" usemap="#Ant_coll__map" alt="Collaboration graph"/></div>
 <map name="Ant_coll__map" id="Ant_coll__map">
 <area shape="rect" id="node2" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="23,247,85,273"/>
 <area shape="rect" id="node3" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="22,81,78,108"/>
@@ -243,7 +243,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">move</a> ()</td></tr>
 <tr class="memdesc:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the actual direction.  <a href="#a07c40f873879cc72d0fc94a0831b955a">More...</a><br /></td></tr>
 <tr class="separator:a07c40f873879cc72d0fc94a0831b955a inherit pub_methods_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d3/dea/a00046.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
+<tr class="memitem:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">move</a> (<a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> dir)</td></tr>
 <tr class="memdesc:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move to the direction.  <a href="#a6e209ff2a9d0bf3a73d10baabadcb3b9">More...</a><br /></td></tr>
 <tr class="separator:a6e209ff2a9d0bf3a73d10baabadcb3b9 inherit pub_methods_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea47bc43468e85f59c2a9ff1a3e64887 inherit pub_methods_a00003"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#aea47bc43468e85f59c2a9ff1a3e64887">attack</a> (<a class="el" href="../../dd/d1b/a00015.php">Entity</a> *<a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a>=nullptr)</td></tr>
@@ -415,7 +415,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_a00003"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00003')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d1/d7c/a00003.php">Animal</a></td></tr>
-<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dea/a00046.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
+<tr class="memitem:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d2d/a00047.php#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">direction</a></td></tr>
 <tr class="separator:a3f306d4e967d165b8ef55f6cdf9bde23 inherit pro_attribs_a00003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_a00016"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00016')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td></tr>
 <tr class="memitem:a54cd84496707554686bc5fc43b57a4f8 inherit pro_attribs_a00016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1b/a00015.php">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td></tr>
@@ -424,7 +424,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An ant. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00017">17</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00017">17</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a088ebbdb8d6cd05cf6f6c1d35b766c6e"></a>
 <div class="memitem">
@@ -516,7 +516,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the caste </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00056">56</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00056">56</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the stone </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00059">59</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00059">59</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 </div>
 </div>
@@ -568,7 +568,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the maximum stone </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00061">61</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00061">61</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -648,7 +648,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00037">37</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00037">37</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 </div>
 </div>
@@ -683,7 +683,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00045">45</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00045">45</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 </div>
 </div>
@@ -718,12 +718,12 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d8c/a00035_source.php#l00052">52</a> of file <a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00052">52</a> of file <a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d4/d8c/a00035_source.php">Ant.hpp</a></li>
+<li><a class="el" href="../../de/d8c/a00036_source.php">Ant.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

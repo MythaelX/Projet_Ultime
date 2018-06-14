@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d8/d17/a00114.php">List of all members</a>  </div>
+<a href="../../d2/da3/a00115.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Clock Class Reference</div>  </div>
 </div><!--header-->
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 <p>A clock to measure the elapsed time.  
  <a href="../../d4/dee/a00008.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +147,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A clock to measure the elapsed time. </p>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00029">29</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00029">29</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="adbc370eb6b5f8d01645cf440188160a8"></a>
 <div class="memitem">
@@ -207,7 +207,7 @@ Protected Attributes</h2></td></tr>
 <p>Get the time start. </p>
 <dl class="section return"><dt>Returns</dt><dd>Return the start time since last clock start </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00044">44</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00044">44</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -273,7 +273,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00057">57</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00057">57</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
@@ -295,12 +295,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00058">58</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00058">58</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a></li>
+<li><a class="el" href="../../de/de1/a00065_source.php">time.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

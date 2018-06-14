@@ -154,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_t.php','');});
 <li>target
 : <a class="el" href="d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
 </li>
+<li>ter
+: <a class="el" href="dc/d87/a00032.php#af8bab1b2edaafe2be7b53c7479e5417a">trio&lt; T, U, V &gt;</a>
+</li>
 <li>Threadable()
 : <a class="el" href="d5/d16/a00029.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable&lt; C &gt;</a>
 </li>

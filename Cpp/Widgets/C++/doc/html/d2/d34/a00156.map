@@ -1,4 +1,4 @@
-<map id="Timer" name="Timer">
-<area shape="rect" id="node2" href="$dc/d3c/a00028.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
-<area shape="rect" id="node3" href="$dc/d3c/a00028.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,137,32"/>
+<map id="Threadable&lt; C &gt;" name="Threadable&lt; C &gt;">
+<area shape="rect" id="node2" href="$d5/d16/a00029.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
+<area shape="rect" id="node3" href="$d5/d79/a00030.php" title="A timer to do something at the end. " alt="" coords="49,171,104,197"/>
 </map>

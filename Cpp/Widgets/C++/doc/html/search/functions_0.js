@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abs',['abs',['../d1/dea/a00054.php#ad44dc8b9cd6eaa619880db19cf171751',1,'maths.hpp']]],
+  ['abs',['abs',['../d4/d6d/a00055.php#ad44dc8b9cd6eaa619880db19cf171751',1,'maths.hpp']]],
   ['add',['add',['../dd/dad/a00005.php#a0e9d109a0cf2783b6ab6bfab6df719f3',1,'Arguments::add()'],['../df/d61/a00031.php#af6a08705433ab45144b88b81f57c1e0f',1,'Tree::add()']]],
   ['addcolors',['addColors',['../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac',1,'Color::addColors(int color)'],['../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738',1,'Color::addColors(int color, Args...args)'],['../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26',1,'Color::addColors(Colors color)'],['../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790',1,'Color::addColors(Colors color, Args...args)']]],
   ['addposition',['addPosition',['../df/d86/a00012.php#a3af679109317a6740c661fe5164158ff',1,'Contraption']]],

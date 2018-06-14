@@ -1,13 +1,2 @@
-<map id="string.hpp" name="string.hpp">
-<area shape="rect" id="node4" href="$d1/d84/a00052.php" title="macro.hpp" alt="" coords="327,80,409,107"/>
-<area shape="rect" id="node5" href="$d5/df9/a00044.php" title="convert.hpp" alt="" coords="287,229,377,256"/>
-<area shape="rect" id="node11" href="$d1/dc6/a00037.php" title="array.hpp" alt="" coords="483,229,559,256"/>
-<area shape="rect" id="node16" href="$d9/d73/a00060.php" title="RNG.hpp" alt="" coords="535,80,612,107"/>
-<area shape="rect" id="node18" href="$d2/dee/a00049.php" title="errors.hpp" alt="" coords="676,80,756,107"/>
-<area shape="rect" id="node19" href="$d5/db6/a00042.php" title="console.hpp" alt="" coords="627,155,719,181"/>
-<area shape="rect" id="node22" href="$d5/de0/a00050.php" title="files.hpp" alt="" coords="683,229,754,256"/>
-<area shape="rect" id="node24" href="$df/d5f/a00064.php" title="time.hpp" alt="" coords="943,155,1015,181"/>
-<area shape="rect" id="node20" href="$d9/db3/a00066.php" title="types.hpp" alt="" coords="807,229,886,256"/>
-<area shape="rect" id="node27" href="$d1/d6f/a00063.php" title="Threadable.hpp" alt="" coords="1075,229,1186,256"/>
-<area shape="rect" id="node31" href="$d3/d8b/a00059.php" title="pointers.hpp" alt="" coords="1229,304,1323,331"/>
+<map id="sorting.hpp" name="sorting.hpp">
 </map>

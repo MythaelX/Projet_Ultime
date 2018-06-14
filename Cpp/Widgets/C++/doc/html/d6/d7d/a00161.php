@@ -109,15 +109,15 @@ $(document).ready(function(){initNavTree('dc/d87/a00032.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">WorldDimensions Member List</div>  </div>
+<div class="title">trio&lt; T, U, V &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d87/a00032.php">WorldDimensions</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../dc/d87/a00032.php">trio&lt; T, U, V &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#aab0b2a75b9747cdc33e2982b2df3c322">h</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a56d14d07cb773a1a4bf12f16e7b57d07">w</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">WorldDimensions</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#aa07c34b536e895dc3ab45bb353aa54a6">z</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">WorldDimensions</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#afd5c9afd87ec0afa9280b0e623350125">first</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">trio&lt; T, U, V &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../dc/d87/a00032.php#a875a876ca0878b4e0e20237f031545e6">second</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">trio&lt; T, U, V &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../dc/d87/a00032.php#af8bab1b2edaafe2be7b53c7479e5417a">ter</a></td><td class="entry"><a class="el" href="../../dc/d87/a00032.php">trio&lt; T, U, V &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

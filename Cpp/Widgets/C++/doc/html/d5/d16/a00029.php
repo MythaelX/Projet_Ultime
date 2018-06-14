@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d3/d65/a00154.php">List of all members</a>  </div>
+<a href="../../d3/df8/a00155.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Threadable&lt; C &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('d5/d16/a00029.php','../../');});
 <p>A class to let another one to be threadable with update() member in a thread.  
  <a href="../../d5/d16/a00029.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Threadable&lt; C &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d3/df8/a00155.png" border="0" usemap="#Threadable_3_01C_01_4_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d2/d34/a00156.png" border="0" usemap="#Threadable_3_01C_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="Threadable_3_01C_01_4_inherit__map" id="Threadable_3_01C_01_4_inherit__map">
 <area shape="rect" id="node2" href="../../d5/d16/a00029.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
 <area shape="rect" id="node3" href="../../d5/d79/a00030.php" title="A timer to do something at the end. " alt="" coords="49,171,104,197"/>
@@ -165,7 +165,7 @@ class Threadable&lt; C &gt;</h3>
 <li>Add <b>THREADABLE</b> before <b>public</b> </li>
 </ul>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00042">42</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00042">42</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7b5a3de51a890d7899182f4ff75e9751"></a>
 <div class="memitem">
@@ -192,7 +192,7 @@ template&lt;class C&gt; </div>
 
 <p>The constructor of the <a class="el" href="../../d5/d16/a00029.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> class. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00045">45</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00045">45</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -219,7 +219,7 @@ template&lt;class C&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00049">49</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00049">49</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -250,7 +250,7 @@ template&lt;class C&gt; </div>
 <p>Return if the thread has to stop or not. </p>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00074">74</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00074">74</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ template&lt;class C&gt; </div>
 
 <p>Stop the thread and delete the pointer correctly. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00065">65</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00065">65</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,12 +335,12 @@ template&lt;class C&gt; </div>
 
 <p>The mutex variable to use in the thread. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d6f/a00063_source.php#l00085">85</a> of file <a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00085">85</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a></li>
+<li><a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

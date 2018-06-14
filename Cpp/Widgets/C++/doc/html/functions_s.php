@@ -152,6 +152,9 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="da/d45/a00011.php#a3b03a811157d84449f3cf467c1f4758e">ConsoleCursor</a>
 , <a class="el" href="dd/da2/a00019.php#a28dc3cce3cd6eb596209d10174d0b37b">Map</a>
 </li>
+<li>second
+: <a class="el" href="dc/d87/a00032.php#a875a876ca0878b4e0e20237f031545e6">trio&lt; T, U, V &gt;</a>
+</li>
 <li>setA()
 : <a class="el" href="df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">Contraption</a>
 </li>

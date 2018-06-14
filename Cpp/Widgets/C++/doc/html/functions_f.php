@@ -151,6 +151,9 @@ $(document).ready(function(){initNavTree('functions_f.php','');});
 <li>find()
 : <a class="el" href="df/d61/a00031.php#a193fd2684c987f8e85ea9c1ed12badf7">Tree&lt; T &gt;</a>
 </li>
+<li>first
+: <a class="el" href="dc/d87/a00032.php#afd5c9afd87ec0afa9280b0e623350125">trio&lt; T, U, V &gt;</a>
+</li>
 <li>formatBdd()
 : <a class="el" href="de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07">BDD</a>
 </li>

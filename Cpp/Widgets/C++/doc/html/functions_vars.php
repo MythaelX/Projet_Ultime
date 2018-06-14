@@ -123,9 +123,12 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 <li>direction
 : <a class="el" href="d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">Animal</a>
 </li>
+<li>first
+: <a class="el" href="dc/d87/a00032.php#afd5c9afd87ec0afa9280b0e623350125">trio&lt; T, U, V &gt;</a>
+</li>
 <li>h
 : <a class="el" href="d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
-, <a class="el" href="d0/dc0/a00033.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
+, <a class="el" href="db/df3/a00034.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
 </li>
 <li>init
 : <a class="el" href="dc/de2/a00024.php#a024d37d9bdf83c1cc6618df8cc574aa2">Player&lt; PlayerParent &gt;</a>
@@ -158,12 +161,18 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 <li>right
 : <a class="el" href="de/d11/a00021.php#ad7092450d89448320103cde1f72da320">Node&lt; T &gt;</a>
 </li>
+<li>second
+: <a class="el" href="dc/d87/a00032.php#a875a876ca0878b4e0e20237f031545e6">trio&lt; T, U, V &gt;</a>
+</li>
 <li>started
 : <a class="el" href="d4/dee/a00008.php#aed945651f59f21f56df523af2719597e">Clock</a>
 , <a class="el" href="d5/d79/a00030.php#ab3cd20a0909df03a384a09b1b8151d3e">Timer</a>
 </li>
 <li>target
 : <a class="el" href="d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">Hostile</a>
+</li>
+<li>ter
+: <a class="el" href="dc/d87/a00032.php#af8bab1b2edaafe2be7b53c7479e5417a">trio&lt; T, U, V &gt;</a>
 </li>
 <li>value
 : <a class="el" href="d4/d51/a00017.php#aa484cba6b21edc95517517302af4c5d3">is_array&lt; T &gt;</a>
@@ -173,7 +182,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </li>
 <li>w
 : <a class="el" href="d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
-, <a class="el" href="d0/dc0/a00033.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
+, <a class="el" href="db/df3/a00034.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
 </li>
 <li>weight
 : <a class="el" href="de/d11/a00021.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>
@@ -186,7 +195,7 @@ $(document).ready(function(){initNavTree('functions_vars.php','');});
 </li>
 <li>z
 : <a class="el" href="d3/dfe/a00025.php#a05ba3b1dfcb19430582ae953cbbfbded">Point</a>
-, <a class="el" href="d0/dc0/a00033.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
+, <a class="el" href="db/df3/a00034.php#aa07c34b536e895dc3ab45bb353aa54a6">WorldDimensions</a>
 </li>
 </ul>
 </div><!-- contents -->

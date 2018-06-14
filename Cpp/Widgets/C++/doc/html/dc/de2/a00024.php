@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d7/dce/a00143.php">List of all members</a>  </div>
+<a href="../../d5/da7/a00144.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Player&lt; PlayerParent &gt; Class Template Reference</div>  </div>
 </div><!--header-->
@@ -120,16 +120,18 @@ $(document).ready(function(){initNavTree('dc/de2/a00024.php','../../');});
 <p>A player that can be a child from any class.  
  <a href="../../dc/de2/a00024.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Player&lt; PlayerParent &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d5/da7/a00144.png" border="0" usemap="#Player_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#Player_3_01PlayerParent_01_4_inherit__map" alt="Inheritance graph"/></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Player&lt; PlayerParent &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/ddb/a00145.png" border="0" usemap="#Player_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d9/db6/a00146.png" border="0" usemap="#Player_3_01PlayerParent_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="Player_3_01PlayerParent_01_4_coll__map" id="Player_3_01PlayerParent_01_4_coll__map">
+</map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -210,7 +212,7 @@ class Player&lt; PlayerParent &gt;</h3>
 
 <p>A player that can be a child from any class. </p>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00018">18</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00018">18</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a93132a47f0166fdbb23f3cd72f54c03a"></a>
 <div class="memitem">
@@ -262,7 +264,7 @@ template&lt;class PlayerParent &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00027">27</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00027">27</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -291,7 +293,7 @@ template&lt;class PlayerParent &gt; </div>
 
 <p>Virtual destructor. </p>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00039">39</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00039">39</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,7 +322,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the experience </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00096">96</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00096">96</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -348,7 +350,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the maximum experience </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00098">98</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00098">98</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -376,7 +378,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the id </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00101">101</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00101">101</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -404,7 +406,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the mail </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00089">89</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00089">89</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -432,7 +434,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the password </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00093">93</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00093">93</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -460,7 +462,7 @@ template&lt;class PlayerParent &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the username </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00091">91</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00091">91</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -490,7 +492,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Verify if the player is initialized. </p>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00160">160</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00160">160</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -520,7 +522,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Verify if it has the focus. </p>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00154">154</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00154">154</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -550,7 +552,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Verify if the player is paused. </p>
 <dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00138">138</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00138">138</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -580,7 +582,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Lost the focus. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00144">144</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00144">144</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -610,7 +612,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Pause the player. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00128">128</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00128">128</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -647,7 +649,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00112">112</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00112">112</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -677,7 +679,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Resume the player. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00133">133</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00133">133</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -707,7 +709,7 @@ template&lt;class PlayerParent &gt; </div>
 <p>Regain the focus. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00149">149</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00149">149</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -744,7 +746,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00070">70</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00070">70</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -781,7 +783,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00077">77</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00077">77</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -818,7 +820,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00085">85</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00085">85</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -855,7 +857,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00048">48</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00048">48</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -892,7 +894,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00062">62</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00062">62</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -929,7 +931,7 @@ template&lt;class PlayerParent &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00055">55</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00055">55</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -954,7 +956,7 @@ template&lt;class PlayerParent &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00163">163</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00163">163</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -978,7 +980,7 @@ template&lt;class PlayerParent &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00165">165</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00165">165</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
@@ -1002,12 +1004,12 @@ template&lt;class PlayerParent &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00164">164</a> of file <a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d8b/a00059_source.php#l00164">164</a> of file <a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d7/df7/a00058_source.php">Player.hpp</a></li>
+<li><a class="el" href="../../d3/d8b/a00059_source.php">Player.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

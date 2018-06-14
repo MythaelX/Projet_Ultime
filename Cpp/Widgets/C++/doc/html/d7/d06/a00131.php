@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
+$(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,14 +109,13 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">jumble Member List</div>  </div>
+<div class="title">is_array&lt; T &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/d2b/a00018.php">jumble</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d4/d51/a00017.php">is_array&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">jumble</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d1/d2b/a00018.php#a6a130a7d5490029afb5cf14fb7d37ee3">~jumble</a>()</td><td class="entry"><a class="el" href="../../d1/d2b/a00018.php">jumble</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#aa484cba6b21edc95517517302af4c5d3">value</a></td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">is_array&lt; T &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

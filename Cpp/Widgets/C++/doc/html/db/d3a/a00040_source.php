@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: C++Entities.hpp Source File</title>
+<title>C++: C++.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,16 +107,20 @@ $(document).ready(function(){initNavTree('db/d3a/a00040_source.php','../../');})
 
 <div class="header">
   <div class="headertitle">
-<div class="title">C++Entities.hpp</div>  </div>
+<div class="title">C++.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d3a/a00040.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef HEADER_CPP_ENTITIES</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define HEADER_CPP_ENTITIES</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/df7/a00058.php">Player.hpp</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif //HEADER_CPP_ENTITIES</span></div><div class="ttc" id="a00058_php"><div class="ttname"><a href="../../d7/df7/a00058.php">Player.hpp</a></div></div>
+<a href="../../db/d3a/a00040.php">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="preprocessor">#ifndef HEADER_CPP</span></div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#define HEADER_CPP</span></div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/dea/a00046.php">cryptage.hpp</a>&quot;</span></div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/db6/a00042.php">collides.hpp</a>&quot;</span></div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d03/a00062.php">sorting.hpp</a>&quot;</span></div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/db3/a00066.php">Tree.hpp</a>&quot;</span></div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/dea/a00054.php">Map.hpp</a>&quot;</span></div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">#endif //HEADER_CPP</span></div><div class="ttc" id="a00042_php"><div class="ttname"><a href="../../d5/db6/a00042.php">collides.hpp</a></div></div>
+<div class="ttc" id="a00066_php"><div class="ttname"><a href="../../d9/db3/a00066.php">Tree.hpp</a></div></div>
+<div class="ttc" id="a00054_php"><div class="ttname"><a href="../../d1/dea/a00054.php">Map.hpp</a></div></div>
+<div class="ttc" id="a00062_php"><div class="ttname"><a href="../../df/d03/a00062.php">sorting.hpp</a></div></div>
+<div class="ttc" id="a00046_php"><div class="ttname"><a href="../../d3/dea/a00046.php">cryptage.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../db/d3a/a00040.php">C++Entities.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../db/d3a/a00040.php">C++.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

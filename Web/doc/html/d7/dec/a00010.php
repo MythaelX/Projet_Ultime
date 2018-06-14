@@ -213,7 +213,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>data The array that contains the time and the score of the game</dd></dl>
 <p>Thanks to the information of the time and the answers, it put 0 point by bad answer or 10 points if it answered well before 5 sec then he lose 0,5 point every second until 1 point.if he made a better score or plays for the first time the score is save with the time of the game. then the time of the game and the score are send </p>
 
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00118">118</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00120">120</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -316,7 +316,7 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>array data (true or false)</dd></dl>
 <p>He recover the value that the user has chosen and check if had answered correctly or not. </p>
 
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00174">174</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.php#l00175">175</a> of file <a class="el" href="../../d7/dec/a00010_source.php">fonctions.php</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

@@ -1,2 +1,10 @@
-<map id="maths.hpp" name="maths.hpp">
+<map id="Map.hpp" name="Map.hpp">
+<area shape="rect" id="node2" href="$d5/de0/a00050.php" title="errors.hpp" alt="" coords="494,80,574,107"/>
+<area shape="rect" id="node3" href="$d6/d42/a00043.php" title="console.hpp" alt="" coords="308,155,400,181"/>
+<area shape="rect" id="node13" href="$d2/d79/a00051.php" title="files.hpp" alt="" coords="499,155,570,181"/>
+<area shape="rect" id="node16" href="$de/de1/a00065.php" title="time.hpp" alt="" coords="736,155,808,181"/>
+<area shape="rect" id="node4" href="$d6/d97/a00045.php" title="convert.hpp" alt="" coords="309,229,400,256"/>
+<area shape="rect" id="node10" href="$dc/ddf/a00067.php" title="types.hpp" alt="" coords="19,229,98,256"/>
+<area shape="rect" id="node19" href="$df/d5f/a00064.php" title="Threadable.hpp" alt="" coords="663,229,774,256"/>
+<area shape="rect" id="node23" href="$d9/d73/a00060.php" title="pointers.hpp" alt="" coords="588,304,681,331"/>
 </map>

@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="../../d2/d34/a00156.php">List of all members</a>  </div>
+<a href="../../d1/db7/a00157.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Timer Class Reference</div>  </div>
 </div><!--header-->
@@ -120,11 +120,11 @@ $(document).ready(function(){initNavTree('d5/d79/a00030.php','../../');});
 <p>A timer to do something at the end.  
  <a href="../../d5/d79/a00030.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Timer:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/db7/a00157.png" border="0" usemap="#Timer_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d6/db8/a00158.png" border="0" usemap="#Timer_inherit__map" alt="Inheritance graph"/></div>
 <map name="Timer_inherit__map" id="Timer_inherit__map">
 <area shape="rect" id="node2" href="../../d5/d16/a00029.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
 <area shape="rect" id="node3" href="../../d5/d16/a00029.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,137,32"/>
@@ -133,7 +133,7 @@ Inheritance diagram for Timer:</div>
 <div class="dynheader">
 Collaboration diagram for Timer:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/db8/a00158.png" border="0" usemap="#Timer_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../de/db9/a00159.png" border="0" usemap="#Timer_coll__map" alt="Collaboration graph"/></div>
 <map name="Timer_coll__map" id="Timer_coll__map">
 <area shape="rect" id="node2" href="../../d5/d16/a00029.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
 <area shape="rect" id="node3" href="../../d5/d16/a00029.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,137,32"/>
@@ -184,7 +184,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>A timer to do something at the end. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000005">Todo:</a></b></dt><dd>Create the class </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00066">66</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00066">66</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5f16e8da27d2a5a5242dead46de05d97"></a>
 <div class="memitem">
@@ -223,7 +223,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00073">73</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00073">73</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -263,7 +263,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="../../d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a">Threadable&lt; Timer &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00067">67</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00067">67</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
@@ -323,7 +323,7 @@ Here is the call graph for this function:</div>
 <p>The function call by the thread, that call update() </p>
 <p>The update call is locked up between a lock and an unlock of the <a class="el" href="../../d5/d16/a00029.php" title="A class to let another one to be threadable with update() member in a thread. ">Threadable</a> <b>mutex</b> </p>
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00067">67</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00067">67</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00080">80</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00080">80</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
@@ -368,12 +368,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00081">81</a> of file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../de/de1/a00065_source.php#l00081">81</a> of file <a class="el" href="../../de/de1/a00065_source.php">time.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a></li>
+<li><a class="el" href="../../de/de1/a00065_source.php">time.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

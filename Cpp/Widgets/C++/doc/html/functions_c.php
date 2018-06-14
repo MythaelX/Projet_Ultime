@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('functions_c.php','');});
 : <a class="el" href="d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="dc/d87/a00032.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
+: <a class="el" href="d0/dc0/a00033.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

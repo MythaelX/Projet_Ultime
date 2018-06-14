@@ -1,7 +1,11 @@
 var a00038 =
 [
-    [ "BDD", "de/d21/a00006.php", "de/d21/a00006" ],
-    [ "ColsArray", "d8/d41/a00038.php#acb7362a3fb715f64e5ab3cd50794a52c", null ],
-    [ "ListArray", "d8/d41/a00038.php#a6b6679f15a22e0f89297978d24dec56e", null ],
-    [ "bdd", "d8/d41/a00038.php#a36ce5024f17ad7e4a5b2eff31629cd5c", null ]
+    [ "is_array", "d4/d51/a00017.php", "d4/d51/a00017" ],
+    [ "jumble", "d1/d2b/a00018.php", "d1/d2b/a00018" ],
+    [ "concate", "d8/d41/a00038.php#a4b73faece12295541488cb9e1c5396d6", null ],
+    [ "contains", "d8/d41/a00038.php#a54f668e0211381d2d15ca45dcf3c55d0", null ],
+    [ "implode", "d8/d41/a00038.php#a5090547d046a342ba3ac573e8248f628", null ],
+    [ "print_r", "d8/d41/a00038.php#ad2b1019448d0599264d51172242e1be4", null ],
+    [ "print_r", "d8/d41/a00038.php#aeda2dbc3a1ec9d5f58f2991fb7d0ad13", null ],
+    [ "rewrite", "d8/d41/a00038.php#addfa691004e6d94461994bb7eccadf19", null ]
 ];

@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('functions_w.php','');});
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
 <li>w
 : <a class="el" href="d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">ContraptionAttr</a>
-, <a class="el" href="d0/dc0/a00033.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
+, <a class="el" href="db/df3/a00034.php#a56d14d07cb773a1a4bf12f16e7b57d07">WorldDimensions</a>
 </li>
 <li>weight
 : <a class="el" href="de/d11/a00021.php#aa2cb07a6e63a4dc1f1a05d3e634a8fdd">Node&lt; T &gt;</a>

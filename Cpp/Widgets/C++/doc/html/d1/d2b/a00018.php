@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d7/d06/a00131.php">List of all members</a>  </div>
+<a href="../../d5/deb/a00132.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">jumble Class Reference</div>  </div>
 </div><!--header-->
@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d1/d2b/a00018.php','../../');});
 <p>A dynamic array to store any type of variable.  
  <a href="../../d1/d2b/a00018.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d8/d41/a00038_source.php">array.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A dynamic array to store any type of variable. </p>
 <dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000002">Todo:</a></b></dt><dd>Create the class </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00169">169</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d41/a00038_source.php#l00169">169</a> of file <a class="el" href="../../d8/d41/a00038_source.php">array.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4f82dc848cfaed87d3c8c41d11611cdf"></a>
 <div class="memitem">
@@ -168,7 +168,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a></li>
+<li><a class="el" href="../../d8/d41/a00038_source.php">array.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d2/de7/a00014.php','../../');});
+$(document).ready(function(){initNavTree('d7/dd4/a00013.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,14 +109,15 @@ $(document).ready(function(){initNavTree('d2/de7/a00014.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Crypto Member List</div>  </div>
+<div class="title">ContraptionAttr Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d2/de7/a00014.php">Crypto</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132">crypt</a>()=0</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd4/a00013.php#a062e1a4fe2f7d6f8d771f13f10844a19">angle</a></td><td class="entry"><a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">h</a></td><td class="entry"><a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dd4/a00013.php#a949dbd15efa71ddbb294abf15517d8b0">w</a></td><td class="entry"><a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

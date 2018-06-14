@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: time.hpp File Reference</title>
+<title>C++: Threadable.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,21 +108,21 @@ $(document).ready(function(){initNavTree('df/d5f/a00064.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">time.hpp File Reference</div>  </div>
+<div class="title">Threadable.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ctime&gt;</code><br />
-<code>#include &lt;chrono&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d6f/a00063_source.php">Threadable.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d73/a00060_source.php">pointers.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for time.hpp:</div>
+Include dependency graph for Threadable.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#time_8hpp" alt=""/></div>
-<map name="time_8hpp" id="time_8hpp">
-<area shape="rect" id="node4" href="../../d1/d6f/a00063.php" title="Threadable.hpp" alt="" coords="171,80,281,107"/>
-<area shape="rect" id="node8" href="../../d3/d8b/a00059.php" title="pointers.hpp" alt="" coords="337,155,430,181"/>
+<div class="center"><img src="../../da/d74/a00099.png" border="0" usemap="#Threadable_8hpp" alt=""/></div>
+<map name="Threadable_8hpp" id="Threadable_8hpp">
+<area shape="rect" id="node5" href="../../d9/d73/a00060.php" title="pointers.hpp" alt="" coords="208,80,302,107"/>
 </map>
 </div>
 </div>
@@ -130,60 +130,33 @@ Include dependency graph for time.hpp:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clock to measure the elapsed time.  <a href="../../d4/dee/a00008.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d79/a00030.php">Timer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A timer to do something at the end.  <a href="../../d5/d79/a00030.php#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d16/a00029.php">Threadable&lt; C &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to let another one to be threadable with update() member in a thread.  <a href="../../d5/d16/a00029.php#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5834b1cc3c766f7520e829ca23284546"><td class="memItemLeft" align="right" valign="top">std::time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/a00064.php#a5834b1cc3c766f7520e829ca23284546">getSec</a> ()</td></tr>
-<tr class="memdesc:a5834b1cc3c766f7520e829ca23284546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of seconds since the Epoch.  <a href="#a5834b1cc3c766f7520e829ca23284546">More...</a><br /></td></tr>
-<tr class="separator:a5834b1cc3c766f7520e829ca23284546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="memItemLeft" align="right" valign="top">std::chrono::milliseconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/a00064.php#ae4c6c825f2c7a717a5c24349d50fef7c">getMilli</a> ()</td></tr>
-<tr class="memdesc:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the milliseconds since the Epoch.  <a href="#ae4c6c825f2c7a717a5c24349d50fef7c">More...</a><br /></td></tr>
-<tr class="separator:ae4c6c825f2c7a717a5c24349d50fef7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a09979566ade438911265d3e17ecc3abc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/a00064.php#a09979566ade438911265d3e17ecc3abc">THREADABLE</a></td></tr>
+<tr class="separator:a09979566ade438911265d3e17ecc3abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>11 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>12 juin 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../df/d5f/a00064_source.php">time.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ae4c6c825f2c7a717a5c24349d50fef7c"></a>
+<p>Definition in file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a09979566ade438911265d3e17ecc3abc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::chrono::milliseconds getMilli </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">#define THREADABLE</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Return the milliseconds since the Epoch. </p>
-
-</div>
-</div>
-<a class="anchor" id="a5834b1cc3c766f7520e829ca23284546"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::time_t getSec </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the number of seconds since the Epoch. </p>
-<dl class="section return"><dt>Returns</dt><dd>Return the number of seconds </dd></dl>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>:\\</div><div class="line">        void launch(){<a class="code" href="../../d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a">\</a></div><div class="line"><a class="code" href="../../d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a">			Threadable::launch</a>(<span class="keyword">this</span>);\</div><div class="line">        }\\</div><div class="line">        void updater(){\</div><div class="line">            while(!this-&gt;hasToStop()){\</div><div class="line">                mutex.lock();\</div><div class="line">                this-&gt;update();\</div><div class="line">                mutex.unlock();\</div><div class="line">            }\</div><div class="line">        }</div><div class="ttc" id="a00029_php_a0b5b43b02f693cdde338ef942675234a"><div class="ttname"><a href="../../d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a">Threadable::launch</a></div><div class="ttdeci">virtual void launch()=0</div><div class="ttdoc">Start the thread. </div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../df/d5f/a00064_source.php#l00017">17</a> of file <a class="el" href="../../df/d5f/a00064_source.php">Threadable.hpp</a>.</p>
 
 </div>
 </div>
@@ -192,7 +165,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../df/d5f/a00064.php">time.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../df/d5f/a00064.php">Threadable.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

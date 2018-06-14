@@ -1,7 +1,6 @@
 var a00032 =
 [
-    [ "Vegetal", "dc/d87/a00032.php#ac9d1bee0742cb45180637db1bed06294", null ],
-    [ "~Vegetal", "dc/d87/a00032.php#ae273444c873c7f3be7f38b6f60156a4c", null ],
-    [ "cut", "dc/d87/a00032.php#a4ea0ad75fb2add027996b1653a4751f4", null ],
-    [ "printInfos", "dc/d87/a00032.php#ac3ac9ca3d977facf17953da4c853f37f", null ]
+    [ "first", "dc/d87/a00032.php#afd5c9afd87ec0afa9280b0e623350125", null ],
+    [ "second", "dc/d87/a00032.php#a875a876ca0878b4e0e20237f031545e6", null ],
+    [ "ter", "dc/d87/a00032.php#af8bab1b2edaafe2be7b53c7479e5417a", null ]
 ];

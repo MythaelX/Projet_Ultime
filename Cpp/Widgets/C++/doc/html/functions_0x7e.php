@@ -191,7 +191,7 @@ $(document).ready(function(){initNavTree('functions_0x7e.php','');});
 : <a class="el" href="df/d61/a00031.php#a04affc46d89a0ef5d517ab685c9c346e">Tree&lt; T &gt;</a>
 </li>
 <li>~Vegetal()
-: <a class="el" href="dc/d87/a00032.php#ae273444c873c7f3be7f38b6f60156a4c">Vegetal</a>
+: <a class="el" href="d0/dc0/a00033.php#ae273444c873c7f3be7f38b6f60156a4c">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->
