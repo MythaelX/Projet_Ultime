@@ -107,6 +107,6 @@ size_t count(std::string text, char c);
 *		\param[in]			str				The string in which to search
 *		\return				Return a vector of string with the occurences
 */
-std::vector<std::string> getall(std::string str_regex, std::string str);
+std::vector<std::vector<std::string>> getall(std::string str_regex, std::string str);
 
 #endif //HEADER_STRING
