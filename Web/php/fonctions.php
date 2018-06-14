@@ -149,12 +149,11 @@ function score($bdd){
   $pseudo=$_POST['pseudo'];
   $mail=$bdd->query("SELECT mail from utilisateurs WHERE pseudo='".$pseudo."'")[0]['mail'];
   $id_partie=$_POST['id_partie'];
-  $data=$bdd->select("joue_a","valeur_score","WHERE id_partie=".$id_partie." AND mail=".$mail."");
-  $ancienScore=$data;
-  if(isset($ancienScore[0]['valeur_score'])){ //verification s'il a deja joué a la partie
-    if($ancienScore<$scoreTotal){ //comparaisson du nouveau et ancien score pour garder le meilleurs
-      $bdd->delete("joue_a","id_partie=".$id_partie."","pseudo=".$pseudo."");
-      $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
+  $ancienScore=$bdd->select("joue_a","valeur_score","WHERE id_partie=".$id_partie." AND mail=".$mail."");
+
+  if(isset($ancienScore[0]['valeur_score'])){
+    if($ancienScore[0]['valeur_score']<$scoreTotal){
+      $bdd->update("joue_a","valeur_score=".$scoreTotal.", temps_score=".$tempsTotal.", date_score=".$date."","WHERE id_partie=".$id_partie." AND mail='".$mail."'");
     }
   }else{
     $bdd->insert("joue_a","'".$id_partie."','".$mail."','".$scoreTotal."','".$tempsTotal."','".$date."'");
