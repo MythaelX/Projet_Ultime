@@ -1,32 +1,5 @@
 WEB
-Sur votre machine
-	sudo nano /etc/hosts
-Après la liste des ips, ajouter
-	la bonne ip	hotdogquiz.fr
-
-Sur le serveur
-	cd /etc/apache2/sites-available
-	sudo cp 000-default.conf hotdogquiz.conf
-	sudo nano hotdogquiz.conf
-
-	Remplacer
-		ServerAdmin webmaster@localhost
-	par
-		ServerName hotdogquiz.fr
-
-	Remplacer 
-		DocumentRoot /var/www/html
-	par
-		DocumentRoot /var/www/html/hotdogquiz
-
-	Quitter nano en enregistrant
-	sudo a2ensite hotdogquiz.conf
-	sudo service apache2 restart
-
-	cd /var/www/html/
-	sudo ln -s "le/chemin/vers/le/dossier/du/projet/Web" hotdogquiz
-
-	cd "le/chemin/vers/le/dossier/du/projet/Web"
+	Le site est dans le dossier Web
 	chmod 777 files/img/
 Dans les fichiers du site
 	Dans php/bddConnect.inc
@@ -47,4 +20,4 @@ Dans le dossier BDD
 		hotdogquiz
 	et tous les droits sur la table
 
-	bdd.sql
+	BDD/hotdogquiz.sql
