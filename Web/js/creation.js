@@ -42,7 +42,7 @@ function creerPartie(){
   }else{
     difficulte=$('#difficulte').value;
     ajaxRequest('POST','php/request.php/creerPartie',function(numPartie){
-      alert("Partie n°"+numPartie+" Crée");
+      alert("Partie n°"+numPartie+" créée");
       document.location="./index.php";
     }
     ,'themes='+themes+'&difficulte='+difficulte);
