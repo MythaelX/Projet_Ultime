@@ -9,6 +9,7 @@
 </div>
 
 <div id="jeu">
+<div id="sound"></div>
 <h1 id="difficulte"></h1>
 <h2 id="question"></h2>
 <h3 id="proposition"></h3>
@@ -23,9 +24,7 @@
   <h1>PARTIE TERMINÉE</h1>
   <h2 id="score"></h2>
   <h2 id="temps"></h2>
-  <a href="./index.php" target="_self"><button>Accueil</button></a>
-  <a href="./palmares.php" target="_self"><button>Palmares</button></a>
+  <a href="./index.php" target="_self"><button >Accueil</button></a>
+  <a href="./palmares.php" target="_self"><button >Palmares</button></a>
 </div>
-
-
 </div>

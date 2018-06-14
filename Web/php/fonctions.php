@@ -123,9 +123,9 @@ function score($bdd){
   $reponses=json_decode($_POST['reponses']);
   for ($j=0; $j < sizeof($reponses); $j++) { //number of questions
     for ($i=0; $i < sizeof($reponses[$j]); $i++) { //number of propositions
+      $tempsTotal+=$temps[$j][$i];
       if($reponses[$j][$i]==true){
         $score=10;
-        $tempsTotal+=$temps[$j][$i];
         $temps[$j][$i]-=5000;
         if($temps[$j][$i]>=0 && $temps[$j][$i]<18000){
           $score-=($temps[$j][$i]/2)/1000;
@@ -139,6 +139,7 @@ function score($bdd){
     }
   }
   //send score in the database;
+
   $scoreTotal=intval($scoreTotal);
   $date=date("Y-m-d");
   $tempsTotal=intval($tempsTotal/1000); //H:Min:Sec

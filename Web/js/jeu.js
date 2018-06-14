@@ -18,19 +18,24 @@ data['reponses']=new Array();
 var compteurProposition=0;
 var compteurQuestion=0;
 
+loadSound();
+
 ajaxRequest('GET','php/request.php/nomDifficulte',affichageDifficulte,'id_partie='+id_partie);
 ajaxRequest('GET','php/request.php/questions',recupererQuestions,'id_partie='+id_partie);
 
 $("#bouton1").addEventListener('click',compteur);
 $("#bouton2").addEventListener('click',compteur);
 $("#bouton3").addEventListener('click',compteur);
-
 /*!
 *	\brief    Advance the counter by 1 of proposition or question and go to the game function for change display.
 *		\param[in]		event   The event of the button
 */
 function compteur(event){
-  var reponse=this.textContent;
+  var reponse,buttonSound,randomNumber;
+  reponse=this.textContent;
+  randomNumber= Math.floor(Math.random() * 6) + 1;
+  buttonSound=$("#audioPlayerButton"+randomNumber);
+  buttonSound.play();
   recuperationReponseTemp(reponse);
   if(compteurProposition>=proposition[compteurQuestion].length-1){
     compteurProposition=0;
@@ -89,7 +94,6 @@ function recuperationReponseTemp(reponse){
   i=compteurProposition;
   j=compteurQuestion;
   temps=new Date();
-  console.log(proposition[j][i]);
   ajaxRequest('GET','php/request.php/solutionspropositions',function(ajaxResponse){
     var json= JSON.parse(ajaxResponse);
     data['reponses'][j][i]=json['verification'];
@@ -135,4 +139,26 @@ function affichageScore(ajaxResponse){
 var json= JSON.parse(ajaxResponse);
 $("#score").innerHTML="Votre score : "+json['score']+" Dog";
 $("#temps").innerHTML="Votre temps :   "+json['temps'];
+}
+
+/*!*	\brief    loadSound of the game*/
+function loadSound(){
+  var randomNumber,player;
+  randomNumber= Math.floor(Math.random() * 4) + 1;
+  $("#sound").innerHTML="<audio id='audioPlayer'><source src='design/sound/music"+randomNumber+".mp3'></audio>"+
+  "<audio id='audioPlayerButton1'><source src='design/sound/click1.mp3'></audio>"+
+  "<audio id='audioPlayerButton2'><source src='design/sound/click2.mp3'></audio>"+
+  "<audio id='audioPlayerButton3'><source src='design/sound/click3.mp3'></audio>"+
+  "<audio id='audioPlayerButton4'><source src='design/sound/click4.mp3'></audio>"+
+  "<audio id='audioPlayerButton5'><source src='design/sound/click5.mp3'></audio>"+
+  "<audio id='audioPlayerButton6'><source src='design/sound/click6.mp3'></audio>";
+  player=$("#audioPlayer");
+
+  player.volume = 0.8;
+  if(randomNumber==1){
+    player.volume = 0.4;
+  }
+
+  player.play();
+  player.loop = true;
 }

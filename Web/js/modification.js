@@ -42,9 +42,9 @@ function valideModification(event){
     }else if(verifMotDePasse2()){
         text = 'Veuillez mettre 2 fois le même mot de passe';
     }else if(mdpActuelVerif()){
-        text='Votre mot de passe Actuel est incorrect';
+        text='Votre mot de passe actuel est incorrect';
     }else if(verifImage()){
-      text = 'Veuillez mettre une image png,jpg,jpeg,ou gif';
+      text = 'Veuillez mettre une image png, jpg, jpeg ou gif';
     }
     httpErrors(403,text);
   }else{

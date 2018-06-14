@@ -18,7 +18,6 @@ $("#boutonAvatar2").addEventListener( "click", function( event ) {
 
 $("#pseudo").addEventListener('blur',function(event){
 var pseudo=event.currentTarget.value;
-console.log($('#boutonAvatar').files[0].type);
 ajaxRequest("GET",'php/request.php/pseudo',verifPseudoBDD,'pseudo='+pseudo);
 });
 
@@ -51,7 +50,7 @@ function valideInscription(event){
     }else if(verifPseudo()){
       text = 'Veuillez rentrer un pseudo entre 2 et 25 caractères';
     }else if(verifImage()){
-      text = 'Veuillez mettre une image png,jpg,jpeg,ou gif';
+      text = 'Veuillez mettre une image png, jpg, jpeg ou gif';
     }
     httpErrors(403,text);
   }else{

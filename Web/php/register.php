@@ -27,7 +27,7 @@ if($avatar!=false){
 if($avatar==false){
   header('Location: ../inscription.php');
 }else{
-  header('Location: ../index.php');
+  header('Location: ../connexion.php');
 }
 
 ?>

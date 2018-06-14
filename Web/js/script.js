@@ -24,6 +24,5 @@ function posMain(){
 	}else if(isIn("jeu.php")){
 		main.style.marginTop = "3%";
 	}
+	addOnresize(posMain);
 }
-
-addOnresize(posMain);
