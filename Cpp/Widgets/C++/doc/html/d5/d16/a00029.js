@@ -1,11 +1,9 @@
 var a00029 =
 [
-    [ "Timer", "d5/d16/a00029.php#a5f16e8da27d2a5a5242dead46de05d97", null ],
-    [ "getStart", "d5/d16/a00029.php#a56cf495a8c9da8907efe755a550c734c", null ],
-    [ "launch", "d5/d16/a00029.php#aa78ce396b7f7e652bbe363637d6ff05c", null ],
-    [ "restart", "d5/d16/a00029.php#a8422d61fac8765b8789c8056bd38f2f3", null ],
-    [ "start", "d5/d16/a00029.php#a18a29af58bc18e1644230c747afb35ec", null ],
-    [ "updater", "d5/d16/a00029.php#a2aeae96f6681e81e4800b8ec5aa8fbcd", null ],
-    [ "m_start", "d5/d16/a00029.php#a8fb741bf0ac74d067fcfcfafb2c8ab61", null ],
-    [ "started", "d5/d16/a00029.php#ab3cd20a0909df03a384a09b1b8151d3e", null ]
+    [ "Threadable", "d5/d16/a00029.php#a7b5a3de51a890d7899182f4ff75e9751", null ],
+    [ "~Threadable", "d5/d16/a00029.php#aa389c613d710919ea274fc2c33f48129", null ],
+    [ "hasToStop", "d5/d16/a00029.php#a0e164fd54cb5746f981e1ace8cd3fef0", null ],
+    [ "launch", "d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a", null ],
+    [ "stop", "d5/d16/a00029.php#a59161fb24a2a485aecb0ea1bbed67099", null ],
+    [ "mutex", "d5/d16/a00029.php#a1fb118abc832fb483fb82f8d9d87521f", null ]
 ];

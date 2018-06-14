@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: jumble Class Reference</title>
+<title>C++: is_array&lt; T &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,73 +109,64 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d9/d47/a00129.php">List of all members</a>  </div>
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="../../d6/db3/a00130.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">jumble Class Reference</div>  </div>
+<div class="title">is_array&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A dynamic array to store any type of variable.  
+<p>A template struct to test if T is an array, a vector or a map.  
  <a href="../../d4/d51/a00017.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../de/d8c/a00036_source.php">array.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a> ()</td></tr>
-<tr class="memdesc:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a4f82dc848cfaed87d3c8c41d11611cdf">More...</a><br /></td></tr>
-<tr class="separator:a4f82dc848cfaed87d3c8c41d11611cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#a6a130a7d5490029afb5cf14fb7d37ee3">~jumble</a> ()</td></tr>
-<tr class="separator:a6a130a7d5490029afb5cf14fb7d37ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa484cba6b21edc95517517302af4c5d3"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d51/a00017.php#aa484cba6b21edc95517517302af4c5d3">value</a> = false</td></tr>
+<tr class="separator:aa484cba6b21edc95517517302af4c5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A dynamic array to store any type of variable. </p>
-<dl class="todo"><dt><b><a class="el" href="../../d8/d84/a00001.php#_todo000001">Todo:</a></b></dt><dd>Create the class </dd></dl>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct is_array&lt; T &gt;</h3>
 
-<p>Definition at line <a class="el" href="../../de/d8c/a00036_source.php#l00124">124</a> of file <a class="el" href="../../de/d8c/a00036_source.php">array.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4f82dc848cfaed87d3c8c41d11611cdf"></a>
+<p>A template struct to test if T is an array, a vector or a map. </p>
+
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00019">19</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aa484cba6b21edc95517517302af4c5d3"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">jumble::jumble </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const bool <a class="el" href="../../d4/d51/a00017.php">is_array</a>&lt; T &gt;::value = false</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Constructor of the class. </p>
+<p>Definition at line <a class="el" href="../../d1/dc6/a00037_source.php#l00020">20</a> of file <a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6a130a7d5490029afb5cf14fb7d37ee3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">jumble::~jumble </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../de/d8c/a00036_source.php">array.hpp</a></li>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../d1/dc6/a00037_source.php">array.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d51/a00017.php">jumble</a></li>
+    <li class="navelem"><a class="el" href="../../d4/d51/a00017.php">is_array</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

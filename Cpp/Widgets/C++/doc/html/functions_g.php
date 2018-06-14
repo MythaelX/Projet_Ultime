@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
 <li>get()
-: <a class="el" href="d1/d2b/a00018.php#aa083b12c5bc9d4ad54301a31603e9fa0">Map</a>
+: <a class="el" href="dd/da2/a00019.php#aa083b12c5bc9d4ad54301a31603e9fa0">Map</a>
 </li>
 <li>getA()
 : <a class="el" href="df/d86/a00012.php#a08d8bb97ba4e9b6238f5a80af9800579">Contraption</a>
@@ -176,10 +176,10 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="d4/dee/a00008.php#a38ca26b1111d2ecf1751f0d0d5e943e1">Clock</a>
 </li>
 <li>getExperience()
-: <a class="el" href="d3/d52/a00023.php#a9f2475a2705e610e8dc7e4f1836d5e6b">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a9f2475a2705e610e8dc7e4f1836d5e6b">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getExperienceMax()
-: <a class="el" href="d3/d52/a00023.php#a29b4d8d469f4c293926375d1d7060fd0">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a29b4d8d469f4c293926375d1d7060fd0">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getFood()
 : <a class="el" href="d1/d7c/a00003.php#a85a4f637c29b0ac8b9b30ca6ce759da6">Animal</a>
@@ -189,13 +189,13 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 </li>
 <li>getH()
 : <a class="el" href="df/d86/a00012.php#aa468a3b0582bb0e073f2f642611c10f1">Contraption</a>
-, <a class="el" href="d1/d2b/a00018.php#a4b2f272b33eae99d8f64a7b13c687ab6">Map</a>
+, <a class="el" href="dd/da2/a00019.php#a4b2f272b33eae99d8f64a7b13c687ab6">Map</a>
 </li>
 <li>getId()
-: <a class="el" href="d3/d52/a00023.php#a256287b18c9b2bbafb22dd31ed51edba">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a256287b18c9b2bbafb22dd31ed51edba">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getLeftCount()
-: <a class="el" href="d5/d79/a00030.php#a6f70313aed640245e4ebba746e973ef9">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a6f70313aed640245e4ebba746e973ef9">Tree&lt; T &gt;</a>
 </li>
 <li>getLevel()
 : <a class="el" href="df/d86/a00012.php#a3b6d4a5f2d520dfa5e58afe5b421a126">Contraption</a>
@@ -207,22 +207,22 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="dd/d1b/a00015.php#a04d2bf369c65382b8001db51b3f9568b">Entity</a>
 </li>
 <li>getMail()
-: <a class="el" href="d3/d52/a00023.php#a1a42c147a927ee5f762e590e18c52352">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a1a42c147a927ee5f762e590e18c52352">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getMap()
 : <a class="el" href="df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">Contraption</a>
 </li>
 <li>getPassword()
-: <a class="el" href="d3/d52/a00023.php#ab0fa81388a807469a2c5e45cb85bf57e">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#ab0fa81388a807469a2c5e45cb85bf57e">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getPosition()
 : <a class="el" href="df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">Contraption</a>
 </li>
 <li>getPrivate()
-: <a class="el" href="d0/d33/a00027.php#aa900df17edf76fe7158630ec63db1fa4">RSA</a>
+: <a class="el" href="dc/d3c/a00028.php#aa900df17edf76fe7158630ec63db1fa4">RSA</a>
 </li>
 <li>getPublic()
-: <a class="el" href="d0/d33/a00027.php#a552895f20169b13fd412bc83738b5db5">RSA</a>
+: <a class="el" href="dc/d3c/a00028.php#a552895f20169b13fd412bc83738b5db5">RSA</a>
 </li>
 <li>getReborn()
 : <a class="el" href="dd/d1b/a00015.php#a9a4ebc5d8f48e62f4ab322d6f7f35c48">Entity</a>
@@ -238,10 +238,10 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="dd/d1b/a00015.php#abbd4dc44c41c2f29d45666e73184a5c7">Entity</a>
 </li>
 <li>getRightCount()
-: <a class="el" href="d5/d79/a00030.php#af0c07b62a0dfbac020a70d29e3572644">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#af0c07b62a0dfbac020a70d29e3572644">Tree&lt; T &gt;</a>
 </li>
 <li>getSize()
-: <a class="el" href="d1/d2b/a00018.php#ae362b35f435bf1dcb6274821470ae0c9">Map</a>
+: <a class="el" href="dd/da2/a00019.php#ae362b35f435bf1dcb6274821470ae0c9">Map</a>
 </li>
 <li>getSpecialAttack()
 : <a class="el" href="d1/d7c/a00003.php#af7d494388300a7c6e47d0f0fb8bf6397">Animal</a>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 </li>
 <li>getStart()
 : <a class="el" href="d4/dee/a00008.php#ac195ced602d8b707b0fd7e5b15d103a7">Clock</a>
-, <a class="el" href="d5/d16/a00029.php#a56cf495a8c9da8907efe755a550c734c">Timer</a>
+, <a class="el" href="d5/d79/a00030.php#a56cf495a8c9da8907efe755a550c734c">Timer</a>
 </li>
 <li>getStone()
 : <a class="el" href="d0/d0b/a00004.php#a0d29f6509a768a83e38f43180e6f4523">Ant</a>
@@ -281,11 +281,11 @@ $(document).ready(function(){initNavTree('functions_g.php','');});
 : <a class="el" href="dd/d1b/a00015.php#a4ad4de93247ee864f07acfd798d2fd13">Entity</a>
 </li>
 <li>getUsername()
-: <a class="el" href="d3/d52/a00023.php#ae840c70699458938568b36a422963a89">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#ae840c70699458938568b36a422963a89">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>getW()
 : <a class="el" href="df/d86/a00012.php#acf50efec2040353189fe1b46152ba8d0">Contraption</a>
-, <a class="el" href="d1/d2b/a00018.php#aadfd9c2b4c9555d97e47532ff0248f87">Map</a>
+, <a class="el" href="dd/da2/a00019.php#aadfd9c2b4c9555d97e47532ff0248f87">Map</a>
 </li>
 <li>getX()
 : <a class="el" href="df/d86/a00012.php#a8eddeb512a0133271555e8f1ef888dc3">Contraption</a>

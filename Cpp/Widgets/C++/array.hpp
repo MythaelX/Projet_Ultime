@@ -2,7 +2,7 @@
 *
 *	\file		array.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		07 juin 2018
+*	\date		14 juin 2018
 *
 */
 #ifndef HEADER_ARRAY
@@ -10,7 +10,32 @@
 
 #include <iostream>
 #include <vector>
+#include <map>
+#include <array>
 #include <string>
+
+/*! \brief	A template struct to test if T is an array, a vector or a map */
+template<typename T>
+struct is_array{
+	const static bool value = false;
+};
+
+#ifndef DOXYGEN_SHOULD_SKIP_THIS
+template<typename T>
+struct is_array<std::vector<T>>{
+	const static bool value = true;
+};
+
+template<typename T, typename U>
+struct is_array<std::map<T, U>>{
+	const static bool value = true;
+};
+
+template<typename T, std::size_t U>
+struct is_array<std::array<T, U>>{
+	const static bool value = true;
+};
+#endif //DOXYGEN_SHOULD_SKIP_THIS
 
 /*!
 * \brief	Stick the \a a vector with the \a glue given
@@ -47,7 +72,6 @@ std::string implode(std::vector<T> a, std::string glue = ""){
 template<typename T>
 void print_r(std::vector<T> a){
 	size_t index{0};
-
 	for(auto& elem : a){
 		std::cout << index << " : '" << elem << "'" << std::endl;
 		index++;
@@ -114,6 +138,27 @@ bool contains(std::vector<T> table, T value){
 	if(std::find(table.begin(), table.end(), value) == table.end()){ return false; }
 
 	return true;
+}
+
+/*!
+* \brief	Concate an array when it only contains an array in a field
+*		\param[in]		table		The array to concate
+*
+*		\return			Return the concatenate array
+* \todo		Do the function
+*/
+template<typename T>
+T concate(T table){
+	if(is_array<T>::value){
+		std::cout << "It's an array" << std::endl;
+		for(auto& line : table){
+			
+		}
+	} else {
+		std::cout << "It isn't an array" << std::endl;
+	}
+
+	return table;
 }
 
 /*!

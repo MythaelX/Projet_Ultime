@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Vegetal.hpp File Reference</title>
+<title>C++: types.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,59 +107,164 @@ $(document).ready(function(){initNavTree('d9/db3/a00066.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Vegetal.hpp File Reference</div>  </div>
+<div class="title">types.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;typeinfo&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Vegetal.hpp:</div>
+Include dependency graph for types.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d3a/a00101.png" border="0" usemap="#Vegetal_8hpp" alt=""/></div>
-<map name="Vegetal_8hpp" id="Vegetal_8hpp">
-<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="Entity.hpp" alt="" coords="438,80,519,107"/>
-<area shape="rect" id="node3" href="../../d5/db6/a00042.php" title="Contraption.hpp" alt="" coords="421,155,536,181"/>
-<area shape="rect" id="node4" href="../../d6/d97/a00045.php" title="defines.hpp" alt="" coords="434,229,523,256"/>
-<area shape="rect" id="node47" href="../../db/d3a/a00040.php" title="collides.hpp" alt="" coords="793,229,884,256"/>
-<area shape="rect" id="node50" href="../../d1/d84/a00052.php" title="Map.hpp" alt="" coords="264,229,336,256"/>
-<area shape="rect" id="node11" href="../../d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="749,304,817,331"/>
-<area shape="rect" id="node45" href="../../d4/d8c/a00035.php" title="Args.hpp" alt="" coords="75,379,149,405"/>
-<area shape="rect" id="node16" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="365,453,445,480"/>
-<area shape="rect" id="node38" href="../../d4/de8/a00061.php" title="string.hpp" alt="" coords="913,379,991,405"/>
-<area shape="rect" id="node17" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="653,528,745,555"/>
-<area shape="rect" id="node27" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="487,528,558,555"/>
-<area shape="rect" id="node30" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="204,528,276,555"/>
-<area shape="rect" id="node18" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="792,603,883,629"/>
-<area shape="rect" id="node24" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="659,603,738,629"/>
-<area shape="rect" id="node33" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="33,603,143,629"/>
-<area shape="rect" id="node37" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="29,677,123,704"/>
-<area shape="rect" id="node41" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="745,453,828,480"/>
-<area shape="rect" id="node42" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="359,528,435,555"/>
-<area shape="rect" id="node43" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="852,453,929,480"/>
-<area shape="rect" id="node48" href="../../dc/dee/a00053.php" title="maths.hpp" alt="" coords="1004,304,1087,331"/>
-</map>
+<div class="center"><img src="../../d4/d3a/a00101.png" border="0" usemap="#types_8hpp" alt=""/></div>
 </div>
 </div>
 <p><a href="../../d9/db3/a00066_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d61/a00031.php">Vegetal</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vegetal.  <a href="../../df/d61/a00031.php#details">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:da/d24/a00068"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php">Typer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#aecf59a2b719b8c7121eee69d1bb737e8">printType</a> (C &amp;obj)</td></tr>
+<tr class="memdesc:aecf59a2b719b8c7121eee69d1bb737e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the type of \â obj.  <a href="#aecf59a2b719b8c7121eee69d1bb737e8">More...</a><br /></td></tr>
+<tr class="separator:aecf59a2b719b8c7121eee69d1bb737e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d24/a00068.php#ad2c2baf0c63c7c94b50ef7407851cc8e">Typer::firstLetter</a> (std::string in)</td></tr>
+<tr class="memdesc:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the first letter in the in string.  <a href="../../da/d24/a00068.php#ad2c2baf0c63c7c94b50ef7407851cc8e">More...</a><br /></td></tr>
+<tr class="separator:ad2c2baf0c63c7c94b50ef7407851cc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt;!std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#a6d01957e99131ce0c8d0902a9a8cdf38">getType</a> (C &amp;obj)</td></tr>
+<tr class="memdesc:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of <em>obj</em> in a string.  <a href="#a6d01957e99131ce0c8d0902a9a8cdf38">More...</a><br /></td></tr>
+<tr class="separator:a6d01957e99131ce0c8d0902a9a8cdf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:ae549f98d8a0469bd0533f807c2b51b84"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_pointer&lt; C &gt;::value, std::string &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/db3/a00066.php#ae549f98d8a0469bd0533f807c2b51b84">getType</a> (C obj)</td></tr>
+<tr class="memdesc:ae549f98d8a0469bd0533f807c2b51b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of a pointer <em>obj</em> in a string.  <a href="#ae549f98d8a0469bd0533f807c2b51b84">More...</a><br /></td></tr>
+<tr class="separator:ae549f98d8a0469bd0533f807c2b51b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../d9/db3/a00066_source.php">Vegetal.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="../../d9/db3/a00066_source.php">types.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a6d01957e99131ce0c8d0902a9a8cdf38"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;!std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td>(</td>
+          <td class="paramtype">C &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the type of <em>obj</em> in a string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00043">43</a> of file <a class="el" href="../../d9/db3/a00066_source.php">types.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/db3/a00066_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph.png" border="0" usemap="#d9/db3/a00066_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" alt=""/></div>
+<map name="d9/db3/a00066_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph" id="d9/db3/a00066_a6d01957e99131ce0c8d0902a9a8cdf38_cgraph">
+<area shape="rect" id="node2" href="../../da/d24/a00068.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae549f98d8a0469bd0533f807c2b51b84"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if&lt;std::is_pointer&lt;C&gt;::value, std::string&gt;::type getType </td>
+          <td>(</td>
+          <td class="paramtype">C&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the type of a pointer <em>obj</em> in a string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to get the type of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Return the type of <em>obj</em> </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00056">56</a> of file <a class="el" href="../../d9/db3/a00066_source.php">types.hpp</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/db3/a00066_ae549f98d8a0469bd0533f807c2b51b84_cgraph.png" border="0" usemap="#d9/db3/a00066_ae549f98d8a0469bd0533f807c2b51b84_cgraph" alt=""/></div>
+<map name="d9/db3/a00066_ae549f98d8a0469bd0533f807c2b51b84_cgraph" id="d9/db3/a00066_ae549f98d8a0469bd0533f807c2b51b84_cgraph">
+<area shape="rect" id="node2" href="../../da/d24/a00068.php#ad2c2baf0c63c7c94b50ef7407851cc8e" title="Get the position of the first letter in the in string. " alt="" coords="123,5,241,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aecf59a2b719b8c7121eee69d1bb737e8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void printType </td>
+          <td>(</td>
+          <td class="paramtype">C &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print the type of \â obj. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">obj</td><td>The variable to print the type of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d9/db3/a00066_source.php#l00021">21</a> of file <a class="el" href="../../d9/db3/a00066_source.php">types.hpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d9/db3/a00066.php">Vegetal.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d9/db3/a00066.php">types.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

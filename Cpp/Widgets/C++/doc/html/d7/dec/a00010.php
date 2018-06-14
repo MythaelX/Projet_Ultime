@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="../../d2/da3/a00115.php">List of all members</a>  </div>
+<a href="../../d4/d3e/a00116.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Color Class Reference</div>  </div>
 </div><!--header-->
@@ -120,13 +120,13 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.php','../../');});
 <p>Change the text color in the console.  
  <a href="../../d7/dec/a00010.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Color:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d3e/a00116.png" border="0" usemap="#Color_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d9/d4b/a00117.png" border="0" usemap="#Color_inherit__map" alt="Inheritance graph"/></div>
 <map name="Color_inherit__map" id="Color_inherit__map">
-<area shape="rect" id="node2" href="../../d3/dfe/a00025.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
+<area shape="rect" id="node2" href="../../d6/d5b/a00026.php" title="Reinit the color in the console. " alt="" coords="5,80,61,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -146,11 +146,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad810a3eea73cc7b62c80885692488738"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a> (int color, Args...args)</td></tr>
 <tr class="memdesc:ad810a3eea73cc7b62c80885692488738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#ad810a3eea73cc7b62c80885692488738">More...</a><br /></td></tr>
 <tr class="separator:ad810a3eea73cc7b62c80885692488738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
+<tr class="memitem:a9ef0be1de42c7a08b30d5715ae943a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a> (<a class="el" href="../../d5/db6/a00042.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color)</td></tr>
 <tr class="memdesc:a9ef0be1de42c7a08b30d5715ae943a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a color to the object.  <a href="#a9ef0be1de42c7a08b30d5715ae943a26">More...</a><br /></td></tr>
 <tr class="separator:a9ef0be1de42c7a08b30d5715ae943a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d83143ba7476b3f1d60c85b61713790"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
+<tr class="memitem:a1d83143ba7476b3f1d60c85b61713790"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a> (<a class="el" href="../../d5/db6/a00042.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> color, Args...args)</td></tr>
 <tr class="memdesc:a1d83143ba7476b3f1d60c85b61713790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add colors to the object.  <a href="#a1d83143ba7476b3f1d60c85b61713790">More...</a><br /></td></tr>
 <tr class="separator:a1d83143ba7476b3f1d60c85b61713790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -163,7 +163,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Change the text color in the console. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00062">62</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00062">62</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af13248c98bcd8bf432f3c9dab0a27135"></a>
 <div class="memitem">
@@ -209,7 +209,7 @@ template&lt;class... Args&gt; </div>
 
 <p>Construct a <a class="el" href="../../d7/dec/a00010.php" title="Change the text color in the console. ">Color</a> object with colors. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00074">74</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00074">74</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 
 </div>
 </div>
@@ -245,14 +245,14 @@ template&lt;class... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00094">94</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00094">94</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dec/a00010_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph.png" border="0" usemap="#d7/dec/a00010_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph" alt=""/></div>
 <map name="d7/dec/a00010_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph" id="d7/dec/a00010_a4f77bc1b8cfcd1382cd55e4ef6856bac_cgraph">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
+<area shape="rect" id="node2" href="../../d5/df9/a00044.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
 </map>
 </div>
 </p>
@@ -303,14 +303,14 @@ template&lt;class... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00105">105</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00105">105</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dec/a00010_ad810a3eea73cc7b62c80885692488738_cgraph.png" border="0" usemap="#d7/dec/a00010_ad810a3eea73cc7b62c80885692488738_cgraph" alt=""/></div>
 <map name="d7/dec/a00010_ad810a3eea73cc7b62c80885692488738_cgraph" id="d7/dec/a00010_ad810a3eea73cc7b62c80885692488738_cgraph">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
+<area shape="rect" id="node2" href="../../d5/df9/a00044.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
 </map>
 </div>
 </p>
@@ -327,7 +327,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void Color::addColors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/db6/a00042.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
           <td class="paramname"><em>color</em></td><td>)</td>
           <td></td>
         </tr>
@@ -348,14 +348,14 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00117">117</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00117">117</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dec/a00010_a9ef0be1de42c7a08b30d5715ae943a26_cgraph.png" border="0" usemap="#d7/dec/a00010_a9ef0be1de42c7a08b30d5715ae943a26_cgraph" alt=""/></div>
 <map name="d7/dec/a00010_a9ef0be1de42c7a08b30d5715ae943a26_cgraph" id="d7/dec/a00010_a9ef0be1de42c7a08b30d5715ae943a26_cgraph">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
+<area shape="rect" id="node2" href="../../d5/df9/a00044.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
 </map>
 </div>
 </p>
@@ -374,7 +374,7 @@ template&lt;class... Args&gt; </div>
         <tr>
           <td class="memname">void Color::addColors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/db6/a00042.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a>&#160;</td>
           <td class="paramname"><em>color</em>, </td>
         </tr>
         <tr>
@@ -406,14 +406,14 @@ template&lt;class... Args&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00128">128</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00128">128</a> of file <a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dec/a00010_a1d83143ba7476b3f1d60c85b61713790_cgraph.png" border="0" usemap="#d7/dec/a00010_a1d83143ba7476b3f1d60c85b61713790_cgraph" alt=""/></div>
 <map name="d7/dec/a00010_a1d83143ba7476b3f1d60c85b61713790_cgraph" id="d7/dec/a00010_a1d83143ba7476b3f1d60c85b61713790_cgraph">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
+<area shape="rect" id="node2" href="../../d5/df9/a00044.php#a09a70dbff0164874fba7fda6d3afd8c7" title="Convert an enum in string. " alt="" coords="173,5,213,32"/>
 </map>
 </div>
 </p>
@@ -458,7 +458,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a></li>
+<li><a class="el" href="../../d5/db6/a00042_source.php">console.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

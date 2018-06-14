@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
+$(document).ready(function(){initNavTree('d6/d5b/a00026.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,23 +109,19 @@ $(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">RSA Member List</div>  </div>
+<div class="title">Reinit Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d0/d33/a00027.php">RSA</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d6/d5b/a00026.php">Reinit</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a3d51d182786f83236c013c7cb10c2095">crypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#ab84588271f2e5417d47251be249951b4">crypt</a>()</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a77fb6e6d0ce8b989bfa013c324c310d7">decrypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#aa900df17edf76fe7158630ec63db1fa4">getPrivate</a>()</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a552895f20169b13fd412bc83738b5db5">getPublic</a>()</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a933f86ffad0a7a2d5d5e6099bdb5f1be">privateK</a></td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a7d293f0a39aacf8eb05abc7355d436e2">publicK</a></td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>()</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#aa502d81bc7559e4db119b81ce898b2ce">setPrivate</a>(std::string key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#ab0019252770d8ace87c447472d5d8b1e">setPublic</a>(std::string key=&quot;&quot;)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RSA</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a4f77bc1b8cfcd1382cd55e4ef6856bac">addColors</a>(int color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#ad810a3eea73cc7b62c80885692488738">addColors</a>(int color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a9ef0be1de42c7a08b30d5715ae943a26">addColors</a>(Colors color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a1d83143ba7476b3f1d60c85b61713790">addColors</a>(Colors color, Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/dec/a00010.php#af13248c98bcd8bf432f3c9dab0a27135">Color</a>(std::string color)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/dec/a00010.php#a20b97d6cf5e50f86b517f543142ac1e2">Color</a>(Args...args)</td><td class="entry"><a class="el" href="../../d7/dec/a00010.php">Color</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d6/d5b/a00026.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>()</td><td class="entry"><a class="el" href="../../d6/d5b/a00026.php">Reinit</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

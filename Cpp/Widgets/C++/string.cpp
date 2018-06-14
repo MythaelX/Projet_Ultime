@@ -157,8 +157,13 @@ std::vector<std::vector<std::string>> getall(std::string str_regex, std::string 
 		std::smatch it_match = *regex_it_next;
 		std::vector<std::string> occurence;
 
-		if(it_match.size() > 0){
+		if(it_match.size() > 1){
 			for(size_t i{1}; i < it_match.size(); ++i){
+				occurence.push_back(it_match.str(i));
+			}
+			out.push_back(occurence);
+		} else if(it_match.size() > 0){
+			for(size_t i{0}; i < it_match.size(); ++i){
 				occurence.push_back(it_match.str(i));
 			}
 			out.push_back(occurence);
@@ -168,4 +173,15 @@ std::vector<std::vector<std::string>> getall(std::string str_regex, std::string 
 	}
 
 	return out;
+}
+
+std::string removeAccents(std::string str){
+	str = replace(str, "(é|è|ê|ë)", "e", true);
+	str = replace(str, "(à|â|ä)", "a", true);
+	str = replace(str, "(ç)", "c", true);
+	str = replace(str, "(î|ï|ì)", "i", true);
+	str = replace(str, "(ô|ö|ò)", "o", true);
+	str = replace(str, "(û|ù|ü)", "u", true);
+
+	return str;
 }

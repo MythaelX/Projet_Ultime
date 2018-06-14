@@ -150,16 +150,16 @@ $(document).ready(function(){initNavTree('functions_h.php','');});
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>h
 : <a class="el" href="d7/dd4/a00013.php#a480fb32edc0218d9d1cead0a8e6f9d15">ContraptionAttr</a>
-, <a class="el" href="dc/d87/a00032.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
+, <a class="el" href="d0/dc0/a00033.php#aab0b2a75b9747cdc33e2982b2df3c322">WorldDimensions</a>
 </li>
 <li>hasAutoincrement()
 : <a class="el" href="de/d21/a00006.php#a84c0df9de34d028bfa4a6711f3ff38ed">BDD</a>
 </li>
 <li>hasToStop()
-: <a class="el" href="dc/d3c/a00028.php#a0e164fd54cb5746f981e1ace8cd3fef0">Threadable&lt; C &gt;</a>
+: <a class="el" href="d5/d16/a00029.php#a0e164fd54cb5746f981e1ace8cd3fef0">Threadable&lt; C &gt;</a>
 </li>
 <li>height()
-: <a class="el" href="d5/d79/a00030.php#a3ff0552b5501fcbee3dfafbe289966d2">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a3ff0552b5501fcbee3dfafbe289966d2">Tree&lt; T &gt;</a>
 </li>
 <li>hit()
 : <a class="el" href="dd/d1b/a00015.php#ad3f0d200294bf72ae5adb0ae752e93b9">Entity</a>

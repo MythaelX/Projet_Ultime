@@ -149,17 +149,17 @@ $(document).ready(function(){initNavTree('functions_o.php','');});
 
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>Object()
-: <a class="el" href="de/d11/a00021.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>
+: <a class="el" href="d7/de0/a00022.php#ada4a84669e44b3ba65ac1d7be027dc73">Object</a>
 </li>
 <li>onCompare()
-: <a class="el" href="d5/d79/a00030.php#ae88268743eaded28868cc13a0c1ec894">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#ae88268743eaded28868cc13a0c1ec894">Tree&lt; T &gt;</a>
 </li>
 <li>onDelete()
-: <a class="el" href="d5/d79/a00030.php#a3b0dc5b377436abca97e8abc76ab7067">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a3b0dc5b377436abca97e8abc76ab7067">Tree&lt; T &gt;</a>
 </li>
 <li>operator()()
-: <a class="el" href="d1/d2b/a00018.php#a0e13e5d2b98097934fe860a2245f45c2">Map</a>
-, <a class="el" href="d6/d5b/a00026.php#ac81b86f2d95f99cb5e2f778592d6fd3a">RNG&lt; T, U &gt;</a>
+: <a class="el" href="dd/da2/a00019.php#a0e13e5d2b98097934fe860a2245f45c2">Map</a>
+, <a class="el" href="d0/d33/a00027.php#ac81b86f2d95f99cb5e2f778592d6fd3a">RNG&lt; T, U &gt;</a>
 </li>
 <li>operator&lt;&lt;
 : <a class="el" href="da/da0/a00009.php#abfeeaf1c236f7e094382544f1ffb888b">Cls</a>

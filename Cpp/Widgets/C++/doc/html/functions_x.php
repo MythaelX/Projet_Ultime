@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_x.php','');});
 
 <h3><a class="anchor" id="index_x"></a>- x -</h3><ul>
 <li>x
-: <a class="el" href="dc/de2/a00024.php#ab99c56589bc8ad5fa5071387110a5bc7">Point</a>
+: <a class="el" href="d3/dfe/a00025.php#ab99c56589bc8ad5fa5071387110a5bc7">Point</a>
 </li>
 </ul>
 </div><!-- contents -->

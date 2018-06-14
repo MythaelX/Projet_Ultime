@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('functions_e.php','');});
 : <a class="el" href="dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a>
 </li>
 <li>equilibrate()
-: <a class="el" href="d5/d79/a00030.php#a2b0d7318fed4ad4bf92ce22f7e63d324">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a2b0d7318fed4ad4bf92ce22f7e63d324">Tree&lt; T &gt;</a>
 </li>
 <li>exists()
 : <a class="el" href="de/d21/a00006.php#ac9049f7be55f2790eb9f6a899e41d1fe">BDD</a>

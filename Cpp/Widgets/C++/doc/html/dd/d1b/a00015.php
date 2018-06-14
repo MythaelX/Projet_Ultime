@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../de/d36/a00123.php">List of all members</a>  </div>
+<a href="../../da/d72/a00124.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Entity Class Reference</div>  </div>
 </div><!--header-->
@@ -119,24 +119,24 @@ $(document).ready(function(){initNavTree('dd/d1b/a00015.php','../../');});
 <p>An entity.  
  <a href="../../dd/d1b/a00015.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../da/d72/a00124.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#Entity_inherit__map" alt="Inheritance graph"/></div>
 <map name="Entity_inherit__map" id="Entity_inherit__map">
 <area shape="rect" id="node3" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node5" href="../../df/d61/a00031.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
+<area shape="rect" id="node5" href="../../dc/d87/a00032.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
 <area shape="rect" id="node2" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="36,5,125,32"/>
 <area shape="rect" id="node4" href="../../d0/d0b/a00004.php" title="An ant. " alt="" coords="15,229,58,256"/>
-<area shape="rect" id="node6" href="../../dd/da2/a00019.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
-<area shape="rect" id="node7" href="../../d7/de0/a00022.php" title="A plant. " alt="" coords="191,229,243,256"/>
+<area shape="rect" id="node6" href="../../db/db2/a00020.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
+<area shape="rect" id="node7" href="../../d3/d52/a00023.php" title="A plant. " alt="" coords="191,229,243,256"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Entity:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../dc/dfe/a00125.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d7/d12/a00126.png" border="0" usemap="#Entity_coll__map" alt="Collaboration graph"/></div>
 <map name="Entity_coll__map" id="Entity_coll__map">
 <area shape="rect" id="node2" href="../../df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
 </map>
@@ -144,7 +144,7 @@ Collaboration diagram for Entity:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8eb01833b85eafedca05d504d7be006b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memitem:a8eb01833b85eafedca05d504d7be006b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a8eb01833b85eafedca05d504d7be006b">Entity</a> (<a class="el" href="../../dd/da2/a00019.php">Map</a> *map=nullptr, <a class="el" href="../../d3/dfe/a00025.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
 <tr class="memdesc:a8eb01833b85eafedca05d504d7be006b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#a8eb01833b85eafedca05d504d7be006b">More...</a><br /></td></tr>
 <tr class="separator:a8eb01833b85eafedca05d504d7be006b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a588098978eea6a3486b7361605ff3f0f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1b/a00015.php#a588098978eea6a3486b7361605ff3f0f">~Entity</a> ()</td></tr>
@@ -212,13 +212,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad3f0d200294bf72ae5adb0ae752e93b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit an entity with <em>damages</em>.  <a href="#ad3f0d200294bf72ae5adb0ae752e93b9">More...</a><br /></td></tr>
 <tr class="separator:ad3f0d200294bf72ae5adb0ae752e93b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_a00012"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00012')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../df/d86/a00012.php">Contraption</a></td></tr>
-<tr class="memitem:ac80a221d48732cc349d5ccef1e4ad319 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memitem:ac80a221d48732cc349d5ccef1e4ad319 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a> (<a class="el" href="../../dd/da2/a00019.php">Map</a> *map=nullptr, <a class="el" href="../../d3/dfe/a00025.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
 <tr class="memdesc:ac80a221d48732cc349d5ccef1e4ad319 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac80a221d48732cc349d5ccef1e4ad319">More...</a><br /></td></tr>
 <tr class="separator:ac80a221d48732cc349d5ccef1e4ad319 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdea93e7835722a3b211ba2b8dd1463 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#acfdea93e7835722a3b211ba2b8dd1463">~Contraption</a> ()</td></tr>
 <tr class="memdesc:acfdea93e7835722a3b211ba2b8dd1463 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#acfdea93e7835722a3b211ba2b8dd1463">More...</a><br /></td></tr>
 <tr class="separator:acfdea93e7835722a3b211ba2b8dd1463 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05facc668dcb27c1bab72118aa5bafe7 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">setPosition</a> (<a class="el" href="../../dc/de2/a00024.php">Point</a> pt)</td></tr>
+<tr class="memitem:a05facc668dcb27c1bab72118aa5bafe7 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">setPosition</a> (<a class="el" href="../../d3/dfe/a00025.php">Point</a> pt)</td></tr>
 <tr class="memdesc:a05facc668dcb27c1bab72118aa5bafe7 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="#a05facc668dcb27c1bab72118aa5bafe7">More...</a><br /></td></tr>
 <tr class="separator:a05facc668dcb27c1bab72118aa5bafe7 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a144577a5b80062834989f99a96b6c89c inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a144577a5b80062834989f99a96b6c89c">setPosition</a> (double x, double y, double z=0)</td></tr>
@@ -248,13 +248,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1482208cab08d738341ab2265b37deb inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">setA</a> (double angle)</td></tr>
 <tr class="memdesc:ad1482208cab08d738341ab2265b37deb inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle.  <a href="#ad1482208cab08d738341ab2265b37deb">More...</a><br /></td></tr>
 <tr class="separator:ad1482208cab08d738341ab2265b37deb inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d88e87317d6f003471fcf52808a4a25 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">setMap</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map)</td></tr>
+<tr class="memitem:a0d88e87317d6f003471fcf52808a4a25 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">setMap</a> (<a class="el" href="../../dd/da2/a00019.php">Map</a> *map)</td></tr>
 <tr class="memdesc:a0d88e87317d6f003471fcf52808a4a25 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the map.  <a href="#a0d88e87317d6f003471fcf52808a4a25">More...</a><br /></td></tr>
 <tr class="separator:a0d88e87317d6f003471fcf52808a4a25 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9131d3133c67c22f8692d4bd806187e inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ae9131d3133c67c22f8692d4bd806187e">setLevel</a> (size_t level)</td></tr>
 <tr class="memdesc:ae9131d3133c67c22f8692d4bd806187e inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the level.  <a href="#ae9131d3133c67c22f8692d4bd806187e">More...</a><br /></td></tr>
 <tr class="separator:ae9131d3133c67c22f8692d4bd806187e inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc9cc2cd7e06c45e4c0edf96f405bae2 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de2/a00024.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">getPosition</a> () const </td></tr>
+<tr class="memitem:abc9cc2cd7e06c45e4c0edf96f405bae2 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/a00025.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">getPosition</a> () const </td></tr>
 <tr class="separator:abc9cc2cd7e06c45e4c0edf96f405bae2 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eddeb512a0133271555e8f1ef888dc3 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a8eddeb512a0133271555e8f1ef888dc3">getX</a> () const </td></tr>
 <tr class="separator:a8eddeb512a0133271555e8f1ef888dc3 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,7 +270,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa468a3b0582bb0e073f2f642611c10f1 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d8bb97ba4e9b6238f5a80af9800579 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a08d8bb97ba4e9b6238f5a80af9800579">getA</a> () const </td></tr>
 <tr class="separator:a08d8bb97ba4e9b6238f5a80af9800579 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca9a1e5aff93640d295576af62b7202 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d2b/a00018.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">getMap</a> () const </td></tr>
+<tr class="memitem:a3ca9a1e5aff93640d295576af62b7202 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da2/a00019.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">getMap</a> () const </td></tr>
 <tr class="separator:a3ca9a1e5aff93640d295576af62b7202 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6d4a5f2d520dfa5e58afe5b421a126 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3b6d4a5f2d520dfa5e58afe5b421a126">getLevel</a> () const </td></tr>
 <tr class="separator:a3b6d4a5f2d520dfa5e58afe5b421a126 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,7 +290,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An entity. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00017">17</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00017">17</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8eb01833b85eafedca05d504d7be006b"></a>
 <div class="memitem">
@@ -299,13 +299,13 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">Entity::Entity </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d2b/a00018.php">Map</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php">Map</a> *&#160;</td>
           <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/de2/a00024.php">Point</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dfe/a00025.php">Point</a>&#160;</td>
           <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
         </tr>
         <tr>
@@ -382,7 +382,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the age </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00112">112</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00112">112</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +408,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the damages </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00108">108</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00108">108</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -434,7 +434,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual life </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00146">146</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00146">146</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -470,7 +470,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the max life </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00106">106</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00106">106</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the reborn duration </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00115">115</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00115">115</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -522,7 +522,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the regen duration </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00122">122</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00122">122</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -548,7 +548,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the resistance </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00110">110</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00110">110</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -574,7 +574,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual time since reborn </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00117">117</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00117">117</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -600,7 +600,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the actual time since regen </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00124">124</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00124">124</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -626,7 +626,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the precedent time since reborn </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00119">119</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00119">119</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the precedet time since regen </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00126">126</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00126">126</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -751,7 +751,7 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="../../df/d86/a00012.php#a6dedcd33d891a22ae7d6ce4d7e1d6a37">Contraption</a>.</p>
 
-<p>Reimplemented in <a class="el" href="../../d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>, <a class="el" href="../../d0/d0b/a00004.php#a199ef1722ee48997bc56b183f3c2e417">Ant</a>, <a class="el" href="../../dd/da2/a00019.php#a1467b6e6e2b41e3e3790f7e2b8e28b6d">Mushroom</a>, <a class="el" href="../../d7/de0/a00022.php#a2ee3b0d4379f9969d620b7f0bc3a277f">Plant</a>, and <a class="el" href="../../df/d61/a00031.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>, <a class="el" href="../../d0/d0b/a00004.php#a199ef1722ee48997bc56b183f3c2e417">Ant</a>, <a class="el" href="../../db/db2/a00020.php#a1467b6e6e2b41e3e3790f7e2b8e28b6d">Mushroom</a>, <a class="el" href="../../d3/d52/a00023.php#a2ee3b0d4379f9969d620b7f0bc3a277f">Plant</a>, and <a class="el" href="../../dc/d87/a00032.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
 
 </div>
 </div>
@@ -786,7 +786,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00058">58</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00058">58</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00044">44</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00044">44</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00037">37</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00037">37</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -891,7 +891,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00066">66</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00066">66</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -926,7 +926,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00088">88</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00088">88</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -961,7 +961,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00051">51</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00051">51</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00073">73</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00073">73</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1031,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00095">95</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00095">95</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1066,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00080">80</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00080">80</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1101,12 +1101,12 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/d2d/a00047_source.php#l00102">102</a> of file <a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dca/a00048_source.php#l00102">102</a> of file <a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a></li>
+<li><a class="el" href="../../d4/dca/a00048_source.php">Entity.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

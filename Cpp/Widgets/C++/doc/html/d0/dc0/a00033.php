@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: Animal.hpp File Reference</title>
+<title>C++: WorldDimensions Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -50,8 +50,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
       <li><a href="../../index.php"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.php"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.php"><span>Namespaces</span></a></li>
-      <li><a href="../../annotated.php"><span>Classes</span></a></li>
-      <li class="current"><a href="../../files.php"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.php"><span>Classes</span></a></li>
+      <li><a href="../../files.php"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -72,8 +72,10 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.php"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.php"><span>File&#160;Members</span></a></li>
+      <li><a href="../../annotated.php"><span>Class&#160;List</span></a></li>
+      <li><a href="../../classes.php"><span>Class&#160;Index</span></a></li>
+      <li><a href="../../inherits.php"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="../../functions.php"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -107,60 +109,83 @@ $(document).ready(function(){initNavTree('d0/dc0/a00033.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="../../dd/dae/a00163.php">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Animal.hpp File Reference</div>  </div>
+<div class="title">WorldDimensions Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d2d/a00047_source.php">Entity.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/de0/a00050_source.php">Hostile.hpp</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for Animal.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d4/d31/a00069.png" border="0" usemap="#Animal_8hpp" alt=""/></div>
-<map name="Animal_8hpp" id="Animal_8hpp">
-<area shape="rect" id="node2" href="../../d6/d2d/a00047.php" title="Entity.hpp" alt="" coords="790,155,871,181"/>
-<area shape="rect" id="node50" href="../../d5/de0/a00050.php" title="Hostile.hpp" alt="" coords="828,80,916,107"/>
-<area shape="rect" id="node3" href="../../d5/db6/a00042.php" title="Contraption.hpp" alt="" coords="773,229,888,256"/>
-<area shape="rect" id="node4" href="../../d6/d97/a00045.php" title="defines.hpp" alt="" coords="490,304,579,331"/>
-<area shape="rect" id="node46" href="../../db/d3a/a00040.php" title="collides.hpp" alt="" coords="932,304,1023,331"/>
-<area shape="rect" id="node49" href="../../d1/d84/a00052.php" title="Map.hpp" alt="" coords="795,304,867,331"/>
-<area shape="rect" id="node11" href="../../d1/dc6/a00037.php" title="bdd.hpp" alt="" coords="338,379,406,405"/>
-<area shape="rect" id="node44" href="../../d4/d8c/a00035.php" title="Args.hpp" alt="" coords="864,453,939,480"/>
-<area shape="rect" id="node16" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="721,528,801,555"/>
-<area shape="rect" id="node37" href="../../d4/de8/a00061.php" title="string.hpp" alt="" coords="334,453,413,480"/>
-<area shape="rect" id="node17" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="510,603,602,629"/>
-<area shape="rect" id="node27" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="726,603,797,629"/>
-<area shape="rect" id="node30" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="885,603,957,629"/>
-<area shape="rect" id="node18" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="257,677,348,704"/>
-<area shape="rect" id="node24" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="527,677,606,704"/>
-<area shape="rect" id="node33" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="1071,677,1182,704"/>
-<area shape="rect" id="node40" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="420,528,503,555"/>
-<area shape="rect" id="node41" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="626,603,702,629"/>
-<area shape="rect" id="node42" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="527,528,604,555"/>
-<area shape="rect" id="node47" href="../../dc/dee/a00053.php" title="maths.hpp" alt="" coords="992,379,1075,405"/>
-</map>
-</div>
-</div>
-<p><a href="../../d0/dc0/a00033_source.php">Go to the source code of this file.</a></p>
+
+<p>An object to group the dimensions of the world.  
+ <a href="../../d0/dc0/a00033.php#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7c/a00003.php">Animal</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An animal.  <a href="../../d1/d7c/a00003.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a56d14d07cb773a1a4bf12f16e7b57d07"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#a56d14d07cb773a1a4bf12f16e7b57d07">w</a> = 0</td></tr>
+<tr class="separator:a56d14d07cb773a1a4bf12f16e7b57d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab0b2a75b9747cdc33e2982b2df3c322"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#aab0b2a75b9747cdc33e2982b2df3c322">h</a> = 0</td></tr>
+<tr class="separator:aab0b2a75b9747cdc33e2982b2df3c322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa07c34b536e895dc3ab45bb353aa54a6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc0/a00033.php#aa07c34b536e895dc3ab45bb353aa54a6">z</a> = 0</td></tr>
+<tr class="separator:aa07c34b536e895dc3ab45bb353aa54a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>07 juin 2018 </dd></dl>
+<div class="textblock"><p>An object to group the dimensions of the world. </p>
 
-<p>Definition in file <a class="el" href="../../d0/dc0/a00033_source.php">Animal.hpp</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00035">35</a> of file <a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aab0b2a75b9747cdc33e2982b2df3c322"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t WorldDimensions::h = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00037">37</a> of file <a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a56d14d07cb773a1a4bf12f16e7b57d07"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t WorldDimensions::w = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00036">36</a> of file <a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa07c34b536e895dc3ab45bb353aa54a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t WorldDimensions::z = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/dee/a00053_source.php#l00038">38</a> of file <a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li><a class="el" href="../../dc/dee/a00053_source.php">Map.hpp</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../d0/dc0/a00033.php">Animal.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../d0/dc0/a00033.php">WorldDimensions</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

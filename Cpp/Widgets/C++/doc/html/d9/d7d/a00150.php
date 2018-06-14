@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
+$(document).ready(function(){initNavTree('d0/d33/a00027.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,18 +109,14 @@ $(document).ready(function(){initNavTree('dc/d3c/a00028.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Threadable&lt; C &gt; Member List</div>  </div>
+<div class="title">RNG&lt; T, U &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d0/d33/a00027.php">RNG&lt; T, U &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a0e164fd54cb5746f981e1ace8cd3fef0">hasToStop</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">launch</a>()=0</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a1fb118abc832fb483fb82f8d9d87521f">mutex</a></td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">stop</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#a7b5a3de51a890d7899182f4ff75e9751">Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../dc/d3c/a00028.php#afbdfbed6f6de89660962f760e78812bf">~Threadable</a>()</td><td class="entry"><a class="el" href="../../dc/d3c/a00028.php">Threadable&lt; C &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d0/d33/a00027.php#ac81b86f2d95f99cb5e2f778592d6fd3a">operator()</a>(T a, T b)</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d0/d33/a00027.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG</a>()</td><td class="entry"><a class="el" href="../../d0/d33/a00027.php">RNG&lt; T, U &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

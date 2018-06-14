@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('functions_func_u.php','');});
 : <a class="el" href="de/d21/a00006.php#a6a54ee2df1609f504fe4a2d189f51be7">BDD</a>
 </li>
 <li>updater()
-: <a class="el" href="d5/d16/a00029.php#a2aeae96f6681e81e4800b8ec5aa8fbcd">Timer</a>
+: <a class="el" href="d5/d79/a00030.php#a2aeae96f6681e81e4800b8ec5aa8fbcd">Timer</a>
 </li>
 </ul>
 </div><!-- contents -->

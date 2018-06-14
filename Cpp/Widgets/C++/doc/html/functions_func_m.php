@@ -145,13 +145,13 @@ $(document).ready(function(){initNavTree('functions_func_m.php','');});
 
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>Map()
-: <a class="el" href="d1/d2b/a00018.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="dd/da2/a00019.php#a5c9015eea1519003e305315fc6933968">Map</a>
 </li>
 <li>move()
 : <a class="el" href="d1/d7c/a00003.php#a07c40f873879cc72d0fc94a0831b955a">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="dd/da2/a00019.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="db/db2/a00020.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 </ul>
 </div><!-- contents -->

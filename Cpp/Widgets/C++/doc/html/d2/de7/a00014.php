@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d2/de7/a00014.php','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="../../d8/dfa/a00121.php">List of all members</a>  </div>
+<a href="../../df/dc8/a00122.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Crypto Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
@@ -119,14 +119,14 @@ $(document).ready(function(){initNavTree('d2/de7/a00014.php','../../');});
 <p>A class to be the parent for every crypt class.  
  <a href="../../d2/de7/a00014.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d97/a00045_source.php">cryptage.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Crypto:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/dc8/a00122.png" border="0" usemap="#Crypto_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../de/d36/a00123.png" border="0" usemap="#Crypto_inherit__map" alt="Inheritance graph"/></div>
 <map name="Crypto_inherit__map" id="Crypto_inherit__map">
 <area shape="rect" id="node2" href="../../de/d5e/a00007.php" title="A class to use the cesar algorithm for encryption. " alt="" coords="5,80,63,107"/>
-<area shape="rect" id="node3" href="../../d0/d33/a00027.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
+<area shape="rect" id="node3" href="../../dc/d3c/a00028.php" title="A class to use the RSA algorithm for encryption. " alt="" coords="87,80,138,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to be the parent for every crypt class. </p>
 
-<p>Definition at line <a class="el" href="../../d5/df9/a00044_source.php#l00018">18</a> of file <a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d97/a00045_source.php#l00018">18</a> of file <a class="el" href="../../d6/d97/a00045_source.php">cryptage.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="abc5714d83e17c9961258646a94e75079"></a>
 <div class="memitem">
@@ -179,12 +179,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Pur virtual function to disallow you to use the class alone </p><pre class="fragment">\return     void</pre> 
-<p>Implemented in <a class="el" href="../../d0/d33/a00027.php#ab84588271f2e5417d47251be249951b4">RSA</a>, and <a class="el" href="../../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>.</p>
+<p>Implemented in <a class="el" href="../../dc/d3c/a00028.php#ab84588271f2e5417d47251be249951b4">RSA</a>, and <a class="el" href="../../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">Cesar</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/df9/a00044_source.php">cryptage.hpp</a></li>
+<li><a class="el" href="../../d6/d97/a00045_source.php">cryptage.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

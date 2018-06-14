@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
+$(document).ready(function(){initNavTree('de/d5e/a00007.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,19 +109,18 @@ $(document).ready(function(){initNavTree('d4/dee/a00008.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Clock Member List</div>  </div>
+<div class="title">Cesar Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/dee/a00008.php">Clock</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../de/d5e/a00007.php">Cesar</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a38ca26b1111d2ecf1751f0d0d5e943e1">getElapsed</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#ac195ced602d8b707b0fd7e5b15d103a7">getStart</a>() const </td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">m_start</a></td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">restart</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c">start</a>()</td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/dee/a00008.php#aed945651f59f21f56df523af2719597e">started</a></td><td class="entry"><a class="el" href="../../d4/dee/a00008.php">Clock</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a9a70a4a1e758085855fd550404687388">Cesar</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#aace459faf00e2f62e573674489d10568">crypt</a>(std::string message, int decal=0)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a09635aa52fa6a1245a6b2b4fbe024f1e">crypt</a>()</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>()</td><td class="entry"><a class="el" href="../../d2/de7/a00014.php">Crypto</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a98108cc658d2f03401acb44a468f78c7">decrypt</a>(std::string message, int decal)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../de/d5e/a00007.php#a1c2d19e365d26b499a7fa32f781140a0">decrypt</a>(std::string message)</td><td class="entry"><a class="el" href="../../de/d5e/a00007.php">Cesar</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

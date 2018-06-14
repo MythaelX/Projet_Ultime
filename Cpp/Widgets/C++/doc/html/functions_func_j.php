@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('functions_func_j.php','');});
 
 <h3><a class="anchor" id="index_j"></a>- j -</h3><ul>
 <li>jumble()
-: <a class="el" href="d4/d51/a00017.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a>
+: <a class="el" href="d1/d2b/a00018.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -146,22 +146,22 @@ $(document).ready(function(){initNavTree('functions_func_i.php','');});
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
 <li>insert()
 : <a class="el" href="de/d21/a00006.php#a059c72982d8075a1e0fcc175461b1430">BDD</a>
-, <a class="el" href="d5/d79/a00030.php#ad6a4bc5d0dc000f77acfbeafaddc1672">Tree&lt; T &gt;</a>
+, <a class="el" href="df/d61/a00031.php#ad6a4bc5d0dc000f77acfbeafaddc1672">Tree&lt; T &gt;</a>
 </li>
 <li>isInit()
-: <a class="el" href="d3/d52/a00023.php#a6ac0f9addd53f05fb5fce59ede276b68">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a6ac0f9addd53f05fb5fce59ede276b68">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isLost()
-: <a class="el" href="d3/d52/a00023.php#a1dec883e7f06a8c82a0e07635f200bcf">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a1dec883e7f06a8c82a0e07635f200bcf">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isPaused()
-: <a class="el" href="d3/d52/a00023.php#ae8d0cb2cfc31c311122543b16226cdb7">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#ae8d0cb2cfc31c311122543b16226cdb7">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>isXIn()
-: <a class="el" href="d1/d2b/a00018.php#aeef35654d256ab9218920a9126680495">Map</a>
+: <a class="el" href="dd/da2/a00019.php#aeef35654d256ab9218920a9126680495">Map</a>
 </li>
 <li>isYIn()
-: <a class="el" href="d1/d2b/a00018.php#a200536787e3e8686e91202b7a56f4190">Map</a>
+: <a class="el" href="dd/da2/a00019.php#a200536787e3e8686e91202b7a56f4190">Map</a>
 </li>
 </ul>
 </div><!-- contents -->

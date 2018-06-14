@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('functions_func_r.php','');});
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>Reinit()
-: <a class="el" href="d3/dfe/a00025.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
+: <a class="el" href="d6/d5b/a00026.php#aae482f034556d2539b85c90cefe9da82">Reinit</a>
 </li>
 <li>remove()
 : <a class="el" href="de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655">BDD</a>
@@ -155,22 +155,22 @@ $(document).ready(function(){initNavTree('functions_func_r.php','');});
 </li>
 <li>restart()
 : <a class="el" href="d4/dee/a00008.php#a775bf97123b58c768571868341d28b08">Clock</a>
-, <a class="el" href="d5/d16/a00029.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
+, <a class="el" href="d5/d79/a00030.php#a8422d61fac8765b8789c8056bd38f2f3">Timer</a>
 </li>
 <li>restore()
 : <a class="el" href="da/d45/a00011.php#aceee1a7bd3a4ff19cd06170c15048142">ConsoleCursor</a>
 </li>
 <li>resume()
-: <a class="el" href="d3/d52/a00023.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#adfa756f1570500ee9b9628ad4a990e2e">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>retreive()
-: <a class="el" href="d3/d52/a00023.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a5c1f4f7b9404f7ec686dcb4038892a6c">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>RNG()
-: <a class="el" href="d6/d5b/a00026.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
+: <a class="el" href="d0/d33/a00027.php#a9981de0f2f28a52ae600df8fbc0404c6">RNG&lt; T, U &gt;</a>
 </li>
 <li>RSA()
-: <a class="el" href="d0/d33/a00027.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
+: <a class="el" href="dc/d3c/a00028.php#a8b8df3c7a74905f3e35a8e01bfd7da59">RSA</a>
 </li>
 </ul>
 </div><!-- contents -->

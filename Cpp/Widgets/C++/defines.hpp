@@ -2,7 +2,7 @@
 *
 *	\file		defines.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		12 juin 2018
+*	\date		14 juin 2018
 *
 *	\details	- Include ;
 *					- iostream\n
@@ -83,6 +83,14 @@ enum class Direction {
 	RIGHT,
 	LEFT,
 	NONE
+};
+
+/*! \brief	A container for three values */
+template<typename T, typename U, typename V>
+struct trio{
+	T first;
+	U second;
+	V ter;
 };
 
 #endif //HEADER_DEFINES

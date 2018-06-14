@@ -1,28 +1,6 @@
 var a00023 =
 [
-    [ "Player", "d3/d52/a00023.php#a93132a47f0166fdbb23f3cd72f54c03a", null ],
-    [ "~Player", "d3/d52/a00023.php#a3ce0168273b6d0be5f66b3b6136397ff", null ],
-    [ "getExperience", "d3/d52/a00023.php#a9f2475a2705e610e8dc7e4f1836d5e6b", null ],
-    [ "getExperienceMax", "d3/d52/a00023.php#a29b4d8d469f4c293926375d1d7060fd0", null ],
-    [ "getId", "d3/d52/a00023.php#a256287b18c9b2bbafb22dd31ed51edba", null ],
-    [ "getMail", "d3/d52/a00023.php#a1a42c147a927ee5f762e590e18c52352", null ],
-    [ "getPassword", "d3/d52/a00023.php#ab0fa81388a807469a2c5e45cb85bf57e", null ],
-    [ "getUsername", "d3/d52/a00023.php#ae840c70699458938568b36a422963a89", null ],
-    [ "isInit", "d3/d52/a00023.php#a6ac0f9addd53f05fb5fce59ede276b68", null ],
-    [ "isLost", "d3/d52/a00023.php#a1dec883e7f06a8c82a0e07635f200bcf", null ],
-    [ "isPaused", "d3/d52/a00023.php#ae8d0cb2cfc31c311122543b16226cdb7", null ],
-    [ "lost", "d3/d52/a00023.php#a606851799e5a0f58ea249f02751c45c1", null ],
-    [ "pause", "d3/d52/a00023.php#a02fef31489f23336518f8ff353a7a0db", null ],
-    [ "printInfos", "d3/d52/a00023.php#ace955ce90f754ff7fdf23724e6c35d38", null ],
-    [ "resume", "d3/d52/a00023.php#adfa756f1570500ee9b9628ad4a990e2e", null ],
-    [ "retreive", "d3/d52/a00023.php#a5c1f4f7b9404f7ec686dcb4038892a6c", null ],
-    [ "setExperience", "d3/d52/a00023.php#af93214bdf82686e3c24401d6fb50ee4d", null ],
-    [ "setExperienceMax", "d3/d52/a00023.php#a835918495707d8b37e0ebeed0d6cf439", null ],
-    [ "setId", "d3/d52/a00023.php#aaf3aba878522716fba266caa573df8f9", null ],
-    [ "setMail", "d3/d52/a00023.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab", null ],
-    [ "setPassword", "d3/d52/a00023.php#a809fc643a612879ac35690383dfd31e8", null ],
-    [ "setUsername", "d3/d52/a00023.php#a5b02ead36931c416ed8000b9a0a2d8aa", null ],
-    [ "init", "d3/d52/a00023.php#a024d37d9bdf83c1cc6618df8cc574aa2", null ],
-    [ "losted", "d3/d52/a00023.php#ac3b3f61fa669c386bb9b2c912363d0b5", null ],
-    [ "paused", "d3/d52/a00023.php#aefb2fbad6ea8b979f46de232a4ff9eaa", null ]
+    [ "Plant", "d3/d52/a00023.php#a6557128e415afca5189b1b2b2adff5d2", null ],
+    [ "~Plant", "d3/d52/a00023.php#ad4367e663ca3bd015d870b15193d7db9", null ],
+    [ "printInfos", "d3/d52/a00023.php#a2ee3b0d4379f9969d620b7f0bc3a277f", null ]
 ];

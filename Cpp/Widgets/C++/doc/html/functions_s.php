@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>save()
 : <a class="el" href="da/d45/a00011.php#a3b03a811157d84449f3cf467c1f4758e">ConsoleCursor</a>
-, <a class="el" href="d1/d2b/a00018.php#a28dc3cce3cd6eb596209d10174d0b37b">Map</a>
+, <a class="el" href="dd/da2/a00019.php#a28dc3cce3cd6eb596209d10174d0b37b">Map</a>
 </li>
 <li>setA()
 : <a class="el" href="df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">Contraption</a>
@@ -171,10 +171,10 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="de/d21/a00006.php#a14ed61f03ce957690801dcc27e59930a">BDD</a>
 </li>
 <li>setExperience()
-: <a class="el" href="d3/d52/a00023.php#af93214bdf82686e3c24401d6fb50ee4d">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#af93214bdf82686e3c24401d6fb50ee4d">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setExperienceMax()
-: <a class="el" href="d3/d52/a00023.php#a835918495707d8b37e0ebeed0d6cf439">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a835918495707d8b37e0ebeed0d6cf439">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setFatal()
 : <a class="el" href="de/d21/a00006.php#a1c3535db0b4aa44778421c5f35c379ff">BDD</a>
@@ -187,10 +187,10 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 </li>
 <li>setH()
 : <a class="el" href="df/d86/a00012.php#afb8030a7a7df2bef59356c293f845487">Contraption</a>
-, <a class="el" href="d1/d2b/a00018.php#a713ccdad293fb792e0a8cf29d9b048e0">Map</a>
+, <a class="el" href="dd/da2/a00019.php#a713ccdad293fb792e0a8cf29d9b048e0">Map</a>
 </li>
 <li>setId()
-: <a class="el" href="d3/d52/a00023.php#aaf3aba878522716fba266caa573df8f9">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#aaf3aba878522716fba266caa573df8f9">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setLevel()
 : <a class="el" href="df/d86/a00012.php#ae9131d3133c67c22f8692d4bd806187e">Contraption</a>
@@ -199,22 +199,22 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="dd/d1b/a00015.php#afd211ba2273c0fafef236763c80df4e9">Entity</a>
 </li>
 <li>setMail()
-: <a class="el" href="d3/d52/a00023.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#ab0075a5ffb42bfe0d6e84e36cad3e0ab">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setMap()
 : <a class="el" href="df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">Contraption</a>
 </li>
 <li>setPassword()
-: <a class="el" href="d3/d52/a00023.php#a809fc643a612879ac35690383dfd31e8">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a809fc643a612879ac35690383dfd31e8">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setPosition()
 : <a class="el" href="df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">Contraption</a>
 </li>
 <li>setPrivate()
-: <a class="el" href="d0/d33/a00027.php#aa502d81bc7559e4db119b81ce898b2ce">RSA</a>
+: <a class="el" href="dc/d3c/a00028.php#aa502d81bc7559e4db119b81ce898b2ce">RSA</a>
 </li>
 <li>setPublic()
-: <a class="el" href="d0/d33/a00027.php#ab0019252770d8ace87c447472d5d8b1e">RSA</a>
+: <a class="el" href="dc/d3c/a00028.php#ab0019252770d8ace87c447472d5d8b1e">RSA</a>
 </li>
 <li>setReborn()
 : <a class="el" href="dd/d1b/a00015.php#a192bdf0dc40a986f8aed9be2d8607cb5">Entity</a>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="dd/d1b/a00015.php#a91d83b59b1f3bcae287c7185cc06f561">Entity</a>
 </li>
 <li>setSize()
-: <a class="el" href="d1/d2b/a00018.php#a9813f83a659948693862d888b259a322">Map</a>
+: <a class="el" href="dd/da2/a00019.php#a9813f83a659948693862d888b259a322">Map</a>
 </li>
 <li>setSpecialAttack()
 : <a class="el" href="d1/d7c/a00003.php#acd3a1a440f7f4f0553235f0ed106b7f8">Animal</a>
@@ -265,11 +265,11 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 : <a class="el" href="dd/d1b/a00015.php#a67c69bfc713e0275c704bd2ad40bf997">Entity</a>
 </li>
 <li>setUsername()
-: <a class="el" href="d3/d52/a00023.php#a5b02ead36931c416ed8000b9a0a2d8aa">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a5b02ead36931c416ed8000b9a0a2d8aa">Player&lt; PlayerParent &gt;</a>
 </li>
 <li>setW()
 : <a class="el" href="df/d86/a00012.php#a83d954f1cb764a7410de01d33cb9e396">Contraption</a>
-, <a class="el" href="d1/d2b/a00018.php#a60a9e42b7c5a623a9ff3b5754519c0df">Map</a>
+, <a class="el" href="dd/da2/a00019.php#a60a9e42b7c5a623a9ff3b5754519c0df">Map</a>
 </li>
 <li>setX()
 : <a class="el" href="df/d86/a00012.php#ab14db8239bfc09ba3c5c6e07a23033b7">Contraption</a>
@@ -282,14 +282,14 @@ $(document).ready(function(){initNavTree('functions_s.php','');});
 </li>
 <li>start()
 : <a class="el" href="d4/dee/a00008.php#a8a050959dcff11c85d695989e9099a8c">Clock</a>
-, <a class="el" href="d5/d16/a00029.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
+, <a class="el" href="d5/d79/a00030.php#a18a29af58bc18e1644230c747afb35ec">Timer</a>
 </li>
 <li>started
 : <a class="el" href="d4/dee/a00008.php#aed945651f59f21f56df523af2719597e">Clock</a>
-, <a class="el" href="d5/d16/a00029.php#ab3cd20a0909df03a384a09b1b8151d3e">Timer</a>
+, <a class="el" href="d5/d79/a00030.php#ab3cd20a0909df03a384a09b1b8151d3e">Timer</a>
 </li>
 <li>stop()
-: <a class="el" href="dc/d3c/a00028.php#a59161fb24a2a485aecb0ea1bbed67099">Threadable&lt; C &gt;</a>
+: <a class="el" href="d5/d16/a00029.php#a59161fb24a2a485aecb0ea1bbed67099">Threadable&lt; C &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

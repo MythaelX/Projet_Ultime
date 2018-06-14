@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('functions_f.php','');});
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
 <li>find()
-: <a class="el" href="d5/d79/a00030.php#a193fd2684c987f8e85ea9c1ed12badf7">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a193fd2684c987f8e85ea9c1ed12badf7">Tree&lt; T &gt;</a>
 </li>
 <li>formatBdd()
 : <a class="el" href="de/d21/a00006.php#a79cffc4dc63f93f9d9fce893c5b66a07">BDD</a>

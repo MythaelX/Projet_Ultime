@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>C++: console.hpp File Reference</title>
+<title>C++: collides.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,207 +107,445 @@ $(document).ready(function(){initNavTree('dd/d32/a00041.php','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">console.hpp File Reference</div>  </div>
+<div class="title">collides.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d42/a00043_source.php">convert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/de1/a00065_source.php">types.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/dea/a00054_source.php">maths.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for console.hpp:</div>
+Include dependency graph for collides.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d1/d09/a00077.png" border="0" usemap="#console_8hpp" alt=""/></div>
-<map name="console_8hpp" id="console_8hpp">
-<area shape="rect" id="node2" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="219,80,309,107"/>
-<area shape="rect" id="node8" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="474,80,553,107"/>
+<div class="center"><img src="../../d1/d09/a00077.png" border="0" usemap="#collides_8hpp" alt=""/></div>
+<map name="collides_8hpp" id="collides_8hpp">
+<area shape="rect" id="node2" href="../../d1/dea/a00054.php" title="maths.hpp" alt="" coords="44,80,127,107"/>
 </map>
 </div>
 </div>
 <p><a href="../../dd/d32/a00041_source.php">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.php">Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the text color in the console.  <a href="../../d7/dec/a00010.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/a00025.php">Reinit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d3/dfe/a00025.php" title="Reinit the color in the console. ">Reinit</a> the color in the console.  <a href="../../d3/dfe/a00025.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.php">Cls</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the console.  <a href="../../da/da0/a00009.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d45/a00011.php">ConsoleCursor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to play with the cursor in the console.  <a href="../../da/d45/a00011.php#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a55ecd4f2ec2ebfe8d5b0163e4ac2a967"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a4648822616bc86180727464a1e6c6312">Colors::BLACK_F</a> = 30, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a6c91c7a0d965eea06426a9d94fed419f">Colors::RED_F</a> = 31, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac9cc84994b2dc998400606f509a5f39d">Colors::GREEN_F</a> = 32, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac1cfbf30b4d84302148c80564f09a2f7">Colors::YELLOW_F</a> = 33, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aaac26079ece66386f4c2cf268d474795">Colors::BLUE_F</a> = 34, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ab8176b797e421a3d45ed5a872d872591">Colors::PURPLE_F</a> = 35, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a131f0f8b48b6ef48d2d3093b20081110">Colors::CYAN_F</a> = 36, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a38ead0a9861da91e3e5aad34b7a1dbfe">Colors::GREY_F</a> = 37, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa86522df36b902b8e14c670dda459f1f">Colors::LIGHT_BLACK_F</a> = 90, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a889b14723d6bc4c0ac8bb1e13480ad6e">Colors::LIGHT_RED_F</a> = 91, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9a372d70c82fc984f7c475342784fb25">Colors::LIGHT_GREEN_F</a> = 92, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a8a64c210ea569e6832792e099c006157">Colors::LIGHT_YELLOW_F</a> = 93, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a383a03eb7a3c8a6e508915b5abfd1f55">Colors::LIGHT_BLUE_F</a> = 94, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967af7fa27f9a891a06e7aab7764b7c87744">Colors::LIGHT_PURPLE_F</a> = 95, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1016baf606406c4b466ae02d7e8d249b">Colors::LIGHT_CYAN_F</a> = 96, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967af0d423059b6f4ad707d65956c1a43402">Colors::LIGHT_GREY_F</a> = 97, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967abfc78599c77b7eb3c037c23f1bde963a">Colors::BLACK_B</a> = 40, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a07262f1edc5408b021950dc9a12837c7">Colors::RED_B</a> = 41, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a3bfe655ef7bb19c04ebf9a5ebabe975e">Colors::GREEN_B</a> = 42, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a62a3874ee2f47d3a664fda4a63c193a3">Colors::YELLOW_B</a> = 43, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a19995eb9ec42ffbe11647f8090e9f4fe">Colors::BLUE_B</a> = 44, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ab754547a82033c3c904e91984b530326">Colors::PURPLE_B</a> = 45, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae0f5f8e09d8f4e0925884dd94fc3e870">Colors::CYAN_B</a> = 46, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a90bd0646259d8ab65dd352bcd1ead16e">Colors::GREY_B</a> = 47, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967adf2fe24817131afc02153bf31759d18b">Colors::LIGHT_BLACK_B</a> = 100, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a3a29105a7f33b752d0342ec1e44023af">Colors::LIGHT_RED_B</a> = 101, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a79f2fcacd6d4451c79096ed3e460e1e9">Colors::LIGHT_GREEN_B</a> = 102, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a73f0b577c984186157b9d89348faf4f3">Colors::LIGHT_YELLOW_B</a> = 103, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a77891b4842905f3aa098fae908dd5db9">Colors::LIGHT_BLUE_B</a> = 104, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a10435c0f4e6c9f1df07383e39da2064e">Colors::LIGHT_PURPLE_B</a> = 105, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1d4b785bf14640105bb7b6e45d1d5528">Colors::LIGHT_CYAN_B</a> = 106, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa548ce608701dcb3a6b2146e2e6b7f73">Colors::LIGHT_GREY_B</a> = 107, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1e23852820b9154316c7c06e2b7ba051">Colors::NORMAL</a> = 0, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a2909dd0e0336f10b6da9735b859a3d19">Colors::BOLD</a> = 1, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a8160fba05a5a291372a94bc22b55f62b">Colors::SHADOW</a> = 2, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a25093123b8943308104129e1d762f3b7">Colors::ITALIC</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0086c73c90c261db630b4dc8aea09bcf">Colors::UNDERLINE</a> = 4, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa2727ae72447eea06d4cc0ef67187280">Colors::INVERT</a> = 7, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1e50e487f8672658546e3609404b53df">Colors::HIDE</a> = 8, 
-<a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967a04dd53a8e6c2306e9bbf944c1d6047f2">Colors::CROSS</a> = 9
-<br />
- }<tr class="memdesc:a55ecd4f2ec2ebfe8d5b0163e4ac2a967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors list.  <a href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a55ecd4f2ec2ebfe8d5b0163e4ac2a967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a9e71f7b4b2dc9351d81534c753d02b2f">collidesC</a> (double r1, double x1, double y1, double r2, double x2, double y2)</td></tr>
+<tr class="memdesc:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two circles.  <a href="#a9e71f7b4b2dc9351d81534c753d02b2f">More...</a><br /></td></tr>
+<tr class="separator:a9e71f7b4b2dc9351d81534c753d02b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a2c41f8567fc8effdd8ee6a163fbe9440">collidesR</a> (double x1, double y1, double w1, double h1, double x2, double y2, double w2, double h2)</td></tr>
+<tr class="memdesc:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between two rectangles.  <a href="#a2c41f8567fc8effdd8ee6a163fbe9440">More...</a><br /></td></tr>
+<tr class="separator:a2c41f8567fc8effdd8ee6a163fbe9440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a8e7babfd2bd0dd7b2f392372848edc80">collidesRC</a> (double rx, double ry, double w, double h, double cx, double cy, double r)</td></tr>
+<tr class="memdesc:a8e7babfd2bd0dd7b2f392372848edc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a rectangle and a circle.  <a href="#a8e7babfd2bd0dd7b2f392372848edc80">More...</a><br /></td></tr>
+<tr class="separator:a8e7babfd2bd0dd7b2f392372848edc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a3ce463b4b6c6477444bad3dcb1499f85">collidesPC</a> (double cx, double cy, double r, double x, double y)</td></tr>
+<tr class="memdesc:a3ce463b4b6c6477444bad3dcb1499f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a circle.  <a href="#a3ce463b4b6c6477444bad3dcb1499f85">More...</a><br /></td></tr>
+<tr class="separator:a3ce463b4b6c6477444bad3dcb1499f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a2d9df4f37d280cec5c3e91ba7b83ed11">collidesPR</a> (double rx, double ry, double w, double h, double x, double y)</td></tr>
+<tr class="memdesc:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision between a point and a rectangle.  <a href="#a2d9df4f37d280cec5c3e91ba7b83ed11">More...</a><br /></td></tr>
+<tr class="separator:a2d9df4f37d280cec5c3e91ba7b83ed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1213c000f201a2e1991e60a0e2973d91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d32/a00041.php#a1213c000f201a2e1991e60a0e2973d91">ProjectionSurSegment</a> (double Cx, double Cy, double Ax, double Ay, double Bx, double By)</td></tr>
+<tr class="memdesc:a1213c000f201a2e1991e60a0e2973d91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute if there is a collision on a segment.  <a href="#a1213c000f201a2e1991e60a0e2973d91">More...</a><br /></td></tr>
+<tr class="separator:a1213c000f201a2e1991e60a0e2973d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>31 mai 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>29 mai 2018 </dd></dl>
 
-<p>Definition in file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967"></a>
+<p>Definition in file <a class="el" href="../../dd/d32/a00041_source.php">collides.hpp</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a9e71f7b4b2dc9351d81534c753d02b2f"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d32/a00041.php#a55ecd4f2ec2ebfe8d5b0163e4ac2a967">Colors</a></td>
+          <td class="memname">bool collidesC </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Colors list. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a4648822616bc86180727464a1e6c6312"></a>BLACK_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a6c91c7a0d965eea06426a9d94fed419f"></a>RED_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac9cc84994b2dc998400606f509a5f39d"></a>GREEN_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ac1cfbf30b4d84302148c80564f09a2f7"></a>YELLOW_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aaac26079ece66386f4c2cf268d474795"></a>BLUE_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ab8176b797e421a3d45ed5a872d872591"></a>PURPLE_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a131f0f8b48b6ef48d2d3093b20081110"></a>CYAN_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a38ead0a9861da91e3e5aad34b7a1dbfe"></a>GREY_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa86522df36b902b8e14c670dda459f1f"></a>LIGHT_BLACK_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a889b14723d6bc4c0ac8bb1e13480ad6e"></a>LIGHT_RED_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a9a372d70c82fc984f7c475342784fb25"></a>LIGHT_GREEN_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a8a64c210ea569e6832792e099c006157"></a>LIGHT_YELLOW_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a383a03eb7a3c8a6e508915b5abfd1f55"></a>LIGHT_BLUE_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967af7fa27f9a891a06e7aab7764b7c87744"></a>LIGHT_PURPLE_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1016baf606406c4b466ae02d7e8d249b"></a>LIGHT_CYAN_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967af0d423059b6f4ad707d65956c1a43402"></a>LIGHT_GREY_F&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967abfc78599c77b7eb3c037c23f1bde963a"></a>BLACK_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a07262f1edc5408b021950dc9a12837c7"></a>RED_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a3bfe655ef7bb19c04ebf9a5ebabe975e"></a>GREEN_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a62a3874ee2f47d3a664fda4a63c193a3"></a>YELLOW_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a19995eb9ec42ffbe11647f8090e9f4fe"></a>BLUE_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ab754547a82033c3c904e91984b530326"></a>PURPLE_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967ae0f5f8e09d8f4e0925884dd94fc3e870"></a>CYAN_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a90bd0646259d8ab65dd352bcd1ead16e"></a>GREY_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967adf2fe24817131afc02153bf31759d18b"></a>LIGHT_BLACK_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a3a29105a7f33b752d0342ec1e44023af"></a>LIGHT_RED_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a79f2fcacd6d4451c79096ed3e460e1e9"></a>LIGHT_GREEN_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a73f0b577c984186157b9d89348faf4f3"></a>LIGHT_YELLOW_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a77891b4842905f3aa098fae908dd5db9"></a>LIGHT_BLUE_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a10435c0f4e6c9f1df07383e39da2064e"></a>LIGHT_PURPLE_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1d4b785bf14640105bb7b6e45d1d5528"></a>LIGHT_CYAN_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa548ce608701dcb3a6b2146e2e6b7f73"></a>LIGHT_GREY_B&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1e23852820b9154316c7c06e2b7ba051"></a>NORMAL&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a2909dd0e0336f10b6da9735b859a3d19"></a>BOLD&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a8160fba05a5a291372a94bc22b55f62b"></a>SHADOW&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a25093123b8943308104129e1d762f3b7"></a>ITALIC&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a0086c73c90c261db630b4dc8aea09bcf"></a>UNDERLINE&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967aa2727ae72447eea06d4cc0ef67187280"></a>INVERT&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a1e50e487f8672658546e3609404b53df"></a>HIDE&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a55ecd4f2ec2ebfe8d5b0163e4ac2a967a04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
+<p>Compute if there is a collision between two circles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">r1</td><td>Radius of the first circle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">r2</td><td>Radius of the second circle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second circle's center</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d32/a00041_source.php#l00015">15</a> of file <a class="el" href="../../dd/d32/a00041_source.php">console.hpp</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a3ce463b4b6c6477444bad3dcb1499f85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool collidesPC </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute if there is a collision between a point and a circle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2d9df4f37d280cec5c3e91ba7b83ed11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool collidesPR </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute if there is a collision between a point and a rectangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>X position of the point </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Y position of the point</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2c41f8567fc8effdd8ee6a163fbe9440"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool collidesR </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>w1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>w2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute if there is a collision between two rectangles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x1</td><td>X position of the first rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y1</td><td>Y position of the first rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w1</td><td>Width of the first rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h1</td><td>Height of the first rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x2</td><td>X position of the second rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y2</td><td>Y position of the second rectangle's left corner </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w2</td><td>Width of the second rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h2</td><td>Height of the second rectangle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a8e7babfd2bd0dd7b2f392372848edc80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool collidesRC </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>w</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute if there is a collision between a rectangle and a circle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">rx</td><td>X position of the rectangle's left </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ry</td><td>Y position of the rectangle's left </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">w</td><td>Width of the rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">h</td><td>Height of the rectangle </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cx</td><td>X position of the circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cy</td><td>Y position of the circle's center </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">r</td><td>Radius of the circle</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1213c000f201a2e1991e60a0e2973d91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ProjectionSurSegment </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Ax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Ay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Bx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>By</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute if there is a collision on a segment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Cx</td><td>X position of the point </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Cy</td><td>Y position of the point </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Ax</td><td>X position of the segment's first side </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Ay</td><td>Y position of the segment's first side </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Bx</td><td>X position of the segment's second side </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">By</td><td>Y position of the segment's second side</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> or <b>false</b> </dd></dl>
 
 </div>
 </div>
@@ -316,7 +554,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dd/d32/a00041.php">console.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_badfd550b617ce52cc73ed1c8c9513f6.php">Algo</a></li><li class="navelem"><a class="el" href="../../dir_1788504ec76a4dda5464562bc560d0b5.php">C++Tests</a></li><li class="navelem"><a class="el" href="../../dir_2e741febc7df97747a68d36c1b3be5f0.php">C++</a></li><li class="navelem"><a class="el" href="../../dd/d32/a00041.php">collides.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -153,10 +153,10 @@ $(document).ready(function(){initNavTree('functions_d.php','');});
 </li>
 <li>decrypt()
 : <a class="el" href="de/d5e/a00007.php#a98108cc658d2f03401acb44a468f78c7">Cesar</a>
-, <a class="el" href="d0/d33/a00027.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
+, <a class="el" href="dc/d3c/a00028.php#a77fb6e6d0ce8b989bfa013c324c310d7">RSA</a>
 </li>
 <li>desc()
-: <a class="el" href="d5/d79/a00030.php#a84671d5c8a9131bd94a33734b315e5a3">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#a84671d5c8a9131bd94a33734b315e5a3">Tree&lt; T &gt;</a>
 </li>
 <li>direction
 : <a class="el" href="d1/d7c/a00003.php#a3f306d4e967d165b8ef55f6cdf9bde23">Animal</a>

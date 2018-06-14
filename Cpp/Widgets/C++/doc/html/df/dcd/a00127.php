@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
+$(document).ready(function(){initNavTree('d7/d7a/a00016.php','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,14 +109,23 @@ $(document).ready(function(){initNavTree('d4/d51/a00017.php','../../');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">jumble Member List</div>  </div>
+<div class="title">Hostile Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d4/d51/a00017.php">jumble</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d7/d7a/a00016.php">Hostile</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a4f82dc848cfaed87d3c8c41d11611cdf">jumble</a>()</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">jumble</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="../../d4/d51/a00017.php#a6a130a7d5490029afb5cf14fb7d37ee3">~jumble</a>()</td><td class="entry"><a class="el" href="../../d4/d51/a00017.php">jumble</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#aa3fec9f067507361ca93e6f4edf4b731">attack</a>(Entity *target=nullptr)=0</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a2e41323724ce153631596d0a2e037197">getStrength</a>() const </td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#ae9646e71bc0ee3240492aa98060e4942">getTarget</a>() const </td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#ab5ee3eebdea8943c1cb6ebd1b875bbf1">Hostile</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a7ad578b926f0be7cf84ee0f45665fa1f">hurt</a>(Entity *target=nullptr)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a1640c2447984cd193da200e3c76e0859">printInfos</a>(std::ostream &amp;stream) const </td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a49702b5127cacf36d0e401dee60bc341">setStrength</a>(double strength)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#ab2f44509aba02128b145f53b45ae3d6e">setTarget</a>(Entity *target)</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a54cd84496707554686bc5fc43b57a4f8">target</a></td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#a4b91ff7920ded02f9662134608f11d6f">untarget</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d7/d7a/a00016.php#af1c3ba743ce0c9b50d501fb86f4127f8">~Hostile</a>()</td><td class="entry"><a class="el" href="../../d7/d7a/a00016.php">Hostile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -148,11 +148,14 @@ $(document).ready(function(){initNavTree('functions_v.php','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
+<li>value
+: <a class="el" href="d4/d51/a00017.php#aa484cba6b21edc95517517302af4c5d3">is_array&lt; T &gt;</a>
+</li>
 <li>values
-: <a class="el" href="db/db2/a00020.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
+: <a class="el" href="de/d11/a00021.php#a440411e958356c1d3912dce01ae74edc">Node&lt; T &gt;</a>
 </li>
 <li>Vegetal()
-: <a class="el" href="df/d61/a00031.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
+: <a class="el" href="dc/d87/a00032.php#ac9d1bee0742cb45180637db1bed06294">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

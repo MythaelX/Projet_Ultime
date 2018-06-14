@@ -105,13 +105,15 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../de/d21/a00006.php">BDD</a>  </dt>
+<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../de/d21/a00006.php">BDD</a>  </dt>
 <dd>Be carefull on additions in an update  </dd>
-<dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../d4/d51/a00017.php">jumble</a>  </dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="../../d1/dc6/a00037.php#a4b73faece12295541488cb9e1c5396d6">concate</a>  (T table)</dt>
+<dd>Do the function  </dd>
+<dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="../../d1/d2b/a00018.php">jumble</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Class <a class="el" href="../../d0/d33/a00027.php">RSA</a>  </dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../dc/d3c/a00028.php">RSA</a>  </dt>
 <dd>Create the class  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="../../d5/d16/a00029.php">Timer</a>  </dt>
+<dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="../../d5/d79/a00030.php">Timer</a>  </dt>
 <dd>Create the class </dd>
 </dl>
 </div></div><!-- contents -->

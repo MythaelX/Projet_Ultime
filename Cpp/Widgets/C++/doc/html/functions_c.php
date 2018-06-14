@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('functions_c.php','');});
 : <a class="el" href="de/d5e/a00007.php#a9a70a4a1e758085855fd550404687388">Cesar</a>
 </li>
 <li>clear()
-: <a class="el" href="d1/d2b/a00018.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
+: <a class="el" href="dd/da2/a00019.php#aa5b2b05098fb3c9e750f95fb76b72e32">Map</a>
 </li>
 <li>Clock()
 : <a class="el" href="d4/dee/a00008.php#adbc370eb6b5f8d01645cf440188160a8">Clock</a>
@@ -176,27 +176,27 @@ $(document).ready(function(){initNavTree('functions_c.php','');});
 : <a class="el" href="de/d21/a00006.php#a359d41a12c304f95abb33d77698bd5ba">BDD</a>
 </li>
 <li>consolePrint()
-: <a class="el" href="d1/d2b/a00018.php#aae5f7c464841d017086abe1d553da50d">Map</a>
+: <a class="el" href="dd/da2/a00019.php#aae5f7c464841d017086abe1d553da50d">Map</a>
 </li>
 <li>Contraption()
 : <a class="el" href="df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a>
 </li>
 <li>convert()
-: <a class="el" href="d5/d79/a00030.php#af12b139007643a568e1a3f752ae2e00e">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#af12b139007643a568e1a3f752ae2e00e">Tree&lt; T &gt;</a>
 </li>
 <li>create()
-: <a class="el" href="d5/d79/a00030.php#aca4c083d24c0153f1cabd528bc174f7b">Tree&lt; T &gt;</a>
+: <a class="el" href="df/d61/a00031.php#aca4c083d24c0153f1cabd528bc174f7b">Tree&lt; T &gt;</a>
 </li>
 <li>crypt()
 : <a class="el" href="de/d5e/a00007.php#aace459faf00e2f62e573674489d10568">Cesar</a>
 , <a class="el" href="d2/de7/a00014.php#a76d99d39d43cf53d9b18a00bec7a8132">Crypto</a>
-, <a class="el" href="d0/d33/a00027.php#ab84588271f2e5417d47251be249951b4">RSA</a>
+, <a class="el" href="dc/d3c/a00028.php#ab84588271f2e5417d47251be249951b4">RSA</a>
 </li>
 <li>Crypto()
 : <a class="el" href="d2/de7/a00014.php#abc5714d83e17c9961258646a94e75079">Crypto</a>
 </li>
 <li>cut()
-: <a class="el" href="df/d61/a00031.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
+: <a class="el" href="dc/d87/a00032.php#a4ea0ad75fb2add027996b1653a4751f4">Vegetal</a>
 </li>
 </ul>
 </div><!-- contents -->

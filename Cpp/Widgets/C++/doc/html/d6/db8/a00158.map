@@ -1,4 +1,4 @@
-<map id="Vegetal" name="Vegetal">
-<area shape="rect" id="node2" href="$dd/d1b/a00015.php" title="An entity. " alt="" coords="22,80,78,107"/>
-<area shape="rect" id="node3" href="$df/d86/a00012.php" title="A contraption. " alt="" coords="5,5,95,32"/>
+<map id="Timer" name="Timer">
+<area shape="rect" id="node2" href="$d5/d16/a00029.php" title="Threadable\&lt; Timer \&gt;" alt="" coords="5,95,148,121"/>
+<area shape="rect" id="node3" href="$d5/d16/a00029.php" title="A class to let another one to be threadable with update() member in a thread. " alt="" coords="17,5,137,32"/>
 </map>

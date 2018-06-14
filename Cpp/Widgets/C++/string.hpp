@@ -109,4 +109,11 @@ size_t count(std::string text, char c);
 */
 std::vector<std::vector<std::string>> getall(std::string str_regex, std::string str);
 
+/*!
+* \brief	Replace all the accents of a string
+*		\param[in]			str				The string in which to replace
+*		\return				Return the string without any accents
+*/
+std::string removeAccents(std::string str);
+
 #endif //HEADER_STRING

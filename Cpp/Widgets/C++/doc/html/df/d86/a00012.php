@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
-<a href="../../d8/d87/a00118.php">List of all members</a>  </div>
+<a href="../../df/d6a/a00119.php">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Contraption Class Reference</div>  </div>
 </div><!--header-->
@@ -120,31 +120,31 @@ $(document).ready(function(){initNavTree('df/d86/a00012.php','../../');});
 <p>A contraption.  
  <a href="../../df/d86/a00012.php#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Contraption:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d6a/a00119.png" border="0" usemap="#Contraption_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../d4/d98/a00120.png" border="0" usemap="#Contraption_inherit__map" alt="Inheritance graph"/></div>
 <map name="Contraption_inherit__map" id="Contraption_inherit__map">
 <area shape="rect" id="node2" href="../../dd/d1b/a00015.php" title="An entity. " alt="" coords="53,80,109,107"/>
-<area shape="rect" id="node8" href="../../de/d11/a00021.php" title="An object. " alt="" coords="133,80,193,107"/>
+<area shape="rect" id="node8" href="../../d7/de0/a00022.php" title="An object. " alt="" coords="133,80,193,107"/>
 <area shape="rect" id="node3" href="../../d1/d7c/a00003.php" title="An animal. " alt="" coords="5,155,68,181"/>
-<area shape="rect" id="node5" href="../../df/d61/a00031.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
+<area shape="rect" id="node5" href="../../dc/d87/a00032.php" title="A vegetal. " alt="" coords="93,155,159,181"/>
 <area shape="rect" id="node4" href="../../d0/d0b/a00004.php" title="An ant. " alt="" coords="15,229,58,256"/>
-<area shape="rect" id="node6" href="../../dd/da2/a00019.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
-<area shape="rect" id="node7" href="../../d7/de0/a00022.php" title="A plant. " alt="" coords="191,229,243,256"/>
+<area shape="rect" id="node6" href="../../db/db2/a00020.php" title="A mushroom. " alt="" coords="83,229,166,256"/>
+<area shape="rect" id="node7" href="../../d3/d52/a00023.php" title="A plant. " alt="" coords="191,229,243,256"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.php">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac80a221d48732cc349d5ccef1e4ad319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map=nullptr, <a class="el" href="../../dc/de2/a00024.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
+<tr class="memitem:ac80a221d48732cc349d5ccef1e4ad319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ac80a221d48732cc349d5ccef1e4ad319">Contraption</a> (<a class="el" href="../../dd/da2/a00019.php">Map</a> *map=nullptr, <a class="el" href="../../d3/dfe/a00025.php">Point</a> pt={0, 0, 0}, <a class="el" href="../../d7/dd4/a00013.php">ContraptionAttr</a> attr={0, 0, 0})</td></tr>
 <tr class="memdesc:ac80a221d48732cc349d5ccef1e4ad319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the class.  <a href="#ac80a221d48732cc349d5ccef1e4ad319">More...</a><br /></td></tr>
 <tr class="separator:ac80a221d48732cc349d5ccef1e4ad319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdea93e7835722a3b211ba2b8dd1463"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#acfdea93e7835722a3b211ba2b8dd1463">~Contraption</a> ()</td></tr>
 <tr class="memdesc:acfdea93e7835722a3b211ba2b8dd1463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#acfdea93e7835722a3b211ba2b8dd1463">More...</a><br /></td></tr>
 <tr class="separator:acfdea93e7835722a3b211ba2b8dd1463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05facc668dcb27c1bab72118aa5bafe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">setPosition</a> (<a class="el" href="../../dc/de2/a00024.php">Point</a> pt)</td></tr>
+<tr class="memitem:a05facc668dcb27c1bab72118aa5bafe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a05facc668dcb27c1bab72118aa5bafe7">setPosition</a> (<a class="el" href="../../d3/dfe/a00025.php">Point</a> pt)</td></tr>
 <tr class="memdesc:a05facc668dcb27c1bab72118aa5bafe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position.  <a href="#a05facc668dcb27c1bab72118aa5bafe7">More...</a><br /></td></tr>
 <tr class="separator:a05facc668dcb27c1bab72118aa5bafe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a144577a5b80062834989f99a96b6c89c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a144577a5b80062834989f99a96b6c89c">setPosition</a> (double x, double y, double z=0)</td></tr>
@@ -174,13 +174,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1482208cab08d738341ab2265b37deb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ad1482208cab08d738341ab2265b37deb">setA</a> (double angle)</td></tr>
 <tr class="memdesc:ad1482208cab08d738341ab2265b37deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle.  <a href="#ad1482208cab08d738341ab2265b37deb">More...</a><br /></td></tr>
 <tr class="separator:ad1482208cab08d738341ab2265b37deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d88e87317d6f003471fcf52808a4a25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">setMap</a> (<a class="el" href="../../d1/d2b/a00018.php">Map</a> *map)</td></tr>
+<tr class="memitem:a0d88e87317d6f003471fcf52808a4a25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a0d88e87317d6f003471fcf52808a4a25">setMap</a> (<a class="el" href="../../dd/da2/a00019.php">Map</a> *map)</td></tr>
 <tr class="memdesc:a0d88e87317d6f003471fcf52808a4a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the map.  <a href="#a0d88e87317d6f003471fcf52808a4a25">More...</a><br /></td></tr>
 <tr class="separator:a0d88e87317d6f003471fcf52808a4a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9131d3133c67c22f8692d4bd806187e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#ae9131d3133c67c22f8692d4bd806187e">setLevel</a> (size_t level)</td></tr>
 <tr class="memdesc:ae9131d3133c67c22f8692d4bd806187e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the level.  <a href="#ae9131d3133c67c22f8692d4bd806187e">More...</a><br /></td></tr>
 <tr class="separator:ae9131d3133c67c22f8692d4bd806187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc9cc2cd7e06c45e4c0edf96f405bae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de2/a00024.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">getPosition</a> () const </td></tr>
+<tr class="memitem:abc9cc2cd7e06c45e4c0edf96f405bae2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/a00025.php">Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#abc9cc2cd7e06c45e4c0edf96f405bae2">getPosition</a> () const </td></tr>
 <tr class="separator:abc9cc2cd7e06c45e4c0edf96f405bae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eddeb512a0133271555e8f1ef888dc3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a8eddeb512a0133271555e8f1ef888dc3">getX</a> () const </td></tr>
 <tr class="separator:a8eddeb512a0133271555e8f1ef888dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,7 +196,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa468a3b0582bb0e073f2f642611c10f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08d8bb97ba4e9b6238f5a80af9800579"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a08d8bb97ba4e9b6238f5a80af9800579">getA</a> () const </td></tr>
 <tr class="separator:a08d8bb97ba4e9b6238f5a80af9800579"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca9a1e5aff93640d295576af62b7202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d2b/a00018.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">getMap</a> () const </td></tr>
+<tr class="memitem:a3ca9a1e5aff93640d295576af62b7202"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/da2/a00019.php">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3ca9a1e5aff93640d295576af62b7202">getMap</a> () const </td></tr>
 <tr class="separator:a3ca9a1e5aff93640d295576af62b7202"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6d4a5f2d520dfa5e58afe5b421a126"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d86/a00012.php#a3b6d4a5f2d520dfa5e58afe5b421a126">getLevel</a> () const </td></tr>
 <tr class="separator:a3b6d4a5f2d520dfa5e58afe5b421a126"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +225,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A contraption. </p>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00020">20</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00020">20</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac80a221d48732cc349d5ccef1e4ad319"></a>
 <div class="memitem">
@@ -234,13 +234,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">Contraption::Contraption </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d2b/a00018.php">Map</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php">Map</a> *&#160;</td>
           <td class="paramname"><em>map</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/de2/a00024.php">Point</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dfe/a00025.php">Point</a>&#160;</td>
           <td class="paramname"><em>pt</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
         </tr>
         <tr>
@@ -360,7 +360,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the angle </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00147">147</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00147">147</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -386,7 +386,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the attributes </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00140">140</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00140">140</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -412,7 +412,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the height </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00145">145</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00145">145</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the level </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00153">153</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00153">153</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -462,7 +462,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d2b/a00018.php">Map</a>* Contraption::getMap </td>
+          <td class="memname"><a class="el" href="../../dd/da2/a00019.php">Map</a>* Contraption::getMap </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -476,7 +476,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the map </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00150">150</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00150">150</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -488,7 +488,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/de2/a00024.php">Point</a> Contraption::getPosition </td>
+          <td class="memname"><a class="el" href="../../d3/dfe/a00025.php">Point</a> Contraption::getPosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -502,7 +502,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00130">130</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00130">130</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -563,7 +563,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the width </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00143">143</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00143">143</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -589,7 +589,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the X position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00133">133</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00133">133</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the Y position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00135">135</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00135">135</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -641,7 +641,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Return the Z position </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00137">137</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00137">137</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Reimplemented in <a class="el" href="../../d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>, <a class="el" href="../../dd/d1b/a00015.php#a20e050d3112f769d9a911e1b52f2ac77">Entity</a>, <a class="el" href="../../d0/d0b/a00004.php#a199ef1722ee48997bc56b183f3c2e417">Ant</a>, <a class="el" href="../../dd/da2/a00019.php#a1467b6e6e2b41e3e3790f7e2b8e28b6d">Mushroom</a>, <a class="el" href="../../de/d11/a00021.php#a4afb4bd99645b9bfd1c95fcb93f3077b">Object</a>, <a class="el" href="../../d7/de0/a00022.php#a2ee3b0d4379f9969d620b7f0bc3a277f">Plant</a>, and <a class="el" href="../../df/d61/a00031.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d1/d7c/a00003.php#aadcff88a99d15e3420b1a06401879bf7">Animal</a>, <a class="el" href="../../dd/d1b/a00015.php#a20e050d3112f769d9a911e1b52f2ac77">Entity</a>, <a class="el" href="../../d0/d0b/a00004.php#a199ef1722ee48997bc56b183f3c2e417">Ant</a>, <a class="el" href="../../db/db2/a00020.php#a1467b6e6e2b41e3e3790f7e2b8e28b6d">Mushroom</a>, <a class="el" href="../../d7/de0/a00022.php#a4afb4bd99645b9bfd1c95fcb93f3077b">Object</a>, <a class="el" href="../../d3/d52/a00023.php#a2ee3b0d4379f9969d620b7f0bc3a277f">Plant</a>, and <a class="el" href="../../dc/d87/a00032.php#ac3ac9ca3d977facf17953da4c853f37f">Vegetal</a>.</p>
 
 </div>
 </div>
@@ -711,7 +711,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00110">110</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00110">110</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -746,7 +746,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00079">79</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00079">79</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -831,7 +831,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00103">103</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00103">103</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00126">126</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00126">126</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -880,7 +880,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void Contraption::setMap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d2b/a00018.php">Map</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/da2/a00019.php">Map</a> *&#160;</td>
           <td class="paramname"><em>map</em></td><td>)</td>
           <td></td>
         </tr>
@@ -901,7 +901,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00118">118</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00118">118</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -915,7 +915,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void Contraption::setPosition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/de2/a00024.php">Point</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d3/dfe/a00025.php">Point</a>&#160;</td>
           <td class="paramname"><em>pt</em></td><td>)</td>
           <td></td>
         </tr>
@@ -936,7 +936,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00040">40</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00040">40</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1025,7 +1025,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00096">96</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00096">96</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1110,7 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00071">71</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00071">71</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 </div>
 </div>
@@ -1138,7 +1138,7 @@ Here is the call graph for this function:</div>
 <p>Turn the <a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a> to the left. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00191">191</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00191">191</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1177,7 +1177,7 @@ Here is the call graph for this function:</div>
 <p>Turn the <a class="el" href="../../df/d86/a00012.php" title="A contraption. ">Contraption</a> to the right. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/db6/a00042_source.php#l00196">196</a> of file <a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d42/a00043_source.php#l00196">196</a> of file <a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1231,7 +1231,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d5/db6/a00042_source.php">Contraption.hpp</a></li>
+<li><a class="el" href="../../d6/d42/a00043_source.php">Contraption.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

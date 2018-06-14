@@ -150,19 +150,19 @@ $(document).ready(function(){initNavTree('functions_m.php','');});
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>m_start
 : <a class="el" href="d4/dee/a00008.php#ad482076b35f14f806f688e956245483a">Clock</a>
-, <a class="el" href="d5/d16/a00029.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
+, <a class="el" href="d5/d79/a00030.php#a8fb741bf0ac74d067fcfcfafb2c8ab61">Timer</a>
 </li>
 <li>Map()
-: <a class="el" href="d1/d2b/a00018.php#a5c9015eea1519003e305315fc6933968">Map</a>
+: <a class="el" href="dd/da2/a00019.php#a5c9015eea1519003e305315fc6933968">Map</a>
 </li>
 <li>move()
 : <a class="el" href="d1/d7c/a00003.php#a6e209ff2a9d0bf3a73d10baabadcb3b9">Animal</a>
 </li>
 <li>Mushroom()
-: <a class="el" href="dd/da2/a00019.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
+: <a class="el" href="db/db2/a00020.php#af342d4cc5549b53b43735e68f7d7ceed">Mushroom</a>
 </li>
 <li>mutex
-: <a class="el" href="dc/d3c/a00028.php#a1fb118abc832fb483fb82f8d9d87521f">Threadable&lt; C &gt;</a>
+: <a class="el" href="d5/d16/a00029.php#a1fb118abc832fb483fb82f8d9d87521f">Threadable&lt; C &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

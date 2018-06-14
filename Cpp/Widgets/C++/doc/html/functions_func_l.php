@@ -148,17 +148,17 @@ $(document).ready(function(){initNavTree('functions_func_l.php','');});
 : <a class="el" href="de/d21/a00006.php#a9a035bbfa977617239704b3d33c4c5ac">BDD</a>
 </li>
 <li>launch()
-: <a class="el" href="dc/d3c/a00028.php#a0b5b43b02f693cdde338ef942675234a">Threadable&lt; C &gt;</a>
-, <a class="el" href="d5/d16/a00029.php#aa78ce396b7f7e652bbe363637d6ff05c">Timer</a>
+: <a class="el" href="d5/d16/a00029.php#a0b5b43b02f693cdde338ef942675234a">Threadable&lt; C &gt;</a>
+, <a class="el" href="d5/d79/a00030.php#aa78ce396b7f7e652bbe363637d6ff05c">Timer</a>
 </li>
 <li>list()
 : <a class="el" href="de/d21/a00006.php#a624539007ee74764ba5d8f6bb0e7a354">BDD</a>
 </li>
 <li>load()
-: <a class="el" href="d1/d2b/a00018.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
+: <a class="el" href="dd/da2/a00019.php#ab16ea0fe3b1c2add481afac808b39ea4">Map</a>
 </li>
 <li>lost()
-: <a class="el" href="d3/d52/a00023.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
+: <a class="el" href="dc/de2/a00024.php#a606851799e5a0f58ea249f02751c45c1">Player&lt; PlayerParent &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
