@@ -452,7 +452,7 @@ bool BDD::exists(std::string task){
 void BDD::formatValues(std::string& values, std::string table){
 	/* Get all the arguments */
 		if(m_debug){ std::cout << "Start 1 : \"" << values << "\"" << std::endl; }
-		values = replace(values, "\\,", "|*-_");
+		values = replace(values, "\\\\,", "|*-_");
 		if(m_debug){ std::cout << "Start 2 : \"" << values << "\"" << std::endl; }
 		auto args = explode(values, ", ");
 	/*************************/
@@ -487,7 +487,7 @@ void BDD::formatValues(std::string& values, std::string table){
 void BDD::formatConditions(std::string& conditions, std::string){
 	/* Get all the arguments */
 		if(m_debug){ std::cout << "Start 1 : \"" << conditions << "\"" << std::endl; }
-		conditions = replace(conditions, "\\,", "|*-_");
+		conditions = replace(conditions, "\\\\,", "|*-_");
 		if(m_debug){ std::cout << "Start 2 : \"" << conditions << "\"" << std::endl; }
 		auto args = explode(conditions, ", ");
 	/*************************/
