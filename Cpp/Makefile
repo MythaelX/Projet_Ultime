@@ -1823,7 +1823,14 @@ string.o: Widgets/C++/string.cpp Widgets/C++/string.hpp \
 		Widgets/C++/macro.hpp \
 		Widgets/C++/convert.hpp \
 		Widgets/C++/array.hpp \
-		Widgets/C++/RNG.hpp
+		Widgets/C++/RNG.hpp \
+		Widgets/C++/errors.hpp \
+		Widgets/C++/console.hpp \
+		Widgets/C++/types.hpp \
+		Widgets/C++/files.hpp \
+		Widgets/C++/time.hpp \
+		Widgets/C++/Threadable.hpp \
+		Widgets/C++/pointers.hpp
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o string.o Widgets/C++/string.cpp
 
 time.o: Widgets/C++/time.cpp Widgets/C++/time.hpp \
