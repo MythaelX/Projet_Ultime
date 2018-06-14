@@ -102,6 +102,8 @@ function creationPartie($bdd){ //insertion d'une partie dans la bdd
     $id_question=$tabQuestions[$i]['id_question'];
     $bdd->insert("contient", "'".$id_question."','".$id_partie."'");
   }
+  echo $id_partie;
+  exit;
 }
 
 /*!

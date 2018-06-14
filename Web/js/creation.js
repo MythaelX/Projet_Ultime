@@ -41,8 +41,8 @@ function creerPartie(){
     httpErrors(400,'Veuillez cocher au moins une case dans le tableau');
   }else{
     difficulte=$('#difficulte').value;
-    ajaxRequest('POST','php/request.php/creerPartie',function(){
-      alert("Partie Crée");
+    ajaxRequest('POST','php/request.php/creerPartie',function(numPartie){
+      alert("Partie n°"+numPartie+" Crée");
       document.location="./index.php";
     }
     ,'themes='+themes+'&difficulte='+difficulte);
