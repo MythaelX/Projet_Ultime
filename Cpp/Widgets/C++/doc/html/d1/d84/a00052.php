@@ -120,13 +120,13 @@ Include dependency graph for Map.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d1e/a00087.png" border="0" usemap="#Map_8hpp" alt=""/></div>
 <map name="Map_8hpp" id="Map_8hpp">
-<area shape="rect" id="node2" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="496,80,576,107"/>
+<area shape="rect" id="node2" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="494,80,574,107"/>
 <area shape="rect" id="node3" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="308,155,400,181"/>
-<area shape="rect" id="node13" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="500,155,571,181"/>
-<area shape="rect" id="node16" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="752,155,824,181"/>
+<area shape="rect" id="node13" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="499,155,570,181"/>
+<area shape="rect" id="node16" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="736,155,808,181"/>
 <area shape="rect" id="node4" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="309,229,400,256"/>
 <area shape="rect" id="node10" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="19,229,98,256"/>
-<area shape="rect" id="node19" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="679,229,790,256"/>
+<area shape="rect" id="node19" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="663,229,774,256"/>
 <area shape="rect" id="node23" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="588,304,681,331"/>
 </map>
 </div>

@@ -29,6 +29,9 @@ Sur le serveur
 	cd "le/chemin/vers/le/dossier/du/projet/Web"
 	chmod 755 files/
 	chmod 755 files/img/
+Dans les fichiers du site
+	Dans php/bddConnect.inc
+	Changer la valeur, dans le if et dans le else de BDD_HOST pour lier à votre base de données IP:PORT
 
 CPP
 Dans le dossier Cpp, taper uniquement

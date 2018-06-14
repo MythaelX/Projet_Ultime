@@ -113,6 +113,7 @@ $(document).ready(function(){initNavTree('d7/df7/a00058.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pointers.hpp:</div>
 <div class="dyncontent">
@@ -162,7 +163,7 @@ template&lt;typename T &gt; </div>
  For a joinable thread pointer, it wait for the end of the function.<br />
  After delete, it put the pointer to <b>nullptr</b>. </p>
 
-<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00039">39</a> of file <a class="el" href="../../d7/df7/a00058_source.php">pointers.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/df7/a00058_source.php#l00040">40</a> of file <a class="el" href="../../d7/df7/a00058_source.php">pointers.hpp</a>.</p>
 
 </div>
 </div>

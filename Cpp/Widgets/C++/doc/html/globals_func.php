@@ -285,7 +285,7 @@ $(document).ready(function(){initNavTree('globals_func.php','');});
 : <a class="el" href="d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8">string.hpp</a>
 </li>
 <li>replace()
-: <a class="el" href="d4/de8/a00061.php#a925387acbdabec822115ff7e71e440a4">string.hpp</a>
+: <a class="el" href="d4/de8/a00061.php#ac246cdbda2d19cb1011203aa94cb0c4f">string.hpp</a>
 </li>
 <li>rewrite()
 : <a class="el" href="de/d8c/a00036.php#addfa691004e6d94461994bb7eccadf19">array.hpp</a>

@@ -2,18 +2,20 @@
 *
 *	\file		string.hpp
 *	\author		Mathias CABIOCH-DELALANDE
-*	\date		13 juin 2018
+*	\date		14 juin 2018
 *
 */
 #ifndef HEADER_STRING
 #define HEADER_STRING
 
 #include <locale>
+#include <regex>
 
 #include "macro.hpp"
 #include "convert.hpp"
 #include "array.hpp"
 #include "RNG.hpp"
+#include "errors.hpp"
 
 /*!
 * \brief	Explode a string in an array with the given caracter
@@ -73,14 +75,15 @@ std::string uppercase(std::string str, std::string::iterator begin, std::string:
 std::string lowercase(std::string str, std::string::iterator begin, std::string::iterator end);
 
 /*!
-* \brief	Replace something by something else in a string
+* \brief	Replace something by something else in a string using regex_replace
 *		\param[in]		str		The string to treat
 *		\param[in]		from	The string to replace
 *		\param[in]		to		The string to use to replace
+*		\param[in]		regex	\b true or \b false, \b true if \a from is a regex
 *
 *		\return			Return the changed string
 */
-std::string replace(std::string str, std::string from, std::string to);
+std::string replace(std::string str, std::string from, std::string to, bool regex = false);
 
 /*!
 * \brief	Create a random string

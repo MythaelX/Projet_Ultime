@@ -175,7 +175,7 @@ $(document).ready(function(){initNavTree('index.php','');});
 <li><a class="el" href="d4/de8/a00061.php#aabfbfab3c3f6562da02d78a54d1ca0e0" title="Delete all the too-much spaces in the given string. ">trim(std::string&amp;)</a></li>
 <li><a class="el" href="d4/de8/a00061.php#aad282b8ce93b90e54cbd1e337446f15a" title="Set the given interval to uppercase. ">uppercase(std::string, std::string::iterator, std::string::iterator)</a></li>
 <li><a class="el" href="d4/de8/a00061.php#ab6e8937516645f1cb8f4f9c6981feed5" title="Set the given interval to lowercase. ">lowercase(std::string, std::string::iterator, std::string::iterator)</a></li>
-<li><a class="el" href="d4/de8/a00061.php#a925387acbdabec822115ff7e71e440a4" title="Replace something by something else in a string. ">replace(std::string, std::string, std::string)</a></li>
+<li>replace(std::string, std::string, std::string)</li>
 <li><a class="el" href="d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8" title="Create a random string. ">randStr(size_t)</a></li>
 <li><a class="el" href="d9/d73/a00060.php#a26ed92f1897ceffb429cd8f436460a3e" title="sort a map ascendently ">sortAsc(std::map&lt;Key, Value&gt;)</a></li>
 <li><a class="el" href="d9/d73/a00060.php#a3d14862e28ea7d3bb92662b4068f5763" title="Sort a map descendently. ">sortDesc(std::map&lt;Key, Value&gt;)</a></li>

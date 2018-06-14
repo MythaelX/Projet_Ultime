@@ -122,7 +122,7 @@ Include dependency graph for Threadable.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d84/a00097.png" border="0" usemap="#Threadable_8hpp" alt=""/></div>
 <map name="Threadable_8hpp" id="Threadable_8hpp">
-<area shape="rect" id="node5" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="275,80,368,107"/>
+<area shape="rect" id="node5" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="208,80,302,107"/>
 </map>
 </div>
 </div>

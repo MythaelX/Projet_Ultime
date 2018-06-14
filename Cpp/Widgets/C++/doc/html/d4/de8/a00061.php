@@ -113,19 +113,28 @@ $(document).ready(function(){initNavTree('d4/de8/a00061.php','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;locale&gt;</code><br />
+<code>#include &lt;regex&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d79/a00051_source.php">macro.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d42/a00043_source.php">convert.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d8c/a00036_source.php">array.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d8b/a00059_source.php">RNG.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dca/a00048_source.php">errors.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for string.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/df8/a00096.png" border="0" usemap="#string_8hpp" alt=""/></div>
 <map name="string_8hpp" id="string_8hpp">
-<area shape="rect" id="node3" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="180,80,263,107"/>
-<area shape="rect" id="node4" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="287,80,377,107"/>
-<area shape="rect" id="node10" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="438,80,514,107"/>
-<area shape="rect" id="node13" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="612,80,689,107"/>
+<area shape="rect" id="node4" href="../../d2/d79/a00051.php" title="macro.hpp" alt="" coords="323,80,405,107"/>
+<area shape="rect" id="node5" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="287,229,377,256"/>
+<area shape="rect" id="node11" href="../../de/d8c/a00036.php" title="array.hpp" alt="" coords="438,229,514,256"/>
+<area shape="rect" id="node14" href="../../d3/d8b/a00059.php" title="RNG.hpp" alt="" coords="776,80,853,107"/>
+<area shape="rect" id="node16" href="../../d4/dca/a00048.php" title="errors.hpp" alt="" coords="547,80,627,107"/>
+<area shape="rect" id="node17" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="611,155,703,181"/>
+<area shape="rect" id="node20" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="538,229,609,256"/>
+<area shape="rect" id="node22" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="812,155,884,181"/>
+<area shape="rect" id="node18" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="697,229,775,256"/>
+<area shape="rect" id="node25" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="911,229,1022,256"/>
+<area shape="rect" id="node29" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="845,304,939,331"/>
 </map>
 </div>
 </div>
@@ -155,9 +164,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab6e8937516645f1cb8f4f9c6981feed5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#ab6e8937516645f1cb8f4f9c6981feed5">lowercase</a> (std::string str, std::string::iterator begin, std::string::iterator end)</td></tr>
 <tr class="memdesc:ab6e8937516645f1cb8f4f9c6981feed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the given interval to lowercase.  <a href="#ab6e8937516645f1cb8f4f9c6981feed5">More...</a><br /></td></tr>
 <tr class="separator:ab6e8937516645f1cb8f4f9c6981feed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a925387acbdabec822115ff7e71e440a4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#a925387acbdabec822115ff7e71e440a4">replace</a> (std::string str, std::string from, std::string to)</td></tr>
-<tr class="memdesc:a925387acbdabec822115ff7e71e440a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string.  <a href="#a925387acbdabec822115ff7e71e440a4">More...</a><br /></td></tr>
-<tr class="separator:a925387acbdabec822115ff7e71e440a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac246cdbda2d19cb1011203aa94cb0c4f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#ac246cdbda2d19cb1011203aa94cb0c4f">replace</a> (std::string str, std::string from, std::string to, bool regex=false)</td></tr>
+<tr class="memdesc:ac246cdbda2d19cb1011203aa94cb0c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace something by something else in a string using regex_replace.  <a href="#ac246cdbda2d19cb1011203aa94cb0c4f">More...</a><br /></td></tr>
+<tr class="separator:ac246cdbda2d19cb1011203aa94cb0c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfbfe8f3754081903836460cd2f72cb8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8">randStr</a> (size_t nb)</td></tr>
 <tr class="memdesc:abfbfe8f3754081903836460cd2f72cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a random string.  <a href="#abfbfe8f3754081903836460cd2f72cb8">More...</a><br /></td></tr>
 <tr class="separator:abfbfe8f3754081903836460cd2f72cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,7 +176,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Mathias CABIOCH-DELALANDE </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>13 juin 2018 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>14 juin 2018 </dd></dl>
 
 <p>Definition in file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -233,7 +242,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>Alias for <b>split</b>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00045">45</a> of file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/de8/a00061_source.php#l00047">47</a> of file <a class="el" href="../../d4/de8/a00061_source.php">string.hpp</a>.</p>
 
 </div>
 </div>
@@ -305,7 +314,7 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a925387acbdabec822115ff7e71e440a4"></a>
+<a class="anchor" id="ac246cdbda2d19cb1011203aa94cb0c4f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -325,7 +334,13 @@ template&lt;typename... Args&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>to</em>&#160;</td>
+          <td class="paramname"><em>to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>regex</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -335,12 +350,13 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Replace something by something else in a string. </p>
+<p>Replace something by something else in a string using regex_replace. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>The string to treat </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">from</td><td>The string to replace </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">to</td><td>The string to use to replace</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">to</td><td>The string to use to replace </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">regex</td><td><b>true</b> or <b>false</b>, <b>true</b> if <em>from</em> is a regex</td></tr>
   </table>
   </dd>
 </dl>

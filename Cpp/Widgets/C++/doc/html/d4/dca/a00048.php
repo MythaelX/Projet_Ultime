@@ -122,11 +122,11 @@ Include dependency graph for errors.hpp:</div>
 <div class="center"><img src="../../df/d5d/a00084.png" border="0" usemap="#errors_8hpp" alt=""/></div>
 <map name="errors_8hpp" id="errors_8hpp">
 <area shape="rect" id="node2" href="../../dd/d32/a00041.php" title="console.hpp" alt="" coords="308,80,400,107"/>
-<area shape="rect" id="node12" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="500,80,571,107"/>
-<area shape="rect" id="node15" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="752,80,824,107"/>
+<area shape="rect" id="node12" href="../../d2/dee/a00049.php" title="files.hpp" alt="" coords="499,80,570,107"/>
+<area shape="rect" id="node15" href="../../d1/d6f/a00063.php" title="time.hpp" alt="" coords="736,80,808,107"/>
 <area shape="rect" id="node3" href="../../d6/d42/a00043.php" title="convert.hpp" alt="" coords="309,155,400,181"/>
 <area shape="rect" id="node9" href="../../de/de1/a00065.php" title="types.hpp" alt="" coords="19,155,98,181"/>
-<area shape="rect" id="node18" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="679,155,790,181"/>
+<area shape="rect" id="node18" href="../../df/d03/a00062.php" title="Threadable.hpp" alt="" coords="663,155,774,181"/>
 <area shape="rect" id="node22" href="../../d7/df7/a00058.php" title="pointers.hpp" alt="" coords="588,229,681,256"/>
 </map>
 </div>

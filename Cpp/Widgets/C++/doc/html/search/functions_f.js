@@ -3,7 +3,7 @@ var searchData=
   ['randstr',['randStr',['../d4/de8/a00061.php#abfbfe8f3754081903836460cd2f72cb8',1,'string.hpp']]],
   ['reinit',['Reinit',['../d3/dfe/a00025.php#aae482f034556d2539b85c90cefe9da82',1,'Reinit']]],
   ['remove',['remove',['../de/d21/a00006.php#a8adcb89c3bd40c783880fa6355180655',1,'BDD']]],
-  ['replace',['replace',['../d4/de8/a00061.php#a925387acbdabec822115ff7e71e440a4',1,'string.hpp']]],
+  ['replace',['replace',['../d4/de8/a00061.php#ac246cdbda2d19cb1011203aa94cb0c4f',1,'string.hpp']]],
   ['reset',['reset',['../de/d21/a00006.php#a61fdb222ad3b05fb70a221d78da5a9c9',1,'BDD']]],
   ['restart',['restart',['../d4/dee/a00008.php#a775bf97123b58c768571868341d28b08',1,'Clock::restart()'],['../d5/d16/a00029.php#a8422d61fac8765b8789c8056bd38f2f3',1,'Timer::restart()']]],
   ['restore',['restore',['../da/d45/a00011.php#aceee1a7bd3a4ff19cd06170c15048142',1,'ConsoleCursor']]],

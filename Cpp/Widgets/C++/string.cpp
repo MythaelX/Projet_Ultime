@@ -103,8 +103,24 @@ std::string lowercase(std::string str, std::string::iterator begin, std::string:
 	return out;
 }
 
-std::string replace(std::string str, std::string from, std::string to){
-	return implode(explode(str, from), to);
+std::string replace(std::string str, std::string from, std::string to, bool regex){
+	std::regex str_regex;
+
+	if(regex){
+		try {
+			str_regex.assign(from);
+		} catch(std::regex_error& e){
+			error_log(line_number, "Regex Error", "An error occured during the replacement of " , str, "\n", e.what());
+		}
+	} else {
+		try {
+			str_regex.assign("(" + from + ")");
+		} catch(std::regex_error& e){
+			error_log(line_number, "Regex Error", "An error occured during the replacement of " , str, "\n", e.what());
+		}
+	}
+
+	return std::regex_replace(str, str_regex, to);//implode(explode(str, from), to);
 }
 
 std::string randStr(size_t nb){

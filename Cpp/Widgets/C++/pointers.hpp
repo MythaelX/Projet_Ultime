@@ -9,6 +9,7 @@
 #define HEADER_POINTERS
 
 #include <iostream>
+#include <thread>
 
 #ifndef DOXYGEN_SHOULD_SKIP_THIS
 template<typename T>
