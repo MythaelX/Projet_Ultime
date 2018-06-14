@@ -97,7 +97,7 @@ function creationPartie($bdd){ //insertion d'une partie dans la bdd
   $date=date("Y-m-d");
   $bdd->insert("partie", "NULL,'".$date."' , '0', '1', '".$difficulte."'");
   $id_partie=$bdd->getId();
-  $nbQuestions=$bdd->query("SELECT nb_questions FROM difficulte WHERE id_difficulte=1")[0]['nb_questions'];
+  $nbQuestions=$bdd->query("SELECT nb_questions FROM difficulte WHERE id_difficulte=".$difficulte."")[0]['nb_questions'];
   for ($i=0; $i <$nbQuestions; $i++) {
     $id_question=$tabQuestions[$i]['id_question'];
     $bdd->insert("contient", "'".$id_question."','".$id_partie."'");
